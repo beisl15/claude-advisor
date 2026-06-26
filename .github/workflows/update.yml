@@ -1,0 +1,62 @@
+name: Atualiza dados do dashboard
+
+on:
+  schedule:
+    - cron: "0 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fundamentos US (SEC EDGAR)
+        env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
+        run: python scripts/fetch_us.py
+        continue-on-error: true
+
+      - name: Fundamentos estrangeiras
+        run: python scripts/fetch_intl.py
+        continue-on-error: true
+
+      - name: Fundamentos Brasil (CVM)
+        run: python scripts/fetch_br.py
+        continue-on-error: true
+
+      - name: Cotacao + P/E (Yahoo)
+        run: python scripts/fetch_prices.py
+        continue-on-error: true
+
+      - name: Release de resultados (SEC 8-K)
+        env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
+        run: python scripts/fetch_transcripts.py
+        continue-on-error: true
+
+      - name: Noticias
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/fetch_news.py
+        continue-on-error: true
+
+      - name: Commit se houver mudanca
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          if git diff --cached --quiet; then
+            echo "Sem mudancas."
+          else
+            git commit -m "data: atualizacao automatica $(date -u +%Y-%m-%d)"
+            git push
+          fi
