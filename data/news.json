@@ -1,92 +1,92 @@
 {
- "asof": "03/07/2026",
+ "asof": "04/07/2026",
  "items": [
   {
    "region": "BR",
    "p": 5,
-   "tag": "PRIO3 · O&G",
-   "src": "InfoMoney",
-   "title": "PRIO, Brava, Natura, Qualicorp, Embraer e mais ações para acompanhar hoje",
-   "resumo": "",
-   "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://www.infomoney.com.br/mercados/prio-brava-natura-qualicorp-embraer-e-mais-acoes-para-acompanhar-hoje/",
-   "date": "03/07"
-  },
-  {
-   "region": "BR",
-   "p": 5,
    "tag": "PETR · PRIO",
-   "src": "Guia do Investidor",
-   "title": "PRIO (PRIO3) segue bem avaliada pelo BofA após revisão do petróleo",
+   "src": "Estadão",
+   "title": "Ibovespa hoje: C&A (CEAB3) salta 7% após balanço; Petrobras (PETR3) cai mais de 3%",
    "resumo": "",
    "prov": "Relevant to PETR · PRIO.",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaXhoeXFRRkpPSDRNdmdPNlNkSEdCVTdOUzhvU2p5c0lyRmlLNktuU1ZNOVc1dXJjS3ZrYVRlLVZ2dDFSb1h5UEVQWmdZdS1DSjUxeVdaWVhTcVdyT0hkZ2ZqQk11MV9ycEcyX3BuSWwtbjQ0R3ZMUTRuVVNmUkl4cExuRlFiSUpqRXJDUml3NDlScU45cUdLczdkTk56S2xPOGlZUlBCSEI?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "BR",
-   "p": 5,
-   "tag": "PETR · PRIO",
-   "src": "Guia do Investidor",
-   "title": "Petrobras (PETR4) segue entre favoritas do BofA mesmo com corte no preço do petróleo",
-   "resumo": "",
-   "prov": "Relevant to PETR · PRIO.",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmZVbmdpcVcyM05PSWdjdHJzXy1OaHBnMVhMeG5YSldKTkZBWHAtQkhlZnp5LVFqSExpTXdDei14a2hQeWxLakdnMG82VGZ4eEU0LXM0cDdpRnc4dGF5M01XbEVnTE9ZaVZ1Xy1EWmpzdXd6VU9MR0NIQmxmMTdXZzl5d29jMEUwWm8yMmhIUjRTZGMxX18wbWdYMV9idlhOX2lIdFJDUlRSc1ZFNjZ2SFFYUzRiRkN3UEpEd3dUZzU?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "BR",
-   "p": 5,
-   "tag": "VALE",
-   "src": "financenews.com.br",
-   "title": "Mercados nesta sexta, produção da Prio e da Brava, notícia da Embraer, Vale, Bemobi e de outras companhias",
-   "resumo": "",
-   "prov": "Relevant to VALE.",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUkhmb3FPWGFYZmRQeXNfM3lyQ19DdmREWmRERjM4NGJhZUxrLWZfaXRzR2MzUmdjUm9iQXl5bno1RXZfcGhMSDdicHpyZDFjTG9rckRKdXlGbjA0QVRZalZXbndhOHlpdmFUcE1Ob05FbENNbEtSOEJEZnE0VmtSeURhMUpuVWljaWNaUlN2aVdiSjBmRDJucmtuV01pOGVwcTJuX2VNaXczZ2w0STgzMzNqSWotUVlJd0RRQWpnVGdiWUJfc0ZsQXBjQWl3ZWNsZGhXcQ?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "BR",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "Brazil Journal",
-   "title": "Uma startup brasileira quer liderar a AI contra o câncer de pele. A Nvidia aposta nisso",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://braziljournal.com/uma-startup-brasileira-quer-liderar-a-ai-contra-o-cancer-de-pele-a-nvidia-aposta-nisso/",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdUNjUDRQSTJzOEt6UGdHOWFxNFBkM096NTctZ0xGREItZ1dBa1FReWgzOVRJTnFuMWVDV0xDcnQ3b1lreDNDWHV5WmU0eHloR3h6VlNaN2tZNzlhRHVOZDhxX2VzWVA4TUdhQTZIdFFLZEVtXzIwRk16QXhvVnpEZ01EQ1JydFJ4YnlrWndXM2hFYkx2N0hWRjlDd2pzcEFOMXoyaEtFLWQwbDhYdnN5MDNONnhhTmvSAbwBQVVfeXFMTUhNYWltZ1pFeXRVQzdub2ZsNmdRTWtyRENYcnFZSHMzRE1vWUJya3VPQnFLbHhCSzhzeXp4a2ZKMVRoWGRuRkZZSmJ3ZUpwaUFVdEphOEg0dHdFYlI3cWEwdHM3QXF6bUdpM3lfYWZxZjR1UWI4cnRzY0c4bElmbWVpR0xNXzJyZ0xiM0dVMXhKMWFRb1VDZkVRcWFxdUxqQnRoWW9zbEdmbjBhaF84RDJHWjNZOVVkV05Bemo?oc=5",
+   "date": "04/07"
   },
   {
    "region": "BR",
    "p": 5,
    "tag": "SBSP · CSMG",
-   "src": "Portal Agita",
-   "title": "Audiência pública debate problemas no abastecimento de água e saneamento na região do Casa Amarela, em Betim",
+   "src": "MSN",
+   "title": "Contas de água da Sabesp terão nova categoria de desconto para famílias de baixa renda; entenda",
    "resumo": "",
    "prov": "Relevant to SBSP · CSMG.",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRVlDYXVXTklja2VoNVV4bmNTeUJmSlpBLTB3UFc4ZUlZOWxaNjVYZV9HTlJFT3NBUTJzS3c0U1pLMV9KTVg0SV8wY05xc3lIWXRGVUJUdTdodFh5ZFZOQmV2R2hKYm93MVhtTy1kQ183RVZhRUxFcTBuTlZBV0c4YklmVWk2c2R6SjlaMWJTMFlaYV9ieWRkT1hYVy1YNkgzX1JqZDdlZURCVGNndloweUNuWHpsd2JsbXAtRUV4MjZ5bWM?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "BR",
-   "p": 5,
-   "tag": "VALE",
-   "src": "Estadão",
-   "title": "Ibovespa hoje: C&A (CEAB3) salta 7% após balanço; Petrobras (PETR3) cai mais de 3%",
-   "resumo": "",
-   "prov": "Relevant to VALE.",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQdUNjUDRQSTJzOEt6UGdHOWFxNFBkM096NTctZ0xGREItZ1dBa1FReWgzOVRJTnFuMWVDV0xDcnQ3b1lreDNDWHV5WmU0eHloR3h6VlNaN2tZNzlhRHVOZDhxX2VzWVA4TUdhQTZIdFFLZEVtXzIwRk16QXhvVnpEZ01EQ1JydFJ4YnlrWndXM2hFYkx2N0hWRjlDd2pzcEFOMXoyaEtFLWQwbDhYdnN5MDNONnhhTmvSAbwBQVVfeXFMTUhNYWltZ1pFeXRVQzdub2ZsNmdRTWtyRENYcnFZSHMzRE1vWUJya3VPQnFLbHhCSzhzeXp4a2ZKMVRoWGRuRkZZSmJ3ZUpwaUFVdEphOEg0dHdFYlI3cWEwdHM3QXF6bUdpM3lfYWZxZjR1UWI4cnRzY0c4bElmbWVpR0xNXzJyZ0xiM0dVMXhKMWFRb1VDZkVRcWFxdUxqQnRoWW9zbEdmbjBhaF84RDJHWjNZOVVkV05Bemo?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMiiwNBVV95cUxPekFoNjdDTXItZ2h0Rm5jVjMzMmdWV3FyaHZFU2RZZUY3VG5lN2NCNlZNa244WGREdkI4bUxJalBCY2ItU0UxX0gtbXJxWUhuY3VtcDJIVmxrX0F4OTFFdFlSbUN2UFd0enFKR2hlcWNpNXU5eWRMaDhjdmgwZDRxRkl2QzFKTElWMk1XTGljR2M4VEZ1U1BxejBwSmRCaHpjdjgyd3NsOGphaHpWaUJrNFFZbUVBenNNeVZaenJHb2xtQjJTRnpWVzMtbjNlQ0lwWWhFd1dPaF9mSHJNTDNsaFdhcGVwTWxUSnk1SkdSY1N1QWVkSXZDNUtJRU1HSEpWZS1abFl1X0hzX0FKUjZqVS1OSEJPZG5hYWFvUHd5QlRwZnFHeGtiSzNpRjNacW93Rlppc1JaUnJTMkR1WjNvbnpYYlAwWEM2N1lSZ1FrQUZFaHVPTzRhSFA0TG8xdkFHMDBKMWIwXy1VUVBaMG9hMlpvUGRRblB6UWJPUnMxY1NVcG5Oa0FwcG5oUQ?oc=5",
+   "date": "04/07"
   },
   {
    "region": "BR",
    "p": 5,
    "tag": "PETR · PRIO",
-   "src": "EuQueroInvestir",
-   "title": "Prio amplia produção em junho e fecha trimestre com alta",
+   "src": "Finanças, Câmbio e Investimentos",
+   "title": "Antes de Petrobras (PETR4) ou Prio (PRIO3), responda uma coisa - Investing.com Brasil",
    "resumo": "",
    "prov": "Relevant to PETR · PRIO.",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVnU0VkJiQVQ1UjNVZ0Y2azE0dE9iUVdwdFhtWG04V2QwcTFHcjdXNWM4TmdFRlFMMTFycTQzT0tIczhfT08zazI4eU9iZHNGdENPUHJVUTJIdi14d25RdnFCMFg0TlRYU01hUWpNUzhfUzdGaGhaVUw1SVFCamhfeUtmTW1hZXplSlNjSTNjR3gzdV80?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLXBQQlJmNmpGS0k3U1pBdG9KNkZyTGprY2xJWjhXLWJEb3dYVHl0QjRQc05sVmdIdGk5SFNWWkdHX2w5ZTBRUXlZMkIwZU5iSUI5WHZ3dVNQVF9RZUdxMWdhNUVQVzNiQjFVTnZBcVV2dVZkUC1BOHlhM0hQRm9QRWs5NFpYYm5hX1Y1LXYtQUxpcGVJZUYwOEZ4T1BINXFsMktB?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "BR",
+   "p": 5,
+   "tag": "PETR · PRIO",
+   "src": "TVUAI",
+   "title": "Petrobras inaugura centro tecnológico único no mundo para pesquisas do pré-sal em Itajubá",
+   "resumo": "",
+   "prov": "Relevant to PETR · PRIO.",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTDZaTDI4YndVZFQ3THd5RFp5eVlIVjc0U0p6X2NwM0tEd2NrYmVYcUdQaTZpdEp6bkhTZU9OZ09qS3JKd0lXZklqMnRjVnRjdU90SE1zOTUtOGYxNXhLd0wyOW5hSEhrb2VMNHBMaVpZT3N0MHNoRktxSFh6YmFEd3FGdEIxZXpBU0ptd3lBVHZ3UGtqQ05UV0QzbmtUMjN0Yl9VMnVHeHFxTk5KMTJwVklyMVk1TkhmWFdpZ1cwYw?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "BR",
+   "p": 5,
+   "tag": "PETR · PRIO",
+   "src": "Estratégia Concursos",
+   "title": "Vai ter concurso da Petrobras em 2026 de nível médio não embarcado?",
+   "resumo": "",
+   "prov": "Relevant to PETR · PRIO.",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdmpPWXJzMS1KLW5Nci1EWks1UnhjRmwxM3ZoMFljcktOOG1OY3dUX0w1dkg3UnpWMWpsNExCWUNVLV91Vmp4akx6WnBhOWFKeHppdHE1QW0zQkRyNWtrZGkxZkZpTDlqSlJQWFJQcUFYN2FQMUJMZnowektvOTRDQjRMeS1aazTSAYwBQVVfeXFMT1BBb05ianIxejZhQUdrR0Q1eWZCWUdmbGsxdFhnakFiQTdtTkhBcVpndHFJaDd3bGNSSEZBbm5JOVhWcmloQkRZRlVTcmd5c2F2amdadU9mUEVGSUZhV05FODNVb1BmeDE0SG9fZ0lPSXJuZHJXM3dQMmhTQ3lHS0xGOTJtaWt3OEViR1A?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "BR",
+   "p": 5,
+   "tag": "PETR · PRIO",
+   "src": "Migalhas",
+   "title": "Transpetro pagará multa de R$ 600 mil por derramamento de petróleo no rio Cubatão",
+   "resumo": "",
+   "prov": "Relevant to PETR · PRIO.",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcVljTmFpRURDQ1kwa2FZT2hfUHVUN1RyNjg4alFyWThuT1dJV2R0ejY3cVVFOERzTHpmY3BDa09uUW43dzhBbE41NzBYZENsTWdwMnZDRlBMTVhUV2QxN0dSVDFVb2lyXzFVeWRKc195RFhwRDVXYmdzYVJzdHhsQ3FoWk0yaUhQVnQxR1FfZ2EySndaQUlpSTNNVUZNRTZYNGRNbHpNOUM4MWFZMnI0ckVGc3NUbXlvenk1ZHBZUFNkZw?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "BR",
+   "p": 5,
+   "tag": "SBSP · CSMG",
+   "src": "Betim Online",
+   "title": "Enquete: Como você avalia a qualidade do serviço da Copasa no seu bairro?",
+   "resumo": "",
+   "prov": "Relevant to SBSP · CSMG.",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ1JWeFJPdXdRR0Zta3NqQVVyZXEwZTJhQjZ4eDF3blhmeE84VjBMUG5xNjZnUENrRzhaNU5xQ0F3NFJHNUZHbmljb0s5cnhsMWJXd0xSOWVzSVo3S0ZjZFFaOVo4Rlhhazk2NFFwMWlyZ3dUbXBvbHduX2hiSS1QOWtiWUJvWEQyM0NpVzZqVlBuUHBFR1lvNVJDeXdNbDN6MHpqWGpTLXFBb0RRMEJONmRQUGVSSk5FRkE?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "BR",
+   "p": 5,
+   "tag": "PETR · PRIO",
+   "src": "Estadão",
+   "title": "BofA eleva recomendação da Petrobras (PETR3) para compra; confira o novo preço-alvo",
+   "resumo": "",
+   "prov": "Relevant to PETR · PRIO.",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNVTdGWDRTcDRHZmJjVS13MG12ZmlnbkE5VDBXaXRNR3h6N0k5RUFaNW1uMnNra2ZBb0RWY3lRWlVYT0ZXUmk4WW8tYzdPeW5id0FCbjJFZjM5ZDVKNnlWT0hoY0JfNmZpNDJkNEVxWTdBSW5ySVdINXg3enFXMFl5X1MtS3RydGxYNlZmLWtOVDBjYWdLLXlpd2RvQXFmaGxVLU85ZG5OOExVRTB0cDNrLTk5bU9hcHZnZWRDZFozRdIBxAFBVV95cUxQbEtLdHhsd1dkQ1lQZjdMc05oMnktZWl5ZXhPZkZCelJkenRraV95SVhjcHZ4TDF6elg2QnJzMldmN3ppTmFvdU16S3ExODlsazdvSk5uSmpJeDhwb093a21WOG1xRTV5Tmhabm1tNk5hNXh1akVXOVRNNTBmZS1IZ3hTOEpkTHp6VGdwOWZsWGRteTZDcWhYU2s4ODBublpwSE9tZkNKLVVEX1dPM2N0QW1IRnJWdS1HT2lYVThITWRzUWo5?oc=5",
    "date": "03/07"
   },
   {
@@ -94,176 +94,176 @@
    "p": 5,
    "tag": "NVDA",
    "src": "MarketBeat",
-   "title": "Wesbanco Bank Inc. Increases Stock Position in NVIDIA Corporation $NVDA",
+   "title": "NVIDIA Corporation $NVDA is Venturi Wealth Management LLC's 7th Largest Position",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOUQ3Z0M3N0dlVVp5ZUE3aThoNG5QekZRVVJNVzdXYTVnRk5ZUVVPT3l6YmZlSXBJRW5jWTlIZ3kzV0ZsWi1VNTE0TUlvRjBzZGRxTE9sSFF2RU5vajJoQWxkTHdHdUxqZnlPWEdSckZucTlnaGU3TGp1dDBTLUw4MVR1ZzkyU05VVUdIaElwb0J4Z3JHWVJHNS1EUUQ2R3Y4dnJXS25PcmZoYjExU3FhS3lmUXB2cmk0SFU3bkR5WnVWWFNjWjJIa3R3?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeElCcFZfY3FlenFRX2lhOFRDbzI5TTkyanpDSFpVLVg2aHR4bTM0M29pUmhRMEktdjFHSEd3NDN4WV80dUpNVXpXNzFhb1B4R29xdm1qYm9WVXVXUGRXdzNrLVZLMmxYcF9PTktXLXZXN01ZNnR4ZmlRbE52aTFiaUt2ME1tNkFlOC03Z1NLZHZnSjRkMzRJSUhyTFAyRmN2dFpMRE11Y0hIeHdZdElEOXRCdzJOVkcybHYwVTZ4LW9WbXhKaEFpWm1hNGNTSTZXWndJV0pn?oc=5",
+   "date": "04/07"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
    "src": "MarketBeat",
-   "title": "Waterway Wealth Management LLC Acquires 11,225 Shares of NVIDIA Corporation $NVDA",
+   "title": "NVIDIA Corporation $NVDA Stock Position Raised by Pinnacle Wealth Management Advisory Group LLC",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbE91cGNkUmNtQzNFZHJ1a0lpcUo3VFhoM1FSNHlIS044M0Rya182RmRoejJPZ3ZfbXdwNTdCZ2I4YjEycEFNTHM1QXhiaWRTQ0JLMXRpMDF0OVJodlB6b29iRWtmOHBZbG5XZzlnNW9sZjVsYlFnc2J6bEptU24tTjlOdEp2X0NOektQOE9hSFNkaE85Rk1lS3BlTmhZN1Z3ZkxxMTBxcF9aNGY0ZEVmR2VybHdUb0Z1dzhwNlRvTXRsOHJWdGR5eUNLb0lGUjBETzJqMWQwcw?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNbjJjYWY1UE8yVTlFdUFPWWZGNndFc01kaWlTOGdiRUVFeGs2OFlMaEVZZzBEcFNScWVGZ3JZTUdLWmZ2bDRoaVYxLUVoLWdGaGs3cG9yNmMwYnFTZWh5QTZxalpYdXJzZHg3Mmw2SFJwMWpqM0tuc2RDcWhyRWd6cjhacERERkZ4S2F1dkxzRmZYelZrQkFpUEFBNnBlYTV1akthdERYRzNPTEVDMEFDWnVkcmFZQVgwZEY0ZUpNb0NEVFpOeGlvcVlZakxPN2NzWlF1Zndqd3ZMQmFrOWNLbGc2YmhLd3ZDR05F?oc=5",
+   "date": "04/07"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
    "src": "MarketBeat",
-   "title": "Unique Wealth LLC Reduces Stake in NVIDIA Corporation $NVDA",
+   "title": "NVIDIA Corporation $NVDA is Lewis Asset Management LLC's Largest Position",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalNhQmpwTTdPQlB1eHpvVTc3SC05N3JGYi1Wb1lpMXhETUJ2Ym42NnE2R25mQjFMb2lCR1F1eXdqYlREX3VIVVhWQnFCSFR0bmpWWXpKQkUzQ3pLTkJ3VWl1VHlqWldvMGN6M3RRWWVidEthYnctR2ZBYm51ZUtBaTVVTlBFRnlLd0dGVHBDZGRWYXBpWmN4cVNTVFZYZmIxLXliV1RMWnFDMnBiYXJKRjBmNHFlazllWnVJ?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "The Globe and Mail",
-   "title": "Nvidia Believes Artificial Intelligence (AI) Capex Will Reach $3 Trillion to $4 Trillion by 2030. Here's Where Its Stock Price Could Go If It's Right.",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNS1VoWnN6Y1h1Wm1ySXcwZGpoUW5NMkFnSFo1ZVduTFNlNHNHdzdzelIxYXRpeDRFRURvT28xSlJENVBEV0JhOVJ6RFhtcGdEd2pCc0pHNXdFckFoWUdta05TT1NRN1d2UWtfM1pXV2FVTENVTHFzVVhDR2xOc3NLTnJlSDhhc0k4MG1sdkMtWW8zUW1DZHFXRGZyeEkwUnQ1XzBaNTQ0bXA0blU2WEM0QWJrNmpMRzRUdHczQUs4bUlYRzFfMGVVdFJUTzBrc2hIbVpMbW9faC1qQV9ZWnBONG15ekVQdHRINVpqOThvSzZSQkFqVUwxeEVIcDBNVGhXYWNQZ1dtbkhKSXQzbEM1M2J5anJhTG5HS2JHcW5BaUxsdVM5bjZDdHRvZXliQnVVRy1VZC1XS2FUUTlJTnFtLU1NclAxUQ?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "TechStock²",
-   "title": "NVIDIA (NASDAQ:NVDA) holds as 210,000-GPU cloud move set for July milestone",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGdNVmdBX011Z2tsR0xNMUU1Rk9sSkdod21lLTlfank3a252SDhsS0JGaDNtQS1ETVRKb0NFeUpkbHE2Z3NYaXpQMGVEU1dFNmRtZ1ZIU1ZWMnR4UkhoZ19DV3pOeUNHOTVBSVo5VVhOQkM5WkFVdTNPU2t6VlJ3QTByX1h6X1FUc3Jnck5wdjhXYVdrdlB3?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOeXd4NU1iOEFMTEFEb0lZcWlIM3NzcWNjdUQySmptVThUYmhveTdkTC1aYXpFZXNDTy1hMzFZV3ZTZ0k3MmtkTHl6WnNvV21tOVlqT1dkdWZTTDlfUFNVZDl2R0tnb082NTc3QURGdldxS3lrTXB3SnZHTHpJTUowZ0xuUXlDWnpGcTYwaU5BcVdoUTNyel9NWjZtZV9OdDdkY0c3S3BPelNxV3dfWHRpMS1tT2pfOF9IZklzc1I0ckhoUXBUMEEwZ1lac2M?oc=5",
+   "date": "04/07"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
    "src": "MarketBeat",
-   "title": "NVIDIA Corporation $NVDA is SmartHarvest Portfolios LLC's Largest Position",
+   "title": "NVIDIA Corporation $NVDA Shares Purchased by Maridea Wealth Management LLC",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZXF6OVVRa2FYQ05kWnZCTXVSZ3ZhY1RneW9nSVZCWGNOd0g4eEJiSWdDc3B4RUh0V21VZTlpMlZic21YSTZ6LThsb1dMbGE0S0RGcXNxNk9DMDlTd2tiZ01QZ0hpTkJRdG1leXpEWEVDa2I3MGJ6djRBX3E3c3VnYnd5aFlfNUlMWDdTem0tZUg0SFo0RlUxR3c5c1d2dlFPRmJFRWFkS2JtUmxybEhXb25BdS04cG5mZDdyYkFxTGlabXBUN1ZyQVBsek5HZw?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQVAwY0RxQjY1QWpVcldyYjFLQW5jamhiNTdjQUs1Z0hVcWxDX1VoSUVaRjl1bGdtMjFRenFIX2JVdGJRc25VSDViQ3JMZVI5R29CSDd6czZRMzh2UFExSWlHV1pESE5mTWpQYUU4b2lEZFAzNU5wbDhyOWd0RTgwTjBKbjdnNnR3WG95dGZxYzVJWW01cWVXM0xCcG4wRS1MYnJmRGtFdmJnNERLY1BseWZsWEwyNXN0eWpGVmhxRVRsd18zMDduYUpYVWZMdzg?oc=5",
+   "date": "04/07"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
    "src": "MarketBeat",
-   "title": "NVIDIA Corporation $NVDA Shares Sold by Northeast Investment Management",
+   "title": "Crown Wealth Group LLC Raises Holdings in NVIDIA Corporation $NVDA",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV3NZMmJ3bWNGbHRkc1ExVDltYUtRRkxZVnRUZG80T20ta2VLQmVCbDVWLWVOcVQ0eTlWeWtCeTRzUE5sRVhvRUVzSDk5N2xUMFhZcThpZHZkOFZPUnZuUlZtRGxpbUlHTDNudG9KY2h1V3AtdHA1anQxOWZCeEh6NFJKbnZRSjJucTVCOHQyclkzRTQwNTR5UlFVYTdRV2Q1OG4zd0JzdTV4TUJLMXN6U0J1MUxETzBpXzlocS11QU9JbUkwOTh3ZFZPYw?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaTJXZHhUUDFuQ1NHMWh2bWFFMHk5VmtaQXV5MENJNFdYUnMtdHV4el9EaVFHUUdLOXdVRW5xbC11Z1hvWlR2di05SGRyZzJ5enNDazl6ZHh5UVA4VXZ6VlI3cXk3M2VCWi11M2JYRk16YWFzZGFXTFFJVTRLSDVnaWZzbUFuT1QxZ3d0WVNZOGhwZUdhb183Y0t0Zk90RFdCWUVpRFRlVEp6ZWxaZm1reGRTZmFldU5hWU5KeTh1SVZ3NDNt?oc=5",
+   "date": "04/07"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
    "src": "MarketBeat",
-   "title": "Maltin Wealth Management Inc. Takes $880,000 Position in NVIDIA Corporation $NVDA",
+   "title": "Ground Swell Capital LLC Invests $1.56 Million in NVIDIA Corporation $NVDA",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWnhNSTVJSEV6TUhoM3Q3ZzZkSkRjTWNRODgzZHNQRmNyWXFpakZCVDJjRDRQd1dwTlIyMld5NHBBS2xrdmxBTlk3UDBsNHdrVnhIOHB6Umw2N0FzWGZYOEY4WkNhOG5fRlgzSy01RDh6cGVFa3FUX1VIN29iRl9LQm1SaC1fNk1lN2FjQVBVYVBqV0tzNDF4QXJlRU01VF8yVFdybnQxTHNycG0weVlwNldqeVNFdmx6bUNGS0MtTmVvZ2xoS2xMWFZTUGduM0hJR1VpeQ?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTndGaEt0aVFJbk5jbklLSFN1c0hVWUVXQjBQVlVMbV9VdjctamhnVGNwcmp6dHh2RkVYUG12V3FuSGJUY0o1WTJtaFVkbGo0a2Nua2Vhb2JTUXZSa0dNQXljcThoUDZmTGxFMkpVNm55Y2xyR3hFVjdGcUQwbk5kSjdoZEFwNGxYalU5X3l4VXlvbTk0d0hhMEdIN2ZHT0U5YUlzS3hBYy1kc1NTNjdydHEyX1pyRXNNYXB2Q2xZckdvR0RHdTd3MmxvZUE?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "NVDA",
+   "src": "MarketBeat",
+   "title": "Laurel Oak Wealth Management LLC Sells 4,773 Shares of NVIDIA Corporation $NVDA",
+   "resumo": "",
+   "prov": "Relevant to NVDA.",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQT2tiSHdUVDRfNzE3bUdqd1VIS0M5anVxWW54QzJEN2NkN25XenAtOHBfMU93V3hBNEFHcTdSSTdQNGYzZEp4bHRFUTRqNTUtemhBVkJPOFJkSXB1ZXQ4Sm0zWDAwWWJkVkNsTFNvRlBUVzJhbl96ZFhNeVpJT25LblB0UDZ3OERZV1VMUTdrR0RrdGc2dzQ2TUdqY0lzck93dG9uTzJGTWVlSks5YzVvTUN5XzNaSGF0ajJSMzdYX1dSaUhvakV1MTI0T3p0enZFd2M5TQ?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "NVDA",
+   "src": "MarketBeat",
+   "title": "OLD Second National Bank of Aurora Has $18.53 Million Stock Position in NVIDIA Corporation $NVDA",
+   "resumo": "",
+   "prov": "Relevant to NVDA.",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQYzNiMG12cGNnaWhQSjlPS1dDYXZwT1BjQXFSazN5eEVsRUk0M0xIdkZ4WXpydGhjMEYwNUhEM0hlY0pMeld0dFhtUU5DMEJIYUNDaHJzLTNnV0lGTGdBV1pmNlg1OHBXbG40S2pkbnRUbjlyUklUcDRaMGlobmtMZDE5X3ktQkNEUU9ld0wyU21rQUtKMmtKU0NiMExTeTZnZjZHQUdRNVkzSTFLaVlsd2Y3WUdjdnl1TjlSaXpwa3U1SFVLenRKeHBrZU9WMkRKLU80QWNnRlphTVo5OFZqQkprWTFoZUs5eUE?oc=5",
+   "date": "04/07"
   },
   {
    "region": "WORLD",
    "p": 5,
    "tag": "PRIO3 · O&G",
-   "src": "93.3 The Drive",
-   "title": "Analysis-US oil companies see big profit jump, gird for clash over pump prices with Trump",
+   "src": "Xalqqazeti.az",
+   "title": "Azerbaijani oil price rises on global markets",
    "resumo": "",
    "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVFF0SmxkSDRqN3FBT2xUY3hHXzB5eW5XVzZ6ME0tUXRxNThVUi03MEM5Z1NENVZ5bU5ReXZvNzgzaU5wbDRFRldDYU1IZVllVHFMSXFsVjNQQkZaT25QSVc3emxoRFVFdFl6NzlzTGRCSi1uZ2hyYnZCMm51OUpsSHNxcmwtUXhReHlfZWtZNUxPSGhDemdYYnd0TUtlWmNkLS1XNl9ScHlRTk5JeDJqdjEtMUJmLUNQeFpGZ2lTUk9ocFI4UEc4?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSlJJQVU5Q281eEtDajhzVUFxX01vYm9LMnkybTVrLUZfWGgwMG83NldpMFRXVHRfZlotcloxelJuWkZlNDlLenR6czdjSFI3eUpfLXNndmNxZzRwd1hZa1dhSHBja3FqSG1SOTJyeXdWZnNNS05IRnJKSU03VDlwcFo4Rlp0Zw?oc=5",
+   "date": "04/07"
   },
   {
    "region": "WORLD",
    "p": 5,
    "tag": "PRIO3 · O&G",
-   "src": "Google News World",
-   "title": "Oil Prices Edge Higher in Global Markets - Fana News -",
+   "src": "Reuters",
+   "title": "St Petersburg region port, oil terminal hit in major Ukrainian drone attack",
    "resumo": "",
    "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdEtKbVp0ZTFvQm02enhyd0tnRTNuRUc4bVpPSjNRR0xIR2xIcjFJT19fbXRfS1RIU2szSG9Zd1lVUDJKekRBWE1xalByeXEwQlVtaUJCMnNjcWxhbnQ2ZHd6Y3dkb1pGNzZkaERFVUJKYjNmMHdVdEVWcU15TExJa21uUE0?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdG5OWkQ3QVl5emhaZDcyRE9PNU5mSF93SVk5RmU0ME4tNjYyTEVOT3RQaGR4Y3pqWnh1NVlQTm1TTFFnel95RG9UNjlTbjU0aWdkWHZjV05EcnNVaTVLVDdHRzF6TGxGQkYxTVk5R0htcll0T3FJT3pKSFVxcGthc0VTdlg3TkdWWDdkZ0JONGVCbk9Yd3d2RzBPcnRoVEJCc3BNRUFJSXpzSDJLeVZlZnl1TUdsOVI2WkY4ZA?oc=5",
+   "date": "04/07"
   },
   {
    "region": "WORLD",
    "p": 5,
    "tag": "PRIO3 · O&G",
-   "src": "The Eastern Herald",
-   "title": "UAE Oil Exports Near 2017 Highs as OPEC Exit and Postwar Rebound Test Global Markets",
+   "src": "Content Media Solution",
+   "title": "Nifty, Sensex Register Strong Weekly Gains Amid Easing Crude Oil Prices",
    "resumo": "",
    "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNV0FfY1UwbHpOT2hMYVp1QlJzcHNNei1SR1FnODcwX0VqRmdqUUNVdTNVal9MTVI3cFZhVk9ZempjdEJXNUoxTklkbzkzcHdHXzlha21qenlMWEdMYk4xY25TWXVsSnpab2RXck1vSjIta2F2cURnXy03bVFVeDl2Qmx4dHA?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYmtQQ25UWENBNlRGT2FZN3h4VjNHRWZQZ1B1QWdkQWlBTXNScllZWmVCbFBnNF9HMU9BMFhIV2N6SGlQM21XSHJBNVJDQmlsNHlJU0dPZjZKelJYQ01WWHpDUVJZOFNyOXNDS0gtOEhoYS0zbEliSk94MHJsMXNLVk9nZ0Eyei1iaC1PVkdDSDhHQjRoOFRuVC1zUXI1THlsYnpBWWNQOGlTc19ZNVk5NFZHWENvdnkx0gG4AUFVX3lxTFBia1BDblRYQ0E2VEZPYVk3eHhWM0dFZlBnUHVBZ2RBaUFNc1JyWVlaZUJsUGc0X0cxT0EwWEhXY3pIaVAzbVdIckE1UkNCaWw0eUlTR09mNkp6UlhDTVZYekNRUlk4U3I5c0NLSC04SGhhLTNsSWJKT3gwcmwxc0tWT2dnQTJ6LWJoLU9WR0NIOEdCNGg4VG5ULXNRcjVMeWxiekFZY1A4aVNzX1k1WTk0VkdYQ292eTE?oc=5",
+   "date": "04/07"
   },
   {
    "region": "WORLD",
    "p": 5,
    "tag": "PRIO3 · O&G",
-   "src": "Azərtac",
+   "src": "Investing.com",
+   "title": "Macquarie warns of ‘inflationary shock’ as US-Iran War triggers oil surge",
+   "resumo": "",
+   "prov": "Relevant to PRIO3 · O&G.",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOGRoY1ZIbDMyYXRFaVdvQ1A3MUY5a0t5WGlNelhlalQxb0E0N1NsdEFTa2NWYkE5MnlacTE1VHdIanIxcDR6eF9veUtpZXQzeXRIeFZDY1lFRHFMQkNuRVk4dDc4eUQ5Q243QWZ4Y3hyUzNsVTJTc0FPNzFiWEVLR2E2RzBVbzUwMjRGUnVJbWlaQl9nS3NkMEY3M3FvelZRMWRMRzBKS21BSWNwcTVVNGVQT1pWdGtjSnVkaVZTRQ?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "WORLD",
+   "p": 5,
+   "tag": "PRIO3 · O&G",
+   "src": "Business Today",
+   "title": "Fuel prices explained: Why oil companies are still losing ₹19 on diesel and ₹6 on petrol",
+   "resumo": "",
+   "prov": "Relevant to PRIO3 · O&G.",
+   "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPcVg2d0RxMGxTLUF4a042aXNGdWhKVnRfaTJadTRxcnZyTS1vU182M0NUdnN3SHZxeWtUY1RwOTBkdU9nWGxuSEx3SUJma3dzUDg0bGVQOERfek1odDZXbUpHUWdwUVFQS21sN3ctUXdfLTYwc2E2M3FiYzdxME5rLVFUM3BwWTBCd0NVUDdCa3d5LTNtVktMbzE1YnNySnVvUkY4RTlwZnZOSWRBLVFYdlI0b1ExUkd1dm9rSjJ3UHozS2JqZ29OVWQzSzNGNEw3SEZ1OGdfVm5XbThMbnpyZjE5a2xob0FubXRQcUMyUDXSAfYBQVVfeXFMTW1NNHZtelNoUnNSOGktMGF0R0RnNFB6QS1VWUg3MnZWU1BrRkFmZnNtMlFXa21RVDFUR2NrWHdyVHFzcWdPNTFkYXVnM0I4R3ZQeTh3eV84dW1aWDExYlVXbHdqVEl1LXVPaFh1UHJFQUp1Q1p5YTBiUDBtX1pOMUlVRXRKcFFWQWc0UGI1TFVER0UxeHY2YmtLNlRsMHhMSjFYeUpWbWhiWmVNOU1LeGFEYTVvaS1MMFMyWWZrWjA0OWFybUhXTGxHUllvdXV5Z0JnQ0d1R1ZUbjc5dUJQa1A1VXpsTG5JMm9aU3lFV2JKV0dnV1Nn?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "WORLD",
+   "p": 5,
+   "tag": "PRIO3 · O&G",
+   "src": "Apa.az",
+   "title": "Azerbaijan's Azeri Light crude rises by more than $1 on global market",
+   "resumo": "",
+   "prov": "Relevant to PRIO3 · O&G.",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb0RGVGlyM2lzRFMydnl4a3cxNlV6Y196QnJaUjFfMnJ3cWhfOW1ncnItWEhGTjZOLTNMTEhOaVRsbU5nVGxuRVVhallZZGd0VlRxZ1lMX1ZJVHVrcmI5LWY0LTM4cldneEdULXViVklNa3NqMVRWRWJ2eXlKeWxhRWtMeFd5YzhGdUk1S0RDbU5SZzBQTjFJZ2VkNUNIY1FGOFU0LWlIeUp3TnZlSFk1eHpn?oc=5",
+   "date": "04/07"
+  },
+  {
+   "region": "WORLD",
+   "p": 5,
+   "tag": "PRIO3 · O&G",
+   "src": "Apa.az",
    "title": "Oil prices rise in global markets",
    "resumo": "",
    "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBfeHQ0RWxOd2l0VG80dU5aSWg4OGdVdUNCZWtFY2hhcEFkYldDVHNEWFZJNWVvbkRqa1VDdWVuZ2tVMUtjaDRIZGREUTFfQ1BHOWdaR0xIMzY3N2RQdmNvMmRaWVNKME9UTWhvZmg3RnR6ZWR2S3BXNw?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTjZqZ1A5cWhPMjlxRHZSZF9qZHE4bmNFN1pfcEdCYTVMOXZWYnhoT2M3NTZpMk93N0lHRl9DemZZcXNqWXFoaE1Fc0JtMVR6cUJDRS1lLWZWb25zOXFEdWpUWjFtLXNsODBnMkJIOEt1N3VWeFRIX0pMb3FUS1dVSGt0dm4?oc=5",
+   "date": "04/07"
   },
   {
    "region": "WORLD",
    "p": 5,
    "tag": "PRIO3 · O&G",
-   "src": "Bloomberg.com",
-   "title": "Total Offers Iraqi Oil to Asian Refiners as Supply Swells",
+   "src": "The Guardian Nigeria News",
+   "title": "U.S.–Iran Ceasefire: Nigeria faces marketers’ pushback, fiscal pressure over falling oil prices",
    "resumo": "",
    "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQeHUzS2xEZ3dNU21QVVJobFl0VUEwY3JiS1VqUkFMc1haaWpBdXFydkZaQ3B3UFY4VzJ3UjdYRkFRdkJhSm55ZDhzSktuZ29ma3VqMWtlVW5xV3BoeU5QdjR1ZTRKUVpabU1Pdm9qT3AwMHZKSnZNanM4Um5VbmZfYjB6bFVZZVg3b3ZhUlV2aEZ6ZHpwT0FyN3g4MEluZjZTcmNkOVlMZU5GeWh3c2tkLXA0UVE?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "WORLD",
-   "p": 5,
-   "tag": "PRIO3 · O&G",
-   "src": "Invezz",
-   "title": "Oil prices edge higher as weak US jobs data weighs on dollar",
-   "resumo": "",
-   "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVkRnM3VobFVDM2lLRGFCcVJpcFFOYlN4dlFmYTllRFFBczM5ajUtMEZPekFJTjFYblIxR0dCQlZEdFNYVDl0N1k4R3dZaE4tMURVRkNxc20zSjRIT21HT29DejhJcUIzMDhzQ04tU2JzSzBCWnYyRGVROVlqT3hkY1hjbFp6aGRISE11cXFpWDMtWUR1eGhYbi02MWN2d1kx?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "WORLD",
-   "p": 5,
-   "tag": "PRIO3 · O&G",
-   "src": "LiteFinance",
-   "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days",
-   "resumo": "",
-   "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-   "date": "03/07"
-  },
-  {
-   "region": "WORLD",
-   "p": 5,
-   "tag": "PRIO3 · O&G",
-   "src": "Bloomberg.com",
-   "title": "Citi Says Oil May Slump to $60 as the Hormuz Shock Fades Away",
-   "resumo": "",
-   "prov": "Relevant to PRIO3 · O&G.",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSmlaRmNKazVpVFdBaWh0OTZKZXlCdy1xUjRGVHNiMTQ5a1EzT0tsSGxha2hDSHRWWjNjMUk0SDhsSUFxMVBOLU5od25vU2lyWHpCUUpORi1TZDd4V0hSN0tGOWpwR3habXoxN3pfaHpxYjZfS3pVOXAtMDRONWVLY0hzNXJqRnBjd1pEWVNsdDFmTUxjYVhvY1dsWW9pY1dEd2NBMFJVb0N0dmZWaVpmdw?oc=5",
-   "date": "03/07"
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZTUwcldRaVc1Q2RJczEzaGQ0djZ5VnJNZ2F1cUVmbzZ5OEY2cHpXaFBFdGdtVHZ4THdrS05zck9MVEp4N3JGX2VWN25VUHRKNFZWakkyVnVaeFJJRU9DdVo5NHBpTE9od2pmeTlWaFAwYnd4V0pWQ1dZQUFGR3BPTHZzNDFSTERib25rRjgwQzh4bllZTWxpOFM4Ymd6SVZzaXZoSVdfMEJnREV3OTNHbE1RLXpGZktZQXcw?oc=5",
+   "date": "04/07"
   }
  ],
  "manual": [
