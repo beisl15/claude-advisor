@@ -341,17 +341,13 @@ body.focus-mode .co-list{display:none;}
   <div class="sb-header">
     <div class="sb-brand">Research Portal</div>
     <div class="sb-title">Pedro Beisl</div>
-    <div class="sb-sub">Equity Coverage — Active Portfolio</div>
+    <div class="sb-sub">Equity Research &amp; Market Intelligence</div>
   </div>
   <div class="sb-sec">
     <div class="sb-sec-lbl">Analytics</div>
     <button class="nav-item active" onclick="goPane('news',this)">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="12" height="12" rx="1.5"/><line x1="4.5" y1="5" x2="11.5" y2="5"/><line x1="4.5" y1="7.5" x2="11.5" y2="7.5"/><line x1="4.5" y1="10" x2="8.5" y2="10"/></svg>
       <span class="nav-lbl">Market Intelligence</span>
-    </button>
-    <button class="nav-item" onclick="goPane('overview',this)">
-      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="5.5"/><path d="M8 2.5 A5.5 5.5 0 0 1 13.5 8 L8 8 Z" fill="currentColor" opacity=".4" stroke="none"/><path d="M8 8 L13.5 8 A5.5 5.5 0 0 1 5.5 13.2 Z" fill="currentColor" opacity=".2" stroke="none"/></svg>
-      <span class="nav-lbl">Portfolio Overview</span>
     </button>
     <button class="nav-item" onclick="goPane('fund',this)">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="7" cy="7" r="4"/><line x1="10.5" y1="10.5" x2="13.5" y2="13.5"/></svg>
@@ -366,12 +362,6 @@ body.focus-mode .co-list{display:none;}
       <span class="nav-lbl">Metrics</span>
     </button>
   </div>
-  <div class="sb-footer">
-    <div class="pv-label">Total AUM <span id="pv-asof" style="opacity:.6;text-transform:none;letter-spacing:0;"></span></div>
-    <div class="pv-num"><span class="pv" id="pv-total"></span></div>
-    <div class="pv-pos" id="pv-split" style="margin-bottom:4px;"></div>
-    <div class="pv-pos" id="pv-pos-el">— positions</div>
-  </div>
 </div>
 
 <!-- MAIN -->
@@ -383,10 +373,6 @@ body.focus-mode .co-list{display:none;}
       <button class="focus-btn" id="focus-btn" onclick="toggleFocus()" title="Hide side bars (focus mode)">
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="1.5" y="2.5" width="13" height="11" rx="1.5"/><line x1="6" y1="2.5" x2="6" y2="13.5"/></svg>
       </button>
-      <button class="eye-btn" id="eye-btn" onclick="togglePrivacy()" title="Hide/show portfolio values">
-        <svg id="eye-icon-open" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M1 8s2.5-5 7-5 7 5 7 5-2.5 5-7 5-7-5-7-5z"/><circle cx="8" cy="8" r="2"/></svg>
-        <svg id="eye-icon-closed" width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" style="display:none"><path d="M2 2l12 12M6.5 6.6A2 2 0 0 0 9.4 9.5M4.1 4.2C2.8 5.2 1.8 6.5 1 8c1.5 2.8 4 5 7 5a7.2 7.2 0 0 0 3.5-.9M7 3.1A7 7 0 0 1 15 8c-.5 1-1.2 2-2.1 2.8"/></svg>
-      </button>
     </div>
   </div>
 
@@ -395,11 +381,11 @@ body.focus-mode .co-list{display:none;}
     <div class="sec-hdr">
       <div>
         <div class="sec-title">Market Intelligence</div>
-        <div class="sec-sub">News from the last 24h ranked by portfolio relevance</div>
+        <div class="sec-sub">News from the last 24h ranked by coverage relevance</div>
       </div>
-      <button class="btn btn-primary" onclick="generateNews()" id="gen-btn">
-        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 1v2M7 11v2M1 7h2M11 7h2M3.05 3.05l1.42 1.42M9.54 9.54l1.41 1.41M3.05 10.95l1.42-1.42M9.54 4.46l1.41-1.41"/></svg>
-        View News
+      <button class="btn btn-primary" onclick="refreshNews(this)" id="gen-btn" title="Rebusca o news.json mais recente sem recarregar a página">
+        <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" id="gen-btn-icon"><path d="M12.5 7a5.5 5.5 0 1 1-1.6-3.9M12.5 1.5V4H10"/></svg>
+        <span id="gen-btn-label">Atualizar</span>
       </button>
     </div>
     <div class="mc-card">
@@ -422,75 +408,6 @@ body.focus-mode .co-list{display:none;}
     <div class="card" style="font-size:12px;color:var(--text-muted);line-height:1.6;">
       <strong style="color:var(--text-secondary);font-size:12px;">Coverage Universe</strong>&nbsp;&mdash;&nbsp;
       Alphabet &bull; Microsoft &bull; Meta &bull; MercadoLibre &bull; Amazon &bull; Smartfit &bull; PRIO &bull; Micron &bull; ASML &bull; BlackRock &bull; SABESP &bull; JPMorgan
-    </div>
-  </div>
-
-  <!-- OVERVIEW PANE -->
-  <div class="pane" id="pane-overview">
-    <div class="sec-hdr">
-      <div>
-        <div class="sec-title">Portfolio Overview</div>
-        <div class="sec-sub">Allocation, thesis status &amp; position summary</div>
-      </div>
-    </div>
-    <!-- Stats row -->
-    <div class="ov-stats">
-      <div class="ov-stat">
-        <div class="ov-stat-lbl">Patrimônio Total</div>
-        <div class="ov-stat-val" id="ov-aum"></div>
-        <div class="ov-stat-sub" id="ov-aum-sub"></div>
-      </div>
-      <div class="ov-stat">
-        <div class="ov-stat-lbl">Thesis Intact</div>
-        <div class="ov-stat-val" id="ov-intact" style="color:var(--positive)"></div>
-        <div class="ov-stat-sub">companies</div>
-      </div>
-      <div class="ov-stat">
-        <div class="ov-stat-lbl">Watch List</div>
-        <div class="ov-stat-val" id="ov-watch" style="color:#D97706"></div>
-        <div class="ov-stat-sub">companies</div>
-      </div>
-      <div class="ov-stat">
-        <div class="ov-stat-lbl">Thesis Broken</div>
-        <div class="ov-stat-val" id="ov-broken" style="color:var(--negative)"></div>
-        <div class="ov-stat-sub">companies</div>
-      </div>
-    </div>
-    <!-- AUM trend -->
-    <div class="ov-chart-card" style="margin-bottom:18px;">
-      <div class="ov-chart-title">AUM Evolution (R$ thousands) <span id="aum-trend-asof" style="color:var(--text-muted);font-weight:400;"></span></div>
-      <div style="height:200px;"><canvas id="chart-aum-trend"></canvas></div>
-    </div>
-    <!-- Donut charts -->
-    <div class="ov-charts">
-      <div class="ov-chart-card">
-        <div class="ov-chart-title">Sector Allocation</div>
-        <div class="ov-chart-wrap"><canvas id="chart-sector"></canvas></div>
-      </div>
-      <div class="ov-chart-card">
-        <div class="ov-chart-title">Geography Allocation</div>
-        <div class="ov-chart-wrap"><canvas id="chart-geo"></canvas></div>
-      </div>
-      <div class="ov-chart-card">
-        <div class="ov-chart-title">Position Size</div>
-        <div class="ov-chart-wrap"><canvas id="chart-pos-size"></canvas></div>
-      </div>
-    </div>
-    <!-- Position table -->
-    <div class="ov-pos-table">
-      <table style="width:100%;border-collapse:collapse;font-size:12px;">
-        <thead>
-          <tr style="background:#F9FAFB;">
-            <th style="padding:10px 14px;text-align:left;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid var(--border);">Ticker</th>
-            <th style="padding:10px 14px;text-align:left;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid var(--border);">Company</th>
-            <th style="padding:10px 14px;text-align:left;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid var(--border);">Sector</th>
-            <th style="padding:10px 14px;text-align:right;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid var(--border);">P&amp;L (R$)</th>
-            <th style="padding:10px 14px;text-align:right;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid var(--border);">Weight</th>
-            <th style="padding:10px 14px;text-align:center;font-size:10px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-muted);border-bottom:1px solid var(--border);">Thesis</th>
-          </tr>
-        </thead>
-        <tbody id="ov-table-body"></tbody>
-      </table>
     </div>
   </div>
 
@@ -602,67 +519,46 @@ body.focus-mode .co-list{display:none;}
 </div>
 
 <script>
-// ─── PORTFOLIO ─────────────────────────────────────────────────────────────────
-// AUM real — fonte: aum.xlsx (snapshots mensais). Valores em R$.
-// Atualize AUM.asOf / equity / fixedIncome / series ao registrar novo mês na planilha.
-const AUM = {
-  asOf: 'Jun 2026',
-  equity: 122010,        // book de ações (base para cálculo de peso das posições)
-  fixedIncome: 38720,    // renda fixa
-  get total() { return this.equity + this.fixedIncome; },  // R$ 160.730
-  // série histórica de patrimônio total (label curto + total em R$)
-  series: [
-    {m:"Out'25", v:136700}, {m:"Nov'25", v:146000}, {m:"Dez'25", v:160140},
-    {m:"Jan'26", v:163000}, {m:"Fev'26", v:166210}, {m:"Mar'26", v:169870},
-    {m:"Abr'26", v:153000}, {m:"Mai'26", v:153000}, {m:"Jun'26", v:160730},
-  ],
-};
-// TOTAL = base de ações usada para ponderar posições (P&L como proxy de tamanho).
-const TOTAL = AUM.equity;
+// ─── COVERAGE UNIVERSE ──────────────────────────────────────────────────────────
+// Apenas empresas acompanhadas (research). Sem dados de carteira, patrimônio ou P&L.
 const P = [
-  {t:'GOGL',n:'Alphabet (Google)',    av:'GOOGL',    s:'TECH',  g:'US',    pl:18210.00,  etf:false,short:false, exch:'NASDAQ'},
-  {t:'MSFT',n:'Microsoft',            av:'MSFT',     s:'TECH',  g:'US',    pl:18060.00,  etf:false,short:false, exch:'NASDAQ'},
-  {t:'META',n:'Meta Platforms',       av:'META',     s:'TECH',  g:'US',    pl:18040.00,  etf:false,short:false, exch:'NASDAQ'},
-  {t:'AMZN',  n:'Amazon',             av:'AMZN',     s:'TECH',  g:'US',    pl:9514.50,   etf:false,short:false, exch:'NASDAQ'},
-  {t:'MELI',n:'MercadoLibre',         av:'MELI',     s:'LATAM', g:'LATAM', pl:13776.00,  etf:false,short:false, exch:'NASDAQ'},
-  {t:'SMFT3', n:'Smartfit',             av:'SMFT3.SA', s:'BR',    g:'BR',    pl:6653.95,   etf:false,short:false, exch:'B3', ir:'https://ri.smartfit.com.br/en/financial-and-operational-information/quarterly-results'},
-  {t:'ASML',n:'ASML Holding',         av:'ASML',     s:'SEMI',  g:'EU',    pl:4011.25,   etf:false,short:false, exch:'NASDAQ'},
-  {t:'PRIO3',  n:'PRIO3',                av:'PRIO3.SA', s:'OIL',   g:'BR',    pl:6259.00,   etf:false,short:false, exch:'B3', ir:'https://ri.prio3.com.br/resultados-e-relatorios/'},
-  {t:'SBSP3', n:'SABESP',               av:'SBSP3.SA', s:'UTIL',  g:'BR',    pl:3349.29,   etf:false,short:false, exch:'B3', data_av:'SBS'},
-  {t:'JPM',   n:'JPMorgan Chase',       av:'JPM',      s:'FIN',   g:'US',    pl:3510.79,   etf:false,short:false, exch:'NYSE'},
-  {t:'BLK',   n:'BlackRock',            av:'BLK',      s:'FIN',   g:'US',    pl:3624.77,   etf:false,short:false, exch:'NYSE'},
-  {t:'MU',    n:'Micron Technology',    av:'MU',       s:'SEMI',  g:'US',    pl:4236.74,   etf:false,short:false, exch:'NASDAQ'},
-  {t:'NVDL',  n:'GraniteShares 2x NVDA',av:'NVDL',    s:'ETF',   g:'US',    pl:3325.53,   etf:true, short:false, exch:'NYSE'},
-  {t:'SPXL',  n:'Direxion 3x S&P 500', av:'SPXL',     s:'ETF',   g:'US',    pl:2887.09,   etf:true, short:false, exch:'NYSE'},
-  {t:'CQQQ',  n:'Invesco China Tech',   av:'CQQQ',     s:'ETF',   g:'CN',    pl:545.19,    etf:true, short:false, exch:'NYSE'},
-  {t:'BITX',  n:'VST 2x Bitcoin',       av:'BITX',     s:'BTC',   g:'US',    pl:377.37,    etf:true, short:false, exch:'NASDAQ'},
-  {t:'BTC',   n:'Bitcoin (iShares)',    av:'IBIT',     s:'BTC',   g:'US',    pl:0,         etf:true, short:false, exch:'NASDAQ'},
-  {t:'GRID',  n:'Smart Grid ETF',       av:'GRID',     s:'ETF',   g:'US',    pl:0,         etf:true, short:false, exch:'NASDAQ'},
+  {t:'GOGL',n:'Alphabet (Google)',    av:'GOOGL',    s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'MSFT',n:'Microsoft',            av:'MSFT',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'META',n:'Meta Platforms',       av:'META',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'AMZN',n:'Amazon',               av:'AMZN',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'MELI',n:'MercadoLibre',         av:'MELI',     s:'LATAM', g:'LATAM', etf:false, exch:'NASDAQ'},
+  {t:'SMFT3',n:'Smartfit',            av:'SMFT3.SA', s:'BR',    g:'BR',    etf:false, exch:'B3', ir:'https://ri.smartfit.com.br/en/financial-and-operational-information/quarterly-results'},
+  {t:'ASML',n:'ASML Holding',         av:'ASML',     s:'SEMI',  g:'EU',    etf:false, exch:'NASDAQ'},
+  {t:'PRIO3',n:'PRIO3',               av:'PRIO3.SA', s:'OIL',   g:'BR',    etf:false, exch:'B3', ir:'https://ri.prio3.com.br/resultados-e-relatorios/'},
+  {t:'SBSP3',n:'SABESP',              av:'SBSP3.SA', s:'UTIL',  g:'BR',    etf:false, exch:'B3', data_av:'SBS'},
+  {t:'JPM',n:'JPMorgan Chase',        av:'JPM',      s:'FIN',   g:'US',    etf:false, exch:'NYSE'},
+  {t:'BLK',n:'BlackRock',             av:'BLK',      s:'FIN',   g:'US',    etf:false, exch:'NYSE'},
+  {t:'MU',n:'Micron Technology',      av:'MU',       s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
   // ── Extended Coverage ─────────────────────────────────────────────────────
-  {t:'AAPL', n:'Apple',              av:'AAPL',     s:'TECH',  g:'US',    pl:0, etf:false,short:false, exch:'NASDAQ'},
-  {t:'NVDA', n:'Nvidia',             av:'NVDA',     s:'AI',    g:'US',    pl:0, etf:false,short:false, exch:'NASDAQ'},
-  {t:'AMD',    n:'Advanced Micro Devices', av:'AMD',  s:'SEMI',  g:'US',    pl:0, etf:false,short:false, exch:'NASDAQ'},
-  {t:'INTC',   n:'Intel',              av:'INTC',     s:'SEMI',  g:'US',    pl:0, etf:false,short:false, exch:'NASDAQ'},
-  {t:'MRVL',   n:'Marvell Technology', av:'MRVL',     s:'SEMI',  g:'US',    pl:0, etf:false,short:false, exch:'NASDAQ'},
-  {t:'AVGO', n:'Broadcom',           av:'AVGO',     s:'SEMI',  g:'US',    pl:0, etf:false,short:false, exch:'NASDAQ'},
-  {t:'TSM',  n:'TSMC',               av:'TSM',      s:'SEMI',  g:'TW',    pl:0, etf:false,short:false, exch:'NYSE'},
-  {t:'PETR3',  n:'Petrobras ON',        av:'PBR.A',    s:'OIL',   g:'BR',    pl:0, etf:false,short:false, exch:'B3'},
-  {t:'PETR4',  n:'Petrobras PN',        av:'PBR',      s:'OIL',   g:'BR',    pl:0, etf:false,short:false, exch:'B3'},
-  {t:'VALE3',  n:'Vale',               av:'VALE',     s:'MINING',g:'BR',    pl:0, etf:false,short:false, exch:'B3'},
-  {t:'ITUB4',  n:'Itaú Unibanco',        av:'ITUB',     s:'FIN',   g:'BR',    pl:0,         etf:false,short:false, exch:'B3'},
-  {t:'BPAC11', n:'BTG Pactual',        av:'BPAC11.SA',s:'FIN',   g:'BR',    pl:0, etf:false,short:false, exch:'B3', ir:'https://ri.btgpactual.com/informacoes-financeiras/resultados-e-relatorios/resultados-trimestrais'},
-  {t:'ROXO', n:'Nu Holdings',        av:'NU',       s:'FINTECH',g:'LATAM', pl:0, etf:false,short:false, exch:'NYSE'},
-  {t:'RACE',   n:'Ferrari',            av:'RACE',     s:'LUXURY',g:'EU',    pl:0, etf:false,short:false, exch:'Milan'},
+  {t:'AAPL',n:'Apple',               av:'AAPL',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'NVDA',n:'Nvidia',              av:'NVDA',     s:'AI',    g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'AMD',n:'Advanced Micro Devices',av:'AMD',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'INTC',n:'Intel',               av:'INTC',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'MRVL',n:'Marvell Technology',  av:'MRVL',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'AVGO',n:'Broadcom',            av:'AVGO',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'TSM',n:'TSMC',                 av:'TSM',      s:'SEMI',  g:'TW',    etf:false, exch:'NYSE'},
+  {t:'PETR3',n:'Petrobras ON',       av:'PBR.A',    s:'OIL',   g:'BR',    etf:false, exch:'B3'},
+  {t:'PETR4',n:'Petrobras PN',       av:'PBR',      s:'OIL',   g:'BR',    etf:false, exch:'B3'},
+  {t:'VALE3',n:'Vale',               av:'VALE',     s:'MINING',g:'BR',    etf:false, exch:'B3'},
+  {t:'ITUB4',n:'Itaú Unibanco',      av:'ITUB',     s:'FIN',   g:'BR',    etf:false, exch:'B3'},
+  {t:'BPAC11',n:'BTG Pactual',       av:'BPAC11.SA',s:'FIN',   g:'BR',    etf:false, exch:'B3', ir:'https://ri.btgpactual.com/informacoes-financeiras/resultados-e-relatorios/resultados-trimestrais'},
+  {t:'ROXO',n:'Nu Holdings',         av:'NU',       s:'FINTECH',g:'LATAM',etf:false, exch:'NYSE'},
+  {t:'RACE',n:'Ferrari',             av:'RACE',     s:'LUXURY',g:'EU',    etf:false, exch:'Milan'},
   // ── Coverage additions (Jun 2026) ─────────────────────────────────────────
-  {t:'VZ',    n:'Verizon',             av:'VZ',       s:'TELECOM',  g:'US', pl:0, etf:false,short:false, exch:'NYSE'},
-  {t:'TMUS',  n:'T-Mobile US',         av:'TMUS',     s:'TELECOM',  g:'US', pl:0, etf:false,short:false, exch:'NASDAQ'},
-  {t:'T',     n:'AT&T',               av:'T',        s:'TELECOM',  g:'US', pl:0, etf:false,short:false, exch:'NYSE'},
-  {t:'ABI',   n:'AB InBev',            av:'BUD',      s:'CONSUMER', g:'EU', pl:0, etf:false,short:false, exch:'NYSE'},
-  {t:'VIVT3', n:'Vivo (Tel. Brasil)',  av:'VIVT3.SA', s:'TELECOM',  g:'BR', pl:0, etf:false,short:false, exch:'B3', data_av:'VIV'},
-  {t:'TIMS3', n:'TIM Brasil',          av:'TIMS3.SA', s:'TELECOM',  g:'BR', pl:0, etf:false,short:false, exch:'B3', data_av:'TIMB'},
-  {t:'TOTS3', n:'TOTVS',              av:'TOTS3.SA',  s:'TECH',     g:'BR', pl:0, etf:false,short:false, exch:'B3', ir:'https://ri.totvs.com'},
-  {t:'ABEV3', n:'Ambev',              av:'ABEV3.SA',  s:'CONSUMER', g:'BR', pl:0, etf:false,short:false, exch:'B3', data_av:'ABEV'},
-  {t:'CSMG3', n:'COPASA',             av:'CSMG3.SA',  s:'UTIL',     g:'BR', pl:0, etf:false,short:false, exch:'B3', ir:'https://ri.copasa.com.br'},
+  {t:'VZ',n:'Verizon',               av:'VZ',       s:'TELECOM',  g:'US', etf:false, exch:'NYSE'},
+  {t:'TMUS',n:'T-Mobile US',         av:'TMUS',     s:'TELECOM',  g:'US', etf:false, exch:'NASDAQ'},
+  {t:'T',n:'AT&T',                   av:'T',        s:'TELECOM',  g:'US', etf:false, exch:'NYSE'},
+  {t:'ABI',n:'AB InBev',             av:'BUD',      s:'CONSUMER', g:'EU', etf:false, exch:'NYSE'},
+  {t:'VIVT3',n:'Vivo (Tel. Brasil)', av:'VIVT3.SA', s:'TELECOM',  g:'BR', etf:false, exch:'B3', data_av:'VIV'},
+  {t:'TIMS3',n:'TIM Brasil',         av:'TIMS3.SA', s:'TELECOM',  g:'BR', etf:false, exch:'B3', data_av:'TIMB'},
+  {t:'TOTS3',n:'TOTVS',              av:'TOTS3.SA',  s:'TECH',     g:'BR', etf:false, exch:'B3', ir:'https://ri.totvs.com'},
+  {t:'ABEV3',n:'Ambev',              av:'ABEV3.SA',  s:'CONSUMER', g:'BR', etf:false, exch:'B3', data_av:'ABEV'},
+  {t:'CSMG3',n:'COPASA',             av:'CSMG3.SA',  s:'UTIL',     g:'BR', etf:false, exch:'B3', ir:'https://ri.copasa.com.br'},
 ];
 
 const TRANSCRIPTS = {
@@ -1100,11 +996,6 @@ const DEEPDIVE = {
 
 // ─── ETF INSTRUMENT NOTES ───────────────────────────────────────────────────────
 const ETF_NOTES = {
-  'NVDL': "GraniteShares 2x Long NVDA Daily ETF (NVDL) is a leveraged single-stock exchange-traded product designed to deliver 2x the daily return of NVIDIA Corporation (NVDA). This is a tactical, high-conviction instrument rather than a long-term holding — daily rebalancing introduces compounding path dependency that causes multi-week returns to diverge from 2x the underlying return in volatile markets. Appropriate as a short-duration amplifier on NVIDIA when conviction is highest (e.g., into earnings, major product launches). Position sizing should reflect the amplified volatility profile: a 50% NVDA drawdown implies ~100% loss in NVDL on a multi-day basis. Monitor rolling 30-day volatility as a sizing signal.",
-  'SPXL': "Direxion Daily S&P 500 Bull 3X Shares (SPXL) delivers 3x the daily return of the S&P 500 Index. This is a systematic tactical position designed to amplify broad US large-cap equity exposure with maximum leverage efficiency. The daily rebalancing mechanism introduces volatility drag in sideways markets — SPXL underperforms 3x cumulative index returns in high-volatility, mean-reverting environments. Optimal deployment scenarios include trending bull markets with low intraday volatility. The position functions as a portfolio overlay, amplifying the aggregate US equity beta of the portfolio. Duration should be reviewed quarterly — extended multi-year holds are generally suboptimal for leveraged ETFs versus direct equity exposure.",
-  'CQQQ': "Invesco China Technology ETF (CQQQ) provides diversified exposure to Chinese technology companies listed in China and Hong Kong, including Tencent, Alibaba, JD.com, and Meituan. This is a geopolitical and valuation arbitrage position: Chinese technology trades at 40-60% discounts to US peers on comparable earnings growth metrics, reflecting perceived regulatory and ADR delisting risk. The position provides optionality on Chinese tech regulatory normalization, domestic consumption recovery, and potential RMB appreciation. Key risks: US-China technology decoupling accelerating (export controls, forced delistings), PCAOB audit access disruption, or Chinese government intervention in private sector technology companies. Position should be sized as a contrarian, long-duration option on geopolitical normalization.",
-  'BITX': "Volatility Shares 2x Bitcoin Strategy ETF (BITX) provides 2x leveraged exposure to Bitcoin through futures contracts. This is an amplified tactical position on cryptocurrency as a digital store of value and institutional adoption vector. Unlike NVDL/SPXL, Bitcoin's inherent volatility (60-80% annualized) combined with 2x leverage creates extreme daily return dispersion. The futures-based structure introduces roll cost drag that can be significant in contango markets. Appropriate as a small, high-conviction tactical allocation during Bitcoin accumulation phases or institutional adoption catalysts (ETF approvals, halving cycles). Bitcoin's correlation to risk assets in stress scenarios reduces its diversification value — this should be sized accordingly as a speculative return amplifier rather than a portfolio hedge.",
-  'BOVA11': "SHORT position via iShares Ibovespa ETF (BOVA11) / EWZ equivalent. This tactical short serves as a hedge against Brazilian macro deterioration affecting the portfolio's significant Brazil allocation (SMFT3, PRIO3, SBSP3). The short position profits if the Ibovespa underperforms relative to the portfolio's domestic holdings — effectively reducing portfolio beta to Brazilian equity market risk. Key watch points: BRL/USD exchange rate, Brazilian fiscal trajectory, Selic rate policy, and commodity price direction (iron ore, crude oil) as primary Ibovespa drivers. Position size should be calibrated to hedge the portfolio's net Brazil exposure. Rolling cost of maintaining the short position should be monitored quarterly and weighed against active macro risk.",
   'VZ': "Verizon Communications is the dominant US wireless carrier by EBITDA, with ~114 million retail postpaid connections and the nation's largest fiber broadband network (Fios). The moat rests on spectrum depth (extensive C-band ownership), owned fiber infrastructure, and high switching costs for wireless customers. The macro narrative is a mature, bond-proxy telecom transitioning from a pure-wireless story to a converged connectivity platform — fixed wireless access (FWA) is adding millions of home broadband subscribers annually, a meaningful TAM expansion. Scuttlebutt: Verizon is winning enterprise 5G private network deals and benefiting from FirstNet alternative contracts. Capital allocation is disciplined post-C-band spend: capex peaked in 2022, free cash flow recovering sharply. The ~$11B annual dividend ($2.66/share) is well-covered by ~$18B FCF at steady state. Bear case: TMUS continues taking wireless share; fixed wireless is a transitional bridge not a durable product. Bull case: FWA reaches 10M+ subs by 2028 and unlocks a superior ARPU floor. Graham safety: leverage elevated (~2.7× ND/EBITDA) but stable; investment-grade rated and FCF clearly exceeds dividends.",
   'TMUS': "T-Mobile is the most dynamic US wireless carrier — having merged with Sprint in 2020, it is executing the playbook of densifying mid-band (2.5 GHz) spectrum coverage while converting millions of Sprint defectors and greenfield home broadband customers. The moat is growing: T-Mobile now matches or exceeds Verizon and AT&T on network quality metrics (Ookla, RootMetrics) while maintaining the lowest churn in the industry. Damodaran narrative: a challenger that won — TMUS has posted the highest postpaid phone net adds in the industry for 12 consecutive quarters and is now the volume leader, not just the value carrier. Fisher scuttlebutt: Un-carrier marketing resonates; employees cite a genuine cultural advantage post-Sprint. Capital allocation: TMUS was net-debt-heavy from the Sprint deal, now deleveraging toward 2.5× target; initiated buybacks and a small dividend in 2023–24. Bull case: FCF inflection continues as capex declines post-network build; valuation re-rating toward a mature utility multiple. Bear case: carrier pricing wars compress ARPU industry-wide; satellite broadband (Starlink) disrupts rural wireless economics. Safety: solid FCF, investment-grade credit, leverage declining.",
   'T': "AT&T shed its media businesses (WarnerMedia→Discovery merger in 2022) and refocused on pure-play connectivity: wireless (80M+ postpaid subscribers) and fiber broadband (AT&T Fiber, targeting 30M+ passings by 2025). The simplification was necessary but the balance sheet remains heavy (~$130B gross debt). Moat assessment: narrow — AT&T competes in a three-carrier oligopoly but lacks TMUS's network momentum and Verizon's FWA scale lead. The durable asset is the wireline fiber build: once lit, fiber passings are sticky, high-ARPU broadband attachments with minimal marginal cost. Scuttlebutt: AT&T Fiber net adds are consistently the highest in the industry (>1M/yr), and premium 2Gbps/5Gbps tiers generate meaningful ARPU uplift. Capital allocation: dividend was cut in 2022 (from $2.08 to $1.11/share) when WarnerMedia was spun off; current $1.11 yield (~6.5%) is well-covered by FCF. Buybacks on hold while deleveraging to <2.5× ND/EBITDA target. Graham safety: highest leverage of the three major US carriers, but FCF is ~$16B annually and the dividend cut gave headroom. Key risk: execution of 30M fiber passings on time and on budget.",
@@ -1687,7 +1578,7 @@ function renderOverviewStrip(t) {
   if (e) { const d=new Date(e.date), today=new Date(); today.setHours(0,0,0,0);
     const days=Math.round((d-today)/864e5);
     earnTxt = d.toLocaleDateString('en-US',{day:'2-digit',month:'short',year:'numeric'}) + (e.est?' (est.)':'') + (days>=0?` · ${days}d`:''); }
-  const cells = [['Next earnings', earnTxt], ['Portfolio weight', (Math.abs(p.pl)/TOTAL*100).toFixed(1)+'%']];
+  const cells = [['Next earnings', earnTxt]];
   const st = (THESIS[t]&&THESIS[t].status) || 'intact';
   cells.push(['Thesis', st.charAt(0).toUpperCase()+st.slice(1)]);
   const px = (window.__PRICES||{})[t];
@@ -1995,9 +1886,9 @@ const GROUPS = {
     tickers: new Set(['MELI','SMFT3','PRIO3','SBSP3','PETR4','PETR3','VALE3','ITUB4','BPAC11','ROXO','VIVT3','TIMS3','ABEV3','TOTS3','CSMG3']),
   },
   other: {
-    label: 'Financials + ETFs',
+    label: 'Financials + Other',
     day: 'Thursday',
-    tickers: new Set(['BLK','JPM','RACE','NVDL','SPXL','CQQQ','BITX','BTC','GRID']),
+    tickers: new Set(['BLK','JPM','RACE']),
   },
   telco: {
     label: 'Telecom + Consumer',
@@ -2156,8 +2047,10 @@ function buildCoList() {
     html += `<div class="co-list-hdr" style="margin-top:4px;border-top:1px solid var(--border);">International (${intl.length})</div>`;
     html += intl.map(p => coItemHtml(p)).join('');
   }
-  html += `<div class="co-list-hdr" style="border-top:1px solid var(--border);margin-top:4px;">Instruments & ETFs</div>`;
-  html += etfs.map(p => coItemHtml(p)).join('');
+  if (etfs.length) {
+    html += `<div class="co-list-hdr" style="border-top:1px solid var(--border);margin-top:4px;">Instruments & ETFs</div>`;
+    html += etfs.map(p => coItemHtml(p)).join('');
+  }
   document.getElementById('co-list-el').innerHTML = html;
 }
 
@@ -2194,8 +2087,6 @@ function renderCoPanel(p) {
         <div class="co-pmeta">
           <span>${p.s}</span>
           <span>${p.g}</span>
-          <span>${p.short ? 'Short Position' : 'Long Position'}</span>
-          <span class="pv">R$ ${Math.abs(p.pl).toLocaleString('pt-BR',{minimumFractionDigits:2})}</span>
         </div>
       </div>
       <div class="etf-wrap">
@@ -2210,8 +2101,6 @@ function renderCoPanel(p) {
     panel.innerHTML = `<div class="fund-empty"><p>No analysis available for ${p.t}.</p></div>`;
     return;
   }
-
-  const pct = ((p.pl / TOTAL) * 100).toFixed(1);
 
   const _fin = (p.s === 'FIN' || p.s === 'FINTECH');
   const FW_CHART = {
@@ -2613,6 +2502,42 @@ function generateNews() {
   nc.innerHTML = renderNewsSnapshot();
 }
 
+// Botão "Atualizar": rebusca data/news.json (com cache-bust) e re-renderiza,
+// sem recarregar a página. Em arquivo local (file://) o fetch falha -> só re-renderiza
+// o que já está em memória e avisa.
+async function refreshNews(btn) {
+  const label = document.getElementById('gen-btn-label');
+  const icon  = document.getElementById('gen-btn-icon');
+  const prev  = label ? label.textContent : '';
+  if (btn) btn.disabled = true;
+  if (label) label.textContent = 'Atualizando…';
+  if (icon) { icon.style.transition = 'transform .8s linear'; icon.style.transform = 'rotate(360deg)'; }
+  try {
+    const r = await fetch('data/news.json?_=' + Date.now(), { cache: 'no-store' });
+    if (r.ok) {
+      const news = await r.json();
+      if (news && Array.isArray(news.items) && news.items.length) {
+        NEWS_SNAPSHOT.length = 0;
+        news.items.forEach(x => NEWS_SNAPSHOT.push(x));
+        if (news.asof) window.__NEWS_ASOF = news.asof;
+        if (Array.isArray(news.manual) && news.manual.length) window.__NEWS_MANUAL = news.manual;
+      }
+      if (label) label.textContent = '✓ Atualizado';
+    } else {
+      if (label) label.textContent = 'Sem conexão';
+    }
+  } catch (e) {
+    // file:// local ou offline: mantém o que já está carregado
+    if (label) label.textContent = 'Offline';
+  }
+  generateNews();
+  setTimeout(() => {
+    if (icon) { icon.style.transition = 'none'; icon.style.transform = 'none'; }
+    if (label) label.textContent = prev || 'Atualizar';
+    if (btn) btn.disabled = false;
+  }, 1400);
+}
+
 
 // ─── PERSISTÊNCIA (localStorage) ───────────────────────────────────────────────
 // Funciona em arquivo local (.html aberto no navegador). Falha silenciosa se indisponível.
@@ -2792,90 +2717,9 @@ function formatBn(n) {
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-// ─── OVERVIEW PANE ────────────────────────────────────────────────────────────
-let ovChartsBuilt = false;
-
-function buildOverview() {
-  updateOverviewStats();
-  if (!ovChartsBuilt) { buildOverviewCharts(); ovChartsBuilt = true; }
-  buildPositionTable();
-}
-
-function updateOverviewStats() {
-  const intact  = P.filter(p => !p.etf && THESIS[p.t]?.status === 'intact').length;
-  const watch   = P.filter(p => !p.etf && THESIS[p.t]?.status === 'watch').length;
-  const broken  = P.filter(p => !p.etf && THESIS[p.t]?.status === 'broken').length;
-  const fmtN = n => n.toLocaleString('pt-BR', {minimumFractionDigits: 2});
-  const fmt0 = n => n.toLocaleString('pt-BR', {maximumFractionDigits: 0});
-  document.getElementById('ov-aum').innerHTML  = '<span class="pv">R$ ' + fmtN(AUM.total) + '</span>';
-  const subEl = document.getElementById('ov-aum-sub');
-  if (subEl) subEl.innerHTML = '<span class="pv">Ações R$ ' + fmt0(AUM.equity) + ' · RF R$ ' + fmt0(AUM.fixedIncome) + '</span> · ' + AUM.asOf;
-  document.getElementById('ov-intact').textContent = intact;
-  document.getElementById('ov-watch').textContent  = watch;
-  document.getElementById('ov-broken').textContent = broken;
-}
-
-function buildOverviewCharts() {
-  // AUM trend (patrimônio total ao longo dos meses)
-  const aumCtx = document.getElementById('chart-aum-trend')?.getContext('2d');
-  if (aumCtx) {
-    const asofEl = document.getElementById('aum-trend-asof');
-    if (asofEl) asofEl.textContent = '· atualizado ' + AUM.asOf;
-    new Chart(aumCtx, { type:'line', data:{ labels: AUM.series.map(s=>s.m), datasets:[{
-      label:'Patrimônio', data: AUM.series.map(s=>+(s.v/1000).toFixed(1)),
-      borderColor:'#7C3AED', backgroundColor:'rgba(124,58,237,.08)', tension:.3, fill:true,
-      pointRadius:3, pointBackgroundColor:'#7C3AED', borderWidth:2 }] },
-      options:{ responsive:true, maintainAspectRatio:false,
-        plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: c => ' R$ ' + (c.raw*1000).toLocaleString('pt-BR',{maximumFractionDigits:0}) } } },
-        scales:{ x:{ grid:{display:false}, ticks:{font:{size:10},color:'#9CA3AF'}, border:{display:false} },
-                 y:{ grid:{color:'#F3F4F6'}, ticks:{font:{size:10},color:'#9CA3AF',callback:v=>v+'k'}, border:{display:false} } } } });
-  }
-  const sectors = {}, geos = {};
-  P.forEach(p => {
-    if (Math.abs(p.pl) < 50) return;
-    const w = Math.abs(p.pl);
-    sectors[p.s] = (sectors[p.s]||0) + w;
-    geos[p.g]    = (geos[p.g]||0) + w;
-  });
-  const sPalette = ['#7C3AED','#0D9488','#2563EB','#D97706','#059669','#DC2626','#7C3AED','#6366F1'];
-  function donut(id, labels, data, palette) {
-    const ctx = document.getElementById(id)?.getContext('2d');
-    if (!ctx) return;
-    new Chart(ctx, { type:'doughnut', data:{ labels, datasets:[{data, backgroundColor: palette.slice(0,labels.length), borderWidth:2, borderColor:'#fff', hoverOffset:4}] },
-      options:{ responsive:true, maintainAspectRatio:false, cutout:'62%',
-        plugins:{ legend:{ display:true, position:'bottom', labels:{boxWidth:9, boxHeight:9, font:{size:10}, padding:8, color:'#6B7280'} },
-          tooltip:{ callbacks:{ label: ctx => ` ${ctx.label}: R$ ${ctx.raw.toLocaleString('pt-BR',{minimumFractionDigits:0})} (${((ctx.raw/TOTAL)*100).toFixed(1)}%)` } } } } } );
-  }
-  const sLabels = Object.keys(sectors), sData = Object.values(sectors);
-  donut('chart-sector', sLabels, sData, sPalette);
-  const gLabels = Object.keys(geos), gData = Object.values(geos);
-  donut('chart-geo', gLabels, gData, ['#2563EB','#DC2626','#059669','#D97706','#7C3AED']);
-  const sorted = [...P].sort((a,b) => Math.abs(b.pl)-Math.abs(a.pl));
-  const ctxP = document.getElementById('chart-pos-size')?.getContext('2d');
-  if (ctxP) new Chart(ctxP, { type:'bar', data:{ labels: sorted.map(x=>x.t), datasets:[{ data: sorted.map(x=>Math.abs(x.pl)), backgroundColor: sorted.map(x=>x.short?'#DC2626':'#7C3AED'), borderWidth:0, borderRadius:3 }] },
-    options:{ responsive:true, maintainAspectRatio:false, indexAxis:'y',
-      plugins:{ legend:{display:false}, tooltip:{ callbacks:{ label: ctx => ` R$ ${ctx.raw.toLocaleString('pt-BR',{minimumFractionDigits:2})} (${((ctx.raw/TOTAL)*100).toFixed(1)}%)` } } },
-      scales:{ x:{ grid:{display:false}, ticks:{font:{size:9},color:'#9CA3AF'}, border:{display:false} }, y:{ grid:{display:false}, ticks:{font:{size:9,family:"'SF Mono','Consolas',monospace"},color:'#374151'}, border:{display:false} } } } });
-}
-
-function buildPositionTable() {
-  const sorted = [...P].sort((a,b) => Math.abs(b.pl)-Math.abs(a.pl));
-  const rows = sorted.map(p => {
-    const pct = ((Math.abs(p.pl)/TOTAL)*100).toFixed(1);
-    const thStatus = p.etf ? '' : (THESIS[p.t]?.status||'intact');
-    const dotHtml = p.etf ? '<span style="color:var(--text-muted);font-size:11px;">ETF</span>' : `<span class="thesis-dot dot-${thStatus}" style="display:inline-block;" title="${thStatus}"></span> <span style="font-size:11px;text-transform:capitalize;color:var(--text-secondary);">${thStatus}</span>`;
-    const plColor = p.pl >= 0 ? 'var(--positive)' : 'var(--negative)';
-    return `<tr style="border-bottom:1px solid var(--border);">
-      <td style="padding:9px 14px;font-family:'SF Mono','Consolas',monospace;font-size:11px;font-weight:700;color:var(--accent-purple);">${p.t}</td>
-      <td style="padding:9px 14px;font-size:12px;font-weight:500;color:var(--text-primary);">${p.n}</td>
-      <td style="padding:9px 14px;font-size:11px;color:var(--text-secondary);">${p.s}</td>
-      <td style="padding:9px 14px;text-align:right;font-size:12px;font-weight:600;color:${plColor};"><span class="pv">R$ ${p.pl.toLocaleString('pt-BR',{minimumFractionDigits:2})}</span></td>
-      <td style="padding:9px 14px;text-align:right;font-size:11px;color:var(--text-muted);">${pct}%</td>
-      <td style="padding:9px 14px;text-align:center;">${dotHtml}</td>
-    </tr>`;
-  }).join('');
-  document.getElementById('ov-table-body').innerHTML = rows;
-}
+// ─── OVERVIEW PANE (removida — sem dados de carteira) ─────────────────────────
+// Mantido apenas como no-op porque setThesis() ainda o invoca ao trocar a tese.
+function updateOverviewStats() { /* aba de carteira removida */ }
 
 // ─── EARNINGS CALENDAR PANE ───────────────────────────────────────────────────
 function buildCalendar() {
@@ -2941,7 +2785,6 @@ function renderCmpPanel(side) {
   if (!p) return;
   const analysis = ANALYSIS[p.t];
   if (!analysis) { panel.innerHTML = '<div class="compare-empty">No analysis for '+ticker+'</div>'; return; }
-  const pct = ((p.pl/TOTAL)*100).toFixed(1);
   const OPEN_BY_DEFAULT = new Set(['moat','story','capalloc']);
   const _finC = (p.s === 'FIN' || p.s === 'FINTECH');
   const FW_CHART_CMP = {
@@ -2967,7 +2810,7 @@ function renderCmpPanel(side) {
       <div>
         <div class="co-ptick">${p.t}</div>
         <div class="co-pname">${p.n}</div>
-        <div class="co-pmeta"><span>${p.s}</span><span>${p.g}</span><span>${pct}% portfolio</span><span class="pv">R$ ${p.pl.toLocaleString('pt-BR',{minimumFractionDigits:2})}</span></div>
+        <div class="co-pmeta"><span>${p.s}</span><span>${p.g}</span></div>
       </div>
       <span style="font-size:11px;color:var(--text-muted);">${analysis.date}</span>
     </div>
@@ -2988,7 +2831,6 @@ function renderChartsForPanel(ticker, suffix) {
 // ─── NAVIGATION ───────────────────────────────────────────────────────────────
 const PANE_TITLES = {
   news:     'Market Intelligence',
-  overview: 'Portfolio Overview — Allocation & Thesis',
   fund:     'Fundamental Analysis — Coverage Universe',
   calendar: 'Earnings Calendar — Coverage Universe',
   metrics:  'Valuation Metrics — Live Data',
@@ -3000,7 +2842,6 @@ function goPane(id, btn) {
   document.getElementById('pane-'+id).classList.add('active');
   if (btn) btn.classList.add('active');
   document.getElementById('topbar-title').textContent = PANE_TITLES[id] || id;
-  if (id === 'overview') buildOverview();
   if (id === 'calendar') buildCalendar();
   if (id === 'metrics') initMetricsView();
 }
@@ -3031,21 +2872,7 @@ function init() {
   const opts = {weekday:'long', year:'numeric', month:'long', day:'numeric'};
   document.getElementById('topbar-date').textContent = now.toLocaleDateString('en-US', opts);
   document.getElementById('mc-date-label').textContent = now.toLocaleDateString('en-US', opts);
-  // Sidebar AUM (real, from aum.xlsx)
-  const fmt0 = n => n.toLocaleString('pt-BR', {maximumFractionDigits: 0});
-  const elTot = document.getElementById('pv-total');
-  if (elTot) elTot.textContent = 'R$ ' + fmt0(AUM.total);
-  const elSplit = document.getElementById('pv-split');
-  if (elSplit) elSplit.innerHTML = '<span class="pv">Ações R$ ' + fmt0(AUM.equity) + ' · RF R$ ' + fmt0(AUM.fixedIncome) + '</span>';
-  const elAsof = document.getElementById('pv-asof');
-  if (elAsof) elAsof.textContent = '· ' + AUM.asOf;
   buildCoList();
-  // Update position summary count
-  const nPos = P.filter(p=>p.pl!==0).length;
-  const nEq  = P.filter(p=>!p.etf && p.pl!==0).length;
-  const nEtf = P.filter(p=>p.etf && p.pl!==0).length;
-  const elPos = document.getElementById('pv-pos-el');
-  if (elPos) elPos.textContent = `${nPos} positions · ${nEq} equities · ${nEtf} instruments`;
   // mostra o snapshot de notícias já na abertura
   try { generateNews(); } catch(e) {}
 }

@@ -54,6 +54,11 @@ FEEDS = [
     ("US", "MarketWatch",    "https://feeds.marketwatch.com/marketwatch/marketpulse/"),
     ("US", "Yahoo Finance",  "https://finance.yahoo.com/news/rssindex"),
     ("US", "Google News US", gnews("(stock market OR S&P 500 OR Nasdaq OR Federal Reserve OR earnings) when:1d", "en")),
+    # ── Tech / commentary (RSS livre p/ Verge e Stratechery; WSJ/The Information têm paywall) ──
+    ("US", "The Verge",      "https://www.theverge.com/rss/index.xml"),
+    ("US", "Stratechery",    "https://stratechery.com/feed/"),
+    ("US", "WSJ",            gnews("site:wsj.com (markets OR stocks OR economy OR tech) when:2d", "en")),
+    ("US", "The Information", gnews("site:theinformation.com when:5d", "en")),
     # ── World ───────────────────────────────────────────────────────────────
     ("WORLD", "Reuters",     gnews("site:reuters.com (markets OR economy OR business) when:1d", "en")),
     ("WORLD", "Bloomberg",   gnews("site:bloomberg.com (markets OR stocks OR economy) when:1d", "en")),
@@ -93,6 +98,9 @@ MANUAL = [
     ("Bloomberg",       "https://www.bloomberg.com/markets"),
     ("WSJ Markets",     "https://www.wsj.com/news/markets"),
     ("Financial Times", "https://www.ft.com/markets"),
+    ("The Information", "https://www.theinformation.com/"),
+    ("Stratechery",     "https://stratechery.com/"),
+    ("The Verge",       "https://www.theverge.com/tech"),
     ("Seeking Alpha",   "https://seekingalpha.com/market-news"),
 ]
 
