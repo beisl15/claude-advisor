@@ -400,7 +400,7 @@ body.focus-mode .co-list{display:none;}
       <div class="mc-body">
         <div class="placeholder" id="news-placeholder">
           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="1.3"><rect x="6" y="6" width="24" height="24" rx="3"/><line x1="11" y1="13" x2="25" y2="13"/><line x1="11" y1="18" x2="25" y2="18"/><line x1="11" y1="23" x2="19" y2="23"/></svg>
-          <p>Curated multi-source market news (CNBC, Yahoo Finance, InfoMoney, Money Times, Schwab). Click "View News".</p>
+          <p>Curated multi-source market news, research papers (NBER, BIS, IMF, Fed, arXiv) and investor letters. Click "View News".</p>
         </div>
         <div id="news-content" style="display:none;"></div>
       </div>
@@ -2429,6 +2429,12 @@ const NEWS_MANUAL = [
 const NEWS_REGIONS = [['BR','🇧🇷 Brazil'],['US','🇺🇸 US'],['WORLD','🌍 World']];
 let __newsRegion = 'BR';
 
+// Sub-abas do painel: Notícias | Papers | Cartas
+const NEWS_TABS = [['news','📰 Notícias'],['papers','📄 Papers'],['letters','✉️ Cartas']];
+let __newsTab = 'news';
+const PAPERS_SNAPSHOT = [];   // preenchido por data/papers.json
+const LETTERS_SNAPSHOT = [];  // preenchido por data/letters.json
+
 function renderNewsManual() {
   const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   const links = (window.__NEWS_MANUAL || NEWS_MANUAL);
@@ -2489,17 +2495,81 @@ function renderNewsSnapshot() {
   return html;
 }
 
+function renderPapers() {
+  const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const colors = {5:'#f43f5e',4:'#f97316',3:'#eab308',2:'#22d3ee',1:'#64748b'};
+  let html = '<div style="background:#0f172a;border-radius:8px;padding:18px;">'
+    + '<div style="color:#94a3b8;font-size:11px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.08);">'
+    + 'Working papers · NBER, BIS, IMF, Fed, arXiv (q-fin, cs.AI) · filtrados por relevância à carteira</div>';
+  if (!PAPERS_SNAPSHOT.length) {
+    html += '<div style="color:#64748b;font-size:12.5px;padding:18px;text-align:center;">Nenhum paper carregado ainda — clique em "Atualizar" (requer data/papers.json publicado pelo Actions).</div>';
+  }
+  html += '<div style="display:flex;flex-direction:column;gap:10px;">';
+  for (const it of PAPERS_SNAPSHOT) {
+    const c = colors[it.p] || colors[2];
+    html += '<div style="border-left:3px solid ' + c + ';padding:10px 14px;background:rgba(255,255,255,0.02);border-radius:0 8px 8px 0;">'
+      + '<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px;flex-wrap:wrap;">'
+      + '<span style="color:#7C3AED;background:rgba(124,58,237,.14);font-size:10px;font-weight:700;padding:2px 7px;border-radius:3px;">' + esc(it.tag) + '</span>'
+      + '<span style="color:#64748b;font-size:10px;margin-left:auto;">' + esc(it.src) + (it.date ? ' · ' + esc(it.date) : '') + '</span></div>'
+      + '<a href="' + esc(it.url) + '" target="_blank" rel="noopener" style="color:#e2e8f0;font-weight:600;font-size:13px;line-height:1.4;text-decoration:none;">' + esc(it.title) + ' ↗</a>'
+      + '</div>';
+  }
+  return html + '</div></div>';
+}
+
+function renderLetters() {
+  const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  const fresh = s => { try { return (Date.now() - new Date(s).getTime()) < 12*86400000; } catch(e){ return false; } };
+  let html = '<div style="background:#0f172a;border-radius:8px;padding:18px;">'
+    + '<div style="color:#94a3b8;font-size:11px;margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid rgba(255,255,255,0.08);">'
+    + 'Cartas de gestoras &amp; memos · Dynamo, IP, Verde, Squadra, Oaktree, Berkshire, Damodaran… · "NEW" = detectada nos últimos 12 dias</div>';
+  if (!LETTERS_SNAPSHOT.length) {
+    html += '<div style="color:#64748b;font-size:12.5px;padding:18px;text-align:center;">Nenhuma carta carregada ainda — clique em "Atualizar" (requer data/letters.json publicado pelo Actions).</div>';
+  }
+  html += '<div style="display:flex;flex-direction:column;gap:8px;">';
+  for (const it of LETTERS_SNAPSHOT) {
+    html += '<div style="display:flex;align-items:center;gap:10px;padding:9px 14px;background:rgba(255,255,255,0.02);border-radius:8px;">'
+      + (fresh(it.seen) ? '<span style="background:#22c55e;color:#000;font-size:9.5px;font-weight:800;padding:2px 7px;border-radius:4px;letter-spacing:.5px;">NEW</span>' : '')
+      + '<span style="color:#c4b5fd;font-size:11px;font-weight:700;white-space:nowrap;">' + esc(it.src) + '</span>'
+      + '<a href="' + esc(it.url) + '" target="_blank" rel="noopener" style="flex:1;color:#e2e8f0;font-size:12.5px;font-weight:600;line-height:1.4;text-decoration:none;">' + esc(it.title) + ' ↗</a>'
+      + '<span style="color:#64748b;font-size:10px;white-space:nowrap;">' + esc(it.date||'') + '</span>'
+      + '</div>';
+  }
+  return html + '</div></div>';
+}
+
+function renderNewsPane() {
+  const counts = { news: NEWS_SNAPSHOT.length, papers: PAPERS_SNAPSHOT.length, letters: LETTERS_SNAPSHOT.length };
+  let html = '<div style="display:flex;gap:8px;margin-bottom:14px;">';
+  for (const [t,lbl] of NEWS_TABS) {
+    const on = (t === __newsTab);
+    html += '<button onclick="setNewsTab(\'' + t + '\')" style="cursor:pointer;border:none;font-size:12.5px;font-weight:700;padding:7px 16px;border-radius:6px;'
+      + (on ? 'background:#7C3AED;color:#fff;' : 'background:rgba(255,255,255,0.05);color:#94a3b8;')
+      + '">' + lbl + ' <span style="opacity:.6;font-weight:500;">' + (counts[t]||0) + '</span></button>';
+  }
+  html += '</div>';
+  if (__newsTab === 'papers') return html + renderPapers();
+  if (__newsTab === 'letters') return html + renderLetters();
+  return html + renderNewsSnapshot();
+}
+
+function setNewsTab(t) {
+  __newsTab = t;
+  const nc = document.getElementById('news-content');
+  if (nc) nc.innerHTML = renderNewsPane();
+}
+
 function setNewsRegion(r) {
   __newsRegion = r;
   const nc = document.getElementById('news-content');
-  if (nc) nc.innerHTML = renderNewsSnapshot();
+  if (nc) nc.innerHTML = renderNewsPane();
 }
 
 function generateNews() {
   const nc = document.getElementById('news-content');
   document.getElementById('news-placeholder').style.display = 'none';
   nc.style.display = 'block';
-  nc.innerHTML = renderNewsSnapshot();
+  nc.innerHTML = renderNewsPane();
 }
 
 // Botão "Atualizar": rebusca data/news.json (com cache-bust) e re-renderiza,
@@ -2526,6 +2596,21 @@ async function refreshNews(btn) {
     } else {
       if (label) label.textContent = 'Sem conexão';
     }
+    // papers + cartas (best-effort: arquivos podem ainda não existir no repo)
+    try {
+      const rp = await fetch('data/papers.json?_=' + Date.now(), { cache: 'no-store' });
+      if (rp.ok) {
+        const p = await rp.json();
+        if (p && Array.isArray(p.items)) { PAPERS_SNAPSHOT.length = 0; p.items.forEach(x => PAPERS_SNAPSHOT.push(x)); }
+      }
+    } catch (e) {}
+    try {
+      const rl = await fetch('data/letters.json?_=' + Date.now(), { cache: 'no-store' });
+      if (rl.ok) {
+        const l = await rl.json();
+        if (l && Array.isArray(l.items)) { LETTERS_SNAPSHOT.length = 0; l.items.forEach(x => LETTERS_SNAPSHOT.push(x)); }
+      }
+    } catch (e) {}
   } catch (e) {
     // file:// local ou offline: mantém o que já está carregado
     if (label) label.textContent = 'Offline';
