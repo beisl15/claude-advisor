@@ -26,8 +26,8 @@ from email.utils import parsedate_to_datetime
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
-PER_REGION = 8                  # headlines kept per region
-POOL_PER_REGION = 28           # candidates considered per region before ranking
+PER_REGION = 15                 # headlines kept per region
+POOL_PER_REGION = 80           # candidates considered per region before ranking
 PORTFOLIO = ("GOOGL MSFT META AMZN NVDA MU ASML JPM BLK AAPL AMD AVGO TSM MELI RACE "
              "Nubank PRIO Sabesp Copasa Smartfit Vale Itau Petrobras Ambev TOTVS Vivo TIM BTG")
 
@@ -37,6 +37,25 @@ def gnews(query, lang="en"):
     loc = {"en": ("en-US", "US", "US:en"), "pt": ("pt-BR", "BR", "BR:pt")}[lang]
     q = urllib.parse.quote(query)
     return f"https://news.google.com/rss/search?q={q}&hl={loc[0]}&gl={loc[1]}&ceid={loc[2]}"
+
+
+def gdelt(query, timespan="1d"):
+    """GDELT DOC 2.0 API — free, monitors thousands of outlets worldwide in
+    near-real-time. Returns a JSON article list ranked by hybrid relevance."""
+    q = urllib.parse.quote(query)
+    return (f"https://api.gdeltproject.org/api/v2/doc/doc?query={q}"
+            f"&mode=ArtList&format=json&maxrecords=40&timespan={timespan}&sort=hybridrel")
+
+
+# GDELT global sweep: (region, source_name, query). Wide net — the ranking
+# funnel (RULES / AI curation) filters the noise downstream.
+GDELT_FEEDS = [
+    ("BR",    "GDELT BR",       gdelt('(ibovespa OR selic OR petrobras OR vale OR "banco central") sourcelang:por')),
+    ("US",    "GDELT US",       gdelt('("stock market" OR nasdaq OR "federal reserve" OR earnings) sourcelang:eng sourcecountry:US')),
+    ("US",    "GDELT AI",       gdelt('("artificial intelligence" OR nvidia OR semiconductor OR datacenter) sourcelang:eng')),
+    ("WORLD", "GDELT Markets",  gdelt('("global markets" OR "central bank" OR inflation OR tariff) sourcelang:eng')),
+    ("WORLD", "GDELT Commod",   gdelt('("oil price" OR opec OR "iron ore" OR copper OR commodities) sourcelang:eng')),
+]
 
 
 # General feeds: (region, source_name, url)
@@ -158,7 +177,7 @@ def parse_date(s):
         return parsedate_to_datetime(s)
     except Exception:
         pass
-    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S"):
+    for fmt in ("%Y-%m-%d %H:%M:%S", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S", "%Y%m%dT%H%M%SZ"):
         try:
             return datetime.datetime.strptime(s, fmt)
         except Exception:
@@ -208,15 +227,33 @@ def entries(root):
 def harvest():
     items, seen_url, seen_title, health = [], set(), set(), []
     sources = ([(r, n, u, None, "g") for r, n, u in FEEDS] +
-               [(r, t, gnews(q, lang), t, "c") for r, t, q, lang in COMPANY_FEEDS])
+               [(r, t, gnews(q, lang), t, "c") for r, t, q, lang in COMPANY_FEEDS] +
+               [(r, n, u, None, "j") for r, n, u in GDELT_FEEDS])
     for region, name, url, forced_tag, kind in sources:
         try:
-            root = ET.fromstring(get(url))
+            raw = get(url)
+            if kind == "j":                                # GDELT JSON
+                arts = json.loads(raw.decode("utf-8", "ignore")).get("articles", [])
+                rows = [(a.get("title", ""), a.get("url", ""), parse_date(a.get("seendate")),
+                         a.get("domain", name)) for a in arts]
+            else:                                          # RSS/Atom XML
+                rows = [(t, l, d, None) for t, l, d in entries(ET.fromstring(raw))]
         except Exception as e:
             health.append(f"  x {name} [{region}]: {type(e).__name__}")
             continue
         added = 0
-        for title, link, date in entries(root):
+        for title, link, date, dom in rows:
+            if dom is not None:                            # GDELT: domain = source
+                if len(title) < 20 or not link:
+                    continue
+                nt = norm_title(title)
+                if link in seen_url or (nt and nt in seen_title):
+                    continue
+                seen_url.add(link); seen_title.add(nt)
+                items.append({"region": region, "src": dom, "title": title,
+                              "url": link, "dt": date, "ftag": forced_tag})
+                added += 1
+                continue
             if kind == "c":
                 title, src = split_src(title, name)        # company query → real publisher
             else:
@@ -314,7 +351,7 @@ def llm_curate(pool_by_region, key):
 
 def main():
     items, health = harvest()
-    print(f"harvested {len(items)} unique headlines from {len(FEEDS)+len(COMPANY_FEEDS)} sources")
+    print(f"harvested {len(items)} unique headlines from {len(FEEDS)+len(COMPANY_FEEDS)+len(GDELT_FEEDS)} sources")
     print("\n".join(health))
 
     pool_by_region = {r: [x for x in rank_region(items, r)] for r in ("BR", "US", "WORLD")}

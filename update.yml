@@ -57,6 +57,11 @@ jobs:
         run: python scripts/fetch_letters.py
         continue-on-error: true
 
+      - name: Insider activity (SEC Form 4 + CVM Formulario 44)
+        env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
+        run: python scripts/fetch_insiders.py
+        continue-on-error: true
+
       - name: Commit se houver mudanca
         run: |
           git config user.name  "github-actions[bot]"

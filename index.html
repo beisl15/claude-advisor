@@ -357,6 +357,14 @@ body.focus-mode .co-list{display:none;}
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3.5" width="12" height="10.5" rx="1.5"/><line x1="5" y1="2" x2="5" y2="5"/><line x1="11" y1="2" x2="11" y2="5"/><line x1="2" y1="7" x2="14" y2="7"/><circle cx="5.5" cy="10" r=".8" fill="currentColor" stroke="none"/><circle cx="8" cy="10" r=".8" fill="currentColor" stroke="none"/><circle cx="10.5" cy="10" r=".8" fill="currentColor" stroke="none"/></svg>
       <span class="nav-lbl">Earnings Calendar</span>
     </button>
+    <button class="nav-item" onclick="goPane('macro',this)">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M8 4.5V8l2.5 1.5"/></svg>
+      <span class="nav-lbl">Macro Agenda</span>
+    </button>
+    <button class="nav-item" onclick="goPane('insiders',this)">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="5" r="2.5"/><path d="M3 13.5c0-2.5 2.2-4 5-4s5 1.5 5 4"/></svg>
+      <span class="nav-lbl">Insider Activity</span>
+    </button>
     <button class="nav-item" onclick="goPane('metrics',this)">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="13" x2="3" y2="9"/><line x1="6.5" y1="13" x2="6.5" y2="6"/><line x1="10" y1="13" x2="10" y2="9"/><line x1="13.5" y1="13" x2="13.5" y2="4"/></svg>
       <span class="nav-lbl">Metrics</span>
@@ -421,6 +429,30 @@ body.focus-mode .co-list{display:none;}
     </div>
     <div class="cal-disclaimer">Dates marked with "Est." are consensus estimates and subject to change. Click any event to open the company in Fundamentals.</div>
     <div id="cal-list"></div>
+  </div>
+
+  <!-- MACRO AGENDA PANE -->
+  <div class="pane" id="pane-macro">
+    <div class="sec-hdr">
+      <div>
+        <div class="sec-title">Macro Agenda</div>
+        <div class="sec-sub">Central bank decisions and key economic releases — Brazil &amp; US</div>
+      </div>
+    </div>
+    <div class="cal-disclaimer">Fontes: BCB, Federal Reserve, IBGE, BLS, BEA. Datas marcadas com "Est." podem mudar. Horários no fuso local de cada divulgação.</div>
+    <div id="macro-list"></div>
+  </div>
+
+  <!-- INSIDER ACTIVITY PANE -->
+  <div class="pane" id="pane-insiders">
+    <div class="sec-hdr">
+      <div>
+        <div class="sec-title">Insider Activity</div>
+        <div class="sec-sub">Open-market buys &amp; sells — SEC Form 4 (US) and CVM Formulário 44 (BR)</div>
+      </div>
+    </div>
+    <div class="cal-disclaimer">US: apenas compras (P) e vendas (S) em mercado dos últimos 90 dias — exercícios de opção e vendas para imposto ficam de fora. BR: agregado mensal por grupo (controlador, diretoria, conselhos). Atualiza diariamente às ~06:00 BRT.</div>
+    <div id="insiders-content"><div class="placeholder"><p>Carregando insider activity…</p></div></div>
   </div>
 
   <!-- FUNDAMENTALS PANE -->
@@ -2835,6 +2867,139 @@ function buildCalendar() {
   document.getElementById('cal-list').innerHTML = html;
 }
 
+// ─── MACRO AGENDA ─────────────────────────────────────────────────────────────
+// Atualizado em 20/07/2026 — fontes: BCB (calendário Copom), Fed (FOMC), IBGE, BLS, BEA
+const MACRO_EVENTS = [
+  // Política monetária
+  {date:'2026-07-29', name:'FOMC — Decisão de juros',      reg:'US', det:'Statement 14:00 ET · coletiva Powell 14:30', hi:true,  est:false},
+  {date:'2026-08-05', name:'Copom — Decisão Selic',        reg:'BR', det:'Reunião 280 · comunicado após fechamento', hi:true,  est:false},
+  {date:'2026-09-16', name:'FOMC — Decisão de juros',      reg:'US', det:'Com projeções econômicas (dot plot)',      hi:true,  est:false},
+  {date:'2026-09-16', name:'Copom — Decisão Selic',        reg:'BR', det:'Reunião 281 · mesmo dia do FOMC',          hi:true,  est:false},
+  {date:'2026-10-28', name:'FOMC — Decisão de juros',      reg:'US', det:'Statement 14:00 ET',                       hi:true,  est:false},
+  {date:'2026-11-04', name:'Copom — Decisão Selic',        reg:'BR', det:'Reunião 282',                              hi:true,  est:false},
+  {date:'2026-12-09', name:'FOMC — Decisão de juros',      reg:'US', det:'Com projeções econômicas (dot plot)',      hi:true,  est:false},
+  {date:'2026-12-09', name:'Copom — Decisão Selic',        reg:'BR', det:'Reunião 283 · mesmo dia do FOMC',          hi:true,  est:false},
+  // Inflação
+  {date:'2026-08-11', name:'IPCA (julho)',                 reg:'BR', det:'IBGE · 9h BRT',                            hi:true,  est:false},
+  {date:'2026-08-12', name:'CPI (julho)',                  reg:'US', det:'BLS · 8:30 ET',                            hi:true,  est:false},
+  {date:'2026-09-11', name:'IPCA (agosto) + CPI (agosto)', reg:'BR/US', det:'IPCA 9h BRT · CPI 8:30 ET — mesmo dia', hi:true,  est:false},
+  {date:'2026-10-09', name:'IPCA (setembro)',              reg:'BR', det:'IBGE · 9h BRT',                            hi:true,  est:false},
+  {date:'2026-10-14', name:'CPI (setembro)',               reg:'US', det:'BLS · 8:30 ET',                            hi:true,  est:false},
+  {date:'2026-11-10', name:'CPI (outubro)',                reg:'US', det:'BLS · 8:30 ET',                            hi:true,  est:false},
+  {date:'2026-11-12', name:'IPCA (outubro)',               reg:'BR', det:'IBGE · 9h BRT',                            hi:true,  est:false},
+  {date:'2026-12-10', name:'CPI (novembro)',               reg:'US', det:'BLS · 8:30 ET',                            hi:true,  est:false},
+  {date:'2026-12-11', name:'IPCA (novembro)',              reg:'BR', det:'IBGE · 9h BRT',                            hi:true,  est:false},
+  // Atividade e emprego
+  {date:'2026-07-30', name:'PIB EUA — 2T26 (advance)',     reg:'US', det:'BEA · 1ª estimativa',                      hi:true,  est:true},
+  {date:'2026-07-30', name:'PNAD Contínua (junho)',        reg:'BR', det:'Taxa de desemprego · IBGE',                hi:false, est:false},
+  {date:'2026-08-07', name:'Payroll (julho)',              reg:'US', det:'Employment Situation · BLS 8:30 ET',       hi:true,  est:false},
+  {date:'2026-09-01', name:'PIB Brasil — 2T26',            reg:'BR', det:'Contas Nacionais Trimestrais · IBGE',      hi:true,  est:false},
+  {date:'2026-09-04', name:'Payroll (agosto)',             reg:'US', det:'Employment Situation · BLS 8:30 ET',       hi:true,  est:false},
+  {date:'2026-10-02', name:'Payroll (setembro)',           reg:'US', det:'Employment Situation · BLS 8:30 ET',       hi:true,  est:false},
+  {date:'2026-10-29', name:'PIB EUA — 3T26 (advance)',     reg:'US', det:'BEA · 1ª estimativa',                      hi:true,  est:true},
+  {date:'2026-11-06', name:'Payroll (outubro)',            reg:'US', det:'Employment Situation · BLS 8:30 ET',       hi:true,  est:false},
+  {date:'2026-12-02', name:'PIB Brasil — 3T26',            reg:'BR', det:'Contas Nacionais Trimestrais · IBGE',      hi:true,  est:false},
+  {date:'2026-12-04', name:'Payroll (novembro)',           reg:'US', det:'Employment Situation · BLS 8:30 ET',       hi:true,  est:false},
+];
+
+function buildMacro() {
+  const today = new Date(); today.setHours(0,0,0,0);
+  const sorted = [...MACRO_EVENTS].sort((a,b) => new Date(a.date)-new Date(b.date));
+  const html = sorted.map(e => {
+    const d = new Date(e.date); d.setHours(0,0,0,0);
+    const days = Math.round((d-today)/(1000*60*60*24));
+    if (days < -1) return '';
+    const urgCls = days <= 7 ? 'urgent' : days <= 30 ? 'soon' : 'normal';
+    const daysLbl = days < 0 ? `${Math.abs(days)}d ago` : days === 0 ? 'Today' : days === 1 ? 'Tomorrow' : `${days}d`;
+    const dateStr = d.toLocaleDateString('en-US',{month:'short', day:'numeric', year:'numeric'});
+    const regColor = e.reg === 'BR' ? '#22c07a' : e.reg === 'US' ? '#5b8def' : '#b98bf5';
+    return `<div class="cal-item" style="cursor:default;">
+      <div class="cal-days ${urgCls}">${daysLbl}</div>
+      <div class="cal-co">
+        <div class="cal-ticker">${e.name}</div>
+        <div class="cal-meta">${e.det}</div>
+      </div>
+      <div class="cal-date">
+        <div class="cal-date-str">${dateStr}</div>
+        <div class="cal-q" style="color:${regColor};font-weight:700;">${e.reg}</div>
+        ${e.est ? '<div class="cal-est">Est.</div>' : ''}
+      </div>
+    </div>`;
+  }).join('');
+  document.getElementById('macro-list').innerHTML = html;
+}
+
+// ─── INSIDER ACTIVITY PANE ────────────────────────────────────────────────────
+let insidersLoaded = false;
+
+function fmtVal(v, cur) {
+  if (v == null) return '—';
+  const a = Math.abs(v);
+  const s = a >= 1e9 ? (a/1e9).toFixed(2)+'B' : a >= 1e6 ? (a/1e6).toFixed(1)+'M' : a >= 1e3 ? (a/1e3).toFixed(0)+'K' : a.toFixed(0);
+  return (v < 0 ? '-' : '') + (cur||'$') + s;
+}
+
+async function loadInsiders(force) {
+  if (insidersLoaded && !force) return;
+  const box = document.getElementById('insiders-content');
+  let d;
+  try {
+    const r = await fetch('data/insiders.json?_=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) throw new Error(r.status);
+    d = await r.json();
+  } catch(e) {
+    box.innerHTML = '<div class="placeholder"><p>data/insiders.json ainda não foi gerado. Rode o workflow "Atualiza dados do dashboard" na aba Actions do GitHub.</p></div>';
+    return;
+  }
+  insidersLoaded = true;
+  const buys = (d.us||[]).filter(x=>x.code==='P').length, sells = (d.us||[]).filter(x=>x.code==='S').length;
+
+  const usRows = (d.us||[]).map(x => {
+    const isBuy = x.code === 'P';
+    const clr = isBuy ? '#22c07a' : '#e05252';
+    return `<div class="cal-item" style="cursor:default;">
+      <div class="cal-days" style="color:${clr};border-color:${clr}40;">${isBuy?'BUY':'SELL'}</div>
+      <div class="cal-co">
+        <div class="cal-ticker">${x.t} — ${x.insider}</div>
+        <div class="cal-meta">${x.role}</div>
+      </div>
+      <div class="cal-date">
+        <div class="cal-date-str">${x.shares!=null?Number(x.shares).toLocaleString('en-US',{maximumFractionDigits:0}):'—'} sh @ ${x.price!=null?'$'+Number(x.price).toFixed(2):'—'}</div>
+        <div class="cal-q" style="color:${clr};font-weight:700;">${fmtVal(x.value)}</div>
+        <div class="cal-est">${x.date||''}</div>
+      </div>
+    </div>`;
+  }).join('') || '<div class="placeholder"><p>Nenhuma compra/venda em mercado (Form 4, códigos P/S) nos últimos 90 dias na cobertura US.</p></div>';
+
+  const brRows = (d.br||[]).map(x => {
+    const net = x.netVol||0;
+    const clr = net > 0 ? '#22c07a' : net < 0 ? '#e05252' : 'var(--text-muted)';
+    return `<div class="cal-item" style="cursor:default;">
+      <div class="cal-days" style="color:${clr};border-color:${clr}40;">${net>0?'NET BUY':net<0?'NET SELL':'FLAT'}</div>
+      <div class="cal-co">
+        <div class="cal-ticker">${x.t} — ${x.cargo}</div>
+        <div class="cal-meta">Compras ${fmtVal(x.buyVol,'R$')} · Vendas ${fmtVal(x.sellVol,'R$')}</div>
+      </div>
+      <div class="cal-date">
+        <div class="cal-date-str" style="color:${clr};font-weight:700;">${fmtVal(net,'R$')}</div>
+        <div class="cal-est">${x.month}</div>
+      </div>
+    </div>`;
+  }).join('') || '<div class="placeholder"><p>Sem movimentações à vista de ações reportadas no Formulário 44 nos últimos meses.</p></div>';
+
+  box.innerHTML = `
+    <div class="card" style="font-size:12px;color:var(--text-muted);margin-bottom:14px;">
+      <strong style="color:var(--text-secondary);">US últimos ${d.windowDays||90} dias:</strong>
+      <span style="color:#22c07a;font-weight:700;">&nbsp;${buys} compras</span> ·
+      <span style="color:#e05252;font-weight:700;">${sells} vendas</span>
+      &nbsp;—&nbsp; atualizado ${d.updated ? d.updated.slice(0,10) : '—'}
+    </div>
+    <div class="sec-sub" style="margin:10px 0 6px;font-weight:700;">United States — SEC Form 4</div>
+    ${usRows}
+    <div class="sec-sub" style="margin:18px 0 6px;font-weight:700;">Brasil — CVM Formulário 44 (agregado mensal)</div>
+    ${brRows}`;
+}
+
 function openInFund(ticker) {
   const fundBtn = document.querySelector('.nav-item[onclick*="fund"]');
   goPane('fund', fundBtn);
@@ -2919,6 +3084,8 @@ const PANE_TITLES = {
   news:     'Market Intelligence',
   fund:     'Fundamental Analysis — Coverage Universe',
   calendar: 'Earnings Calendar — Coverage Universe',
+  macro:    'Macro Agenda — Central Banks & Economic Data',
+  insiders: 'Insider Activity — Form 4 & CVM 44',
   metrics:  'Valuation Metrics — Live Data',
 };
 
@@ -2929,6 +3096,8 @@ function goPane(id, btn) {
   if (btn) btn.classList.add('active');
   document.getElementById('topbar-title').textContent = PANE_TITLES[id] || id;
   if (id === 'calendar') buildCalendar();
+  if (id === 'macro') buildMacro();
+  if (id === 'insiders') loadInsiders();
   if (id === 'metrics') initMetricsView();
 }
 
