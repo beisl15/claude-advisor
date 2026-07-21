@@ -1,8 +1,13 @@
 {
- "META": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/",
-  "release_date": "2026-04-29",
-  "ir_url": "https://investor.atmeta.com/"
+ "MU": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/",
+  "release_date": "2026-06-24",
+  "ir_url": "https://investors.micron.com/"
+ },
+ "BLK": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526304013/",
+  "release_date": "2026-07-15",
+  "ir_url": "https://ir.blackrock.com/"
  },
  "NVDA": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/",
@@ -17,54 +22,49 @@
   "release_date": "2026-04-29",
   "ir_url": "https://abc.xyz/investor/"
  },
- "AVGO": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/",
-  "release_date": "2026-06-03"
- },
- "JPM": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/",
-  "release_date": "2026-07-14",
-  "ir_url": "https://www.jpmorganchase.com/ir"
- },
- "SMFT3": {
-  "ir_url": "https://ri.smartfit.com.br/"
- },
- "SBSP3": {
-  "ir_url": "https://ri.sabesp.com.br/"
- },
- "MSFT": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/",
-  "release_date": "2026-04-29",
-  "ir_url": "https://www.microsoft.com/en-us/investor"
+ "PRIO3": {
+  "ir_url": "https://ri.prio3.com.br/"
  },
  "AAPL": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/",
   "release_date": "2026-04-30"
  },
- "MRVL": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/",
-  "release_date": "2026-05-27"
+ "SMFT3": {
+  "ir_url": "https://ri.smartfit.com.br/"
  },
- "MU": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/",
-  "release_date": "2026-06-24",
-  "ir_url": "https://investors.micron.com/"
+ "AVGO": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/",
+  "release_date": "2026-06-03"
  },
  "AMZN": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000012/",
   "release_date": "2026-04-29",
   "ir_url": "https://ir.aboutamazon.com/"
  },
+ "MSFT": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526191457/",
+  "release_date": "2026-04-29",
+  "ir_url": "https://www.microsoft.com/en-us/investor"
+ },
  "AMD": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000072/",
   "release_date": "2026-05-05"
  },
- "BLK": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526304013/",
-  "release_date": "2026-07-15",
-  "ir_url": "https://ir.blackrock.com/"
+ "MRVL": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/",
+  "release_date": "2026-05-27"
  },
- "PRIO3": {
-  "ir_url": "https://ri.prio3.com.br/"
+ "META": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026028364/",
+  "release_date": "2026-04-29",
+  "ir_url": "https://investor.atmeta.com/"
+ },
+ "JPM": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/",
+  "release_date": "2026-07-14",
+  "ir_url": "https://www.jpmorganchase.com/ir"
+ },
+ "SBSP3": {
+  "ir_url": "https://ri.sabesp.com.br/"
  }
 }
