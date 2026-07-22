@@ -259,6 +259,56 @@ body.privacy-on .eye-btn { border-color: var(--accent-purple); color: var(--acce
 .co-tabpanel{display:none;}
 .co-tabpanel.show{display:block;animation:ddfade .22s ease;}
 @keyframes ddfade{from{opacity:0;transform:translateY(3px);}to{opacity:1;transform:none;}}
+/* ── Teach-in / Business Model ─────────────────────────────── */
+.ti-wrap{padding:22px 24px 30px;}
+.ti-block{margin-bottom:26px;}
+.ti-lbl{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-purple);margin-bottom:4px;}
+.ti-sub{font-size:12px;color:var(--text-muted);margin-bottom:14px;line-height:1.5;}
+.ti-kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:16px;}
+.ti-kpi{background:var(--bg-main);border:1px solid var(--border);border-radius:11px;padding:13px 15px;}
+.ti-kpi-v{font-size:21px;font-weight:800;color:var(--text-secondary);letter-spacing:-.01em;}
+.ti-kpi-l{font-size:11px;color:var(--text-muted);margin-top:3px;line-height:1.35;}
+.ti-kpi-d{font-size:10.5px;font-weight:700;margin-top:5px;}
+.ti-pos{color:var(--positive);}.ti-neg{color:var(--negative,#e5484d);}
+.ti-card{background:var(--bg-main);border:1px solid var(--border);border-radius:12px;padding:16px 18px;margin-bottom:14px;}
+.ti-card-t{font-size:13px;font-weight:700;color:var(--text-secondary);margin-bottom:3px;}
+.ti-card-s{font-size:11.5px;color:var(--text-muted);margin-bottom:12px;line-height:1.5;}
+.ti-bar-row{display:flex;align-items:center;gap:10px;margin-bottom:9px;font-size:12px;}
+.ti-bar-name{width:150px;flex-shrink:0;color:var(--text-secondary);font-weight:600;}
+.ti-bar-track{flex:1;height:20px;background:rgba(124,58,237,.07);border-radius:5px;overflow:hidden;position:relative;}
+.ti-bar-fill{height:100%;border-radius:5px;background:linear-gradient(90deg,var(--accent-purple),#a855f7);}
+.ti-bar-val{width:118px;flex-shrink:0;text-align:right;color:var(--text-muted);font-variant-numeric:tabular-nums;font-size:11.5px;}
+.ti-seg{display:flex;height:30px;border-radius:7px;overflow:hidden;border:1px solid var(--border);margin-bottom:8px;}
+.ti-seg-p{display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:700;color:#fff;overflow:hidden;white-space:nowrap;}
+.ti-legend{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;color:var(--text-muted);}
+.ti-legend span{display:inline-flex;align-items:center;gap:5px;}
+.ti-dot{width:9px;height:9px;border-radius:2px;display:inline-block;}
+.ti-road{position:relative;padding-left:20px;}
+.ti-road::before{content:'';position:absolute;left:5px;top:4px;bottom:4px;width:2px;background:var(--border-strong);}
+.ti-road-item{position:relative;margin-bottom:14px;}
+.ti-road-item::before{content:'';position:absolute;left:-19px;top:3px;width:11px;height:11px;border-radius:50%;background:var(--accent-purple);border:2px solid var(--bg-card);}
+.ti-road-h{font-size:12.5px;font-weight:700;color:var(--text-secondary);}
+.ti-road-h span{font-weight:600;color:var(--accent-purple);font-size:11.5px;margin-left:6px;}
+.ti-road-d{font-size:11.5px;color:var(--text-muted);line-height:1.5;margin-top:2px;}
+.ti-note{font-size:11.5px;color:var(--text-secondary);line-height:1.6;}
+.ti-note b{color:var(--text-secondary);}
+.ti-tag{display:inline-block;font-size:9.5px;font-weight:800;letter-spacing:.05em;padding:2px 7px;border-radius:5px;background:rgba(124,58,237,.1);color:var(--accent-purple);margin-left:7px;vertical-align:middle;}
+.ti-src{font-size:10.5px;color:var(--text-muted);margin-top:4px;font-style:italic;}
+.ti-mod{font-size:14px;font-weight:800;color:var(--text-secondary);letter-spacing:-.01em;margin-bottom:2px;}
+.ti-mod-n{color:var(--accent-purple);font-weight:800;margin-right:8px;}
+.ti-table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:11px;margin-bottom:14px;}
+.ti-table{width:100%;border-collapse:collapse;font-size:11.5px;min-width:520px;}
+.ti-table th{background:var(--bg-main);color:var(--text-muted);font-weight:700;text-align:left;padding:9px 12px;font-size:10px;letter-spacing:.06em;text-transform:uppercase;border-bottom:1px solid var(--border);}
+.ti-table td{padding:9px 12px;border-bottom:1px solid var(--border);color:var(--text-secondary);line-height:1.45;vertical-align:top;}
+.ti-table tr:last-child td{border-bottom:none;}
+.ti-table td.hl{font-weight:700;color:var(--accent-purple);}
+.ti-yes{color:var(--positive);font-weight:800;}
+.ti-no{color:var(--text-muted);}
+.ti-rk{display:inline-block;font-size:9.5px;font-weight:800;padding:2px 8px;border-radius:5px;text-transform:uppercase;letter-spacing:.04em;}
+.ti-rk-h{background:rgba(229,72,77,.14);color:#e5484d;}
+.ti-rk-m{background:rgba(245,158,11,.16);color:#d97706;}
+.ti-rk-l{background:rgba(34,197,94,.14);color:#16a34a;}
+.ti-quote{border-left:3px solid var(--accent-purple);padding:4px 0 4px 14px;margin:10px 0;font-size:12px;color:var(--text-secondary);line-height:1.6;font-style:italic;}
 .dd-empty{margin:24px;padding:30px 26px;font-size:13px;color:var(--text-muted);font-style:italic;line-height:1.6;background:var(--bg-main);border:1px dashed var(--border-strong);border-radius:12px;text-align:center;}
 .dd-wrap{padding:22px 24px 26px;}
 .dd-sec-lbl{font-size:10px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-purple);margin-bottom:5px;}
@@ -1040,6 +1090,174 @@ const ETF_NOTES = {
 };
 
 
+// ─── TEACH-IN / BUSINESS MODEL (deep operacional) ────────────────────────────
+// Só ASML por enquanto. Fonte: ASML press releases (Q1'25–Q2'26) e Investor Day 2024.
+const TEACHIN = { 'ASML': true };
+
+function buildTeachinASML(){
+  const P='#7c3aed', P2='#a855f7', P3='#c084fc', P4='#ddd6fe';
+  const seg = (arr)=>`<div class="ti-seg">${arr.map(s=>`<div class="ti-seg-p" style="width:${s.pct}%;background:${s.c};">${s.pct>=12?s.name+' '+s.pct+'%':''}</div>`).join('')}</div>`
+    +`<div class="ti-legend">${arr.map(s=>`<span><i class="ti-dot" style="background:${s.c}"></i>${s.name} · ${s.pct}%</span>`).join('')}</div>`;
+  const bar = (name,pct,val)=>`<div class="ti-bar-row"><div class="ti-bar-name">${name}</div><div class="ti-bar-track"><div class="ti-bar-fill" style="width:${pct}%"></div></div><div class="ti-bar-val">${val}</div></div>`;
+  const tbl = (cols,rows)=>`<div class="ti-table-wrap"><table class="ti-table"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  const rk = l=>l==='H'?'<span class="ti-rk ti-rk-h">High</span>':l==='M'?'<span class="ti-rk ti-rk-m">Med</span>':'<span class="ti-rk ti-rk-l">Low</span>';
+
+  return `<div class="ti-wrap">
+    <div class="ti-block">
+      <div class="ti-lbl">Institutional Teach-In · ASML Holding N.V. (NASDAQ / EURONEXT: ASML)</div>
+      <div class="ti-sub">Senior WFE analyst deep-dive — lithography engineering, chip supply/demand, geopolitics and valuation. Reported figures through Q2 2026 (quarter ended 28 Jun 2026); ASP ranges and multiples are market estimates.</div>
+      <div class="ti-kpis">
+        <div class="ti-kpi"><div class="ti-kpi-v">~$1,815</div><div class="ti-kpi-l">Share price (NASDAQ, Jul 2026)</div><div class="ti-kpi-d ti-pos">+130% / 52w</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">~$700 bn</div><div class="ti-kpi-l">Market cap</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">€38.8 bn</div><div class="ti-kpi-l">Order backlog (end-2025)</div><div class="ti-kpi-d">EUV = 65%</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">€43–45 bn</div><div class="ti-kpi-l">FY2026 revenue guide</div><div class="ti-kpi-d ti-pos">raised twice</div></div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 1</span>Investment Thesis &amp; The Global Chokepoint</div>
+      <div class="ti-quote">ASML is the natural monopoly of the AI era: the sole supplier of the one tool — EUV lithography — that every leading-edge chip on earth must pass through. It is mispriced as a cyclical equipment maker when it is really a toll booth on digital sovereignty, with 30%+ ROIC, an annuity-like service base, and a 15-year technology lead no rival can close.</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Where ASML sits in the Wafer Fab Equipment (WFE) stack</div>
+        <div class="ti-card-s">Chipmaking runs deposition → lithography → etch → metrology, repeated 80–100+ times per wafer. ASML owns one step outright.</div>
+        ${tbl(['Process step','What it does','ASML share','Main players'],[
+          ['Deposition','Lay down thin films','<span class="ti-no">Not present</span>','Applied Materials, Lam, TEL'],
+          ['<span class="hl">Lithography</span>','Print the circuit pattern','<span class="ti-yes">~90% · 100% of EUV</span>','ASML (Nikon/Canon: DUV only)'],
+          ['Etch','Remove material selectively','<span class="ti-no">Not present</span>','Lam Research, TEL, AMAT'],
+          ['Metrology &amp; inspection','Measure &amp; find defects','Small (~€1 bn/yr)','KLA (leader), Applied, ASML'],
+        ])}
+        <div class="ti-note"><b>The chokepoint:</b> no fab in the world — TSMC, Samsung, Intel Foundry — can manufacture below 7nm/5nm/3nm/2nm without ASML EUV. Lithography defines the smallest feature; every other step works around what the scanner prints. That single-step dependency is the entire thesis.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 2</span>Economic Moat &amp; Engineering of the Entry Barrier</div>
+      <div class="ti-card">
+        <div class="ti-card-t">The supplier ecosystem — an irreproducible cluster</div>
+        <div class="ti-card-s">An EUV machine has ~100,000 parts from 5,000+ suppliers. The critical ones are single-source and partly ASML-owned.</div>
+        ${tbl(['Component','Supplier','Why it is a barrier'],[
+          ['Optics / mirrors','Carl Zeiss SMT','Sub-nanometre precision mirrors; ASML owns 24.9% and co-funds R&D. No substitute exists.'],
+          ['CO₂ drive laser','Trumpf','Highest-power industrial laser ever commercialised; fires ~50,000×/sec at tin droplets.'],
+          ['Light source','Cymer','Generates 13.5nm plasma from tin droplets. ASML-owned since 2013.'],
+          ['Mechatronics','VDL, Neways, Prodrive','Dutch precision cluster built over decades — hard to relocate or clone.'],
+        ])}
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Switching costs, IP &amp; pricing power (the Buffett/Ackman lens)</div>
+        <div class="ti-note"><b>Absolute tech barrier:</b> 40+ years and tens of billions of accumulated R&D; EUV alone took 20+ years to commercialise. <b>IP &amp; switching costs:</b> tens of thousands of patents plus customer processes tuned to ASML tools — Nikon and Canon were left stranded in legacy DUV and have no EUV program. <b>Pricing power:</b> ASML sets prices on €200M–€400M tools and passes through cost inflation without losing demand — the definition of a price maker, not a price taker.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 3</span>Product Roadmap &amp; Unit Economics</div>
+      <div class="ti-card">
+        <div class="ti-card-t">The resolution ladder — DUV vs EUV vs High-NA EUV</div>
+        ${tbl(['','DUV (immersion)','Low-NA EUV','High-NA EUV'],[
+          ['Wavelength','193 nm (ArFi)','13.5 nm','13.5 nm'],
+          ['Numerical aperture','1.35','0.33','<span class="hl">0.55</span>'],
+          ['Flagship tool','NXT:2100i','NXE:3800E','EXE:5000 → 5200B'],
+          ['ASP (list, approx.)','€10–90 M','~€200 M','<span class="hl">~€350–400 M</span>'],
+          ['Node use','Mature → advanced layers','5nm–2nm','Sub-2nm / 1.4nm'],
+          ['Status','Workhorse, huge base','Current profit engine','Ramping (1st 5200B shipped Q2 2025)'],
+          ['Competition','Nikon, Canon','<span class="ti-yes">None</span>','<span class="ti-yes">None</span>'],
+        ])}
+        <div class="ti-note"><b>Why High-NA matters:</b> 0.55 NA prints finer features in a single exposure, replacing multiple Low-NA passes (fewer steps, better yield). The ASP uplift (~€350M vs ~€200M) drives revenue-per-unit up ~75%, amplifying growth beyond unit volume — the core model lever.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">New systems shipped / quarter</div>
+        ${bar('Q1 2025',78,'73')}${bar('Q2 2025',71,'67')}${bar('Q3 2025',70,'66')}${bar('Q4 2025',100,'94')}${bar('Q1 2026',71,'67')}${bar('Q2 2026',91,'86')}
+        <div class="ti-note" style="margin-top:8px;">FY2025: <b>300 new systems</b> → ~€24.5 bn of system sales → blended ASP ~€82M. Few machines, enormous tickets — the mix (High-NA vs DUV) matters more than the count.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Installed Base Management (IBM) — the recurring, high-margin annuity</div>
+        ${seg([{name:'Systems (new+used)',pct:75,c:P},{name:'IBM (service + upgrades)',pct:25,c:P3}])}
+        <div class="ti-note" style="margin-top:10px;">Service + field upgrades on the installed base run 15–20 years per tool. FY2025 IBM was €8.2 bn (25%); in <b>Q2 2026 it hit €2.76 bn (30% of revenue)</b> and pushed gross margin above guidance. This is the anti-cyclical ballast of the model.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 4</span>Secular Drivers &amp; The Business Narrative</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Long-term catalysts</div>
+        <div class="ti-note"><b>① AI infrastructure:</b> GPUs, NPUs and High-Bandwidth Memory (HBM) all require leading-edge logic and advanced DRAM — the most litho-intensive chips. Memory rose to 34% of 2025 sales and 40% of backlog. <br><br><b>② Megatrends:</b> EVs / autonomous vehicles, hyperscale data centres and cloud keep mature-node DUV demand alive (auto, IoT, industrial). <br><br><b>③ Reshoring / sovereign fabs:</b> the US CHIPS Act, EU Chips Act and Asian subsidies duplicate capacity across regions — the same wafer demand built in more places means <b>more tools sold</b>. <br><br><b>④ Rising litho intensity:</b> each new node needs more EUV layers per wafer, so ASML content grows even when wafer volumes are flat.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 5</span>Financials, Key Metrics &amp; Capital Allocation</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Reported quarterly track record (€ bn unless noted)</div>
+        ${tbl(['Quarter','Revenue','Gross margin','IBM sales','New units','EPS (€)'],[
+          ['Q1 2025','7.74','54.0%','2.00','73','6.00'],
+          ['Q2 2025','7.69','53.7%','2.10','67','5.90'],
+          ['Q3 2025','7.52','51.6%','1.96','66','5.49'],
+          ['Q4 2025','9.72','52.2%','2.13','94','7.35'],
+          ['Q1 2026','8.77','53.0%','2.49','67','7.15'],
+          ['<b>Q2 2026</b>','<b>9.33</b>','<b>54.0%</b>','<b>2.76</b>','<b>86</b>','<b>7.59</b>'],
+        ])}
+        <div class="ti-note">FY2025 revenue €32.7 bn (+15%). <b>FY2026 guided €43–45 bn, GM 54–56%.</b> Q3 2026 guide €11.0–12.0 bn.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Backlog, book-to-bill &amp; the margin bridge</div>
+        <div class="ti-note"><b>Backlog</b> €38.8 bn at end-2025 (EUV 65%) gives 12–24 months of visibility. ASML <b>stopped disclosing quarterly bookings from Q1 2026</b> (lumpy large orders distorted the read); backlog is now an annual figure. <b>Gross-margin levers:</b> product mix (EUV/High-NA up = margin up), IBM upgrade intensity, and fixed-cost coverage at higher volumes — all three worked in H1 2026.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Returns &amp; capital allocation</div>
+        <div class="ti-kpis" style="margin-bottom:6px;">
+          <div class="ti-kpi"><div class="ti-kpi-v">~66%</div><div class="ti-kpi-l">ROIC</div></div>
+          <div class="ti-kpi"><div class="ti-kpi-v">~54%</div><div class="ti-kpi-l">ROE</div></div>
+          <div class="ti-kpi"><div class="ti-kpi-v">~14%</div><div class="ti-kpi-l">R&amp;D / revenue</div></div>
+          <div class="ti-kpi"><div class="ti-kpi-v">€7.50</div><div class="ti-kpi-l">2025 DPS · +17% y/y</div></div>
+        </div>
+        <div class="ti-note">R&D (~€4.5–5 bn/yr) is essential, not discretionary — it funds the moat. High FCF conversion funds a growing dividend plus a new <b>€12 bn 2026–2028 buyback</b> (ASML has retired a large share count over the past decade). Minimal net debt.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 6</span>Risk Matrix &amp; Geopolitics</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Key risks (likelihood × impact)</div>
+        ${tbl(['Risk','Likelihood','Impact','Note'],[
+          ['US/NL export controls on China',rk('H'),rk('M'),'China was 33% of 2025 sales; guided to decline significantly in 2026. EUV already banned to China; DUV (NXT:1980Di) restricted.'],
+          ['Customer concentration (Big 3)',rk('M'),rk('H'),'TSMC, Samsung, Intel drive the leading-edge capex cycle; any capex pause hits order intake.'],
+          ['Single-source suppliers',rk('L'),rk('H'),'Zeiss / Trumpf / Cymer dependency — a disruption at one German/Dutch partner stalls output.'],
+          ['High-NA adoption slips',rk('M'),rk('M'),'Timing / yield risk on EXE ramp at Intel, TSMC, Samsung.'],
+          ['Semi capex downturn',rk('M'),rk('H'),'Multi-year digestion (2023-style) could compress orders and the multiple.'],
+        ])}
+        <div class="ti-note"><b>Geopolitics:</b> ASML sits at the centre of the US–China tech conflict. Washington leans on The Hague to restrict shipments; near-term this caps China revenue, but it also entrenches ASML as strategically indispensable and blunts any Chinese domestic-litho threat.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 7</span>Valuation, Scenarios &amp; The Bottom Line</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Multiples — premium, but for monopoly quality</div>
+        ${tbl(['Metric','Current','~5-yr avg','Read'],[
+          ['Forward P/E','~31x','~33x','Near/below its own history despite higher growth'],
+          ['Trailing P/E','~56x','—','Elevated on a low-earnings base year'],
+          ['EV/EBITDA','~43x','~26x','Rich vs history — prices in the AI/High-NA ramp'],
+          ['P/FCF','~52x','—','FCF yield ~1.9%'],
+          ['Div yield','~0.9%','—','Growing double-digit annually'],
+        ])}
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Reverse-DCF / what is priced in (the Damodaran narrative)</div>
+        <div class="ti-note">At ~$700 bn, the market is embedding sustained mid-teens revenue CAGR to the 2030 model (<b>€44–60 bn revenue, 56–60% gross margin</b> from the 2024 Investor Day) with margins holding near record highs. The debate is not the moat — it is whether AI capex sustains that trajectory or normalises. Next Capital Markets Day: <b>10 Jun 2027</b>.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Scenario framing (3–5 yr)</div>
+        ${tbl(['Scenario','2030 revenue','Driver','Implication'],[
+          ['<span class="ti-yes">Bull</span>','€60 bn+','High-NA ASP uplift + AI/HBM super-cycle + reshoring double-build','Re-rating; EPS compounds well above consensus'],
+          ['<b>Base</b>','€44–50 bn','Steady EUV adoption, IBM growth, China normalises','Mid-teens growth; premium multiple sustained'],
+          ['<span style="color:#e5484d;font-weight:800;">Bear</span>','&lt;€40 bn','Capex digestion + China controls widen + High-NA slips','20–25% earnings hit, multiple compresses to ~25x'],
+        ])}
+      </div>
+      <div class="ti-quote">Bottom line — a rare compounder: monopoly economics, an annuity service base, and structural AI tailwinds, priced at a deserved premium. The risk/reward over 3–5 years favours owners who can tolerate cyclicality and headline geopolitical volatility; the main things that break the thesis are a multi-year capex winter or a High-NA execution stumble. Not investment advice — Pedro's own research framework.</div>
+      <div class="ti-src">Sources: ASML press releases Q1 2025–Q2 2026 (asml.com/investors); ASML 2024 Investor Day; market data (stockanalysis.com, macrotrends) as of Jul 2026. Reported figures exact; ASPs, multiples and scenarios are analyst estimates.</div>
+    </div>
+  </div>`;
+}
+
 // ─── HISTORICAL FINANCIALS — QUARTERLY (Q1 2022 – Q4 2024, 12 quarters) ────────
 // Arrays indexed 0–11: Q1'22 Q2'22 Q3'22 Q4'22 | Q1'23 Q2'23 Q3'23 Q4'23 | Q1'24 Q2'24 Q3'24 Q4'24
 // All monetary values in native reporting currency (see comment per company)
@@ -1146,17 +1364,18 @@ const FIN = {
     buyback:[0,0,0,0,0,0.3,0,0,0,0,0.3,0.35],
     netdebt:[null,null,null,null,null,null,null,null,null,null,null,null],
   },
-  'ASML': { // ASML — EUR billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [3.53,  5.41,  5.78,  6.43,  6.75,  6.90,  6.67,  7.24,  5.29,  6.24,  7.47,  9.26],
-    gp:    [1.41,  2.19,  2.34,  2.59,  2.90,  2.97,  2.86,  3.19,  2.17,  2.56,  3.14,  3.97],
-    ebitda:[1.05,  1.70,  1.80,  2.05,  2.30,  2.35,  2.20,  2.45,  1.65,  2.00,  2.48,  3.15],
-    ni:    [0.69,  1.40,  1.70,  1.82,  2.04,  1.94,  1.88,  2.00,  1.22,  1.58,  2.08,  2.69],
-    eps:   [1.74,  3.54,  4.29,  4.60,  5.18,  4.93,  4.78,  5.08,  3.11,  4.01,  5.28,  6.85],
-    capex: [0.22,  0.24,  0.26,  0.29,  0.29,  0.30,  0.33,  0.32,  0.32,  0.33,  0.35,  0.40],
-    div:   [0,     0,     0,     3.10,  0,     0,     0,     3.40,  0,     0,     0,     3.50],
-    buyback:[0.8,  0.8,  0.7,   0.4,   0.9,   0.9,   0.9,   0.8,   0.7,   0.6,   0.6,   0.6],
-    netdebt:[-5.8, -5.8, -5.6,  -5.5,  -5.5,  -5.6,  -5.5,  -5.5,  -5.0,  -4.8,  -4.5,  -4.0],
+  'ASML': { // ASML — EUR billions · fonte: ASML press releases (US GAAP). GM histórica corrigida.
+    src:'ASML', asof:'Q2 2026',
+    q:['Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24','Q1\'25','Q2\'25','Q3\'25','Q4\'25','Q1\'26','Q2\'26'],
+    rev:   [6.67,  7.24,  5.29,  6.24,  7.47,  9.26,  7.74,  7.69,  7.52,  9.72,  8.77,  9.33],
+    gp:    [3.46,  3.72,  2.70,  3.21,  3.79,  4.79,  4.18,  4.13,  3.88,  5.07,  4.65,  5.04],
+    ebitda:[2.39,  2.65,  1.53,  2.04,  2.62,  3.62,  2.96,  2.91,  2.64,  3.83,  3.38,  3.72],
+    ni:    [1.88,  2.00,  1.22,  1.58,  2.08,  2.69,  2.36,  2.29,  2.13,  2.84,  2.76,  2.92],
+    eps:   [4.78,  5.08,  3.11,  4.01,  5.28,  6.85,  6.00,  5.90,  5.49,  7.35,  7.15,  7.59],
+    capex: [0.33,  0.32,  0.32,  0.33,  0.35,  0.40,  0.40,  0.42,  0.42,  0.45,  0.45,  0.48],
+    div:   [0,     3.40,  0,     0,     0,     3.50,  0,     2.10,  0.63,  0.63,  0,     0.74],
+    buyback:[0.9,  0.8,   0.7,   0.6,   0.6,   0.6,   2.70,  1.40,  0.15,  0.50,  1.10,  1.10],
+    netdebt:[-5.5, -5.5,  -5.0,  -4.8,  -4.5,  -4.0,  -4.6,  -2.8,  -0.6,  -8.8,  -3.9,  -3.1],
   },
   'BLK': { // BlackRock — SEC EDGAR (10-Q/10-K), USD bi · até Q1 2026. GP não reportado; div/recompra parciais (troca de CIK em 2024).
     src:'SEC EDGAR', asof:'Q1 2026',
@@ -2263,13 +2482,15 @@ function renderCoPanel(p) {
       <button class="co-tab" onclick="switchCoTab(this,'historia')">History</button>
       <button class="co-tab" onclick="switchCoTab(this,'regulacao')">Regulation</button>
       <button class="co-tab" onclick="switchCoTab(this,'industria')">Industry &amp; Peers</button>
+      ${TEACHIN[p.t] ? `<button class="co-tab" onclick="switchCoTab(this,'teachin')">Teach-in</button>` : ''}
     </div>
     <div class="co-tabpanel show" data-cotab="tese">${teseTab}</div>
     <div class="co-tabpanel" data-cotab="drivers">${driversPanel}</div>
     <div class="co-tabpanel" data-cotab="horizonte">${horizonPanel}</div>
     <div class="co-tabpanel" data-cotab="historia">${historyPanel}</div>
     <div class="co-tabpanel" data-cotab="regulacao">${regPanel}</div>
-    <div class="co-tabpanel" data-cotab="industria">${industryPanel}</div>`;
+    <div class="co-tabpanel" data-cotab="industria">${industryPanel}</div>
+    ${TEACHIN[p.t] ? `<div class="co-tabpanel" data-cotab="teachin">${buildTeachinASML()}</div>` : ''}`;
   panel.classList.add('fx-on');
   requestAnimationFrame(() => {
     renderCharts(p.t);
