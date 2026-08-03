@@ -72,31 +72,35 @@ CFG = {
     "PLTR": dict(cik=["0001321655"],
                  rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
                  gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"], div=[], **COMMON),
-    # ── Energia / datacenter (jul/2026). Geradoras raramente publicam GrossProfit:
-    # cogs= habilita o fallback  GrossProfit = Revenues - CostOfGoodsAndServicesSold.
-    # Se nem isso existir, gp fica vazio e o EBIT (OperatingIncomeLoss) e a referencia.
+    # ── Energia / datacenter (jul/2026). Tags CONFIRMADAS pelo validate_ciks.py
+    # na execucao de 03/08/2026 (Actions -> test.yml). Nao alterar sem revalidar.
+    #
+    # CEG e VST: nao publicam GrossProfit NEM CostOfGoodsAndServicesSold -> gp=[]
+    # de proposito, EBIT (OperatingIncomeLoss) e a linha de referencia. Sem `cogs`
+    # aqui porque o fallback nao tem de onde partir e so gastaria chamadas na SEC.
+    # rev fixada numa unica tag: as duas empresas tambem expoem uma alternativa, e
+    # como o parser mescla tags por data, deixar duas misturaria definicoes
+    # diferentes de receita na mesma serie. Uma tag so falha visivelmente; duas
+    # falham em silencio.
     "CEG":  dict(cik=["0001868275"],
-                 rev=["Revenues", "RegulatedAndUnregulatedOperatingRevenue",
-                      "RevenueFromContractWithCustomerExcludingAssessedTax"],
-                 gp=["GrossProfit"],
-                 cogs=["CostOfGoodsAndServicesSold", "CostOfRevenue",
-                       "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization"],
-                 ebitda=["OperatingIncomeLoss"],
+                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax"],
+                 gp=[], ebitda=["OperatingIncomeLoss"],
                  div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
     "VST":  dict(cik=["0001692819"],
-                 rev=["Revenues", "RegulatedAndUnregulatedOperatingRevenue",
-                      "RevenueFromContractWithCustomerExcludingAssessedTax"],
-                 gp=["GrossProfit"],
-                 cogs=["CostOfGoodsAndServicesSold", "CostOfRevenue",
-                       "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization"],
-                 ebitda=["OperatingIncomeLoss"],
+                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax"],
+                 gp=[], ebitda=["OperatingIncomeLoss"],
                  div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
+    # GEV publica GrossProfit e COGS -> entra completa; cogs= fica como rede de
+    # seguranca caso a empresa pare de reportar a linha de margem bruta.
     "GEV":  dict(cik=["0001996810"],
-                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax"],
                  gp=["GrossProfit"],
                  cogs=["CostOfGoodsAndServicesSold", "CostOfRevenue"],
                  ebitda=["OperatingIncomeLoss"],
-                 div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
+                 div=["PaymentsOfDividends", "PaymentsOfDividendsCommonStock"],
+                 capex=["PaymentsToAcquireProductiveAssets",
+                        "PaymentsToAcquirePropertyPlantAndEquipment"],
+                 **{k: COMMON[k] for k in ("ni", "eps", "buyback")}),
     # Estrangeiras (ASML/TSM/RACE/ABI/NU): foreign private issuers (so 20-F anual na SEC)
     # -> cobertas em fetch_intl.py (Yahoo fundamentals timeseries; IR do pais como referencia).
 }
