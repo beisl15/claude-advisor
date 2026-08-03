@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+_run.log
+_validation_*.json
+.DS_Store
+Thumbs.db

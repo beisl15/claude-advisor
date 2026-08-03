@@ -33,14 +33,17 @@ US_CIKS = {
     "AAPL": "0000320193", "AMD": "0000002488", "INTC": "0000050863",
     "MRVL": "0001835632", "AVGO": "0001730168", "VZ": "0000732712",
     "TMUS": "0001283699", "T": "0000732717",
+    # Software + energia/datacenter (jul/2026) — todas domesticas, arquivam Form 4
+    "ORCL": "0001341439", "NOW": "0001373715", "PLTR": "0001321655",
+    "CEG": "0001868275", "VST": "0001692819", "GEV": "0001996810",
 }
 
 # ticker -> substring de Nome_Companhia no VLMO (mesma convencao do fetch_br.py)
 BR_NAMES = {
     "SMFT3": "SMART FIT", "PRIO3": "PRIO", "SBSP3": "SANEAMENTO BASICO",
-    "PETR4": "PETROLEO BRASILEIRO", "VALE3": "VALE S.A",
-    "VIVT3": "TELEFONICA BRASIL", "TIMS3": "TIM S.A", "TOTS3": "TOTVS",
-    "ABEV3": "AMBEV", "CSMG3": "COPASA", "ITUB4": "ITAU UNIBANCO",
+    "PETR4": "PETROLEO BRASILEIRO",
+    "VIVT3": "TELEFONICA BRASIL", "TIMS3": "TIM S.A",
+    "ABEV3": "AMBEV", "ITUB4": "ITAU UNIBANCO",
     "BPAC11": "BTG PACTUAL",
 }
 

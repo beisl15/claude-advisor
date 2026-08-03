@@ -60,6 +60,43 @@ CFG = {
                  gp=[], ebitda=["OperatingIncomeLoss"], div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
     "T":    dict(cik=["0000732717"], rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
                  gp=[], ebitda=["OperatingIncomeLoss"], div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
+    # ── Software (jul/2026). Padrao de software: GrossProfit publicado normalmente.
+    # ORCL: ano fiscal fecha em MAIO -> fy_end=5 (ver qlabel/nota de fiscal abaixo).
+    "ORCL": dict(cik=["0001341439"], fy_end=5,
+                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+                 gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"],
+                 div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
+    "NOW":  dict(cik=["0001373715"],
+                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+                 gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"], div=[], **COMMON),
+    "PLTR": dict(cik=["0001321655"],
+                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+                 gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"], div=[], **COMMON),
+    # ── Energia / datacenter (jul/2026). Geradoras raramente publicam GrossProfit:
+    # cogs= habilita o fallback  GrossProfit = Revenues - CostOfGoodsAndServicesSold.
+    # Se nem isso existir, gp fica vazio e o EBIT (OperatingIncomeLoss) e a referencia.
+    "CEG":  dict(cik=["0001868275"],
+                 rev=["Revenues", "RegulatedAndUnregulatedOperatingRevenue",
+                      "RevenueFromContractWithCustomerExcludingAssessedTax"],
+                 gp=["GrossProfit"],
+                 cogs=["CostOfGoodsAndServicesSold", "CostOfRevenue",
+                       "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization"],
+                 ebitda=["OperatingIncomeLoss"],
+                 div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
+    "VST":  dict(cik=["0001692819"],
+                 rev=["Revenues", "RegulatedAndUnregulatedOperatingRevenue",
+                      "RevenueFromContractWithCustomerExcludingAssessedTax"],
+                 gp=["GrossProfit"],
+                 cogs=["CostOfGoodsAndServicesSold", "CostOfRevenue",
+                       "CostOfGoodsAndServiceExcludingDepreciationDepletionAndAmortization"],
+                 ebitda=["OperatingIncomeLoss"],
+                 div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
+    "GEV":  dict(cik=["0001996810"],
+                 rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+                 gp=["GrossProfit"],
+                 cogs=["CostOfGoodsAndServicesSold", "CostOfRevenue"],
+                 ebitda=["OperatingIncomeLoss"],
+                 div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
     # Estrangeiras (ASML/TSM/RACE/ABI/NU): foreign private issuers (so 20-F anual na SEC)
     # -> cobertas em fetch_intl.py (Yahoo fundamentals timeseries; IR do pais como referencia).
 }
@@ -88,6 +125,20 @@ def concept(cik, tag):
 def qlabel(end):
     y, m, _ = map(int, end.split("-")[:3])
     return f"CY{y}Q{(m - 1) // 3 + 1}", f"Q{(m - 1) // 3 + 1}'{str(y)[2:]}"
+
+
+def fqlabel(end, fy_end):
+    """Rotulo do trimestre FISCAL para empresas com exercicio nao-calendario.
+
+    fy_end = mes em que o ano fiscal fecha (ORCL = 5, ou seja, maio).
+    Ex.: trimestre terminado em 2026-08-31 da Oracle -> Q1 FY27 (nao 'Q3 2026').
+    O rotulo civil continua em `q` para os graficos nao mudarem de eixo; este vai
+    em `qf` e evita a leitura errada de sobreposicao com o calendario civil.
+    """
+    y, m, _ = map(int, end.split("-")[:3])
+    fq = ((m - fy_end - 1) % 12) // 3 + 1          # 1..4 dentro do ano fiscal
+    fy = y + 1 if m > fy_end else y                # exercicio a que o trimestre pertence
+    return f"Q{fq} FY{str(fy)[2:]}"
 
 
 def quarterly(units):
@@ -172,10 +223,39 @@ def main():
             buyback=col(c.get("buyback", [])),
             netdebt=[None] * len(ends),
         )
+
+        # ── Ano fiscal nao-calendario (ORCL fecha em maio) ────────────────────
+        # Mantem o rotulo civil em `q` (eixo dos graficos) e acrescenta o rotulo
+        # fiscal em `qf`, para o trimestre nao ser lido como se fosse o civil.
+        if c.get("fy_end"):
+            entry["fy_end"] = c["fy_end"]
+            entry["qf"] = [fqlabel(e, c["fy_end"]) for e in ends]
+            entry["asof"] = entry["qf"][-1]
+            if len(set(labels)) != len(labels):
+                print(f"!! {tk}: rotulos civis repetidos ({labels}) — usar qf",
+                      file=sys.stderr)
+
+        # ── Fallback de margem bruta (geradoras: CEG, VST, GEV) ───────────────
+        # Utilities raramente publicam a tag GrossProfit. Sem isso a linha de
+        # margem bruta viria vazia e pareceria bug. Ordem: GrossProfit ->
+        # Revenues - CostOfGoodsAndServicesSold -> nada (EBIT vira a referencia).
+        if c.get("cogs") and all(v is None for v in entry["gp"]):
+            cogs = col(c["cogs"])
+            derivado = [round(r - k, 3) if (r is not None and k is not None) else None
+                        for r, k in zip(entry["rev"], cogs)]
+            if any(v is not None for v in derivado):
+                entry["gp"] = derivado
+                entry["gp_src"] = "derivado: Revenues - CostOfGoodsAndServicesSold"
+                print(f"   {tk}: sem GrossProfit na SEC -> margem bruta derivada de COGS")
+            else:
+                entry["gp_src"] = "indisponivel (usar EBIT/OperatingIncomeLoss)"
+                print(f"   {tk}: sem GrossProfit e sem COGS -> gp vazio, EBIT e a referencia")
+
         if c.get("equity"):
             entry["equity"] = col_inst(c["equity"])
         out[tk] = entry
-        print(f"ok {tk}: {labels[0]}..{labels[-1]} rev_last={entry['rev'][-1]}")
+        print(f"ok {tk}: {entry.get('qf', labels)[0]}..{entry.get('qf', labels)[-1]} "
+              f"rev_last={entry['rev'][-1]}")
 
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as f:

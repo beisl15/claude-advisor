@@ -29,7 +29,8 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 PER_REGION = 15                 # headlines kept per region
 POOL_PER_REGION = 80           # candidates considered per region before ranking
 PORTFOLIO = ("GOOGL MSFT META AMZN NVDA MU ASML JPM BLK AAPL AMD AVGO TSM MELI RACE "
-             "Nubank PRIO Sabesp Copasa Smartfit Vale Itau Petrobras Ambev TOTVS Vivo TIM BTG")
+             "ORCL ServiceNow Palantir 'Constellation Energy' Vistra 'GE Vernova' "
+             "Nubank PRIO Sabesp Smartfit Itau Petrobras Ambev Vivo TIM BTG")
 
 
 def gnews(query, lang="en"):
@@ -50,11 +51,11 @@ def gdelt(query, timespan="1d"):
 # GDELT global sweep: (region, source_name, query). Wide net — the ranking
 # funnel (RULES / AI curation) filters the noise downstream.
 GDELT_FEEDS = [
-    ("BR",    "GDELT BR",       gdelt('(ibovespa OR selic OR petrobras OR vale OR "banco central") sourcelang:por')),
+    ("BR",    "GDELT BR",       gdelt('(ibovespa OR selic OR petrobras OR "banco central" OR b3) sourcelang:por')),
     ("US",    "GDELT US",       gdelt('("stock market" OR nasdaq OR "federal reserve" OR earnings) sourcelang:eng sourcecountry:US')),
     ("US",    "GDELT AI",       gdelt('("artificial intelligence" OR nvidia OR semiconductor OR datacenter) sourcelang:eng')),
     ("WORLD", "GDELT Markets",  gdelt('("global markets" OR "central bank" OR inflation OR tariff) sourcelang:eng')),
-    ("WORLD", "GDELT Commod",   gdelt('("oil price" OR opec OR "iron ore" OR copper OR commodities) sourcelang:eng')),
+    ("WORLD", "GDELT Commod",   gdelt('("oil price" OR opec OR "natural gas" OR uranium OR "power prices") sourcelang:eng')),
 ]
 
 
@@ -106,6 +107,11 @@ COMPANY_FEEDS = [
     ("US", "AMD",           "AMD stock when:2d", "en"),
     ("US", "AVGO",          "Broadcom stock when:2d", "en"),
     ("US", "MU",            "Micron HBM memory when:2d", "en"),
+    ("US", "ORCL",          "Oracle (OCI OR cloud OR stock) when:2d", "en"),
+    ("US", "NOW",           "ServiceNow (stock OR earnings OR AI agents) when:2d", "en"),
+    ("US", "PLTR",          "Palantir (stock OR AIP OR government contract) when:2d", "en"),
+    ("US", "CEG · VST",     "(Constellation Energy OR Vistra) (nuclear OR PPA OR datacenter) when:2d", "en"),
+    ("US", "GEV",           "(\"GE Vernova\" OR GEV) (turbines OR grid OR power) when:3d", "en"),
     ("US", "JPM · BLK",     "(JPMorgan OR BlackRock) when:2d", "en"),
     ("US", "VZ · Telecom",  "(Verizon OR T-Mobile OR AT&T) when:2d", "en"),
     ("WORLD", "ASML · TSM", "(ASML OR TSMC) semiconductors when:2d", "en"),
@@ -113,12 +119,20 @@ COMPANY_FEEDS = [
     ("WORLD", "RACE",       "Ferrari stock when:3d", "en"),
     ("WORLD", "ABI · ABEV", "(AB InBev OR Ambev) when:3d", "en"),
     ("BR", "PETR · PRIO",   "(Petrobras OR PRIO petróleo) when:2d", "pt"),
-    ("BR", "VALE",          "Vale minério when:2d", "pt"),
     ("BR", "ITUB · BTG",    "(Itaú OR BTG Pactual) when:2d", "pt"),
     ("BR", "NU · Fintech",  "(Nubank OR Nu Holdings) when:2d", "pt"),
-    ("BR", "SBSP · CSMG",   "(Sabesp OR Copasa saneamento) when:3d", "pt"),
+    ("BR", "SBSP",          "Sabesp saneamento when:3d", "pt"),
     ("BR", "SMFT",          "Smartfit when:4d", "pt"),
-    ("BR", "TOTS · VIVT",   "(TOTVS OR Vivo Telefônica) when:3d", "pt"),
+    ("BR", "VIVT · TIMS",   "(Vivo Telefônica OR TIM Brasil) when:3d", "pt"),
+    # ── Earnings-focused sweeps (one per region) — so quarterly results never slip ──
+    ("US", "Earnings US",   "(earnings OR results OR quarterly) (Nvidia OR Microsoft OR Meta OR Alphabet OR "
+                            "Amazon OR Apple OR AMD OR Broadcom OR Micron OR Intel OR JPMorgan OR BlackRock OR "
+                            "Oracle OR ServiceNow OR Palantir OR \"Constellation Energy\" OR Vistra OR "
+                            "\"GE Vernova\") when:3d", "en"),
+    ("WORLD", "Earnings WW", "(earnings OR results) (ASML OR TSMC OR MercadoLibre OR Ferrari OR "
+                             "\"AB InBev\") when:3d", "en"),
+    ("BR", "Earnings BR",   "(resultado OR balanço OR lucro líquido) (Petrobras OR Itaú OR Ambev OR "
+                            "Sabesp OR PRIO OR Nubank OR BTG OR Vivo OR TIM OR Smartfit) when:3d", "pt"),
 ]
 
 # Manual reading shortcuts (paywall/login — not scraped)
@@ -133,18 +147,20 @@ MANUAL = [
 ]
 
 RULES = [  # (regex, priority, tag) — used for scoring when no AI key
-    (r"sabesp|saneamento|copasa", 5, "SBSP3 · CSMG3"),
+    (r"sabesp|saneamento", 5, "SBSP3"),
     (r"smart\s?fit|smartfit", 5, "SMFT3"),
     (r"\bprio\b|petrorio|petrobras|petr[oó]leo|brent|\boil\b|crude", 5, "PRIO3 · O&G"),
-    (r"\bvale\b|min[eé]rio|iron ore", 4, "VALE3"),
     (r"micron|\bmu\b|mem[oó]ria|memory|\bhbm\b|semicondutor|semiconductor|chips?|asml", 4, "MU · ASML"),
     (r"nvidia|\bnvda\b", 5, "NVDA"),
+    (r"palantir|\bpltr\b|\bfoundry\b|\bgotham\b|\baip\b", 5, "PLTR"),
+    (r"oracle|\borcl\b|\boci\b", 4, "ORCL"),
+    (r"servicenow|\bnow\b (stock|earnings)|service now", 4, "NOW"),
+    (r"constellation energy|\bceg\b|vistra|\bvst\b|ge vernova|\bgev\b|nuclear (power|plant|ppa)|\bsmr\b", 4, "Power/AI"),
     (r"verizon|t-mobile|tmus|at&t|\bat t\b", 4, "VZ · Telecom"),
     (r"\bmeta\b|google|alphabet|googl|microsoft|\bmsft\b|amazon|\bamzn\b|\baapl\b|apple", 4, "US Big Tech"),
     (r"\bamd\b|broadcom|avgo|marvell|mrvl|intel|\bintc\b|\btsmc\b|\btsm\b", 4, "Semis US"),
     (r"ita[uú]|nubank|nu holdings|bradesco|\bbtg\b|banco|fintech|jpmorgan|\bjpm\b|blackrock|\bblk\b", 3, "Banks/Asset"),
     (r"ambev|cerveja|beer|\babi\b|ab inbev", 3, "ABEV3 · ABI"),
-    (r"totvs", 3, "TOTS3"),
     (r"mercado ?libre|meli", 4, "MELI"), (r"ferrari|\brace\b", 3, "RACE"),
     (r"\bai\b|intelig[eê]ncia artificial|artificial intelligence|datacenter|data center", 3, "AI"),
     (r"selic|copom|\bfed\b|\becb\b|rate cut|rate hike|juros|infla[cç][aã]o|inflation|c[aâ]mbio|d[oó]lar|fiscal|lula|tariff|tarifa", 2, "Macro"),
@@ -271,6 +287,12 @@ def harvest():
     return items, health
 
 
+# Earnings/results signal — boosted so quarterly prints never get buried.
+EARN_RX = re.compile(
+    r"earnings|quarterly result|\bresults?\b|resultado|balan[cç]o|lucro l[ií]quido|"
+    r"q[1-4]\s*(20\d\d|result|earnings|fy)|(1|2|3|4)[tq]2[0-9]|beat[s]?\b|miss(es|ed)?\b|guidance|profit (rose|fell|jump|surge)")
+
+
 def score(it):
     t = it["title"].lower()
     base = 0
@@ -281,7 +303,11 @@ def score(it):
     else:
         btag = "Market"
     if it.get("ftag"):                                     # company-targeted → at least P3
-        return max(base, 3), it["ftag"]
+        base, btag = max(base, 3), it["ftag"]
+    if EARN_RX.search(t):                                  # earnings/results → boost + flag
+        base = min(5, max(base, 3) + 1)
+        if "Earnings" not in btag:
+            btag += " · Earnings"
     return base, btag
 
 
@@ -317,7 +343,9 @@ def llm_curate(pool_by_region, key):
         f"You are a buy-side analyst. Portfolio: {PORTFOLIO}.\n"
         f"Candidate headlines (index, region, title, source):\n" + "\n".join(listing) + "\n\n"
         f"Select the {PER_REGION} most relevant headlines FOR EACH region (BR, US, WORLD). "
-        "Prefer items that move a portfolio name or its sector. For each selected item write, IN ENGLISH, "
+        "Prefer items that move a portfolio name or its sector. GIVE EXTRA WEIGHT to quarterly earnings/results "
+        "of any portfolio name — never drop an earnings print for a holding. "
+        "For each selected item write, IN ENGLISH, "
         "a one-sentence summary and a one-sentence 'provocation' (the implication for the book), plus a short tag "
         "(ticker or theme) and a priority 1-5 (5=critical, 1=awareness).\n"
         'Return ONLY a JSON array: '

@@ -19,10 +19,13 @@ SYMBOLS = {
     "INTC": "INTC", "MRVL": "MRVL", "AVGO": "AVGO", "TSM": "TSM", "MELI": "MELI",
     "ASML": "ASML", "RACE": "RACE", "ABI": "BUD", "ROXO": "NU",
     "VZ": "VZ", "TMUS": "TMUS", "T": "T",
+    # Software + energia/datacenter (jul/2026)
+    "ORCL": "ORCL", "NOW": "NOW", "PLTR": "PLTR",
+    "CEG": "CEG", "VST": "VST", "GEV": "GEV",
     "SMFT3": "SMFT3.SA", "PRIO3": "PRIO3.SA", "SBSP3": "SBSP3.SA",
-    "PETR4": "PETR4.SA", "PETR3": "PETR3.SA", "VALE3": "VALE3.SA", "ITUB4": "ITUB4.SA",
-    "BPAC11": "BPAC11.SA", "VIVT3": "VIVT3.SA", "TIMS3": "TIMS3.SA", "TOTS3": "TOTS3.SA",
-    "ABEV3": "ABEV3.SA", "CSMG3": "CSMG3.SA",
+    "PETR4": "PETR4.SA", "PETR3": "PETR3.SA", "ITUB4": "ITUB4.SA",
+    "BPAC11": "BPAC11.SA", "VIVT3": "VIVT3.SA", "TIMS3": "TIMS3.SA",
+    "ABEV3": "ABEV3.SA",
 }
 
 
