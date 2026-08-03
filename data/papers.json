@@ -1,0 +1,245 @@
+{
+ "asof": "03/08/2026",
+ "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Artificial Intelligence: Supply-Chain Chokepoints and the Reach of Industrial Policy",
+   "url": "https://arxiv.org/abs/2607.29572",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Optimizing Monetization Strategies for Generative AI Firms: Implications for Search Engagement",
+   "url": "https://arxiv.org/abs/2607.28780",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise",
+   "url": "https://arxiv.org/abs/2607.29380",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "SPX-VIX Risk Computations Via Perturbed Optimal Transport",
+   "url": "https://arxiv.org/abs/2603.10857",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Wrong and More Confident: A Field Experiment on Large Language Models Taking a Graduate Economics Exam",
+   "url": "https://arxiv.org/abs/2607.23424",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Harnessing the Wisdom of LLM Crowds through Complementarity-Driven Iterative Collaboration",
+   "url": "https://arxiv.org/abs/2607.29087",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Scaffolding Critical Engagement with GenAI: Transforming Ethnic Minority Preparatory Students' Collaborative Discourse in Prompt Engineering Tasks",
+   "url": "https://arxiv.org/abs/2607.28630",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Unanticipated Effects of Generative AI on Expertise Pathways and Performance Perception in System Administration",
+   "url": "https://arxiv.org/abs/2607.28650",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Sensitivity Analysis of GRU, LSTM and Transformer Encoder in Classification of Automated Driving Systems",
+   "url": "https://arxiv.org/abs/2607.28665",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Predicting Steel Fatigue Life from Micrographs Using Physics-Informed Deep Learning",
+   "url": "https://arxiv.org/abs/2607.28695",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "A user's guide to PINNs in geometric analysis: lessons from the asymptotic Plateau problem",
+   "url": "https://arxiv.org/abs/2607.28733",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Human-LLM Collaborative Inductive Coding for Conceptualizing K-12 Educator AI Use",
+   "url": "https://arxiv.org/abs/2607.28889",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Retrieval-Driven Training-Free AI-Generated Video Attribution",
+   "url": "https://arxiv.org/abs/2607.28955",
+   "date": "03/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied Volatility Forecasting",
+   "url": "https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm",
+   "date": "07/07"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "NBER",
+   "title": "Common Ownership and Collusion -- by Vincent Abraham, Florian Ederer, Catarina Marvao",
+   "url": "https://www.nber.org/papers/w35565#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Geography in Online Capital Allocation: Evidence from Equity-Based Crowdfunding",
+   "url": "https://arxiv.org/abs/2607.29162",
+   "date": "03/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Decoupled Probabilistic Forecasting and Arbitrage-Aware Refinement of Implied Volatility Surfaces",
+   "url": "https://arxiv.org/abs/2607.29220",
+   "date": "03/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Fund Competition under Conflicting ESG Rating Methodologies",
+   "url": "https://arxiv.org/abs/2607.29583",
+   "date": "03/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Measuring Macroeconomic Stars: A Framework with Scarring Effects",
+   "url": "https://www.federalreserve.gov/econres/feds/measuring-macroeconomic-atars-a-framework-with-scarring-effects.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Firms Form Beliefs and the Implications for Inflation",
+   "url": "https://www.federalreserve.gov/econres/feds/how-firms-form-beliefs-and-the-implications-for-inflation.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Standards Are in the Mail: Comparing Credit Card Supply Indicators",
+   "url": "https://www.federalreserve.gov/econres/feds/the-standards-are-in-the-mail-comparing-credit-card-supply-indicators.htm",
+   "date": "02/07"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: An Evaluation of Difference-in-Differences Methods Using Placebo Event Studies",
+   "url": "https://www.federalreserve.gov/econres/feds/an-evaluation-of-difference-in-differences-methods-using-placebo-event-studies.htm",
+   "date": "24/06"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Response of Equity Yields to a Long-Run Shock",
+   "url": "https://www.federalreserve.gov/econres/feds/the-response-of-equity-yields-to-a-long-run-shock.htm",
+   "date": "23/06"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond Reserves: The Federal Reserve's Balance Sheet and the Repo Market",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-reserves-the-federal-reserves-balance-sheet-and-the-repo-market.htm",
+   "date": "22/06"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Spillovers of LSAPs on Banks in the Euro Area(Revised)",
+   "url": "https://www.federalreserve.gov/econres/feds/the-spillovers-of-lsaps-on-banks-in-the-euro-area.htm",
+   "date": "22/06"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Predictive Risk Scores in the Public Sector: Experimental Evidence from Child-Protection Investigations -- by E. Jason Baron, Arkadev Ghosh, Richard Lombardo",
+   "url": "https://www.nber.org/papers/w35540#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "Reserves and the Buyer of Last Resort -- by Frederic Boissay, Harald Uhlig",
+   "url": "https://www.nber.org/papers/w35548#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "The United States and Its Creditors: Assessing Foreign Demand for U.S. Assets -- by Anusha Chari, Gian Maria Milesi Ferretti",
+   "url": "https://www.nber.org/papers/w35555#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "Monetary Policy in Mandarin Capitalism -- by Jeffery (Jinfan) Chang, Wei Xiong",
+   "url": "https://www.nber.org/papers/w35562#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "Incomplete Information and Self-Fulfilling Inflation Dynamics—Lucas meets Keynes -- by Jess Benhabib, Pengfei Wang, Yi Wen",
+   "url": "https://www.nber.org/papers/w35563#fromrss",
+   "date": ""
+  }
+ ]
+}
