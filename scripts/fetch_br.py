@@ -22,12 +22,9 @@ NAMES = {
     "SBSP3": "SANEAMENTO BASICO",
     "PETR4": "PETROLEO BRASILEIRO",
     "PETR3": "PETROLEO BRASILEIRO",
-    "VALE3": "VALE S.A",
     "VIVT3": "TELEFONICA BRASIL",
     "TIMS3": "TIM S.A",
-    "TOTS3": "TOTVS",
     "ABEV3": "AMBEV",
-    "CSMG3": "COPASA",
     # Bancos têm DRE de instituição financeira (sem EBIT/3.05); receita e lucro saem,
     # mas margem EBIT/bruta podem vir vazias — ok, o front mostra o que houver.
     "ITUB4": "ITAU UNIBANCO",

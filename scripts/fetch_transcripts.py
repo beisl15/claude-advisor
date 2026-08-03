@@ -14,7 +14,12 @@ SEC_UA = os.environ.get("SEC_UA", "claude-advisor-dashboard pedro.beisl@gmail.co
 CIK = {"MSFT": "0000789019", "GOGL": "0001652044", "META": "0001326801",
        "AMZN": "0001018724", "JPM": "0000019617", "BLK": "0002012383", "MU": "0000723125",
        "AAPL": "0000320193", "NVDA": "0001045810", "AMD": "0000002488", "INTC": "0000050863",
-       "MRVL": "0001835632", "AVGO": "0001730168", "TSM": "0001046179"}
+       "MRVL": "0001835632", "AVGO": "0001730168", "TSM": "0001046179",
+       # Software + energia/datacenter (jul/2026): 10-Q domesticas, arquivam 8-K item 2.02
+       "ORCL": "0001341439", "NOW": "0001373715", "PLTR": "0001321655",
+       "CEG": "0001868275", "VST": "0001692819", "GEV": "0001996810",
+       # MELI: incorporada em Delaware -> 8-K normal (destrava a prioridade 5)
+       "MELI": "0001099590"}
 IR = {
     "MSFT": "https://www.microsoft.com/en-us/investor",
     "GOGL": "https://abc.xyz/investor/", "META": "https://investor.atmeta.com/",
@@ -22,6 +27,10 @@ IR = {
     "BLK": "https://ir.blackrock.com/", "MU": "https://investors.micron.com/",
     "SMFT3": "https://ri.smartfit.com.br/", "PRIO3": "https://ri.prio3.com.br/",
     "SBSP3": "https://ri.sabesp.com.br/",
+    "ORCL": "https://investor.oracle.com/", "NOW": "https://www.servicenow.com/company/investor-relations.html",
+    "PLTR": "https://investors.palantir.com/", "CEG": "https://investors.constellationenergy.com/",
+    "VST": "https://investor.vistracorp.com/", "GEV": "https://www.gevernova.com/investors",
+    "MELI": "https://investor.mercadolibre.com/",
 }
 
 
