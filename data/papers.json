@@ -5,105 +5,129 @@
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Artificial Intelligence: Supply-Chain Chokepoints and the Reach of Industrial Policy",
-   "url": "https://arxiv.org/abs/2607.29572",
-   "date": "03/08"
+   "title": "Google's AI & Economy ATLAS v1.0: Mapping Gemini Usage in the Economy",
+   "url": "https://arxiv.org/abs/2608.00038",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Optimizing Monetization Strategies for Generative AI Firms: Implications for Search Engagement",
-   "url": "https://arxiv.org/abs/2607.28780",
-   "date": "03/08"
+   "title": "AI and Exchange Rate Predictability",
+   "url": "https://arxiv.org/abs/2608.00761",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The Tragedy of the Cognitive Commons: How AI Could Disrupt the Regeneration of Professional Expertise",
-   "url": "https://arxiv.org/abs/2607.29380",
-   "date": "03/08"
+   "title": "Data-Driven Measures of High-Frequency Trading",
+   "url": "https://arxiv.org/abs/2608.00858",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "Semis",
    "src": "arXiv q-fin",
-   "title": "SPX-VIX Risk Computations Via Perturbed Optimal Transport",
-   "url": "https://arxiv.org/abs/2603.10857",
-   "date": "03/08"
+   "title": "Battery Storage Co-Optimization in Day-Ahead and Real-Time Markets with Bayesian Optimization",
+   "url": "https://arxiv.org/abs/2608.00911",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Wrong and More Confident: A Field Experiment on Large Language Models Taking a Graduate Economics Exam",
-   "url": "https://arxiv.org/abs/2607.23424",
-   "date": "03/08"
+   "title": "Do Humans Bargain Differently with AI? Evidence from Alternating-Offer Games",
+   "url": "https://arxiv.org/abs/2608.01212",
+   "date": "04/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Do people rely on ChatGPT more than their peers to detect deepfake news?",
+   "url": "https://arxiv.org/abs/2608.01540",
+   "date": "04/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications",
+   "url": "https://arxiv.org/abs/2608.01607",
+   "date": "04/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Navigating the skill diversity frontier: How skill complexity explains worker resilience",
+   "url": "https://arxiv.org/abs/2608.02102",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Harnessing the Wisdom of LLM Crowds through Complementarity-Driven Iterative Collaboration",
-   "url": "https://arxiv.org/abs/2607.29087",
-   "date": "03/08"
+   "title": "Can LLM Agents Price Competitively? A Dynamic Multi-Attribute Auction Benchmark for Agentic Commerce",
+   "url": "https://arxiv.org/abs/2608.00102",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Scaffolding Critical Engagement with GenAI: Transforming Ethnic Minority Preparatory Students' Collaborative Discourse in Prompt Engineering Tasks",
-   "url": "https://arxiv.org/abs/2607.28630",
-   "date": "03/08"
+   "title": "AI-Based Thesis Assessment: An Empirical Study of Human Evaluation Priorities and Their Impact on Automated Assessment",
+   "url": "https://arxiv.org/abs/2608.00717",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Unanticipated Effects of Generative AI on Expertise Pathways and Performance Perception in System Administration",
-   "url": "https://arxiv.org/abs/2607.28650",
-   "date": "03/08"
+   "title": "Large language models improve physician accuracy but lead to false reliance",
+   "url": "https://arxiv.org/abs/2608.00817",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Sensitivity Analysis of GRU, LSTM and Transformer Encoder in Classification of Automated Driving Systems",
-   "url": "https://arxiv.org/abs/2607.28665",
-   "date": "03/08"
+   "title": "Isotropy Cliffs: The Geometric Signature of Decision-Making in Large Language Models",
+   "url": "https://arxiv.org/abs/2608.00828",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Predicting Steel Fatigue Life from Micrographs Using Physics-Informed Deep Learning",
-   "url": "https://arxiv.org/abs/2607.28695",
-   "date": "03/08"
+   "title": "Similarity Weighted Aggregation with Global Differential Privacy for Federated Brain Lesion Segmentation",
+   "url": "https://arxiv.org/abs/2608.00872",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "A user's guide to PINNs in geometric analysis: lessons from the asymptotic Plateau problem",
-   "url": "https://arxiv.org/abs/2607.28733",
-   "date": "03/08"
+   "title": "From AI Technical Debt to Agentic Technical Debt: A Systematic Mapping of Root Causes and Manifestations in Agentic AI Systems",
+   "url": "https://arxiv.org/abs/2608.01001",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Human-LLM Collaborative Inductive Coding for Conceptualizing K-12 Educator AI Use",
-   "url": "https://arxiv.org/abs/2607.28889",
-   "date": "03/08"
+   "title": "Fighting Fire with Fire: On the Feasibility of Protecting Exercises Against AI Cheating",
+   "url": "https://arxiv.org/abs/2608.01112",
+   "date": "04/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Retrieval-Driven Training-Free AI-Generated Video Attribution",
-   "url": "https://arxiv.org/abs/2607.28955",
-   "date": "03/08"
+   "title": "CRAFTS: Collaborative Role-Adaptive Fine-Tuning of LLM Agents for Chemical Process Simulation",
+   "url": "https://arxiv.org/abs/2608.01369",
+   "date": "04/08"
   },
   {
    "p": 5,
@@ -120,30 +144,6 @@
    "title": "Common Ownership and Collusion -- by Vincent Abraham, Florian Ederer, Catarina Marvao",
    "url": "https://www.nber.org/papers/w35565#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Geography in Online Capital Allocation: Evidence from Equity-Based Crowdfunding",
-   "url": "https://arxiv.org/abs/2607.29162",
-   "date": "03/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Decoupled Probabilistic Forecasting and Arbitrage-Aware Refinement of Implied Volatility Surfaces",
-   "url": "https://arxiv.org/abs/2607.29220",
-   "date": "03/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Fund Competition under Conflicting ESG Rating Methodologies",
-   "url": "https://arxiv.org/abs/2607.29583",
-   "date": "03/08"
   },
   {
    "p": 4,
