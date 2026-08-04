@@ -1277,7 +1277,7 @@ function buildTeachinASML(){
           ['High-NA adoption slips',rk('M'),rk('M'),'Timing / yield risk on EXE ramp at Intel, TSMC, Samsung.'],
           ['Semi capex downturn',rk('M'),rk('H'),'Multi-year digestion (2023-style) could compress orders and the multiple.'],
         ])}
-        <div class="ti-note"><b>Geopolitics:</b> ASML sits at the centre of the US–China tech conflict. Washington leans on The Hague to restrict shipments; near-term this caps China revenue, but it also entrenches ASML as strategically indispensable and blunts any Chinese domestic-litho threat.</div>
+        <div class="ti-note"><b>Geopolitics:</b> ASML sits at the centre of the US–China tech conflict. Washington leans on The Hague to restrict shipments; near-term this caps China revenue, but it also entrenches ASML as strategically indispensable. <b>Updated Aug 2026:</b> a state-backed Chinese firm began mass-producing a domestic immersion DUV scanner in Jul 2026 (~5 units in '26, ~20 in '27) and the stock fell 13% in three sessions — see the <b>Litho Wars</b> tab for the unit and revenue math.</div>
       </div>
     </div>
 
@@ -1307,6 +1307,171 @@ function buildTeachinASML(){
       </div>
       <div class="ti-quote">Bottom line — a rare compounder: monopoly economics, an annuity service base, and structural AI tailwinds, priced at a deserved premium. The risk/reward over 3–5 years favours owners who can tolerate cyclicality and headline geopolitical volatility; the main things that break the thesis are a multi-year capex winter or a High-NA execution stumble. Not investment advice — Pedro's own research framework.</div>
       <div class="ti-src">Sources: ASML press releases Q1 2025–Q2 2026 (asml.com/investors); ASML 2024 Investor Day; market data (stockanalysis.com, macrotrends) as of Jul 2026. Reported figures exact; ASPs, multiples and scenarios are analyst estimates.</div>
+    </div>
+  </div>`;
+}
+
+// ─── LITHO WARS / SECTOR DEBATE (China domestic lithography) ──────────────────
+// Só ASML. Fontes: The Information + Reuters 27–28/07/26; Asia Times 31/07/26; ICSmart;
+// JPM (Deshpande) 03/06/26 bottom-up model; UBS DUV-Model (specs de ferramenta); ASML Q2'26 PR.
+const LITHOWARS = { 'ASML': true };
+
+function buildLithoWars(){
+  const tbl = (cols,rows)=>`<div class="ti-table-wrap"><table class="ti-table"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  const rk = l=>l==='H'?'<span class="ti-rk ti-rk-h">High</span>':l==='M'?'<span class="ti-rk ti-rk-m">Med</span>':'<span class="ti-rk ti-rk-l">Low</span>';
+
+  return `<div class="ti-wrap">
+    <div class="ti-block">
+      <div class="ti-lbl">Litho Wars · The China Substitution Question</div>
+      <div class="ti-sub">How many machines must China actually build to take ASML's demand — and can a Chinese scanner ever be <i>better</i>? Quantified against J.P. Morgan's bottom-up unit model (03 Jun 2026) and ASML's own Q2 2026 disclosure. Event window: 27–31 Jul 2026.</div>
+      <div class="ti-kpis">
+        <div class="ti-kpi"><div class="ti-kpi-v">5 → 20</div><div class="ti-kpi-l">Domestic immersion units announced (2026 → 2027)</div><div class="ti-kpi-d">The Information / Reuters</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">2.6 ×</div><div class="ti-kpi-l">Chinese tools needed to equal 1 ASML NXT:1980i of capacity</div><div class="ti-kpi-d">throughput × uptime, base case</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">0.4%</div><div class="ti-kpi-l">of the FY26 revenue guide actually displaced by the 2026 ramp</div><div class="ti-kpi-d">≈ €163 m</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v ti-neg">−13%</div><div class="ti-kpi-l">ASML, three sessions (27–29 Jul 2026)</div><div class="ti-kpi-d ti-neg">≈ €91 bn of market cap</div></div>
+      </div>
+      <div class="ti-quote">The gap between those last two boxes is the entire trade. The market removed roughly €91 bn of value — <b>more than the full capitalised worth of ASML's China immersion franchise</b> — in response to a production plan that displaces about €163 m of 2026 revenue. Either the tape is wrong, or the tape is not pricing the five units; it is pricing the terminal value of the whole China stream going to zero.</div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 1</span>What was actually announced — and what was not</div>
+      <div class="ti-card">
+        <div class="ti-card-t">The event chain</div>
+        <div class="ti-road">
+          <div class="ti-road-item"><div class="ti-road-h">Sep 2025 <span>FT</span></div><div class="ti-road-d">SMIC begins testing an immersion DUV prototype from <b>Shanghai Yuliangsheng</b> (jointly owned by SiCarrier and state-backed Chuangkewei). SMEE had already transferred its immersion team and IP into Yuliangsheng, keeping only its EUV project.</div></div>
+          <div class="ti-road-item"><div class="ti-road-h">Dec 2025 <span>state media</span></div><div class="ti-road-d">A Shenzhen facility validates a domestic <b>EUV prototype</b>. Reported as producing EUV light — not as producing working chips. Separate programme, separate physics, no commercial timeline.</div></div>
+          <div class="ti-road-item"><div class="ti-road-h">Apr 2026 <span>US Senate</span></div><div class="ti-road-d">The <b>MATCH Act</b> (S.4281) is introduced, aiming to stop ASML shipping <i>all</i> immersion DUV to China. Chinese commentary on domestic tooling goes quiet from this point.</div></div>
+          <div class="ti-road-item"><div class="ti-road-h">27–28 Jul 2026 <span>The Information / Reuters</span></div><div class="ti-road-d">A state-backed manufacturer — named by Reuters as <b>Shanghai Aishengna</b> (registered capital ¥7 bn, absorbed the Yuliangsheng and SMEE teams) — begins mass production. <b>~5 units in 2026, ~20 in 2027</b>, to SMIC, Hua Hong and CXMT. The report itself flags that the system "lags in performance and reliability and requires further testing".</div></div>
+          <div class="ti-road-item"><div class="ti-road-h">27–29 Jul 2026 <span>market</span></div><div class="ti-road-d">ASML <b>−13%</b>, BE Semiconductor <b>−16.3%</b>, Infineon <b>−15.5%</b>. J.P. Morgan calls the move disproportionate; the group rebounds on the Thursday without recovering the prior Friday's level.</div></div>
+          <div class="ti-road-item"><div class="ti-road-h">31 Jul 2026 <span>ICSmart / Chinese trade press</span></div><div class="ti-road-d">Chinese outlets <b>push back on their own hype</b>: the SSA800 has not entered a commercial wafer fab, is still at the Shanghai IC R&amp;D Center for wafer-level testing, and the circulating "90–95% yield" claims are called groundless.</div></div>
+        </div>
+        <div class="ti-note"><b>What was not announced:</b> not EUV. Not High-NA. Not a tool below 28 nm. Not a shipped, qualified, in-fab production system. The overlap with ASML's growth engine — EUV and High-NA for AI logic and HBM DRAM, ~€24 bn of 2027E revenue on JPMe — is <b>zero</b>.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 2</span>The machine: where the SSA800 actually sits</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Spec ladder — Chinese tool vs the ASML immersion line</div>
+        <div class="ti-card-s">Overlay (MMO) and throughput are the two numbers that decide whether a scanner is usable at volume. Resolution alone is not the constraint at 28 nm.</div>
+        ${tbl(['Tool','Year','Throughput (wph)','Matched overlay (nm)','Read'],[
+          ['<span class="hl">SSA800 (CN)</span>','2026','<span style="color:#e5484d;font-weight:800;">150</span> <span class="ti-no">(claimed, disputed)</span>','2.5','Overlay of a 2015 ASML tool at <b>55% of its throughput</b>'],
+          ['NXT:1980Di','2015','275','2.5','The tool China is <i>still legally allowed to import</i>'],
+          ['NXT:2000Di','2017','275','2.0','—'],
+          ['NXT:2050Di','2020','295','1.5','—'],
+          ['NXT:2100Di','2022','295','<span class="ti-yes">1.3</span>','Current volume workhorse'],
+          ['NXT:1980Fi','2025','<span class="ti-yes">330</span>','2.5','Throughput-optimised refresh'],
+        ])}
+        <div class="ti-note"><b>The honest read:</b> the "four generations behind" headline is directionally right but imprecise. On <b>overlay</b> the SSA800 claims 2.5 nm — genuinely 2015-class, not 2008-class. On <b>throughput</b> it is below anything ASML currently sells, which is where the economics break. A fab does not buy resolution; it buys wafers per hour per square metre of cleanroom at a given yield.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">The 30% that is not Chinese</div>
+        <div class="ti-card-s">Reported domestic content is ~70%. The residual is not a rounding error — it is the hard part.</div>
+        ${tbl(['Still imported / sourced abroad','Why it is the binding constraint','Substitutable?'],[
+          ['ArF immersion light source (193 nm excimer)','Only Cymer (ASML-owned) and Gigaphoton (Japan) build these at production power and stability. Both are export-controlled.','<span class="ti-rk ti-rk-h">Very hard</span>'],
+          ['Zeiss projection optics / 193 nm lenses','Sub-nanometre figure control on a 300 mm aperture. ASML owns 24.9% of Zeiss SMT and co-funds its roadmap. Arguably the single hardest item in the tool.','<span class="ti-rk ti-rk-h">Very hard</span>'],
+          ['Synchronisation control algorithms','Not a part — a software asset compounded over a decade of overlay data from billions of production wafers. Cannot be bought, reverse-engineered or accelerated with capital.','<span class="ti-rk ti-rk-h">Very hard</span>'],
+          ['Vacuum chamber, excimer mirrors','Engineering-hard but not physics-hard; credible domestic path.','<span class="ti-rk ti-rk-m">Medium</span>'],
+          ['Dual-stage, exposure system, thermal control','Already domestic: Beijing U-Precision, Changchun Institute of Optics, Naura.','<span class="ti-rk ti-rk-l">Done</span>'],
+        ])}
+        <div class="ti-note">A separate data point that rarely makes the bull case: in Oct 2025 a Chinese firm reportedly <b>asked ASML for technical support after failing to reassemble a DUV scanner</b> it had torn down for reverse engineering. Whatever one thinks of the source, it is consistent with the ICSmart admission that the tool is still in test at ICRD rather than in a fab.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 3</span>The substitution math — how many machines does it actually take?</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Step 1 · Effective capacity per tool</div>
+        <div class="ti-card-s">A machine only "steals demand" to the extent it produces wafers a fab would otherwise have bought an ASML tool to produce. Two haircuts: throughput and availability.</div>
+        ${tbl(['Case','SSA800 uptime','vs ASML 93% availability','Capacity ratio','Chinese tools per ASML tool'],[
+          ['Bear (China)','50%','0.54','0.29','<b>3.4 ×</b>'],
+          ['<b>Base</b>','65%','0.70','0.38','<b>2.6 ×</b>'],
+          ['Bull (China)','80%','0.86','0.47','<b>2.1 ×</b>'],
+        ])}
+        <div class="ti-note">Throughput haircut is fixed at 150 / 275 = 0.545 against the NXT:1980i, the tool China can still legally import. Uptime is the swing factor and the one nobody can observe yet — 50–65% availability in years 1–3 is the normal pattern for any first-generation scanner entering a production fab, and the SSA800 has not yet entered one. <b>Base case: it takes 2.6 SSA800 to replace one ASML immersion scanner.</b></div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Step 2 · Units required to neutralise ASML in China</div>
+        <div class="ti-card-s">ASML's China immersion units are J.P. Morgan's bottom-up estimates (03 Jun 2026), the only place the China/non-China immersion split is modelled explicitly.</div>
+        ${tbl(['Year','ASML immersion units → China (JPMe)','SSA800/yr needed to neutralise','Announced domestic build','ASML-equivalents delivered','% of ASML China immersion units'],[
+          ['2025','84','—','0','0','0%'],
+          ['<b>2026E</b>','50','<b>131</b>','5','1.9','<span class="ti-yes">3.8%</span>'],
+          ['<b>2027E</b>','85','<b>223</b>','20','7.6','<span class="ti-yes">9.0%</span>'],
+          ['2028E','80','210','n/d','—','—'],
+        ])}
+        <div class="ti-note"><b>The headline number: 223 machines a year.</b> That is the run-rate China must reach to stop buying ASML immersion tools at JPM's 2027 volume — against 20 planned. A <b>11× gap</b>, and that assumes the SSA800 works at 65% uptime, which no fab has yet demonstrated.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Step 3 · When does the annual flow actually cross?</div>
+        ${tbl(['Ramp assumption','Path from 20 units in 2027','Crossover year','Plausibility'],[
+          ['3.0×/yr','60 → 180 → 540','<b>2030</b>','<span class="ti-rk ti-rk-l">Heroic — needs the optics and source bottlenecks solved simultaneously</span>'],
+          ['<b>2.0×/yr</b>','40 → 80 → 160 → 320','<b>2031</b>','<span class="ti-rk ti-rk-m">Aggressive but the historical Chinese-industrial-policy shape</span>'],
+          ['1.5×/yr','30 → 45 → 68 → 101 → 152 → 228','<b>2033</b>','<span class="ti-rk ti-rk-h">Closer to what a first-gen tool programme usually does</span>'],
+        ])}
+        <div class="ti-note"><b>Cumulative check, 2.0× case:</b> 305 domestic tools built 2026–30 = <b>116 ASML-equivalents</b>, against ~375 immersion units ASML would ship to China over the same window. That is <b>31% coverage of the flow by 2030</b> — and it assumes ASML's own tools stand still for five years while the roadmap runs to High-NA and Hyper-NA. <b>Even the aggressive case leaves ASML a runway to roughly 2031.</b></div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 4</span>The euro bridge — displaced vs priced</div>
+      <div class="ti-card">
+        <div class="ti-card-t">What the announcement removes from the P&amp;L</div>
+        ${tbl(['Line','Value','As % of the year'],[
+          ['2026 revenue displaced by 5 domestic units','<b>≈ €163 m</b>','<b>0.37%</b> of the €43–45 bn guide'],
+          ['2027 revenue displaced by 20 domestic units','<b>≈ €600 m</b>','<b>1.08%</b> of JPMe €55.4 bn'],
+          ['2027E ASML China <i>immersion</i> revenue (the whole exposed stream)','€6.7 bn','12.1% of 2027E sales'],
+          ['2027E ASML China DUV revenue, all types (JPMe)','€9.2 bn','16.6% of 2027E sales'],
+          ['2027E EUV + High-NA revenue — <b>zero Chinese overlap</b>','€23.9 bn','43% of 2027E sales'],
+        ])}
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">What the market took out</div>
+        <div class="ti-note">Capitalise the <b>entire</b> China immersion stream — €6.7 bn of 2027E revenue at JPM's 44.2% EBIT margin, 17% tax, ~29× — and you get roughly <b>€71 bn of enterprise value</b>. The three-day drawdown was <b>≈ €91 bn</b>. <br><br>So the tape did not misprice the five units by a factor of ten. It did something more specific: it <b>wrote the China immersion franchise to zero and then some</b>, in 72 hours, on a report the reporting outlet itself hedged. ASML currently trades near <b>€1,420</b> (~$626 bn) against a 52-week high of €1,741 — about <b>18% below the peak</b>.</div>
+      </div>
+      <div class="ti-quote"><b>The variant perception — and the part that keeps this honest:</b> "the market overreacted" is only half the argument. The <b>MATCH Act</b> would strip ASML of the same €6.7 bn stream by statute, with no Chinese engineering required. If you believe China immersion is going to zero either way, the de-rating is not an overreaction — it is a rational repricing whose only open variable is timing. The right question is therefore not <i>"can China build 223 machines a year?"</i> but <i>"is ASML's China immersion revenue an asset or an already-condemned building?"</i> On that framing, the domestic tool is not stealing demand ASML would otherwise keep — it is filling a hole Washington is separately working to create.</div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 5</span>Can a Chinese machine ever be <i>better</i> than ASML's?</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Split the question in two — the answers are opposite</div>
+        ${tbl(['Question','Answer','Reasoning'],[
+          ['Can China match ASML at <b>mature nodes (28 nm immersion)</b>?','<span class="ti-yes">Yes — probably by the early 2030s</span>','The physics is fully known and published. What remains is manufacturing execution, optics yield and a decade of overlay-algorithm tuning. State capital plus a captive customer base (SMIC, Hua Hong, CXMT) plus no requirement to earn a return is a combination that has closed comparable gaps in LFP batteries, solar and high-speed rail.'],
+          ['Can China exceed ASML at <b>28 nm on cost-per-wafer</b>?','<span class="ti-yes">Yes — and this is the real threat vector</span>','"Better" will not mean better overlay. It will mean <i>good enough, subsidised, and unsanctionable</i>. If Beijing prices tools near cost to domestic fabs, ASML loses China DUV <b>pricing power</b> long before it loses the technology race. Note JPM already models China DUV ASP falling from €45.4 m (2025) to €36.2 m (2027E).'],
+          ['Can China exceed ASML at the <b>leading edge (EUV / High-NA)</b>?','<span style="color:#e5484d;font-weight:800;">Not this decade, on current evidence</span>','A tin-plasma source at 500 W+, ten Mo/Si multilayer bounces each at ~70% reflectivity, and a defect-free pellicle are three unsolved industrial problems, not one. ASML took roughly 20 years from working EUV prototype to high-volume manufacturing <i>with</i> Zeiss, Trumpf, Cymer and the entire Dutch mechatronics cluster. Shenzhen has a prototype that makes light.'],
+          ['Could China <b>leapfrog</b> via a different architecture?','<span class="ti-rk ti-rk-m">Watch, do not dismiss</span>','SSMB (steady-state microbunching), LPP alternatives and free-electron-laser EUV sources are being funded. A genuine architectural leapfrog is the one path that compresses the timeline — and the one thing that would invalidate the "15-year lead" framing outright. Low probability, very high impact.'],
+        ])}
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">The precedent nobody on the bull side likes</div>
+        <div class="ti-note">Nikon and Canon had money, world-class optics, decades of lithography incumbency and an existential incentive — and they were still left stranded in legacy DUV with no EUV programme at all. That is the strongest single argument that this is not a capital problem. <br><br><b>The counter, and it is not weak:</b> Nikon and Canon were profit-maximising firms making rational decisions about return on capital. Aishengna is not. It has ¥7 bn of registered state capital, no obligation to earn a return, no shareholders to answer to, and a customer base that is politically required to buy. The historical analogue for that structure is not Nikon — it is CATL, BYD and LONGi, each of which went from "four generations behind" to global cost leadership in under a decade. <b>Nikon lost because it optimised for profit; that constraint does not bind here.</b></div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 6</span>The five live sector debates</div>
+      ${tbl(['Debate','Bull position','Bear position','What settles it','Risk'],[
+        ['<b>China litho substitution</b>','223 tools/yr needed vs 20 planned; zero EUV overlap; runway to ~2031','Capability signal &gt; unit count; ASP compression starts immediately; state capital ignores ROI','First SSA800 qualified in a commercial fab, and its published uptime',rk('M')],
+        ['<b>MATCH Act / export controls</b>','Controls entrench ASML as strategically indispensable; €6.7 bn is ~12% of 27E sales','Statute could remove the same stream Chinese engineering cannot yet take','US Senate floor action on S.4281; Dutch licensing posture',rk('H')],
+        ['<b>AI capex durability</b>','JPMe €55.4/63.8 bn for 27/28, 16.7%/21.8% above consensus; ASML says orders exceed fab-build capacity','Cumulative +131% revenue this cycle matches the last two upcycles — the mean-reversion argument','Hyperscaler capex guides; memory pricing; TSMC/Samsung/Intel fab-shell completions',rk('H')],
+        ['<b>High-NA adoption pace</b>','€390–400 m ASP; 4 units 25/26 → 6 in 27 → 10 in 28 (JPMe); extends monopoly past 2030','Customers may stretch Low-NA multi-patterning and defer High-NA on cost-per-wafer','Intel 14A and TSMC A14 tool-of-record decisions',rk('M')],
+        ['<b>Immersion DUV unit cycle</b>','JPMe 200 units in 27 vs 137 consensus — 34.8% above on immersion revenue','Consensus assumes China stays weak; JPM assumes China reverts to 2025 levels','ASML FY26 annual backlog disclosure (quarterly bookings discontinued from Q1 26)',rk('M')],
+      ])}
+      <div class="ti-note"><b>Where this study lands:</b> the China unit math does not support the July de-rating on a 3–5 year view, and the EUV franchise — 43% of 2027E revenue — is untouched by anything announced. But the bull case has to survive a statute, not just an engineering gap, and the ASP compression in China DUV is already visible in the models. <b>The threat to underwrite is margin, not volume; and the threat to fear is Washington, not Shanghai.</b></div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 7</span>Watch list — what would change the answer</div>
+      ${tbl(['Trigger','Why it matters','Direction'],[
+        ['SSA800 accepted into a commercial SMIC/CXMT line with disclosed uptime &gt;80%','Collapses the 2.6× capacity haircut toward 2.1× and pulls every crossover year forward','<span style="color:#e5484d;font-weight:800;">Negative</span>'],
+        ['Domestic 2027 target revised above ~50 units','Signals the optics/source bottleneck was solved, not deferred','<span style="color:#e5484d;font-weight:800;">Negative</span>'],
+        ['MATCH Act (S.4281) advances out of committee','Removes €6.7 bn by statute regardless of Chinese progress','<span style="color:#e5484d;font-weight:800;">Negative</span>'],
+        ['China DUV ASP falls below JPM&rsquo;s €36 m 2027 assumption','Confirms subsidised-pricing thesis — margin damage before volume damage','<span style="color:#e5484d;font-weight:800;">Negative</span>'],
+        ['ASML FY26 backlog disclosure with EUV share above 65%','Confirms the mix shift away from the contested DUV/China exposure','<span class="ti-yes">Positive</span>'],
+        ['2027 immersion units tracking toward JPM&rsquo;s 200 vs 137 consensus','The single biggest gap between JPMe and the Street — 34.8% on immersion revenue','<span class="ti-yes">Positive</span>'],
+        ['Credible SSMB / FEL-based EUV source demonstration in China','The only genuine leapfrog path; would invalidate the 15-year-lead framing','<span style="color:#e5484d;font-weight:800;">Structural</span>'],
+      ])}
+      <div class="ti-src">Sources — Event: The Information (27 Jul 2026); Reuters (28 Jul 2026); Asia Times, "China's DUV lithography still lags ASML by four generations" (31 Jul 2026); ICSmart / Chinese trade press; Global Times editorial (28 Jul 2026); The Diplomat (Jul 2026). Units &amp; financials: J.P. Morgan, Sandeep Deshpande, "The Street is Behind the Curve" (03 Jun 2026) — bottom-up unit model, China/non-China immersion split, 2027/28E estimates. Tool specifications: UBS ASML DUV-Model; asml.com product pages. Company data: ASML Q2 2026 press release (15 Jul 2026, €9.3 bn sales, €43–45 bn FY26 guide, China ~20% of sales); ASML FY2025 20-F. Market data as of 3 Aug 2026. <b>Capacity ratios, uptime assumptions, crossover years and the valuation bridge are this dashboard's own estimates</b>, built on the sources above — not broker forecasts. Not investment advice; Pedro's own research framework.</div>
     </div>
   </div>`;
 }
@@ -2499,6 +2664,7 @@ function renderCoPanel(p) {
       <button class="co-tab" onclick="switchCoTab(this,'regulacao')">Regulation</button>
       <button class="co-tab" onclick="switchCoTab(this,'industria')">Industry &amp; Peers</button>
       ${TEACHIN[p.t] ? `<button class="co-tab" onclick="switchCoTab(this,'teachin')">Teach-in</button>` : ''}
+      ${LITHOWARS[p.t] ? `<button class="co-tab" onclick="switchCoTab(this,'lithowars')">Litho Wars</button>` : ''}
     </div>
     <div class="co-tabpanel show" data-cotab="tese">${teseTab}</div>
     <div class="co-tabpanel" data-cotab="drivers">${driversPanel}</div>
@@ -2506,7 +2672,8 @@ function renderCoPanel(p) {
     <div class="co-tabpanel" data-cotab="historia">${historyPanel}</div>
     <div class="co-tabpanel" data-cotab="regulacao">${regPanel}</div>
     <div class="co-tabpanel" data-cotab="industria">${industryPanel}</div>
-    ${TEACHIN[p.t] ? `<div class="co-tabpanel" data-cotab="teachin">${buildTeachinASML()}</div>` : ''}`;
+    ${TEACHIN[p.t] ? `<div class="co-tabpanel" data-cotab="teachin">${buildTeachinASML()}</div>` : ''}
+    ${LITHOWARS[p.t] ? `<div class="co-tabpanel" data-cotab="lithowars">${buildLithoWars()}</div>` : ''}`;
   panel.classList.add('fx-on');
   requestAnimationFrame(() => {
     renderCharts(p.t);

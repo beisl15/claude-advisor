@@ -1,0 +1,111 @@
+name: Teste isolado de script (validacao)
+
+# Roda UM script por vez na nuvem e publica o resultado como artifact.
+# Existe porque a sandbox local bloqueia data.sec.gov, arquivos.b3.com.br,
+# query2.finance.yahoo.com e cdn.finra.org (todas as chamadas voltam 000).
+# Aqui a rede e irrestrita e o ambiente e o mesmo do update.yml.
+#
+# Como usar: aba Actions -> "Teste isolado de script" -> Run workflow ->
+# escolher o script -> baixar o artifact "resultado-<script>" ao fim.
+
+on:
+  workflow_dispatch:
+    inputs:
+      script:
+        description: "Script a executar"
+        required: true
+        default: validate_ciks.py
+        type: choice
+        options:
+          - validate_ciks.py
+          - fetch_us.py
+          - fetch_intl.py
+          - fetch_br.py
+          - fetch_prices.py
+          - fetch_transcripts.py
+          - fetch_insiders.py
+          - fetch_news.py
+          - fetch_papers.py
+          - fetch_letters.py
+      commit:
+        description: "Commitar data/*.json gerado? (nao = so artifact)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: test-script
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Snapshot de data/ antes
+        run: |
+          mkdir -p data _before
+          cp -a data/. _before/ 2>/dev/null || true
+          ls -la data/ || true
+
+      - name: Executar ${{ inputs.script }}
+        env:
+          # User-Agent institucional exigido pela SEC (e boa pratica na CVM).
+          # Sem isso: HTTP 403. Ver https://www.sec.gov/os/webmaster-faq#developers
+          SEC_UA: "ClaudeAdvisor/1.0 pedro.beisl@gmail.com"
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          set -o pipefail
+          python scripts/${{ inputs.script }} 2>&1 | tee _run.log
+        continue-on-error: true
+
+      - name: Diff dos JSON gerados
+        run: |
+          echo "### Arquivos em data/ apos a execucao" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          for f in data/*.json; do
+            [ -e "$f" ] || continue
+            b="_before/$(basename $f)"
+            if [ -e "$b" ]; then
+              if cmp -s "$f" "$b"; then st="sem mudanca"; else st="ALTERADO"; fi
+            else
+              st="NOVO"
+            fi
+            printf '%-24s %10s bytes  %s\n' "$(basename $f)" "$(stat -c%s $f)" "$st" >> $GITHUB_STEP_SUMMARY
+          done
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          echo "### Ultimas 40 linhas do log" >> $GITHUB_STEP_SUMMARY
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          tail -n 40 _run.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          echo '```' >> $GITHUB_STEP_SUMMARY
+
+      - name: Publicar artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: resultado-${{ inputs.script }}
+          path: |
+            data/*.json
+            _validation_*.json
+            _run.log
+          retention-days: 14
+          if-no-files-found: warn
+
+      - name: Commit opcional
+        if: ${{ inputs.commit }}
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/*.json
+          if git diff --cached --quiet; then
+            echo "Sem mudancas."
+          else
+            git commit -m "data: teste isolado ${{ inputs.script }} $(date -u +%Y-%m-%d)"
+            git push
+          fi
