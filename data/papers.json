@@ -1,69 +1,13 @@
 {
- "asof": "04/08/2026",
+ "asof": "05/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Google's AI & Economy ATLAS v1.0: Mapping Gemini Usage in the Economy",
-   "url": "https://arxiv.org/abs/2608.00038",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI and Exchange Rate Predictability",
-   "url": "https://arxiv.org/abs/2608.00761",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Data-Driven Measures of High-Frequency Trading",
-   "url": "https://arxiv.org/abs/2608.00858",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "Battery Storage Co-Optimization in Day-Ahead and Real-Time Markets with Bayesian Optimization",
-   "url": "https://arxiv.org/abs/2608.00911",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Do Humans Bargain Differently with AI? Evidence from Alternating-Offer Games",
-   "url": "https://arxiv.org/abs/2608.01212",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Do people rely on ChatGPT more than their peers to detect deepfake news?",
-   "url": "https://arxiv.org/abs/2608.01540",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications",
-   "url": "https://arxiv.org/abs/2608.01607",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Navigating the skill diversity frontier: How skill complexity explains worker resilience",
-   "url": "https://arxiv.org/abs/2608.02102",
-   "date": "04/08"
+   "title": "Prediction-Enhanced Monte Carlo: A Machine Learning View on Control Variate",
+   "url": "https://arxiv.org/abs/2412.11257",
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -71,7 +15,7 @@
    "src": "arXiv cs.AI",
    "title": "Can LLM Agents Price Competitively? A Dynamic Multi-Attribute Auction Benchmark for Agentic Commerce",
    "url": "https://arxiv.org/abs/2608.00102",
-   "date": "04/08"
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -79,7 +23,7 @@
    "src": "arXiv cs.AI",
    "title": "AI-Based Thesis Assessment: An Empirical Study of Human Evaluation Priorities and Their Impact on Automated Assessment",
    "url": "https://arxiv.org/abs/2608.00717",
-   "date": "04/08"
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -87,7 +31,15 @@
    "src": "arXiv cs.AI",
    "title": "Large language models improve physician accuracy but lead to false reliance",
    "url": "https://arxiv.org/abs/2608.00817",
-   "date": "04/08"
+   "date": "05/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Scaling Paradox in Human-AI Collaboration",
+   "url": "https://arxiv.org/abs/2608.00818",
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -95,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Isotropy Cliffs: The Geometric Signature of Decision-Making in Large Language Models",
    "url": "https://arxiv.org/abs/2608.00828",
-   "date": "04/08"
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -103,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Similarity Weighted Aggregation with Global Differential Privacy for Federated Brain Lesion Segmentation",
    "url": "https://arxiv.org/abs/2608.00872",
-   "date": "04/08"
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -111,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "From AI Technical Debt to Agentic Technical Debt: A Systematic Mapping of Root Causes and Manifestations in Agentic AI Systems",
    "url": "https://arxiv.org/abs/2608.01001",
-   "date": "04/08"
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -119,15 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "Fighting Fire with Fire: On the Feasibility of Protecting Exercises Against AI Cheating",
    "url": "https://arxiv.org/abs/2608.01112",
-   "date": "04/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "CRAFTS: Collaborative Role-Adaptive Fine-Tuning of LLM Agents for Chemical Process Simulation",
-   "url": "https://arxiv.org/abs/2608.01369",
-   "date": "04/08"
+   "date": "05/08"
   },
   {
    "p": 5,
@@ -144,6 +88,46 @@
    "title": "Common Ownership and Collusion -- by Vincent Abraham, Florian Ederer, Catarina Marvao",
    "url": "https://www.nber.org/papers/w35565#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Mandate without Managers: Automated Market Makers as Verifiable Portfolio Products",
+   "url": "https://arxiv.org/abs/2608.02917",
+   "date": "05/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Delegated Monitoring in Public-Private Sector Credit Programs: Underinvestment, Overinvestment, and the Design of Subsidized Lending",
+   "url": "https://arxiv.org/abs/2608.02651",
+   "date": "05/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Measuring the engine of a liquidation cascade: subcritical branching inside a first-order transition",
+   "url": "https://arxiv.org/abs/2608.03616",
+   "date": "05/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Global Inequalities in Clinical Trials Participation",
+   "url": "https://arxiv.org/abs/2601.04660",
+   "date": "05/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading on Solana DEXs: Evidence, Theory, and Design Lessons from a 15-Day Deployment",
+   "url": "https://arxiv.org/abs/2606.08232",
+   "date": "05/08"
   },
   {
    "p": 4,
@@ -240,6 +224,22 @@
    "title": "Incomplete Information and Self-Fulfilling Inflation Dynamics—Lucas meets Keynes -- by Jess Benhabib, Pengfei Wang, Yi Wen",
    "url": "https://www.nber.org/papers/w35563#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "arXiv q-fin",
+   "title": "Rebuilding Startups: An Empirical Study on Remote Work and Skill Complementarity",
+   "url": "https://arxiv.org/abs/2608.02666",
+   "date": "05/08"
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "arXiv q-fin",
+   "title": "Reviving Micro Real Rigidities: The Importance of Demand Shocks",
+   "url": "https://arxiv.org/abs/2608.02817",
+   "date": "05/08"
   }
  ]
 }
