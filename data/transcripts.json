@@ -1,25 +1,82 @@
 {
- "PRIO3": {
-  "ir_url": "https://ri.prio3.com.br/"
+ "GEV": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/",
+  "release_date": "2026-07-22",
+  "ir_url": "https://www.gevernova.com/investors"
  },
- "AAPL": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/",
-  "release_date": "2026-07-30"
+ "META": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/",
+  "release_date": "2026-07-29",
+  "ir_url": "https://investor.atmeta.com/"
+ },
+ "ORCL": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/",
+  "release_date": "2026-06-10",
+  "ir_url": "https://investor.oracle.com/"
+ },
+ "NVDA": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/",
+  "release_date": "2026-05-20"
+ },
+ "NOW": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/",
+  "release_date": "2026-07-22",
+  "ir_url": "https://www.servicenow.com/company/investor-relations.html"
+ },
+ "AVGO": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/",
+  "release_date": "2026-06-03"
+ },
+ "MSFT": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/",
+  "release_date": "2026-07-29",
+  "ir_url": "https://www.microsoft.com/en-us/investor"
  },
  "JPM": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/",
   "release_date": "2026-07-14",
   "ir_url": "https://www.jpmorganchase.com/ir"
  },
- "AMZN": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/",
-  "release_date": "2026-07-30",
-  "ir_url": "https://ir.aboutamazon.com/"
+ "PLTR": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/",
+  "release_date": "2026-08-03",
+  "ir_url": "https://investors.palantir.com/"
+ },
+ "MRVL": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/",
+  "release_date": "2026-05-27"
+ },
+ "CEG": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/",
+  "release_date": "2026-08-06",
+  "ir_url": "https://investors.constellationenergy.com/"
  },
  "BLK": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526304013/",
   "release_date": "2026-07-15",
   "ir_url": "https://ir.blackrock.com/"
+ },
+ "AMZN": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/",
+  "release_date": "2026-07-30",
+  "ir_url": "https://ir.aboutamazon.com/"
+ },
+ "VST": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/",
+  "release_date": "2026-08-07",
+  "ir_url": "https://investor.vistracorp.com/"
+ },
+ "SMFT3": {
+  "ir_url": "https://ri.smartfit.com.br/"
+ },
+ "MU": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/",
+  "release_date": "2026-06-24",
+  "ir_url": "https://investors.micron.com/"
+ },
+ "AMD": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/",
+  "release_date": "2026-08-04"
  },
  "GOGL": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/",
@@ -31,75 +88,18 @@
   "release_date": "2026-08-05",
   "ir_url": "https://investor.mercadolibre.com/"
  },
- "MRVL": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000014/",
-  "release_date": "2026-05-27"
- },
- "PLTR": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/",
-  "release_date": "2026-08-03",
-  "ir_url": "https://investors.palantir.com/"
- },
  "SBSP3": {
   "ir_url": "https://ri.sabesp.com.br/"
  },
- "VST": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000011/",
-  "release_date": "2026-05-07",
-  "ir_url": "https://investor.vistracorp.com/"
+ "AAPL": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/",
+  "release_date": "2026-07-30"
  },
- "AVGO": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000051/",
-  "release_date": "2026-06-03"
- },
- "GEV": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/",
-  "release_date": "2026-07-22",
-  "ir_url": "https://www.gevernova.com/investors"
- },
- "ORCL": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/",
-  "release_date": "2026-06-10",
-  "ir_url": "https://investor.oracle.com/"
- },
- "MSFT": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/",
-  "release_date": "2026-07-29",
-  "ir_url": "https://www.microsoft.com/en-us/investor"
- },
- "NVDA": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000051/",
-  "release_date": "2026-05-20"
- },
- "CEG": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/",
-  "release_date": "2026-08-06",
-  "ir_url": "https://investors.constellationenergy.com/"
+ "PRIO3": {
+  "ir_url": "https://ri.prio3.com.br/"
  },
  "INTC": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/",
   "release_date": "2026-07-23"
- },
- "AMD": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/",
-  "release_date": "2026-08-04"
- },
- "MU": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000013/",
-  "release_date": "2026-06-24",
-  "ir_url": "https://investors.micron.com/"
- },
- "NOW": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/",
-  "release_date": "2026-07-22",
-  "ir_url": "https://www.servicenow.com/company/investor-relations.html"
- },
- "SMFT3": {
-  "ir_url": "https://ri.smartfit.com.br/"
- },
- "META": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/",
-  "release_date": "2026-07-29",
-  "ir_url": "https://investor.atmeta.com/"
  }
 }

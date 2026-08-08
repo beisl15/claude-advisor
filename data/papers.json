@@ -1,110 +1,6 @@
 {
- "asof": "07/08/2026",
+ "asof": "08/08/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Legal aid eligibility and court outcomes: a design-based double-machine-learning approach",
-   "url": "https://arxiv.org/abs/2608.05211",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Cross-Sectional Heterogeneity in LSTM Networks for Financial Time Series",
-   "url": "https://arxiv.org/abs/2608.05755",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Large-Market Discipline in Combinatorial Double Auctions: No Assembly, Bundle Selection, and Complementarities",
-   "url": "https://arxiv.org/abs/2608.06134",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Counterfactual Analysis via Large Language Models",
-   "url": "https://arxiv.org/abs/2608.05367",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Nine Raters, One Index: Carrying LLM Disagreement into Labour-Market Estimates",
-   "url": "https://arxiv.org/abs/2507.22748",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
-   "url": "https://arxiv.org/abs/2608.05204",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "EcoAgent-Bench: Evaluating Economic Decision-Making in Budget-Constrained LLM Agents",
-   "url": "https://arxiv.org/abs/2608.05519",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "ChainClaw: A Layered Agent Framework for Reliable On-Chain Execution",
-   "url": "https://arxiv.org/abs/2608.05790",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "VLMs for Videogame Data Annotation",
-   "url": "https://arxiv.org/abs/2608.05949",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Hybrid Machine Learning Framework for Herd-Level Cattle Growth Pattern and Weight Gain Forecasting in Grazing-Based Production Systems",
-   "url": "https://arxiv.org/abs/2608.06001",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Signal or Spurious Cue? A Randomized Audit of Survey-Country Metadata in LLM Social Inference",
-   "url": "https://arxiv.org/abs/2608.06085",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Evaluating Investment Logic in Large Language Models: A Real-World Benchmark Towards Personalzied Financial Agents",
-   "url": "https://arxiv.org/abs/2608.06108",
-   "date": "07/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
-   "url": "https://arxiv.org/abs/2608.06112",
-   "date": "07/08"
-  },
   {
    "p": 5,
    "tag": "AI",
@@ -120,22 +16,6 @@
    "title": "Common Ownership and Collusion -- by Vincent Abraham, Florian Ederer, Catarina Marvao",
    "url": "https://www.nber.org/papers/w35565#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "From Value Bounds to Policy-Distance and Active-Face Certificates: Same-Grid Duality for Constrained Dynamic Portfolios",
-   "url": "https://arxiv.org/abs/2608.05901",
-   "date": "07/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Knowledge-Optimising Investment Decisions with Informative Datasets",
-   "url": "https://arxiv.org/abs/2608.05991",
-   "date": "07/08"
   },
   {
    "p": 4,
@@ -187,14 +67,6 @@
   },
   {
    "p": 4,
-   "tag": "Macro/Rates",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Beyond Reserves: The Federal Reserve's Balance Sheet and the Repo Market",
-   "url": "https://www.federalreserve.gov/econres/feds/beyond-reserves-the-federal-reserves-balance-sheet-and-the-repo-market.htm",
-   "date": "22/06"
-  },
-  {
-   "p": 4,
    "tag": "Equities",
    "src": "NBER",
    "title": "Predictive Risk Scores in the Public Sector: Experimental Evidence from Child-Protection Investigations -- by E. Jason Baron, Arkadev Ghosh, Richard Lombardo",
@@ -235,11 +107,83 @@
   },
   {
    "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "Economic Power in International Trade",
-   "url": "https://arxiv.org/abs/2607.09990",
-   "date": "07/08"
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Last Taxi: LCR Buffers and Bank Liquidity Provision",
+   "url": "https://www.federalreserve.gov/econres/feds/the-last-taxi-lcr-buffers-and-bank-liquidity-provision.htm",
+   "date": "17/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
+   "date": "17/07"
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Cyclical Fluctuations, Financial Frictions, and Productivity Differences across Firms",
+   "url": "https://www.federalreserve.gov/econres/feds/cyclical-fluctuations-financial-frictions-and-productivity-differences-across-firms.htm",
+   "date": "26/06"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Selecting Innovation Funding Mechanisms: A Framework for Policymakers -- by Matthew S. Clancy, Matthew Esche, Siddhartha Haria, Claire T. McMahon, Christopher M. Snyder, Caleb Watney",
+   "url": "https://www.nber.org/papers/w35549#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "The Equilibrium Impact of Credit Frictions: Evidence from Default Risk Using Firm-Level Data -- by Timothy J. Besley, Peter John Lambert, Isabelle A. Michalski-Roland, John Van Reenen",
+   "url": "https://www.nber.org/papers/w35552#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Sharing the Burden: The Impacts of Pharmacy Sector Reforms on the Labor Market for Pharmacists in Portugal -- by David Card, Ana Rute Cardoso, Pedro Luis Silva",
+   "url": "https://www.nber.org/papers/w35553#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Demand for Safety in the Crypto Ecosystem -- by Murillo Campello, Angela Gallo, Lira Mota, Tammaro Terracciano",
+   "url": "https://www.nber.org/papers/w35557#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Unpacking Treatment Effect Heterogeneity in a Large-Scale Dropout-Prevention Experiment -- by Thomas Dee, Chloe R. Gibbs, Rebecca Margolit-Chan, Lillian Morrell, James X. Sullivan",
+   "url": "https://www.nber.org/papers/w35558#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Replaceable but Employed: Automation and the Meaning of Work -- by Joshua S. Gans",
+   "url": "https://www.nber.org/papers/w35559#fromrss",
+   "date": ""
   }
  ]
 }
