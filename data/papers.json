@@ -1,5 +1,5 @@
 {
- "asof": "08/08/2026",
+ "asof": "09/08/2026",
  "items": [
   {
    "p": 5,
@@ -56,14 +56,6 @@
    "title": "FEDS Paper: An Evaluation of Difference-in-Differences Methods Using Placebo Event Studies",
    "url": "https://www.federalreserve.gov/econres/feds/an-evaluation-of-difference-in-differences-methods-using-placebo-event-studies.htm",
    "date": "24/06"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Response of Equity Yields to a Long-Run Shock",
-   "url": "https://www.federalreserve.gov/econres/feds/the-response-of-equity-yields-to-a-long-run-shock.htm",
-   "date": "23/06"
   },
   {
    "p": 4,
