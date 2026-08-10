@@ -1,6 +1,110 @@
 {
- "asof": "09/08/2026",
+ "asof": "10/08/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Reading Copom's Tone: A Weighted LLM Framework for Hawkish-Dovish Sentiment, Forward Guidance, and Uncertainty",
+   "url": "https://arxiv.org/abs/2608.07251",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Capacity Markets for Large Loads under Supply-Chain Constraints",
+   "url": "https://arxiv.org/abs/2608.06528",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Measuring Concept Content in Text from LLM Activations: ESG Evidence from Concept Vectors and Linear Probes",
+   "url": "https://arxiv.org/abs/2608.07208",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Evolutionary Factor Searching for Sparse Portfolio Optimization Using Large Language Models",
+   "url": "https://arxiv.org/abs/2507.17211",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "arXiv q-fin",
+   "title": "Religious Mayors, School Appointments, and Teenage Pregnancy",
+   "url": "https://arxiv.org/abs/2602.19388",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Can MLLMs Decode the Creative Leap? Introducing C4 for Cross-Concept Understanding",
+   "url": "https://arxiv.org/abs/2608.06501",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Science Edge Evaluation: SEE the Missing Step Toward Real Scientific Discovery",
+   "url": "https://arxiv.org/abs/2608.06931",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "FedLBW: A Loss-Based Weighting Strategy for Federated Learning on Non-IID Data in Wireless Networks",
+   "url": "https://arxiv.org/abs/2608.07007",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "People Are Not Just Their Countries. Disentangling Social Determinants of LLM Value Alignment Across Europe",
+   "url": "https://arxiv.org/abs/2608.07367",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Evaluating XAI Support From A Hierarchical Reinforcement Learning Policy in Human-Agent Collaboration",
+   "url": "https://arxiv.org/abs/2608.06381",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "FutureBridge: Token Selection Beyond Local Preference in Collaborative Decoding",
+   "url": "https://arxiv.org/abs/2608.06819",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv cs.AI",
+   "title": "Scalable High-Fidelity Macromolecular Docking for GPU-Accelerated Supercomputers",
+   "url": "https://arxiv.org/abs/2608.07078",
+   "date": "10/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
+   "url": "https://arxiv.org/abs/2608.07154",
+   "date": "10/08"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -11,11 +115,59 @@
   },
   {
    "p": 5,
-   "tag": "Semis",
+   "tag": "AI",
    "src": "NBER",
-   "title": "Common Ownership and Collusion -- by Vincent Abraham, Florian Ederer, Catarina Marvao",
-   "url": "https://www.nber.org/papers/w35565#fromrss",
+   "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications -- by Taha Choukhmane, Tim de Silva, Weidong Lin, Matthew Akuzawa",
+   "url": "https://www.nber.org/papers/w35574#fromrss",
    "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "NBER",
+   "title": "The Displacement Effects of Domestic Outsourcing -- by Mayara Felix, Michael B. Wong",
+   "url": "https://www.nber.org/papers/w35584#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Staged Access and Liability for Dual-Use Artificial Intelligence -- by Joshua S. Gans",
+   "url": "https://www.nber.org/papers/w35586#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "AI Agents and Prompt Engineering in Econometric Coding -- by Sebastian Galiani, Federico Ariel López, Raul A. Sosa",
+   "url": "https://www.nber.org/papers/w35588#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Beyond Co-Movement: Locality by Exposures Enables a Joint Factor-Graph Framework for Portfolio Diversification",
+   "url": "https://arxiv.org/abs/2608.06618",
+   "date": "10/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Tabular Foundation Models and the Unity of Economic Behaviour",
+   "url": "https://arxiv.org/abs/2608.06842",
+   "date": "10/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Certified High-Dimensional Wasserstein Robust Portfolio Optimization",
+   "url": "https://arxiv.org/abs/2608.07032",
+   "date": "10/08"
   },
   {
    "p": 4,
@@ -51,130 +203,42 @@
   },
   {
    "p": 4,
-   "tag": "Equities",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: An Evaluation of Difference-in-Differences Methods Using Placebo Event Studies",
-   "url": "https://www.federalreserve.gov/econres/feds/an-evaluation-of-difference-in-differences-methods-using-placebo-event-studies.htm",
-   "date": "24/06"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Predictive Risk Scores in the Public Sector: Experimental Evidence from Child-Protection Investigations -- by E. Jason Baron, Arkadev Ghosh, Richard Lombardo",
-   "url": "https://www.nber.org/papers/w35540#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Reserves and the Buyer of Last Resort -- by Frederic Boissay, Harald Uhlig",
-   "url": "https://www.nber.org/papers/w35548#fromrss",
+   "title": "A Currency Premium Puzzle -- by Tarek Alexander Hassan, Thomas Mertens, Jingye Wang",
+   "url": "https://www.nber.org/papers/w35572#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "The United States and Its Creditors: Assessing Foreign Demand for U.S. Assets -- by Anusha Chari, Gian Maria Milesi Ferretti",
-   "url": "https://www.nber.org/papers/w35555#fromrss",
+   "title": "The Value Gap: Europe Cannot Scale -- by Bo Becker, Efraim Benmelech, Joao Monteiro",
+   "url": "https://www.nber.org/papers/w35577#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Reconstructing a Century of U.S. Corporate Bonds: Credit Risk in Historical Perspective -- by Mohammad Ghaderi, Sébastien Plante, Nikolai Roussanov, Sang Byung Seo",
+   "url": "https://www.nber.org/papers/w35578#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Common Risk Factors in the Returns on Stocks, Bonds (and Options), Redux -- by Zhongtian Chen, Nikolai Roussanov, Xiaoliang Wang, Dongchen Zou",
+   "url": "https://www.nber.org/papers/w35579#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Monetary Policy in Mandarin Capitalism -- by Jeffery (Jinfan) Chang, Wei Xiong",
-   "url": "https://www.nber.org/papers/w35562#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "Incomplete Information and Self-Fulfilling Inflation Dynamics—Lucas meets Keynes -- by Jess Benhabib, Pengfei Wang, Yi Wen",
-   "url": "https://www.nber.org/papers/w35563#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
-   "date": "31/07"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Last Taxi: LCR Buffers and Bank Liquidity Provision",
-   "url": "https://www.federalreserve.gov/econres/feds/the-last-taxi-lcr-buffers-and-bank-liquidity-provision.htm",
-   "date": "17/07"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
-   "date": "17/07"
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Cyclical Fluctuations, Financial Frictions, and Productivity Differences across Firms",
-   "url": "https://www.federalreserve.gov/econres/feds/cyclical-fluctuations-financial-frictions-and-productivity-differences-across-firms.htm",
-   "date": "26/06"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Selecting Innovation Funding Mechanisms: A Framework for Policymakers -- by Matthew S. Clancy, Matthew Esche, Siddhartha Haria, Claire T. McMahon, Christopher M. Snyder, Caleb Watney",
-   "url": "https://www.nber.org/papers/w35549#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "The Equilibrium Impact of Credit Frictions: Evidence from Default Risk Using Firm-Level Data -- by Timothy J. Besley, Peter John Lambert, Isabelle A. Michalski-Roland, John Van Reenen",
-   "url": "https://www.nber.org/papers/w35552#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Sharing the Burden: The Impacts of Pharmacy Sector Reforms on the Labor Market for Pharmacists in Portugal -- by David Card, Ana Rute Cardoso, Pedro Luis Silva",
-   "url": "https://www.nber.org/papers/w35553#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Demand for Safety in the Crypto Ecosystem -- by Murillo Campello, Angela Gallo, Lira Mota, Tammaro Terracciano",
-   "url": "https://www.nber.org/papers/w35557#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Unpacking Treatment Effect Heterogeneity in a Large-Scale Dropout-Prevention Experiment -- by Thomas Dee, Chloe R. Gibbs, Rebecca Margolit-Chan, Lillian Morrell, James X. Sullivan",
-   "url": "https://www.nber.org/papers/w35558#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Replaceable but Employed: Automation and the Meaning of Work -- by Joshua S. Gans",
-   "url": "https://www.nber.org/papers/w35559#fromrss",
+   "title": "How Steep is the Phillips Curve in Developing Economies? A Sufficient Statistics Approach and Estimates for India -- by Juan Herreño, Noémie Pinardon-Touati, Malte Thie",
+   "url": "https://www.nber.org/papers/w35581#fromrss",
    "date": ""
   }
  ]
