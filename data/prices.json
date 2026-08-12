@@ -1,141 +1,141 @@
 {
  "MSFT": {
-  "price": 506.06,
-  "pe": 28.2
+  "price": 503.81,
+  "pe": 28.1
  },
  "GOGL": {
-  "price": 357.52,
-  "pe": 18.0
+  "price": 343.8,
+  "pe": 17.3
  },
  "META": {
-  "price": 594.92,
-  "pe": 21.6
+  "price": 599.12,
+  "pe": 21.8
  },
  "AMZN": {
-  "price": 278.09,
-  "pe": 22.4
+  "price": 272.27,
+  "pe": 21.9
  },
  "JPM": {
-  "price": 359.79,
-  "pe": 15.4
+  "price": 362.04,
+  "pe": 15.5
  },
  "BLK": {
-  "price": 1131.4,
-  "pe": 27.1
+  "price": 1148.84,
+  "pe": 27.5
  },
  "MU": {
-  "price": 861.0,
-  "pe": 19.5
+  "price": 868.52,
+  "pe": 19.7
  },
  "AAPL": {
-  "price": 308.26,
-  "pe": 35.4
+  "price": 304.91,
+  "pe": 35.0
  },
  "NVDA": {
-  "price": 217.55,
+  "price": 217.5,
   "pe": 33.3
  },
  "AMD": {
-  "price": 469.56,
-  "pe": 120.7
+  "price": 474.32,
+  "pe": 121.9
  },
  "INTC": {
-  "price": 97.52
+  "price": 97.71
  },
  "MRVL": {
-  "price": 208.56,
-  "pe": 71.4
+  "price": 212.31,
+  "pe": 72.7
  },
  "AVGO": {
-  "price": 422.4,
-  "pe": 70.3
+  "price": 416.08,
+  "pe": 69.2
  },
  "TSM": {
-  "price": 418.47,
+  "price": 422.06,
   "pe": 1.0
  },
  "MELI": {
-  "price": 1824.34,
-  "pe": 49.6
+  "price": 1940.0,
+  "pe": 52.8
  },
  "ASML": {
-  "price": 1733.48,
-  "pe": 62.9
+  "price": 1799.38,
+  "pe": 65.3
  },
  "RACE": {
-  "price": 406.77,
-  "pe": 44.1
+  "price": 410.26,
+  "pe": 44.4
  },
  "ABI": {
-  "price": 83.09
+  "price": 80.61
  },
  "ROXO": {
-  "price": 13.86
+  "price": 13.65
  },
  "VZ": {
-  "price": 47.03,
-  "pe": 12.2
+  "price": 47.27,
+  "pe": 12.3
  },
  "TMUS": {
-  "price": 178.2,
-  "pe": 18.6
+  "price": 178.58,
+  "pe": 18.7
  },
  "T": {
-  "price": 24.05,
-  "pe": 8.0
+  "price": 24.5,
+  "pe": 8.1
  },
  "ORCL": {
-  "price": 151.05,
-  "pe": 25.9
+  "price": 145.48,
+  "pe": 25.0
  },
  "NOW": {
-  "price": 127.44
+  "price": 127.54
  },
  "PLTR": {
-  "price": 175.23,
-  "pe": 151.1
+  "price": 174.94,
+  "pe": 150.8
  },
  "CEG": {
-  "price": 270.43,
-  "pe": 26.4
+  "price": 278.36,
+  "pe": 27.1
  },
  "VST": {
-  "price": 142.87,
-  "pe": 24.1
+  "price": 144.92,
+  "pe": 24.5
  },
  "GEV": {
-  "price": 990.85,
-  "pe": 28.4
+  "price": 1011.88,
+  "pe": 29.1
  },
  "SMFT3": {
-  "price": 17.92
+  "price": 17.54
  },
  "PRIO3": {
-  "price": 61.24
+  "price": 59.25
  },
  "SBSP3": {
-  "price": 26.55
+  "price": 25.99
  },
  "PETR4": {
-  "price": 42.23
+  "price": 41.66
  },
  "PETR3": {
-  "price": 47.21
+  "price": 46.53
  },
  "ITUB4": {
-  "price": 40.42
+  "price": 39.0
  },
  "BPAC11": {
-  "price": 53.86
+  "price": 50.13
  },
  "VIVT3": {
-  "price": 30.55
+  "price": 30.14
  },
  "TIMS3": {
-  "price": 18.8
+  "price": 18.73
  },
  "ABEV3": {
-  "price": 15.27
+  "price": 15.01
  },
- "_asof": "2026-08-11 10:06 UTC"
+ "_asof": "2026-08-12 10:14 UTC"
 }

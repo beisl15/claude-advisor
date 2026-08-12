@@ -1,61 +1,21 @@
 {
- "asof": "11/08/2026",
+ "asof": "12/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Yield Curve Prediction with Machine Learning: Forecasting Approaches and the Role of Macroeconomic Predictors",
-   "url": "https://arxiv.org/abs/2608.07536",
-   "date": "11/08"
+   "title": "Beyond Cash Flows: A Multi-Agent AI Framework for Valuing Clinical-Stage, Cross-Border Biotechnology",
+   "url": "https://arxiv.org/abs/2608.10175",
+   "date": "12/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI and the Research Team",
-   "url": "https://arxiv.org/abs/2608.08437",
-   "date": "11/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Beyond headcount and human capital: The Effective Cognitive Population as a decomposable capacity unit for AI-era planning",
-   "url": "https://arxiv.org/abs/2608.09642",
-   "date": "11/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Environmental and Economic Implications of Artificial Intelligence Data Centers in the United States",
-   "url": "https://arxiv.org/abs/2608.09882",
-   "date": "11/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Innovating with Generative AI: A Human Bottleneck Framework",
-   "url": "https://arxiv.org/abs/2608.07504",
-   "date": "11/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "When LLM Agents Negotiate: Private Information and Dynamic Bargaining in Supply Chains",
-   "url": "https://arxiv.org/abs/2608.07538",
-   "date": "11/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Can Open-Weight Models Compete on Financial Text Comprehension?",
-   "url": "https://arxiv.org/abs/2608.08634",
-   "date": "11/08"
+   "title": "The Triadic Stress Index in Financial Markets",
+   "url": "https://arxiv.org/abs/2608.10788",
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -63,7 +23,7 @@
    "src": "arXiv q-fin",
    "title": "Telemetry and Concealment in Self-Adapting Generative AI: Logging Architecture, Adversarial Model Hiding, and the Limits of Detection",
    "url": "https://arxiv.org/abs/2608.09069",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -71,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "Who Verifies the Benchmark? Decentralizing Trust in Large Language Model Evaluation",
    "url": "https://arxiv.org/abs/2608.07762",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -79,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "The Capability Ladder: A Curriculum-Modernization Framework for Workforce Readiness in the AI Era",
    "url": "https://arxiv.org/abs/2608.07779",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -87,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Who Built This Model? Tracing LLM Lineage via Spectral Fingerprints in Weight Space",
    "url": "https://arxiv.org/abs/2608.07786",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -95,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "CliniCARE-Bench: Clinical Calibrated Audit of Medical Reasoning in EHR",
    "url": "https://arxiv.org/abs/2608.07796",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -103,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "The Authority Expectancy Effect in Multi-User Conflict",
    "url": "https://arxiv.org/abs/2608.08026",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -111,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "ForestBench: A Unified Graph Framework for Evaluating Multi-Agent Collaboration",
    "url": "https://arxiv.org/abs/2608.08605",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -119,15 +79,15 @@
    "src": "arXiv cs.AI",
    "title": "Business Arena: Benchmarking LLM Agents in a Realistic Marketplace",
    "url": "https://arxiv.org/abs/2608.08621",
-   "date": "11/08"
+   "date": "12/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Cross-Model Humor Preference Modeling with Cards Against Humanity",
-   "url": "https://arxiv.org/abs/2608.07481",
-   "date": "11/08"
+   "title": "Can Open-Weight Models Compete on Financial Text Comprehension?",
+   "url": "https://arxiv.org/abs/2608.08634",
+   "date": "12/08"
   },
   {
    "p": 5,
@@ -168,6 +128,22 @@
    "title": "AI Agents and Prompt Engineering in Econometric Coding -- by Sebastian Galiani, Federico Ariel López, Raul A. Sosa",
    "url": "https://www.nber.org/papers/w35588#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "When the Fed Speaks: Dynamics and Forecasts of the Volatility Surface",
+   "url": "https://arxiv.org/abs/2608.10693",
+   "date": "12/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Universality and Heterogeneity of Stylized Facts in Cryptocurrency and Equity Markets",
+   "url": "https://arxiv.org/abs/2608.10852",
+   "date": "12/08"
   },
   {
    "p": 4,
@@ -240,6 +216,30 @@
    "title": "How Steep is the Phillips Curve in Developing Economies? A Sufficient Statistics Approach and Estimates for India -- by Juan Herreño, Noémie Pinardon-Touati, Malte Thie",
    "url": "https://www.nber.org/papers/w35581#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "arXiv q-fin",
+   "title": "Multi-Credit Calibration via Elastically Stopped L\\'{e}vy Processes",
+   "url": "https://arxiv.org/abs/2608.10321",
+   "date": "12/08"
+  },
+  {
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "arXiv q-fin",
+   "title": "An Optimal Energy Production Problem with Energy Source Switching and Load Following Nuclear Power Plants",
+   "url": "https://arxiv.org/abs/2608.10197",
+   "date": "12/08"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
+   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
+   "date": "11/08"
   }
  ]
 }
