@@ -1,37 +1,37 @@
 {
- "asof": "13/08/2026",
+ "asof": "14/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Do People Follow AI Advice? Evidence from a Pension Portfolio Choice Experiment",
-   "url": "https://arxiv.org/abs/2608.11371",
-   "date": "13/08"
+   "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
+   "url": "https://arxiv.org/abs/2608.12424",
+   "date": "14/08"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "How Likely and How Deep? Sharp Joint Bounds on Risk-Neutral Crash Probability and Conditional Depth from Option Bid-Ask Quotes",
+   "url": "https://arxiv.org/abs/2607.25353",
+   "date": "14/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Organizational Technology Ladders: Remote Work and Generative AI Adoption",
-   "url": "https://arxiv.org/abs/2608.11626",
-   "date": "13/08"
+   "title": "Cross-Sectional Heterogeneity in LSTM Networks for Financial Time Series",
+   "url": "https://arxiv.org/abs/2608.05755",
+   "date": "14/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "How Organizations Use AI: Evidence from ChatGPT",
-   "url": "https://arxiv.org/abs/2608.12236",
-   "date": "13/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
-   "url": "https://arxiv.org/abs/2608.12283",
-   "date": "13/08"
+   "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
+   "url": "https://arxiv.org/abs/2410.02091",
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -39,23 +39,7 @@
    "src": "arXiv q-fin",
    "title": "Governing Agentic AI in FinTech",
    "url": "https://arxiv.org/abs/2608.11344",
-   "date": "13/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Designing Agentic AI-Based Screening for Portfolio Investment",
-   "url": "https://arxiv.org/abs/2603.23300",
-   "date": "13/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Human-AI Substitution Principle: When will you be replaced by AI in your organization?",
-   "url": "https://arxiv.org/abs/2607.20781",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -63,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
    "url": "https://arxiv.org/abs/2608.11207",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -71,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
    "url": "https://arxiv.org/abs/2608.11215",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -79,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "LLMs in Process Diagram Engineering: From Optimal PFDs to Validated P&IDs",
    "url": "https://arxiv.org/abs/2608.11220",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -87,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "Conformity Mitigations in Large Language Models Lie on a Single Resistance-Receptivity Frontier",
    "url": "https://arxiv.org/abs/2608.11247",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -95,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "Local verification cannot detect non-transportability: a cohomological theory of context preservation in agentic reasoning",
    "url": "https://arxiv.org/abs/2608.11252",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -103,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "From Numbers to Judgment: Specialist LLM Agents and Reinforcement Learning for European Listed Real Estate",
    "url": "https://arxiv.org/abs/2608.11381",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -111,7 +95,7 @@
    "src": "arXiv cs.AI",
    "title": "FrontierFinance: A Challenging Benchmark for Measuring Frontier Intelligence of Finance Agents",
    "url": "https://arxiv.org/abs/2608.11683",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -119,7 +103,7 @@
    "src": "arXiv cs.AI",
    "title": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
    "url": "https://arxiv.org/abs/2608.11232",
-   "date": "13/08"
+   "date": "14/08"
   },
   {
    "p": 5,
@@ -165,9 +149,25 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Regime-Gated Residual Mixture-of-Experts for Cross-Sectional Volatility Forecasting",
-   "url": "https://arxiv.org/abs/2608.12251",
-   "date": "13/08"
+   "title": "What Makes a Peer? Valuation-Anchored Similarity in Private Markets",
+   "url": "https://arxiv.org/abs/2608.12594",
+   "date": "14/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "The Price of Permission: Classification Uncertainty in Constrained Capital Markets",
+   "url": "https://arxiv.org/abs/2608.12634",
+   "date": "14/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Physical Extinction and Long-Run Pricing under Time-Varying Beliefs",
+   "url": "https://arxiv.org/abs/2608.12777",
+   "date": "14/08"
   },
   {
    "p": 4,
