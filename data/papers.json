@@ -1,109 +1,69 @@
 {
- "asof": "14/08/2026",
+ "asof": "15/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
-   "url": "https://arxiv.org/abs/2608.12424",
-   "date": "14/08"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "How Likely and How Deep? Sharp Joint Bounds on Risk-Neutral Crash Probability and Conditional Depth from Option Bid-Ask Quotes",
-   "url": "https://arxiv.org/abs/2607.25353",
-   "date": "14/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Cross-Sectional Heterogeneity in LSTM Networks for Financial Time Series",
-   "url": "https://arxiv.org/abs/2608.05755",
-   "date": "14/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Impact of Generative AI on Collaborative Open-Source Software Development: Evidence from GitHub Copilot",
-   "url": "https://arxiv.org/abs/2410.02091",
-   "date": "14/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Governing Agentic AI in FinTech",
-   "url": "https://arxiv.org/abs/2608.11344",
-   "date": "14/08"
+   "src": "arXiv cs.AI",
+   "title": "Position: Reasoning is a Learnable Rule-Based Process",
+   "url": "https://arxiv.org/abs/2608.12325",
+   "date": "15/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Dynamic Governance of Multi-LLM Agent Systems for Collaborative Conversational Outcomes",
-   "url": "https://arxiv.org/abs/2608.11207",
-   "date": "14/08"
+   "title": "RAIL: An Automatic Classifier of the Artificial Intelligence Readiness Level",
+   "url": "https://arxiv.org/abs/2608.13428",
+   "date": "15/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Poor Man's Agentic Modeling: Simulating Large LLM-Agent Societies on a Laptop",
-   "url": "https://arxiv.org/abs/2608.11215",
-   "date": "14/08"
+   "title": "What Drives LLM Self-Reflection? A Controlled Ablation of Uncertainty Routing in Armed Conflict Forecasting",
+   "url": "https://arxiv.org/abs/2608.12322",
+   "date": "15/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LLMs in Process Diagram Engineering: From Optimal PFDs to Validated P&IDs",
-   "url": "https://arxiv.org/abs/2608.11220",
-   "date": "14/08"
+   "title": "Why Do AI Agents Break Rules? How Framing, Context, and Social Signals Shape Compliance",
+   "url": "https://arxiv.org/abs/2608.12323",
+   "date": "15/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Conformity Mitigations in Large Language Models Lie on a Single Resistance-Receptivity Frontier",
-   "url": "https://arxiv.org/abs/2608.11247",
-   "date": "14/08"
+   "title": "Not All Nudges Land: Behavioral Controllability and Elaboration Quality in AI-Supported Journaling",
+   "url": "https://arxiv.org/abs/2608.12582",
+   "date": "15/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Local verification cannot detect non-transportability: a cohomological theory of context preservation in agentic reasoning",
-   "url": "https://arxiv.org/abs/2608.11252",
-   "date": "14/08"
+   "title": "Error-Aware Reverse Auction Mechanism for Large Language Model Routing",
+   "url": "https://arxiv.org/abs/2608.12719",
+   "date": "15/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "From Numbers to Judgment: Specialist LLM Agents and Reinforcement Learning for European Listed Real Estate",
-   "url": "https://arxiv.org/abs/2608.11381",
-   "date": "14/08"
+   "title": "Agentic Neurosymbolic Collaboration for Mathematical Discovery: A Case Study in Combinatorial Design",
+   "url": "https://arxiv.org/abs/2603.08322",
+   "date": "15/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "FrontierFinance: A Challenging Benchmark for Measuring Frontier Intelligence of Finance Agents",
-   "url": "https://arxiv.org/abs/2608.11683",
-   "date": "14/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Backtrader-Bench: Benchmarking LLM Agents on Algorithmic Trading with Self-Generated MCQs",
-   "url": "https://arxiv.org/abs/2608.11232",
-   "date": "14/08"
+   "title": "Time-Series Forecasting in Safety-Critical Environments: An Open-Source Package for EU-AI-Act-Compliant Development / Zeitreihenprognose in sicherheitskritischen Umgebungen: Ein Open-Source-Paket f\\\"ur die KI-VO-konforme Entwicklung",
+   "url": "https://arxiv.org/abs/2604.23859",
+   "date": "15/08"
   },
   {
    "p": 5,
@@ -144,30 +104,6 @@
    "title": "AI Agents and Prompt Engineering in Econometric Coding -- by Sebastian Galiani, Federico Ariel López, Raul A. Sosa",
    "url": "https://www.nber.org/papers/w35588#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "What Makes a Peer? Valuation-Anchored Similarity in Private Markets",
-   "url": "https://arxiv.org/abs/2608.12594",
-   "date": "14/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "The Price of Permission: Classification Uncertainty in Constrained Capital Markets",
-   "url": "https://arxiv.org/abs/2608.12634",
-   "date": "14/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Physical Extinction and Long-Run Pricing under Time-Varying Beliefs",
-   "url": "https://arxiv.org/abs/2608.12777",
-   "date": "14/08"
   },
   {
    "p": 4,
@@ -239,6 +175,62 @@
    "src": "NBER",
    "title": "How Steep is the Phillips Curve in Developing Economies? A Sufficient Statistics Approach and Estimates for India -- by Juan Herreño, Noémie Pinardon-Touati, Malte Thie",
    "url": "https://www.nber.org/papers/w35581#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
+   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
+   "date": "11/08"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Last Taxi: LCR Buffers and Bank Liquidity Provision",
+   "url": "https://www.federalreserve.gov/econres/feds/the-last-taxi-lcr-buffers-and-bank-liquidity-provision.htm",
+   "date": "17/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
+   "date": "17/07"
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Cautious Careers: Job Mobility under Incomplete Markets -- by Alex Clymo, Piotr Denderski, Yusuf Mercan, Benjamin Schoefer",
+   "url": "https://www.nber.org/papers/w35580#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Spending to Save: The Subscription Model for Eradicating Hepatitis C in Louisiana -- by Kevin Callison, Rena M. Conti, Jonathan Gruber, Jacob Wallace",
+   "url": "https://www.nber.org/papers/w35583#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "The Perils of Bilateral Sovereign Debt -- by Francisco Roldan, César Sosa-Padilla",
+   "url": "https://www.nber.org/papers/w35590#fromrss",
    "date": ""
   }
  ]
