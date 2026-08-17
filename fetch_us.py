@@ -20,19 +20,49 @@ COMMON = dict(
     capex=["PaymentsToAcquirePropertyPlantAndEquipment", "PaymentsToAcquireProductiveAssets"],
     buyback=["PaymentsForRepurchaseOfCommonStock"],
 )
+# Custo dos produtos/servicos. Usado so quando a empresa nao publica GrossProfit:
+# o parser deriva gp = receita - custo (ver main()). Alphabet, Meta, Amazon e
+# Oracle caem nesse caso -- todas reportam o custo, nenhuma reporta a linha de
+# margem bruta em XBRL.
+COGS_TAGS = ["CostOfRevenue", "CostOfGoodsAndServicesSold", "CostOfSales"]
+
+# ── Divida liquida (netdebt) ─────────────────────────────────────────────────
+# Grupos em ordem de preferencia; a resolucao e POR DATA (ver netdebt_series).
+#
+# Duas armadilhas descobertas conferindo as tags reais na SEC em 11/08/2026:
+#
+# 1. Nao existe uma tag unica de "divida total". `LongTermDebt` parece ser, mas
+#    na Alphabet vale 49,1 bi enquanto a divida de balanco e 100,2 bi -- ali e
+#    divulgacao a valor justo, nao a linha do balanco. Por isso ela entra so como
+#    ultimo fallback de nao-circulante, nunca como total.
+#
+# 2. Escolher a tag uma vez por empresa e usa-la para todos os trimestres nao
+#    funciona: a Microsoft tem `LongTermDebt` parado em 2016 e
+#    `LongTermDebtNoncurrent` atualizado. Resolver por data evita tanto a serie
+#    velha quanto o zero silencioso (a AT&T aparecia com divida zero somando
+#    tags que nao existiam naquela data -- a divida real e 144 bi).
+DEBT_TOTAL = ["DebtLongtermAndShorttermCombinedAmount"]
+DEBT_NONCURRENT = ["LongTermDebtNoncurrent", "LongTermDebtAndCapitalLeaseObligations",
+                   "LongTermNotesPayable", "LongTermDebt"]
+DEBT_CURRENT = ["LongTermDebtCurrent", "DebtCurrent", "ShortTermBorrowings", "CommercialPaper"]
+CASH_TAGS = ["CashAndCashEquivalentsAtCarryingValue"]
+INVEST_TAGS = ["ShortTermInvestments", "MarketableSecuritiesCurrent", "OtherShortTermInvestments"]
 CFG = {
     "MSFT": dict(cik=["0000789019"], rev=["RevenueFromContractWithCustomerExcludingAssessedTax"],
                  gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"], div=["PaymentsOfDividendsCommonStock"], **COMMON),
     "GOGL": dict(cik=["0001652044"], rev=["Revenues", "RevenueFromContractWithCustomerExcludingAssessedTax"],
-                 gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"], div=["PaymentsOfDividends"], **COMMON),
+                 gp=["GrossProfit"], cogs=COGS_TAGS, ebitda=["OperatingIncomeLoss"],
+                 div=["PaymentsOfDividends"], **COMMON),
     "META": dict(cik=["0001326801"], rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
-                 gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"], div=["PaymentsOfDividends"], **COMMON),
+                 gp=["GrossProfit"], cogs=COGS_TAGS, ebitda=["OperatingIncomeLoss"],
+                 div=["PaymentsOfDividends"], **COMMON),
     "AMZN": dict(cik=["0001018724"], rev=["RevenueFromContractWithCustomerExcludingAssessedTax"],
-                 gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"], div=["PaymentsOfDividends"], **COMMON),
-    "JPM":  dict(cik=["0000019617"], rev=["RevenuesNetOfInterestExpense", "Revenues"],
+                 gp=["GrossProfit"], cogs=COGS_TAGS, ebitda=["OperatingIncomeLoss"],
+                 div=["PaymentsOfDividends"], **COMMON),
+    "JPM":  dict(bank=True, cik=["0000019617"], rev=["RevenuesNetOfInterestExpense", "Revenues"],
                  gp=[], ebitda=[], div=["PaymentsOfDividends", "PaymentsOfDividendsCommonStock"],
                  equity=["StockholdersEquity"], **{k: COMMON[k] for k in ("ni", "eps", "buyback")}),
-    "BLK":  dict(cik=["0002012383", "0001364742"], rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
+    "BLK":  dict(bank=True, cik=["0002012383", "0001364742"], rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
                  gp=[], ebitda=["OperatingIncomeLoss"], div=["PaymentsOfDividends"],
                  equity=["StockholdersEquity"], **{k: COMMON[k] for k in ("ni", "eps", "buyback")}),
     "MU":   dict(cik=["0000723125"], rev=["RevenueFromContractWithCustomerExcludingAssessedTax"],
@@ -64,7 +94,7 @@ CFG = {
     # ORCL: ano fiscal fecha em MAIO -> fy_end=5 (ver qlabel/nota de fiscal abaixo).
     "ORCL": dict(cik=["0001341439"], fy_end=5,
                  rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
-                 gp=["GrossProfit"], ebitda=["OperatingIncomeLoss"],
+                 gp=["GrossProfit"], cogs=COGS_TAGS, ebitda=["OperatingIncomeLoss"],
                  div=["PaymentsOfDividendsCommonStock", "PaymentsOfDividends"], **COMMON),
     "NOW":  dict(cik=["0001373715"],
                  rev=["RevenueFromContractWithCustomerExcludingAssessedTax", "Revenues"],
@@ -145,9 +175,27 @@ def fqlabel(end, fy_end):
     return f"Q{fq} FY{str(fy)[2:]}"
 
 
+Q_MIN_DAYS, Q_MAX_DAYS = 80, 100  # janela aceita como "um trimestre"
+
+
+def _days(a, b):
+    da = datetime.date(*map(int, a.split("-")[:3]))
+    db = datetime.date(*map(int, b.split("-")[:3]))
+    return (db - da).days
+
+
 def quarterly(units):
     """Agrupa por inicio de exercicio e tira diferencas consecutivas -> valor de 3 meses.
-    Funciona para fiscal nao-calendario. Retorna {end_date: valor}."""
+
+    Funciona para fiscal nao-calendario. Retorna {end_date: valor}.
+
+    IMPORTANTE: so emite o valor se o periodo implicado tiver ~90 dias
+    (Q_MIN_DAYS..Q_MAX_DAYS). Sem esse filtro, um grupo cujo unico registro e o
+    exercicio inteiro (start=jan-01, end=dez-31) entrava como se fosse o 4o
+    trimestre -- foi o que colocou receita anual no lugar do trimestre em GOGL
+    (307,4 no Q4'23), BLK (17,9 no Q4'22), GEV (29,7 no Q4'22) e deixou o lucro
+    da AVGO quase todo nulo. Melhor um buraco honesto do que um pico falso.
+    """
     byval = {}
     for e in units:
         if "start" not in e or "end" not in e:
@@ -159,10 +207,79 @@ def quarterly(units):
     out = {}
     for s, lst in g.items():
         lst.sort()
-        prev = 0
+        prev_end, prev_val = s, 0.0
         for i, (en, v) in enumerate(lst):
-            out[en] = v if i == 0 else v - prev
-            prev = v
+            if i == 0:
+                dur, val = _days(s, en), v
+            else:
+                dur, val = _days(prev_end, en), v - prev_val
+            if Q_MIN_DAYS <= dur <= Q_MAX_DAYS:
+                out.setdefault(en, val)
+            prev_end, prev_val = en, v
+    return out
+
+
+def dedupe_by_quarter(ends):
+    """Um end-date por trimestre civil, mantendo o mais recente.
+
+    Empresas de calendario fiscal deslocado publicam periodos que caem no mesmo
+    trimestre civil (ex.: Apple com fim em 2023-07-01 e em 2023-09-30, ambos
+    'Q3'23'). Sem isso o eixo do grafico repetia rotulo e pulava trimestre --
+    era o caso de AAPL, AMD e INTC.
+    """
+    bykey = {}
+    for e in sorted(ends):
+        bykey[qlabel(e)[0]] = e
+    return [bykey[k] for k in sorted(bykey)]
+
+
+def instants(cik_list, tags):
+    """[(tag, {data_fim: valor})] para tags de saldo (sem `start`), na ordem pedida."""
+    out = []
+    for tag in tags:
+        for cik in cik_list:
+            res = concept(cik, tag)
+            if not res:
+                continue
+            units, _ = res
+            m = {e["end"]: e["val"] for e in units if "end" in e and "start" not in e}
+            if m:
+                out.append((tag, m))
+                break
+    return out
+
+
+def _at(maps, date):
+    """Primeiro grupo que tem valor NAQUELA data. Sem valor -> None (nunca zero)."""
+    for _, m in maps:
+        if m.get(date) is not None:
+            return m[date]
+    return None
+
+
+def netdebt_series(cik_list, ends):
+    """Divida liquida = divida bruta - (caixa + aplicacoes de curto prazo).
+
+    Devolve lista alinhada a `ends`, em bilhoes, com None onde a divida nao esta
+    publicada na data -- preferivel a um zero que o grafico leria como
+    'empresa sem divida'.
+    """
+    total = instants(cik_list, DEBT_TOTAL)
+    noncur = instants(cik_list, DEBT_NONCURRENT)
+    curr = instants(cik_list, DEBT_CURRENT)
+    cash = instants(cik_list, CASH_TAGS)
+    inv = instants(cik_list, INVEST_TAGS)
+    out = []
+    for e in ends:
+        gross = _at(total, e)
+        if gross is None:
+            nc = _at(noncur, e)
+            if nc is None:
+                out.append(None)
+                continue
+            gross = nc + (_at(curr, e) or 0)
+        liquid = (_at(cash, e) or 0) + (_at(inv, e) or 0)
+        out.append(round((gross - liquid) / 1e9, 3))
     return out
 
 
@@ -188,7 +305,7 @@ def main():
         if not rev:
             print(f"!! {tk}: sem receita", file=sys.stderr)
             continue
-        ends = sorted(rev.keys())[-NQ:]
+        ends = dedupe_by_quarter(rev.keys())[-NQ:]
         labels = [qlabel(e)[1] for e in ends]
 
         def col(tags, scale=1e9):
@@ -214,18 +331,31 @@ def main():
                         return [round(m[e] / 1e9, 3) if e in m else None for e in ends]
             return [None] * len(ends)
 
+        rev_col = col(c.get("rev", []))
+
+        # Margem bruta: varias empresas nao publicam GrossProfit mas publicam o
+        # custo. Deriva gp = receita - custo em vez de deixar a linha vazia.
+        gp_col = col(c.get("gp", []))
+        if all(v is None for v in gp_col) and c.get("cogs"):
+            cogs_col = col(c["cogs"])
+            gp_col = [None if (r is None or cg is None) else round(r - cg, 3)
+                      for r, cg in zip(rev_col, cogs_col)]
+
         entry = dict(
             src="SEC EDGAR", asof=qlabel(ends[-1])[1],
             q=labels,
-            rev=col(c.get("rev", [])),
-            gp=col(c.get("gp", [])),
+            rev=rev_col,
+            gp=gp_col,
             ebitda=col(c.get("ebitda", [])),
             ni=col(c.get("ni", [])),
             eps=col_ps(c.get("eps", [])),
             capex=col(c.get("capex", [])),
             div=col(c.get("div", [])),
             buyback=col(c.get("buyback", [])),
-            netdebt=[None] * len(ends),
+            # Banco nao tem "divida liquida" com sentido economico: captacao e
+            # materia-prima, nao alavancagem. JPM e BLK ficam de fora de proposito.
+            netdebt=([None] * len(ends) if c.get("bank")
+                     else netdebt_series(c["cik"], ends)),
         )
 
         # ── Ano fiscal nao-calendario (ORCL fecha em maio) ────────────────────

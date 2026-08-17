@@ -2,9 +2,12 @@
 """
 Gera data/transcripts.json: link do RELEASE OFICIAL de resultados direto da fonte.
 - US: ultimo 8-K com item 2.02 (Results of Operations) na SEC EDGAR.
-- BR: pagina de RI (release/webcast) e a busca CVM.
+- Demais: pagina de RI (release/webcast).
 Transcricao falada completa nao existe de graca na fonte (fica em provedores pagos);
 aqui entregamos o documento oficial + o RI, que e o mais perto da fonte.
+
+Cobertura 100% internacional desde 17/08/2026 — os RIs brasileiros sairam junto
+com os 10 nomes da B3.
 """
 import json, os, sys, urllib.request
 
@@ -25,8 +28,6 @@ IR = {
     "GOGL": "https://abc.xyz/investor/", "META": "https://investor.atmeta.com/",
     "AMZN": "https://ir.aboutamazon.com/", "JPM": "https://www.jpmorganchase.com/ir",
     "BLK": "https://ir.blackrock.com/", "MU": "https://investors.micron.com/",
-    "SMFT3": "https://ri.smartfit.com.br/", "PRIO3": "https://ri.prio3.com.br/",
-    "SBSP3": "https://ri.sabesp.com.br/",
     "ORCL": "https://investor.oracle.com/", "NOW": "https://www.servicenow.com/company/investor-relations.html",
     "PLTR": "https://investors.palantir.com/", "CEG": "https://investors.constellationenergy.com/",
     "VST": "https://investor.vistracorp.com/", "GEV": "https://www.gevernova.com/investors",

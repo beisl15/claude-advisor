@@ -465,7 +465,7 @@ body.focus-mode .co-list{display:none;}
     </div>
     <div class="card" style="font-size:12px;color:var(--text-muted);line-height:1.6;">
       <strong style="color:var(--text-secondary);font-size:12px;">Coverage Universe</strong>&nbsp;&mdash;&nbsp;
-      Alphabet &bull; Microsoft &bull; Meta &bull; MercadoLibre &bull; Amazon &bull; Smartfit &bull; PRIO &bull; Micron &bull; ASML &bull; BlackRock &bull; SABESP &bull; JPMorgan
+      <span id="coverage-strip"></span>
     </div>
   </div>
 
@@ -498,7 +498,7 @@ body.focus-mode .co-list{display:none;}
     <div class="sec-hdr">
       <div>
         <div class="sec-title">Insider Activity</div>
-        <div class="sec-sub">Open-market buys &amp; sells — SEC Form 4 (US) and CVM Formulário 44 (BR)</div>
+        <div class="sec-sub">Open-market buys &amp; sells — SEC Form 4, últimos 90 dias (códigos P/S)</div>
       </div>
     </div>
     <div class="cal-disclaimer">US: apenas compras (P) e vendas (S) em mercado dos últimos 90 dias — exercícios de opção e vendas para imposto ficam de fora. BR: agregado mensal por grupo (controlador, diretoria, conselhos). Atualiza diariamente às ~06:00 BRT.</div>
@@ -559,25 +559,25 @@ body.focus-mode .co-list{display:none;}
         <div class="sec-sub">Live multiples discontinued (Alpha Vantage removed) — real fundamentals in the Fundamentals tab (SEC source)</div>
       </div>
       <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
-        <button class="btn btn-secondary" onclick="loadMetrics('mag7')" id="met-btn-mon">
+        <button class="btn btn-secondary" onclick="loadMetrics('software')" id="met-btn-mon">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 7a5 5 0 1 0 5-5" stroke-linecap="round"/><polyline points="7 2 4 2 4 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Mon — US Mega-Cap
+          Mon — Software
         </button>
-        <button class="btn btn-secondary" onclick="loadMetrics('semis')" id="met-btn-tue">
+        <button class="btn btn-secondary" onclick="loadMetrics('compute')" id="met-btn-tue">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 7a5 5 0 1 0 5-5" stroke-linecap="round"/><polyline points="7 2 4 2 4 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           Tue — Semis
         </button>
-        <button class="btn btn-secondary" onclick="loadMetrics('brazil')" id="met-btn-wed">
+        <button class="btn btn-secondary" onclick="loadMetrics('infra')" id="met-btn-wed">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 7a5 5 0 1 0 5-5" stroke-linecap="round"/><polyline points="7 2 4 2 4 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Wed — Brazil
+          Wed — Power+Fin
         </button>
         <button class="btn btn-secondary" onclick="loadMetrics('other')" id="met-btn-thu">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 7a5 5 0 1 0 5-5" stroke-linecap="round"/><polyline points="7 2 4 2 4 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Thu — Fin+ETFs
+          Thu — Consumer
         </button>
-        <button class="btn btn-secondary" onclick="loadMetrics('telco')" id="met-btn-fri">
+        <button class="btn btn-secondary" onclick="loadMetrics('review')" id="met-btn-fri">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 7a5 5 0 1 0 5-5" stroke-linecap="round"/><polyline points="7 2 4 2 4 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Fri — Telecom
+          Fri — Revisão
         </button>
       </div>
     </div>
@@ -609,25 +609,18 @@ const P = [
   {t:'META',n:'Meta Platforms',       av:'META',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
   {t:'AMZN',n:'Amazon',               av:'AMZN',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
   {t:'MELI',n:'MercadoLibre',         av:'MELI',     s:'LATAM', g:'LATAM', etf:false, exch:'NASDAQ'},
-  {t:'SMFT3',n:'Smartfit',            av:'SMFT3.SA', s:'BR',    g:'BR',    etf:false, exch:'B3', ir:'https://ri.smartfit.com.br/en/financial-and-operational-information/quarterly-results'},
   {t:'ASML',n:'ASML Holding',         av:'ASML',     s:'SEMI',  g:'EU',    etf:false, exch:'NASDAQ'},
-  {t:'PRIO3',n:'PRIO3',               av:'PRIO3.SA', s:'OIL',   g:'BR',    etf:false, exch:'B3', ir:'https://ri.prio3.com.br/resultados-e-relatorios/'},
-  {t:'SBSP3',n:'SABESP',              av:'SBSP3.SA', s:'UTIL',  g:'BR',    etf:false, exch:'B3', data_av:'SBS'},
   {t:'JPM',n:'JPMorgan Chase',        av:'JPM',      s:'FIN',   g:'US',    etf:false, exch:'NYSE'},
   {t:'BLK',n:'BlackRock',             av:'BLK',      s:'FIN',   g:'US',    etf:false, exch:'NYSE'},
   {t:'MU',n:'Micron Technology',      av:'MU',       s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
   // ── Extended Coverage ─────────────────────────────────────────────────────
   {t:'AAPL',n:'Apple',               av:'AAPL',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'NVDA',n:'Nvidia',              av:'NVDA',     s:'AI',    g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'NVDA',n:'Nvidia',              av:'NVDA',     s:'SEMI',    g:'US',    etf:false, exch:'NASDAQ'},
   {t:'AMD',n:'Advanced Micro Devices',av:'AMD',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
   {t:'INTC',n:'Intel',               av:'INTC',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
   {t:'MRVL',n:'Marvell Technology',  av:'MRVL',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
   {t:'AVGO',n:'Broadcom',            av:'AVGO',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
   {t:'TSM',n:'TSMC',                 av:'TSM',      s:'SEMI',  g:'TW',    etf:false, exch:'NYSE'},
-  {t:'PETR3',n:'Petrobras ON',       av:'PBR.A',    s:'OIL',   g:'BR',    etf:false, exch:'B3'},
-  {t:'PETR4',n:'Petrobras PN',       av:'PBR',      s:'OIL',   g:'BR',    etf:false, exch:'B3'},
-  {t:'ITUB4',n:'Itaú Unibanco',      av:'ITUB',     s:'FIN',   g:'BR',    etf:false, exch:'B3'},
-  {t:'BPAC11',n:'BTG Pactual',       av:'BPAC11.SA',s:'FIN',   g:'BR',    etf:false, exch:'B3', ir:'https://ri.btgpactual.com/informacoes-financeiras/resultados-e-relatorios/resultados-trimestrais'},
   {t:'ROXO',n:'Nu Holdings',         av:'NU',       s:'FINTECH',g:'LATAM',etf:false, exch:'NYSE'},
   {t:'RACE',n:'Ferrari',             av:'RACE',     s:'LUXURY',g:'EU',    etf:false, exch:'Milan'},
   // ── Coverage additions (Jun 2026) ─────────────────────────────────────────
@@ -635,9 +628,6 @@ const P = [
   {t:'TMUS',n:'T-Mobile US',         av:'TMUS',     s:'TELECOM',  g:'US', etf:false, exch:'NASDAQ'},
   {t:'T',n:'AT&T',                   av:'T',        s:'TELECOM',  g:'US', etf:false, exch:'NYSE'},
   {t:'ABI',n:'AB InBev',             av:'BUD',      s:'CONSUMER', g:'EU', etf:false, exch:'NYSE'},
-  {t:'VIVT3',n:'Vivo (Tel. Brasil)', av:'VIVT3.SA', s:'TELECOM',  g:'BR', etf:false, exch:'B3', data_av:'VIV'},
-  {t:'TIMS3',n:'TIM Brasil',         av:'TIMS3.SA', s:'TELECOM',  g:'BR', etf:false, exch:'B3', data_av:'TIMB'},
-  {t:'ABEV3',n:'Ambev',              av:'ABEV3.SA',  s:'CONSUMER', g:'BR', etf:false, exch:'B3', data_av:'ABEV'},
   // ── Coverage additions (Jul 2026) — software puro + energia para datacenter ─
   {t:'ORCL',n:'Oracle',              av:'ORCL',     s:'TECH',  g:'US', etf:false, exch:'NYSE',   ir:'https://investor.oracle.com/'},
   {t:'NOW',n:'ServiceNow',           av:'NOW',      s:'TECH',  g:'US', etf:false, exch:'NYSE',   ir:'https://www.servicenow.com/company/investor-relations.html'},
@@ -733,24 +723,6 @@ const ANALYSIS = {
     capalloc: "Amazon has historically prioritized reinvestment over distributions — capital allocation reflects a long-duration compounding mindset. FCF generation has accelerated dramatically: from near-zero in 2021-22 (peak capex cycle) to $50B+ annually. The company has authorized buybacks but executes them inconsistently. The Kuiper satellite internet project and healthcare investments (One Medical, Pharmacy) represent meaningful capital outlays with uncertain near-term returns. AWS capex is increasing sharply with AI infrastructure demands — a spend that management frames as demand-pull but requires monitoring against utilization rates. ROIC has inflected sharply higher as capex intensity normalizes.",
     safety: "Amazon holds ~$75B in cash and equivalents against manageable long-term debt. The business generates $50B+ in annual FCF at scale. At ~35x forward earnings, the stock is pricing in continued multi-segment margin expansion — a reasonable expectation given AWS scale economics and the early stage of advertising monetization. Downside scenario: AWS consumption growth decelerates materially (below 15% YoY) due to AI model inference shifting to proprietary models, compressing the highest-margin revenue stream. Trough valuation ~$140/share (25x trough FCF per share) defines the downside case. Quality of earnings is high — FCF consistently tracks or exceeds reported operating income.",
   },
-  'SMFT3': {
-    thesis: "Smartfit is the dominant low-cost gym operator in Latin America, executing a disciplined rollout of a capital-efficient fitness format with strong unit economics and pricing power. With Brazil's fitness penetration still well below developed market peers, the long-term growth runway is exceptional and structurally underappreciated by the market.",
-    date: 'June 2025',
-    moat: "Smartfit benefits from first-mover scale advantages in the Brazilian low-cost gym segment. The brand is synonymous with affordable fitness in the country, having pioneered the R$99/month price point at national scale. Network density creates convenience moats — a Smartfit location within 5 minutes of a significant portion of the urban Brazilian population. Supplier and equipment purchasing leverage is substantial, reducing per-gym capex below what a new entrant could achieve. The fitness industry benefits from a natural churn dynamic: members who lapse retain their membership plan rather than canceling, creating an unusual revenue floor. International expansion (Chile, Colombia, Mexico) diversifies geographic concentration.",
-    story: "Smartfit's narrative centers on penetration expansion in a structurally underpenetrated market. Brazil's gym penetration of ~4% compares to 20%+ in the US — the TAM expansion story has genuine mathematical support. Unit-level EBITDA margins of 35-40% translate to payback periods under 24 months on new greenfield gyms, creating a high-ROIC reinvestment engine. The financial model is highly scalable: fixed costs are largely contractual (rent, equipment depreciation), while variable costs (energy, cleaning) scale with a membership. Post-COVID operational recovery demonstrated the business model's resilience. Key risk: Brazilian consumer credit stress compressing the disposable income available for discretionary fitness memberships.",
-    scout: "Member satisfaction data shows Smartfit maintaining Net Promoter Scores above 70 in the core Brazilian market — high for a value-oriented consumer brand. Gym density mapping confirms white space remains abundant in secondary Brazilian cities and underserved neighborhoods of major metros. Management has demonstrated pricing discipline, raising monthly fees without triggering meaningful churn acceleration. Competitor analysis shows smaller regional chains losing share as Smartfit's operational and marketing advantages compound. The digital training platform integration is nascent but shows promise as a retention tool for at-risk members.",
-    capalloc: "Smartfit is in a reinvestment phase, directing substantially all FCF toward new gym openings (150-200 annually at peak) rather than distributions. ROIC on new gym investments exceeds 25% at steady-state, justifying aggressive expansion. The balance sheet carries moderate leverage — the company drew on credit facilities during COVID-period closures, and leverage reduction is progressing. Management has demonstrated capital efficiency in site selection and fitout negotiations. The key capital allocation question is whether international expansion (particularly Mexico and Chile) generates comparable unit economics to the established Brazilian market, where brand recognition provides a natural cost advantage.",
-    safety: "Smartfit's balance sheet carries meaningful net debt, reflecting the capital intensity of rapid expansion and COVID-period stress. FCF generation is improving as the post-COVID recovery matures and new gyms reach steady-state utilization. At ~18x forward EBITDA, the stock prices in continued expansion execution. The primary financial risk is Brazilian macro deterioration triggering consumer churn above normalized rates. Unlike most consumer companies, Smartfit benefits from a partially countercyclical dynamic — economic stress drives consumers toward affordable fitness alternatives from premium options. Trough scenario: membership freeze + margin compression yields ~R$15-18/share (40% downside); base case execution implies significant re-rating potential.",
-  },
-  'PRIO3': {
-    thesis: "PRIO is the highest-quality oil production growth story in Brazil, with a world-class asset base in Frade and Wahoo generating some of the industry's lowest lifting costs. The company's operational execution, balance sheet optionality, and capital return capacity are structurally superior to Petrobras-era operators and remain undervalued relative to international E&P peers.",
-    date: 'June 2025',
-    moat: "PRIO's moat is operational and technical rather than structural. The company has demonstrated industry-leading well intervention and production recovery techniques at Frade, reviving a field that under Chevron's ownership was approaching abandonment. Lifting costs below $10/BOE in the deepwater pre-salt zone are achieved through proprietary reservoir management and engineering optimization that is difficult to replicate. The Wahoo field development adds a decade-plus of production growth optionality at similarly attractive economics. ANP regulatory relationships and proven track record of compliance and production milestone delivery create competitive advantages in future licensing rounds.",
-    story: "PRIO's narrative is a production growth story with capital return inflection. The company has executed a multi-year re-development of Frade from ~20,000 to 80,000+ BOE/day, demonstrating execution capability at a level that justifies premium multiples vs. Brazilian oil peers. Wahoo first oil represents the next production step-change, adding ~25,000+ BOE/day once operational. The financial model inflects when Wahoo reaches plateau: FCF per share doubles, unlocking dividends and buybacks that the current valuation does not price. Brent price sensitivity is material — every $10/bbl change in Brent moves EPS by ~30% — but the unit cost structure provides exceptional margin protection even at $50/bbl.",
-    scout: "Industry channel checks consistently place PRIO among the top-tier Brazilian E&P operators for technical execution and subsurface competency. Regulatory compliance record at ANP is clean — no material environmental incidents or production curtailment orders in recent years. The management team's track record of production delivery ahead of internal targets builds credibility with institutional investors. Equipment procurement lead times for Wahoo development are being managed within budget and schedule parameters. Key risk: FPSO dry-dock requirements at Frade could temporarily curtail production, creating short-term earnings volatility that the market tends to over-penalize.",
-    capalloc: "PRIO has prioritized growth capex over distributions, which is appropriate given the exceptional returns available on Wahoo development. ROIC on incremental production barrels exceeds 40% at $70+ Brent — among the best capital deployment opportunities in global E&P. The balance sheet is clean: net debt/EBITDA below 1x at current production and oil prices. Post-Wahoo plateau, management has signaled a dividend initiation, which would represent a significant catalytic event for re-rating relative to international E&P peers. No share count dilution — management has been a net buyer of PRIO shares in the open market, demonstrating conviction alignment.",
-    safety: "PRIO trades at 4-5x EV/EBITDA on 2025 estimates — a meaningful discount to international E&P peers with comparable asset quality. The balance sheet is conservatively structured, capable of servicing debt through $40/bbl Brent without operational impairment. Oil price exposure is the primary risk factor — geopolitical events and OPEC+ supply decisions are outside management control. Hedging policy should be monitored. Downside case (persistent $55/bbl Brent): FCF generation declines but debt service is maintained; stock trades to ~R$22-25/share. Base case (Brent $75-80): Wahoo plateau FCF yield of 20%+ provides substantial re-rating catalyst.",
-  },
   'MU': {
     thesis: "Micron sits at the epicenter of the AI memory supercycle — the most critical infrastructure bottleneck in large-model training and inference. HBM3E demand for AI accelerators is structurally under-supplied, and Micron's execution on HBM manufacturing positions it to capture disproportionate share of the most profitable memory segment in the industry's history.",
     date: 'June 2025',
@@ -777,15 +749,6 @@ const ANALYSIS = {
     scout: "Sovereign wealth fund relationships are deepening globally, with BlackRock winning mandates in Middle Eastern and Asian markets where institutional infrastructure is developing. Aladdin penetration in insurance company risk management is increasing, with several major European insurers recent additions. ETF flows data confirms continued retail and institutional migration from active to passive, benefiting iShares disproportionately. GIP portfolio company operational performance post-acquisition appears in-line with expectations. The primary competitive concern: Vanguard's index fund expansion and State Street's ETF competition remain intense, limiting iShares pricing power in core equity index products.",
     capalloc: "BlackRock has a disciplined capital return framework: consistent dividend growth (5-7% annually) and selective buybacks. The GIP acquisition was transformative but valued appropriately given the private infrastructure fee premium. ROIC on the asset-light management model is exceptional — the business requires minimal tangible capital and generates high-margin recurring fee income. Management compensation structures are aligned with long-term AUM growth rather than short-term earnings, reducing incentive misalignment risk. Acquisition appetite for alternatives managers appears to continue — integration execution will be the key capital allocation variable to monitor.",
     safety: "BlackRock's balance sheet is conservatively managed for a financial services company, with minimal balance sheet risk exposure relative to AUM managed. Revenue correlation with equity markets creates beta to global risk sentiment — a 20% global equity decline compresses management fee revenue by approximately 15-18%. The business is structurally recession-resilient: index funds and ETFs gain share in downturns as active managers underperform, and institutional clients maintain allocations through cycles. At ~22x forward earnings, BlackRock is reasonably valued relative to franchise quality. Trough multiple of 17x trough earnings defines downside at approximately $800-850/share.",
-  },
-  'SBSP3': {
-    thesis: "SABESP is Brazil's largest water and sewage utility, undergoing a transformative privatization-driven operational upgrade. The concession framework provides inflation-linked tariff adjustments and monopoly service delivery to the Sao Paulo metro area — the most economically significant urban market in Latin America. Privatization catalysts are systematically de-risking the investment case.",
-    date: 'June 2025',
-    moat: "SABESP's moat is regulatory and geographic — a concession-based monopoly over water and sewage services for a 39-million-person service area that includes the Sao Paulo metropolitan region. Water utilities are natural monopolies: the economics of duplicating pipe infrastructure are prohibitive, and the regulatory compact guarantees cost recovery plus regulated returns. ANTT tariff adjustment mechanisms provide pass-through of inflation and capex costs, protecting real returns. The privatization by the Sao Paulo state government introduced private sector governance discipline while preserving the regulated return framework — a structural improvement to management quality with no loss of monopoly protection.",
-    story: "SABESP's financial narrative is an infrastructure upgrade story. The company is investing R$30B+ over the concession period to expand sewage treatment coverage (currently ~60% in the service area vs. near-100% for water supply), connecting thousands of underserved households and generating incremental recurring tariff revenue. Revenue growth is driven by connection additions, inflation tariff adjustments, and volume normalization. Privatization has introduced operating efficiency targets with financial penalties for non-compliance — creating management incentives to reduce water loss rates (currently ~25%) toward international standards of 15-18%, directly expanding billable volume at near-zero marginal cost.",
-    scout: "Operational indicators post-privatization confirm management is executing on the efficiency agenda: headcount has been right-sized, procurement processes have been improved, and technology investment in meter reading and leak detection is accelerating. Regulatory compliance record with ANTT tariff reviews has been constructive — the framework appears stable and investor-friendly. The Sao Paulo water crisis concern (recurring drought risk) is partially mitigated by capital investment in the Cantareira and Alto Tiete reservoir systems. Bond market pricing for SABESP debt reflects improvement in credit quality since privatization.",
-    capalloc: "SABESP's capital allocation is largely directed by the concession agreement: mandatory investments in infrastructure expansion and quality targets are defined contractually. Within that framework, management has opportunities to optimize financing costs and return excess cash via dividends (mandatory 25% payout ratio). The privatization introduced dividend commitments that signal shareholder-friendly capital return intentions beyond the statutory minimum. ROIC on regulated infrastructure investments is modest (~10-12%) but predictable and inflation-linked — appropriate for a utility compounder in a high real interest rate environment. Leverage is manageable and declining as FCF generation improves.",
-    safety: "SABESP represents a conservative, inflation-protected return profile. The concession agreement removes expropriation risk, tariff adjustments provide real return protection, and the service area's economic weight ensures political sustainability. Balance sheet leverage of ~2.5x net debt/EBITDA is appropriate for a regulated infrastructure company. At ~12-14x forward EBITDA, the stock is attractively valued relative to Brazilian private utilities and international water utility peers. Downside scenario: extended São Paulo drought requiring emergency tariff relief without full offsetting adjustments — a low-probability tail risk. Normalized FCF yield of 7-8% provides a meaningful return floor with infrastructure-grade predictability.",
   },
   'JPM': {
     thesis: "JPMorgan Chase is the best-managed large financial institution in the world, with a structural earnings power advantage derived from unmatched deposit franchise quality, investment banking breadth, and decades of credit cycle risk management discipline. The stock offers an attractive combination of durable earnings growth, capital return, and recession resilience at a reasonable valuation.",
@@ -859,42 +822,6 @@ const ANALYSIS = {
     scout: "Industry capacity utilization data confirms TSMC's leading-edge nodes (3nm, 5nm) are running at near 100% utilization with demand exceeding supply — a pricing power signal. Arizona fab construction is progressing (N4P in 2024, N3 in 2026) as TSMC geographically diversifies under US CHIPS Act incentives, reducing the Taiwan concentration risk premium. Japan (Kumamoto) and Europe (Dresden) fabs expand the geographic footprint further. Customer check: Apple, Nvidia, AMD, and Qualcomm all have long-term supply agreements with TSMC, providing revenue visibility. The bear case risk is Samsung and Intel catching up on advanced nodes — both companies have made progress, but the gap to TSMC remains several years.",
     capalloc: "TSMC's capital allocation is capital-intensive by necessity — the company spends $30-35B annually in capex to maintain node leadership and expand capacity. This is the highest capex intensity of any company in this portfolio (40-45% of revenue). Despite this, TSMC generates substantial FCF ($25-30B annually) because margins and volumes are high. Dividends are paid quarterly and have grown consistently in TWD terms, though USD translation varies with exchange rates. TSMC does not repurchase shares — a reflection of the capital demands of the foundry business. ROIC on advanced node investment is approximately 20-25% at steady state, justifying the capex discipline.",
     safety: "TSMC's primary risk is geopolitical — Taiwan's relationship with China introduces a low-probability, high-impact tail risk that no amount of financial analysis can fully price. The US CHIPS Act investment and geographic diversification partially mitigate this but do not eliminate it. On financial metrics, TSMC is exceptionally healthy: net cash position, investment-grade balance sheet, and diversified customer base. The Taiwan discount on the multiple (5-8x below Apple or Nvidia on P/E) creates a reasonable entry point for investors who assess geopolitical risk as manageable. At 20-25x forward earnings, TSMC offers the cheapest AI infrastructure exposure of any company in the semiconductor supply chain.",
-  },
-  'PETR3': {
-    thesis: "Petrobras ON (ordinary shares) — same company as PETR4 preferred shares. PETR3 carries voting rights and typically trades at a small discount to PETR4. For full investment analysis see PETR4. Petrobras is among the world's lowest-cost offshore oil producers, with pre-salt fields generating lifting costs of ~$6/barrel — among the cheapest in the world. At Brent oil above $70, Petrobras generates extraordinary FCF that is substantially returned via dividends, making it one of the highest-yielding large-cap equities globally. The Brazilian government's shareholder and policymaker dual role creates an ever-present overhang that is priced in.",
-    date: 'June 2025',
-    moat: "Petrobras operates under a partial concession and shared production agreement framework for pre-salt blocks, with mandatory partnership in some blocks providing regulatory protection. The pre-salt geology — oil trapped under 2,000m of salt beneath 2,000m of seawater — required proprietary subsea engineering that Petrobras pioneered. The FPSO (Floating Production Storage and Offloading) fleet and subsea infrastructure represents 20+ years of accumulated operational knowledge that cannot be replicated quickly. Government majority ownership provides political protection but simultaneously introduces policy risk as the dominant shareholder may prioritize employment, fuel prices, or dividend policy for fiscal reasons over pure profit maximization.",
-    story: "Petrobras's financial story is an oil price and production volume story, with government policy as the wildcard. Production has grown steadily from pre-salt ramp-up — the Buzios field alone (the world's largest deepwater oil development) is expected to reach 1 million bpd. The dividend policy under the Lula administration has been more conservative than the Bolsonaro-era extraordinary dividends, but the 45% minimum payout ratio of operating cash flow still generates dividend yields of 10-15% at current prices. Leverage has been reduced dramatically from peak ($150B+ net debt in 2015) to ~$24B today — a structural improvement that supports dividend sustainability.",
-    scout: "Production update reports confirm Buzios ramp is on track, with peak production expected around 2025-2026. ESG investor concerns about oil company investment have reduced the buyer universe but the remaining investor base (income-oriented, EM-focused) is more committed and less sentiment-driven. Government policy risk was elevated in 2023 when the Lula administration pressured Petrobras to invest in Brazilian industry and reduce dividend payout — this remains the single largest discretionary risk. Brent oil price sensitivity: every $10/bbl change in oil prices moves Petrobras earnings approximately 15-20%.",
-    capalloc: "Petrobras's capital allocation is constrained by the government's dual role: dividends are politically desired (the Federal government is the largest beneficiary), but so is capex growth (employment and energy security). The $78B five-year capex plan (2024-2028) is heavily weighted toward pre-salt oil and gas production, with a small allocation to low-carbon energy that is more politically motivated than economically rational at current oil prices. Free cash flow generation at Brent $70+ comfortably covers both dividends and capex, providing a self-funding model. Debt management has been exemplary — Petrobras refinanced much of its dollar-denominated debt at favorable terms during the low-rate period.",
-    safety: "Petrobras trades at 4-6x forward earnings — the cheapest valuation among major international oil companies. The discount reflects: government ownership risk, BRL/USD translation exposure, ESG exclusion by large institutional investors, and Brazil macro risk. For investors comfortable with these risks, the FCF yield and dividend yield provide a meaningful return floor even in a declining oil price environment. Brent $50 scenario (below breakeven for many peers but above Petrobras's pre-salt lifting cost) would compress earnings but maintain dividend capacity. The primary non-oil risk is currency: a BRL depreciation scenario reduces USD-denominated returns even when BRL earnings are stable.",
-  },
-    'PETR4': {
-    thesis: "Petrobras is among the world's lowest-cost offshore oil producers, with pre-salt fields generating lifting costs of ~$6/barrel — among the cheapest in the world. At Brent oil above $70, Petrobras generates extraordinary FCF that is substantially returned via dividends, making it one of the highest-yielding large-cap equities globally. The Brazilian government's shareholder and policymaker dual role creates an ever-present overhang that is priced in.",
-    date: 'June 2025',
-    moat: "Petrobras operates under a partial concession and shared production agreement framework for pre-salt blocks, with mandatory partnership in some blocks providing regulatory protection. The pre-salt geology — oil trapped under 2,000m of salt beneath 2,000m of seawater — required proprietary subsea engineering that Petrobras pioneered. The FPSO (Floating Production Storage and Offloading) fleet and subsea infrastructure represents 20+ years of accumulated operational knowledge that cannot be replicated quickly. Government majority ownership provides political protection but simultaneously introduces policy risk as the dominant shareholder may prioritize employment, fuel prices, or dividend policy for fiscal reasons over pure profit maximization.",
-    story: "Petrobras's financial story is an oil price and production volume story, with government policy as the wildcard. Production has grown steadily from pre-salt ramp-up — the Buzios field alone (the world's largest deepwater oil development) is expected to reach 1 million bpd. The dividend policy under the Lula administration has been more conservative than the Bolsonaro-era extraordinary dividends, but the 45% minimum payout ratio of operating cash flow still generates dividend yields of 10-15% at current prices. Leverage has been reduced dramatically from peak ($150B+ net debt in 2015) to ~$24B today — a structural improvement that supports dividend sustainability.",
-    scout: "Production update reports confirm Buzios ramp is on track, with peak production expected around 2025-2026. ESG investor concerns about oil company investment have reduced the buyer universe but the remaining investor base (income-oriented, EM-focused) is more committed and less sentiment-driven. Government policy risk was elevated in 2023 when the Lula administration pressured Petrobras to invest in Brazilian industry and reduce dividend payout — this remains the single largest discretionary risk. Brent oil price sensitivity: every $10/bbl change in oil prices moves Petrobras earnings approximately 15-20%.",
-    capalloc: "Petrobras's capital allocation is constrained by the government's dual role: dividends are politically desired (the Federal government is the largest beneficiary), but so is capex growth (employment and energy security). The $78B five-year capex plan (2024-2028) is heavily weighted toward pre-salt oil and gas production, with a small allocation to low-carbon energy that is more politically motivated than economically rational at current oil prices. Free cash flow generation at Brent $70+ comfortably covers both dividends and capex, providing a self-funding model. Debt management has been exemplary — Petrobras refinanced much of its dollar-denominated debt at favorable terms during the low-rate period.",
-    safety: "Petrobras trades at 4-6x forward earnings — the cheapest valuation among major international oil companies. The discount reflects: government ownership risk, BRL/USD translation exposure, ESG exclusion by large institutional investors, and Brazil macro risk. For investors comfortable with these risks, the FCF yield and dividend yield provide a meaningful return floor even in a declining oil price environment. Brent $50 scenario (below breakeven for many peers but above Petrobras's pre-salt lifting cost) would compress earnings but maintain dividend capacity. The primary non-oil risk is currency: a BRL depreciation scenario reduces USD-denominated returns even when BRL earnings are stable.",
-  },
-  'ITUB4': {
-    thesis: "Itaú Unibanco is the highest-quality large bank in Latin America, with consistent ROTCE of 18-22% through credit cycles, disciplined underwriting, and the best digital banking platform in Brazil. The bank trades at a discount to its quality justifies versus global financial sector peers, providing an attractive entry into Brazilian economic recovery with downside protection from the bank's conservative credit culture.",
-    date: 'June 2025',
-    moat: "Itaú's competitive advantages are scale, brand, and technology leadership among Brazilian banks. The 60M+ customer base creates network effects in payments and data — the bank's credit scoring models are trained on decades of Brazilian consumer credit behavior that new entrants cannot replicate. The digital platform (Itaú app, Iti subsidiary) competes effectively with Nu Holdings in digital banking while maintaining the physical branch advantage for high-net-worth and corporate clients. The corporate and investment banking franchise (BBA) is the most respected in Brazil for M&A advisory and capital markets — relationships with Brazilian corporates are multi-decade and institutionally maintained.",
-    story: "Itaú's financial story is driven by net interest margin dynamics in a high-rate Brazilian environment (Selic at 10-12%), growing loan portfolio quality, and digitalization cost efficiency. Revenue growth has been consistent at 8-12% annually in BRL terms, with ROE consistently exceeding 20%. The Nu Holdings disruption narrative has been partially contained — Itaú has responded with digital product investment and targeted pricing, maintaining its mass affluent customer base. The credit normalization cycle from pandemic-era delinquency peaks is largely complete, providing a cleaner EPS growth story going forward. The dividend payout of approximately 40-50% generates a 4-6% USD dividend yield at current prices.",
-    scout: "Banco Central do Brasil data (BACEN credit industry statistics) confirms Itaú consistently outperforms the industry on default rates — a reflection of superior underwriting discipline. The corporate banking division is winning share in infrastructure project finance as Brazil accelerates concession programs. The pension reform and social security changes have driven Itaú's private pension AUM (Itaú Vida e Previdência) growth as Brazilians shift to private retirement savings. NPS scores for digital banking have improved consistently, reducing the vulnerability to Nu Holdings' digital-only offering for the mass market segment.",
-    capalloc: "Itaú's capital allocation record is exceptional for an emerging market bank. ROTCE of 20%+ is achieved while maintaining CET1 ratios above 13% — well above regulatory minimums. Dividends and JCP (Juros sobre Capital Próprio — a Brazilian tax-efficient dividend mechanism) are paid monthly, providing consistent income. Buybacks have been deployed opportunistically when the stock has traded at discounts to book value. The acquisition of Citibank's Brazilian retail operations and the XP minority stake have been strategic, not dilutive. The primary capital allocation risk is regulatory — BACEN occasionally raises capital requirements for systemically important banks, reducing buyback capacity.",
-    safety: "Itaú's financial strength is the most consistent among large EM banks. Credit loss provisions are managed conservatively, with the bank typically building reserves above the minimum during good times to smooth credit cycle impacts. Balance sheet leverage is appropriate for a bank (assets/equity ~12x, lower than European peers). The Brazilian macro risk (fiscal policy uncertainty, BRL volatility, inflation surprises) is the primary non-company-specific risk — a BRL depreciation year can significantly reduce USD-denominated returns even when BRL earnings grow. At 7-10x forward earnings (USD basis), Itaú is attractively valued relative to the quality of franchise and ROE consistency.",
-  },
-  'BPAC11': {
-    thesis: "BTG Pactual is the Goldman Sachs of Latin America — an investment bank, asset management, and merchant bank combined in a partnership culture that has generated some of the highest sustained ROEs of any financial institution in the emerging world. The stock offers direct exposure to Brazilian capital markets growth, infrastructure deal flow, and management with meaningful personal skin in the game.",
-    date: 'June 2025',
-    moat: "BTG's moat is human capital concentration and partnership alignment. The BTG model replicates the Goldman Sachs partnership structure — senior bankers own meaningful equity stakes and are compensated with multi-year vesting, aligning long-term incentive with shareholder return. This creates a retention and recruiting advantage in the Brazilian investment banking market: the best deal makers want to be at BTG because the compensation upside is highest. The investment banking franchise dominates Brazilian M&A advisory, DCM, and ECM league tables. The asset management platform ($150B+ AUM) benefits from the same brand halo. The merchant banking book provides direct investment returns that compound alongside the fee business.",
-    story: "BTG's revenue story is diversified across investment banking fees (M&A, DCM, ECM), asset management (performance and management fees), principal investments (direct investment book returns), and more recently retail banking (BTG+ digital banking). Revenue has grown at 15-20% annually in BRL terms over the past decade. The 2023-2024 period saw some headwinds from lower Brazilian capital markets activity (fewer IPOs, corporate restructurings), but the structural growth in Brazilian financial markets as institutional investors deepen their allocations is a multi-decade tailwind. The BTG+ retail bank is a strategic option that could become a meaningful profit contributor.",
-    scout: "BTG consistently ranks #1 or #2 in Brazilian M&A advisory by deal value — a franchise position built over 20 years. Brazilian infrastructure concession pipeline (airports, highways, ports, energy) provides a structural source of deal flow that is government-mandated and recurring. The asset management industry (ANBIMA data) confirms BTG is gaining market share from bank-affiliated asset managers as pension funds and family offices seek independent managers. Key risk signal to monitor: credit risk in the principal investment book — BTG's direct lending to Brazilian corporates carries meaningful credit exposure that can crystallize rapidly in stress scenarios.",
-    capalloc: "BTG's capital allocation philosophy is to compound book value at 20%+ through retained earnings and organic growth rather than distribute capital via dividends. Dividends are paid but are modest relative to earnings — reflecting the partnership's preference for reinvestment at high returns. The BTG partners themselves are the largest shareholders, creating an alignment that makes capital destruction through misallocation highly unlikely. The primary capital allocation risk is the principal investment book: BTG takes direct equity and credit positions in Brazilian companies, which creates mark-to-market volatility and occasionally realized losses that compress reported earnings below fee-based income.",
-    safety: "BTG's primary risk is Brazil-specific: political instability, credit cycle deterioration, and BRL depreciation all affect both fee revenues and the principal investment book. The 2012 arrest of André Esteves (BTG's founder) demonstrated how partner concentration risk can materially affect the business — though recovery was remarkably rapid. The partnership ownership structure is a double-edged sword: it aligns incentives but concentrates key-man risk. Balance sheet leverage is higher than a pure investment bank given the merchant banking activities. At 10-12x forward earnings, BTG is valued cheaply relative to ROE — the Brazil discount is real but creates an opportunity for long-horizon investors with EM tolerance.",
   },
   'ROXO': {
     thesis: "Nu Holdings is the fastest-growing digital bank in history, having acquired 100 million customers in Latin America in ten years — a growth rate no traditional or digital bank has approached. The thesis is that Nu is early in monetizing its customer base: average revenue per active customer is still $10-15/month versus $25-30+ for mature digital bank peers, with credit products (credit cards, personal loans, payroll lending) providing the primary monetization runway.",
@@ -1137,9 +1064,6 @@ const ETF_NOTES = {
   'TMUS': "T-Mobile is the most dynamic US wireless carrier — having merged with Sprint in 2020, it is executing the playbook of densifying mid-band (2.5 GHz) spectrum coverage while converting millions of Sprint defectors and greenfield home broadband customers. The moat is growing: T-Mobile now matches or exceeds Verizon and AT&T on network quality metrics (Ookla, RootMetrics) while maintaining the lowest churn in the industry. Damodaran narrative: a challenger that won — TMUS has posted the highest postpaid phone net adds in the industry for 12 consecutive quarters and is now the volume leader, not just the value carrier. Fisher scuttlebutt: Un-carrier marketing resonates; employees cite a genuine cultural advantage post-Sprint. Capital allocation: TMUS was net-debt-heavy from the Sprint deal, now deleveraging toward 2.5× target; initiated buybacks and a small dividend in 2023–24. Bull case: FCF inflection continues as capex declines post-network build; valuation re-rating toward a mature utility multiple. Bear case: carrier pricing wars compress ARPU industry-wide; satellite broadband (Starlink) disrupts rural wireless economics. Safety: solid FCF, investment-grade credit, leverage declining.",
   'T': "AT&T shed its media businesses (WarnerMedia→Discovery merger in 2022) and refocused on pure-play connectivity: wireless (80M+ postpaid subscribers) and fiber broadband (AT&T Fiber, targeting 30M+ passings by 2025). The simplification was necessary but the balance sheet remains heavy (~$130B gross debt). Moat assessment: narrow — AT&T competes in a three-carrier oligopoly but lacks TMUS's network momentum and Verizon's FWA scale lead. The durable asset is the wireline fiber build: once lit, fiber passings are sticky, high-ARPU broadband attachments with minimal marginal cost. Scuttlebutt: AT&T Fiber net adds are consistently the highest in the industry (>1M/yr), and premium 2Gbps/5Gbps tiers generate meaningful ARPU uplift. Capital allocation: dividend was cut in 2022 (from $2.08 to $1.11/share) when WarnerMedia was spun off; current $1.11 yield (~6.5%) is well-covered by FCF. Buybacks on hold while deleveraging to <2.5× ND/EBITDA target. Graham safety: highest leverage of the three major US carriers, but FCF is ~$16B annually and the dividend cut gave headroom. Key risk: execution of 30M fiber passings on time and on budget.",
   'ABI': "Anheuser-Busch InBev is the world's largest brewer by volume, with ~25% global beer market share across 500+ brands in 50+ countries. The moat is a global brand portfolio (Budweiser, Corona, Stella Artois, Michelob Ultra) reinforced by unparalleled distribution reach, route-to-market ownership in key emerging markets, and revenue management capabilities that consistently deliver pricing power. The Damodaran narrative is a premium consolidator that over-leveraged for the SABMiller acquisition ($107B deal, 2016) and has been deleveraging since — FCF generation is extraordinary ($9-10B/yr) but is largely directed at debt reduction rather than buybacks. Scuttlebutt: premium and super-premium mix is accelerating globally (Corona, Michelob Ultra, Leffe); zero-alcohol volumes (Bud Zero, Corona Cero) are growing >30% in Europe. Capital allocation: dividend reinstated at €0.75/share in 2022, increasing; leverage declining toward 2× ND/EBITDA target by 2025. Bear case: US Budweiser volumes structurally declining (Bud Light controversy deepened the secular trend); craft/spirits substitution continues; Brazil remains volatile. Bull case: emerging market premium mix upgrades sustain mid-single-digit revenue growth; deleverage unlocks buybacks and multiple re-rating.",
-  'VIVT3': "Telefônica Brasil (Vivo) is Brazil's largest telecom by revenue and the premium connectivity brand for mobile and fiber broadband. The moat is deep: Vivo holds 36% of Brazil's postpaid wireless market, owns the most extensive fiber-to-the-home network in the country (>24M homes passed), and benefits from Telefónica's global technical infrastructure. Damodaran narrative: a mature but growing connectivity compounder in a country with structurally underpenetrated broadband — Brazil's fiber penetration is 35-40% vs. 70%+ in developed markets, offering a 5-8 year tailwind. Scuttlebutt: B2B segment (enterprise IT/security services) is expanding at 20%+ annually; Vivo Ventures positions it as a platform not just a pipe. Capital allocation: Vivo distributes nearly 100% of IFRS net income as dividends (∼R$4-5B/yr), making it a preferred income vehicle among Brazilian institutional investors. Bear case: intense competition from Claro (América Móvil) and TIM in mobile; fiber rollout costs are elevated; BRL depreciation hurts USD-reported results. Graham safety: net cash position, A-rated credit, no material near-term debt maturities.",
-  'TIMS3': "TIM Brasil is the third-largest mobile operator in Brazil and the pure-play telecom with the leanest cost structure — following the acquisition of Oi Móvel assets (2022), TIM expanded to 60M+ subscribers and significantly improved its spectrum position. Moat assessment: narrower than Vivo, but TIM holds a defensible #2-#3 position in postpaid with strong coverage in the Southeast/South regions. The Damodaran narrative is a post-merger synergy story: TIM has outperformed on Oi integration savings, guiding to R$1.5B+ in annual synergies by 2025, and has returned to consistent free cash flow generation. Scuttlebutt: ARPU is rising as the industry reprices postpaid plans upward; TIM's fiber-light strategy (using wholesale access) reduces capex intensity vs. full fiber-build competitors. Capital allocation: TIM distributes at least 75% of net income as dividends; leverage is minimal (net cash or near zero ND/EBITDA). Bear case: Vivo's fiber moat widens; ARPU growth stalls if competitive pricing resumes; smaller scale limits enterprise IT ambitions. Graham safety: strong balance sheet, investment-grade by local standards.",
-  'ABEV3': "Ambev is Brazil's dominant brewer (75% beer market share locally), with operations in 15 countries across Latin America and the Caribbean. The moat is distribution: Ambev owns Brazil's most extensive direct-distribution network (Brahma, Skol, Antarctica, Corona licenses), which constitutes an insurmountable competitive advantage for both existing and acquired brands. Damodaran narrative: Ambev is a dividend compounder suffering a cyclical margin trough — Brazilian consumers downgraded to cheaper beers in 2022-23 as inflation squeezed household income, compressing mix and EBITDA margins from 33% toward 28%. The recovery thesis rests on premiumization resuming as real wages recover and BRL stabilizes. Scuttlebutt: Spaten (premium German brand) outgrows the category; zero-alcohol beer doubles industry volumes by 2026; Ambev's distribution partnership with PepsiCo is undermonetized and could expand. Capital allocation: Ambev is majority-owned by ABI (61%), limiting strategic independence; dividend policy is ~100% payout of adjusted net income. Bear case: persistent margin pressure from input cost inflation (aluminum, barley, glass); volume share loss to Heineken Brazil; BRL depreciation. Graham safety: net cash (~R$8B), no leverage, best-in-class balance sheet in consumer staples.",
 };
 
 
@@ -1545,30 +1469,6 @@ const FIN = {
     buyback:[null,null,null,null,null,null,null,null,null,null,null,null],
     netdebt:[null,null,null,null,null,null,null,null,null,null,null,null],
   },
-  'SMFT3': { // Smartfit — BRL billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [0.65,  0.75,  0.88,  0.94,  0.92,  1.01,  1.08,  1.16,  1.09,  1.21,  1.30,  1.40],
-    gp:    [0.46,  0.53,  0.62,  0.66,  0.65,  0.72,  0.77,  0.83,  0.77,  0.87,  0.93,  1.01],
-    ebitda:[0.24,  0.28,  0.32,  0.37,  0.35,  0.39,  0.42,  0.45,  0.44,  0.49,  0.53,  0.58],
-    ni:    [-0.01, 0.04,  0.07,  0.13,  0.08,  0.11,  0.14,  0.16,  0.14,  0.17,  0.20,  0.23],
-    eps:   [-0.02, 0.11,  0.19,  0.35,  0.22,  0.29,  0.38,  0.43,  0.37,  0.45,  0.53,  0.61],
-    capex: [0.16,  0.19,  0.21,  0.25,  0.21,  0.23,  0.24,  0.23,  0.23,  0.25,  0.26,  0.28],
-    div:   [0,0,0,0,0,0,0.03,0.05,0,0,0.05,0.05],
-    buyback:[0,0,0,0,0,0,0,0,0,0,0,0],
-    netdebt:[2.1,  2.3,  2.4,  2.5,  2.5,  2.6,  2.7,  2.8,  2.8,  2.9,  3.0,  3.0],
-  },
-  'PRIO3': { // PRIO — BRL billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [1.12,  1.65,  1.48,  1.30,  2.10,  2.05,  2.13,  1.94,  2.45,  2.58,  2.62,  2.40],
-    gp:    [0.90,  1.35,  1.20,  1.05,  1.72,  1.68,  1.75,  1.60,  2.00,  2.11,  2.14,  1.96],
-    ebitda:[0.80,  1.20,  1.10,  0.95,  1.54,  1.52,  1.62,  1.48,  1.88,  1.99,  2.02,  1.83],
-    ni:    [0.45,  0.75,  0.72,  0.62,  1.10,  1.05,  1.18,  1.08,  1.30,  1.35,  1.40,  1.15],
-    eps:   [0.80,  1.33,  1.28,  1.10,  1.93,  1.84,  2.07,  1.89,  2.28,  2.37,  2.46,  2.02],
-    capex: [0.28,  0.35,  0.40,  0.48,  0.45,  0.52,  0.55,  0.50,  0.65,  0.75,  0.80,  0.80],
-    div:   [0,0,0,0,0,0.13,0.13,0.22,0.35,0.35,0.38,0.40],
-    buyback:[0,0,0,0,0,0,0,0,0,0,0,0],
-    netdebt:[2.8,  3.0,  3.2,  3.0,  2.8,  2.5,  2.2,  2.0,  1.8,  1.5,  1.2,  1.0],
-  },
   'MU': { // Micron — SEC EDGAR (10-Q/10-K), USD bi · ANO FISCAL termina em agosto (não-calendário). Último tri = FQ2'26 (dez/25-fev/26): receita recorde US$23.9bi no super-ciclo de memória de IA.
     src:'SEC EDGAR', asof:'FQ2 2026 (fev/26)',
     q:['Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24','Q1\'25','Q2\'25','Q3\'25','Q4\'25','Q1\'26'],
@@ -1608,18 +1508,6 @@ const FIN = {
     buyback:[null,null,0.384,0.634,0.519,0.391,0.386,0.657,0.396,null,null,null],
     netdebt:[null,null,null,null,null,null,null,null,null,null,null,null],
     equity: [null,null,39.347,null,null,41.178,47.495,48.036,49.141,55.519,55.888,56.688],
-  },
-  'SBSP3': { // SABESP — BRL billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [4.10,  4.40,  4.60,  5.40,  4.60,  4.80,  5.10,  5.50,  5.20,  5.80,  6.20,  6.80],
-    gp:    [2.00,  2.20,  2.30,  2.60,  2.40,  2.52,  2.70,  2.90,  2.95,  3.30,  3.55,  3.80],
-    ebitda:[1.55,  1.70,  1.80,  2.00,  1.85,  1.95,  2.05,  2.15,  2.10,  2.45,  2.60,  2.90],
-    ni:    [0.45,  0.55,  0.65,  0.85,  0.58,  0.70,  0.80,  0.92,  1.00,  1.20,  1.35,  1.45],
-    eps:   [0.65,  0.79,  0.93,  1.22,  0.83,  1.01,  1.15,  1.32,  1.44,  1.73,  1.94,  2.09],
-    capex: [1.00,  1.10,  1.15,  1.25,  1.25,  1.35,  1.45,  1.45,  1.60,  1.75,  1.80,  1.85],
-    div:   [0,0,0,0.75,0,0,0,0.95,0,0,0,1.50],
-    buyback:[0,0,0,0,0,0,0,0,0,0,0,0],
-    netdebt:[10.0, 10.5, 11.0,  11.0,  11.5,  11.8,  12.0,  12.0,  12.5,  12.8,  13.0,  13.0],
   },
   'JPM': { // JPMorgan Chase — SEC EDGAR (10-Q/10-K), USD bi · até Q1 2026. Banco: sem margem bruta/EBITDA; "rev" = receita líquida de juros.
     src:'SEC EDGAR', asof:'Q1 2026',
@@ -1721,42 +1609,6 @@ const FIN = {
     buyback:[0,0,0,0,0,0,0,0,0,0,0,0],
     netdebt:[-30,  -28,   -25,   -24,   -22,   -20,   -22,   -21,   -19,   -20,   -22,   -28],
   },
-  'PETR4': { // Petrobras — USD billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [31.2,  38.1,  37.2,  35.1,  31.4,  27.8,  29.3,  29.6,  26.5,  25.8,  26.2,  25.4],
-    gp:    [17.2,  21.0,  20.5,  19.3,  17.3,  15.3,  16.1,  16.3,  14.6,  14.2,  14.4,  14.0],
-    ebitda:[14.0,  17.2,  16.7,  15.8,  14.1,  12.5,  13.2,  13.3,  11.9,  11.6,  11.8,  11.4],
-    ni:    [6.9,   9.0,   7.9,   7.1,   5.7,   4.2,   6.3,   3.4,   4.9,   5.0,   4.9,   4.0],
-    eps:   [0.53,  0.69,  0.61,  0.55,  0.44,  0.32,  0.48,  0.26,  0.38,  0.38,  0.38,  0.31],
-    capex: [3.0,   3.5,   3.5,   3.8,   3.2,   3.3,   3.5,   3.5,   3.5,   3.5,   3.5,   3.5],
-    div:   [6.5,   10.2,  10.4,  7.0,   4.0,   3.8,   3.5,   3.2,   2.0,   2.5,   2.4,   2.3],
-    buyback:[0,0,0,0,0,0,0,0,0,0,0,0],
-    netdebt:[48,   44,    40,    38,    36,    34,    31,    29,    27,    26,    25,    24],
-  },
-  'ITUB4': { // Itau Unibanco — USD billions (USD equiv.)
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [8.0,   8.5,   9.2,   9.8,   10.2,  10.5,  10.8,  11.0,  11.3,  11.6,  12.0,  12.2],
-    gp:    [5.6,   5.9,   6.4,   6.9,   7.1,   7.4,   7.6,   7.7,   7.9,   8.1,   8.4,   8.5],
-    ebitda:[3.8,   4.1,   4.5,   4.8,   5.0,   5.2,   5.4,   5.5,   5.6,   5.8,   6.1,   6.2],
-    ni:    [1.9,   2.1,   2.3,   2.5,   2.6,   2.7,   2.8,   2.9,   3.0,   3.1,   3.2,   3.3],
-    eps:   [0.20,  0.22,  0.24,  0.26,  0.27,  0.28,  0.29,  0.30,  0.31,  0.32,  0.33,  0.35],
-    capex: [0.2,   0.2,   0.2,   0.2,   0.3,   0.3,   0.3,   0.3,   0.3,   0.3,   0.3,   0.4],
-    div:   [0.6,   0.7,   0.7,   0.8,   0.8,   0.9,   0.9,   0.9,   1.0,   1.0,   1.0,   1.1],
-    buyback:[0.2,  0.3,   0.3,   0.4,   0.4,   0.4,   0.4,   0.4,   0.5,   0.5,   0.5,   0.5],
-    netdebt:[0,0,0,0,0,0,0,0,0,0,0,0],
-  },
-  'BPAC11': { // BTG Pactual — USD billions (approx.)
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [0.7,   0.8,   0.9,   0.9,   1.0,   1.0,   1.1,   1.2,   1.2,   1.3,   1.4,   1.5],
-    gp:    [0.5,   0.6,   0.7,   0.7,   0.7,   0.8,   0.8,   0.9,   0.9,   0.9,   1.0,   1.1],
-    ebitda:[0.4,   0.5,   0.6,   0.6,   0.6,   0.7,   0.7,   0.8,   0.8,   0.8,   0.9,   1.0],
-    ni:    [0.3,   0.3,   0.4,   0.4,   0.5,   0.5,   0.5,   0.6,   0.6,   0.6,   0.7,   0.7],
-    eps:   [0.14,  0.15,  0.19,  0.19,  0.23,  0.23,  0.24,  0.28,  0.28,  0.28,  0.32,  0.32],
-    capex: [0.01,  0.01,  0.01,  0.01,  0.02,  0.02,  0.02,  0.02,  0.02,  0.02,  0.02,  0.02],
-    div:   [0.1,   0.1,   0.1,   0.1,   0.1,   0.1,   0.1,   0.2,   0.1,   0.2,   0.1,   0.2],
-    buyback:[0,0,0,0,0,0,0,0,0,0,0,0],
-    netdebt:[0,0,0,0,0,0,0,0,0,0,0,0],
-  },
   'ROXO': { // Nu Holdings — USD billions
     q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
     rev:   [0.85,  1.06,  1.28,  1.44,  1.62,  1.90,  2.08,  2.35,  2.65,  2.84,  2.94,  3.20],
@@ -1831,42 +1683,6 @@ const FIN = {
     buyback:[0.0,  0.0,   0.0,   0.0,   0.2,   0.3,   0.4,   0.5,   0.5,   0.5,   0.5,   0.5],
     netdebt:[77,   75,    73,    71,    73,    70,    67,    64,    64,    61,    59,    57],
   },
-  'VIVT3': { // Telefônica Brasil (Vivo) — BRL billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [11.6,  12.0,  12.3,  12.7,  12.5,  12.9,  13.2,  13.5,  13.3,  13.7,  14.0,  14.4],
-    gp:    [6.0,   6.2,   6.4,   6.6,   6.5,   6.7,   6.9,   7.0,   6.9,   7.1,   7.3,   7.5],
-    ebitda:[4.1,   4.3,   4.4,   4.5,   4.4,   4.6,   4.7,   4.8,   4.7,   4.9,   5.0,   5.2],
-    ni:    [0.9,   1.0,   1.0,   1.1,   1.0,   1.1,   1.1,   1.2,   1.1,   1.2,   1.2,   1.3],
-    eps:   [0.60,  0.65,  0.67,  0.73,  0.68,  0.71,  0.74,  0.79,  0.74,  0.80,  0.82,  0.87],
-    capex: [2.1,   2.2,   2.3,   2.4,   2.3,   2.4,   2.5,   2.6,   2.5,   2.6,   2.7,   2.8],
-    div:   [1.0,   1.0,   1.0,   1.1,   1.0,   1.1,   1.1,   1.2,   1.1,   1.2,   1.2,   1.3],
-    buyback:[0.0,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0],
-    netdebt:[-2.5, -2.2,  -2.0,  -1.8,  -2.0,  -2.2,  -2.4,  -2.6,  -2.4,  -2.7,  -2.9,  -3.1],
-  },
-  'TIMS3': { // TIM Brasil — BRL billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [5.4,   5.7,   5.9,   6.2,   6.2,   6.5,   6.7,   7.0,   7.0,   7.2,   7.5,   7.8],
-    gp:    [2.6,   2.7,   2.8,   3.0,   3.0,   3.1,   3.2,   3.4,   3.4,   3.5,   3.6,   3.8],
-    ebitda:[2.1,   2.2,   2.3,   2.5,   2.4,   2.6,   2.7,   2.8,   2.8,   2.9,   3.0,   3.2],
-    ni:    [0.4,   0.5,   0.5,   0.6,   0.5,   0.6,   0.6,   0.7,   0.6,   0.7,   0.7,   0.8],
-    eps:   [0.13,  0.16,  0.16,  0.19,  0.17,  0.19,  0.20,  0.22,  0.21,  0.23,  0.24,  0.26],
-    capex: [0.9,   1.0,   1.1,   1.2,   1.1,   1.2,   1.2,   1.3,   1.2,   1.3,   1.3,   1.4],
-    div:   [0.3,   0.4,   0.4,   0.5,   0.4,   0.5,   0.5,   0.6,   0.5,   0.6,   0.6,   0.7],
-    buyback:[0.0,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0],
-    netdebt:[3.8,  3.5,   3.2,   2.9,   2.7,   2.4,   2.2,   1.9,   1.7,   1.5,   1.3,   1.0],
-  },
-  'ABEV3': { // Ambev — BRL billions
-    q:['Q1\'22','Q2\'22','Q3\'22','Q4\'22','Q1\'23','Q2\'23','Q3\'23','Q4\'23','Q1\'24','Q2\'24','Q3\'24','Q4\'24'],
-    rev:   [17.2,  21.3,  20.5,  22.0,  18.5,  22.4,  22.0,  24.2,  19.5,  23.0,  23.1,  26.3],
-    gp:    [8.0,   10.0,   9.6,  10.3,   8.9,  10.8,  10.6,  11.7,   9.4,  11.1,  11.2,  12.7],
-    ebitda:[4.4,   5.8,   5.7,   6.2,   5.0,   6.3,   6.2,   6.8,   5.3,   6.6,   6.6,   7.5],
-    ni:    [2.0,   3.0,   2.9,   3.1,   2.5,   3.2,   3.1,   3.5,   2.7,   3.4,   3.4,   4.0],
-    eps:   [0.13,  0.19,  0.18,  0.20,  0.16,  0.20,  0.20,  0.22,  0.17,  0.22,  0.21,  0.25],
-    capex: [1.3,   1.6,   1.6,   1.7,   1.4,   1.7,   1.7,   1.8,   1.5,   1.7,   1.8,   2.0],
-    div:   [1.8,   2.8,   2.7,   2.9,   2.3,   3.0,   2.9,   3.3,   2.5,   3.2,   3.2,   3.8],
-    buyback:[0.0,  0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0,   0.0],
-    netdebt:[-8.2,-9.1,  -9.8, -10.5, -9.0,  -9.8, -10.5, -11.2, -9.5, -10.3, -11.0, -12.1],
-  },
 };
 
 // ─── CHART INSTANCES ──────────────────────────────────────────────────────────
@@ -1930,80 +1746,31 @@ function ttm(arr, i) {
   return arr[i] + arr[i-1] + arr[i-2] + arr[i-3];
 }
 
-// ─── SNAPSHOT BRASIL (Fundamentus) ──────────────────────────────────────────────
-// Fonte: fundamentus.com.br/detalhes.php — snapshot do trimestre atual (sem CVM/SEC para B3).
-// Valores em R$. Atualize rodando a curadoria do Fundamentus novamente.
-const BR_SNAP = {
-  'SMFT3': { asof:'31/12/2025', cot:18.69, datacot:'22/04/2026', min52:18.09, max52:26.30,
-    mktcap:11515.5, ev:15566.5, // R$ milhões
-    revTTM:7241.69, ebitTTM:1708.93, niTTM:638.69, revQ:1948.23, ebitQ:451.12, niQ:214.28,
-    mBruta:42.5, mEbit:23.6, mLiq:8.8, roe:11.3, roic:9.8,
-    divLiq:4051.06, patrim:5661.54, pl:18.03, evEbitda:4.49, pvp:2.03, dy:5.4 },
-  'PRIO3': { asof:'31/03/2026', cot:65.45, datacot:'13/05/2026', min52:34.20, max52:72.10,
-    mktcap:57104.8, ev:81212.8,
-    revTTM:17673.1, ebitTTM:3763.42, niTTM:2589.70, revQ:6529.95, ebitQ:2611.95, niQ:2410.88,
-    mBruta:25.5, mEbit:21.3, mLiq:14.7, roe:9.7, roic:6.4,
-    divLiq:24108.0, patrim:26630.6, pl:22.05, evEbitda:8.12, pvp:2.14, dy:0.0 },
-  'SBSP3': { asof:'31/03/2026', cot:29.10, datacot:'13/05/2026', min52:20.31, max52:35.21,
-    mktcap:102564.0, ev:135024.0,
-    revTTM:39630.7, ebitTTM:12856.5, niTTM:8729.0, revQ:9964.84, ebitQ:3394.18, niQ:1749.03,
-    mBruta:36.6, mEbit:32.4, mLiq:22.0, roe:20.0, roic:13.3,
-    divLiq:32460.5, patrim:43701.0, pl:11.75, evEbitda:8.90, pvp:2.35, dy:2.3 },
-};
-function fmtBR(mi) { // recebe R$ milhões -> "R$ X,XX bi" ou "R$ XXX mi"
-  if (mi==null) return '—';
-  return mi>=1000 ? 'R$ '+(mi/1000).toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2})+' bi'
-                  : 'R$ '+mi.toLocaleString('pt-BR',{maximumFractionDigits:0})+' mi';
-}
-function renderBrSnapshot(t) {
-  const s = BR_SNAP[t]; if (!s) return '';
-  const bank = (typeof isFinancial === 'function' && isFinancial(t));
-  const src = s.fonte || 'Fundamentus';
-  const px = (window.__PRICES||{})[t];
-  const pct = v => (v==null||v==='') ? null : v+'%';
-  const n2  = v => (v==null) ? null : v.toLocaleString('pt-BR');
-  const money = v => (v==null) ? null : fmtBR(v);
-  const pair = (a,b) => (a==null && b==null) ? null : (fmtBR(a)+' / '+fmtBR(b));
-  const row = (lbl,val) => (val==null) ? '' : `<div style="display:flex;justify-content:space-between;padding:5px 0;border-bottom:1px solid var(--border);font-size:12px;"><span style="color:var(--text-secondary);">${lbl}</span><span style="font-weight:600;color:var(--text-primary);" class="pv">${val}</span></div>`;
-  const col = (title,rows) => rows ? `<div style="flex:1;min-width:180px;"><div style="font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--accent-purple);margin-bottom:4px;">${title}</div>${rows}</div>` : '';
-  const plLive = (px && px.pe!=null) ? px.pe : s.pl;
-  const resultado = row('Net Revenue (TTM/Q)', pair(s.revTTM,s.revQ))
-    + (bank ? '' : row('EBIT (TTM/Q)', pair(s.ebitTTM,s.ebitQ)))
-    + row('Net Income (TTM/Q)', pair(s.niTTM,s.niQ));
-  const rent = (bank ? '' : row('Gross Margin', pct(s.mBruta)))
-    + (bank ? '' : row('EBIT Margin', pct(s.mEbit)))
-    + row('Net Margin', pct(s.mLiq)) + row('ROE', pct(s.roe))
-    + (bank ? '' : row('ROIC', pct(s.roic)));
-  const valc = row('Equity', money(s.patrim))
-    + (bank ? '' : row('Net Debt', money(s.divLiq)))
-    + row('P/E', n2(plLive)) + (bank ? '' : row('EV/EBITDA', n2(s.evEbitda)))
-    + row('Div. Yield', pct(s.dy));
-  let cot = '';
-  if (s.cot!=null) cot = ` · price R$ ${s.cot.toLocaleString('en-US',{minimumFractionDigits:2})}${s.datacot?' ('+s.datacot+')':''}`;
-  else if (px && px.price!=null) cot = ` · price R$ ${px.price.toLocaleString('en-US',{minimumFractionDigits:2})} (live)`;
-  return `<div class="card" style="margin:0 0 18px;">
-    <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:12px;flex-wrap:wrap;gap:8px;">
-      <div><div style="font-size:13px;font-weight:700;">Fundamentals — snapshot${bank?' · financial institution':''}</div>
-        <div style="font-size:11px;color:var(--text-muted);">Source: ${src} · last report ${s.asof||'—'}${cot}</div></div>
-      <span style="font-size:10px;background:#FEF3C7;color:#92400E;padding:2px 8px;border-radius:4px;">B3 — snapshot (no quarterly series)</span>
-    </div>
-    <div style="display:flex;gap:24px;flex-wrap:wrap;">
-      ${col('Results', resultado)}${col('Profitability', rent)}${col('Balance Sheet & Valuation', valc)}
-    </div>
-  </div>`;
-}
-
 // ─── OVERVIEW (estilo research portal) ──────────────────────────────────────────
-const SECTOR_PT = {TECH:'Technology',SEMI:'Semiconductors',AI:'AI / Semis',POWER:'Power & Datacenter Energy',OIL:'Oil & Gas',MINING:'Mining',FIN:'Financials',FINTECH:'Fintech',UTIL:'Utilities & Water',CONSUMER:'Consumer',LUXURY:'Luxury',TELECOM:'Telecom',LATAM:'LatAm E-commerce',BR:'Consumer & Services',ETF:'ETF',BTC:'Crypto'};
-const GEO_PT = {US:'United States',BR:'Brazil',EU:'Europe',CN:'China',TW:'Taiwan',LATAM:'Latin America'};
+// Setores vivos apenas. OIL / UTIL / BR / MINING / BTC sairam em 17/08/2026 com os
+// 10 nomes da B3; AI foi absorvido por SEMI (era um setor de um nome so, a NVDA).
+const SECTOR_PT = {TECH:'Technology',SEMI:'Semiconductors',POWER:'Power & Datacenter Energy',FIN:'Financials',FINTECH:'Fintech',CONSUMER:'Consumer',LUXURY:'Luxury',TELECOM:'Telecom',LATAM:'LatAm E-commerce',ETF:'ETF'};
+const GEO_PT = {US:'United States',EU:'Europe',CN:'China',TW:'Taiwan',LATAM:'Latin America'};
+
+// ─── BUCKETS DE COBERTURA ───────────────────────────────────────────────────
+// O setor (p.s) segue granular para o rotulo da ficha ("Semiconductors · Taiwan").
+// O bucket e a camada de leitura: 5 grupos, um por dia da semana. E o que a lista
+// de empresas e a cadencia semanal usam.
+const BUCKETS = [
+  {key:'software', label:'Software & Platforms',      day:'Mon', sectors:['TECH']},
+  {key:'compute',  label:'Semis & Compute',           day:'Tue', sectors:['SEMI']},
+  {key:'power',    label:'Power & Infrastructure',    day:'Wed', sectors:['POWER']},
+  {key:'fin',      label:'Financials & Fintech',      day:'Wed', sectors:['FIN','FINTECH']},
+  {key:'other',    label:'Consumer, Telecom & LatAm', day:'Thu', sectors:['CONSUMER','TELECOM','LUXURY','LATAM']},
+];
+const bucketOf = sec => (BUCKETS.find(b => b.sectors.includes(sec)) || {key:'other'}).key;
 function renderOverviewStrip(t) {
   const p = P.find(x => x.t === t); if (!p) return '';
   const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   const e = EARNINGS.find(x => x.t === t);
   const fin = (typeof getFin === 'function' ? getFin(t) : null) || FIN[t];
-  const br = BR_SNAP[t];
-  const hasFund = !!br || (fin && fin.src); // dado de fonte oficial (SEC / intl / CVM-Fundamentus)
-  const finCur = (p.g==='BR') ? 'R$' : (t==='ASML'||t==='RACE') ? '€' : (t==='TSM') ? 'NT$' : 'US$';
+  const hasFund = !!(fin && fin.src); // dado de fonte oficial (SEC / Yahoo / RI / stockanalysis)
+  const finCur = (t==='ASML'||t==='RACE') ? '€' : (t==='TSM') ? 'NT$' : 'US$';
   const pctf = v => (v==null||isNaN(v)) ? '—' : (v>=0?'+':'')+v.toFixed(1)+'%';
   const setor = (SECTOR_PT[p.s]||p.s) + ' · ' + (GEO_PT[p.g]||p.g);
   let earnTxt = '—';
@@ -2015,18 +1782,10 @@ function renderOverviewStrip(t) {
   cells.push(['Thesis', st.charAt(0).toUpperCase()+st.slice(1)]);
   const px = (window.__PRICES||{})[t];
   if (px && px.price!=null) {
-    const cur = (p.g==='BR') ? 'R$' : 'US$';
-    cells.push(['Price (live)', cur+' '+px.price.toLocaleString('en-US',{minimumFractionDigits:2})]);
+    cells.push(['Price (live)', 'US$ '+px.price.toLocaleString('en-US',{minimumFractionDigits:2})]);
     if (px.pe!=null) cells.push(['P/E (live)', px.pe.toLocaleString('en-US')]);
   }
-  if (br) {
-    cells.push(['Revenue (TTM)', 'R$ '+(br.revTTM/1000).toFixed(2)+' bi']);
-    cells.push(['Net margin', br.mLiq!=null?br.mLiq+'%':'—']);
-    cells.push(['ROE', br.roe!=null?br.roe+'%':'—']);
-    cells.push(['P/E', br.pl!=null?br.pl.toLocaleString('en-US'):'—']);
-    cells.push(['EV/EBITDA', br.evEbitda!=null?br.evEbitda.toLocaleString('en-US'):'—']);
-    cells.push(['Last report', br.asof||'—']);
-  } else if (fin && fin.src) {
+  if (fin && fin.src) {
     const n = fin.rev.length-1;
     const revT = ttm(fin.rev,n), epsT = ttm(fin.eps,n);
     cells.push(['Revenue TTM', revT!=null?finCur+' '+revT.toFixed(1)+' bi':'—']);
@@ -2046,7 +1805,7 @@ function renderOverviewStrip(t) {
       <div style="font-size:12px;color:var(--text-muted);font-family:'SF Mono','Consolas',monospace;">${esc(p.av||p.t)}${p.exch?' · '+esc(p.exch):''}</div>
     </div>
     <div class="ov-stats-row" style="display:flex;flex-wrap:wrap;row-gap:12px;margin-top:13px;margin-left:-16px;">${cells.map(c=>stat(c[0],c[1])).join('')}</div>
-    ${hasFund ? '' : '<div class="ov-warn" style="margin-top:12px;font-size:11px;color:#92400E;background:#FEF3C7;border-radius:4px;padding:6px 10px;display:inline-block;">⚠ Fundamentals not updated — SEC/Fundamentus collection pending for this name.</div>'}
+    ${hasFund ? '' : '<div class="ov-warn" style="margin-top:12px;font-size:11px;color:#92400E;background:#FEF3C7;border-radius:4px;padding:6px 10px;display:inline-block;">⚠ Fundamentals not updated — SEC/IR collection pending for this name.</div>'}
   </div>`;
 }
 
@@ -2063,17 +1822,51 @@ function isFinancial(ticker) {
   const p = P.find(x => x.t === ticker);
   return !!p && (p.s === 'FIN' || p.s === 'FINTECH');
 }
+// Tem série trimestral utilizável? O critério é o dado em si, nunca a geografia:
+// quem tem série ganha gráfico, quem não tem mostra o aviso de coleta pendente.
+function hasSeries(ticker) {
+  const fd = (typeof getFin === 'function' ? getFin(ticker) : null) || FIN[ticker];
+  return !!(fd && Array.isArray(fd.q) && fd.q.length >= 4 &&
+            Array.isArray(fd.rev) && fd.rev.some(v => v != null));
+}
+
 function renderCharts(ticker) {
   destroyCharts();
-  if (BR_SNAP[ticker]) return; // BR: usa cartão de snapshot, não gráficos de série
   const fd = (typeof getFin === 'function' ? getFin(ticker) : null) || FIN[ticker];
   if (!fd) return;
   renderMarginChart('chart-margins', fd, isFinancial(ticker));
   renderCapAllocChart('chart-capalloc', fd);
   renderGrowthChart('chart-growth', fd);
+  renderLevelChart('chart-levels', fd, ticker);
 }
 
 // ─── CHART HELPERS (used by both normal + compare panels) ─────────────────────
+
+// Moeda de reporte. Os três gráficos de percentual são adimensionais, mas o de
+// valor absoluto não é: TSMC reporta em TWD, ASML e Ferrari em EUR, as
+// brasileiras em BRL. Sem esta legenda o eixo vira número solto.
+function finCurrency(ticker, fd) {
+  if (fd && fd.moeda) return fd.moeda;
+  return ({ TSM:'TWD', ASML:'EUR', RACE:'EUR', ABI:'USD' })[ticker] || 'USD';
+}
+
+// Nível absoluto de receita e lucro. Os outros três gráficos só mostram margem e
+// variação — dá para ter margem subindo com receita encolhendo e o dashboard
+// não mostrava isso em lugar nenhum.
+function renderLevelChart(canvasId, fd, ticker) {
+  const c = document.getElementById(canvasId);
+  if (!c) return;
+  const cur = finCurrency(ticker, fd);
+  new Chart(c, { type:'bar', data:{ labels:fd.q, datasets:[
+    {label:'Receita',       data:fd.rev, backgroundColor:'rgba(13,148,136,.55)',  borderColor:'#0D9488', borderWidth:1, order:2},
+    {label:'Lucro líquido', data:fd.ni,  backgroundColor:'rgba(124,58,237,.75)',  borderColor:'#7C3AED', borderWidth:1, order:1},
+  ]}, options:{...CHART_DEFAULTS,
+    plugins:{...(CHART_DEFAULTS.plugins||{}), tooltip:{callbacks:{
+      label: it => `${it.dataset.label}: ${cur} ${Number(it.parsed.y).toLocaleString('pt-BR',{maximumFractionDigits:2})} bi`
+    }}},
+    scales:{x:CHART_DEFAULTS.scales.x, y:{...scaleY('y','','left','lev'),
+      ticks:{font:{size:10},color:'#9CA3AF',callback:v=>cur+' '+v}}}} });
+}
 function renderGrowthChart(canvasId, fd) {
   const c = document.getElementById(canvasId);
   if (!c) return;
@@ -2111,7 +1904,10 @@ function renderMarginChart(canvasId, fd, isFin) {
     const ebitPct = fd.ebitda.map((v,i) => (v==null||!(fd.rev[i]>0)) ? null : +(v/fd.rev[i]*100).toFixed(1));
     datasets = [
       {label:'Gross Margin',  data:gmPct,   borderColor:'#0D9488', backgroundColor:'rgba(13,148,136,.07)', tension:.35, fill:true,  pointRadius:2, borderWidth:2},
-      {label:'EBITDA Margin', data:ebitPct, borderColor:'#7C3AED', backgroundColor:'rgba(124,58,237,.05)', tension:.35, fill:false, pointRadius:2, borderWidth:2},
+      // O campo `ebitda` vem de OperatingIncomeLoss (SEC) e equivalentes no RI:
+      // é EBIT, não EBITDA. O rótulo antigo dizia EBITDA e inflava a leitura
+      // de margem em qualquer nome com depreciação pesada.
+      {label:'EBIT Margin', data:ebitPct, borderColor:'#7C3AED', backgroundColor:'rgba(124,58,237,.05)', tension:.35, fill:false, pointRadius:2, borderWidth:2},
       {label:'Net Margin',    data:niPct,   borderColor:'#6366F1', backgroundColor:'transparent',          tension:.35, fill:false, pointRadius:2, borderWidth:2, borderDash:[4,2]},
     ];
   }
@@ -2126,7 +1922,7 @@ function renderCapAllocChart(canvasId, fd) {
   const capexRevTTM = fd.q.map((_,i)=>{ if(fd.capex[i]==null)return null; const tC=ttm(fd.capex,i),tR=ttm(fd.rev,i); if(tC===null||!tR)return null; return +(tC/tR*100).toFixed(1); });
   new Chart(c, { type:'line', data:{ labels:fd.q, datasets:[
     {label:'Payout/NI TTM (%)', data:payoutTTM,   borderColor:'#7C3AED', backgroundColor:'rgba(124,58,237,.08)', tension:.35, fill:true,  pointRadius:2, borderWidth:2, yAxisID:'yPct', order:3},
-    {label:'ND/EBITDA TTM (x)', data:ndEbitdaTTM, borderColor:'#DC2626', backgroundColor:'transparent',           tension:.35, fill:false, pointRadius:2, borderWidth:2, yAxisID:'yLev', order:1},
+    {label:'ND/EBIT TTM (x)', data:ndEbitdaTTM, borderColor:'#DC2626', backgroundColor:'transparent',           tension:.35, fill:false, pointRadius:2, borderWidth:2, yAxisID:'yLev', order:1},
     {label:'Capex/Rev TTM (%)', data:capexRevTTM, borderColor:'#D97706', backgroundColor:'transparent',           tension:.35, fill:false, pointRadius:2, borderWidth:2, yAxisID:'yPct', order:2, borderDash:[4,2]},
   ]}, options:{...CHART_DEFAULTS, scales:{x:CHART_DEFAULTS.scales.x, yPct:{...scaleY('yPct','','left','pct')}, yLev:{...scaleY('yLev','','right','lev'),grid:{display:false}}}} });
 }
@@ -2300,33 +2096,15 @@ function saveMetricsCache(groupKey) {
   } catch(e) {}
 }
 
-// ── Group definitions — 5-day rotation (~12-22 AV calls each, within 25/day limit) ──
+// ── Cadencia semanal — um bucket por dia. Sexta nao tem nome novo: e o dia de
+// fechar a semana (reler teses em "watch", atualizar THESIS, post-mortem).
+// Os tickers saem de BUCKETS, entao adicionar/remover nome em P propaga sozinho.
 const GROUPS = {
-  mag7: {
-    label: 'US Mega-Cap + Software',
-    day: 'Monday',
-    tickers: new Set(['GOGL','MSFT','META','AMZN','AAPL','NVDA','ORCL','NOW','PLTR']),
-  },
-  semis: {
-    label: 'Semiconductors',
-    day: 'Tuesday',
-    tickers: new Set(['AMD','INTC','MRVL','AVGO','TSM','ASML','MU']),
-  },
-  brazil: {
-    label: 'Brazil + LatAm',
-    day: 'Wednesday',
-    tickers: new Set(['MELI','SMFT3','PRIO3','SBSP3','PETR4','PETR3','ITUB4','BPAC11','ROXO','VIVT3','TIMS3','ABEV3']),
-  },
-  other: {
-    label: 'Financials + Power',
-    day: 'Thursday',
-    tickers: new Set(['BLK','JPM','RACE','CEG','VST','GEV']),
-  },
-  telco: {
-    label: 'Telecom + Consumer',
-    day: 'Friday',
-    tickers: new Set(['VZ','TMUS','T','ABI']),
-  },
+  software: { label: 'Software & Platforms',      day: 'Monday',    tickers: new Set(P.filter(p=>!p.etf&&bucketOf(p.s)==='software').map(p=>p.t)) },
+  compute:  { label: 'Semis & Compute',           day: 'Tuesday',   tickers: new Set(P.filter(p=>!p.etf&&bucketOf(p.s)==='compute').map(p=>p.t)) },
+  infra:    { label: 'Power + Financials',        day: 'Wednesday', tickers: new Set(P.filter(p=>!p.etf&&['power','fin'].includes(bucketOf(p.s))).map(p=>p.t)) },
+  other:    { label: 'Consumer, Telecom & LatAm', day: 'Thursday',  tickers: new Set(P.filter(p=>!p.etf&&bucketOf(p.s)==='other').map(p=>p.t)) },
+  review:   { label: 'Fechamento da semana',      day: 'Friday',    tickers: new Set() },
 };
 
 async function avFetch(sym, etfOnly=false) {
@@ -2348,13 +2126,13 @@ function fmtPct(v) {
   return `<span class="${cls}">${n>=0?'+':''}${n.toFixed(2)}%</span>`;
 }
 
-const GROUP_BTN_IDS = { mag7:'met-btn-mon', semis:'met-btn-tue', brazil:'met-btn-wed', other:'met-btn-thu', telco:'met-btn-fri' };
+const GROUP_BTN_IDS = { software:'met-btn-mon', compute:'met-btn-tue', infra:'met-btn-wed', other:'met-btn-thu', review:'met-btn-fri' };
 const GROUP_BTN_LABELS = {
-  mag7:   'Mon — Mega-Cap+SW',
-  semis:  'Tue — Semis',
-  brazil: 'Wed — Brazil',
-  other:  'Thu — Fin+Power',
-  telco:  'Fri — Telecom',
+  software: 'Mon — Software',
+  compute:  'Tue — Semis',
+  infra:    'Wed — Power+Fin',
+  other:    'Thu — Consumer',
+  review:   'Fri — Revisão',
 };
 
 async function loadMetrics(groupKey) {
@@ -2461,24 +2239,18 @@ function renderMetricsTable() {
 })();
 
 // ─── FUNDAMENTALS ──────────────────────────────────────────────────────────────
+// Agrupa por BUCKET (leitura por tese), nao por geografia — com a cobertura 100%
+// internacional, "US / Brasil / International" deixou de separar nada util.
 function buildCoList() {
   let html = '';
-  const us    = P.filter(p => !p.etf && (p.g==='US'));
-  const br    = P.filter(p => !p.etf && p.g==='BR');
-  const intl  = P.filter(p => !p.etf && !['US','BR'].includes(p.g));
-  const etfs  = P.filter(p =>  p.etf);
-  if (us.length) {
-    html += `<div class="co-list-hdr">US Coverage (${us.length})</div>`;
-    html += us.map(p => coItemHtml(p)).join('');
-  }
-  if (br.length) {
-    html += `<div class="co-list-hdr" style="margin-top:4px;border-top:1px solid var(--border);">Brazil Coverage (${br.length})</div>`;
-    html += br.map(p => coItemHtml(p)).join('');
-  }
-  if (intl.length) {
-    html += `<div class="co-list-hdr" style="margin-top:4px;border-top:1px solid var(--border);">International (${intl.length})</div>`;
-    html += intl.map(p => coItemHtml(p)).join('');
-  }
+  const etfs = P.filter(p => p.etf);
+  BUCKETS.forEach((b, i) => {
+    const names = P.filter(p => !p.etf && bucketOf(p.s) === b.key);
+    if (!names.length) return;
+    const sep = i === 0 ? '' : 'margin-top:4px;border-top:1px solid var(--border);';
+    html += `<div class="co-list-hdr" style="${sep}">${b.label} (${names.length})</div>`;
+    html += names.map(p => coItemHtml(p)).join('');
+  });
   if (etfs.length) {
     html += `<div class="co-list-hdr" style="border-top:1px solid var(--border);margin-top:4px;">Instruments & ETFs</div>`;
     html += etfs.map(p => coItemHtml(p)).join('');
@@ -2535,16 +2307,18 @@ function renderCoPanel(p) {
   }
 
   const _fin = (p.s === 'FIN' || p.s === 'FINTECH');
+  const _cur = finCurrency(p.t, (typeof getFin === 'function' ? getFin(p.t) : null) || FIN[p.t]);
   const FW_CHART = {
     moat:     {id:'chart-growth',   label:'Growth Rates — Revenue, Net Income & EPS (YoY %, quarterly)'},
-    story:    {id:'chart-margins',  label: _fin ? 'Profitability — ROE (TTM NI/equity) & margins (quarterly)' : 'Margin Profile — Gross, EBITDA & Net Margin (quarterly)'},
-    capalloc: {id:'chart-capalloc', label: _fin ? 'Capital Return — Payout/NI (TTM)' : 'Capital Allocation — Payout/NI, Net Debt/EBITDA & Capex/Sales (TTM rolling)'},
+    story:    {id:'chart-margins',  label: _fin ? 'Profitability — ROE (TTM NI/equity) & margins (quarterly)' : 'Margin Profile — Gross, EBIT & Net Margin (quarterly)'},
+    capalloc: {id:'chart-capalloc', label: _fin ? 'Capital Return — Payout/NI (TTM)' : 'Capital Allocation — Payout/NI, Net Debt/EBIT & Capex/Sales (TTM rolling)'},
+    safety:   {id:'chart-levels',   label:`Scale — Revenue & Net Income (${_cur} bn, quarterly)`},
   };
   const OPEN_BY_DEFAULT = new Set(['moat','story','capalloc']);
 
   let fwHtml = FW.map(fw => {
     const body = analysis[fw.id] || '';
-    const chartMeta = BR_SNAP[p.t] ? null : FW_CHART[fw.id];
+    const chartMeta = hasSeries(p.t) ? FW_CHART[fw.id] : null;
     const isOpen = OPEN_BY_DEFAULT.has(fw.id);
     const chartHtml = chartMeta
       ? `<div class="fw-chart">
@@ -2590,11 +2364,16 @@ function renderCoPanel(p) {
       ${p.ir ? `<a class="btn btn-secondary btn-sm" href="${p.ir}" target="_blank" rel="noopener">
         <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 2H2v8h8V7M7 1h4v4M7 5l4-4" stroke-linecap="round" stroke-linejoin="round"/></svg>
         Investor Relations
-      </a>
-      <span class="fin-refresh-status">B3-listed — outside SEC. Data via IR/CVM (to be integrated).</span>`
-      : (FIN[p.t] && FIN[p.t].src)
-        ? `<span class="fin-refresh-status" style="color:var(--positive);">✓ Real data ${FIN[p.t].src} — updated through ${FIN[p.t].asof||''}</span>`
-        : `<span class="fin-refresh-status">Estimated data — SEC update pending for this position.</span>`}
+      </a>` : ''}
+      ${(() => {
+        // O botao de RI e o status da fonte sao independentes. Antes, ter `ir:`
+        // preenchido carimbava "B3-listed — outside SEC" no nome — o que passou a
+        // ser falso quando ORCL/NOW/PLTR/CEG/VST/GEV entraram com link de RI.
+        const fdSrc = (typeof getFin === 'function' ? getFin(p.t) : null) || FIN[p.t];
+        return (fdSrc && fdSrc.src)
+          ? `<span class="fin-refresh-status" style="color:var(--positive);">✓ Real data ${fdSrc.src} — updated through ${fdSrc.asof||''}</span>`
+          : `<span class="fin-refresh-status">Estimated data — collection pending for this position.</span>`;
+      })()}
     </div>`;
 
   // ── Deep-dive tabs (own buy-side research) ──────────────────────────────────
@@ -2648,7 +2427,6 @@ function renderCoPanel(p) {
       <p class="thesis-txt">${analysis.thesis}</p>
       <div class="thesis-date">Initial coverage &mdash; ${analysis.date}</div>
     </div>
-    ${renderBrSnapshot(p.t)}
     <div class="tt-bar">
       <span class="tt-lbl">Thesis</span>
       <button class="tt-btn tt-intact${THESIS[p.t].status==='intact'?' active':''}" onclick="setThesis('${p.t}','intact',this)">Intact</button>
@@ -2823,33 +2601,18 @@ const NEWS_SNAPSHOT = [
    prov:'Macro frame for the tech-heavy book - sizing in NVDA/MU/META/GOGL matters here.',
    url:'https://www.schwab.com/learn/story/stock-market-update-open'},
   // ── Brazil ──
-  {region:'BR', p:4, tag:'PETR3 · PETR4', src:'InfoMoney', date:'23/06',
-   title:'Ibovespa posts a third straight gain, led by banks and Petrobras, against the global trend',
-   resumo:'Ibovespa +0.52% to 171,259; Petrobras +0.54% despite weaker oil; BB, Bradesco and Itau closed higher.',
-   prov:'Domestic resilience supports PETR and the financials sleeve even as global tech sells off.',
-   url:'https://www.infomoney.com.br/mercados/ibovespa-hoje-bolsa-de-valores-ao-vivo-23062026/'},
-  {region:'BR', p:3, tag:'Macro BR · FX', src:'Money Times', date:'23/06',
-   title:'Ibovespa advances as Petrobras improves and Wall Street moderates; the dollar rises',
-   resumo:'The dollar gained 0.88% to R$5.187; Copom flagged upside inflation risk, narrowing the room for cuts.',
-   prov:'Hawkish Copom plus a weaker real = headwind for rate-sensitive BR names and FX drag on USD returns.',
-   url:'https://www.moneytimes.com.br/tempo-real-ibovespa-hoje-mercado-ao-vivo-23-06-2026-jals-lils-apsa/'},
-  {region:'BR', p:3, tag:'ITUB4 · PETR', src:'ADVFN', date:'jun/26',
-   title:'Ibovespa swings with Vale, Itau and Petrobras amid a global rate spike and Middle East tension',
-   resumo:'Index heavyweights drive volatility as global rates rise and geopolitical risk lingers.',
-   prov:'Risk lens for ITUB4/PETR - rates and geopolitics are the near-term swing factors.',
-   url:'https://br.advfn.com/noticias/PAPERBR/2026/artigo/98568083'},
-  // ── World ──
-  {region:'WORLD', p:4, tag:'MU · ASML', src:'CNBC', date:'23/06',
+  // ── Asia ──
+  {region:'ASIA', p:4, tag:'MU · ASML', src:'CNBC', date:'23/06',
    title:'Asia tech rout: Kospi closes 10% lower as SK Hynix and Samsung fall 12%+',
    resumo:'South Korea tech-heavy Kospi tumbled 10%; memory leaders SK Hynix and Samsung dropped more than 12%.',
    prov:'Memory-cycle thermometer - a direct read for Micron and the HBM/AI-capex chain (ASML).',
    url:'https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html'},
-  {region:'WORLD', p:3, tag:'Semis', src:'CNBC', date:'23/06',
+  {region:'ASIA', p:3, tag:'Semis', src:'CNBC', date:'23/06',
    title:'Qualcomm in advanced talks to buy AI software firm Modular for about $4B',
    resumo:'Qualcomm slid 6% on a report it may acquire AI-infrastructure software company Modular.',
    prov:'Consolidation in the AI stack - a signal on where value is migrating across hardware and software.',
    url:'https://www.cnbc.com/2026/06/22/stock-market-today-live-updates.html'},
-  {region:'WORLD', p:2, tag:'Macro', src:'Charles Schwab', date:'23/06',
+  {region:'ASIA', p:2, tag:'Macro', src:'Charles Schwab', date:'23/06',
    title:'AI-concentration risk is the market key cross-asset debate',
    resumo:'Whether the AI capex cycle is sustained is now the dominant question across asset classes.',
    prov:'Frames risk for AI-levered names across regions - NVDA, MU, ASML, META, GOGL.',
@@ -2862,8 +2625,8 @@ const NEWS_MANUAL = [
   {name:'Financial Times', url:'https://www.ft.com/markets'},
   {name:'Seeking Alpha', url:'https://seekingalpha.com/market-news'},
 ];
-const NEWS_REGIONS = [['BR','🇧🇷 Brazil'],['US','🇺🇸 US'],['WORLD','🌍 World']];
-let __newsRegion = 'BR';
+const NEWS_REGIONS = [['US','🇺🇸 US'],['EU','🇪🇺 Europa'],['ASIA','🌏 Ásia']];
+let __newsRegion = 'US';
 
 // Sub-abas do painel: Notícias | Papers | Cartas
 const NEWS_TABS = [['news','📰 Notícias'],['papers','📄 Papers'],['letters','✉️ Cartas']];
@@ -2887,7 +2650,7 @@ function renderNewsSnapshot() {
   const colors = {5:['#f43f5e','CRITICAL'],4:['#f97316','RELEVANT'],3:['#eab308','SECTOR'],2:['#22d3ee','CONTEXT'],1:['#64748b','AWARENESS']};
   const esc = s => (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
   const counts = {BR:0,US:0,WORLD:0};
-  NEWS_SNAPSHOT.forEach(it => { counts[it.region||'BR'] = (counts[it.region||'BR']||0)+1; });
+  NEWS_SNAPSHOT.forEach(it => { counts[it.region||'US'] = (counts[it.region||'US']||0)+1; });
 
   // cabeçalho + atalhos manuais
   let html = '<div style="background:#0f172a;border-radius:8px;padding:18px;">'
@@ -2907,7 +2670,7 @@ function renderNewsSnapshot() {
   html += '</div>';
 
   // lista da região ativa
-  const items = NEWS_SNAPSHOT.filter(it => (it.region||'BR') === __newsRegion).sort((a,b)=>(b.p||0)-(a.p||0));
+  const items = NEWS_SNAPSHOT.filter(it => (it.region||'US') === __newsRegion).sort((a,b)=>(b.p||0)-(a.p||0));
   html += '<div style="display:flex;flex-direction:column;gap:14px;">';
   if (!items.length) {
     html += '<div style="color:#64748b;font-size:12.5px;padding:18px;text-align:center;">No headlines for this region in the last cycle.</div>';
@@ -3113,12 +2876,9 @@ const EARNINGS = [
   {t:'META', n:'Meta Platforms',      date:'2026-07-29', q:'Q2 2026',     est:false},
   {t:'MELI', n:'MercadoLibre',        date:'2026-08-05', q:'Q2 2026',     est:false},
   {t:'AMZN', n:'Amazon',              date:'2026-07-30', q:'Q2 2026',     est:false},
-  {t:'SMFT3',  n:'Smartfit',            date:'2026-08-05', q:'Q2 2026',     est:false},
-  {t:'PRIO3',  n:'PRIO',               date:'2026-08-04', q:'Q2 2026',     est:false},
   {t:'MU',     n:'Micron Technology',   date:'2026-09-29', q:'Q4 FY2026',   est:true},
   {t:'ASML', n:'ASML Holding',        date:'2026-10-14', q:'Q3 2026',     est:true},
   {t:'BLK',    n:'BlackRock',           date:'2026-10-13', q:'Q3 2026',     est:true},
-  {t:'SBSP3',  n:'SABESP',             date:'2026-08-12', q:'Q2 2026',     est:false},
   {t:'JPM',    n:'JPMorgan Chase',      date:'2026-10-13', q:'Q3 2026',     est:true},
   // Extended coverage
   {t:'AAPL', n:'Apple',              date:'2026-07-30', q:'Q3 FY2026',   est:false},
@@ -3128,10 +2888,6 @@ const EARNINGS = [
   {t:'MRVL',   n:'Marvell Technology', date:'2026-08-20', q:'Q2 FY2027',   est:true},
   {t:'AVGO', n:'Broadcom',           date:'2026-09-03', q:'Q3 FY2026',   est:true},
   {t:'TSM',  n:'TSMC',              date:'2026-10-15', q:'Q3 2026',     est:true},
-  {t:'PETR3',  n:'Petrobras ON',          date:'2026-08-06', q:'Q2 2026',     est:false},
-  {t:'PETR4',  n:'Petrobras PN',       date:'2026-08-06', q:'Q2 2026',     est:false},
-  {t:'ITUB4',  n:'Itaú Unibanco',      date:'2026-08-04', q:'Q2 2026',     est:false},
-  {t:'BPAC11', n:'BTG Pactual',        date:'2026-08-11', q:'Q2 2026',     est:false},
   {t:'ROXO', n:'Nu Holdings',        date:'2026-08-13', q:'Q2 2026',     est:false},
   {t:'RACE',   n:'Ferrari',            date:'2026-07-30', q:'Q2 2026',     est:false},
   // Coverage additions (Jun 2026)
@@ -3139,9 +2895,6 @@ const EARNINGS = [
   {t:'TMUS',  n:'T-Mobile US',         date:'2026-07-23', q:'Q2 2026',     est:false},
   {t:'T',     n:'AT&T',               date:'2026-07-22', q:'Q2 2026',     est:false},
   {t:'ABI',   n:'AB InBev',            date:'2026-07-30', q:'H1 2026',     est:true},
-  {t:'VIVT3', n:'Vivo (Tel. Brasil)',  date:'2026-07-27', q:'Q2 2026',     est:false},
-  {t:'TIMS3', n:'TIM Brasil',          date:'2026-07-27', q:'Q2 2026',     est:false},
-  {t:'ABEV3', n:'Ambev',              date:'2026-07-30', q:'Q2 2026',     est:false},
   // Coverage additions (Jul 2026) — datas ESTIMADAS pelo padrao historico de cada
   // empresa; confirmar no RI quando a companhia anunciar (est:true = nao confirmada).
   {t:'PLTR',  n:'Palantir',            date:'2026-08-04', q:'Q2 2026',     est:true},
@@ -3160,12 +2913,9 @@ const PEERS = {
   'META': [{n:'Alphabet',     av:'GOOGL'},{n:'Snap',av:'SNAP'},{n:'Pinterest',av:'PINS'}],
   'MELI': [{n:'Amazon',       av:'AMZN'},{n:'Sea Limited',av:'SE'},{n:'PagSeguro',av:'PAGS'}],
   'AMZN': [{n:'Microsoft',    av:'MSFT'},{n:'Alibaba',av:'BABA'},{n:'Walmart',av:'WMT'}],
-  'SMFT3':  [{n:'Planet Fitness',av:'PLNT'},{n:'Life Time',av:'LTH'},{n:'Basic-Fit',av:'BFIT.AS'}],
-  'PRIO3':  [{n:'PetroRio peers',av:'EQNR'},{n:'Enauta',av:'ENAT3.SA'},{n:'3R Petroleum',av:'RRRP3.SA'}],
   'MU':     [{n:'SK Hynix',    av:'000660.KS'},{n:'Western Digital',av:'WDC'},{n:'Seagate',av:'STX'}],
   'ASML': [{n:'Applied Materials',av:'AMAT'},{n:'KLA Corp',av:'KLAC'},{n:'Lam Research',av:'LRCX'}],
   'BLK':    [{n:'State Street', av:'STT'},{n:'Invesco',av:'IVZ'},{n:'T. Rowe Price',av:'TROW'}],
-  'SBSP3':  [{n:'Copasa',      av:'CSMG3.SA'},{n:'Sanepar',av:'SAPR11.SA'},{n:'Aegea (priv)',av:'AMBP'}],
   'JPM':    [{n:'Bank of America',av:'BAC'},{n:'Citigroup',av:'C'},{n:'Wells Fargo',av:'WFC'}],
   // Extended coverage
   'AAPL': [{n:'Microsoft',   av:'MSFT'},{n:'Alphabet',av:'GOOGL'},{n:'Samsung',av:'005930.KS'}],
@@ -3175,10 +2925,6 @@ const PEERS = {
   'MRVL':   [{n:'Broadcom',    av:'AVGO'},{n:'Nvidia',av:'NVDA'},{n:'Monolithic Pwr',av:'MPWR'}],
   'AVGO': [{n:'Marvell',     av:'MRVL'},{n:'Nvidia',av:'NVDA'},{n:'Qualcomm',av:'QCOM'}],
   'TSM':  [{n:'Samsung Elec',av:'005930.KS'},{n:'Intel',av:'INTC'},{n:'GlobalFoundries',av:'GFS'}],
-  'PETR3':  [{n:'Chevron',     av:'CVX'},{n:'TotalEnergies',av:'TTE'},{n:'Shell',av:'SHEL'}],
-  'PETR4':  [{n:'Chevron',     av:'CVX'},{n:'TotalEnergies',av:'TTE'},{n:'Shell',av:'SHEL'}],
-  'ITUB4':  [{n:'Bradesco',    av:'BBDC4.SA'},{n:'Nu Holdings',av:'NU'},{n:'Santander BR',av:'SANB11.SA'}],
-  'BPAC11': [{n:'XP Inc',      av:'XP'},{n:'Goldman Sachs',av:'GS'},{n:'Morgan Stanley',av:'MS'}],
   'ORCL':   [{n:'SAP',         av:'SAP'},{n:'Microsoft',av:'MSFT'},{n:'Salesforce',av:'CRM'}],
   'NOW':    [{n:'Salesforce',  av:'CRM'},{n:'Workday',av:'WDAY'},{n:'Atlassian',av:'TEAM'}],
   'PLTR':   [{n:'Snowflake',   av:'SNOW'},{n:'Datadog',av:'DDOG'},{n:'Databricks (priv)',av:''}],
@@ -3385,22 +3131,6 @@ async function loadInsiders(force) {
     </div>`;
   }).join('') || '<div class="placeholder"><p>Nenhuma compra/venda em mercado (Form 4, códigos P/S) nos últimos 90 dias na cobertura US.</p></div>';
 
-  const brRows = (d.br||[]).map(x => {
-    const net = x.netVol||0;
-    const clr = net > 0 ? '#22c07a' : net < 0 ? '#e05252' : 'var(--text-muted)';
-    return `<div class="cal-item" style="cursor:default;">
-      <div class="cal-days" style="color:${clr};border-color:${clr}40;">${net>0?'NET BUY':net<0?'NET SELL':'FLAT'}</div>
-      <div class="cal-co">
-        <div class="cal-ticker">${x.t} — ${x.cargo}</div>
-        <div class="cal-meta">Compras ${fmtVal(x.buyVol,'R$')} · Vendas ${fmtVal(x.sellVol,'R$')}</div>
-      </div>
-      <div class="cal-date">
-        <div class="cal-date-str" style="color:${clr};font-weight:700;">${fmtVal(net,'R$')}</div>
-        <div class="cal-est">${x.month}</div>
-      </div>
-    </div>`;
-  }).join('') || '<div class="placeholder"><p>Sem movimentações à vista de ações reportadas no Formulário 44 nos últimos meses.</p></div>';
-
   box.innerHTML = `
     <div class="card" style="font-size:12px;color:var(--text-muted);margin-bottom:14px;">
       <strong style="color:var(--text-secondary);">US últimos ${d.windowDays||90} dias:</strong>
@@ -3410,8 +3140,9 @@ async function loadInsiders(force) {
     </div>
     <div class="sec-sub" style="margin:10px 0 6px;font-weight:700;">United States — SEC Form 4</div>
     ${usRows}
-    <div class="sec-sub" style="margin:18px 0 6px;font-weight:700;">Brasil — CVM Formulário 44 (agregado mensal)</div>
-    ${brRows}`;
+    <div style="margin-top:16px;font-size:11px;color:var(--text-muted);">
+      FPIs (ASML, TSM, RACE, ABI, ROXO) não arquivam Form 4 — são isentas da Section 16.
+    </div>`;
 }
 
 function openInFund(ticker) {
@@ -3456,10 +3187,11 @@ function renderCmpPanel(side) {
     moat:     {id:`chart-growth-${side}`,   label:'Growth Rates (YoY %, quarterly)'},
     story:    {id:`chart-margins-${side}`,  label: _finC ? 'Profitability — ROE & margins' : 'Margin Profile (quarterly)'},
     capalloc: {id:`chart-capalloc-${side}`, label:'Capital Allocation (TTM rolling)'},
+    safety:   {id:`chart-levels-${side}`,   label:`Scale — Revenue & Net Income (${finCurrency(p.t, (typeof getFin === 'function' ? getFin(p.t) : null) || FIN[p.t])} bn)`},
   };
   const fwHtml = FW.map(fw => {
     const body = analysis[fw.id] || '';
-    const chartMeta = FW_CHART_CMP[fw.id];
+    const chartMeta = hasSeries(p.t) ? FW_CHART_CMP[fw.id] : null;
     const isOpen = OPEN_BY_DEFAULT.has(fw.id);
     const chartHtml = chartMeta ? `<div class="fw-chart"><div class="fw-chart-lbl">${chartMeta.label}</div><div class="fw-chart-wrap"><canvas id="${chartMeta.id}"></canvas></div></div>` : '';
     return `<div class="fw-sec"><div class="fw-hdr" onclick="toggleFw(this)">
@@ -3485,12 +3217,13 @@ function renderCmpPanel(side) {
 }
 
 function renderChartsForPanel(ticker, suffix) {
-  if (BR_SNAP[ticker]) return; // BR usa snapshot, sem séries
+  if (!hasSeries(ticker)) return;
   const fin = getFin(ticker);
   if (!fin) return;
   renderGrowthChart(`chart-growth-${suffix}`, fin);
   renderMarginChart(`chart-margins-${suffix}`, fin, isFinancial(ticker));
   renderCapAllocChart(`chart-capalloc-${suffix}`, fin);
+  renderLevelChart(`chart-levels-${suffix}`, fin, ticker);
 }
 
 // ─── NAVIGATION ───────────────────────────────────────────────────────────────
@@ -3499,7 +3232,7 @@ const PANE_TITLES = {
   fund:     'Fundamental Analysis — Coverage Universe',
   calendar: 'Earnings Calendar — Coverage Universe',
   macro:    'Macro Agenda — Central Banks & Economic Data',
-  insiders: 'Insider Activity — Form 4 & CVM 44',
+  insiders: 'Insider Activity — SEC Form 4',
   metrics:  'Valuation Metrics — Live Data',
 };
 
@@ -3542,8 +3275,19 @@ function init() {
   document.getElementById('topbar-date').textContent = now.toLocaleDateString('en-US', opts);
   document.getElementById('mc-date-label').textContent = now.toLocaleDateString('en-US', opts);
   buildCoList();
+  buildCoverageStrip();
   // mostra o snapshot de notícias já na abertura
   try { generateNews(); } catch(e) {}
+}
+
+// A tira de cobertura era uma lista fixa no HTML e ja estava desatualizada (12 de
+// 38 nomes, com Smartfit/PRIO/SABESP). Agora sai de P, entao acompanha o universo.
+function buildCoverageStrip() {
+  const el = document.getElementById('coverage-strip');
+  if (!el) return;
+  const names = [];
+  BUCKETS.forEach(b => P.filter(p => !p.etf && bucketOf(p.s) === b.key).forEach(p => names.push(p.n)));
+  el.textContent = `${names.length} nomes · ` + names.join(' • ');
 }
 
 // ─── DADOS REMOTOS (GitHub Pages) ───────────────────────────────────────────────
@@ -3556,8 +3300,6 @@ async function loadRemote() {
   };
   const fin = await tryJson('data/fin.json');
   if (fin && typeof fin === 'object') Object.assign(FIN, fin);
-  const br = await tryJson('data/br.json');
-  if (br && typeof br === 'object') Object.assign(BR_SNAP, br);
   const news = await tryJson('data/news.json');
   if (news && Array.isArray(news.items) && news.items.length) {
     NEWS_SNAPSHOT.length = 0;
