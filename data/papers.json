@@ -1,6 +1,94 @@
 {
- "asof": "16/08/2026",
+ "asof": "17/08/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "arXiv q-fin",
+   "title": "Financial Technologies, Labor Markets, and Wage Inequality: Evidence from Instant Payment Systems",
+   "url": "https://arxiv.org/abs/2608.13871",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse",
+   "url": "https://arxiv.org/abs/2601.20238",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
+   "url": "https://arxiv.org/abs/2608.12424",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "AI Evaluation Should Work With Humans",
+   "url": "https://arxiv.org/abs/2608.13577",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Simulation-Aware In-Context Policy Improvement for LLM-Aided Analog Layout Refinement",
+   "url": "https://arxiv.org/abs/2608.13767",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Handover of In-Context Learning State Across Session Boundaries",
+   "url": "https://arxiv.org/abs/2608.14528",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv cs.AI",
+   "title": "PPAPlace: Differentiable Cross-Stage Objectives for Chip Placement Optimization",
+   "url": "https://arxiv.org/abs/2608.13790",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Federated Prompt Learning: A Unified Framework, Empirical Analysis, and Future Directions",
+   "url": "https://arxiv.org/abs/2608.13844",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",
+   "url": "https://arxiv.org/abs/2608.13884",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
+   "url": "https://arxiv.org/abs/2608.11195",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Fools are Certain; the Wise are Doubtful: Exploring LLM Confidence in Code Completion",
+   "url": "https://arxiv.org/abs/2508.16131",
+   "date": "17/08"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -10,36 +98,44 @@
    "date": "07/07"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "AI Financial Advice: Supply, Demand, and Life Cycle Implications -- by Taha Choukhmane, Tim de Silva, Weidong Lin, Matthew Akuzawa",
-   "url": "https://www.nber.org/papers/w35574#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Dynamic Physical Hedging amid Jump Losses, Reconstruction-Price Uncertainty, Population Interactions",
+   "url": "https://arxiv.org/abs/2608.13745",
+   "date": "17/08"
   },
   {
-   "p": 5,
-   "tag": "BR/EM",
-   "src": "NBER",
-   "title": "The Displacement Effects of Domestic Outsourcing -- by Mayara Felix, Michael B. Wong",
-   "url": "https://www.nber.org/papers/w35584#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "An ergodic theorem for multi-period mutual insurance",
+   "url": "https://arxiv.org/abs/2608.14256",
+   "date": "17/08"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Staged Access and Liability for Dual-Use Artificial Intelligence -- by Joshua S. Gans",
-   "url": "https://www.nber.org/papers/w35586#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
+   "url": "https://arxiv.org/abs/2608.14134",
+   "date": "17/08"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "AI Agents and Prompt Engineering in Econometric Coding -- by Sebastian Galiani, Federico Ariel López, Raul A. Sosa",
-   "url": "https://www.nber.org/papers/w35588#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Duality and Policy Evaluation in Distributionally Robust Bayesian Diffusion Control",
+   "url": "https://arxiv.org/abs/2506.19294",
+   "date": "17/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Bayesian Distributionally Robust Merton Problem with Nonlinear Wasserstein Projections",
+   "url": "https://arxiv.org/abs/2512.01408",
+   "date": "17/08"
   },
   {
    "p": 4,
@@ -74,46 +170,6 @@
    "date": "02/07"
   },
   {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "A Currency Premium Puzzle -- by Tarek Alexander Hassan, Thomas Mertens, Jingye Wang",
-   "url": "https://www.nber.org/papers/w35572#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "The Value Gap: Europe Cannot Scale -- by Bo Becker, Efraim Benmelech, Joao Monteiro",
-   "url": "https://www.nber.org/papers/w35577#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Reconstructing a Century of U.S. Corporate Bonds: Credit Risk in Historical Perspective -- by Mohammad Ghaderi, Sébastien Plante, Nikolai Roussanov, Sang Byung Seo",
-   "url": "https://www.nber.org/papers/w35578#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Common Risk Factors in the Returns on Stocks, Bonds (and Options), Redux -- by Zhongtian Chen, Nikolai Roussanov, Xiaoliang Wang, Dongchen Zou",
-   "url": "https://www.nber.org/papers/w35579#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "How Steep is the Phillips Curve in Developing Economies? A Sufficient Statistics Approach and Estimates for India -- by Juan Herreño, Noémie Pinardon-Touati, Malte Thie",
-   "url": "https://www.nber.org/papers/w35581#fromrss",
-   "date": ""
-  },
-  {
    "p": 3,
    "tag": "Trade/Geo",
    "src": "Fed (FEDS)",
@@ -144,30 +200,6 @@
    "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
    "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
    "date": "17/07"
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Cautious Careers: Job Mobility under Incomplete Markets -- by Alex Clymo, Piotr Denderski, Yusuf Mercan, Benjamin Schoefer",
-   "url": "https://www.nber.org/papers/w35580#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Spending to Save: The Subscription Model for Eradicating Hepatitis C in Louisiana -- by Kevin Callison, Rena M. Conti, Jonathan Gruber, Jacob Wallace",
-   "url": "https://www.nber.org/papers/w35583#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "The Perils of Bilateral Sovereign Debt -- by Francisco Roldan, César Sosa-Padilla",
-   "url": "https://www.nber.org/papers/w35590#fromrss",
-   "date": ""
   }
  ]
 }
