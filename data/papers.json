@@ -1,0 +1,205 @@
+{
+ "asof": "17/08/2026",
+ "items": [
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "arXiv q-fin",
+   "title": "Financial Technologies, Labor Markets, and Wage Inequality: Evidence from Instant Payment Systems",
+   "url": "https://arxiv.org/abs/2608.13871",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse",
+   "url": "https://arxiv.org/abs/2601.20238",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
+   "url": "https://arxiv.org/abs/2608.12424",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "AI Evaluation Should Work With Humans",
+   "url": "https://arxiv.org/abs/2608.13577",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Simulation-Aware In-Context Policy Improvement for LLM-Aided Analog Layout Refinement",
+   "url": "https://arxiv.org/abs/2608.13767",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Handover of In-Context Learning State Across Session Boundaries",
+   "url": "https://arxiv.org/abs/2608.14528",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv cs.AI",
+   "title": "PPAPlace: Differentiable Cross-Stage Objectives for Chip Placement Optimization",
+   "url": "https://arxiv.org/abs/2608.13790",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Federated Prompt Learning: A Unified Framework, Empirical Analysis, and Future Directions",
+   "url": "https://arxiv.org/abs/2608.13844",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",
+   "url": "https://arxiv.org/abs/2608.13884",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
+   "url": "https://arxiv.org/abs/2608.11195",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Fools are Certain; the Wise are Doubtful: Exploring LLM Confidence in Code Completion",
+   "url": "https://arxiv.org/abs/2508.16131",
+   "date": "17/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied Volatility Forecasting",
+   "url": "https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm",
+   "date": "07/07"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Dynamic Physical Hedging amid Jump Losses, Reconstruction-Price Uncertainty, Population Interactions",
+   "url": "https://arxiv.org/abs/2608.13745",
+   "date": "17/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "An ergodic theorem for multi-period mutual insurance",
+   "url": "https://arxiv.org/abs/2608.14256",
+   "date": "17/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
+   "url": "https://arxiv.org/abs/2608.14134",
+   "date": "17/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Duality and Policy Evaluation in Distributionally Robust Bayesian Diffusion Control",
+   "url": "https://arxiv.org/abs/2506.19294",
+   "date": "17/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Bayesian Distributionally Robust Merton Problem with Nonlinear Wasserstein Projections",
+   "url": "https://arxiv.org/abs/2512.01408",
+   "date": "17/08"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Inflation Uncertainty and Endogenous Planning Horizons",
+   "url": "https://www.federalreserve.gov/econres/feds/inflation-uncertainty-and-endogenous-planning-horizons.htm",
+   "date": "06/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Measuring Macroeconomic Stars: A Framework with Scarring Effects",
+   "url": "https://www.federalreserve.gov/econres/feds/measuring-macroeconomic-atars-a-framework-with-scarring-effects.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Firms Form Beliefs and the Implications for Inflation",
+   "url": "https://www.federalreserve.gov/econres/feds/how-firms-form-beliefs-and-the-implications-for-inflation.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Standards Are in the Mail: Comparing Credit Card Supply Indicators",
+   "url": "https://www.federalreserve.gov/econres/feds/the-standards-are-in-the-mail-comparing-credit-card-supply-indicators.htm",
+   "date": "02/07"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
+   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
+   "date": "11/08"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Last Taxi: LCR Buffers and Bank Liquidity Provision",
+   "url": "https://www.federalreserve.gov/econres/feds/the-last-taxi-lcr-buffers-and-bank-liquidity-provision.htm",
+   "date": "17/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
+   "date": "17/07"
+  }
+ ]
+}
