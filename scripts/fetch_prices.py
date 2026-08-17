@@ -22,10 +22,7 @@ SYMBOLS = {
     # Software + energia/datacenter (jul/2026)
     "ORCL": "ORCL", "NOW": "NOW", "PLTR": "PLTR",
     "CEG": "CEG", "VST": "VST", "GEV": "GEV",
-    "SMFT3": "SMFT3.SA", "PRIO3": "PRIO3.SA", "SBSP3": "SBSP3.SA",
-    "PETR4": "PETR4.SA", "PETR3": "PETR3.SA", "ITUB4": "ITUB4.SA",
-    "BPAC11": "BPAC11.SA", "VIVT3": "VIVT3.SA", "TIMS3": "TIMS3.SA",
-    "ABEV3": "ABEV3.SA",
+    # Os 10 sufixos .SA (B3) sairam em 17/08/2026 — cobertura 100% internacional.
 }
 
 

@@ -26,13 +26,27 @@ jobs:
         run: python scripts/fetch_us.py
         continue-on-error: true
 
+      - name: Instalar dependencias
+        run: pip install openpyxl
+
       - name: Fundamentos estrangeiras (ASML/TSM/RACE/ABI/NU)
         run: python scripts/fetch_intl.py
         continue-on-error: true
 
-      - name: Fundamentos Brasil (CVM, direto da fonte)
-        run: python scripts/fetch_br.py
+      # Roda DEPOIS do fetch_intl: o Yahoo so entrega 5 trimestres da ASML, e este
+      # script sobrescreve a entrada com 17, direto da planilha oficial do RI.
+      - name: Serie longa ASML (RI oficial)
+        run: python scripts/fetch_ir_asml.py
         continue-on-error: true
+
+      # TSM/RACE/ABI/ROXO: fonte secundaria, tambem depois do fetch_intl. Se
+      # falhar, o dashboard fica com os 5 trimestres do Yahoo em vez de serie vazia.
+      - name: Serie longa TSM/RACE/ABI/ROXO
+        run: python scripts/fetch_sa.py
+        continue-on-error: true
+
+      # Os dois steps da CVM (fetch_cvm.py / fetch_br.py) sairam em 17/08/2026
+      # com o corte dos 10 nomes da B3. Eram o download mais pesado do job.
 
       - name: Cotacao + P/E ao vivo (Yahoo)
         run: python scripts/fetch_prices.py
@@ -57,7 +71,7 @@ jobs:
         run: python scripts/fetch_letters.py
         continue-on-error: true
 
-      - name: Insider activity (SEC Form 4 + CVM Formulario 44)
+      - name: Insider activity (SEC Form 4)
         env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
         run: python scripts/fetch_insiders.py
         continue-on-error: true

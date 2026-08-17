@@ -37,7 +37,14 @@ TYPES = {
     "quarterlyCapitalExpenditure": ("capex", True),
     "quarterlyCashDividendsPaid": ("div", True),
     "quarterlyRepurchaseOfCapitalStock": ("buyback", True),
+    # Balanco, para a divida liquida (linha ND/EBIT do grafico de alocacao).
+    "quarterlyTotalDebt": ("_debt", False),
+    "quarterlyCashCashEquivalentsAndShortTermInvestments": ("_cash", False),
 }
+
+# Nu Holdings e banco: divida liquida nao tem sentido economico (captacao e
+# materia-prima, nao alavancagem). Fica de fora de proposito, como JPM e BLK.
+SEM_NETDEBT = {"ROXO"}
 
 
 def get(url):
@@ -51,7 +58,25 @@ def qlabel(d):  # 'YYYY-MM-DD' -> "Q3'25"
     return f"Q{(m - 1) // 3 + 1}'{str(y)[2:]}"
 
 
-def fetch_symbol(sym):
+def netdebt_col(bydate, dates, tk):
+    """Divida liquida = divida bruta - (caixa + aplicacoes de curto prazo).
+
+    Só emite onde a divida bruta existe naquela data; None em vez de zero, para o
+    grafico nao ler ausencia de dado como 'empresa sem divida'.
+    """
+    if tk in SEM_NETDEBT:
+        return [None] * len(dates)
+    out = []
+    for d in dates:
+        debt = bydate["_debt"].get(d)
+        if debt is None:
+            out.append(None)
+            continue
+        out.append(round((debt - (bydate["_cash"].get(d) or 0)) / 1e9, 3))
+    return out
+
+
+def fetch_symbol(sym, tk=None):
     p2 = int(time.time())
     p1 = p2 - 6 * 365 * 86400  # ~6 anos
     types = ",".join(TYPES.keys())
@@ -90,7 +115,7 @@ def fetch_symbol(sym):
         rev=col("rev", 1e9), gp=col("gp", 1e9), ebitda=col("ebitda", 1e9),
         ni=col("ni", 1e9), eps=col("eps", 1), capex=col("capex", 1e9),
         div=col("div", 1e9), buyback=col("buyback", 1e9),
-        netdebt=[None] * len(dates),
+        netdebt=netdebt_col(bydate, dates, tk),
     )
     # se receita veio toda vazia, descarta
     if not any(v is not None for v in entry["rev"]):
@@ -107,7 +132,7 @@ def main():
     n = 0
     for tk, sym in SYMBOLS.items():
         try:
-            e = fetch_symbol(sym)
+            e = fetch_symbol(sym, tk)
         except Exception as ex:
             print(f". {tk} ({sym}): {ex}", file=sys.stderr); continue
         if not e:

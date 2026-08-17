@@ -20,6 +20,9 @@ on:
           - validate_ciks.py
           - fetch_us.py
           - fetch_intl.py
+          - fetch_ir_asml.py
+          - fetch_sa.py
+          - fetch_cvm.py
           - fetch_br.py
           - fetch_prices.py
           - fetch_transcripts.py

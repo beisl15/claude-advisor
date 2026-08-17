@@ -26,11 +26,15 @@ from email.utils import parsedate_to_datetime
 
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
+REGIONS = ("US", "EU", "ASIA")  # cobertura 100% internacional desde 17/08/2026.
+                                # Toda iteracao por regiao usa ESTA tupla — nao
+                                # repita a lista literal em nenhum outro lugar.
 PER_REGION = 15                 # headlines kept per region
 POOL_PER_REGION = 80           # candidates considered per region before ranking
-PORTFOLIO = ("GOOGL MSFT META AMZN NVDA MU ASML JPM BLK AAPL AMD AVGO TSM MELI RACE "
-             "ORCL ServiceNow Palantir 'Constellation Energy' Vistra 'GE Vernova' "
-             "Nubank PRIO Sabesp Smartfit Itau Petrobras Ambev Vivo TIM BTG")
+PORTFOLIO = ("GOOGL MSFT META AMZN AAPL ORCL ServiceNow Palantir "
+             "NVDA AMD INTC MRVL AVGO TSM ASML MU "
+             "'Constellation Energy' Vistra 'GE Vernova' JPM BlackRock Nubank "
+             "MercadoLibre Ferrari 'AB InBev' Verizon T-Mobile AT&T")
 
 
 def gnews(query, lang="en"):
@@ -51,26 +55,16 @@ def gdelt(query, timespan="1d"):
 # GDELT global sweep: (region, source_name, query). Wide net — the ranking
 # funnel (RULES / AI curation) filters the noise downstream.
 GDELT_FEEDS = [
-    ("BR",    "GDELT BR",       gdelt('(ibovespa OR selic OR petrobras OR "banco central" OR b3) sourcelang:por')),
-    ("US",    "GDELT US",       gdelt('("stock market" OR nasdaq OR "federal reserve" OR earnings) sourcelang:eng sourcecountry:US')),
-    ("US",    "GDELT AI",       gdelt('("artificial intelligence" OR nvidia OR semiconductor OR datacenter) sourcelang:eng')),
-    ("WORLD", "GDELT Markets",  gdelt('("global markets" OR "central bank" OR inflation OR tariff) sourcelang:eng')),
-    ("WORLD", "GDELT Commod",   gdelt('("oil price" OR opec OR "natural gas" OR uranium OR "power prices") sourcelang:eng')),
+    ("US",   "GDELT US",      gdelt('("stock market" OR nasdaq OR "federal reserve" OR earnings) sourcelang:eng sourcecountry:US')),
+    ("US",   "GDELT AI",      gdelt('("artificial intelligence" OR nvidia OR semiconductor OR datacenter) sourcelang:eng')),
+    ("US",   "GDELT Commod",  gdelt('("oil price" OR opec OR "natural gas" OR uranium OR "power prices") sourcelang:eng')),
+    ("EU",   "GDELT Europe",  gdelt('("euro zone" OR ECB OR "European stocks" OR DAX OR "Stoxx 600" OR "Bank of England") sourcelang:eng')),
+    ("ASIA", "GDELT Asia",    gdelt('(nikkei OR "bank of japan" OR "hang seng" OR kospi OR "china economy" OR yuan OR taiwan) sourcelang:eng')),
 ]
 
 
 # General feeds: (region, source_name, url)
 FEEDS = [
-    # ── Brazil ──────────────────────────────────────────────────────────────
-    ("BR", "Brazil Journal", "https://braziljournal.com/feed/"),
-    ("BR", "InfoMoney",      "https://www.infomoney.com.br/feed/"),
-    ("BR", "Money Times",    "https://www.moneytimes.com.br/feed/"),
-    ("BR", "Valor",          gnews("site:valor.globo.com when:2d", "pt")),
-    ("BR", "Neofeed",        "https://neofeed.com.br/feed/"),
-    ("BR", "Exame",          "https://exame.com/feed/"),
-    ("BR", "Pipeline",       gnews("site:pipelinevalor.globo.com when:3d", "pt")),
-    ("BR", "E-Investidor",   gnews("site:einvestidor.estadao.com.br when:2d", "pt")),
-    ("BR", "Google News BR", gnews("(bolsa OR ibovespa OR mercado financeiro OR juros OR Selic) when:1d", "pt")),
     # ── United States ───────────────────────────────────────────────────────
     ("US", "CNBC",           "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"),
     ("US", "CNBC",           "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=100003114"),
@@ -86,14 +80,25 @@ FEEDS = [
     ("US", "Stratechery",    "https://stratechery.com/feed/"),
     ("US", "WSJ",            gnews("site:wsj.com (markets OR stocks OR economy OR tech) when:2d", "en")),
     ("US", "The Information", gnews("site:theinformation.com when:5d", "en")),
-    # ── World ───────────────────────────────────────────────────────────────
-    ("WORLD", "Reuters",     gnews("site:reuters.com (markets OR economy OR business) when:1d", "en")),
-    ("WORLD", "Bloomberg",   gnews("site:bloomberg.com (markets OR stocks OR economy) when:1d", "en")),
-    ("WORLD", "Financial Times", gnews("site:ft.com (markets OR companies) when:2d", "en")),
-    ("WORLD", "Investing.com", "https://www.investing.com/rss/news.rss"),
-    ("WORLD", "The Economist", gnews("site:economist.com (finance OR business OR markets) when:3d", "en")),
-    ("WORLD", "Nikkei Asia",   gnews("site:asia.nikkei.com (semiconductors OR markets OR tech) when:2d", "en")),
-    ("WORLD", "Google News World", gnews("(global markets OR semiconductors OR AI chips OR oil prices) when:1d", "en")),
+    ("US", "Investing.com",  "https://www.investing.com/rss/news_25.rss"),   # Stock Market News (RSS validado 17/08/2026)
+    ("US", "Reuters",        gnews("site:reuters.com (markets OR economy OR business) when:1d", "en")),
+    ("US", "Bloomberg",      gnews("site:bloomberg.com (markets OR stocks OR economy) when:1d", "en")),
+    # ── Europe ──────────────────────────────────────────────────────────────
+    # Euronews Business e RSS direto (validado 17/08/2026). O resto vai por
+    # Google News com site: — SCMP e CNA devolvem 403 para bot, entao NAO use
+    # RSS direto neles; o mesmo padrao ja e usado para WSJ e Barron's.
+    ("EU", "Euronews Business", "https://www.euronews.com/rss?level=theme&name=business"),
+    ("EU", "Reuters Europe",    gnews("site:reuters.com (Europe OR ECB OR \"euro zone\" OR eurozone) when:1d", "en")),
+    ("EU", "Financial Times",   gnews("site:ft.com (Europe OR ECB OR eurozone OR Stoxx OR companies) when:2d", "en")),
+    ("EU", "Bloomberg Europe",  gnews("site:bloomberg.com (Europe OR ECB OR euro OR Stoxx) when:1d", "en")),
+    ("EU", "The Economist",     gnews("site:economist.com (finance OR business OR markets) when:3d", "en")),
+    ("EU", "Google News EU",    gnews("(European stocks OR \"Stoxx 600\" OR DAX OR \"CAC 40\" OR ECB OR \"Bank of England\") when:1d", "en")),
+    # ── Asia ────────────────────────────────────────────────────────────────
+    ("ASIA", "Nikkei Asia",     gnews("site:asia.nikkei.com (semiconductors OR markets OR tech) when:2d", "en")),
+    ("ASIA", "Reuters Asia",    gnews("site:reuters.com (Asia OR China OR Japan OR Korea OR Taiwan) when:1d", "en")),
+    ("ASIA", "SCMP",            gnews("site:scmp.com (economy OR markets OR tech) when:2d", "en")),
+    ("ASIA", "Japan Times",     gnews("site:japantimes.co.jp (markets OR economy OR \"Bank of Japan\") when:2d", "en")),
+    ("ASIA", "Google News Asia", gnews("(Nikkei OR Kospi OR \"Hang Seng\" OR TSMC OR Samsung OR \"Bank of Japan\") when:1d", "en")),
 ]
 
 # Portfolio-targeted searches: (region, tag, query, lang). One per holding.
@@ -114,25 +119,23 @@ COMPANY_FEEDS = [
     ("US", "GEV",           "(\"GE Vernova\" OR GEV) (turbines OR grid OR power) when:3d", "en"),
     ("US", "JPM · BLK",     "(JPMorgan OR BlackRock) when:2d", "en"),
     ("US", "VZ · Telecom",  "(Verizon OR T-Mobile OR AT&T) when:2d", "en"),
-    ("WORLD", "ASML · TSM", "(ASML OR TSMC) semiconductors when:2d", "en"),
-    ("WORLD", "MELI",       "MercadoLibre when:2d", "en"),
-    ("WORLD", "RACE",       "Ferrari stock when:3d", "en"),
-    ("WORLD", "ABI · ABEV", "(AB InBev OR Ambev) when:3d", "en"),
-    ("BR", "PETR · PRIO",   "(Petrobras OR PRIO petróleo) when:2d", "pt"),
-    ("BR", "ITUB · BTG",    "(Itaú OR BTG Pactual) when:2d", "pt"),
-    ("BR", "NU · Fintech",  "(Nubank OR Nu Holdings) when:2d", "pt"),
-    ("BR", "SBSP",          "Sabesp saneamento when:3d", "pt"),
-    ("BR", "SMFT",          "Smartfit when:4d", "pt"),
-    ("BR", "VIVT · TIMS",   "(Vivo Telefônica OR TIM Brasil) when:3d", "pt"),
+    ("US", "MELI",          "MercadoLibre when:2d", "en"),
+    ("US", "ROXO",          "(Nubank OR \"Nu Holdings\") when:2d", "en"),
+    ("EU", "ASML",          "ASML (litho OR EUV OR orders OR bookings) when:2d", "en"),
+    ("EU", "RACE",          "Ferrari stock when:3d", "en"),
+    ("EU", "ABI",           "\"AB InBev\" when:3d", "en"),
+    ("EU", "Siemens · SAP", "(\"Siemens Energy\" OR SAP) (orders OR guidance OR results) when:3d", "en"),
+    ("ASIA", "TSM",         "TSMC (revenue OR capex OR foundry) when:2d", "en"),
+    ("ASIA", "Memoria",     "(\"SK Hynix\" OR Samsung) (HBM OR DRAM OR memory) when:2d", "en"),
     # ── Earnings-focused sweeps (one per region) — so quarterly results never slip ──
     ("US", "Earnings US",   "(earnings OR results OR quarterly) (Nvidia OR Microsoft OR Meta OR Alphabet OR "
                             "Amazon OR Apple OR AMD OR Broadcom OR Micron OR Intel OR JPMorgan OR BlackRock OR "
                             "Oracle OR ServiceNow OR Palantir OR \"Constellation Energy\" OR Vistra OR "
                             "\"GE Vernova\") when:3d", "en"),
-    ("WORLD", "Earnings WW", "(earnings OR results) (ASML OR TSMC OR MercadoLibre OR Ferrari OR "
-                             "\"AB InBev\") when:3d", "en"),
-    ("BR", "Earnings BR",   "(resultado OR balanço OR lucro líquido) (Petrobras OR Itaú OR Ambev OR "
-                            "Sabesp OR PRIO OR Nubank OR BTG OR Vivo OR TIM OR Smartfit) when:3d", "pt"),
+    ("EU", "Earnings EU",   "(earnings OR results) (ASML OR Ferrari OR \"AB InBev\" OR SAP OR "
+                            "\"Siemens Energy\") when:3d", "en"),
+    ("ASIA", "Earnings Asia", "(earnings OR results OR \"monthly revenue\") (TSMC OR \"SK Hynix\" OR "
+                              "Samsung Electronics) when:3d", "en"),
 ]
 
 # Manual reading shortcuts (paywall/login — not scraped)
@@ -147,9 +150,9 @@ MANUAL = [
 ]
 
 RULES = [  # (regex, priority, tag) — used for scoring when no AI key
-    (r"sabesp|saneamento", 5, "SBSP3"),
-    (r"smart\s?fit|smartfit", 5, "SMFT3"),
-    (r"\bprio\b|petrorio|petrobras|petr[oó]leo|brent|\boil\b|crude", 5, "PRIO3 · O&G"),
+    # Brent/oil continua aqui, mas como MACRO (custo de energia e inflacao), nao
+    # como tese: nao ha mais nenhum nome de oleo na cobertura desde 17/08/2026.
+    (r"brent|\boil price\b|opec|crude", 3, "Oil · Macro"),
     (r"micron|\bmu\b|mem[oó]ria|memory|\bhbm\b|semicondutor|semiconductor|chips?|asml", 4, "MU · ASML"),
     (r"nvidia|\bnvda\b", 5, "NVDA"),
     (r"palantir|\bpltr\b|\bfoundry\b|\bgotham\b|\baip\b", 5, "PLTR"),
@@ -158,13 +161,14 @@ RULES = [  # (regex, priority, tag) — used for scoring when no AI key
     (r"constellation energy|\bceg\b|vistra|\bvst\b|ge vernova|\bgev\b|nuclear (power|plant|ppa)|\bsmr\b", 4, "Power/AI"),
     (r"verizon|t-mobile|tmus|at&t|\bat t\b", 4, "VZ · Telecom"),
     (r"\bmeta\b|google|alphabet|googl|microsoft|\bmsft\b|amazon|\bamzn\b|\baapl\b|apple", 4, "US Big Tech"),
-    (r"\bamd\b|broadcom|avgo|marvell|mrvl|intel|\bintc\b|\btsmc\b|\btsm\b", 4, "Semis US"),
-    (r"ita[uú]|nubank|nu holdings|bradesco|\bbtg\b|banco|fintech|jpmorgan|\bjpm\b|blackrock|\bblk\b", 3, "Banks/Asset"),
-    (r"ambev|cerveja|beer|\babi\b|ab inbev", 3, "ABEV3 · ABI"),
+    (r"\bamd\b|broadcom|avgo|marvell|mrvl|intel|\bintc\b|\btsmc\b|\btsm\b|sk hynix|samsung", 4, "Semis"),
+    (r"nubank|nu holdings|fintech|jpmorgan|\bjpm\b|blackrock|\bblk\b", 3, "Banks/Asset"),
+    (r"\babi\b|ab ?inbev|beer|brewer", 3, "ABI"),
     (r"mercado ?libre|meli", 4, "MELI"), (r"ferrari|\brace\b", 3, "RACE"),
     (r"\bai\b|intelig[eê]ncia artificial|artificial intelligence|datacenter|data center", 3, "AI"),
-    (r"selic|copom|\bfed\b|\becb\b|rate cut|rate hike|juros|infla[cç][aã]o|inflation|c[aâ]mbio|d[oó]lar|fiscal|lula|tariff|tarifa", 2, "Macro"),
-    (r"ibovespa|\bbolsa\b|s&p ?500|nasdaq|dow|stoxx|ipo|follow-on|earnings|resultado", 2, "Market"),
+    (r"\bfed\b|\bfomc\b|\becb\b|\bboj\b|bank of japan|bank of england|rate cut|rate hike|"
+     r"inflation|\bcpi\b|\bpce\b|payroll|jobless|tariff|treasury yield", 2, "Macro"),
+    (r"s&p ?500|nasdaq|\bdow\b|stoxx|\bdax\b|nikkei|kospi|hang seng|ipo|follow-on|earnings|guidance", 2, "Market"),
 ]
 
 ATOM = "{http://www.w3.org/2005/Atom}"
@@ -334,7 +338,7 @@ def llm_curate(pool_by_region, key):
     model = os.environ.get("NEWS_MODEL", "claude-haiku-4-5-20251001")
     flat, idx = [], 0
     listing = []
-    for region in ("BR", "US", "WORLD"):
+    for region in REGIONS:
         for it in pool_by_region[region]:
             flat.append(it)
             listing.append(f"{idx}. [{region}] {it['title']} ({it['src']})")
@@ -342,7 +346,7 @@ def llm_curate(pool_by_region, key):
     prompt = (
         f"You are a buy-side analyst. Portfolio: {PORTFOLIO}.\n"
         f"Candidate headlines (index, region, title, source):\n" + "\n".join(listing) + "\n\n"
-        f"Select the {PER_REGION} most relevant headlines FOR EACH region (BR, US, WORLD). "
+        f"Select the {PER_REGION} most relevant headlines FOR EACH region ({', '.join(REGIONS)}). "
         "Prefer items that move a portfolio name or its sector. GIVE EXTRA WEIGHT to quarterly earnings/results "
         "of any portfolio name — never drop an earnings print for a holding. "
         "For each selected item write, IN ENGLISH, "
@@ -372,7 +376,7 @@ def llm_curate(pool_by_region, key):
                            url=it["url"], date=d2.strftime("%d/%m") if d2 else ""))
     # keep region balance / cap
     out = []
-    for region in ("BR", "US", "WORLD"):
+    for region in REGIONS:
         out += [x for x in picked if x["region"] == region][:PER_REGION]
     return out
 
@@ -382,9 +386,9 @@ def main():
     print(f"harvested {len(items)} unique headlines from {len(FEEDS)+len(COMPANY_FEEDS)+len(GDELT_FEEDS)} sources")
     print("\n".join(health))
 
-    pool_by_region = {r: [x for x in rank_region(items, r)] for r in ("BR", "US", "WORLD")}
+    pool_by_region = {r: [x for x in rank_region(items, r)] for r in REGIONS}
     # convert ranked dicts back to raw-ish for llm pool (need url/dt/src/title)
-    raw_by_region = {r: [it for it in items if it["region"] == r] for r in ("BR", "US", "WORLD")}
+    raw_by_region = {r: [it for it in items if it["region"] == r] for r in REGIONS}
     for r in raw_by_region:
         raw_by_region[r].sort(key=lambda it: (-score(it)[0], -(it["dt"].timestamp() if it["dt"] else 0)))
         raw_by_region[r] = raw_by_region[r][:POOL_PER_REGION]
@@ -398,7 +402,7 @@ def main():
         except Exception as e:
             print(f"  ! AI curation failed ({e}); using heuristic", file=sys.stderr)
     if not selected:
-        for r in ("BR", "US", "WORLD"):
+        for r in REGIONS:
             selected += pool_by_region[r][:PER_REGION]
 
     data = {
@@ -409,7 +413,7 @@ def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w") as f:
         json.dump(data, f, indent=1, ensure_ascii=False)
-    by = {r: sum(1 for x in selected if x["region"] == r) for r in ("BR", "US", "WORLD")}
+    by = {r: sum(1 for x in selected if x["region"] == r) for r in REGIONS}
     srcs = sorted({x["src"] for x in selected})
     print(f"-> {OUT} ({len(selected)} items; {by})")
     print(f"   sources in output: {', '.join(srcs)}")

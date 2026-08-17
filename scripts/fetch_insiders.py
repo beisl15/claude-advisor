@@ -7,23 +7,20 @@ Gera data/insiders.json com atividade de insiders da cobertura:
    interessa. Codigos F/M/A (imposto, exercicio, award) ficam de fora.
    FPIs (ASML, TSM, RACE, ABI, NU) nao arquivam Form 4 (isentas da Section 16).
 
- - BR: CVM Formulario 44 (VLMO consolidado, dados.cvm.gov.br) — compras e
-   vendas a vista de Acoes por grupo (controlador, diretoria, conselhos),
-   agregado por mes de referencia. Ultimos 4 meses.
+O bloco BR (CVM Formulario 44 / VLMO) foi removido em 17/08/2026 junto com os
+10 nomes da B3 — a cobertura passou a ser 100% internacional. A chave "br" do
+JSON continua sendo escrita como lista vazia para nao quebrar leitor antigo.
 
-Sem chave de API. Roda no GitHub Actions (SEC/CVM bloqueiam alguns IPs locais).
+Sem chave de API. Roda no GitHub Actions (a SEC bloqueia alguns IPs locais).
 """
-import json, os, io, time, zipfile, datetime, urllib.request
+import json, os, time, datetime, urllib.request
 import xml.etree.ElementTree as ET
-from collections import defaultdict
 
 HERE = os.path.dirname(__file__)
 OUT = os.path.join(HERE, "..", "data", "insiders.json")
 SEC_UA = os.environ.get("SEC_UA", "claude-advisor-dashboard pedro.beisl@gmail.com")
-CVM_UA = "Mozilla/5.0 (compatible; claude-advisor-dashboard)"
 DAYS = 90                 # janela p/ Form 4
 MAX_FILINGS_PER_CO = 12   # limite de XMLs por empresa
-BR_MONTHS = 4             # meses de referencia CVM
 
 # ticker do dashboard -> CIK (10 digitos). Igual ao fetch_us.py.
 US_CIKS = {
@@ -36,15 +33,6 @@ US_CIKS = {
     # Software + energia/datacenter (jul/2026) — todas domesticas, arquivam Form 4
     "ORCL": "0001341439", "NOW": "0001373715", "PLTR": "0001321655",
     "CEG": "0001868275", "VST": "0001692819", "GEV": "0001996810",
-}
-
-# ticker -> substring de Nome_Companhia no VLMO (mesma convencao do fetch_br.py)
-BR_NAMES = {
-    "SMFT3": "SMART FIT", "PRIO3": "PRIO", "SBSP3": "SANEAMENTO BASICO",
-    "PETR4": "PETROLEO BRASILEIRO",
-    "VIVT3": "TELEFONICA BRASIL", "TIMS3": "TIM S.A",
-    "ABEV3": "AMBEV", "ITUB4": "ITAU UNIBANCO",
-    "BPAC11": "BTG PACTUAL",
 }
 
 
@@ -136,72 +124,17 @@ def us_form4():
     return out
 
 
-# ─── BR: CVM Formulario 44 (VLMO) ────────────────────────────────────────────
-
-def br_vlmo():
-    year = datetime.date.today().year
-    rows = []
-    for y in ({year, year - 1} if datetime.date.today().month <= BR_MONTHS else {year}):
-        url = f"https://dados.cvm.gov.br/dados/CIA_ABERTA/DOC/VLMO/DADOS/vlmo_cia_aberta_{y}.zip"
-        try:
-            zf = zipfile.ZipFile(io.BytesIO(get(url, CVM_UA, timeout=120, binary=True)))
-        except Exception as e:
-            print(f"[br] zip {y} falhou: {e}", file=os.sys.stderr)
-            continue
-        fname = next((n for n in zf.namelist() if "_con_" in n), None)
-        if not fname:
-            continue
-        with zf.open(fname) as fh:
-            lines = io.TextIOWrapper(fh, encoding="latin-1").read().split("\n")
-        hdr = lines[0].rstrip().split(";")
-        ix = {c: hdr.index(c) for c in hdr}
-        for ln in lines[1:]:
-            c = ln.rstrip().split(";")
-            if len(c) < len(hdr):
-                continue
-            mov = c[ix["Tipo_Movimentacao"]]
-            if mov not in ("Compra à vista", "Venda à vista") or c[ix["Tipo_Ativo"]] != "Ações":
-                continue
-            nome = c[ix["Nome_Companhia"]].upper()
-            ticker = next((t for t, s in BR_NAMES.items() if s in nome), None)
-            if not ticker:
-                continue
-            try:
-                qty = float(c[ix["Quantidade"]].replace(",", "."))
-                vol = float(c[ix["Volume"]].replace(",", "."))
-            except ValueError:
-                continue
-            rows.append({"ticker": ticker, "month": c[ix["Data_Referencia"]][:7],
-                         "cargo": c[ix["Tipo_Cargo"]].replace(" ou Vinculado", ""),
-                         "side": "buy" if mov.startswith("Compra") else "sell",
-                         "qty": qty, "vol": vol})
-    # agrega por ticker+mes+cargo
-    agg = defaultdict(lambda: {"buyQty": 0, "buyVol": 0, "sellQty": 0, "sellVol": 0})
-    for r in rows:
-        a = agg[(r["ticker"], r["month"], r["cargo"])]
-        a[r["side"] + "Qty"] += r["qty"]
-        a[r["side"] + "Vol"] += r["vol"]
-    months = sorted({m for (_, m, _) in agg}, reverse=True)[:BR_MONTHS]
-    out = [dict(t=t, month=m, cargo=cg,
-                buyQty=round(v["buyQty"]), buyVol=round(v["buyVol"]),
-                sellQty=round(v["sellQty"]), sellVol=round(v["sellVol"]),
-                netVol=round(v["buyVol"] - v["sellVol"]))
-           for (t, m, cg), v in agg.items() if m in months]
-    out.sort(key=lambda x: (x["month"], x["t"]), reverse=True)
-    return out
-
-
 def main():
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     data = {
         "updated": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
         "windowDays": DAYS,
         "us": us_form4(),
-        "br": br_vlmo(),
+        "br": [],   # cobertura BR encerrada em 17/08/2026
     }
     with open(OUT, "w") as f:
         json.dump(data, f, ensure_ascii=False)
-    print(f"insiders.json: {len(data['us'])} transacoes US, {len(data['br'])} agregados BR")
+    print(f"insiders.json: {len(data['us'])} transacoes US")
 
 
 if __name__ == "__main__":
