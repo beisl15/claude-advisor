@@ -1,93 +1,133 @@
 {
- "asof": "17/08/2026",
+ "asof": "18/08/2026",
  "items": [
   {
    "p": 5,
-   "tag": "BR/EM",
-   "src": "arXiv q-fin",
-   "title": "Financial Technologies, Labor Markets, and Wage Inequality: Evidence from Instant Payment Systems",
-   "url": "https://arxiv.org/abs/2608.13871",
-   "date": "17/08"
-  },
-  {
-   "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse",
-   "url": "https://arxiv.org/abs/2601.20238",
-   "date": "17/08"
+   "title": "Biases-Informed Job Search Guidance: Characterization, Implications, and Targeting Support",
+   "url": "https://arxiv.org/abs/2608.16827",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
-   "url": "https://arxiv.org/abs/2608.12424",
-   "date": "17/08"
+   "title": "Detecting Money Laundering in Rwandan Mobile Money: A Machine Learning Framework",
+   "url": "https://arxiv.org/abs/2608.15447",
+   "date": "18/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading",
+   "url": "https://arxiv.org/abs/2407.09546",
+   "date": "18/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Cognitive Load and Information Processing in Financial Markets: Theory and Evidence from Disclosure Complexity",
+   "url": "https://arxiv.org/abs/2507.07037",
+   "date": "18/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Economics of Model Collapse: Equilibrium, Welfare, and Optimal Provenance Subsidies in Synthetic Data Markets",
+   "url": "https://arxiv.org/abs/2605.20279",
+   "date": "18/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Economics of AI Inference: Inflation Dynamics, Welfare Costs, and Optimal Monetary Policy under the Inference-Cost Phillips Curve",
+   "url": "https://arxiv.org/abs/2605.20281",
+   "date": "18/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "U.S. Technological Containment and the Rise of China's Open AI Ecosystem",
+   "url": "https://arxiv.org/abs/2606.15999",
+   "date": "18/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Large-Market Discipline in Combinatorial Double Auctions: No Assembly, Bundle Selection, and Complementarities",
+   "url": "https://arxiv.org/abs/2608.06134",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AI Evaluation Should Work With Humans",
-   "url": "https://arxiv.org/abs/2608.13577",
-   "date": "17/08"
+   "title": "Position: AI Lock-In Is in Progress, and We Must Be Prepared",
+   "url": "https://arxiv.org/abs/2608.14565",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Simulation-Aware In-Context Policy Improvement for LLM-Aided Analog Layout Refinement",
-   "url": "https://arxiv.org/abs/2608.13767",
-   "date": "17/08"
+   "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
+   "url": "https://arxiv.org/abs/2608.14667",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Handover of In-Context Learning State Across Session Boundaries",
-   "url": "https://arxiv.org/abs/2608.14528",
-   "date": "17/08"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "PPAPlace: Differentiable Cross-Stage Objectives for Chip Placement Optimization",
-   "url": "https://arxiv.org/abs/2608.13790",
-   "date": "17/08"
+   "title": "CEDAR-GRPO: Process-Aware Reinforcement Learning for General Abductive Reasoning in LLMs",
+   "url": "https://arxiv.org/abs/2608.14791",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Federated Prompt Learning: A Unified Framework, Empirical Analysis, and Future Directions",
-   "url": "https://arxiv.org/abs/2608.13844",
-   "date": "17/08"
+   "title": "Frontier AI Forecasting Has a Measurement Problem: An Audit of Progress Evidence",
+   "url": "https://arxiv.org/abs/2608.14903",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",
-   "url": "https://arxiv.org/abs/2608.13884",
-   "date": "17/08"
+   "title": "LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks",
+   "url": "https://arxiv.org/abs/2608.14927",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
-   "url": "https://arxiv.org/abs/2608.11195",
-   "date": "17/08"
+   "title": "Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads",
+   "url": "https://arxiv.org/abs/2608.15117",
+   "date": "18/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The Fools are Certain; the Wise are Doubtful: Exploring LLM Confidence in Code Completion",
-   "url": "https://arxiv.org/abs/2508.16131",
-   "date": "17/08"
+   "title": "Demographic Injection in Medical Language Models under Diversity, Equity, and Inclusion Prompts",
+   "url": "https://arxiv.org/abs/2608.15254",
+   "date": "18/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "A Responsible Artificial Intelligence Framework for Groundwater Modeling",
+   "url": "https://arxiv.org/abs/2608.15657",
+   "date": "18/08"
   },
   {
    "p": 5,
@@ -96,46 +136,6 @@
    "title": "FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied Volatility Forecasting",
    "url": "https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm",
    "date": "07/07"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Dynamic Physical Hedging amid Jump Losses, Reconstruction-Price Uncertainty, Population Interactions",
-   "url": "https://arxiv.org/abs/2608.13745",
-   "date": "17/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "An ergodic theorem for multi-period mutual insurance",
-   "url": "https://arxiv.org/abs/2608.14256",
-   "date": "17/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
-   "url": "https://arxiv.org/abs/2608.14134",
-   "date": "17/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Duality and Policy Evaluation in Distributionally Robust Bayesian Diffusion Control",
-   "url": "https://arxiv.org/abs/2506.19294",
-   "date": "17/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Bayesian Distributionally Robust Merton Problem with Nonlinear Wasserstein Projections",
-   "url": "https://arxiv.org/abs/2512.01408",
-   "date": "17/08"
   },
   {
    "p": 4,
