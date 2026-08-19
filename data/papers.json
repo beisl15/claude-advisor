@@ -1,133 +1,101 @@
 {
- "asof": "18/08/2026",
+ "asof": "19/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Biases-Informed Job Search Guidance: Characterization, Implications, and Targeting Support",
-   "url": "https://arxiv.org/abs/2608.16827",
-   "date": "18/08"
+   "title": "Stranded credentials: how a skill-signaling market absorbed generative AI",
+   "url": "https://arxiv.org/abs/2608.17111",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Detecting Money Laundering in Rwandan Mobile Money: A Machine Learning Framework",
-   "url": "https://arxiv.org/abs/2608.15447",
-   "date": "18/08"
+   "title": "Communicating Credit Risk with Large Language Models: Evaluation of Explanations from Standard and Alternative Data-Based Models",
+   "url": "https://arxiv.org/abs/2608.17715",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "A Reflective LLM-based Agent to Guide Zero-shot Cryptocurrency Trading",
-   "url": "https://arxiv.org/abs/2407.09546",
-   "date": "18/08"
+   "title": "Governing Delegation to Generative Artificial Intelligence: Human Direction, Work-Related Orientation, and Modes of Use",
+   "url": "https://arxiv.org/abs/2608.17624",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Cognitive Load and Information Processing in Financial Markets: Theory and Evidence from Disclosure Complexity",
-   "url": "https://arxiv.org/abs/2507.07037",
-   "date": "18/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Economics of Model Collapse: Equilibrium, Welfare, and Optimal Provenance Subsidies in Synthetic Data Markets",
-   "url": "https://arxiv.org/abs/2605.20279",
-   "date": "18/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Economics of AI Inference: Inflation Dynamics, Welfare Costs, and Optimal Monetary Policy under the Inference-Cost Phillips Curve",
-   "url": "https://arxiv.org/abs/2605.20281",
-   "date": "18/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "U.S. Technological Containment and the Rise of China's Open AI Ecosystem",
-   "url": "https://arxiv.org/abs/2606.15999",
-   "date": "18/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Large-Market Discipline in Combinatorial Double Auctions: No Assembly, Bundle Selection, and Complementarities",
-   "url": "https://arxiv.org/abs/2608.06134",
-   "date": "18/08"
+   "title": "How Generative AI Adoption Alters the Demand for Cognitive and Social Skills Within Roles: A Skill-Centric Analysis",
+   "url": "https://arxiv.org/abs/2503.09212",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Position: AI Lock-In Is in Progress, and We Must Be Prepared",
-   "url": "https://arxiv.org/abs/2608.14565",
-   "date": "18/08"
+   "title": "KnowSim: Evaluating Information Calibration in LLM Assistants with User Simulators that Learn",
+   "url": "https://arxiv.org/abs/2608.17150",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Position: AI Agents in Scientific Teams Should Be Studied as Human-Agent Systems",
-   "url": "https://arxiv.org/abs/2608.14667",
-   "date": "18/08"
+   "title": "SignalReasoner: Assessing the Upper Bound of 3B Models for Signal Mathematical Reasoning",
+   "url": "https://arxiv.org/abs/2608.17301",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "CEDAR-GRPO: Process-Aware Reinforcement Learning for General Abductive Reasoning in LLMs",
-   "url": "https://arxiv.org/abs/2608.14791",
-   "date": "18/08"
+   "title": "LLM-Only PDDL Domain Repair with Open-Weight Models",
+   "url": "https://arxiv.org/abs/2608.17341",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Frontier AI Forecasting Has a Measurement Problem: An Audit of Progress Evidence",
-   "url": "https://arxiv.org/abs/2608.14903",
-   "date": "18/08"
+   "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
+   "url": "https://arxiv.org/abs/2608.17800",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LLMs Can Predict Failure Risk, But Struggle to Predict Which Collaboration Protocol Pays Off: Cost-Aware Protocol Routing Across Reasoning Tasks",
-   "url": "https://arxiv.org/abs/2608.14927",
-   "date": "18/08"
+   "title": "EvoTS-Agent: A Self-Evolving LLM Agent for Financial Time Series Change Point Detection",
+   "url": "https://arxiv.org/abs/2608.17933",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Anatomy of a Quantized Agent: VRAM Stability and Forecasting in Code-Synthesis Agentic Workloads",
-   "url": "https://arxiv.org/abs/2608.15117",
-   "date": "18/08"
+   "title": "Potential of ChatGPT in predicting stock market trends based on Twitter Sentiment Analysis",
+   "url": "https://arxiv.org/abs/2311.06273",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Demographic Injection in Medical Language Models under Diversity, Equity, and Inclusion Prompts",
-   "url": "https://arxiv.org/abs/2608.15254",
-   "date": "18/08"
+   "title": "When Personalization Becomes Bias: Structural and Discursive Religious Framing in AI-Generated Financial Advice",
+   "url": "https://arxiv.org/abs/2608.16909",
+   "date": "19/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "A Responsible Artificial Intelligence Framework for Groundwater Modeling",
-   "url": "https://arxiv.org/abs/2608.15657",
-   "date": "18/08"
+   "title": "PACE: Policy-Attested Contract Execution for Safe AI Agents in Decentralized Finance",
+   "url": "https://arxiv.org/abs/2608.17220",
+   "date": "19/08"
   },
   {
    "p": 5,
@@ -136,6 +104,38 @@
    "title": "FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied Volatility Forecasting",
    "url": "https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm",
    "date": "07/07"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Entropic Value-at-Risk portfolio optimization for tempered stable L\\'evy processes",
+   "url": "https://arxiv.org/abs/2608.18022",
+   "date": "19/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice",
+   "url": "https://arxiv.org/abs/2608.17808",
+   "date": "19/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Constrained portfolio optimization in a life-cycle model: A deep pricing kernel approach",
+   "url": "https://arxiv.org/abs/2410.20060",
+   "date": "19/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "A multi-view contrastive learning framework for spatial embeddings in risk modelling",
+   "url": "https://arxiv.org/abs/2511.17954",
+   "date": "19/08"
   },
   {
    "p": 4,
