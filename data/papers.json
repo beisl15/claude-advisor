@@ -1,101 +1,109 @@
 {
- "asof": "19/08/2026",
+ "asof": "20/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Stranded credentials: how a skill-signaling market absorbed generative AI",
-   "url": "https://arxiv.org/abs/2608.17111",
-   "date": "19/08"
+   "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
+   "url": "https://arxiv.org/abs/2608.18099",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Communicating Credit Risk with Large Language Models: Evaluation of Explanations from Standard and Alternative Data-Based Models",
-   "url": "https://arxiv.org/abs/2608.17715",
-   "date": "19/08"
+   "title": "Position: AI Leaderboards Are Underserving the Global South: A Case Study from India",
+   "url": "https://arxiv.org/abs/2608.18117",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Governing Delegation to Generative Artificial Intelligence: Human Direction, Work-Related Orientation, and Modes of Use",
-   "url": "https://arxiv.org/abs/2608.17624",
-   "date": "19/08"
+   "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
+   "url": "https://arxiv.org/abs/2608.18554",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "How Generative AI Adoption Alters the Demand for Cognitive and Social Skills Within Roles: A Skill-Centric Analysis",
-   "url": "https://arxiv.org/abs/2503.09212",
-   "date": "19/08"
+   "title": "Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections",
+   "url": "https://arxiv.org/abs/2608.18690",
+   "date": "20/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Is Bitcoin A Hedge Against Central Banking? Evidence from AI-Driven Monetary Policy Expectations",
+   "url": "https://arxiv.org/abs/2604.08825",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "KnowSim: Evaluating Information Calibration in LLM Assistants with User Simulators that Learn",
-   "url": "https://arxiv.org/abs/2608.17150",
-   "date": "19/08"
+   "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
+   "url": "https://arxiv.org/abs/2608.18078",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "SignalReasoner: Assessing the Upper Bound of 3B Models for Signal Mathematical Reasoning",
-   "url": "https://arxiv.org/abs/2608.17301",
-   "date": "19/08"
+   "title": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
+   "url": "https://arxiv.org/abs/2608.18092",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LLM-Only PDDL Domain Repair with Open-Weight Models",
-   "url": "https://arxiv.org/abs/2608.17341",
-   "date": "19/08"
+   "title": "Emergence of Agentic AI: A Review on Evolution, Background, Working Principles, Applications, Adoption Factors, and Future Research Directions",
+   "url": "https://arxiv.org/abs/2608.18110",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "StartupBench: Benchmarking General-Purpose Agents on Market-Validated End-to-End Workflows",
-   "url": "https://arxiv.org/abs/2608.17800",
-   "date": "19/08"
+   "title": "FinRCA-Bench: Benchmarking Evidence Retrieval and Reasoning for Financial AI Systems",
+   "url": "https://arxiv.org/abs/2608.18534",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "EvoTS-Agent: A Self-Evolving LLM Agent for Financial Time Series Change Point Detection",
-   "url": "https://arxiv.org/abs/2608.17933",
-   "date": "19/08"
+   "title": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
+   "url": "https://arxiv.org/abs/2608.18613",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Potential of ChatGPT in predicting stock market trends based on Twitter Sentiment Analysis",
-   "url": "https://arxiv.org/abs/2311.06273",
-   "date": "19/08"
+   "title": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",
+   "url": "https://arxiv.org/abs/2608.19025",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Personalization Becomes Bias: Structural and Discursive Religious Framing in AI-Generated Financial Advice",
-   "url": "https://arxiv.org/abs/2608.16909",
-   "date": "19/08"
+   "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+   "url": "https://arxiv.org/abs/2608.19140",
+   "date": "20/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "PACE: Policy-Attested Contract Execution for Safe AI Agents in Decentralized Finance",
-   "url": "https://arxiv.org/abs/2608.17220",
-   "date": "19/08"
+   "title": "StocksTalk: A Voice-Enabled Conversational Agent for Structured Query Generation over Web Data",
+   "url": "https://arxiv.org/abs/2608.18105",
+   "date": "20/08"
   },
   {
    "p": 5,
@@ -109,33 +117,25 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Entropic Value-at-Risk portfolio optimization for tempered stable L\\'evy processes",
-   "url": "https://arxiv.org/abs/2608.18022",
-   "date": "19/08"
+   "title": "The Market's Conditioning Representation: Equilibrium, Crowding, and Convention Multiplicity",
+   "url": "https://arxiv.org/abs/2608.18299",
+   "date": "20/08"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Self-Consistent Adjoint Policy Iteration for Constrained Dynamic Portfolio Choice",
-   "url": "https://arxiv.org/abs/2608.17808",
-   "date": "19/08"
+   "title": "When to Sell an Asset? - A Distribution Builder Approach",
+   "url": "https://arxiv.org/abs/2608.18783",
+   "date": "20/08"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Constrained portfolio optimization in a life-cycle model: A deep pricing kernel approach",
-   "url": "https://arxiv.org/abs/2410.20060",
-   "date": "19/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "A multi-view contrastive learning framework for spatial embeddings in risk modelling",
-   "url": "https://arxiv.org/abs/2511.17954",
-   "date": "19/08"
+   "title": "Neural Functionally Generated Portfolios",
+   "url": "https://arxiv.org/abs/2506.19715",
+   "date": "20/08"
   },
   {
    "p": 4,
