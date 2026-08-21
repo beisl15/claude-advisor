@@ -1,45 +1,29 @@
 {
- "asof": "20/08/2026",
+ "asof": "21/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
-   "url": "https://arxiv.org/abs/2608.18099",
-   "date": "20/08"
+   "title": "Calibration-Induced Degeneracy in LLM Financial Forecasting: An Audit-Trailed Case Study on Next-Day Market Risk",
+   "url": "https://arxiv.org/abs/2608.20304",
+   "date": "21/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Position: AI Leaderboards Are Underserving the Global South: A Case Study from India",
-   "url": "https://arxiv.org/abs/2608.18117",
-   "date": "20/08"
+   "title": "ContestTrade: A Multi-Agent Trading System Based on Internal Contest Mechanism",
+   "url": "https://arxiv.org/abs/2508.00554",
+   "date": "21/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks",
-   "url": "https://arxiv.org/abs/2608.18554",
-   "date": "20/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Europe's Climate Ambition Under Scrutiny: Evidence from Deep Learning Emission Projections",
-   "url": "https://arxiv.org/abs/2608.18690",
-   "date": "20/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Is Bitcoin A Hedge Against Central Banking? Evidence from AI-Driven Monetary Policy Expectations",
-   "url": "https://arxiv.org/abs/2604.08825",
-   "date": "20/08"
+   "title": "From Accuracy to Auditability: A Survey of Determinism in Financial AI Systems",
+   "url": "https://arxiv.org/abs/2605.23955",
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -47,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "Position: Collusion Risks Among AI Reasoning Agents Justify Certification Requirements for Making Market Decisions",
    "url": "https://arxiv.org/abs/2608.18078",
-   "date": "20/08"
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -55,7 +39,15 @@
    "src": "arXiv cs.AI",
    "title": "Position: Multi-Agent Systems Should Prioritize Concurrency Control",
    "url": "https://arxiv.org/abs/2608.18092",
-   "date": "20/08"
+   "date": "21/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "FinSkillBench: Evaluating AI Agents and Domain Skills for Investment Management",
+   "url": "https://arxiv.org/abs/2608.18099",
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -63,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Emergence of Agentic AI: A Review on Evolution, Background, Working Principles, Applications, Adoption Factors, and Future Research Directions",
    "url": "https://arxiv.org/abs/2608.18110",
-   "date": "20/08"
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -71,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "FinRCA-Bench: Benchmarking Evidence Retrieval and Reasoning for Financial AI Systems",
    "url": "https://arxiv.org/abs/2608.18534",
-   "date": "20/08"
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -79,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "CTIFoundry: An Agent-Native Corpus Scaffold for Cyber Threat Intelligence",
    "url": "https://arxiv.org/abs/2608.18613",
-   "date": "20/08"
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -87,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "Self-prompting and cross-model consensus enable reproducible data extraction from scientific literature with large language models",
    "url": "https://arxiv.org/abs/2608.19025",
-   "date": "20/08"
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -95,15 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
    "url": "https://arxiv.org/abs/2608.19140",
-   "date": "20/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "StocksTalk: A Voice-Enabled Conversational Agent for Structured Query Generation over Web Data",
-   "url": "https://arxiv.org/abs/2608.18105",
-   "date": "20/08"
+   "date": "21/08"
   },
   {
    "p": 5,
@@ -117,25 +101,17 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "The Market's Conditioning Representation: Equilibrium, Crowding, and Convention Multiplicity",
-   "url": "https://arxiv.org/abs/2608.18299",
-   "date": "20/08"
+   "title": "The Reconfiguration Premium: Co-movement Structure as an Unspanned Dimension of the Variance Risk Premium",
+   "url": "https://arxiv.org/abs/2608.20020",
+   "date": "21/08"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "When to Sell an Asset? - A Distribution Builder Approach",
-   "url": "https://arxiv.org/abs/2608.18783",
-   "date": "20/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Neural Functionally Generated Portfolios",
-   "url": "https://arxiv.org/abs/2506.19715",
-   "date": "20/08"
+   "title": "Dynamic Portfolio Optimization under CVaR Constraints",
+   "url": "https://arxiv.org/abs/2608.20179",
+   "date": "21/08"
   },
   {
    "p": 4,
@@ -160,6 +136,30 @@
    "title": "FEDS Paper: How Firms Form Beliefs and the Implications for Inflation",
    "url": "https://www.federalreserve.gov/econres/feds/how-firms-form-beliefs-and-the-implications-for-inflation.htm",
    "date": "31/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "arXiv q-fin",
+   "title": "Filtering Credit Risk with Stochastic Discontinuities",
+   "url": "https://arxiv.org/abs/2608.19221",
+   "date": "21/08"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Robustness over efficiency in climate coalitions: a bistable model and a map of architectures",
+   "url": "https://arxiv.org/abs/2608.12143",
+   "date": "21/08"
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
+   "date": "20/08"
   },
   {
    "p": 3,
