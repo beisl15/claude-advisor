@@ -1,14 +1,6 @@
 {
- "asof": "22/08/2026",
+ "asof": "23/08/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied Volatility Forecasting",
-   "url": "https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm",
-   "date": "07/07"
-  },
   {
    "p": 4,
    "tag": "Macro/Rates",
