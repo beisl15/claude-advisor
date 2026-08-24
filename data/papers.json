@@ -1,6 +1,70 @@
 {
- "asof": "23/08/2026",
+ "asof": "24/08/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Auditable by Construction: An Ontology-Driven Framework for Trustworthy LLM Analytics in Enterprise Finance",
+   "url": "https://arxiv.org/abs/2608.20661",
+   "date": "24/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration",
+   "url": "https://arxiv.org/abs/2608.21208",
+   "date": "24/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "AI with Authority, from Application to Silicon",
+   "url": "https://arxiv.org/abs/2608.21356",
+   "date": "24/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Two Heads are Better Than One: Test-time Scaling of Multi-agent Collaborative Reasoning",
+   "url": "https://arxiv.org/abs/2504.09772",
+   "date": "24/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "AI-driven Prices for Externalities and Sustainability in Production Markets",
+   "url": "https://arxiv.org/abs/2106.06060",
+   "date": "24/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Lost in Sampling: Assessing Lexical Reachability in LLMs via the Word Coverage Score (WCS)",
+   "url": "https://arxiv.org/abs/2605.27268",
+   "date": "24/08"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv cs.AI",
+   "title": "Scalable High-Fidelity Macromolecular Docking for GPU-Accelerated Supercomputers",
+   "url": "https://arxiv.org/abs/2608.07078",
+   "date": "24/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Benchmark Mineability and the Financing of AI Innovation -- by Alex Chan",
+   "url": "https://www.nber.org/papers/w35641#fromrss",
+   "date": ""
+  },
   {
    "p": 4,
    "tag": "Macro/Rates",
@@ -24,6 +88,46 @@
    "title": "FEDS Paper: How Firms Form Beliefs and the Implications for Inflation",
    "url": "https://www.federalreserve.gov/econres/feds/how-firms-form-beliefs-and-the-implications-for-inflation.htm",
    "date": "31/07"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "The Yeoman's Portfolio: Measuring Historical Risk Preferences Using Crop Choice -- by Remy Levin, Daniela Vidart",
+   "url": "https://www.nber.org/papers/w35634#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "Rate Risk and Rate Insurance -- by Olivier Wang",
+   "url": "https://www.nber.org/papers/w35636#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "Monetary-Fiscal Interactions: A Reappraisal -- by George-Marios Angeletos, Chen Lian, Christian K. Wolf, Dalton Rongxuan Zhang",
+   "url": "https://www.nber.org/papers/w35642#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "A Model of Global Firms and Capital Markets -- by Loukas Karabarbounis, Bruno Pellegrino, Juliana Salomao",
+   "url": "https://www.nber.org/papers/w35652#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "arXiv cs.AI",
+   "title": "GroupSegment-SHAP: Shapley Value Explanations with Group-Segment Players for Multivariate Time Series",
+   "url": "https://arxiv.org/abs/2601.06114",
+   "date": "24/08"
   },
   {
    "p": 3,
@@ -64,6 +168,62 @@
    "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
    "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
    "date": "17/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness -- by Xu Lu, Yang Song, Yao Zeng",
+   "url": "https://www.nber.org/papers/w35638#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Labor Market Power with Worker and Firm Heterogeneity -- by David W. Berger, Kyle F. Herkenhoff, Jaehun Jeong, Simon Mongey",
+   "url": "https://www.nber.org/papers/w35640#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries -- by Serena Goldberg, Costas Meghir",
+   "url": "https://www.nber.org/papers/w35649#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "NBER",
+   "title": "Critical Minerals, Geopolitics, and the Green Transition -- by Tomás Domínguez-Iino, Jonathan T. Elliott, Allan Hsiao",
+   "url": "https://www.nber.org/papers/w35654#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Crypto Capture of Foreign Aid -- by Sumit Agarwal, Peiyi Jin, Eswar S. Prasad, Daniel Rabetti",
+   "url": "https://www.nber.org/papers/w35655#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "The Data Revolution, and Its Uses, in International Trade -- by David Atkin, Benjamin Faber",
+   "url": "https://www.nber.org/papers/w35657#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model -- by Michael D. Bordo, Cécile Bastidon",
+   "url": "https://www.nber.org/papers/w35647#fromrss",
+   "date": ""
   }
  ]
 }
