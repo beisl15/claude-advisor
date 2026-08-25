@@ -1,61 +1,69 @@
 {
- "asof": "24/08/2026",
+ "asof": "25/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Auditable by Construction: An Ontology-Driven Framework for Trustworthy LLM Analytics in Enterprise Finance",
-   "url": "https://arxiv.org/abs/2608.20661",
-   "date": "24/08"
+   "title": "Beyond What Meets the Eye: Unveiling Situational Illusions for Multimodal Large Language Models",
+   "url": "https://arxiv.org/abs/2608.22232",
+   "date": "25/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Specification Portability Across LLM Development Agents: Cross-Agent Compatibility in Specification-Driven Software Migration",
-   "url": "https://arxiv.org/abs/2608.21208",
-   "date": "24/08"
+   "title": "HANSARD: A Reference Architecture for Forensic Readiness, Runtime Witnessing, and Graded Attribution in Autonomous Multi-Agent AI Systems",
+   "url": "https://arxiv.org/abs/2608.22512",
+   "date": "25/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AI with Authority, from Application to Silicon",
-   "url": "https://arxiv.org/abs/2608.21356",
-   "date": "24/08"
+   "title": "Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron",
+   "url": "https://arxiv.org/abs/2608.22852",
+   "date": "25/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Two Heads are Better Than One: Test-time Scaling of Multi-agent Collaborative Reasoning",
-   "url": "https://arxiv.org/abs/2504.09772",
-   "date": "24/08"
+   "title": "LLM-based Agents for Forecasting and Prediction: Methods, Training, Evaluation, and Applications",
+   "url": "https://arxiv.org/abs/2608.23058",
+   "date": "25/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AI-driven Prices for Externalities and Sustainability in Production Markets",
-   "url": "https://arxiv.org/abs/2106.06060",
-   "date": "24/08"
+   "title": "Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement",
+   "url": "https://arxiv.org/abs/2608.23098",
+   "date": "25/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Lost in Sampling: Assessing Lexical Reachability in LLMs via the Word Coverage Score (WCS)",
-   "url": "https://arxiv.org/abs/2605.27268",
-   "date": "24/08"
+   "title": "Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance",
+   "url": "https://arxiv.org/abs/2608.23264",
+   "date": "25/08"
   },
   {
    "p": 5,
-   "tag": "Semis",
+   "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Scalable High-Fidelity Macromolecular Docking for GPU-Accelerated Supercomputers",
-   "url": "https://arxiv.org/abs/2608.07078",
-   "date": "24/08"
+   "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation",
+   "url": "https://arxiv.org/abs/2608.21364",
+   "date": "25/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
+   "url": "https://arxiv.org/abs/2608.21377",
+   "date": "25/08"
   },
   {
    "p": 5,
@@ -120,14 +128,6 @@
    "title": "A Model of Global Firms and Capital Markets -- by Loukas Karabarbounis, Bruno Pellegrino, Juliana Salomao",
    "url": "https://www.nber.org/papers/w35652#fromrss",
    "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Energy/Commod",
-   "src": "arXiv cs.AI",
-   "title": "GroupSegment-SHAP: Shapley Value Explanations with Group-Segment Players for Multivariate Time Series",
-   "url": "https://arxiv.org/abs/2601.06114",
-   "date": "24/08"
   },
   {
    "p": 3,
