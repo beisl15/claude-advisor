@@ -1,69 +1,93 @@
 {
- "asof": "25/08/2026",
+ "asof": "26/08/2026",
  "items": [
   {
    "p": 5,
+   "tag": "BR/EM",
+   "src": "arXiv q-fin",
+   "title": "Groundwater Management: Combating the Sinking Feeling",
+   "url": "https://arxiv.org/abs/2608.23914",
+   "date": "26/08"
+  },
+  {
+   "p": 5,
    "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Beyond What Meets the Eye: Unveiling Situational Illusions for Multimodal Large Language Models",
-   "url": "https://arxiv.org/abs/2608.22232",
-   "date": "25/08"
+   "src": "arXiv q-fin",
+   "title": "AI worsens climate change, integrated assessment shows",
+   "url": "https://arxiv.org/abs/2608.24670",
+   "date": "26/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Machine Learning Classification and Portfolio Construction: Does the Loss Function Matter?",
+   "url": "https://arxiv.org/abs/2108.02283",
+   "date": "26/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "HANSARD: A Reference Architecture for Forensic Readiness, Runtime Witnessing, and Graded Attribution in Autonomous Multi-Agent AI Systems",
-   "url": "https://arxiv.org/abs/2608.22512",
-   "date": "25/08"
+   "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
+   "url": "https://arxiv.org/abs/2608.23643",
+   "date": "26/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Your AI, On a Dial: Controlling Investment Bias in LLMs with a Single Neuron",
-   "url": "https://arxiv.org/abs/2608.22852",
-   "date": "25/08"
+   "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
+   "url": "https://arxiv.org/abs/2608.23691",
+   "date": "26/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LLM-based Agents for Forecasting and Prediction: Methods, Training, Evaluation, and Applications",
-   "url": "https://arxiv.org/abs/2608.23058",
-   "date": "25/08"
+   "title": "Do LLMs Understand Limit Order Book Dynamics?",
+   "url": "https://arxiv.org/abs/2608.23706",
+   "date": "26/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Jiuge-Tuiqiao: An Interpretable Human-AI System for Classical Chinese Poetry Refinement",
-   "url": "https://arxiv.org/abs/2608.23098",
-   "date": "25/08"
+   "title": "Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems",
+   "url": "https://arxiv.org/abs/2608.24069",
+   "date": "26/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Hidden in the Request: Explaining Unethical LLM Compliance through Token Relevance",
-   "url": "https://arxiv.org/abs/2608.23264",
-   "date": "25/08"
+   "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight",
+   "url": "https://arxiv.org/abs/2608.24314",
+   "date": "26/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Distinguishing Revision and Delayed Elaboration in Incremental Narrative Interpretation",
-   "url": "https://arxiv.org/abs/2608.21364",
-   "date": "25/08"
+   "title": "Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs",
+   "url": "https://arxiv.org/abs/2608.24369",
+   "date": "26/08"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Agentic Scaffolding Amplifies Sycophantic Behavior in Large Language Models",
-   "url": "https://arxiv.org/abs/2608.21377",
-   "date": "25/08"
+   "title": "The Limits of Automatic Evaluation of Creativity in Large Language Models",
+   "url": "https://arxiv.org/abs/2608.23705",
+   "date": "26/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Disentangled Skill Representations for Predictive Human Modeling",
+   "url": "https://arxiv.org/abs/2608.23776",
+   "date": "26/08"
   },
   {
    "p": 5,
@@ -72,6 +96,46 @@
    "title": "Benchmark Mineability and the Financing of AI Innovation -- by Alex Chan",
    "url": "https://www.nber.org/papers/w35641#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Equity Strategy Backtesting: Luck or Edge? The MinervaScore as a Statistical Robustness Grade",
+   "url": "https://arxiv.org/abs/2608.23808",
+   "date": "26/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Generalizing Markowitz Portfolio Optimization by a Quadratic Risk Measure",
+   "url": "https://arxiv.org/abs/2608.24449",
+   "date": "26/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Participation, selection and indicative bidding in auctions with costly entry",
+   "url": "https://arxiv.org/abs/2608.24457",
+   "date": "26/08"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "Dynamics of the Currency Composition of Central Bank Reserves",
+   "url": "https://arxiv.org/abs/2608.24468",
+   "date": "26/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "A Noise-Aware Quantum Algorithm for Credit Valuation Adjustments on Real Quantum Hardware",
+   "url": "https://arxiv.org/abs/2607.12990",
+   "date": "26/08"
   },
   {
    "p": 4,
@@ -175,54 +239,6 @@
    "src": "NBER",
    "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness -- by Xu Lu, Yang Song, Yao Zeng",
    "url": "https://www.nber.org/papers/w35638#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Labor Market Power with Worker and Firm Heterogeneity -- by David W. Berger, Kyle F. Herkenhoff, Jaehun Jeong, Simon Mongey",
-   "url": "https://www.nber.org/papers/w35640#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries -- by Serena Goldberg, Costas Meghir",
-   "url": "https://www.nber.org/papers/w35649#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Energy/Commod",
-   "src": "NBER",
-   "title": "Critical Minerals, Geopolitics, and the Green Transition -- by Tomás Domínguez-Iino, Jonathan T. Elliott, Allan Hsiao",
-   "url": "https://www.nber.org/papers/w35654#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Crypto Capture of Foreign Aid -- by Sumit Agarwal, Peiyi Jin, Eswar S. Prasad, Daniel Rabetti",
-   "url": "https://www.nber.org/papers/w35655#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "The Data Revolution, and Its Uses, in International Trade -- by David Atkin, Benjamin Faber",
-   "url": "https://www.nber.org/papers/w35657#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model -- by Michael D. Bordo, Cécile Bastidon",
-   "url": "https://www.nber.org/papers/w35647#fromrss",
    "date": ""
   }
  ]
