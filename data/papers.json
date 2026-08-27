@@ -1,29 +1,13 @@
 {
- "asof": "26/08/2026",
+ "asof": "27/08/2026",
  "items": [
   {
    "p": 5,
-   "tag": "BR/EM",
-   "src": "arXiv q-fin",
-   "title": "Groundwater Management: Combating the Sinking Feeling",
-   "url": "https://arxiv.org/abs/2608.23914",
-   "date": "26/08"
-  },
-  {
-   "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI worsens climate change, integrated assessment shows",
-   "url": "https://arxiv.org/abs/2608.24670",
-   "date": "26/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Machine Learning Classification and Portfolio Construction: Does the Loss Function Matter?",
-   "url": "https://arxiv.org/abs/2108.02283",
-   "date": "26/08"
+   "title": "Normative boundaries of AI in scientific work: Evidence from PhD researchers",
+   "url": "https://arxiv.org/abs/2608.25678",
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -31,7 +15,7 @@
    "src": "arXiv cs.AI",
    "title": "FLARE: A Systematic, Uncertainty-Aware Framework for Evidence-Based Adoption of Artificial Intelligence in Healthcare",
    "url": "https://arxiv.org/abs/2608.23643",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -39,7 +23,7 @@
    "src": "arXiv cs.AI",
    "title": "Autonomous Mathematical Discovery in an Open-World Multi-Agent Environment",
    "url": "https://arxiv.org/abs/2608.23691",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -47,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "Do LLMs Understand Limit Order Book Dynamics?",
    "url": "https://arxiv.org/abs/2608.23706",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -55,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "Poisoning Agentic Alpha: Adversarial Vulnerabilities Across Roles and Architectures in Multi-Agent Trading Systems",
    "url": "https://arxiv.org/abs/2608.24069",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -63,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Benchmarking LLM Judges for Voice-Agent Evaluation: Reliability, Calibration, and Human Oversight",
    "url": "https://arxiv.org/abs/2608.24314",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -71,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Do Recipes Have Personas? Characterizing and Generating Creator Style in Attributed Procedural Graphs",
    "url": "https://arxiv.org/abs/2608.24369",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -79,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "The Limits of Automatic Evaluation of Creativity in Large Language Models",
    "url": "https://arxiv.org/abs/2608.23705",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -87,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "Disentangled Skill Representations for Predictive Human Modeling",
    "url": "https://arxiv.org/abs/2608.23776",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 5,
@@ -99,43 +83,27 @@
   },
   {
    "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "On the hedging problem in general 1D diffusion markets",
+   "url": "https://arxiv.org/abs/2608.25223",
+   "date": "27/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "The Dynamic Trade-Off of Dual-Class Shares",
+   "url": "https://arxiv.org/abs/2608.25972",
+   "date": "27/08"
+  },
+  {
+   "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
    "title": "Equity Strategy Backtesting: Luck or Edge? The MinervaScore as a Statistical Robustness Grade",
    "url": "https://arxiv.org/abs/2608.23808",
-   "date": "26/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Generalizing Markowitz Portfolio Optimization by a Quadratic Risk Measure",
-   "url": "https://arxiv.org/abs/2608.24449",
-   "date": "26/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Participation, selection and indicative bidding in auctions with costly entry",
-   "url": "https://arxiv.org/abs/2608.24457",
-   "date": "26/08"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Dynamics of the Currency Composition of Central Bank Reserves",
-   "url": "https://arxiv.org/abs/2608.24468",
-   "date": "26/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "A Noise-Aware Quantum Algorithm for Credit Valuation Adjustments on Real Quantum Hardware",
-   "url": "https://arxiv.org/abs/2607.12990",
-   "date": "26/08"
+   "date": "27/08"
   },
   {
    "p": 4,
@@ -195,6 +163,14 @@
   },
   {
    "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "The Value of a Chance: Task Concentration and Talent Discovery in Team Production",
+   "url": "https://arxiv.org/abs/2511.07218",
+   "date": "27/08"
+  },
+  {
+   "p": 3,
    "tag": "Productivity",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
@@ -239,6 +215,30 @@
    "src": "NBER",
    "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness -- by Xu Lu, Yang Song, Yao Zeng",
    "url": "https://www.nber.org/papers/w35638#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Labor Market Power with Worker and Firm Heterogeneity -- by David W. Berger, Kyle F. Herkenhoff, Jaehun Jeong, Simon Mongey",
+   "url": "https://www.nber.org/papers/w35640#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries -- by Serena Goldberg, Costas Meghir",
+   "url": "https://www.nber.org/papers/w35649#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "NBER",
+   "title": "Critical Minerals, Geopolitics, and the Green Transition -- by Tomás Domínguez-Iino, Jonathan T. Elliott, Allan Hsiao",
+   "url": "https://www.nber.org/papers/w35654#fromrss",
    "date": ""
   }
  ]
