@@ -1,170 +1,170 @@
 {
- "asof": "28/08/2026",
+ "asof": "29/08/2026",
  "items": [
   {
    "region": "US",
    "p": 5,
-   "tag": "PLTR",
-   "src": "Good Jobs First",
-   "title": "Oracle is Not a Viable Alternative to Palantir for NHS Federating NHS Data",
+   "tag": "NVDA",
+   "src": "Yahoo Finance",
+   "title": "5-star analyst drops jaw-dropping Nvidia stock price target",
    "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdDFmVEI5S1l0ZkNLanVTWUpRVndJOVYtTGNhM1E0b19XNEFXSEtmWGhyek1kekU5eDhCREJfUktfYWR6aFlaWUlOZHVoR0duaVZIUVA3MGx3MklEWVRBWTlNM1AyWkhvelBvRFFLX3ZNLV9rR2wtX3FTejBlSVlITDdTeGdRREZReWV5eEpYdE1BVmtfQUVLak1EcnNBXzdjTGxR?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "Semis · Earnings",
-   "src": "Reuters",
-   "title": "Wall St Week Ahead Jobs report, Broadcom results pose next hurdles for stock market rally",
-   "resumo": "",
-   "prov": "Relevant to Semis · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTjVfaWU5QkF5T0paRm0xSHdteDJHZjB1YTVMcmNZcjVWNHQzcWV2Rm1FaVd3RFN5OHFndERRRUljQ2dYMjhJQXdER21XMEJjQThvN0JONTRJNlpNUEt2V2xCWGtFdmJQcVMydi1MSEtDd1lsQVR4Q2ZYZDlldFI0VE5odDc3LVU1NDB5SlRQVlh3NWg4Tjl1Y2J0blJxczFyVUNmYlZ2b0hCZ1o1SzdiMFdEUHRfWlBWUTlCLVRtN3g?oc=5",
-   "date": "28/08"
+   "prov": "Relevant to NVDA.",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/5-star-analyst-drops-jaw-140700503.html",
+   "date": "29/08"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "The Motley Fool",
-   "title": "Nvidia Just Did Something It's Never Done Before. Here's Why It Makes the Stock a Buy.",
+   "src": "Seeking Alpha",
+   "title": "Notable tech headlines for the week: Nvidia, Salesforce, Marvell in focus",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOXpYX0xOMHZ2ZHFHbjVHa0c3ZlYxVWpJOUVMYUdSNWpocVhTdHJPZzQxdlB3NU5heXV2MDdGMHVOY0ZKUTF1WktQWTc4SnVWV3E0cEJyQnZhWWdRX0I4ejdkR3NQMkd0UEVzYklLZGFCM2IxOEpXeEUwS09ydEdWazFzUnFSVnRBRnRyME5Oa3QxbENE?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "MU · ASML · Earnings",
-   "src": "TradingKey",
-   "title": "US Stocks Fall as Philadelphia Semiconductor Index Drops Over 3%; Cloud Service Providers Buck Trend, Optical Communication Stocks Lead Losses; Marvell Falls 10% Post-Earnings, Nvidia Drops 4%",
-   "resumo": "",
-   "prov": "Relevant to MU · ASML · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPa0JwV0NTekpUeEpDSkR1MzBIMmFDVVBJcE1TaHk0VndfMUR3ZWx2QWRzTjNjNkxwczlkbnZ1Tzd0dnJ2Q2JZU2FWTEN0WGtYb0lBaEhUWkYwX0ZaVDRSNno4SkdncnZuQlBQUG1ybTEtTjBBbVZEVFNVRTNleV9HSG1pODNOUVJVT3o1dXFiQ3ZQalUxVzYwZVY1TlJva045MHRmXy1FR09XcGctclhYVU1WbVhmRWZTR1d6TWY3UUdfNjRXY0hzekxBN05fZU8wM1RIZC00SUdVek0?oc=5",
-   "date": "28/08"
+   "url": "https://seekingalpha.com/news/4638009-notable-tech-headlines-for-the-week-nvidia-salesforce-marvell-in-focus?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+   "date": "29/08"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA · Earnings",
-   "src": "Investing.com",
-   "title": "NVIDIA stands out as the top dip-buy after earnings-week pullback",
+   "src": "Quiver Quantitative",
+   "title": "NVIDIA Stock (NVDA) Opinions on Post-Earnings AI Growth Prospects",
    "resumo": "",
    "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQV2s4ZUxDSmhpUXB1N1MyM2U4R0c1ZlpjcXJPN2dIV3FTX2Z0QTd5ajA1UjM2ZmJZdkJjRHowSllXU2RETlVYZUxvOTFWcE9mRkJ4a2pPamthaDZlTW96aVZpR0IzQXdwdHROeC1RRy1Qb0JiZEllbXNtS1pVTm8zNnkweVA5R1FHTUtDRGJtamFRTTRzM2c0UVV6NUcwazczQTgwQ0J4Q2h5ZlhBT2xqNmNUSTloY2hsTmNxUEtEVlpnQ28?oc=5",
-   "date": "28/08"
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYjhLRXY4T1p0RnlSU0xKcTB4aEJfQ2pyX1Zxb1RyRWk3UTBjWm5HMGtBZkdYMy1PZmZuaklHTXBTTVdLZHZNMmhjMEpJY08xZUxXbFNHNGpJQkVJU2xPNTE5YVRBT3Q5U3c5V3BRYnVaaWVmQ3hzU1VZYVBtbld5NjVIQzYybVRiR00yUUwwd1RSbzQ5U3BxaWhHa29WTkJHUFI3OA?oc=5",
+   "date": "29/08"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "Zacks Investment Research",
-   "title": "Top Stock Reports for NVIDIA, ExxonMobil & HSBC",
+   "src": "Seeking Alpha",
+   "title": "Nvidia Stock: The Space Matters More Than The Share (NASDAQ:NVDA)",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUlA3UXR0RkxWRmR0Y3F0UjloT29idS1BQ2lHTXNLSFRMdGI0bFFkbTRlTDUxbndQcVBfVFRaUk5OdDVCS3lTcmc1V294TjJBYXA1TExFcC14aFVGMlBpY2RTUXo3d2g0OWlmaFpEV3NMZllISmFycU5SSEpGLVN3Q3lfZmJCT2xRVXVPZ3h1WGFydGM?oc=5",
-   "date": "28/08"
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNDMweVNnUlJyRWV6NFZrWmdISTVYTEIwcXhwQ0pFckRLZmtIaERvdHdlOFRMMEJBMmVuNWFVZkQ5QW5BeXFPX0c5eW1nOWUxV0JnWGxrUlY1NXdTVktkeXNKVFFqVEVqcFpuSmw4Mmdyck1TaDJscm1EZEk3TFVWbHRoRXBJM1NqS1J5RWJR?oc=5",
+   "date": "29/08"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "Semis · Earnings",
-   "src": "whbl.com",
-   "title": "Jobs report, Broadcom results pose next hurdles for stock market rally",
+   "src": "finance.yahoo.com",
+   "title": "Jim Cramer Doesnt Think Anything Was Wrong With Marvell Technology Inc . ( NASDAQ : MRVL ) Earnings",
    "resumo": "",
    "prov": "Relevant to Semis · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc0M0WTVaa0s2YnRpNEd4OVctRDFqbm91ZjNvUlZuV1U1NGpMaWF6LW5CNmI0T21nSG9fTVRBNVdJdy01YWJMbkNvMFJHeDlwNkIydERGRjV2TWtJeE42VUFYU0NzYXFBdDdvMlpaWm1jdG1jdWVwcnJ2Z1ZOdkxvZXJCX3NfYktJaFhUdkt2cnBCdUphZGV1WTFhMWxKNkk?oc=5",
-   "date": "28/08"
+   "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-doesn-t-think-113906575.html",
+   "date": "29/08"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "AMD",
+   "tag": "NVDA · Earnings",
    "src": "TradingKey",
-   "title": "AMD Stock Price Prediction: Druckenmiller Boosts Stake, Can Helios and AI Inference Drive AMD to Outperform Nvidia?",
+   "title": "Broadcom Stock Nears Earnings: Can AVGO Break $379 After Nvidia Rally?",
    "resumo": "",
-   "prov": "Relevant to AMD.",
-   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNQy1lUVlPQnVwcHdtdXB0cDZObjVtN3AwemY0bTY1aVpkWV91MW5TTjR3REFLRHg4NEp0V1labnhnam9XeFI5XzJLMkhYRzdFbFJET19EdzlIdHh5YllWSTl3MWNGVkpkdjI5cnZpWGpieGhncnNrVmo4Z05SaEgtdkRRN3phNFo1MWdIeFhDM3JQNjNnNTRpbW9qUHpFMmd3T2xHdGtHNjN1UjNXQm1xSXRSR0JMNzdpUmRfSmdMaWxqckxxSVlkN18zMjNpbTRPMGZVVHdOcVZid1N6NDNpeWtMNA?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "thestreet.com",
-   "title": "Nvidia just demolished one of Wall Street’s biggest AI fears",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbFdyYTVzYVl3YkFRcGFHYkNoN0FqSUNkcnNfbFk5YTV1OHMwMlU2VzlxY1poUFdtenR3MkVUQzdMZ0hIdkdsNC1QLUFfLXcxRm9TbkFYd2t6akJIUWlEUFZfR2hGZ01yMEl5R1djdHBiZGl4OF8wSGg0MTZOa2VwR2hzZnBPczJ5YmJoVkdkYTFtRjR1M0g1U0pkSnhUMWJBdVJ1NDZGYw?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "Barron's",
-   "title": "Marvell, Nvidia, PayPal, Workday, Iren, Elastic, Pasqal, Affirm, and More Stocks That Explain Today’s Market",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5FVWtqeDl5ZkJrWS00LW9SVzFkaV9ORmVBWGxwN19BOENjcmg0eEdfcVFTV2pMckJldmdIeFVaWC1iTWhpejdIQjhzOWI2bFFoOFpEa0czYmcxWlZINGsxOGpNbEI?oc=5",
-   "date": "28/08"
+   "prov": "Relevant to NVDA · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQS1BvX3A3YkZCRWgyM3ZvZDBLY2laclRXU3RrU2poNXRoLVc0cTB6Vnh0Y1FHYl9STW1JS2lwa0RpYk9qRjJxMDZVZG9KcTJyQWtyWnU2ZHZ5anNqMU1Xc1BIUVdKV0xwQkNrRm94ZnVGTjJydXdONkdZTkN5TUc4Qjd0RVFMc0VjTlBORml6V3U5b2UwaDJGTUhJODlySnBtSEtIMEtYS2lic3BMalhYa2tZOTZuVFE3TzRZcjQ4YlVheEk?oc=5",
+   "date": "29/08"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "AMZN · Earnings",
-   "src": "Barchart.com",
-   "title": "Amazon’s Post-Q2 Earnings Rally Has Faded But Don’t Give Up on AMZN Stock Just Yet",
+   "src": "AMZN",
+   "title": "Resilient Amazon.com Inc. stock jumps on analyst upgrade and strong Q2 earnings momentum - Ad-hoc-news.de",
    "resumo": "",
    "prov": "Relevant to AMZN · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNaFBLOVRCSlc0Ym41dFhSOEZud0otVkFEVzEzY19idkhJXzE1ZkhNS2lPSHFZVV9UbjN4UU5pbVJTbGk4OXcyM2NhWlpwSUF2WlpURHVoTDdlUlVrMW5qVlZzR18xRUEzdk1jb3U5dWg1eUNDUVhQNHdfRkZKM3lWR2JiN29YN0NvUzlCTU9Qd2pKM0lhbjdnbjRmSE9aTU5YLWtRVnRaOUdldWhFdGpsM2RheWxaWkZkc2Q0eUR3NDhjUQ?oc=5",
-   "date": "28/08"
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUU9MZ2Z6b0lLLS1LUWRZbGl1b0dnTlJoQl84QU1xVnY3TS16dXpIZTRnRV95TkFrSmRyY3BVbk1ESkNXaWI0N1I0Ymo1Z01Xdms5NUJPLUp1MUFmZURGYUo4UlZMVU9lTGNLaUdUdGgwYWFGLU80MFp2MGRqU2lBOFdxVldkcGhZTVV4YXZYUWJKUzJvd0h3N2JsSWxYOEdUbGptLXZPTkstaUpaa3ZQY0Y0T0FyNm5oa09EZ0M3VFU2LW5jcFdPWGYxUEI?oc=5",
+   "date": "29/08"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "NVDA",
-   "src": "Investing.com",
-   "title": "Why is NVIDIA stock sliding today?",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSFBIMHhPbG9jRmsyaXZCMFBmUXhJcmpFVVFUMDFxRTdsQU1ZNUwwd1pmRUFndHMtUVUxcnBNSTFidzFfWlMtSk1KOEhOOExBRnNNZk1VRC1fdmZpcU9KSUhmdm5MQ19rc0plTG50bjFsTnl0ZUZQVlBNcnVEVFhtMlI2T09pMVFsQ3BreDd2c2lGMDVRY2twUWNycw?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "AMD · Earnings",
-   "src": "Stocktwits",
-   "title": "AMD Stock Gains After Upgrade: Analyst Sees ‘Strongest Combination’ Of Earnings Leverage, Data Center Gains",
-   "resumo": "",
-   "prov": "Relevant to AMD · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONGh2UmRLSjdha2lNN2tkcHBtTG9DcUFGSFhvbGdXUVN6Zjd5WTdjc25tT0t3dkx3SUlFLThXR0QyM25GTWFMMWFoa09Sd1FTbUlYUlB6VUEtVzJKdlRfNXVpTTBvdk9YSkxmOEpaYldIaUQ1YlliTk5SMm9MdzBjV1VYSXZkUmtZQjVSRXplZEc4d0ljQ28yWC1hNUlIXzk1cGhDRm15c1NBVklnanZZWlZqblJUZ2FoXzB0aElxYzRybVEtNF9jUUp6dUd0a2NPTS0yZG93?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "24/7 Wall St.",
-   "title": "Wall Street Wanted 45% Growth From Nvidia. It Guided to 70%, and the Real Number Is Higher.",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR0pqZ2tuMV9qOE8wclBaOFNWYVZ4QkVkVjVfM29ReERJOFRUMlMySlhMemNCVllZNTB2N051WTJFd2xCdUFJc2dZc1prUG1iaWdxTGZyMjQzYk5hMDN0T3l1OVpyQnhPbXhNTlY2WGZWM3NIMUVxcExYTEFiWXhlakJ2VXFHSXVrNEFnYUFpQWdTczlheGxYU1MxWGFRMDNPTnQtdTNFZGNTajJ4V05IZzdJMG96MjlFOERnOTRkejVsLTFXVUJ6aTh3?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "AMZN",
+   "tag": "AAPL · Earnings",
    "src": "Pluang",
-   "title": "Amazon jumps 4% on expanded AWS GPU deal while NVIDIA falls 4% amid sector pullback",
+   "title": "Apple remains Berkshire Hathaway's top holding with strong Q3 2026 earnings and CEO transition confirmed.",
    "resumo": "",
-   "prov": "Relevant to AMZN.",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa2ZIa1FRbGktYmtQdlB0cXg0dk9aVVlkYWlRcWRsekk5S3JGTkRZYVdIZDFNcWpvOWoxZFJra1RpQ1F6Z1dVSXpuUHhoNzd6UC1kbUx4ZU16Xzk5Ty1JRXhoajJhMHNQekRhSkptSlJKRVpIMkNyODNqc2pwU2FBR0hzeGlFZGVsV1hwdG1hZW1LVnF0V3liWGV3Qm13WnA0SXZZ?oc=5",
-   "date": "28/08"
+   "prov": "Relevant to AAPL · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQY2pONjdmVlM0ZUlRdkw5V012QUdmOVRJZFhpWEFtckhwejNkTTRVMGZGQ09NeHd3MV9fU2s3a29EMkxWcjNlVDZ4d21SWkV2ZzBpWF9jSXZSbWpDWFNEU3dMSm9nS1c1QmhsVFRiV1dCcDVHZnlCQkVOalpsZzlhLVhLSlRReUJYby1TQjAzbkVEV1EzY0E?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "NVDA · Earnings",
+   "src": "Intellectia AI",
+   "title": "Nvidia Earnings August 2026: AI Chip Demand Analysis & Stock Forecast",
+   "resumo": "",
+   "prov": "Relevant to NVDA · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93WUNncWRMQTdnN3dDMVZOMDlPZVMtdE9xbXR5bUMxWGpoZ2pPTzgxRDBKREJ4TzNiSEFDcVQyWlZrX1dlc3h3cnBLVTJ1NGgyMXlMdGpaQWFGcFlwRy0xMDFEOUlCWUNhajBJUzJZX1JDTnZvaGc?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "AAPL · Earnings",
+   "src": "Seeking Alpha",
+   "title": "Apple: Low Margin Guidance Doesn't Concern Me. (NASDAQ:AAPL)",
+   "resumo": "",
+   "prov": "Relevant to AAPL · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObk01aUk3VzVTQWRYdUVldTdFcHRIakRScHJURExMYUFDX0J3bV9UWUpyM0xyX0p5Wk1sOG1RREJDbGpzLUZyVWFURGh1b2tSV2lDN3lmX2ZZLXJFMUJTU1pJYzVEWG5lcGFSQVN1TUZlSmN6R19zLTRPOFNRcXN4eldKdG9mY3JFZ3NPZA?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "Earnings US",
+   "src": "GuruFocus",
+   "title": "Weekend Morning Brew: Nvidia Soars on Earnings, Meta Settles Youth Case",
+   "resumo": "",
+   "prov": "Relevant to Earnings US.",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWHFiaWR2dXlfU0pUcmhhUjZ1NW5RTWJXamVZVFdieXZjWTY1cHlLd1NXajBhOXZLbnB0VW03R0JnNHY3SlpGbzVuU29VQ1IxemtybGFvZVh2YmxOTE9Pb3RmUWswUHlDei16alFTV0tqR1ZVRWdMNlJyQlh3SGRXc1lUM1pDR1QyQkFJMEJScTZEQ1g5UzQtTFU2QzJRZDFybWl5ZC1Nb3ZZZUhi?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "NVDA",
+   "src": "Seeking Alpha",
+   "title": "Nvidia and SpaceX form heavenly relationship with plan to launch Vera into orbit",
+   "resumo": "",
+   "prov": "Relevant to NVDA.",
+   "url": "https://seekingalpha.com/news/4637989-nvidia-and-spacex-form-heavenly-relationship-with-plan-to-launch-vera-into-orbit?utm_source=feed_news_all&utm_medium=referral&feed_item_type=news",
+   "date": "29/08"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "US Big Tech · Earnings",
+   "src": "Yahoo Finance",
+   "title": "These 7 Stocks Are Analyst Favorites For Magnificent Earnings Growth; Amazon Holds Key Level",
+   "resumo": "",
+   "prov": "Relevant to US Big Tech · Earnings.",
+   "url": "https://www.investors.com/research/best-stocks-seven-magnificent-stocks-earnings-growth/?src=A00220&yptr=yahoo",
+   "date": "29/08"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "PLTR",
+   "src": "Yahoo Finance",
+   "title": "Microsoft, Palantir Among Stocks To Watch As Software Bounces Back",
+   "resumo": "",
+   "prov": "Relevant to PLTR.",
+   "url": "https://www.investors.com/news/microsoft-palantir-stocks-near-buy-points-software/?src=A00220&yptr=yahoo",
+   "date": "29/08"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "MSFT",
+   "src": "Investor's Business Daily",
+   "title": "Microsoft, Palantir Lead Five Stocks Near Buy Points In Hot Sector",
+   "resumo": "",
+   "prov": "Relevant to MSFT.",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaUpiWVl3OUwtMVB1Z0NWSDFVMXl5NDFkLU5aMlgyWWQ5UDRoeWNyc29TeUo5TlZtdXhuTWJZSUZvYU1VT29TZEU3TXJFZERiTkNnQU9jS1I5dk9NbzVpMWppRDR1RDNCTjVDeTBHS1U1Y0t6ZUVaWFJQdkYwNDdmVEVZRU9zd1lYTEE?oc=5",
+   "date": "29/08"
   },
   {
    "region": "EU",
@@ -185,29 +185,29 @@
    "title": "U.S. stocks slip: Investors weigh Warsh’s Jackson Hole message after Nvidia rally",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNM0xsYVhuQUtEOUlfZ1RENmtSejZVNU5zS1lvaWk1cWFHalZ6dU5DOWNTN1VHNnR4Rno4WFRpcGw4WDU2ZnVKS1ZwWjM4OFhRM3pXLUlGajJGWF9YaTNPcURhdWh2WUlrZkp3MVR3OXhWSE1Pd0RyanYzNkFuRTdleHlKUUxYT2lXZWo2OTh2QVNOR3ExRlRQUF9qS1NUdWEySmNvZTJmM185MTdMUjB6TmYzTnVHajlrODRyZmx1TnA0T2pHYzJB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQckhrdS1wcVNFM3BBaWVETVlYUTFRV05Sb0QwTVBXWWNqa0dYZnlFb3NMWFpLNDN0LU9IWTFxQzBjYU44RTRUNEx2WnRGak1SazFHZEFQSVUtY2hGR1FqMFZJM3pGV1VhZHV5UG1jRUFocHA3TF8ybHU1LV9ndnRxQlF2N0JJS2YtZWhudHlXWXpVakFkWkdNRmtUVUhYZE1EX0ZyaTFQU1VGTk95SUp0Q190SjVQUVI3Wi00OV8tU01Ia05WQkZkQXl3RDk?oc=5",
    "date": "28/08"
   },
   {
    "region": "EU",
    "p": 5,
-   "tag": "NVDA · Earnings",
-   "src": "DT Next",
-   "title": "World shares mostly gain after upbeat results for Nvidia, other tech giants lift US stocks",
+   "tag": "ASML · Earnings",
+   "src": "ASML",
+   "title": "ASML Holding stock tests rich valuation as Q2 2026 boom meets tariff and China risks - Ad-hoc-news.de",
    "resumo": "",
-   "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxON1RSbXpaNWZxQmZmV0hwbFF6MWdUa2piSmkzbTAtOF9pendMRjRpcUN4Q095RE0zM0xNaDRPaWFwX0hmUG4xMGpRUUFSbm8zNDBzTDlQVTFFcklIY0xySGM0enQ2T1NDM1N1cGwzVEdFWlVDRXpsdUFTNFlPNUdSbm5FaFpxdGU3VDRUdzJWZENRUW8tdHRuNHB5dDJOTE1RXzdoNGZSMzM5Y1hYbndWOFFHRzlzbFQyRkU5SERfNDI4OG8?oc=5",
+   "prov": "Relevant to ASML · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPSUZ4NFRLUGhlR1FLNzhDSHgwUk9sX1RQb3dXN0dnalRvUGhXelJ5M0FmYUNUdzVsbWg4M3Q0bzJPdVNPbE9YbVRLbGFzWGhrRDdGNk4zZ1d3bmsySzVGalZQSGd2cTJQeVowb21EMzZCek1XNmxaY25Xb2hJWjduQ19oWkd5VUFBbXBQdXZFYjRMREd4XzBiRDZMLWFpczZ6YklaVlFTZWxfWXpiYzhTeml5T2ctQzlYbHpqdk43WHV0WlRtQWh0RWRvS09kQUNO?oc=5",
    "date": "28/08"
   },
   {
    "region": "EU",
    "p": 5,
-   "tag": "NVDA · Earnings",
-   "src": "CP24",
-   "title": "World shares mostly gain after upbeat results for Nvidia and other tech giants lift U.S. stocks",
+   "tag": "NVDA",
+   "src": "fortune.com",
+   "title": "Nvidia future spending commitments  make the company risk profile more complex , Saxo says",
    "resumo": "",
-   "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQbVhsaWIyTlJfZnlTV0tqeHFiYzRYejAtQU1BWlhkTEZXS0R5Ymhkb3pBUHVOVlpfQlhXdHNfSnFIeUtfSEdnSXN6N3EtRDdiU1RJbHJxNm5zQUVKM3VSQklVa3BrRnZFVUVIdVJxNDdaWUlIVHZZRV9wT3BOMVJrZ3dEY0R4S2lLaDBxT2I2ZDBSX0JOUlpZS0JaYkZaUGdDUlpkTm9SR2xkVnRoRmtjU2U4VWhoVVFmWGl5cWdaN09JcGs4dmFXa05teUNjbFYwVkxj?oc=5",
+   "prov": "Relevant to NVDA.",
+   "url": "https://fortune.com/2026/08/28/nvidia-cash-spending-commitments-risk-profile-more-complex-saxo/",
    "date": "28/08"
   },
   {
@@ -224,23 +224,23 @@
   {
    "region": "EU",
    "p": 5,
-   "tag": "RACE",
-   "src": "Stocktwits",
-   "title": "CBRS Stock Struggles To Hold IPO Momentum Even After Fast-Tracked S&P Indices Inclusion – NVDA Shadow Grows Larger",
+   "tag": "ASML",
+   "src": "The Globe and Mail",
+   "title": "Nvidia Just Guided for 70% Revenue Growth in Fiscal Year 2028. Here's What That Means for AI Stocks.",
    "resumo": "",
-   "prov": "Relevant to RACE.",
-   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQaExnOG1OUE5uQVQxODVLdm9MdlRpZjNUX1lxMXo0M2tHbDJEWFRTbktjRkIyUHNjNGxPZy1yTG1NcUFudDlUR2h1ZFVOOVNPaWFHbXBRNVRaeWRsQW0zRWJWeXlNWFdTdXBBd1hZMVU1TGdoU1dnek56TjNHWWlJNnJpU0hudFdUZ19neWR0MV9vZE9VWldmQ1p1dUVnMlF4NFhrWlpSRFp1UlpWZDdCY0drdUU4RjJrd1prTlJrQ0FGd3BVdzNVQy03elJGMmxfNEMtaUZnbEFQc3gtb1IyNWtMQ2RXMmdsZW9JUVdnZkNFcFYwNElzLU5oZFNhcUpnUWRfRTdvVVRnSUVo?oc=5",
-   "date": "27/08"
+   "prov": "Relevant to ASML.",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQWldldmNBUHB1SWt4aVo2N2ljT1pPLWd1a3VVdmh3c05NN3BrbjJTU01IZkNESW1GVWtaT0ZuSnlZR3FUVTd3MUhXVnQwUFNDNkVkYTVGY2ZYRFp3SmJrM2FyVTY0QmJKYnJhc0V2RTR3WnJIdEtjNjJEemI0T3h0Nk5SWVNHd29tQTR4WENkYXh2Zkd1a2hUN3NfS2Z2ZTAzTEt0T2c5cEREOE53TkM2ZWxPbnN4Vm50cnBFc0pyRm5ENnNJZUJhb2VEMXdwUzMyU0Y0OWt4YldlTE9WaElMNDEwWmpoQzZad2xrRnZpNE9GUDhjYTd0SnQyb1BLV0FGaEJlRmEyOXlibnJVVWc?oc=5",
+   "date": "28/08"
   },
   {
    "region": "EU",
    "p": 5,
-   "tag": "NVDA",
-   "src": "Google News EU",
-   "title": "Stock indexes gain as Nvidia boost offsets caution on Fed event - Euronext Markets: Real-time Stock Market Data | live",
+   "tag": "NVDA · Earnings",
+   "src": "The Economist",
+   "title": "World in Brief: Nvidia’s record earnings; catastrophic floods sweep Nepal",
    "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOalppV0tqLVZHWVRPR3B2SFl0bTVoT2c5TFcyS2luMzlnTmhGNXR3NmQ2d0RKRlhIRHhxZ1Jxb1RvcEFZRUtjWUU0bWNYNzBBams4LUM2eE1XaVNpa3FFUlk0V2xuUGlfX0prVVNlX3Q2YmN3aXdLdGNsQndLem9JaE9hSVRPb3VrMUtsVU4xTXY0VnRKb3VYQmd4Q0F5ektHd3NF?oc=5",
+   "prov": "Relevant to NVDA · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNFZHWnFadzdENE8xdDI1Q040SW9oSjZVSTE4TDBsVUsxMmdiQklEdVl1WjNMbEhPRVJTSk1qZmJMRDdSeHFZRjY2OV8tRmZDSXdLUEh3UDNvcWdLQWYzUjMtMFlYd0Fnbi0tbDBRR3Zta0VXb29FWHNFbDdxNlI0Q0VKTHZGUDgtYk41Y3B2VEQtWnhLQXUw?oc=5",
    "date": "27/08"
   },
   {
@@ -257,33 +257,22 @@
   {
    "region": "EU",
    "p": 5,
-   "tag": "ASML · Earnings",
-   "src": "ASML",
+   "tag": "Earnings EU",
+   "src": "Earnings EU",
    "title": "ASML stock holds high valuation as Q2 2026 EUV demand lifts guidance - Ad-hoc-news.de",
    "resumo": "",
-   "prov": "Relevant to ASML · Earnings.",
+   "prov": "Relevant to Earnings EU.",
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSDZBeTZPSnJvdFBVN1dJdXRlTTJNTmw0QzhaZXNwMDhEb0cyV0VXVjk4X3JuSFBZazhfTlVIQ0M3cjR3TWhBTGJVWHZPc1lEc0J3bXpGbkdiLWFVNXJ5T2VmQlJXWlhjOERlbzdnYi1QUkZ0VERkOWlFdW94RG1RZ2pESEx4UUo4aU1IUjgxNGtjbXRHUkUxLXdyNWFxM0s0WndocEhKbUlXN3VTOGMzdC1CelFRQmxmR2lJQjRDSVRsM3NHejRSaVZSbw?oc=5",
    "date": "27/08"
   },
   {
    "region": "EU",
    "p": 5,
-   "tag": "NVDA",
-   "src": "Financial Times",
-   "title": "FirstFT: Nvidia projects 70% strong growth next year",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMTE5bUJNd1ppdnRKb3FzbDZCRVhxdVVROTcyR250dk5tNG15R2lrMk5RdDJjaVJBN0RIal80cmpOV0JZdXBYWjM2OUFKNEV6NGFxR1kzdk95LTUxbjhMWUJLRHhXZk9TZmxjRm95cHgwekJNakJKN3UzempfVDl3ekhSLU0?oc=5",
-   "date": "26/08"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "ASML · Earnings",
+   "tag": "Earnings EU",
    "src": "Mshale",
    "title": "ASML Stock Drops After “Perfect” Earnings… Here’s What The Market Sees Valkyries (VONo8ZyKio)",
    "resumo": "",
-   "prov": "Relevant to ASML · Earnings.",
+   "prov": "Relevant to Earnings EU.",
    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhcnYwcGY2Qk9xLXpHLWFHQkM2M0Nfc2NtaWpfMC1kclFqUWVvQ3QteTF2QlBhWHFvTEhnaVVOeDlDNmNuSE5NR3hqOUMtdXA2RXRST0tnWDM1bkU?oc=5",
    "date": "26/08"
   },
@@ -323,23 +312,67 @@
   {
    "region": "EU",
    "p": 4,
-   "tag": "ASML",
-   "src": "Yahoo Finance",
-   "title": "ASML Holding (ENXTAM:ASML) Is The Sole Supplier For High Bandwidth Memory Lithography",
+   "tag": "ABI · Earnings",
+   "src": "Celebrating The Soaps",
+   "title": "Meghan Markle Upstaged? David Beckham Beats Her to ‘The Gentlemen’ as Old Feud Resurfaces",
    "resumo": "",
-   "prov": "Relevant to ASML.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbkNuNHJyVDl4R2dRbEZJcUlTMW90LWdrU2RMNmJNQ0JfTmZpLWQ4UWxUY1FpM2dGRTc0MGJOdHRpaW5FMjNHSTFjWVdRWFdxWUtPWllSZV9CZ0NBS2lLbFU3NENQLTlEYXpDV2Y2bkxiM1pha0tTcGhERWF1MTNSWGo3LS1UN09TNGNOblhRRHlXdGd2WU9mX1lB?oc=5",
-   "date": "28/08"
+   "prov": "Relevant to ABI · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQSzcySHMyUURHUEhiYTFIdXdiakp5SHRQRUM5LW50UHhQWWpUYVRmVjZwT001OUQ4U3pPT3F2SHdkVVdJN05tbTRIaG1VWWN3VDcwbWxKN0lUZWV1R3J4VFlxeDVzQWpiZWRnNER3NVVFWjBzOTFiWDdlT1JRcGR2OS1mNFZ6djJkNXlfczVYZG0zNUlJa0RycGQ1YlB4SXUtUi11YUF0VFlhRnJaZnlkNEd5Y1RON0hGV3RUZWhPUlBuazhVcGVMa2tJZmdvLUE?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "EU",
+   "p": 4,
+   "tag": "Siemens · SAP · Earnings",
+   "src": "Siemens · SAP",
+   "title": "Siemens Energy stock holds near recent highs as record Q3 orders and revenue support guidance - Ad-hoc-news.de",
+   "resumo": "",
+   "prov": "Relevant to Siemens · SAP · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOSWhyZlk1TGRWalpSRC00QW1sS0VNdmNfWEdJaG1wY2RHTmlmUmVabVlORWt6Y2FRSUZUN0NtVlgtOUtIMHlXTVNtcS1uYjF0UGVYZUxxRWFKV3ZxcjdtNHp4Z2dKVUo0ZXdFem9zS0ZlY1UtamZ1RjJWWEdQY3h4WXMtVDJyVTVWSERqRXN0cFpLNUJEancxa1NOZTZ3SkRRaGZoUHpoRG1hWWVId1VXVGw2RV91ZUZVZXNIbDZXSmdnakQxWUJaSmgxbw?oc=5",
+   "date": "29/08"
   },
   {
    "region": "ASIA",
    "p": 5,
    "tag": "Semis · Earnings",
-   "src": "Tech Times",
-   "title": "Galaxy Z Fold8 Ultra Becomes Live Esports Hardware as Samsung Loses Control of Results",
+   "src": "Chosunbiz",
+   "title": "Samsung beats KT 4-2 as Paddack's six scoreless innings lift Lions to first place - CHOSUNBIZ",
    "resumo": "",
    "prov": "Relevant to Semis · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUUJKdXZKNmdTaUNyUjRLNVpiRW42bzBra3hIdDdBWVEyWlJ6Nm5QczRQdUpfUnZ4U0VITFNSX3d1TEM4V2NGcVBVQ0U4anQtQUdGeU1oUE9BcnNnbGZqRTdTaTd4VWlqa2c2RmQyby1peFg2YmRHMGxDQ2xnamo2cjJwRkY4S0JnOWZaVDR4aDRnb3FLaDYyX0d6RkdSR29XVUVBN21zNFFJTURvazZCaElLcWhtaVlXYWFBY25rSkNQdTNhRW1HdGhlek4wcWth?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE14QmhRU2Nya05Nc0hEM2had1RsTVZYcGFNTVN5TVNFd2c1eDF2V1BjRWZ0MWJOTEJkX1pzdWZza0Z4MXp0SVZjTmt4WnJZQlZ5NnZBV19TRGxaOUhXM2FsQ2ZPOGstQ25NZ2d6eHNWblplYmYxWkxfZ0p4aWpoSkXSAZMBQVVfeXFMUDk5eHNfYUpZX0M2RjNrb3U3N19zTmZ6U2E4Zl9UZEFpZEFoamlCXzAxcXdIUWZIcW5va1kzaFc4bTNJZ1dQNGVyNTdFdFBDbnhwNVR6d0RfQTZTVjNRdE5Gb3drSXQ1WXRZbm5MT3N4N21PakU3OFREYUJQSFNjaUFCNkdFODF3X1kyanVpUmdHM0dJ?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "TSM · Earnings",
+   "src": "finance.biggo.com",
+   "title": "Nvidia Reportedly Pauses Revenue-Sharing Agreement After Earnings — Antitrust Concerns Collide with AI Boom",
+   "resumo": "",
+   "prov": "Relevant to TSM · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB1eHVmV0tnZ1ptbDFpQVhhZUliblhMTHR6cURYVFBnR2tVcnFBMEc0bGRjYUtndDFTUXJza2RUN2d6cGpyZWtDRWNBRS1va01WclRZRHdqVlZqVE0tWXVaaDFDam95akYyZ1I5TzBaSlNlSVlLZHc?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Memoria · Earnings",
+   "src": "매일경제",
+   "title": "Chinese memory company Changsin Memory (CXMT), which recently went public, announced an earnings sur..",
+   "resumo": "",
+   "prov": "Relevant to Memoria · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE03NlV5U0VjMGhzd1RlbTl4Tm5FX1ZEbFJ3S3F4ODFoUUZuUm90OG5qS0FlbERVSks2V0RqbHhHMGpYc1ZjUnREYUJsbjFBcG8?oc=5",
+   "date": "29/08"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "NVDA · Earnings",
+   "src": "sitkasentinel.com",
+   "title": "Asian shares mostly gain after upbeat results for Nvidia and others lift US stocks",
+   "resumo": "",
+   "prov": "Relevant to NVDA · Earnings.",
+   "url": "http://www.sitkasentinel.com/stories/asian-shares-mostly-gain-after-upbeat-results-for-nvidia-and-others-lift-us-stocks,167003",
    "date": "28/08"
   },
   {
@@ -367,17 +400,6 @@
   {
    "region": "ASIA",
    "p": 5,
-   "tag": "MU · ASML · Earnings",
-   "src": "Investing.com",
-   "title": "NVIDIA earnings signal durable tailwind for Micron, SK Hynix, and Samsung memory",
-   "resumo": "",
-   "prov": "Relevant to MU · ASML · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNS1ZUTlKOERDWHJBR0pldlExcjhjeEpiOE1ZVVNZTUhIaFBpT2tmQUs3WFBPUVoxaUJJbVl5bWF3ZjN4NGRLX19XQTc2dU5jS0tWdVFKTFhOeEVyNUhURnRJOFVrMmw5SExfTEF1bUQ1YzFyMjZheXpEOFRCaFRmWTk1Yk9qNTRmOFdSZHB2VHpRT19fMW1zOUF4UTNTVk96cTl1eWJQbWxZZXRCV0ppVU10NGVhY0cxd29uVHNwdjFYbFJjalNrc1E2S0d6VUpHSlNsR0lwaw?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
    "tag": "Memoria · Earnings",
    "src": "simplywall.st",
    "title": "SK Hynix (KOSE:A000660) Stock Looks Cheap On Earnings But Pricey After Big Gains",
@@ -389,11 +411,11 @@
   {
    "region": "ASIA",
    "p": 5,
-   "tag": "MU · ASML · Earnings",
+   "tag": "Memoria · Earnings",
    "src": "Barron's",
    "title": "CXMT Earnings Ramp Up Memory Chip War With Micron, SK Hynix, Samsung",
    "resumo": "",
-   "prov": "Relevant to MU · ASML · Earnings.",
+   "prov": "Relevant to Memoria · Earnings.",
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdC1iUmdVMnFsYTFoNUhzeTQ3ZzRRdkladS1nN01xZUdYbUxSSWZoTW5uTmF6TjVKQTVrVEppZmFET0dzMGNVOGRCeXFQMDhZWko4VHRURWhLNnVOWGVPV3JkVC1fcVU0SHdXLUM3SDJ5Q2Q1VzNFandDU1pPYmIxUWtFWXhnQ3V1R240X2htNmd1RUNQRUw0M0hkcw?oc=5",
    "date": "28/08"
   },
@@ -455,6 +477,17 @@
   {
    "region": "ASIA",
    "p": 5,
+   "tag": "Earnings Asia",
+   "src": "Global Sources",
+   "title": "NVIDIA's earnings boost domestic semiconductor and infrastructure stocks amid AI growth expectations",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZ1NuVU9xNEV2b1lpSDhuTGNMMkJSc2JzNlVJbHMycG9DY3ZmZlFkNkNJZXNSZlBROXFCeS1SWm9ITVlsZEU1dC13TnFWS2pscWZNQXpOTW9mVVhUUF9wcm1HckdMWVMwRGhPTFZZTmswcWMxUVhkTUUwbzJ3bmxQX09VUDl0RFVLTm9XWVUyR2R4M2VPMkpVcWtqOGxrRnVYdmVzQUhMUHFack9obW42dDcwOW5pLXBMZW85UVVqaVdlclNyeDZ3NTg1YXhLR0RJb2VjSUdURF9kXzhxdHJ6QWNsTlNYZ2RTQTdxQ0loN0xOdzVzSTJpWmlXMA?oc=5",
+   "date": "28/08"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
    "tag": "Memoria · Earnings",
    "src": "TrendForce",
    "title": "[News] SK hynix Breaks Ground on Indiana Packaging Plant, Eyes HBM4E by 3Q29; CEO Sees Tight Supply Through 2030",
@@ -462,39 +495,6 @@
    "prov": "Relevant to Memoria · Earnings.",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNQjk1ZFh1SnBaWkp6d1hnZkVrMDNUMGpPRlRWVll0WldQVE53UzR2NDBhLVMzOWJrZXZNS3lwbFZPNHUxNFRVMVR5OEEta2twNElucWdQX3MxdWgwblI4MGU3R29weFdtM1BEMzhiVFBFc2doNDlYTkR2VmlIMThhSnJ4T2JWSC0xT0VIcUkyTThPWG1lcnBFVXUtTmJBM21xd3B5eEowaWdGelVsYlFSdXB5M1FFQkd3U1RMVlRqWGE5UkJudTdJY0c4S0xhOTZ5NGlGZjNGcGx6bU1PR29FcW1zcVQ4SU0?oc=5",
    "date": "28/08"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM",
-   "src": "finance.biggo.com",
-   "title": "Q2 Foundry Market Grows 29%... TSMC Dominates with 73% Share, Samsung Stuck at 7%",
-   "resumo": "",
-   "prov": "Relevant to TSM.",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxYTlDLUQ1bGlucXE1ZnVVN1Z6MUV2aHZSakhVS3NXUWFvdUstcFVXSERuMHhCMnZXUUFLOThlbVl2TmFKc0tBblFjeTcybG5rYmZvN2hid3pKVWxMaFRHalYtTXI3ZlhvSURhaW51aUExS2R2c0E?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM",
-   "src": "Semiecosystem",
-   "title": "TSMC Tops Foundry Rankings",
-   "resumo": "",
-   "prov": "Relevant to TSM.",
-   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1taVU0emJiQmFoZXpTRXBJVDNGMngxYnA4LVl2YnJQM1l0WGRyeVlKWXNYR1ZrOUdWMzBvUFRxZnNrTjBKWUxwaGlyUDJKSmVTRXZ1WXNPb2x1TkEzTUZ0R1VJYnZwanotRWRmMHB3?oc=5",
-   "date": "28/08"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Earnings Asia",
-   "src": "아시아경제",
-   "title": "Record-Breaking Earnings for Nvidia…Will This Ignite a Rebound for Samsung Electronics and SK hynix? [1-Minute Brief]",
-   "resumo": "",
-   "prov": "Relevant to Earnings Asia.",
-   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0wbV9yLUpNQklOM3dWeTBzR3hSenFkQU96d24wT3EtVGZnbE5YR29EOElzOU9NV29Wemlsd1lQSVA4Q0NvQWc2LU5wRzR6QnpZbGgtdFY2QkxpSEtKWXJVaEhkN1A?oc=5",
-   "date": "27/08"
   }
  ],
  "manual": [

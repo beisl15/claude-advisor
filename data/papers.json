@@ -1,110 +1,6 @@
 {
- "asof": "28/08/2026",
+ "asof": "29/08/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Option-Implied Signals and Crash Risk: Predictability and Machine-Learning Evidence from U.S. Equity Options",
-   "url": "https://arxiv.org/abs/2608.26115",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
-   "url": "https://arxiv.org/abs/2608.26114",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Tabular Deep Learning for Algorithmic Trading: Cross-Regime Bayesian Optimisation for Equity Signal Generation",
-   "url": "https://arxiv.org/abs/2608.27076",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Sophistication in GenAI Use: Field Evidence from a Large Firm",
-   "url": "https://arxiv.org/abs/2608.27364",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "From Accuracy to Auditability: A Survey of Determinism in Financial AI Systems",
-   "url": "https://arxiv.org/abs/2605.23955",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "LLMs for Academic Workflows: An Evaluation of Literature Reviews Generated with Short and Long Context Windows of LLMs",
-   "url": "https://arxiv.org/abs/2608.26145",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Explainable Artificial Intelligence for Customer Churn Prediction in Telecommunications: A Framework for CRM Integration",
-   "url": "https://arxiv.org/abs/2608.26151",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "The Reasoning Tax: Token Economics of LLM Reasoning Across Task Types and Deployment Contexts",
-   "url": "https://arxiv.org/abs/2608.26235",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "AI agents in Algorithmic Electricity Markets: On the Emergence of Tacit Collusion",
-   "url": "https://arxiv.org/abs/2608.26896",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "DSA: Evidence-Aware LLM-Agent Orchestration for Multi-Market Stock Research",
-   "url": "https://arxiv.org/abs/2608.26990",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Thomson: Continual Learning of Frontier Models for SovereignAI",
-   "url": "https://arxiv.org/abs/2608.27147",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable",
-   "url": "https://arxiv.org/abs/2608.27167",
-   "date": "28/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "BrailleBench: Investigating Multi-Criteria Braille Comprehension in Large Language Models",
-   "url": "https://arxiv.org/abs/2608.27268",
-   "date": "28/08"
-  },
   {
    "p": 5,
    "tag": "AI",
@@ -112,30 +8,6 @@
    "title": "Benchmark Mineability and the Financing of AI Innovation -- by Alex Chan",
    "url": "https://www.nber.org/papers/w35641#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "A Statistical-Finance Benchmark for Same-Day Directional Stock Prediction: Walk-Forward Evidence from SPY",
-   "url": "https://arxiv.org/abs/2608.26106",
-   "date": "28/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Forecasting Economically Significant Bitcoin Moves: A Multi-Scale TCN with Profit-Optimized Thresholds",
-   "url": "https://arxiv.org/abs/2608.26174",
-   "date": "28/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Traveling Waves in Equity Markets with Rank-Based Entry and Exit",
-   "url": "https://arxiv.org/abs/2608.27156",
-   "date": "28/08"
   },
   {
    "p": 4,
@@ -239,6 +111,54 @@
    "src": "NBER",
    "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness -- by Xu Lu, Yang Song, Yao Zeng",
    "url": "https://www.nber.org/papers/w35638#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Labor Market Power with Worker and Firm Heterogeneity -- by David W. Berger, Kyle F. Herkenhoff, Jaehun Jeong, Simon Mongey",
+   "url": "https://www.nber.org/papers/w35640#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries -- by Serena Goldberg, Costas Meghir",
+   "url": "https://www.nber.org/papers/w35649#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "NBER",
+   "title": "Critical Minerals, Geopolitics, and the Green Transition -- by Tomás Domínguez-Iino, Jonathan T. Elliott, Allan Hsiao",
+   "url": "https://www.nber.org/papers/w35654#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Crypto Capture of Foreign Aid -- by Sumit Agarwal, Peiyi Jin, Eswar S. Prasad, Daniel Rabetti",
+   "url": "https://www.nber.org/papers/w35655#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "The Data Revolution, and Its Uses, in International Trade -- by David Atkin, Benjamin Faber",
+   "url": "https://www.nber.org/papers/w35657#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model -- by Michael D. Bordo, Cécile Bastidon",
+   "url": "https://www.nber.org/papers/w35647#fromrss",
    "date": ""
   }
  ]
