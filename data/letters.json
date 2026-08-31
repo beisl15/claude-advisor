@@ -1,6 +1,13 @@
 {
- "asof": "30/08/2026",
+ "asof": "31/08/2026",
  "items": [
+  {
+   "src": "Dynamo",
+   "title": "Leia aqui",
+   "url": "https://www.dynamo.com.br/wp-content/uploads/2026/01/Carta-Dynamo-127.pdf",
+   "date": "31/08/2026",
+   "seen": "2026-08-31"
+  },
   {
    "src": "Damodaran (Musings)",
    "title": "AI's Bar Mitzvah Moment: From Hype & Hope to Business Questions!",

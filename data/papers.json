@@ -1,13 +1,149 @@
 {
- "asof": "30/08/2026",
+ "asof": "31/08/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery",
+   "url": "https://arxiv.org/abs/2608.27734",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents",
+   "url": "https://arxiv.org/abs/2608.28399",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
+   "url": "https://arxiv.org/abs/2608.22697",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "From Documents to Reasoning: A Validated Synthetic Data Pipeline and Semantic-Aware Fine-Tuning for Financial Numerical Reasoning",
+   "url": "https://arxiv.org/abs/2608.27919",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
+   "url": "https://arxiv.org/abs/2608.27984",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Regime-Aware Portfolio Management via Retrieval-Augmented LLM-Guided Expert Switching",
+   "url": "https://arxiv.org/abs/2608.28252",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Finding Where the Buck Stops: An Automated Failure Attribution-Based Reflection Framework for Multi-Agent Collaboration",
+   "url": "https://arxiv.org/abs/2608.28264",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
+   "url": "https://arxiv.org/abs/2608.28433",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
+   "url": "https://arxiv.org/abs/2608.28518",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "How Much Can AI Understand? Toward AI-Assisted Sensemaking of Collaborative Discussion in Groups with Shared History",
+   "url": "https://arxiv.org/abs/2608.27799",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "FedEHR-Agents: Federated Agentic Optimization for Automated EHR Modeling",
+   "url": "https://arxiv.org/abs/2608.27856",
+   "date": "31/08"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
    "src": "NBER",
-   "title": "Benchmark Mineability and the Financing of AI Innovation -- by Alex Chan",
-   "url": "https://www.nber.org/papers/w35641#fromrss",
+   "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks -- by Pattaraphon Kenny Wongchamcharoen, Kris Gulati, Min Min Fong, Abhishek Nagaraj",
+   "url": "https://www.nber.org/papers/w35663#fromrss",
    "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "What Work Does Generative AI Do? -- by Alexander Bick, Adam Blandin, David J. Deming, Tyler R. Schumacher",
+   "url": "https://www.nber.org/papers/w35677#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital -- by Tania Babina, Alex X. He, Renhao Jiang",
+   "url": "https://www.nber.org/papers/w35684#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Designing AI-Augmented Peer Review -- by Joshua S. Gans",
+   "url": "https://www.nber.org/papers/w35688#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Artificial Intelligence and Political Advice -- by Georgy Egorov, Konstantin Sonin",
+   "url": "https://www.nber.org/papers/w35689#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Market-Informed Valuation of GMMB Riders with Surrender Options under a Heston Stochastic-Local Volatility Model",
+   "url": "https://arxiv.org/abs/2608.28397",
+   "date": "31/08"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "The Dynamic Trade-Off of Dual-Class Shares",
+   "url": "https://arxiv.org/abs/2608.25972",
+   "date": "31/08"
   },
   {
    "p": 4,
@@ -37,33 +173,33 @@
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "The Yeoman's Portfolio: Measuring Historical Risk Preferences Using Crop Choice -- by Remy Levin, Daniela Vidart",
-   "url": "https://www.nber.org/papers/w35634#fromrss",
+   "title": "Fool's Gold? How the USD lost its Shine -- by Kai Arvai, Nuno Coimbra, Marco Pinchetti",
+   "url": "https://www.nber.org/papers/w35669#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Rate Risk and Rate Insurance -- by Olivier Wang",
-   "url": "https://www.nber.org/papers/w35636#fromrss",
+   "title": "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s -- by Drishan Banerjee, Galina Hale, Harrison Shieh",
+   "url": "https://www.nber.org/papers/w35673#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Monetary-Fiscal Interactions: A Reappraisal -- by George-Marios Angeletos, Chen Lian, Christian K. Wolf, Dalton Rongxuan Zhang",
-   "url": "https://www.nber.org/papers/w35642#fromrss",
+   "title": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates -- by Luigi Bocola, Gastón Chaumont, Alessandro Dovis, Rishabh Kirpalani",
+   "url": "https://www.nber.org/papers/w35691#fromrss",
    "date": ""
   },
   {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "A Model of Global Firms and Capital Markets -- by Loukas Karabarbounis, Bruno Pellegrino, Juliana Salomao",
-   "url": "https://www.nber.org/papers/w35652#fromrss",
-   "date": ""
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Pricing and Calibration of Bitcoin Inverse Options via the Rough Bergomi Model",
+   "url": "https://arxiv.org/abs/2608.27575",
+   "date": "31/08"
   },
   {
    "p": 3,
@@ -104,62 +240,6 @@
    "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
    "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
    "date": "17/07"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Tracing the Impact of Payment Convenience on Deposits: Evidence from Depositor Activeness -- by Xu Lu, Yang Song, Yao Zeng",
-   "url": "https://www.nber.org/papers/w35638#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Labor Market Power with Worker and Firm Heterogeneity -- by David W. Berger, Kyle F. Herkenhoff, Jaehun Jeong, Simon Mongey",
-   "url": "https://www.nber.org/papers/w35640#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "The Effect of Childcare on Female Labor Supply and Child Development in Low and Middle Income Countries -- by Serena Goldberg, Costas Meghir",
-   "url": "https://www.nber.org/papers/w35649#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Energy/Commod",
-   "src": "NBER",
-   "title": "Critical Minerals, Geopolitics, and the Green Transition -- by Tomás Domínguez-Iino, Jonathan T. Elliott, Allan Hsiao",
-   "url": "https://www.nber.org/papers/w35654#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Crypto Capture of Foreign Aid -- by Sumit Agarwal, Peiyi Jin, Eswar S. Prasad, Daniel Rabetti",
-   "url": "https://www.nber.org/papers/w35655#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "The Data Revolution, and Its Uses, in International Trade -- by David Atkin, Benjamin Faber",
-   "url": "https://www.nber.org/papers/w35657#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Currency Dominance Is Not Forever: Some Insights from a Non-Linear Dynamic Model -- by Michael D. Bordo, Cécile Bastidon",
-   "url": "https://www.nber.org/papers/w35647#fromrss",
-   "date": ""
   }
  ]
 }
