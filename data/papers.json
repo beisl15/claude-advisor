@@ -1,29 +1,69 @@
 {
- "asof": "31/08/2026",
+ "asof": "01/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "What survives honest evaluation? Leakage-safe, search-aware assessment of LLM-driven trading strategy discovery",
-   "url": "https://arxiv.org/abs/2608.27734",
-   "date": "31/08"
+   "title": "The Price of Intelligence: A Quality-Adjusted Price Index for AI Services",
+   "url": "https://arxiv.org/abs/2608.29843",
+   "date": "01/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents",
-   "url": "https://arxiv.org/abs/2608.28399",
-   "date": "31/08"
+   "title": "Authority-Inference Separation in Agentic Finance: First-Line Control, Blockchain Enforcement, and Replayable Assurance",
+   "url": "https://arxiv.org/abs/2608.30519",
+   "date": "01/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
-   "url": "https://arxiv.org/abs/2608.22697",
-   "date": "31/08"
+   "title": "Deep Penalty Methods: A Class of Deep Learning Algorithms for Solving High Dimensional Optimal Stopping Problems",
+   "url": "https://arxiv.org/abs/2405.11392",
+   "date": "01/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Risk-Adjusted Harm Scoring for Automated Red Teaming for LLMs in Financial Services",
+   "url": "https://arxiv.org/abs/2603.10807",
+   "date": "01/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Performance Manipulation: Labor Market Implications in AI-assisted Era",
+   "url": "https://arxiv.org/abs/2604.22230",
+   "date": "01/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Value of Peer Review and the Reward to Reputation",
+   "url": "https://arxiv.org/abs/2607.13844",
+   "date": "01/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "PortBench: A Correlation-Aware, Full-Pipeline Benchmark for LLM-Driven Portfolio Management",
+   "url": "https://arxiv.org/abs/2605.27887",
+   "date": "01/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Fund2Persona: A Framework for Building and Refining Financial Advisor Personas from Fund Disclosure Data",
+   "url": "https://arxiv.org/abs/2606.29793",
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -31,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "From Documents to Reasoning: A Validated Synthetic Data Pipeline and Semantic-Aware Fine-Tuning for Financial Numerical Reasoning",
    "url": "https://arxiv.org/abs/2608.27919",
-   "date": "31/08"
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -39,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
    "url": "https://arxiv.org/abs/2608.27984",
-   "date": "31/08"
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -47,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "Regime-Aware Portfolio Management via Retrieval-Augmented LLM-Guided Expert Switching",
    "url": "https://arxiv.org/abs/2608.28252",
-   "date": "31/08"
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -55,7 +95,15 @@
    "src": "arXiv cs.AI",
    "title": "Finding Where the Buck Stops: An Automated Failure Attribution-Based Reflection Framework for Multi-Agent Collaboration",
    "url": "https://arxiv.org/abs/2608.28264",
-   "date": "31/08"
+   "date": "01/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents",
+   "url": "https://arxiv.org/abs/2608.28399",
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -63,7 +111,7 @@
    "src": "arXiv cs.AI",
    "title": "Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
    "url": "https://arxiv.org/abs/2608.28433",
-   "date": "31/08"
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -71,7 +119,7 @@
    "src": "arXiv cs.AI",
    "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
    "url": "https://arxiv.org/abs/2608.28518",
-   "date": "31/08"
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -79,15 +127,7 @@
    "src": "arXiv cs.AI",
    "title": "How Much Can AI Understand? Toward AI-Assisted Sensemaking of Collaborative Discussion in Groups with Shared History",
    "url": "https://arxiv.org/abs/2608.27799",
-   "date": "31/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "FedEHR-Agents: Federated Agentic Optimization for Automated EHR Modeling",
-   "url": "https://arxiv.org/abs/2608.27856",
-   "date": "31/08"
+   "date": "01/09"
   },
   {
    "p": 5,
@@ -128,22 +168,6 @@
    "title": "Artificial Intelligence and Political Advice -- by Georgy Egorov, Konstantin Sonin",
    "url": "https://www.nber.org/papers/w35689#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Market-Informed Valuation of GMMB Riders with Surrender Options under a Heston Stochastic-Local Volatility Model",
-   "url": "https://arxiv.org/abs/2608.28397",
-   "date": "31/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "The Dynamic Trade-Off of Dual-Class Shares",
-   "url": "https://arxiv.org/abs/2608.25972",
-   "date": "31/08"
   },
   {
    "p": 4,
@@ -195,14 +219,6 @@
   },
   {
    "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "Pricing and Calibration of Bitcoin Inverse Options via the Rough Bergomi Model",
-   "url": "https://arxiv.org/abs/2608.27575",
-   "date": "31/08"
-  },
-  {
-   "p": 3,
    "tag": "Productivity",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
@@ -224,22 +240,6 @@
    "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
    "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
    "date": "31/07"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Last Taxi: LCR Buffers and Bank Liquidity Provision",
-   "url": "https://www.federalreserve.gov/econres/feds/the-last-taxi-lcr-buffers-and-bank-liquidity-provision.htm",
-   "date": "17/07"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
-   "date": "17/07"
   }
  ]
 }
