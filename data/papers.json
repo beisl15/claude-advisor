@@ -1,133 +1,101 @@
 {
- "asof": "01/09/2026",
+ "asof": "02/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The Price of Intelligence: A Quality-Adjusted Price Index for AI Services",
-   "url": "https://arxiv.org/abs/2608.29843",
-   "date": "01/09"
+   "title": "AI and the Economy: An Economic Examination of Production, Distribution, Firms, Labor, and Welfare",
+   "url": "https://arxiv.org/abs/2609.01263",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Authority-Inference Separation in Agentic Finance: First-Line Control, Blockchain Enforcement, and Replayable Assurance",
-   "url": "https://arxiv.org/abs/2608.30519",
-   "date": "01/09"
+   "title": "Agentic Empirical Asset Pricing: Methodological Foundations",
+   "url": "https://arxiv.org/abs/2609.00731",
+   "date": "02/09"
   },
   {
    "p": 5,
-   "tag": "AI",
+   "tag": "Semis",
    "src": "arXiv q-fin",
-   "title": "Deep Penalty Methods: A Class of Deep Learning Algorithms for Solving High Dimensional Optimal Stopping Problems",
-   "url": "https://arxiv.org/abs/2405.11392",
-   "date": "01/09"
+   "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
+   "url": "https://arxiv.org/abs/2609.01133",
+   "date": "02/09"
   },
   {
    "p": 5,
-   "tag": "AI",
+   "tag": "Semis",
    "src": "arXiv q-fin",
-   "title": "Risk-Adjusted Harm Scoring for Automated Red Teaming for LLMs in Financial Services",
-   "url": "https://arxiv.org/abs/2603.10807",
-   "date": "01/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Performance Manipulation: Labor Market Implications in AI-assisted Era",
-   "url": "https://arxiv.org/abs/2604.22230",
-   "date": "01/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Value of Peer Review and the Reward to Reputation",
-   "url": "https://arxiv.org/abs/2607.13844",
-   "date": "01/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "PortBench: A Correlation-Aware, Full-Pipeline Benchmark for LLM-Driven Portfolio Management",
-   "url": "https://arxiv.org/abs/2605.27887",
-   "date": "01/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Fund2Persona: A Framework for Building and Refining Financial Advisor Personas from Fund Disclosure Data",
-   "url": "https://arxiv.org/abs/2606.29793",
-   "date": "01/09"
+   "title": "Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest",
+   "url": "https://arxiv.org/abs/2512.08472",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "From Documents to Reasoning: A Validated Synthetic Data Pipeline and Semantic-Aware Fine-Tuning for Financial Numerical Reasoning",
-   "url": "https://arxiv.org/abs/2608.27919",
-   "date": "01/09"
+   "title": "Recursive Criticality of AI Self-Improvement",
+   "url": "https://arxiv.org/abs/2609.00137",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2608.27984",
-   "date": "01/09"
+   "title": "Asymmetries in Spontaneous and Instructed Deception",
+   "url": "https://arxiv.org/abs/2609.00180",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Regime-Aware Portfolio Management via Retrieval-Augmented LLM-Guided Expert Switching",
-   "url": "https://arxiv.org/abs/2608.28252",
-   "date": "01/09"
+   "title": "Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems",
+   "url": "https://arxiv.org/abs/2609.00237",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Finding Where the Buck Stops: An Automated Failure Attribution-Based Reflection Framework for Multi-Agent Collaboration",
-   "url": "https://arxiv.org/abs/2608.28264",
-   "date": "01/09"
+   "title": "Authority Bias in Conversational Search Engines for Academic Paper Recommendation",
+   "url": "https://arxiv.org/abs/2609.00248",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "RetailAgent: Structured Adverse Timing in Self-Conditioned Multimodal LLM Trading Agents",
-   "url": "https://arxiv.org/abs/2608.28399",
-   "date": "01/09"
+   "title": "Autoresearch for Marketplace Catalogs: From Legacy Forms to AI-Native Matching",
+   "url": "https://arxiv.org/abs/2609.00274",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Prove2Me: An Open Collaborative Platform for Scaling Math Formalization",
-   "url": "https://arxiv.org/abs/2608.28433",
-   "date": "01/09"
+   "title": "When the Algorithm Becomes the Brand Crisis: A Sociotechnical Theory of Distributed Responsibility and Accountable Transparency",
+   "url": "https://arxiv.org/abs/2609.00510",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Robots Mishear Us: Mapping the Safety Risks of Voice-Controlled Embodied AI",
-   "url": "https://arxiv.org/abs/2608.28518",
-   "date": "01/09"
+   "title": "LEAP: Likelihood Elicitation and Aggregation for LLM-based Probabilistic Forecasting",
+   "url": "https://arxiv.org/abs/2609.01337",
+   "date": "02/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "How Much Can AI Understand? Toward AI-Assisted Sensemaking of Collaborative Discussion in Groups with Shared History",
-   "url": "https://arxiv.org/abs/2608.27799",
-   "date": "01/09"
+   "title": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
+   "url": "https://arxiv.org/abs/2609.01519",
+   "date": "02/09"
   },
   {
    "p": 5,
@@ -168,6 +136,30 @@
    "title": "Artificial Intelligence and Political Advice -- by Georgy Egorov, Konstantin Sonin",
    "url": "https://www.nber.org/papers/w35689#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Harvesting the Variance Risk Premium in Nuclear and Energy Equities: A Short-Put Portfolio Derisking Strategy",
+   "url": "https://arxiv.org/abs/2609.01183",
+   "date": "02/09"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "Adaptive singular-point method for pricing and hedging surrenderable equity-linked contracts",
+   "url": "https://arxiv.org/abs/2609.01323",
+   "date": "02/09"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Risks and Uncertainty in Monetary Policy",
+   "url": "https://www.federalreserve.gov/econres/feds/risks-and-uncertainty-in-monetary-policy.htm",
+   "date": "01/09"
   },
   {
    "p": 4,
@@ -219,6 +211,22 @@
   },
   {
    "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "arXiv q-fin",
+   "title": "Pricing the DeFi Tail: Do Protocols or Depositors Price Operational Risk?",
+   "url": "https://arxiv.org/abs/2609.00911",
+   "date": "02/09"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "arXiv q-fin",
+   "title": "Blameocracy: Causal Rhetoric in Politics",
+   "url": "https://arxiv.org/abs/2504.06550",
+   "date": "02/09"
+  },
+  {
+   "p": 3,
    "tag": "Productivity",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
@@ -232,14 +240,6 @@
    "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
    "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
    "date": "11/08"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
-   "date": "31/07"
   }
  ]
 }
