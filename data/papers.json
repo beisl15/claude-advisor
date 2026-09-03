@@ -1,100 +1,92 @@
 {
- "asof": "02/09/2026",
+ "asof": "03/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI and the Economy: An Economic Examination of Production, Distribution, Firms, Labor, and Welfare",
-   "url": "https://arxiv.org/abs/2609.01263",
-   "date": "02/09"
+   "title": "Competitive Market Behavior of LLMs",
+   "url": "https://arxiv.org/abs/2609.02580",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Agentic Empirical Asset Pricing: Methodological Foundations",
-   "url": "https://arxiv.org/abs/2609.00731",
-   "date": "02/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "Scalable Inversion of Contests with Correlated Performances, Including Softmax and Multinomial Probit",
-   "url": "https://arxiv.org/abs/2609.01133",
-   "date": "02/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "Measuring Computer Science Enthusiasm: A Questionnaire-Based Analysis of Age and Gender Effects on Students' Interest",
-   "url": "https://arxiv.org/abs/2512.08472",
-   "date": "02/09"
+   "title": "Data-Driven Measures of High-Frequency Trading",
+   "url": "https://arxiv.org/abs/2608.00858",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Recursive Criticality of AI Self-Improvement",
-   "url": "https://arxiv.org/abs/2609.00137",
-   "date": "02/09"
+   "title": "Propose to Learn, Learn to Propose: Evaluability-Aware Assistance under Bounded Rationality",
+   "url": "https://arxiv.org/abs/2609.02242",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Asymmetries in Spontaneous and Instructed Deception",
-   "url": "https://arxiv.org/abs/2609.00180",
-   "date": "02/09"
+   "title": "Zeta-Lite: A Concurrent, Branchable In-Browser SQL Database for Agentic Memory",
+   "url": "https://arxiv.org/abs/2609.01818",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Learning What to Retain: Gated-Memory Routing for Efficient Collaboration in Multi-Agent LLM Systems",
-   "url": "https://arxiv.org/abs/2609.00237",
-   "date": "02/09"
+   "title": "Accurate in space, unreliable in time: how LLMs represent national cultural change",
+   "url": "https://arxiv.org/abs/2609.01902",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Authority Bias in Conversational Search Engines for Academic Paper Recommendation",
-   "url": "https://arxiv.org/abs/2609.00248",
-   "date": "02/09"
+   "title": "Disease Burden over Skin Tone: Decomposing the Dermatology-AI Generalization Gap",
+   "url": "https://arxiv.org/abs/2609.02111",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Autoresearch for Marketplace Catalogs: From Legacy Forms to AI-Native Matching",
-   "url": "https://arxiv.org/abs/2609.00274",
-   "date": "02/09"
+   "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+   "url": "https://arxiv.org/abs/2609.02861",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When the Algorithm Becomes the Brand Crisis: A Sociotechnical Theory of Distributed Responsibility and Accountable Transparency",
-   "url": "https://arxiv.org/abs/2609.00510",
-   "date": "02/09"
+   "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
+   "url": "https://arxiv.org/abs/2608.27984",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LEAP: Likelihood Elicitation and Aggregation for LLM-based Probabilistic Forecasting",
-   "url": "https://arxiv.org/abs/2609.01337",
-   "date": "02/09"
+   "title": "A Survey of Transformer-based Language Models with Focus on Efficiency",
+   "url": "https://arxiv.org/abs/2406.16893",
+   "date": "03/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Guardrails Look Effective: Construct Validity Failures in LLM Agent Commerce Evaluation",
-   "url": "https://arxiv.org/abs/2609.01519",
+   "title": "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
+   "url": "https://arxiv.org/abs/2601.22396",
+   "date": "03/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Linear and Nonlinear Econometric Models versus Machine-Learning Models: Evidence from Realized-Volatility Forecasting(Revised)",
+   "url": "https://www.federalreserve.gov/econres/feds/linear-and-nonlinear-econometric-models-against-machine-learning-models.htm",
    "date": "02/09"
   },
   {
@@ -141,17 +133,17 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Harvesting the Variance Risk Premium in Nuclear and Energy Equities: A Short-Put Portfolio Derisking Strategy",
-   "url": "https://arxiv.org/abs/2609.01183",
-   "date": "02/09"
+   "title": "Switching Frictions, Heterogeneous Trading Horizons, and Long-Memory Order Flow",
+   "url": "https://arxiv.org/abs/2609.02525",
+   "date": "03/09"
   },
   {
    "p": 4,
-   "tag": "Macro/Rates",
+   "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Adaptive singular-point method for pricing and hedging surrenderable equity-linked contracts",
-   "url": "https://arxiv.org/abs/2609.01323",
-   "date": "02/09"
+   "title": "Eliciting ESG Preferences for Reinforcement Learning-Based Portfolio Optimization",
+   "url": "https://arxiv.org/abs/2609.02677",
+   "date": "03/09"
   },
   {
    "p": 4,
@@ -213,17 +205,33 @@
    "p": 3,
    "tag": "Banks/Fintech",
    "src": "arXiv q-fin",
-   "title": "Pricing the DeFi Tail: Do Protocols or Depositors Price Operational Risk?",
-   "url": "https://arxiv.org/abs/2609.00911",
-   "date": "02/09"
+   "title": "Uniform Inference and Certified Capacity at a Reflexive Stability Boundary",
+   "url": "https://arxiv.org/abs/2609.02535",
+   "date": "03/09"
   },
   {
    "p": 3,
-   "tag": "Banks/Fintech",
+   "tag": "Trade/Geo",
    "src": "arXiv q-fin",
-   "title": "Blameocracy: Causal Rhetoric in Politics",
-   "url": "https://arxiv.org/abs/2504.06550",
-   "date": "02/09"
+   "title": "Modeling Trade Durations under Temporal Granularity Effects in Forex Markets",
+   "url": "https://arxiv.org/abs/2609.02660",
+   "date": "03/09"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Watching Trade from Space: Measuring Maritime Trade Using Satellite Imagery",
+   "url": "https://arxiv.org/abs/2604.15444",
+   "date": "03/09"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Metaorder modelling and identification from public data",
+   "url": "https://arxiv.org/abs/2608.30999",
+   "date": "03/09"
   },
   {
    "p": 3,
@@ -232,14 +240,6 @@
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
-   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
-   "date": "11/08"
   }
  ]
 }
