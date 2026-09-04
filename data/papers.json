@@ -1,85 +1,109 @@
 {
- "asof": "03/09/2026",
+ "asof": "04/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Competitive Market Behavior of LLMs",
-   "url": "https://arxiv.org/abs/2609.02580",
-   "date": "03/09"
+   "title": "DisclosureBeta: A Measurement-Channel Theory for Regime-Conditioned Betas from LLM-Read Risk Disclosures",
+   "url": "https://arxiv.org/abs/2609.02900",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Data-Driven Measures of High-Frequency Trading",
-   "url": "https://arxiv.org/abs/2608.00858",
-   "date": "03/09"
+   "title": "Tempting the Agent: The Economics of Reputation without Persistent Identity in AI Agent Markets",
+   "url": "https://arxiv.org/abs/2609.02992",
+   "date": "04/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Scaling Laws, Tabular Data and Actuarial Ratemaking Models",
+   "url": "https://arxiv.org/abs/2609.03106",
+   "date": "04/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Analyst in the Prompt: Role, Retrieval, and Memory Biases in LLM Financial Analysis",
+   "url": "https://arxiv.org/abs/2609.03218",
+   "date": "04/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Multi-Horizon Echo State Network Prediction of Intraday Stock Returns",
+   "url": "https://arxiv.org/abs/2504.19623",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Propose to Learn, Learn to Propose: Evaluability-Aware Assistance under Bounded Rationality",
-   "url": "https://arxiv.org/abs/2609.02242",
-   "date": "03/09"
+   "title": "Speculative Macro Commit for Faster Tool-Using Agents",
+   "url": "https://arxiv.org/abs/2609.03236",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Zeta-Lite: A Concurrent, Branchable In-Browser SQL Database for Agentic Memory",
-   "url": "https://arxiv.org/abs/2609.01818",
-   "date": "03/09"
+   "title": "Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting",
+   "url": "https://arxiv.org/abs/2609.03923",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Accurate in space, unreliable in time: how LLMs represent national cultural change",
-   "url": "https://arxiv.org/abs/2609.01902",
-   "date": "03/09"
+   "title": "Privacy-Preserving Heterogeneous Multi-LLM Federated Inference for Cognitive Diagnosis",
+   "url": "https://arxiv.org/abs/2609.02947",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Disease Burden over Skin Tone: Decomposing the Dermatology-AI Generalization Gap",
-   "url": "https://arxiv.org/abs/2609.02111",
-   "date": "03/09"
+   "title": "Investigating the Ability of Large Language Models to Analyze Recipes for Diabetes",
+   "url": "https://arxiv.org/abs/2609.03967",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
-   "url": "https://arxiv.org/abs/2609.02861",
-   "date": "03/09"
+   "title": "A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI",
+   "url": "https://arxiv.org/abs/2609.04086",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Evidence Shapes Collaboration: Knowledge-Conditioned Topology Generation for Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2608.27984",
-   "date": "03/09"
+   "title": "Refusal Before Decoding: Detecting and Exploiting Refusal Signals in Intermediate LLM Activations",
+   "url": "https://arxiv.org/abs/2605.28553",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "A Survey of Transformer-based Language Models with Focus on Efficiency",
-   "url": "https://arxiv.org/abs/2406.16893",
-   "date": "03/09"
+   "title": "Data Market Design through Deep Learning",
+   "url": "https://arxiv.org/abs/2310.20096",
+   "date": "04/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Culturally Grounded Personas in Large Language Models: Characterization and Alignment with Socio-Psychological Value Frameworks",
-   "url": "https://arxiv.org/abs/2601.22396",
-   "date": "03/09"
+   "title": "FedPS: Federated Preprocessing for structured data via aggregated Statistics",
+   "url": "https://arxiv.org/abs/2602.10870",
+   "date": "04/09"
   },
   {
    "p": 5,
@@ -133,17 +157,17 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Switching Frictions, Heterogeneous Trading Horizons, and Long-Memory Order Flow",
-   "url": "https://arxiv.org/abs/2609.02525",
-   "date": "03/09"
+   "title": "An Entropic Factor Model for Robust Portfolio Replication",
+   "url": "https://arxiv.org/abs/2609.03552",
+   "date": "04/09"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Eliciting ESG Preferences for Reinforcement Learning-Based Portfolio Optimization",
-   "url": "https://arxiv.org/abs/2609.02677",
-   "date": "03/09"
+   "title": "Bayesian Confidence Recalibration and Research-Equilibrium Criticality: Temporal Support in Robust Portfolios",
+   "url": "https://arxiv.org/abs/2609.03741",
+   "date": "04/09"
   },
   {
    "p": 4,
@@ -203,35 +227,11 @@
   },
   {
    "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "arXiv q-fin",
-   "title": "Uniform Inference and Certified Capacity at a Reflexive Stability Boundary",
-   "url": "https://arxiv.org/abs/2609.02535",
-   "date": "03/09"
-  },
-  {
-   "p": 3,
    "tag": "Trade/Geo",
    "src": "arXiv q-fin",
-   "title": "Modeling Trade Durations under Temporal Granularity Effects in Forex Markets",
-   "url": "https://arxiv.org/abs/2609.02660",
-   "date": "03/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "Watching Trade from Space: Measuring Maritime Trade Using Satellite Imagery",
-   "url": "https://arxiv.org/abs/2604.15444",
-   "date": "03/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "Metaorder modelling and identification from public data",
-   "url": "https://arxiv.org/abs/2608.30999",
-   "date": "03/09"
+   "title": "Mean-field equilibrium of heterogeneous agents under market impact",
+   "url": "https://arxiv.org/abs/2609.03115",
+   "date": "04/09"
   },
   {
    "p": 3,

@@ -4,32 +4,10 @@
   "release_date": "2026-07-22",
   "ir_url": "https://abc.xyz/investor/"
  },
- "AAPL": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/",
-  "release_date": "2026-07-30"
- },
  "BLK": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/2012383/000119312526304013/",
   "release_date": "2026-07-15",
   "ir_url": "https://ir.blackrock.com/"
- },
- "AMD": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/",
-  "release_date": "2026-08-04"
- },
- "ORCL": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/",
-  "release_date": "2026-06-10",
-  "ir_url": "https://investor.oracle.com/"
- },
- "AVGO": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/",
-  "release_date": "2026-09-02"
- },
- "MSFT": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/",
-  "release_date": "2026-07-29",
-  "ir_url": "https://www.microsoft.com/en-us/investor"
  },
  "MRVL": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/1835632/000183563226000022/",
@@ -40,49 +18,42 @@
   "release_date": "2026-06-24",
   "ir_url": "https://investors.micron.com/"
  },
- "GEV": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/",
-  "release_date": "2026-07-22",
-  "ir_url": "https://www.gevernova.com/investors"
- },
- "NVDA": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/",
-  "release_date": "2026-08-26"
- },
- "MELI": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000021/",
-  "release_date": "2026-08-05",
-  "ir_url": "https://investor.mercadolibre.com/"
- },
- "NOW": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/",
-  "release_date": "2026-07-22",
-  "ir_url": "https://www.servicenow.com/company/investor-relations.html"
- },
- "META": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/",
-  "release_date": "2026-07-29",
-  "ir_url": "https://investor.atmeta.com/"
- },
- "CEG": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/",
-  "release_date": "2026-08-06",
-  "ir_url": "https://investors.constellationenergy.com/"
- },
- "VST": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/",
-  "release_date": "2026-08-07",
-  "ir_url": "https://investor.vistracorp.com/"
+ "ORCL": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526265848/",
+  "release_date": "2026-06-10",
+  "ir_url": "https://investor.oracle.com/"
  },
  "PLTR": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000039/",
   "release_date": "2026-08-03",
   "ir_url": "https://investors.palantir.com/"
  },
- "AMZN": {
-  "release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/",
-  "release_date": "2026-07-30",
-  "ir_url": "https://ir.aboutamazon.com/"
+ "NVDA": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/",
+  "release_date": "2026-08-26"
+ },
+ "GEV": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1996810/000199681026000147/",
+  "release_date": "2026-07-22",
+  "ir_url": "https://www.gevernova.com/investors"
+ },
+ "NOW": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1373715/000137371526000072/",
+  "release_date": "2026-07-22",
+  "ir_url": "https://www.servicenow.com/company/investor-relations.html"
+ },
+ "AMD": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/",
+  "release_date": "2026-08-04"
+ },
+ "AAPL": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/",
+  "release_date": "2026-07-30"
+ },
+ "CEG": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1868275/000186827526000097/",
+  "release_date": "2026-08-06",
+  "ir_url": "https://investors.constellationenergy.com/"
  },
  "JPM": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026048078/",
@@ -92,5 +63,34 @@
  "INTC": {
   "release_url": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/",
   "release_date": "2026-07-23"
+ },
+ "MELI": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000021/",
+  "release_date": "2026-08-05",
+  "ir_url": "https://investor.mercadolibre.com/"
+ },
+ "META": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/",
+  "release_date": "2026-07-29",
+  "ir_url": "https://investor.atmeta.com/"
+ },
+ "AVGO": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1730168/000173016826000076/",
+  "release_date": "2026-09-02"
+ },
+ "MSFT": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/",
+  "release_date": "2026-07-29",
+  "ir_url": "https://www.microsoft.com/en-us/investor"
+ },
+ "VST": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1692819/000169281926000017/",
+  "release_date": "2026-08-07",
+  "ir_url": "https://investor.vistracorp.com/"
+ },
+ "AMZN": {
+  "release_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/",
+  "release_date": "2026-07-30",
+  "ir_url": "https://ir.aboutamazon.com/"
  }
 }
