@@ -1,53 +1,13 @@
 {
- "asof": "04/09/2026",
+ "asof": "05/09/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "DisclosureBeta: A Measurement-Channel Theory for Regime-Conditioned Betas from LLM-Read Risk Disclosures",
-   "url": "https://arxiv.org/abs/2609.02900",
-   "date": "04/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Tempting the Agent: The Economics of Reputation without Persistent Identity in AI Agent Markets",
-   "url": "https://arxiv.org/abs/2609.02992",
-   "date": "04/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Scaling Laws, Tabular Data and Actuarial Ratemaking Models",
-   "url": "https://arxiv.org/abs/2609.03106",
-   "date": "04/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Analyst in the Prompt: Role, Retrieval, and Memory Biases in LLM Financial Analysis",
-   "url": "https://arxiv.org/abs/2609.03218",
-   "date": "04/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Multi-Horizon Echo State Network Prediction of Intraday Stock Returns",
-   "url": "https://arxiv.org/abs/2504.19623",
-   "date": "04/09"
-  },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
    "title": "Speculative Macro Commit for Faster Tool-Using Agents",
    "url": "https://arxiv.org/abs/2609.03236",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -55,7 +15,7 @@
    "src": "arXiv cs.AI",
    "title": "Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting",
    "url": "https://arxiv.org/abs/2609.03923",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -63,7 +23,7 @@
    "src": "arXiv cs.AI",
    "title": "Privacy-Preserving Heterogeneous Multi-LLM Federated Inference for Cognitive Diagnosis",
    "url": "https://arxiv.org/abs/2609.02947",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -71,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "Investigating the Ability of Large Language Models to Analyze Recipes for Diabetes",
    "url": "https://arxiv.org/abs/2609.03967",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -79,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "A Non-Formulable Theorem: A Fundamental Limit of Finite Syntactic Systems and Its Consequences for Security and AI",
    "url": "https://arxiv.org/abs/2609.04086",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -87,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Refusal Before Decoding: Detecting and Exploiting Refusal Signals in Intermediate LLM Activations",
    "url": "https://arxiv.org/abs/2605.28553",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -95,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Data Market Design through Deep Learning",
    "url": "https://arxiv.org/abs/2310.20096",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -103,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "FedPS: Federated Preprocessing for structured data via aggregated Statistics",
    "url": "https://arxiv.org/abs/2602.10870",
-   "date": "04/09"
+   "date": "05/09"
   },
   {
    "p": 5,
@@ -152,22 +112,6 @@
    "title": "Artificial Intelligence and Political Advice -- by Georgy Egorov, Konstantin Sonin",
    "url": "https://www.nber.org/papers/w35689#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "An Entropic Factor Model for Robust Portfolio Replication",
-   "url": "https://arxiv.org/abs/2609.03552",
-   "date": "04/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Bayesian Confidence Recalibration and Research-Equilibrium Criticality: Temporal Support in Robust Portfolios",
-   "url": "https://arxiv.org/abs/2609.03741",
-   "date": "04/09"
   },
   {
    "p": 4,
@@ -227,19 +171,67 @@
   },
   {
    "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "Mean-field equilibrium of heterogeneous agents under market impact",
-   "url": "https://arxiv.org/abs/2609.03115",
-   "date": "04/09"
-  },
-  {
-   "p": 3,
    "tag": "Productivity",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
+   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
+   "date": "11/08"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Tariff-Dispersion Shocks: The Mean is the Variance -- by Stephanie Schmitt-Grohé, Martín Uribe",
+   "url": "https://www.nber.org/papers/w35661#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "A Theory of International Official Lending -- by Qing Liu, Zanhui Liu, Vivian Zhanwei Yue",
+   "url": "https://www.nber.org/papers/w35667#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Firms as Electoral Monopsonies -- by Carlos Fernando Avenancio-León, Adelina Barbalau, Cyndi Hou, Alessio Piccolo",
+   "url": "https://www.nber.org/papers/w35676#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "An Efficient Liquidity Savings Mechanism -- by Darrell Duffie, Srisht F. Singh, Chaojun Wang",
+   "url": "https://www.nber.org/papers/w35679#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
   }
  ]
 }
