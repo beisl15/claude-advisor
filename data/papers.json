@@ -1,6 +1,86 @@
 {
- "asof": "06/09/2026",
+ "asof": "07/09/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Artificial Intelligence in Equity and Crypto Markets: Progress, Profitability Evidence, and the Limits of Automated Investing",
+   "url": "https://arxiv.org/abs/2609.04917",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Agent-to-Agent Finance: Blockchain Payments and Trust Infrastructure for Autonomous AI Agents",
+   "url": "https://arxiv.org/abs/2607.00245",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
+   "url": "https://arxiv.org/abs/2609.04373",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "ERPBench: Evaluating LLM Agents for Enterprise Decision-Making Across Competitive Market Ecologies",
+   "url": "https://arxiv.org/abs/2609.04667",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When Financial Fine-tuning Fails: A Three-Level Detectability Analysis of Numerical Hallucination in Domain-Adapted Language Models",
+   "url": "https://arxiv.org/abs/2609.04806",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "LLM-Assisted Behavioural and Scenario Augmentation for Agent-Based Energy Adoption Models",
+   "url": "https://arxiv.org/abs/2609.04866",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "MARLA: A Conceptual Scaffold for Regulatory Learning under the EU AI Act",
+   "url": "https://arxiv.org/abs/2609.04877",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
+   "url": "https://arxiv.org/abs/2609.04894",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Measuring AI Accountability Through Argumentation Analysis: Can Model Reasoning Withstand Scrutiny?",
+   "url": "https://arxiv.org/abs/2609.05088",
+   "date": "07/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
+   "url": "https://arxiv.org/abs/2609.05198",
+   "date": "07/09"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -11,43 +91,59 @@
   },
   {
    "p": 5,
-   "tag": "AI",
+   "tag": "BR/EM",
    "src": "NBER",
-   "title": "CentaurBench: Benchmarking LLM Capabilities on Augmenting vs. Automating Real-World Work Tasks -- by Pattaraphon Kenny Wongchamcharoen, Kris Gulati, Min Min Fong, Abhishek Nagaraj",
-   "url": "https://www.nber.org/papers/w35663#fromrss",
+   "title": "Rust in Motion: The Political Environmental Trap of Vehicle Tax Exemptions -- by Gabriel Facundes Monteiro, Edson R. Severnini",
+   "url": "https://www.nber.org/papers/w35713#fromrss",
    "date": ""
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "What Work Does Generative AI Do? -- by Alexander Bick, Adam Blandin, David J. Deming, Tyler R. Schumacher",
-   "url": "https://www.nber.org/papers/w35677#fromrss",
+   "title": "The Utility of AI Tools in Auditing Adherence to Pre-Analysis Plans -- by Jeffrey Clemens, Anwita Mahajan",
+   "url": "https://www.nber.org/papers/w35719#fromrss",
    "date": ""
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "Canaries in the Gold Mine: Early Productivity Gains from Artificial Intelligence Creating Organization Capital -- by Tania Babina, Alex X. He, Renhao Jiang",
-   "url": "https://www.nber.org/papers/w35684#fromrss",
+   "title": "Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting -- by David Autor, Tanya Rodchenko, Josh Martin, Zanna Iscenko, Scott Strand, David Pearl, Melissa Ferere",
+   "url": "https://www.nber.org/papers/w35720#fromrss",
    "date": ""
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Designing AI-Augmented Peer Review -- by Joshua S. Gans",
-   "url": "https://www.nber.org/papers/w35688#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Portfolio Diversification and Concentration under Dependence Uncertainty: A Majorization Approach",
+   "url": "https://arxiv.org/abs/2609.04496",
+   "date": "07/09"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Artificial Intelligence and Political Advice -- by Georgy Egorov, Konstantin Sonin",
-   "url": "https://www.nber.org/papers/w35689#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Creators Have Difficulty Abandoning Ideas They Generated",
+   "url": "https://arxiv.org/abs/2609.05115",
+   "date": "07/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Quantity, Risk, and Return",
+   "url": "https://arxiv.org/abs/2609.05162",
+   "date": "07/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Robust Asset-Liability Management",
+   "url": "https://arxiv.org/abs/2310.00553",
+   "date": "07/09"
   },
   {
    "p": 4,
@@ -85,25 +181,57 @@
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Fool's Gold? How the USD lost its Shine -- by Kai Arvai, Nuno Coimbra, Marco Pinchetti",
-   "url": "https://www.nber.org/papers/w35669#fromrss",
+   "title": "Pensions and Turbulence: Automatic Adjustment, Risk, and Fairness in Long-Term Pension Design -- by Peter A. Diamond",
+   "url": "https://www.nber.org/papers/w35693#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Comparisons -- by Thomas Graeber, Benjamin Enke",
+   "url": "https://www.nber.org/papers/w35694#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "The Allocative Cost of War: A View to a Kill...ing of Productivity -- by Marvin Amann, Yuriy Gorodnichenko, Oleksandr Talavera",
+   "url": "https://www.nber.org/papers/w35704#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "This Time Is (Mostly) Different: U.S. Tightening Cycles and Global Resilience in the 1980s vs 2020s -- by Drishan Banerjee, Galina Hale, Harrison Shieh",
-   "url": "https://www.nber.org/papers/w35673#fromrss",
+   "title": "Fiscal Policy and the Saving Glut of the Rich -- by Francesco Bianchi, Nicolò Ceneri, Leonardo Melosi, Alessandro T. Villa",
+   "url": "https://www.nber.org/papers/w35715#fromrss",
    "date": ""
   },
   {
    "p": 4,
-   "tag": "Macro/Rates",
+   "tag": "Equities",
    "src": "NBER",
-   "title": "Accounting for Credibility: Fiscal-Monetary Interactions and the Credibility of Central Bank Mandates -- by Luigi Bocola, Gastón Chaumont, Alessandro Dovis, Rishabh Kirpalani",
-   "url": "https://www.nber.org/papers/w35691#fromrss",
+   "title": "Risk Perceptions of E-Cigarettes and the Evaluation of EVALI Messaging -- by Lawrence Jin, Donald S. Kenkel, Alan D. Mathios, Grace N. Phillips, Revathy Suryanarayana, Hua Wang",
+   "url": "https://www.nber.org/papers/w35724#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "arXiv q-fin",
+   "title": "Convex Modeling of Price Cross-Impact over Time",
+   "url": "https://arxiv.org/abs/2609.04712",
+   "date": "07/09"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Macroeconomic Risks from Maritime Trade Disruptions",
+   "url": "https://arxiv.org/abs/2607.09951",
+   "date": "07/09"
   },
   {
    "p": 3,
@@ -112,62 +240,6 @@
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
-   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
-   "date": "11/08"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
-   "date": "31/07"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Tariff-Dispersion Shocks: The Mean is the Variance -- by Stephanie Schmitt-Grohé, Martín Uribe",
-   "url": "https://www.nber.org/papers/w35661#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "A Theory of International Official Lending -- by Qing Liu, Zanhui Liu, Vivian Zhanwei Yue",
-   "url": "https://www.nber.org/papers/w35667#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Firms as Electoral Monopsonies -- by Carlos Fernando Avenancio-León, Adelina Barbalau, Cyndi Hou, Alessio Piccolo",
-   "url": "https://www.nber.org/papers/w35676#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "An Efficient Liquidity Savings Mechanism -- by Darrell Duffie, Srisht F. Singh, Chaojun Wang",
-   "url": "https://www.nber.org/papers/w35679#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
-   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
-   "date": "03/09"
   }
  ]
 }
