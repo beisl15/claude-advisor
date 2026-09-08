@@ -1,86 +1,6 @@
 {
- "asof": "07/09/2026",
+ "asof": "08/09/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Artificial Intelligence in Equity and Crypto Markets: Progress, Profitability Evidence, and the Limits of Automated Investing",
-   "url": "https://arxiv.org/abs/2609.04917",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Agent-to-Agent Finance: Blockchain Payments and Trust Infrastructure for Autonomous AI Agents",
-   "url": "https://arxiv.org/abs/2607.00245",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Why Better Models Can Create Riskier Systems: Evidence from LLM Agents in Financial Markets",
-   "url": "https://arxiv.org/abs/2609.04373",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "ERPBench: Evaluating LLM Agents for Enterprise Decision-Making Across Competitive Market Ecologies",
-   "url": "https://arxiv.org/abs/2609.04667",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "When Financial Fine-tuning Fails: A Three-Level Detectability Analysis of Numerical Hallucination in Domain-Adapted Language Models",
-   "url": "https://arxiv.org/abs/2609.04806",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "LLM-Assisted Behavioural and Scenario Augmentation for Agent-Based Energy Adoption Models",
-   "url": "https://arxiv.org/abs/2609.04866",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "MARLA: A Conceptual Scaffold for Regulatory Learning under the EU AI Act",
-   "url": "https://arxiv.org/abs/2609.04877",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "From Language Models to World-Acting Systems: Progress and Limits of Agentic AI across Digital, Social, Virtual, and Physical Environments",
-   "url": "https://arxiv.org/abs/2609.04894",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Measuring AI Accountability Through Argumentation Analysis: Can Model Reasoning Withstand Scrutiny?",
-   "url": "https://arxiv.org/abs/2609.05088",
-   "date": "07/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "What Matters in On-Policy Distillation? A Perspective on Data Efficiency and Data Selection",
-   "url": "https://arxiv.org/abs/2609.05198",
-   "date": "07/09"
-  },
   {
    "p": 5,
    "tag": "AI",
@@ -112,38 +32,6 @@
    "title": "Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting -- by David Autor, Tanya Rodchenko, Josh Martin, Zanna Iscenko, Scott Strand, David Pearl, Melissa Ferere",
    "url": "https://www.nber.org/papers/w35720#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Portfolio Diversification and Concentration under Dependence Uncertainty: A Majorization Approach",
-   "url": "https://arxiv.org/abs/2609.04496",
-   "date": "07/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Creators Have Difficulty Abandoning Ideas They Generated",
-   "url": "https://arxiv.org/abs/2609.05115",
-   "date": "07/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Quantity, Risk, and Return",
-   "url": "https://arxiv.org/abs/2609.05162",
-   "date": "07/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Robust Asset-Liability Management",
-   "url": "https://arxiv.org/abs/2310.00553",
-   "date": "07/09"
   },
   {
    "p": 4,
@@ -219,27 +107,59 @@
   },
   {
    "p": 3,
-   "tag": "Energy/Commod",
-   "src": "arXiv q-fin",
-   "title": "Convex Modeling of Price Cross-Impact over Time",
-   "url": "https://arxiv.org/abs/2609.04712",
-   "date": "07/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "Macroeconomic Risks from Maritime Trade Disruptions",
-   "url": "https://arxiv.org/abs/2607.09951",
-   "date": "07/09"
-  },
-  {
-   "p": 3,
    "tag": "Productivity",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
+   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
+   "date": "11/08"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Loan Rates as Incentive Instruments -- by Kinda Cheryl Hachem",
+   "url": "https://www.nber.org/papers/w35696#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Signals, Steps, and Setbacks: Age Discrimination in a Laddered Labor Market -- by Shuaizhang Feng, Lars Lefgren, Jieyi Liu, Brennan Platt, Xiaoyu Xia",
+   "url": "https://www.nber.org/papers/w35709#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "The Limits of Verifiability: Credibility and Flexibility in Communication -- by Alessandro Lizzeri, Yichuan Lou, Jacopo Perego",
+   "url": "https://www.nber.org/papers/w35712#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
   }
  ]
 }
