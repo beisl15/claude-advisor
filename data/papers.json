@@ -1,6 +1,134 @@
 {
- "asof": "08/09/2026",
+ "asof": "09/09/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Deep Learning for Reflected BSDEs: Regularization and Error Analysis",
+   "url": "https://arxiv.org/abs/2609.05434",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Are AI Risks Priced in the U.S. Stock Market? Evidence from Financial News Factors",
+   "url": "https://arxiv.org/abs/2609.05485",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Explainable Deep Learning for Price-Trade Dynamics: From Black-Box Forecasts to Effective Parametric Models",
+   "url": "https://arxiv.org/abs/2609.06085",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
+   "url": "https://arxiv.org/abs/2609.07358",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI for AI: Optimizing Additional Infrastructure Build-out to Power Artificial Intelligence Data Centers",
+   "url": "https://arxiv.org/abs/2609.08166",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Self-Fulfilling Prophecies, Quasi Nonergodicity, and Wealth Inequality: A Comment",
+   "url": "https://arxiv.org/abs/2609.08198",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI Innovation and Firm Performance in the Medical Device Industry",
+   "url": "https://arxiv.org/abs/2609.08485",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "The profit-bias identity in sports betting: bookmaker profit as the public's prediction error",
+   "url": "https://arxiv.org/abs/2609.06739",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The convergent laboratory: when AI reasoning, autonomous experiments, high performance and quantum computing reshape chemistry",
+   "url": "https://arxiv.org/abs/2609.05643",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "What LLM Trading Agents Actually Do in Production: A Six-Month, Population-Scale Record from Two Fleets",
+   "url": "https://arxiv.org/abs/2609.05663",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The End of AI Exponentiation: Fluttering Inside and Outside AI Bubble",
+   "url": "https://arxiv.org/abs/2609.05894",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Predicting Wind Turbine Power Using Machine Learning and Weather Forecasts",
+   "url": "https://arxiv.org/abs/2609.06194",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "A Unified Policy Architecture (UPA): The Governance Kernel for Enterprise AI Operating Systems",
+   "url": "https://arxiv.org/abs/2609.06543",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "SerenAI: State-transition system inspired by text-based world AI models",
+   "url": "https://arxiv.org/abs/2609.06647",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When and Why LLM Causal Priors Help: Closed-Loop Prior Selection for Amortized Causal Inference",
+   "url": "https://arxiv.org/abs/2609.06941",
+   "date": "09/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Unraveling the Real Working Mechanism and Inherent Flaws of GAE: A Method for Interpreting Transformer Processes from an Economic Perspective",
+   "url": "https://arxiv.org/abs/2609.07213",
+   "date": "09/09"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -112,54 +240,6 @@
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
-   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
-   "date": "11/08"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
-   "date": "31/07"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Loan Rates as Incentive Instruments -- by Kinda Cheryl Hachem",
-   "url": "https://www.nber.org/papers/w35696#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Signals, Steps, and Setbacks: Age Discrimination in a Laddered Labor Market -- by Shuaizhang Feng, Lars Lefgren, Jieyi Liu, Brennan Platt, Xiaoyu Xia",
-   "url": "https://www.nber.org/papers/w35709#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "The Limits of Verifiability: Credibility and Flexibility in Communication -- by Alessandro Lizzeri, Yichuan Lou, Jacopo Perego",
-   "url": "https://www.nber.org/papers/w35712#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
-   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
-   "date": "03/09"
   }
  ]
 }
