@@ -1,29 +1,29 @@
 {
- "asof": "10/09/2026",
+ "asof": "11/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Adversarial Training for Tabular Credit Scoring: A Multi-Attack Robustness Evaluation in P2P Lending",
-   "url": "https://arxiv.org/abs/2609.09945",
-   "date": "10/09"
+   "title": "Deep Learning of Robust Market Making under Regime-Switching Order Flow",
+   "url": "https://arxiv.org/abs/2609.11614",
+   "date": "11/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI Coding Tools and Digital Entrepreneurship: The Role of Software Expertise",
-   "url": "https://arxiv.org/abs/2511.06545",
-   "date": "10/09"
+   "title": "AI Economist Agent: An Agentic Framework for Evidence-Based Economic and Financial Analysis with RAG, Knowledge Graphs, and Large Language Models",
+   "url": "https://arxiv.org/abs/2606.20041",
+   "date": "11/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Generative AI for Analysts",
-   "url": "https://arxiv.org/abs/2512.19705",
-   "date": "10/09"
+   "title": "(Early) AI Compute Asset Pricing",
+   "url": "https://arxiv.org/abs/2607.12156",
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -31,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
    "url": "https://arxiv.org/abs/2609.09413",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -39,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
    "url": "https://arxiv.org/abs/2609.09448",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -47,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System",
    "url": "https://arxiv.org/abs/2609.10350",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -55,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Pairit: A Platform for Live Experiments on Human-AI Collaboration",
    "url": "https://arxiv.org/abs/2609.09789",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -63,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "With a Thermomix You Lose the Ability to Cook: A Kitchen Machine Analogy for Applications of Generative AI in Education",
    "url": "https://arxiv.org/abs/2609.09856",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -71,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "KairosAgent: Agentic Time Series Forecasting with Fused Semantic Reasoning",
    "url": "https://arxiv.org/abs/2605.30002",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -79,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
    "url": "https://arxiv.org/abs/2607.12455",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -87,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "Influence-Oriented Personalized Federated Learning",
    "url": "https://arxiv.org/abs/2410.03315",
-   "date": "10/09"
+   "date": "11/09"
   },
   {
    "p": 5,
@@ -125,17 +125,33 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Credible Discourse on Climate Policy: Beyond Dueling Certitudes",
-   "url": "https://arxiv.org/abs/2609.09337",
-   "date": "10/09"
+   "title": "Entropic Value-at-Risk parity for tempered stable returns",
+   "url": "https://arxiv.org/abs/2609.11905",
+   "date": "11/09"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Screening-Off Information and Conditional Risk in Portfolio Choice",
-   "url": "https://arxiv.org/abs/2607.05320",
-   "date": "10/09"
+   "title": "Expected Shortfall Factor Models: Common Tail Losses and Expected Returns",
+   "url": "https://arxiv.org/abs/2609.10587",
+   "date": "11/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Market-Informed Networks for Modeling and Forecast Evaluation of Financial Extremes",
+   "url": "https://arxiv.org/abs/2609.11575",
+   "date": "11/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Fundamental Properties of Linear Factor Models",
+   "url": "https://arxiv.org/abs/2409.02521",
+   "date": "11/09"
   },
   {
    "p": 4,
@@ -211,19 +227,11 @@
   },
   {
    "p": 3,
-   "tag": "Productivity",
-   "src": "arXiv q-fin",
-   "title": "High Volume Low Complexity Surgical Hubs in England: Can They Improve Physician Productivity?",
-   "url": "https://arxiv.org/abs/2609.10380",
-   "date": "10/09"
-  },
-  {
-   "p": 3,
    "tag": "Trade/Geo",
    "src": "arXiv q-fin",
-   "title": "dexamine: A Python package for Uniswap event data on Ethereum",
-   "url": "https://arxiv.org/abs/2609.10407",
-   "date": "10/09"
+   "title": "The Privacy Subsidy in Market Microstructure",
+   "url": "https://arxiv.org/abs/2609.10543",
+   "date": "11/09"
   },
   {
    "p": 3,
@@ -232,14 +240,6 @@
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
-   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
-   "date": "11/08"
   }
  ]
 }
