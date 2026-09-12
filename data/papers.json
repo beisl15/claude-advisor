@@ -1,77 +1,61 @@
 {
- "asof": "11/09/2026",
+ "asof": "12/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Deep Learning of Robust Market Making under Regime-Switching Order Flow",
-   "url": "https://arxiv.org/abs/2609.11614",
-   "date": "11/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI Economist Agent: An Agentic Framework for Evidence-Based Economic and Financial Analysis with RAG, Knowledge Graphs, and Large Language Models",
-   "url": "https://arxiv.org/abs/2606.20041",
-   "date": "11/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "(Early) AI Compute Asset Pricing",
-   "url": "https://arxiv.org/abs/2607.12156",
-   "date": "11/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
    "src": "arXiv cs.AI",
-   "title": "Decision-Focused Active Learning for Scale-Aware Critical-Materials Recovery",
-   "url": "https://arxiv.org/abs/2609.09413",
-   "date": "11/09"
+   "title": "The Oligarch Barely Steers Model Collapse in Multi-Model Ecosystems",
+   "url": "https://arxiv.org/abs/2609.11146",
+   "date": "12/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Do Agents Know When They Succeed? Calibrating Agent Confidence from Internal Representations",
-   "url": "https://arxiv.org/abs/2609.09448",
-   "date": "11/09"
+   "title": "An AI-Powered Culturally Aware Chatbot for Stress Detection and Wellness Support among Pakistani University Students Using NLP and Machine Learning",
+   "url": "https://arxiv.org/abs/2609.11199",
+   "date": "12/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System",
-   "url": "https://arxiv.org/abs/2609.10350",
-   "date": "11/09"
+   "title": "AI Exposure and AI Resilience: A Two-Dimensional Assessment Framework for Software and Software-Based Business Model",
+   "url": "https://arxiv.org/abs/2609.11321",
+   "date": "12/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Pairit: A Platform for Live Experiments on Human-AI Collaboration",
-   "url": "https://arxiv.org/abs/2609.09789",
-   "date": "11/09"
+   "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
+   "url": "https://arxiv.org/abs/2609.11860",
+   "date": "12/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "With a Thermomix You Lose the Ability to Cook: A Kitchen Machine Analogy for Applications of Generative AI in Education",
-   "url": "https://arxiv.org/abs/2609.09856",
-   "date": "11/09"
+   "title": "Does Linguistic Structure Enrichment Enhance Coherence Assessment? Not With Current Architectures",
+   "url": "https://arxiv.org/abs/2609.10893",
+   "date": "12/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "KairosAgent: Agentic Time Series Forecasting with Fused Semantic Reasoning",
-   "url": "https://arxiv.org/abs/2605.30002",
-   "date": "11/09"
+   "title": "AI Soccer Analyst: Stage-Aware and Verifiable Human-AI Collaboration for Soccer Data Analysis",
+   "url": "https://arxiv.org/abs/2609.11224",
+   "date": "12/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+   "url": "https://arxiv.org/abs/2609.11915",
+   "date": "12/09"
   },
   {
    "p": 5,
@@ -79,15 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "EVOQUANT: Self-Evolving Verifier-Guided Strategy Optimization for Robust Quantitative Trading",
    "url": "https://arxiv.org/abs/2607.12455",
-   "date": "11/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Influence-Oriented Personalized Federated Learning",
-   "url": "https://arxiv.org/abs/2410.03315",
-   "date": "11/09"
+   "date": "12/09"
   },
   {
    "p": 5,
@@ -120,38 +96,6 @@
    "title": "Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting -- by David Autor, Tanya Rodchenko, Josh Martin, Zanna Iscenko, Scott Strand, David Pearl, Melissa Ferere",
    "url": "https://www.nber.org/papers/w35720#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Entropic Value-at-Risk parity for tempered stable returns",
-   "url": "https://arxiv.org/abs/2609.11905",
-   "date": "11/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Expected Shortfall Factor Models: Common Tail Losses and Expected Returns",
-   "url": "https://arxiv.org/abs/2609.10587",
-   "date": "11/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Market-Informed Networks for Modeling and Forecast Evaluation of Financial Extremes",
-   "url": "https://arxiv.org/abs/2609.11575",
-   "date": "11/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Fundamental Properties of Linear Factor Models",
-   "url": "https://arxiv.org/abs/2409.02521",
-   "date": "11/09"
   },
   {
    "p": 4,
@@ -227,19 +171,59 @@
   },
   {
    "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "The Privacy Subsidy in Market Microstructure",
-   "url": "https://arxiv.org/abs/2609.10543",
-   "date": "11/09"
-  },
-  {
-   "p": 3,
    "tag": "Productivity",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
+   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
+   "date": "11/08"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
+   "date": "31/07"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Loan Rates as Incentive Instruments -- by Kinda Cheryl Hachem",
+   "url": "https://www.nber.org/papers/w35696#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Signals, Steps, and Setbacks: Age Discrimination in a Laddered Labor Market -- by Shuaizhang Feng, Lars Lefgren, Jieyi Liu, Brennan Platt, Xiaoyu Xia",
+   "url": "https://www.nber.org/papers/w35709#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "The Limits of Verifiability: Credibility and Flexibility in Communication -- by Alessandro Lizzeri, Yichuan Lou, Jacopo Perego",
+   "url": "https://www.nber.org/papers/w35712#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
   }
  ]
 }
