@@ -1,6 +1,94 @@
 {
- "asof": "13/09/2026",
+ "asof": "14/09/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "VertiFuseX: Generalizable Financial Forecasting via Multi-Stream Temporal Fusion",
+   "url": "https://arxiv.org/abs/2609.12793",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Forecasting Liquidity Withdraw with Machine Learning Models",
+   "url": "https://arxiv.org/abs/2509.22985",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
+   "url": "https://arxiv.org/abs/2607.28222",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When Does AI Augment Work? A Workflow-Level Framework for Human-Agent Collaboration",
+   "url": "https://arxiv.org/abs/2609.12482",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Information Specialization and Constrained Synthesis in Multi-Agent LLM Forecasting: A Prospective Live-Study of the 2026 FIFA World Cup",
+   "url": "https://arxiv.org/abs/2609.12495",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "From Collaboration to Capability: Internalizing Routed LLM Experts into Compact Reasoners",
+   "url": "https://arxiv.org/abs/2609.12578",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Generative AI Use Cases In Real Estate Marketing: Adoption and Constraints in Germany",
+   "url": "https://arxiv.org/abs/2609.12684",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Enabling and Understanding Personalization in AI-Generated Advertising Imagery",
+   "url": "https://arxiv.org/abs/2609.12697",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Scaling Clinical Judgment to Evaluate Medical AI",
+   "url": "https://arxiv.org/abs/2609.12822",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Retrieval-Augmented Generation for Scientific Code Understanding",
+   "url": "https://arxiv.org/abs/2609.12190",
+   "date": "14/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Project Rachel: Can an AI Become a Scholarly Author?",
+   "url": "https://arxiv.org/abs/2511.14819",
+   "date": "14/09"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -11,26 +99,10 @@
   },
   {
    "p": 5,
-   "tag": "BR/EM",
-   "src": "NBER",
-   "title": "Rust in Motion: The Political Environmental Trap of Vehicle Tax Exemptions -- by Gabriel Facundes Monteiro, Edson R. Severnini",
-   "url": "https://www.nber.org/papers/w35713#fromrss",
-   "date": ""
-  },
-  {
-   "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "The Utility of AI Tools in Auditing Adherence to Pre-Analysis Plans -- by Jeffrey Clemens, Anwita Mahajan",
-   "url": "https://www.nber.org/papers/w35719#fromrss",
-   "date": ""
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Does AI Assistance Enhance or Erode Expertise? Evidence from a Three-Month Field Experiment in Patent Drafting -- by David Autor, Tanya Rodchenko, Josh Martin, Zanna Iscenko, Scott Strand, David Pearl, Melissa Ferere",
-   "url": "https://www.nber.org/papers/w35720#fromrss",
+   "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI -- by Melissa Dell, Ashesh Rambachan",
+   "url": "https://www.nber.org/papers/w35744#fromrss",
    "date": ""
   },
   {
@@ -69,41 +141,49 @@
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Pensions and Turbulence: Automatic Adjustment, Risk, and Fairness in Long-Term Pension Design -- by Peter A. Diamond",
-   "url": "https://www.nber.org/papers/w35693#fromrss",
+   "title": "When Microenterprises Grow, Are Consumers Better Off? Evidence from Large Loans to Microenterprises in Chile -- by Dean Karlan, Natalia Rigol, Benjamin N. Roth",
+   "url": "https://www.nber.org/papers/w35729#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Comparisons -- by Thomas Graeber, Benjamin Enke",
-   "url": "https://www.nber.org/papers/w35694#fromrss",
+   "title": "Beyond the Conventional Narrative: Economic Heterogeneity and Human Capital Among American Indians -- by Randall Akee, Emilia Simeonova",
+   "url": "https://www.nber.org/papers/w35730#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "The Allocative Cost of War: A View to a Kill...ing of Productivity -- by Marvin Amann, Yuriy Gorodnichenko, Oleksandr Talavera",
-   "url": "https://www.nber.org/papers/w35704#fromrss",
+   "title": "Correlation Neglect in Asset Prices -- by Hongye Guo, Jessica Wachter",
+   "url": "https://www.nber.org/papers/w35753#fromrss",
    "date": ""
   },
   {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "Fiscal Policy and the Saving Glut of the Rich -- by Francesco Bianchi, Nicolò Ceneri, Leonardo Melosi, Alessandro T. Villa",
-   "url": "https://www.nber.org/papers/w35715#fromrss",
-   "date": ""
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "arXiv q-fin",
+   "title": "Seasonal Trading in Commodity Futures: Evidence from Regression and Singular Spectrum Signals",
+   "url": "https://arxiv.org/abs/2609.12227",
+   "date": "14/09"
   },
   {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Risk Perceptions of E-Cigarettes and the Evaluation of EVALI Messaging -- by Lawrence Jin, Donald S. Kenkel, Alan D. Mathios, Grace N. Phillips, Revathy Suryanarayana, Hua Wang",
-   "url": "https://www.nber.org/papers/w35724#fromrss",
-   "date": ""
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "The Favorite-Longshot Bias in Prediction Markets: Evidence from Polymarket",
+   "url": "https://arxiv.org/abs/2609.12878",
+   "date": "14/09"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Multi-Objective Enterprise Green Supply Chain Network Design",
+   "url": "https://arxiv.org/abs/2609.11971",
+   "date": "14/09"
   },
   {
    "p": 3,
@@ -131,35 +211,35 @@
   },
   {
    "p": 3,
-   "tag": "Banks/Fintech",
+   "tag": "Energy/Commod",
    "src": "NBER",
-   "title": "Loan Rates as Incentive Instruments -- by Kinda Cheryl Hachem",
-   "url": "https://www.nber.org/papers/w35696#fromrss",
+   "title": "Diamond-Mirrlees meets Sims: Optimal Taxation with Rational Inattention -- by George-Marios Angeletos, Matias Bayas-Erazo",
+   "url": "https://www.nber.org/papers/w35741#fromrss",
    "date": ""
   },
   {
    "p": 3,
    "tag": "Productivity",
    "src": "NBER",
-   "title": "Signals, Steps, and Setbacks: Age Discrimination in a Laddered Labor Market -- by Shuaizhang Feng, Lars Lefgren, Jieyi Liu, Brennan Platt, Xiaoyu Xia",
-   "url": "https://www.nber.org/papers/w35709#fromrss",
+   "title": "Heritability and Social Interaction in Labor Market Outcomes: Evidence from the Population of Twins in the United States -- by David Card, Jesse Rothstein, Moises Yi",
+   "url": "https://www.nber.org/papers/w35746#fromrss",
    "date": ""
   },
   {
    "p": 3,
-   "tag": "Trade/Geo",
+   "tag": "Productivity",
    "src": "NBER",
-   "title": "The Limits of Verifiability: Credibility and Flexibility in Communication -- by Alessandro Lizzeri, Yichuan Lou, Jacopo Perego",
-   "url": "https://www.nber.org/papers/w35712#fromrss",
+   "title": "Automation and Optimal Taxation: A Task-Based Theory -- by Henrik Kleven, Owen M. Zidar",
+   "url": "https://www.nber.org/papers/w35747#fromrss",
    "date": ""
   },
   {
    "p": 2,
    "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
-   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
-   "date": "03/09"
+   "src": "arXiv q-fin",
+   "title": "Exact calibration of structural models via time-change",
+   "url": "https://arxiv.org/abs/2609.12666",
+   "date": "14/09"
   }
  ]
 }
