@@ -1,93 +1,133 @@
 {
- "asof": "14/09/2026",
+ "asof": "15/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "VertiFuseX: Generalizable Financial Forecasting via Multi-Stream Temporal Fusion",
-   "url": "https://arxiv.org/abs/2609.12793",
-   "date": "14/09"
+   "title": "Redistributive Policies for the Times of Transformative AI",
+   "url": "https://arxiv.org/abs/2609.14750",
+   "date": "15/09"
+  },
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "arXiv q-fin",
+   "title": "A prelude to the theory of Real-World Asset (RWA) Tokenization",
+   "url": "https://arxiv.org/abs/2609.15797",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Forecasting Liquidity Withdraw with Machine Learning Models",
-   "url": "https://arxiv.org/abs/2509.22985",
-   "date": "14/09"
+   "title": "The Economics of Recursive Self-Improvement",
+   "url": "https://arxiv.org/abs/2609.15802",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
-   "url": "https://arxiv.org/abs/2607.28222",
-   "date": "14/09"
+   "title": "AI Assisted Workflow Optimization and Automation",
+   "url": "https://arxiv.org/abs/2609.14323",
+   "date": "15/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "WaVeFuse: Regime-Adaptive Equity Index Forecasting via Channel-Wise Wavelet Denoising and Vertical Attention Fusion",
+   "url": "https://arxiv.org/abs/2609.14733",
+   "date": "15/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
+   "url": "https://arxiv.org/abs/2609.14767",
+   "date": "15/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Design of a Deep Learning Credit Risk Early Warning System Integrating Multi-source Heterogeneous Data",
+   "url": "https://arxiv.org/abs/2609.15744",
+   "date": "15/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Stranded Credentials: Keeping Online Reputation Systems Informative in the AI Era",
+   "url": "https://arxiv.org/abs/2608.17111",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Does AI Augment Work? A Workflow-Level Framework for Human-Agent Collaboration",
-   "url": "https://arxiv.org/abs/2609.12482",
-   "date": "14/09"
+   "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
+   "url": "https://arxiv.org/abs/2609.13491",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Information Specialization and Constrained Synthesis in Multi-Agent LLM Forecasting: A Prospective Live-Study of the 2026 FIFA World Cup",
-   "url": "https://arxiv.org/abs/2609.12495",
-   "date": "14/09"
+   "title": "A Hybrid Agentic AI Framework for Intelligent Supply Chain Analytics",
+   "url": "https://arxiv.org/abs/2609.13561",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "From Collaboration to Capability: Internalizing Routed LLM Experts into Compact Reasoners",
-   "url": "https://arxiv.org/abs/2609.12578",
-   "date": "14/09"
+   "title": "FLoKD: Adaptive Knowledge Distillation for Federated Low-Rank LLM over Wireless Networks",
+   "url": "https://arxiv.org/abs/2609.13580",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Generative AI Use Cases In Real Estate Marketing: Adoption and Constraints in Germany",
-   "url": "https://arxiv.org/abs/2609.12684",
-   "date": "14/09"
+   "title": "Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges",
+   "url": "https://arxiv.org/abs/2609.13731",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Enabling and Understanding Personalization in AI-Generated Advertising Imagery",
-   "url": "https://arxiv.org/abs/2609.12697",
-   "date": "14/09"
+   "title": "Synthetic Data in Marketing Research: How to Evaluate and When to Trust",
+   "url": "https://arxiv.org/abs/2609.13995",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Scaling Clinical Judgment to Evaluate Medical AI",
-   "url": "https://arxiv.org/abs/2609.12822",
-   "date": "14/09"
+   "title": "AI Deployment Accountability Engineering: A Vision for Accountable AI in Safety-Critical Socio-Technical Systems",
+   "url": "https://arxiv.org/abs/2609.14592",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Retrieval-Augmented Generation for Scientific Code Understanding",
-   "url": "https://arxiv.org/abs/2609.12190",
-   "date": "14/09"
+   "title": "STHMoE: Hypergraph-Enhanced Heterogeneous Dependency Coordination for LLM-Based Urban Traffic Data Forecasting",
+   "url": "https://arxiv.org/abs/2609.15172",
+   "date": "15/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Project Rachel: Can an AI Become a Scholarly Author?",
-   "url": "https://arxiv.org/abs/2511.14819",
-   "date": "14/09"
+   "title": "The Troy Moment of AI: Why SomeWill Cheat and SomeWill Follow?",
+   "url": "https://arxiv.org/abs/2609.15494",
+   "date": "15/09"
   },
   {
    "p": 5,
@@ -131,14 +171,6 @@
   },
   {
    "p": 4,
-   "tag": "Macro/Rates",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: How Firms Form Beliefs and the Implications for Inflation",
-   "url": "https://www.federalreserve.gov/econres/feds/how-firms-form-beliefs-and-the-implications-for-inflation.htm",
-   "date": "31/07"
-  },
-  {
-   "p": 4,
    "tag": "Equities",
    "src": "NBER",
    "title": "When Microenterprises Grow, Are Consumers Better Off? Evidence from Large Loans to Microenterprises in Chile -- by Dean Karlan, Natalia Rigol, Benjamin N. Roth",
@@ -163,30 +195,6 @@
   },
   {
    "p": 3,
-   "tag": "Energy/Commod",
-   "src": "arXiv q-fin",
-   "title": "Seasonal Trading in Commodity Futures: Evidence from Regression and Singular Spectrum Signals",
-   "url": "https://arxiv.org/abs/2609.12227",
-   "date": "14/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "The Favorite-Longshot Bias in Prediction Markets: Evidence from Polymarket",
-   "url": "https://arxiv.org/abs/2609.12878",
-   "date": "14/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "Multi-Objective Enterprise Green Supply Chain Network Design",
-   "url": "https://arxiv.org/abs/2609.11971",
-   "date": "14/09"
-  },
-  {
-   "p": 3,
    "tag": "Productivity",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
@@ -200,14 +208,6 @@
    "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
    "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
    "date": "11/08"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
-   "date": "31/07"
   },
   {
    "p": 3,
@@ -236,10 +236,10 @@
   {
    "p": 2,
    "tag": "Macro",
-   "src": "arXiv q-fin",
-   "title": "Exact calibration of structural models via time-change",
-   "url": "https://arxiv.org/abs/2609.12666",
-   "date": "14/09"
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
   }
  ]
 }
