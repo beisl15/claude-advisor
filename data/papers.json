@@ -1,85 +1,125 @@
 {
- "asof": "16/09/2026",
+ "asof": "17/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The AI-Enabled Scientific Frontier",
-   "url": "https://arxiv.org/abs/2609.16258",
-   "date": "16/09"
+   "title": "Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders",
+   "url": "https://arxiv.org/abs/2609.17989",
+   "date": "17/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Why a Non-Discriminatory Royalty Surcharge Is Not Chip-Neutral: The Error in FTC v. Qualcomm",
+   "url": "https://arxiv.org/abs/2609.18161",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Mapping AI Economic Complexity",
-   "url": "https://arxiv.org/abs/2609.17200",
-   "date": "16/09"
+   "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
+   "url": "https://arxiv.org/abs/2609.18591",
+   "date": "17/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Policy-Selected Transaction Tapes in Automated Market Makers: Ranking Certification under Hidden Opportunities",
+   "url": "https://arxiv.org/abs/2609.19013",
+   "date": "17/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Calibrating the Heston model with deep differential networks",
+   "url": "https://arxiv.org/abs/2407.15536",
+   "date": "17/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "LLM Agents as Static Level-k Players in Behavioural Games",
+   "url": "https://arxiv.org/abs/2606.27845",
+   "date": "17/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Governing Agentic AI in FinTech",
+   "url": "https://arxiv.org/abs/2608.11344",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Token Efficient Task Execution via Application Behavior Modeling for Web Agents",
-   "url": "https://arxiv.org/abs/2609.13491",
-   "date": "16/09"
+   "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
+   "url": "https://arxiv.org/abs/2609.17632",
+   "date": "17/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv cs.AI",
+   "title": "ERPBench: A State-Grounded Evaluation Paradigm for Computer-Use Agents in Enterprise Software",
+   "url": "https://arxiv.org/abs/2609.17885",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "A Hybrid Agentic AI Framework for Intelligent Supply Chain Analytics",
-   "url": "https://arxiv.org/abs/2609.13561",
-   "date": "16/09"
+   "title": "BENCHCOMPASS: From Scores to Signals for Training and Harness Decisions in Payment-Domain LLMs",
+   "url": "https://arxiv.org/abs/2609.18270",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "FLoKD: Adaptive Knowledge Distillation for Federated Low-Rank LLM over Wireless Networks",
-   "url": "https://arxiv.org/abs/2609.13580",
-   "date": "16/09"
+   "title": "What Counts as Strategic Reasoning? A Systematic Mapping of Chess Research on Humans, Engines, and Language Models",
+   "url": "https://arxiv.org/abs/2609.18286",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Trustworthy Agentic AI: A Comprehensive Cybersecurity and Systems Survey on Threat Landscapes, Defense Architectures, and Open Challenges",
-   "url": "https://arxiv.org/abs/2609.13731",
-   "date": "16/09"
+   "title": "Market Signal Injection: Adversarial Context Manipulation of LLM Pricing Agents",
+   "url": "https://arxiv.org/abs/2609.18357",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Synthetic Data in Marketing Research: How to Evaluate and When to Trust",
-   "url": "https://arxiv.org/abs/2609.13995",
-   "date": "16/09"
+   "title": "AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution",
+   "url": "https://arxiv.org/abs/2609.18520",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AI Deployment Accountability Engineering: A Vision for Accountable AI in Safety-Critical Socio-Technical Systems",
-   "url": "https://arxiv.org/abs/2609.14592",
-   "date": "16/09"
+   "title": "PrimeScientist: Strategic Allocation of Research Effort in Autonomous Research",
+   "url": "https://arxiv.org/abs/2609.17846",
+   "date": "17/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "STHMoE: Hypergraph-Enhanced Heterogeneous Dependency Coordination for LLM-Based Urban Traffic Data Forecasting",
-   "url": "https://arxiv.org/abs/2609.15172",
-   "date": "16/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "The Troy Moment of AI: Why Some Will Cheat and Some Will Follow?",
-   "url": "https://arxiv.org/abs/2609.15494",
-   "date": "16/09"
+   "title": "Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents",
+   "url": "https://arxiv.org/abs/2609.18598",
+   "date": "17/09"
   },
   {
    "p": 5,
@@ -101,17 +141,9 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Exploring hydrogen pipeline costs by considering regional geographical and political characteristics",
-   "url": "https://arxiv.org/abs/2505.01124",
-   "date": "16/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Extended Version: Storage-Based Strategic Manipulation of Constraint-Binding Patterns in Power Networks",
-   "url": "https://arxiv.org/abs/2609.15755",
-   "date": "16/09"
+   "title": "Demystifying the Bergomi-Guyon expansion",
+   "url": "https://arxiv.org/abs/2609.17869",
+   "date": "17/09"
   },
   {
    "p": 4,
@@ -152,14 +184,6 @@
    "title": "Correlation Neglect in Asset Prices -- by Hongye Guo, Jessica Wachter",
    "url": "https://www.nber.org/papers/w35753#fromrss",
    "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "arXiv q-fin",
-   "title": "Global Poverty Beyond the Official Line: A bounded estimate of material insufficiency",
-   "url": "https://arxiv.org/abs/2609.16203",
-   "date": "16/09"
   },
   {
    "p": 3,
@@ -215,30 +239,6 @@
    "src": "NBER",
    "title": "Racial Dynamics of Federal Property Buyouts in Flood-Prone Areas -- by Kay Jowers, Lala Ma, Christopher D. Timmins",
    "url": "https://www.nber.org/papers/w35726#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Housing Wealth Accumulation and Electoral Representation -- by Carlos Fernando Avenancio-León, Yutao He, Michael Reher",
-   "url": "https://www.nber.org/papers/w35731#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "The Welfare Impacts of Urban Renewal and Forced Relocation: Evidence from Chicago’s HOPE VI Demolitions -- by Milena Almagro, Eric Chyn, Bryan A. Stuart",
-   "url": "https://www.nber.org/papers/w35736#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Do Social Norms Substitute for Enforcement? Evidence from Public Officials’ Home Purchases in Singapore -- by Tomasz Piskorski, Amit Seru, Jian Zhang, Chun Zhao",
-   "url": "https://www.nber.org/papers/w35756#fromrss",
    "date": ""
   }
  ]
