@@ -1,125 +1,117 @@
 {
- "asof": "17/09/2026",
+ "asof": "18/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders",
-   "url": "https://arxiv.org/abs/2609.17989",
-   "date": "17/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "Why a Non-Discriminatory Royalty Surcharge Is Not Chip-Neutral: The Error in FTC v. Qualcomm",
-   "url": "https://arxiv.org/abs/2609.18161",
-   "date": "17/09"
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Premiums or Peril",
+   "url": "https://www.federalreserve.gov/econres/feds/premiums-or-peril.htm",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
-   "url": "https://arxiv.org/abs/2609.18591",
-   "date": "17/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "Policy-Selected Transaction Tapes in Automated Market Makers: Ranking Certification under Hidden Opportunities",
-   "url": "https://arxiv.org/abs/2609.19013",
-   "date": "17/09"
+   "title": "StableEval Arena: A Cost-Aware Agentic Benchmark for Stablecoin Price Stability Prediction",
+   "url": "https://arxiv.org/abs/2609.18949",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Calibrating the Heston model with deep differential networks",
-   "url": "https://arxiv.org/abs/2407.15536",
-   "date": "17/09"
+   "title": "A Dual-Process Perspective on Nudge Susceptibility in LLM-Based GUI Agents",
+   "url": "https://arxiv.org/abs/2609.19843",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "LLM Agents as Static Level-k Players in Behavioural Games",
-   "url": "https://arxiv.org/abs/2606.27845",
-   "date": "17/09"
+   "title": "Reproducibility is not construct validity: LLM measurement of institutionally situated communication",
+   "url": "https://arxiv.org/abs/2609.19866",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Governing Agentic AI in FinTech",
-   "url": "https://arxiv.org/abs/2608.11344",
-   "date": "17/09"
+   "title": "A deep learning approach for pricing convertible bonds with path-dependent reset and call provisions",
+   "url": "https://arxiv.org/abs/2605.12189",
+   "date": "18/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "When Summaries Distort Decisions: Information Fidelity in LLM-Compressed Financial Analysis",
+   "url": "https://arxiv.org/abs/2606.29251",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "EvolveTrade: Experience-Driven Policy Refinement for Self-Evolving LLM Trading Agents",
-   "url": "https://arxiv.org/abs/2609.17632",
-   "date": "17/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "ERPBench: A State-Grounded Evaluation Paradigm for Computer-Use Agents in Enterprise Software",
-   "url": "https://arxiv.org/abs/2609.17885",
-   "date": "17/09"
+   "title": "Rethinking Multi-Agent Collaboration: When More Is Less",
+   "url": "https://arxiv.org/abs/2609.19759",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "BENCHCOMPASS: From Scores to Signals for Training and Harness Decisions in Payment-Domain LLMs",
-   "url": "https://arxiv.org/abs/2609.18270",
-   "date": "17/09"
+   "title": "Contagion on the Trading Floor: How Adversarial Signals Spread in Multi-Agent Trading Systems",
+   "url": "https://arxiv.org/abs/2609.19789",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "What Counts as Strategic Reasoning? A Systematic Mapping of Chess Research on Humans, Engines, and Language Models",
-   "url": "https://arxiv.org/abs/2609.18286",
-   "date": "17/09"
+   "title": "Physical knowledge on historical data matters more than enforcing physical constraints on the forecast",
+   "url": "https://arxiv.org/abs/2609.19871",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Market Signal Injection: Adversarial Context Manipulation of LLM Pricing Agents",
-   "url": "https://arxiv.org/abs/2609.18357",
-   "date": "17/09"
+   "title": "Neuro-Symbolic Agentic AI for Networked Low-Altitude UAVs",
+   "url": "https://arxiv.org/abs/2609.19961",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AeroWeaver: An Embodied-Agent Harness for Weaving Aerial Skills into Distributed, Adaptive Swarm Execution",
-   "url": "https://arxiv.org/abs/2609.18520",
-   "date": "17/09"
+   "title": "The Organization of Inference: Information, Resource Constraints, and AI Production",
+   "url": "https://arxiv.org/abs/2609.20449",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "PrimeScientist: Strategic Allocation of Research Effort in Autonomous Research",
-   "url": "https://arxiv.org/abs/2609.17846",
-   "date": "17/09"
+   "title": "Large Language Model Agents for Evidence Based Genetic Disease Severity Classification",
+   "url": "https://arxiv.org/abs/2609.19569",
+   "date": "18/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Hypothesis-Driven Autonomous Materials Synthesis with Multimodal LLM Agents",
-   "url": "https://arxiv.org/abs/2609.18598",
-   "date": "17/09"
+   "title": "SoK: Trading Agents or Market Crashers? Dissecting Robustness and Security Failures in Academic Financial LLM Trading Schemes",
+   "url": "https://arxiv.org/abs/2609.19705",
+   "date": "18/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "AI Should Facilitate Democratic Deliberation at Scale",
+   "url": "https://arxiv.org/abs/2609.20059",
+   "date": "18/09"
   },
   {
    "p": 5,
@@ -141,9 +133,25 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Demystifying the Bergomi-Guyon expansion",
-   "url": "https://arxiv.org/abs/2609.17869",
-   "date": "17/09"
+   "title": "Does Training on Future Data Pay? Look-Ahead Bias in Forecasting with Pretrained Models",
+   "url": "https://arxiv.org/abs/2609.20554",
+   "date": "18/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Principal component error in high-dimensional factor models",
+   "url": "https://arxiv.org/abs/2609.20550",
+   "date": "18/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Robust asset pricing and superhedging duality under model uncertainty with and without short-sale constraints",
+   "url": "https://arxiv.org/abs/2408.13048",
+   "date": "18/09"
   },
   {
    "p": 4,
@@ -232,14 +240,6 @@
    "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
    "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
    "date": "03/09"
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Racial Dynamics of Federal Property Buyouts in Flood-Prone Areas -- by Kay Jowers, Lala Ma, Christopher D. Timmins",
-   "url": "https://www.nber.org/papers/w35726#fromrss",
-   "date": ""
   }
  ]
 }
