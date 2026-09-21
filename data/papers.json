@@ -1,6 +1,78 @@
 {
- "asof": "20/09/2026",
+ "asof": "21/09/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
+   "url": "https://arxiv.org/abs/2609.07358",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
+   "url": "https://arxiv.org/abs/2609.21113",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "LEGIT: Credentialing Protocol for Trustworthy AI Agent Marketplaces",
+   "url": "https://arxiv.org/abs/2609.21325",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "EnterpriseVal: Quantifying the Efficacy, Reliability and Value of Generative AI in the Enterprise",
+   "url": "https://arxiv.org/abs/2609.21841",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Trustworthy FinAInce: Unpacking How AI-Mediated Financial Advice is Judged",
+   "url": "https://arxiv.org/abs/2609.20989",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "PlantShade: Predicting Plant Shadows for Lighting-Aware Robotic Agricultural Operation",
+   "url": "https://arxiv.org/abs/2609.21059",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "From Task Success to Productive Success: Evaluating Human-AI Collaboration by Quality and Cost",
+   "url": "https://arxiv.org/abs/2609.21117",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Talking Past the Machine: Morality, Politeness, and Alignment in Human-AI Dialogue",
+   "url": "https://arxiv.org/abs/2609.21401",
+   "date": "21/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Micro-Collaborative Poisoning: A Distributed Attack on RAG Systems",
+   "url": "https://arxiv.org/abs/2609.21573",
+   "date": "21/09"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -19,11 +91,67 @@
   },
   {
    "p": 5,
-   "tag": "AI",
+   "tag": "Semis",
    "src": "NBER",
-   "title": "The Measurement Revolution? Credible Measurement and Inference in the Age of AI -- by Melissa Dell, Ashesh Rambachan",
-   "url": "https://www.nber.org/papers/w35744#fromrss",
+   "title": "Measuring and Projecting U.S. Investment in Semiconductor Manufacturing Capacity -- by David M. Byrne, Robert J. Kurtzman, Heidi L. Williams",
+   "url": "https://www.nber.org/papers/w35779#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
+   "url": "https://arxiv.org/abs/2609.21271",
+   "date": "21/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Simulation of stochastic volatility models via operator splitting schemes",
+   "url": "https://arxiv.org/abs/2609.21301",
+   "date": "21/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Equilibrium prices under hidden Markov fundamentals",
+   "url": "https://arxiv.org/abs/2609.21684",
+   "date": "21/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "The geometry of higher order modern portfolio theory",
+   "url": "https://arxiv.org/abs/2511.20674",
+   "date": "21/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Optimal credit portfolio and consumption with regime switching and default contagion",
+   "url": "https://arxiv.org/abs/2607.10542",
+   "date": "21/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "The Risk-Neutral Crash Frontier: Sharp Joint Bounds on Crash Probability and Conditional Depth from Option Bid-Ask Quotes",
+   "url": "https://arxiv.org/abs/2607.25353",
+   "date": "21/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Special Markowitz: Thermodynamic Formalism for the Joint Regularisation of Returns and Covariance",
+   "url": "https://arxiv.org/abs/2609.14029",
+   "date": "21/09"
   },
   {
    "p": 4,
@@ -44,33 +172,33 @@
   {
    "p": 4,
    "tag": "Macro/Rates",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Inflation Uncertainty and Endogenous Planning Horizons",
-   "url": "https://www.federalreserve.gov/econres/feds/inflation-uncertainty-and-endogenous-planning-horizons.htm",
-   "date": "06/08"
+   "src": "NBER",
+   "title": "Fiscal Populism and Monetary Policy Rules -- by Luis I. Jácome, Nicolás E. Magud, Samuel Pienknagura, Martín Uribe",
+   "url": "https://www.nber.org/papers/w35758#fromrss",
+   "date": ""
   },
   {
    "p": 4,
-   "tag": "Equities",
+   "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "When Microenterprises Grow, Are Consumers Better Off? Evidence from Large Loans to Microenterprises in Chile -- by Dean Karlan, Natalia Rigol, Benjamin N. Roth",
-   "url": "https://www.nber.org/papers/w35729#fromrss",
+   "title": "Expectations and the Term Structure of Interest Rates -- by Pooya Molavi, Alireza Tahbaz-Salehi, Andrea Vedolin",
+   "url": "https://www.nber.org/papers/w35766#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Beyond the Conventional Narrative: Economic Heterogeneity and Human Capital Among American Indians -- by Randall Akee, Emilia Simeonova",
-   "url": "https://www.nber.org/papers/w35730#fromrss",
+   "title": "When Tax Shields Shrink: Interest Deductibility Limitations and Corporate Innovation -- by Xinru Chen, Mara Faccio, Stefano Manfredonia, Jin Xu",
+   "url": "https://www.nber.org/papers/w35775#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Correlation Neglect in Asset Prices -- by Hongye Guo, Jessica Wachter",
-   "url": "https://www.nber.org/papers/w35753#fromrss",
+   "title": "Regulating Entrepreneurship: The Case of Capital Requirements -- by Annika Bacher, Andreas Fagereng, Marius A. K. Ring, Ella Getz Wold",
+   "url": "https://www.nber.org/papers/w35780#fromrss",
    "date": ""
   },
   {
@@ -91,26 +219,10 @@
   },
   {
    "p": 3,
-   "tag": "Energy/Commod",
+   "tag": "Trade/Geo",
    "src": "NBER",
-   "title": "Diamond-Mirrlees meets Sims: Optimal Taxation with Rational Inattention -- by George-Marios Angeletos, Matias Bayas-Erazo",
-   "url": "https://www.nber.org/papers/w35741#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Heritability and Social Interaction in Labor Market Outcomes: Evidence from the Population of Twins in the United States -- by David Card, Jesse Rothstein, Moises Yi",
-   "url": "https://www.nber.org/papers/w35746#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Automation and Optimal Taxation: A Task-Based Theory -- by Henrik Kleven, Owen M. Zidar",
-   "url": "https://www.nber.org/papers/w35747#fromrss",
+   "title": "The Remains of the Trade: The U.S.–China Trade War and its Aftermath -- by Pol Antràs, Adrian Kulesza, Andrea F. Presbitero",
+   "url": "https://www.nber.org/papers/w35785#fromrss",
    "date": ""
   },
   {
@@ -120,38 +232,6 @@
    "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
    "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
    "date": "03/09"
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Racial Dynamics of Federal Property Buyouts in Flood-Prone Areas -- by Kay Jowers, Lala Ma, Christopher D. Timmins",
-   "url": "https://www.nber.org/papers/w35726#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Housing Wealth Accumulation and Electoral Representation -- by Carlos Fernando Avenancio-León, Yutao He, Michael Reher",
-   "url": "https://www.nber.org/papers/w35731#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "The Welfare Impacts of Urban Renewal and Forced Relocation: Evidence from Chicago’s HOPE VI Demolitions -- by Milena Almagro, Eric Chyn, Bryan A. Stuart",
-   "url": "https://www.nber.org/papers/w35736#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Do Social Norms Substitute for Enforcement? Evidence from Public Officials’ Home Purchases in Singapore -- by Tomasz Piskorski, Amit Seru, Jian Zhang, Chun Zhao",
-   "url": "https://www.nber.org/papers/w35756#fromrss",
-   "date": ""
   }
  ]
 }
