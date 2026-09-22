@@ -1,13 +1,69 @@
 {
- "asof": "21/09/2026",
+ "asof": "22/09/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Risk Measures under Paired-Ambiguity: A Deep Learning Reflected BSDE Framework",
+   "url": "https://arxiv.org/abs/2609.23768",
+   "date": "22/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Firm Valuation When AI Shapes the Business Model: A Milestone-Based Real-Options Framework for the AI Valuation Uncertainty Problem",
+   "url": "https://arxiv.org/abs/2609.24181",
+   "date": "22/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "People escalate against a competitor labelled human and hold back against one labelled an optimising machine",
+   "url": "https://arxiv.org/abs/2609.21439",
+   "date": "22/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Monocultural Biases: Correlated biases in large language models lead to unequal systemic exclusion rates in hiring",
+   "url": "https://arxiv.org/abs/2609.22169",
+   "date": "22/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Social Influence and the Allocation of Scientific Attention in AI Populations",
+   "url": "https://arxiv.org/abs/2609.22408",
+   "date": "22/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions",
+   "url": "https://arxiv.org/abs/2609.23703",
+   "date": "22/09"
+  },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
    "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
    "url": "https://arxiv.org/abs/2609.07358",
-   "date": "21/09"
+   "date": "22/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Recidivism Prediction, Peer Effect Estimation, and Prediction-Powered Inference with LLM Text Measures",
+   "url": "https://arxiv.org/abs/2509.20634",
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -15,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
    "url": "https://arxiv.org/abs/2609.21113",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -23,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "LEGIT: Credentialing Protocol for Trustworthy AI Agent Marketplaces",
    "url": "https://arxiv.org/abs/2609.21325",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -31,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "EnterpriseVal: Quantifying the Efficacy, Reliability and Value of Generative AI in the Enterprise",
    "url": "https://arxiv.org/abs/2609.21841",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -39,7 +95,7 @@
    "src": "arXiv cs.AI",
    "title": "Trustworthy FinAInce: Unpacking How AI-Mediated Financial Advice is Judged",
    "url": "https://arxiv.org/abs/2609.20989",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -47,7 +103,7 @@
    "src": "arXiv cs.AI",
    "title": "PlantShade: Predicting Plant Shadows for Lighting-Aware Robotic Agricultural Operation",
    "url": "https://arxiv.org/abs/2609.21059",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -55,7 +111,7 @@
    "src": "arXiv cs.AI",
    "title": "From Task Success to Productive Success: Evaluating Human-AI Collaboration by Quality and Cost",
    "url": "https://arxiv.org/abs/2609.21117",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -63,7 +119,7 @@
    "src": "arXiv cs.AI",
    "title": "Talking Past the Machine: Morality, Politeness, and Alignment in Human-AI Dialogue",
    "url": "https://arxiv.org/abs/2609.21401",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -71,7 +127,7 @@
    "src": "arXiv cs.AI",
    "title": "Micro-Collaborative Poisoning: A Distributed Attack on RAG Systems",
    "url": "https://arxiv.org/abs/2609.21573",
-   "date": "21/09"
+   "date": "22/09"
   },
   {
    "p": 5,
@@ -96,62 +152,6 @@
    "title": "Measuring and Projecting U.S. Investment in Semiconductor Manufacturing Capacity -- by David M. Byrne, Robert J. Kurtzman, Heidi L. Williams",
    "url": "https://www.nber.org/papers/w35779#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Nested Clustered Optimization Is One End of a Schur Bridge, and the Interior Is Sometimes Provably Better",
-   "url": "https://arxiv.org/abs/2609.21271",
-   "date": "21/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Simulation of stochastic volatility models via operator splitting schemes",
-   "url": "https://arxiv.org/abs/2609.21301",
-   "date": "21/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Equilibrium prices under hidden Markov fundamentals",
-   "url": "https://arxiv.org/abs/2609.21684",
-   "date": "21/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "The geometry of higher order modern portfolio theory",
-   "url": "https://arxiv.org/abs/2511.20674",
-   "date": "21/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Optimal credit portfolio and consumption with regime switching and default contagion",
-   "url": "https://arxiv.org/abs/2607.10542",
-   "date": "21/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "The Risk-Neutral Crash Frontier: Sharp Joint Bounds on Crash Probability and Conditional Depth from Option Bid-Ask Quotes",
-   "url": "https://arxiv.org/abs/2607.25353",
-   "date": "21/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Special Markowitz: Thermodynamic Formalism for the Joint Regularisation of Returns and Covariance",
-   "url": "https://arxiv.org/abs/2609.14029",
-   "date": "21/09"
   },
   {
    "p": 4,
@@ -200,6 +200,14 @@
    "title": "Regulating Entrepreneurship: The Case of Capital Requirements -- by Annika Bacher, Andreas Fagereng, Marius A. K. Ring, Ella Getz Wold",
    "url": "https://www.nber.org/papers/w35780#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
+   "date": "21/09"
   },
   {
    "p": 3,
