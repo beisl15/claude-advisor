@@ -1,133 +1,117 @@
 {
- "asof": "22/09/2026",
+ "asof": "23/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Risk Measures under Paired-Ambiguity: A Deep Learning Reflected BSDE Framework",
-   "url": "https://arxiv.org/abs/2609.23768",
-   "date": "22/09"
+   "title": "The network advantage: benefits of interregional scientific knowledge spillovers on AI patenting",
+   "url": "https://arxiv.org/abs/2609.26604",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Firm Valuation When AI Shapes the Business Model: A Milestone-Based Real-Options Framework for the AI Valuation Uncertainty Problem",
-   "url": "https://arxiv.org/abs/2609.24181",
-   "date": "22/09"
+   "title": "The Informational Content in Lepto-Variance and Its Relation to Higher Moments",
+   "url": "https://arxiv.org/abs/2609.25144",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "People escalate against a competitor labelled human and hold back against one labelled an optimising machine",
-   "url": "https://arxiv.org/abs/2609.21439",
-   "date": "22/09"
+   "title": "Seeing Is Not Perceiving: When Synthetic Consumers Can and Cannot Pretest Visual Marketing",
+   "url": "https://arxiv.org/abs/2609.25677",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Monocultural Biases: Correlated biases in large language models lead to unequal systemic exclusion rates in hiring",
-   "url": "https://arxiv.org/abs/2609.22169",
-   "date": "22/09"
+   "title": "Little Impact of ChatGPT on High School Test Scores",
+   "url": "https://arxiv.org/abs/2605.08812",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Social Influence and the Allocation of Scientific Attention in AI Populations",
-   "url": "https://arxiv.org/abs/2609.22408",
-   "date": "22/09"
+   "title": "Data-Driven Measures of High-Frequency Trading",
+   "url": "https://arxiv.org/abs/2608.00858",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Financial Language Models as Applied Artificial Intelligence Systems for News-Based Trading under Market Frictions",
-   "url": "https://arxiv.org/abs/2609.23703",
-   "date": "22/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Access to Live AI Advice and Behavior Under Risk: An Incentivized Experiment",
-   "url": "https://arxiv.org/abs/2609.07358",
-   "date": "22/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Recidivism Prediction, Peer Effect Estimation, and Prediction-Powered Inference with LLM Text Measures",
-   "url": "https://arxiv.org/abs/2509.20634",
-   "date": "22/09"
+   "title": "Beyond Agent Architecture: Execution Assumptions and Reproducibility in LLM-Based Trading Systems",
+   "url": "https://arxiv.org/abs/2606.08285",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Decoupling Internal Representational Changes and Causal Importance in Fine-Tuned Large Language Models",
-   "url": "https://arxiv.org/abs/2609.21113",
-   "date": "22/09"
+   "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
+   "url": "https://arxiv.org/abs/2609.25010",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LEGIT: Credentialing Protocol for Trustworthy AI Agent Marketplaces",
-   "url": "https://arxiv.org/abs/2609.21325",
-   "date": "22/09"
+   "title": "Spectra: A Rules-Driven LLM Pipeline for Automated KYC Document Processing",
+   "url": "https://arxiv.org/abs/2609.25474",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "EnterpriseVal: Quantifying the Efficacy, Reliability and Value of Generative AI in the Enterprise",
-   "url": "https://arxiv.org/abs/2609.21841",
-   "date": "22/09"
+   "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
+   "url": "https://arxiv.org/abs/2609.25620",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Trustworthy FinAInce: Unpacking How AI-Mediated Financial Advice is Judged",
-   "url": "https://arxiv.org/abs/2609.20989",
-   "date": "22/09"
+   "title": "CQ4OE: A benchmark for assessing LLM-assisted ontology generation from competency questions",
+   "url": "https://arxiv.org/abs/2609.26029",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "PlantShade: Predicting Plant Shadows for Lighting-Aware Robotic Agricultural Operation",
-   "url": "https://arxiv.org/abs/2609.21059",
-   "date": "22/09"
+   "title": "MAC-RRG: Iterative Multi-Agent Collaboration for X-ray Radiology Report Generation",
+   "url": "https://arxiv.org/abs/2609.26124",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "From Task Success to Productive Success: Evaluating Human-AI Collaboration by Quality and Cost",
-   "url": "https://arxiv.org/abs/2609.21117",
-   "date": "22/09"
+   "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
+   "url": "https://arxiv.org/abs/2609.26550",
+   "date": "23/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Talking Past the Machine: Morality, Politeness, and Alignment in Human-AI Dialogue",
-   "url": "https://arxiv.org/abs/2609.21401",
-   "date": "22/09"
+   "title": "Financial sentiment analysis using FinBERT with application in predicting stock movement",
+   "url": "https://arxiv.org/abs/2306.02136",
+   "date": "23/09"
   },
   {
    "p": 5,
-   "tag": "AI",
+   "tag": "Semis",
    "src": "arXiv cs.AI",
-   "title": "Micro-Collaborative Poisoning: A Distributed Attack on RAG Systems",
-   "url": "https://arxiv.org/abs/2609.21573",
-   "date": "22/09"
+   "title": "Predictive Uncertainty for Neural CAE Surrogates",
+   "url": "https://arxiv.org/abs/2609.25430",
+   "date": "23/09"
   },
   {
    "p": 5,
@@ -152,6 +136,22 @@
    "title": "Measuring and Projecting U.S. Investment in Semiconductor Manufacturing Capacity -- by David M. Byrne, Robert J. Kurtzman, Heidi L. Williams",
    "url": "https://www.nber.org/papers/w35779#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "Modeling interest rate swap volatility with GARCH processes",
+   "url": "https://arxiv.org/abs/2609.25965",
+   "date": "23/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "The Virtue of Sparsity in Complexity",
+   "url": "https://arxiv.org/abs/2604.17166",
+   "date": "23/09"
   },
   {
    "p": 4,
