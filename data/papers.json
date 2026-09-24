@@ -1,53 +1,53 @@
 {
- "asof": "23/09/2026",
+ "asof": "24/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The network advantage: benefits of interregional scientific knowledge spillovers on AI patenting",
-   "url": "https://arxiv.org/abs/2609.26604",
-   "date": "23/09"
+   "title": "When Trust Attracts Fraud: AI and Trust Arbitrage",
+   "url": "https://arxiv.org/abs/2609.27404",
+   "date": "24/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The Informational Content in Lepto-Variance and Its Relation to Higher Moments",
-   "url": "https://arxiv.org/abs/2609.25144",
-   "date": "23/09"
+   "title": "Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails for financial operations in DACH",
+   "url": "https://arxiv.org/abs/2609.27632",
+   "date": "24/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Seeing Is Not Perceiving: When Synthetic Consumers Can and Cannot Pretest Visual Marketing",
-   "url": "https://arxiv.org/abs/2609.25677",
-   "date": "23/09"
+   "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
+   "url": "https://arxiv.org/abs/2609.27636",
+   "date": "24/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Little Impact of ChatGPT on High School Test Scores",
-   "url": "https://arxiv.org/abs/2605.08812",
-   "date": "23/09"
+   "title": "Mining Meaning: Measurement Error in AI-Assisted Literature Reviews",
+   "url": "https://arxiv.org/abs/2609.27686",
+   "date": "24/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Data-Driven Measures of High-Frequency Trading",
-   "url": "https://arxiv.org/abs/2608.00858",
-   "date": "23/09"
+   "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+   "url": "https://arxiv.org/abs/2609.28372",
+   "date": "24/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Beyond Agent Architecture: Execution Assumptions and Reproducibility in LLM-Based Trading Systems",
-   "url": "https://arxiv.org/abs/2606.08285",
-   "date": "23/09"
+   "title": "Propose, Don't Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors",
+   "url": "https://arxiv.org/abs/2609.27051",
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -55,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
    "url": "https://arxiv.org/abs/2609.25010",
-   "date": "23/09"
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -63,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "Spectra: A Rules-Driven LLM Pipeline for Automated KYC Document Processing",
    "url": "https://arxiv.org/abs/2609.25474",
-   "date": "23/09"
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -71,7 +71,15 @@
    "src": "arXiv cs.AI",
    "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
    "url": "https://arxiv.org/abs/2609.25620",
-   "date": "23/09"
+   "date": "24/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Seeing Is Not Perceiving: When Synthetic Consumers Can and Cannot Pretest Visual Marketing",
+   "url": "https://arxiv.org/abs/2609.25677",
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -79,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "CQ4OE: A benchmark for assessing LLM-assisted ontology generation from competency questions",
    "url": "https://arxiv.org/abs/2609.26029",
-   "date": "23/09"
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -87,7 +95,7 @@
    "src": "arXiv cs.AI",
    "title": "MAC-RRG: Iterative Multi-Agent Collaboration for X-ray Radiology Report Generation",
    "url": "https://arxiv.org/abs/2609.26124",
-   "date": "23/09"
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -95,7 +103,7 @@
    "src": "arXiv cs.AI",
    "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
    "url": "https://arxiv.org/abs/2609.26550",
-   "date": "23/09"
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -103,15 +111,7 @@
    "src": "arXiv cs.AI",
    "title": "Financial sentiment analysis using FinBERT with application in predicting stock movement",
    "url": "https://arxiv.org/abs/2306.02136",
-   "date": "23/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "Predictive Uncertainty for Neural CAE Surrogates",
-   "url": "https://arxiv.org/abs/2609.25430",
-   "date": "23/09"
+   "date": "24/09"
   },
   {
    "p": 5,
@@ -139,19 +139,19 @@
   },
   {
    "p": 4,
-   "tag": "Macro/Rates",
+   "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Modeling interest rate swap volatility with GARCH processes",
-   "url": "https://arxiv.org/abs/2609.25965",
-   "date": "23/09"
+   "title": "Active Portfolio Management in Concentrated Equity Markets",
+   "url": "https://arxiv.org/abs/2609.27113",
+   "date": "24/09"
   },
   {
    "p": 4,
-   "tag": "Equities",
+   "tag": "Macro/Rates",
    "src": "arXiv q-fin",
-   "title": "The Virtue of Sparsity in Complexity",
-   "url": "https://arxiv.org/abs/2604.17166",
-   "date": "23/09"
+   "title": "Sovereign Grassroots Currencies: A CBDC Architecture for Credit and Monetary Policy (Full Version)",
+   "url": "https://arxiv.org/abs/2609.27727",
+   "date": "24/09"
   },
   {
    "p": 4,
