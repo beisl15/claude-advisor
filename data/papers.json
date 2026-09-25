@@ -1,117 +1,125 @@
 {
- "asof": "24/09/2026",
+ "asof": "25/09/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "When Trust Attracts Fraud: AI and Trust Arbitrage",
-   "url": "https://arxiv.org/abs/2609.27404",
-   "date": "24/09"
+   "title": "AI in Science: Early Insights",
+   "url": "https://arxiv.org/abs/2609.28504",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails for financial operations in DACH",
-   "url": "https://arxiv.org/abs/2609.27632",
-   "date": "24/09"
+   "title": "From Individual to Social Imitation: How Communities Expand Organizational Search",
+   "url": "https://arxiv.org/abs/2609.28675",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
-   "url": "https://arxiv.org/abs/2609.27636",
-   "date": "24/09"
+   "title": "Improving Today, Narrowing Tomorrow: Collective Learning, Diversity, and Generativity",
+   "url": "https://arxiv.org/abs/2609.28681",
+   "date": "25/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Decision-Relevant Information in Partially Observed Production Networks",
+   "url": "https://arxiv.org/abs/2609.29905",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Mining Meaning: Measurement Error in AI-Assisted Literature Reviews",
-   "url": "https://arxiv.org/abs/2609.27686",
-   "date": "24/09"
+   "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
+   "url": "https://arxiv.org/abs/2609.29108",
+   "date": "25/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Critical Mathematical Economics and Progressive Computer Science",
+   "url": "https://arxiv.org/abs/2502.06015",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
-   "url": "https://arxiv.org/abs/2609.28372",
-   "date": "24/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Propose, Don't Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors",
-   "url": "https://arxiv.org/abs/2609.27051",
-   "date": "24/09"
+   "title": "The Cross-Section of Stock Returns and AI Exposure",
+   "url": "https://arxiv.org/abs/2606.30583",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Do Synthetic Personas Predict Real Audience Response? A Sim-to-Real Study Where a No-Persona Baseline Beats Persona-Based Copy Simulation",
-   "url": "https://arxiv.org/abs/2609.25010",
-   "date": "24/09"
+   "title": "Agent Memory with Episodic Retrieval for Financial Decision-Making",
+   "url": "https://arxiv.org/abs/2609.28771",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Spectra: A Rules-Driven LLM Pipeline for Automated KYC Document Processing",
-   "url": "https://arxiv.org/abs/2609.25474",
-   "date": "24/09"
+   "title": "Forecast-Dojo: Replayable Environments for Benchmarking and Training LLM Forecasting Agents",
+   "url": "https://arxiv.org/abs/2609.28876",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "ChatT2: An Adaptive Framework for Developing a Large Language Model-Based Agent for Natural Product Domain Research",
-   "url": "https://arxiv.org/abs/2609.25620",
-   "date": "24/09"
+   "title": "AlphaDiverse: Post-Training Local Quantitative Research Agents for Diverse Exploration in Alpha Factor Mining",
+   "url": "https://arxiv.org/abs/2609.29014",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Seeing Is Not Perceiving: When Synthetic Consumers Can and Cannot Pretest Visual Marketing",
-   "url": "https://arxiv.org/abs/2609.25677",
-   "date": "24/09"
+   "title": "When No One Owns the Judgment: Accountability Under Contribution Dissolution in Human-AI Collaboration",
+   "url": "https://arxiv.org/abs/2609.29312",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "CQ4OE: A benchmark for assessing LLM-assisted ontology generation from competency questions",
-   "url": "https://arxiv.org/abs/2609.26029",
-   "date": "24/09"
+   "title": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
+   "url": "https://arxiv.org/abs/2609.29781",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "MAC-RRG: Iterative Multi-Agent Collaboration for X-ray Radiology Report Generation",
-   "url": "https://arxiv.org/abs/2609.26124",
-   "date": "24/09"
+   "title": "AI-Moderated Interviews for Market Research and Digital Twins Calibration",
+   "url": "https://arxiv.org/abs/2609.29143",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "JEV-as-a-Judge: Accept When Confident, Escalate When Unsure",
-   "url": "https://arxiv.org/abs/2609.26550",
-   "date": "24/09"
+   "title": "DocuTeam: Mixed-Initiative Multi-Agent Discussions around Evolving Documents",
+   "url": "https://arxiv.org/abs/2609.29309",
+   "date": "25/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Financial sentiment analysis using FinBERT with application in predicting stock movement",
-   "url": "https://arxiv.org/abs/2306.02136",
-   "date": "24/09"
+   "title": "Automated Regulatory Compliance Question Answering in Financial Services with Domain-Adapted Retrieval-Augmented Generation",
+   "url": "https://arxiv.org/abs/2609.30009",
+   "date": "25/09"
   },
   {
    "p": 5,
@@ -141,17 +149,9 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Active Portfolio Management in Concentrated Equity Markets",
-   "url": "https://arxiv.org/abs/2609.27113",
-   "date": "24/09"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Sovereign Grassroots Currencies: A CBDC Architecture for Credit and Monetary Policy (Full Version)",
-   "url": "https://arxiv.org/abs/2609.27727",
-   "date": "24/09"
+   "title": "Cost-Sensitive Online Window Size Selection for Portfolio Management",
+   "url": "https://arxiv.org/abs/2609.29887",
+   "date": "25/09"
   },
   {
    "p": 4,
