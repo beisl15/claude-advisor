@@ -1,126 +1,6 @@
 {
- "asof": "25/09/2026",
+ "asof": "26/09/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI in Science: Early Insights",
-   "url": "https://arxiv.org/abs/2609.28504",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "From Individual to Social Imitation: How Communities Expand Organizational Search",
-   "url": "https://arxiv.org/abs/2609.28675",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Improving Today, Narrowing Tomorrow: Collective Learning, Diversity, and Generativity",
-   "url": "https://arxiv.org/abs/2609.28681",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "Decision-Relevant Information in Partially Observed Production Networks",
-   "url": "https://arxiv.org/abs/2609.29905",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Functional Architecture of European Electricity Trading Markets: Requirements for AI Supported Trading Systems under Regulatory Constraints",
-   "url": "https://arxiv.org/abs/2609.29108",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "Critical Mathematical Economics and Progressive Computer Science",
-   "url": "https://arxiv.org/abs/2502.06015",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Cross-Section of Stock Returns and AI Exposure",
-   "url": "https://arxiv.org/abs/2606.30583",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Agent Memory with Episodic Retrieval for Financial Decision-Making",
-   "url": "https://arxiv.org/abs/2609.28771",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Forecast-Dojo: Replayable Environments for Benchmarking and Training LLM Forecasting Agents",
-   "url": "https://arxiv.org/abs/2609.28876",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "AlphaDiverse: Post-Training Local Quantitative Research Agents for Diverse Exploration in Alpha Factor Mining",
-   "url": "https://arxiv.org/abs/2609.29014",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "When No One Owns the Judgment: Accountability Under Contribution Dissolution in Human-AI Collaboration",
-   "url": "https://arxiv.org/abs/2609.29312",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Hallucination Neurons and Where to Find Them: An Investigation into the existence of Hallucination Neurons",
-   "url": "https://arxiv.org/abs/2609.29781",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "AI-Moderated Interviews for Market Research and Digital Twins Calibration",
-   "url": "https://arxiv.org/abs/2609.29143",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "DocuTeam: Mixed-Initiative Multi-Agent Discussions around Evolving Documents",
-   "url": "https://arxiv.org/abs/2609.29309",
-   "date": "25/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Automated Regulatory Compliance Question Answering in Financial Services with Domain-Adapted Retrieval-Augmented Generation",
-   "url": "https://arxiv.org/abs/2609.30009",
-   "date": "25/09"
-  },
   {
    "p": 5,
    "tag": "AI",
@@ -144,14 +24,6 @@
    "title": "Measuring and Projecting U.S. Investment in Semiconductor Manufacturing Capacity -- by David M. Byrne, Robert J. Kurtzman, Heidi L. Williams",
    "url": "https://www.nber.org/papers/w35779#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Cost-Sensitive Online Window Size Selection for Portfolio Management",
-   "url": "https://arxiv.org/abs/2609.29887",
-   "date": "25/09"
   },
   {
    "p": 4,
@@ -205,6 +77,14 @@
    "p": 3,
    "tag": "Banks/Fintech",
    "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
+   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
+   "date": "25/09"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
    "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
    "date": "21/09"
@@ -216,14 +96,6 @@
    "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
    "date": "20/08"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
-   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
-   "date": "11/08"
   },
   {
    "p": 3,
