@@ -1,6 +1,110 @@
 {
- "asof": "27/09/2026",
+ "asof": "28/09/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "PriceBench: A Diagnostic Benchmark for Price, Quality, and Brand Preferences in LLM Booking Agents",
+   "url": "https://arxiv.org/abs/2609.31468",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
+   "url": "https://arxiv.org/abs/2609.30940",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Same Text, Different Numbers: The Divergence of LLM-Based Measures",
+   "url": "https://arxiv.org/abs/2609.31013",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "SPX-VIX Risk Computations Via Perturbed Optimal Transport",
+   "url": "https://arxiv.org/abs/2603.10857",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Information Aggregation with AI Agents",
+   "url": "https://arxiv.org/abs/2604.20050",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI in Science: Early Insights",
+   "url": "https://arxiv.org/abs/2609.28504",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Price of Thought: Does Test-Time Reasoning Pay in LLM Trading?",
+   "url": "https://arxiv.org/abs/2609.30705",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Strategic Self-Consistency",
+   "url": "https://arxiv.org/abs/2609.30352",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "A Framework for Identifying, Categorizing, and Explaining Bias in AI-Generated Code",
+   "url": "https://arxiv.org/abs/2609.30642",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Warned alike, AI agents avoid the less-crowded road while people take it",
+   "url": "https://arxiv.org/abs/2609.30883",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable",
+   "url": "https://arxiv.org/abs/2608.27167",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "An AI Agent Execution Environment to Safeguard User Data",
+   "url": "https://arxiv.org/abs/2604.19657",
+   "date": "28/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Hill Sampling for Test-Time Scaling: A Simple and Better Alternative to Repeated Sampling, Evolution, and Training",
+   "url": "https://arxiv.org/abs/2609.25510",
+   "date": "28/09"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -19,11 +123,83 @@
   },
   {
    "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "An LLM Workflow That Reproduces, Improves, and Extends Published Economics Research -- by Matthew Schwartz, Isaiah Andrews, Jesse M. Shapiro",
+   "url": "https://www.nber.org/papers/w35782#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "(How) Do We Teach Emotions? -- by Anjali Adukia, Matthew Bonci, Paula Dastres Gallardo, Emileigh Harrison, Jake Nicoll, Teodora Szasz",
+   "url": "https://www.nber.org/papers/w35789#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel -- by Alex Blumenfeld, Jonathon Hazell, Chen Lian, Andreas Schaab",
+   "url": "https://www.nber.org/papers/w35793#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "The Early Impacts of AI on Employment among Recent College Graduates -- by Robert W. Fairlie, Jane Wu",
+   "url": "https://www.nber.org/papers/w35796#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Deep Learning as a Projection Method for Solving Economic Models -- by Kenneth L. Judd, Karl Schmedders",
+   "url": "https://www.nber.org/papers/w35806#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
    "tag": "Semis",
    "src": "NBER",
-   "title": "Measuring and Projecting U.S. Investment in Semiconductor Manufacturing Capacity -- by David M. Byrne, Robert J. Kurtzman, Heidi L. Williams",
-   "url": "https://www.nber.org/papers/w35779#fromrss",
+   "title": "Transportation Bottlenecks and Aggregate Shocks -- by Giulia Brancaccio, Myrto Kalouptsidi, Theodore Papageorgiou, Yixin Zhou",
+   "url": "https://www.nber.org/papers/w35812#fromrss",
    "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Liability and Pricing of Dual-Use AI -- by Joshua S. Gans",
+   "url": "https://www.nber.org/papers/w35828#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Taming the Option Factor Zoo: A High-Dimensional Analysis",
+   "url": "https://arxiv.org/abs/2609.31263",
+   "date": "28/09"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "Tolerable Inflation, Intolerable Uncertainty",
+   "url": "https://arxiv.org/abs/2609.31512",
+   "date": "28/09"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv cs.AI",
+   "title": "Insurance Reserve Intelligence Platform",
+   "url": "https://arxiv.org/abs/2609.30765",
+   "date": "28/09"
   },
   {
    "p": 4,
@@ -43,75 +219,27 @@
   },
   {
    "p": 4,
-   "tag": "Macro/Rates",
+   "tag": "Equities",
    "src": "NBER",
-   "title": "Fiscal Populism and Monetary Policy Rules -- by Luis I. Jácome, Nicolás E. Magud, Samuel Pienknagura, Martín Uribe",
-   "url": "https://www.nber.org/papers/w35758#fromrss",
+   "title": "Terra Incognita: The Economics of a Shrinking World -- by Jesús Fernández-Villaverde, Patrick Norrick",
+   "url": "https://www.nber.org/papers/w35809#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Expectations and the Term Structure of Interest Rates -- by Pooya Molavi, Alireza Tahbaz-Salehi, Andrea Vedolin",
-   "url": "https://www.nber.org/papers/w35766#fromrss",
+   "title": "Early Results from the RESET Demonstration Project: Inflation in Food at Home -- by Steve Coffey, Gabriel Ehrlich, John C. Haltiwanger, Ron S. Jarmin, David Johnson, Tod Johnson, Matthew D. Shapiro",
+   "url": "https://www.nber.org/papers/w35817#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "When Tax Shields Shrink: Interest Deductibility Limitations and Corporate Innovation -- by Xinru Chen, Mara Faccio, Stefano Manfredonia, Jin Xu",
-   "url": "https://www.nber.org/papers/w35775#fromrss",
+   "title": "Windows of Opportunity in Early Childhood: A Dynamic Model of Multidimensional Development -- by Orazio Attanasio, Raquel Bernal, Michele Giannola, Milagros Nores",
+   "url": "https://www.nber.org/papers/w35818#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Regulating Entrepreneurship: The Case of Capital Requirements -- by Annika Bacher, Andreas Fagereng, Marius A. K. Ring, Ella Getz Wold",
-   "url": "https://www.nber.org/papers/w35780#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
-   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
-   "date": "25/09"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
-   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
-   "date": "21/09"
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
-   "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
-   "date": "20/08"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "The Remains of the Trade: The U.S.–China Trade War and its Aftermath -- by Pol Antràs, Adrian Kulesza, Andrea F. Presbitero",
-   "url": "https://www.nber.org/papers/w35785#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
-   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
-   "date": "03/09"
   }
  ]
 }
