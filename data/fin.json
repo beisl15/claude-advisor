@@ -4461,9 +4461,8 @@
   ]
  },
  "ASML": {
-  "src": "ASML IR (US GAAP quarterly summary)",
+  "src": "Yahoo Finance (intl)",
   "asof": "Q2'26",
-  "moeda": "EUR",
   "q": [
    "Q2'25",
    "Q3'25",
@@ -4507,32 +4506,32 @@
    7.58
   ],
   "capex": [
-   null,
-   null,
-   null,
-   null,
+   0.429,
+   0.315,
+   0.47,
+   0.422,
    null
   ],
   "div": [
-   null,
-   null,
-   null,
-   null,
+   0.714,
+   0.62,
+   0.619,
+   0.617,
    null
   ],
   "buyback": [
-   null,
-   null,
-   null,
-   null,
+   1.485,
+   0.172,
+   1.7,
+   1.0,
    null
   ],
   "netdebt": [
-   null,
-   null,
-   null,
-   null,
-   null
+   -3.55,
+   -2.424,
+   -8.931,
+   -5.671,
+   -5.597
   ]
  },
  "TSM": {

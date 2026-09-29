@@ -1,109 +1,141 @@
 {
- "asof": "28/09/2026",
+ "asof": "29/09/2026",
  "items": [
   {
    "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "PriceBench: A Diagnostic Benchmark for Price, Quality, and Brand Preferences in LLM Booking Agents",
-   "url": "https://arxiv.org/abs/2609.31468",
-   "date": "28/09"
+   "tag": "Semis",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Measuring and Projecting U.S. Investment in Semiconductor Manufacturing Capacity",
+   "url": "https://www.federalreserve.gov/econres/feds/measuring-and-projecting-us-investment-in-semiconductor-manufacturing-capacity.htm",
+   "date": "29/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Financial Fragility in Societies of LLM Agents: Coordination Failures and Stabilizing Mechanisms",
-   "url": "https://arxiv.org/abs/2609.30940",
-   "date": "28/09"
+   "title": "When Less Is More: Managing AI Adoption with Adaptive Incentive Design",
+   "url": "https://arxiv.org/abs/2609.32859",
+   "date": "29/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Same Text, Different Numbers: The Divergence of LLM-Based Measures",
-   "url": "https://arxiv.org/abs/2609.31013",
-   "date": "28/09"
+   "title": "Taming the Greeks: Option Portfolios with Inductive Biases",
+   "url": "https://arxiv.org/abs/2609.33767",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI-based matching improves refugee employment in a double-blind randomized trial",
+   "url": "https://arxiv.org/abs/2609.35448",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Evolution of Market Microstructure in the Age of AI",
+   "url": "https://arxiv.org/abs/2609.33058",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs",
+   "url": "https://arxiv.org/abs/2609.33470",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Deep kernel hedging",
+   "url": "https://arxiv.org/abs/2609.34474",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Should I State or Should I Show? Aligning AI with Human Preferences",
+   "url": "https://arxiv.org/abs/2603.29317",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "What Jobs Can AI Learn? Measuring Exposure by Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2605.02598",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Working with AI: A Design Framework for Human-AI Collaboration",
+   "url": "https://arxiv.org/abs/2609.31793",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "IndustryLLM: Failure-Driven LLM Training for Industrial Procurement",
+   "url": "https://arxiv.org/abs/2609.31871",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "EmailBench: A Benchmark for Evaluating LLM Agents on Enterprise Email and Productivity Tasks",
+   "url": "https://arxiv.org/abs/2609.31906",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Porimon: An LLM-Based Pok\\'emon Battle Agent Enhanced by Long/Short-Term Knowledge Augmented Generation",
+   "url": "https://arxiv.org/abs/2609.32544",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Artificial intelligences and human scientists exhibit complementary strengths in theory building",
+   "url": "https://arxiv.org/abs/2609.32562",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Improving LLM Collaboration via Multi-Agent Preference Learning",
+   "url": "https://arxiv.org/abs/2609.32827",
+   "date": "29/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "FinancialAuditBench: Benchmark Construction under Differential Privacy Using Real-World Priors",
+   "url": "https://arxiv.org/abs/2609.32835",
+   "date": "29/09"
   },
   {
    "p": 5,
    "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "SPX-VIX Risk Computations Via Perturbed Optimal Transport",
-   "url": "https://arxiv.org/abs/2603.10857",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Information Aggregation with AI Agents",
-   "url": "https://arxiv.org/abs/2604.20050",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI in Science: Early Insights",
-   "url": "https://arxiv.org/abs/2609.28504",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The Price of Thought: Does Test-Time Reasoning Pay in LLM Trading?",
-   "url": "https://arxiv.org/abs/2609.30705",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Strategic Self-Consistency",
-   "url": "https://arxiv.org/abs/2609.30352",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "A Framework for Identifying, Categorizing, and Explaining Bias in AI-Generated Code",
-   "url": "https://arxiv.org/abs/2609.30642",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Warned alike, AI agents avoid the less-crowded road while people take it",
-   "url": "https://arxiv.org/abs/2609.30883",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Calibrated Enough to Know, Not Calibrated to Act: Fabricated Evidence Makes LLM Agents Commit to the Unknowable",
-   "url": "https://arxiv.org/abs/2608.27167",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "An AI Agent Execution Environment to Safeguard User Data",
-   "url": "https://arxiv.org/abs/2604.19657",
-   "date": "28/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Hill Sampling for Test-Time Scaling: A Simple and Better Alternative to Repeated Sampling, Evolution, and Training",
-   "url": "https://arxiv.org/abs/2609.25510",
-   "date": "28/09"
+   "title": "BudgetVerify: Budget-Tiered Verification for Financial QA",
+   "url": "https://arxiv.org/abs/2609.33052",
+   "date": "29/09"
   },
   {
    "p": 5,
@@ -179,30 +211,6 @@
   },
   {
    "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Taming the Option Factor Zoo: A High-Dimensional Analysis",
-   "url": "https://arxiv.org/abs/2609.31263",
-   "date": "28/09"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Tolerable Inflation, Intolerable Uncertainty",
-   "url": "https://arxiv.org/abs/2609.31512",
-   "date": "28/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv cs.AI",
-   "title": "Insurance Reserve Intelligence Platform",
-   "url": "https://arxiv.org/abs/2609.30765",
-   "date": "28/09"
-  },
-  {
-   "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Optimal Pooling in Taylor Rule Estimation with Multiple-Horizon Forecast Panels",
@@ -231,14 +239,6 @@
    "src": "NBER",
    "title": "Early Results from the RESET Demonstration Project: Inflation in Food at Home -- by Steve Coffey, Gabriel Ehrlich, John C. Haltiwanger, Ron S. Jarmin, David Johnson, Tod Johnson, Matthew D. Shapiro",
    "url": "https://www.nber.org/papers/w35817#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Windows of Opportunity in Early Childhood: A Dynamic Model of Multidimensional Development -- by Orazio Attanasio, Raquel Bernal, Michele Giannola, Milagros Nores",
-   "url": "https://www.nber.org/papers/w35818#fromrss",
    "date": ""
   }
  ]
