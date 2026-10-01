@@ -1,77 +1,93 @@
 {
- "asof": "30/09/2026",
+ "asof": "01/10/2026",
  "items": [
   {
    "p": 5,
-   "tag": "Semis",
+   "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The Efficient Frontier from a LASSO Solver",
-   "url": "https://arxiv.org/abs/2609.37108",
-   "date": "30/09"
+   "title": "QuantCode Model: Specializing Language Models for Executable Algorithmic Trading Code",
+   "url": "https://arxiv.org/abs/2609.39420",
+   "date": "01/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Large Language Model-Driven Small-Capitalization Trading: Integrating Financial News Sentiment, Macroeconomic Indicators, and Technical Signals",
+   "url": "https://arxiv.org/abs/2608.12283",
+   "date": "01/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Agent-Facing Information Design in LLM Tool Registries: A Preregistered Test of Rhetoric, Position and Structure",
+   "url": "https://arxiv.org/abs/2605.23916",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Is Human-Readable Text Necessary for Effective LLM Fine-Tuning?",
-   "url": "https://arxiv.org/abs/2609.35868",
-   "date": "30/09"
+   "title": "AI Agents are Vulnerable to Radicalization",
+   "url": "https://arxiv.org/abs/2609.38296",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "An Exact Generate - Transform Decomposition of Small-LLM Team Scaling Across Orchestration Architectures",
-   "url": "https://arxiv.org/abs/2609.36104",
-   "date": "30/09"
+   "title": "PrivMeSA: Privacy-Aware Self-Evolving Multi-Agent System for Medicine via Local-Remote LLM Collaboration",
+   "url": "https://arxiv.org/abs/2609.38458",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Human-AI Collaboration: From Paradoxes to Patterns",
-   "url": "https://arxiv.org/abs/2609.36481",
-   "date": "30/09"
+   "title": "Reasoning Externalization for Faithful Large Language Model Narratives of Stock Return Predictions",
+   "url": "https://arxiv.org/abs/2609.38869",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AI as a Compiler: Compiling Triton kernels without the Triton compiler",
-   "url": "https://arxiv.org/abs/2609.36800",
-   "date": "30/09"
+   "title": "STRATA: Self-Learning Through Role-Aligned Tiered Agents for Real-Time Strategy Games",
+   "url": "https://arxiv.org/abs/2609.38881",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Upstream Messages Override Correct Answers: A Controlled Study of Multi-Agent LLM Collaboration",
-   "url": "https://arxiv.org/abs/2609.36855",
-   "date": "30/09"
+   "title": "Targeted Retrieval, Compact Representations: How CoT Reasoning Improves Long-Context Counting",
+   "url": "https://arxiv.org/abs/2609.38958",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AnyAct: Universal Action for Self-Evolving Agents",
-   "url": "https://arxiv.org/abs/2609.37025",
-   "date": "30/09"
+   "title": "Multi-LLM Collaborative Alignment via Stackelberg Games",
+   "url": "https://arxiv.org/abs/2609.39076",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing",
-   "url": "https://arxiv.org/abs/2609.37402",
-   "date": "30/09"
+   "title": "Reinforcing Multimodal Reasoning via Token-Level Perception-Grounded Advantage Estimation",
+   "url": "https://arxiv.org/abs/2609.39168",
+   "date": "01/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "EnterpriseBench: Benchmarking LLM Agents on Enterprise-Level Strategic Reasoning and Decision-Making",
-   "url": "https://arxiv.org/abs/2609.37658",
-   "date": "30/09"
+   "title": "MiniRep: Robust Reputation-Based Aggregation for Multi-Agent Debate",
+   "url": "https://arxiv.org/abs/2609.39297",
+   "date": "01/10"
   },
   {
    "p": 5,
@@ -155,27 +171,19 @@
   },
   {
    "p": 4,
-   "tag": "Equities",
+   "tag": "Macro/Rates",
    "src": "arXiv q-fin",
-   "title": "Finite-Horizon Reversible Investment under Multi-Factor Dynamics",
-   "url": "https://arxiv.org/abs/2609.36405",
-   "date": "30/09"
+   "title": "Multiperiod bond portfolio optimization with transaction costs using a Markov Decision process",
+   "url": "https://arxiv.org/abs/2609.38765",
+   "date": "01/10"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Global Structure and Local Specifications in Sublinear Valuation",
-   "url": "https://arxiv.org/abs/2609.37881",
-   "date": "30/09"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "A multi-view contrastive learning framework for spatial embeddings in risk modelling",
-   "url": "https://arxiv.org/abs/2511.17954",
-   "date": "30/09"
+   "title": "Variance-Corrected Multi-Asset Equity Simulation with Hybrid Hidden Markov Marginals",
+   "url": "https://arxiv.org/abs/2603.10202",
+   "date": "01/10"
   },
   {
    "p": 4,
@@ -232,14 +240,6 @@
    "title": "Subjective Models of the Macroeconomy and the Transmission of Monetary Policy -- by Francesco D’Acunto, Dimitris Georgarakos, Geoff Kenny, Michael Weber",
    "url": "https://www.nber.org/papers/w35831#fromrss",
    "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "arXiv q-fin",
-   "title": "Beyond the Coast: an Empirical Assessment of the Kaldor-Verdoorn Law in Chinese Provinces",
-   "url": "https://arxiv.org/abs/2609.37051",
-   "date": "30/09"
   }
  ]
 }
