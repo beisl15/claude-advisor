@@ -1,134 +1,6 @@
 {
- "asof": "02/10/2026",
+ "asof": "03/10/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Modeling Shipping Emissions: Machine Learning, Engineering, and Policy Counterfactuals",
-   "url": "https://arxiv.org/abs/2610.01008",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI as Coordination-Compressing Capital: Task Reallocation, Organizational Redesign, and the Regime Fork",
-   "url": "https://arxiv.org/abs/2602.16078",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Convergence to collusion in algorithmic pricing",
-   "url": "https://arxiv.org/abs/2604.15825",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "BR/EM",
-   "src": "arXiv q-fin",
-   "title": "How optimistic inflow forecasts distort dispatch, prices, and contracts in hydro-dominated power systems: evidence from Brazil",
-   "url": "https://arxiv.org/abs/2607.00504",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Firm Valuation When AI Shapes the Business Model: A Milestone-Based Real-Options Framework for the AI Valuation Uncertainty Problem",
-   "url": "https://arxiv.org/abs/2609.24181",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Compliant AI Infrastructure for Regulated Finance: A tiered multi-agent framework with DLT audit trails for financial operations in DACH",
-   "url": "https://arxiv.org/abs/2609.27632",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Multi-Agent AI Architecture for Regulated Insurers: A generic AI framework under Solvency II and the AI Act in Austria and Germany",
-   "url": "https://arxiv.org/abs/2609.27636",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI Behavioral Science: A Framework and Agenda",
-   "url": "https://arxiv.org/abs/2509.13323",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Spatial Strategies, Not Actions: Vector-Quantized Geodesics as Tools for LLM-Driven Agents",
-   "url": "https://arxiv.org/abs/2610.00613",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "ReLiveGym: Evaluating Long-Lived Agents over Weeks of Replayed Reality",
-   "url": "https://arxiv.org/abs/2610.00710",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Grounding Large Language Models in DSGE Simulators for Policy Generation and Forecasting",
-   "url": "https://arxiv.org/abs/2610.01128",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Reputation, Strategy, and Emotion Effects on Generative AI Cooperation: A Comparison Across Reasoning and Non-Reasoning Models",
-   "url": "https://arxiv.org/abs/2610.01222",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Learning to Ask: Information Acquisition for SLM-LLM Collaboration, under a budget",
-   "url": "https://arxiv.org/abs/2610.01236",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Trustworthy Data- and ML-Ops for Intelligent Transportation Systems and Logistics",
-   "url": "https://arxiv.org/abs/2610.01282",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Continuous Process-Level Evaluation for Evolving Enterprise AI Agent Skills",
-   "url": "https://arxiv.org/abs/2610.01833",
-   "date": "02/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Temporal-Difference Learning for Dragonchess",
-   "url": "https://arxiv.org/abs/2610.01845",
-   "date": "02/10"
-  },
   {
    "p": 5,
    "tag": "Semis",
@@ -211,6 +83,14 @@
   },
   {
    "p": 4,
+   "tag": "Equities",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Bells and Whistles of Nowcasting Models: Which Matter and When?",
+   "url": "https://www.federalreserve.gov/econres/feds/bells-and-whistles-of-nowcasting-models-which-matter-and-when.htm",
+   "date": "02/10"
+  },
+  {
+   "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Optimal Pooling in Taylor Rule Estimation with Multiple-Horizon Forecast Panels",
@@ -240,6 +120,62 @@
    "title": "Early Results from the RESET Demonstration Project: Inflation in Food at Home -- by Steve Coffey, Gabriel Ehrlich, John C. Haltiwanger, Ron S. Jarmin, David Johnson, Tod Johnson, Matthew D. Shapiro",
    "url": "https://www.nber.org/papers/w35817#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Windows of Opportunity in Early Childhood: A Dynamic Model of Multidimensional Development -- by Orazio Attanasio, Raquel Bernal, Michele Giannola, Milagros Nores",
+   "url": "https://www.nber.org/papers/w35818#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Economics of Demand-Side and Supply-Side Climate Policies -- by Ryan Kellogg",
+   "url": "https://www.nber.org/papers/w35830#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "Subjective Models of the Macroeconomy and the Transmission of Monetary Policy -- by Francesco D’Acunto, Dimitris Georgarakos, Geoff Kenny, Michael Weber",
+   "url": "https://www.nber.org/papers/w35831#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
+   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
+   "date": "25/09"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
+   "date": "21/09"
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
+   "date": "20/08"
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
   }
  ]
 }
