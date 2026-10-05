@@ -1,6 +1,94 @@
 {
- "asof": "04/10/2026",
+ "asof": "05/10/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management: Mandate Representation and Evidence Control in Switzerland, Germany and Austria",
+   "url": "https://arxiv.org/abs/2610.02863",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement",
+   "url": "https://arxiv.org/abs/2610.02492",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code",
+   "url": "https://arxiv.org/abs/2610.03080",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "DataWeave: Deploying Human-LLM Analytics for Exploratory Structured Data Analysis",
+   "url": "https://arxiv.org/abs/2610.02679",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "SoftGene: Protein Language Model-Enhanced Soft Prompting for Interpretable Gene Set Annotation",
+   "url": "https://arxiv.org/abs/2610.03029",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When Numbers Start Talking: Numerical Signalling and Strategic Behaviour Among LLMs",
+   "url": "https://arxiv.org/abs/2610.03033",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Trading Strategy Optimization via Textual Gradient",
+   "url": "https://arxiv.org/abs/2610.03128",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Becoming Suspicious Across Borders: Algorithmic Extraterritoriality and AI-Driven Financial Surveillance",
+   "url": "https://arxiv.org/abs/2610.03425",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows",
+   "url": "https://arxiv.org/abs/2610.03564",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "S2S-JEPA: Predicting the Predictable at Subseasonal-to-Seasonal Timescales",
+   "url": "https://arxiv.org/abs/2610.03106",
+   "date": "05/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Not Until the Evidence Says So: Teaching LLM Investigators When to Close a Case",
+   "url": "https://arxiv.org/abs/2610.03190",
+   "date": "05/10"
+  },
   {
    "p": 5,
    "tag": "Semis",
@@ -29,57 +117,65 @@
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "An LLM Workflow That Reproduces, Improves, and Extends Published Economics Research -- by Matthew Schwartz, Isaiah Andrews, Jesse M. Shapiro",
-   "url": "https://www.nber.org/papers/w35782#fromrss",
+   "title": "Large Language Models as Voting Mechanisms -- by Raša Karapandža, Yaw Nyarko",
+   "url": "https://www.nber.org/papers/w35839#fromrss",
    "date": ""
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "(How) Do We Teach Emotions? -- by Anjali Adukia, Matthew Bonci, Paula Dastres Gallardo, Emileigh Harrison, Jake Nicoll, Teodora Szasz",
-   "url": "https://www.nber.org/papers/w35789#fromrss",
+   "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations -- by Daniel P. Gross, Dror Shvadron, Hansen Zhang",
+   "url": "https://www.nber.org/papers/w35859#fromrss",
    "date": ""
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "The Macroeconomic Effect of AI: Sizing the Software Engineering Channel -- by Alex Blumenfeld, Jonathon Hazell, Chen Lian, Andreas Schaab",
-   "url": "https://www.nber.org/papers/w35793#fromrss",
+   "title": "Financing the AI Buildout -- by Stijn Van Nieuwerburgh",
+   "url": "https://www.nber.org/papers/w35865#fromrss",
    "date": ""
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "The Early Impacts of AI on Employment among Recent College Graduates -- by Robert W. Fairlie, Jane Wu",
-   "url": "https://www.nber.org/papers/w35796#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Event History Over Scale: Compact Transformers for Low-Latency Limit Order Book Forecasting",
+   "url": "https://arxiv.org/abs/2610.02917",
+   "date": "05/10"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Deep Learning as a Projection Method for Solving Economic Models -- by Kenneth L. Judd, Karl Schmedders",
-   "url": "https://www.nber.org/papers/w35806#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Expected Utility Regret Rule: Minimax and Bayes Optimal Portfolio Choice",
+   "url": "https://arxiv.org/abs/2610.02290",
+   "date": "05/10"
   },
   {
-   "p": 5,
-   "tag": "Semis",
-   "src": "NBER",
-   "title": "Transportation Bottlenecks and Aggregate Shocks -- by Giulia Brancaccio, Myrto Kalouptsidi, Theodore Papageorgiou, Yixin Zhou",
-   "url": "https://www.nber.org/papers/w35812#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Constrained portfolio optimization in a life-cycle model: A deep pricing kernel approach",
+   "url": "https://arxiv.org/abs/2410.20060",
+   "date": "05/10"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Liability and Pricing of Dual-Use AI -- by Joshua S. Gans",
-   "url": "https://www.nber.org/papers/w35828#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Optimal Investment and Consumption in a Stochastic Factor Model",
+   "url": "https://arxiv.org/abs/2509.09452",
+   "date": "05/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Daycare Matching with Siblings: Social Implementation and Welfare Evaluation",
+   "url": "https://arxiv.org/abs/2604.13597",
+   "date": "05/10"
   },
   {
    "p": 4,
@@ -109,40 +205,24 @@
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Terra Incognita: The Economics of a Shrinking World -- by Jesús Fernández-Villaverde, Patrick Norrick",
-   "url": "https://www.nber.org/papers/w35809#fromrss",
+   "title": "Communicating Performance: Textual and Financial Disclosures in Private Equity -- by Josh Lerner, Fiona Paine, Antoinette Schoar",
+   "url": "https://www.nber.org/papers/w35860#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Early Results from the RESET Demonstration Project: Inflation in Food at Home -- by Steve Coffey, Gabriel Ehrlich, John C. Haltiwanger, Ron S. Jarmin, David Johnson, Tod Johnson, Matthew D. Shapiro",
-   "url": "https://www.nber.org/papers/w35817#fromrss",
+   "title": "The Investment Channel of Monetary Policy: Disentangling Firm Heterogeneity -- by Thomas Drechsel, Daniel Lewis, Davide Melcangi, Laura Pilossoph",
+   "url": "https://www.nber.org/papers/w35867#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Windows of Opportunity in Early Childhood: A Dynamic Model of Multidimensional Development -- by Orazio Attanasio, Raquel Bernal, Michele Giannola, Milagros Nores",
-   "url": "https://www.nber.org/papers/w35818#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Economics of Demand-Side and Supply-Side Climate Policies -- by Ryan Kellogg",
-   "url": "https://www.nber.org/papers/w35830#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "Subjective Models of the Macroeconomy and the Transmission of Monetary Policy -- by Francesco D’Acunto, Dimitris Georgarakos, Geoff Kenny, Michael Weber",
-   "url": "https://www.nber.org/papers/w35831#fromrss",
+   "title": "In Utero Exposure to the 1982 Tylenol Recall and Neurodevelopmental Outcomes -- by Christopher M. Worsham, Charles Bray, Joshua Rothman, Brian Kwan, Anupam Jena",
+   "url": "https://www.nber.org/papers/w35873#fromrss",
    "date": ""
   },
   {
@@ -160,22 +240,6 @@
    "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
    "date": "21/09"
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Beyond the Unemployment Rate: A Structural Labor Market Indicator",
-   "url": "https://www.federalreserve.gov/econres/feds/beyond-the-unemployment-rate-a-structural-labor-market-indicator.htm",
-   "date": "20/08"
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
-   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
-   "date": "03/09"
   }
  ]
 }
