@@ -1,93 +1,133 @@
 {
- "asof": "05/10/2026",
+ "asof": "06/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Multi-Agent AI as a Nested Principal-Agent Problem in Private Wealth Management: Mandate Representation and Evidence Control in Switzerland, Germany and Austria",
-   "url": "https://arxiv.org/abs/2610.02863",
-   "date": "05/10"
+   "title": "A study on healthcare expenditure in Italian regions via Symbolic Regression",
+   "url": "https://arxiv.org/abs/2610.04439",
+   "date": "06/10"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "What a Shorter Contest Really Costs: Serial Dependence, Effective Trials, and Evidence from a Rule Change in Professional Esports",
+   "url": "https://arxiv.org/abs/2610.05251",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Right Order, Wrong Scale: Auditing LLM Judges for Occupational AI Measurement",
-   "url": "https://arxiv.org/abs/2610.02492",
-   "date": "05/10"
+   "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
+   "url": "https://arxiv.org/abs/2610.04040",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "MintEval: Do LLMs Implement the Trading Strategy You Asked For? A Behavioural-Equivalence Benchmark for Natural-Language-to-Strategy Code",
-   "url": "https://arxiv.org/abs/2610.03080",
-   "date": "05/10"
+   "title": "Who Keeps the Gains from Personal AI Assistants? Seller Adaptation and the Unassisted in a Language-Model Market Simulation",
+   "url": "https://arxiv.org/abs/2610.05823",
+   "date": "06/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Transformer Based Time-Series Forecasting for Stock",
+   "url": "https://arxiv.org/abs/2502.09625",
+   "date": "06/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Chaining Tasks, Redefining Work: A Theory of AI Automation",
+   "url": "https://arxiv.org/abs/2606.15960",
+   "date": "06/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Experimental Evidence on the Learning Impact of Generative AI",
+   "url": "https://arxiv.org/abs/2607.08849",
+   "date": "06/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "When Marginal Coverage Transfers and the Economics Do Not: A Pre-Registered Study of Conformal Interval Widths as Position-Sizing Scales",
+   "url": "https://arxiv.org/abs/2608.01494",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "DataWeave: Deploying Human-LLM Analytics for Exploratory Structured Data Analysis",
-   "url": "https://arxiv.org/abs/2610.02679",
-   "date": "05/10"
+   "title": "The Reported Engagement with AI Level (REAL) Rating: A Framework for Disclosing Human-AI Collaboration",
+   "url": "https://arxiv.org/abs/2610.04021",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "SoftGene: Protein Language Model-Enhanced Soft Prompting for Interpretable Gene Set Annotation",
-   "url": "https://arxiv.org/abs/2610.03029",
-   "date": "05/10"
+   "title": "EvoCast: Reliable Autonomous Research Agents for Iterative Forecasting Architecture Evolution",
+   "url": "https://arxiv.org/abs/2610.04517",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Numbers Start Talking: Numerical Signalling and Strategic Behaviour Among LLMs",
-   "url": "https://arxiv.org/abs/2610.03033",
-   "date": "05/10"
+   "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
+   "url": "https://arxiv.org/abs/2610.04672",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Trading Strategy Optimization via Textual Gradient",
-   "url": "https://arxiv.org/abs/2610.03128",
-   "date": "05/10"
+   "title": "Dynamic Routing as a New Dimension for Test-time Versatility of LLMs",
+   "url": "https://arxiv.org/abs/2610.04751",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Becoming Suspicious Across Borders: Algorithmic Extraterritoriality and AI-Driven Financial Surveillance",
-   "url": "https://arxiv.org/abs/2610.03425",
-   "date": "05/10"
+   "title": "From Token-Max to Outcome-Max: How You Use AI Determines Its Productivity",
+   "url": "https://arxiv.org/abs/2610.05697",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Knowledge or Calculator? Decomposing the Skill Premium in Verifiable Financial Agent Workflows",
-   "url": "https://arxiv.org/abs/2610.03564",
-   "date": "05/10"
+   "title": "FreSia: Frequency-Semantic Instantiation and Alignment for Multivariate Time Series Analysis",
+   "url": "https://arxiv.org/abs/2610.05726",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "S2S-JEPA: Predicting the Predictable at Subseasonal-to-Seasonal Timescales",
-   "url": "https://arxiv.org/abs/2610.03106",
-   "date": "05/10"
+   "title": "Grounded Joint-Attention Other-Play for Zero-Shot Coordination",
+   "url": "https://arxiv.org/abs/2610.06025",
+   "date": "06/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Not Until the Evidence Says So: Teaching LLM Investigators When to Close a Case",
-   "url": "https://arxiv.org/abs/2610.03190",
-   "date": "05/10"
+   "title": "RollPlace: Improving Macro Placement via Monte Carlo Rollout Search",
+   "url": "https://arxiv.org/abs/2610.06316",
+   "date": "06/10"
   },
   {
    "p": 5,
@@ -136,46 +176,6 @@
    "title": "Financing the AI Buildout -- by Stijn Van Nieuwerburgh",
    "url": "https://www.nber.org/papers/w35865#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Event History Over Scale: Compact Transformers for Low-Latency Limit Order Book Forecasting",
-   "url": "https://arxiv.org/abs/2610.02917",
-   "date": "05/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Expected Utility Regret Rule: Minimax and Bayes Optimal Portfolio Choice",
-   "url": "https://arxiv.org/abs/2610.02290",
-   "date": "05/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Constrained portfolio optimization in a life-cycle model: A deep pricing kernel approach",
-   "url": "https://arxiv.org/abs/2410.20060",
-   "date": "05/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Optimal Investment and Consumption in a Stochastic Factor Model",
-   "url": "https://arxiv.org/abs/2509.09452",
-   "date": "05/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Daycare Matching with Siblings: Social Implementation and Welfare Evaluation",
-   "url": "https://arxiv.org/abs/2604.13597",
-   "date": "05/10"
   },
   {
    "p": 4,
