@@ -1,69 +1,45 @@
 {
- "asof": "06/10/2026",
+ "asof": "07/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "A study on healthcare expenditure in Italian regions via Symbolic Regression",
-   "url": "https://arxiv.org/abs/2610.04439",
-   "date": "06/10"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "What a Shorter Contest Really Costs: Serial Dependence, Effective Trials, and Evidence from a Rule Change in Professional Esports",
-   "url": "https://arxiv.org/abs/2610.05251",
-   "date": "06/10"
+   "title": "FactorBench: A Portfolio-Aware Benchmark for Automated Factor Mining",
+   "url": "https://arxiv.org/abs/2610.06947",
+   "date": "07/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
-   "url": "https://arxiv.org/abs/2610.04040",
-   "date": "06/10"
+   "title": "Reliability of AI Agents: Rater Effects, Drift, and the Return to an Evaluation Program",
+   "url": "https://arxiv.org/abs/2610.07003",
+   "date": "07/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Who Keeps the Gains from Personal AI Assistants? Seller Adaptation and the Unassisted in a Language-Model Market Simulation",
-   "url": "https://arxiv.org/abs/2610.05823",
-   "date": "06/10"
+   "title": "Verified, not generated: expert-verified AI study materials and the distribution of learning gains in a university course",
+   "url": "https://arxiv.org/abs/2610.07097",
+   "date": "07/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Transformer Based Time-Series Forecasting for Stock",
-   "url": "https://arxiv.org/abs/2502.09625",
-   "date": "06/10"
+   "title": "Understanding Interfirm AI Talent Flow Networks through Online Professional Profiles",
+   "url": "https://arxiv.org/abs/2610.08264",
+   "date": "07/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Chaining Tasks, Redefining Work: A Theory of AI Automation",
-   "url": "https://arxiv.org/abs/2606.15960",
-   "date": "06/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Experimental Evidence on the Learning Impact of Generative AI",
-   "url": "https://arxiv.org/abs/2607.08849",
-   "date": "06/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "When Marginal Coverage Transfers and the Economics Do Not: A Pre-Registered Study of Conformal Interval Widths as Position-Sizing Scales",
-   "url": "https://arxiv.org/abs/2608.01494",
-   "date": "06/10"
+   "title": "Data-driven measures of high-frequency trading",
+   "url": "https://arxiv.org/abs/2405.08101",
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -71,7 +47,15 @@
    "src": "arXiv cs.AI",
    "title": "The Reported Engagement with AI Level (REAL) Rating: A Framework for Disclosing Human-AI Collaboration",
    "url": "https://arxiv.org/abs/2610.04021",
-   "date": "06/10"
+   "date": "07/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
+   "url": "https://arxiv.org/abs/2610.04040",
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -79,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "EvoCast: Reliable Autonomous Research Agents for Iterative Forecasting Architecture Evolution",
    "url": "https://arxiv.org/abs/2610.04517",
-   "date": "06/10"
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -87,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
    "url": "https://arxiv.org/abs/2610.04672",
-   "date": "06/10"
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -95,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "Dynamic Routing as a New Dimension for Test-time Versatility of LLMs",
    "url": "https://arxiv.org/abs/2610.04751",
-   "date": "06/10"
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -103,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "From Token-Max to Outcome-Max: How You Use AI Determines Its Productivity",
    "url": "https://arxiv.org/abs/2610.05697",
-   "date": "06/10"
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -111,7 +95,7 @@
    "src": "arXiv cs.AI",
    "title": "FreSia: Frequency-Semantic Instantiation and Alignment for Multivariate Time Series Analysis",
    "url": "https://arxiv.org/abs/2610.05726",
-   "date": "06/10"
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -119,15 +103,7 @@
    "src": "arXiv cs.AI",
    "title": "Grounded Joint-Attention Other-Play for Zero-Shot Coordination",
    "url": "https://arxiv.org/abs/2610.06025",
-   "date": "06/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "RollPlace: Improving Macro Placement via Monte Carlo Rollout Search",
-   "url": "https://arxiv.org/abs/2610.06316",
-   "date": "06/10"
+   "date": "07/10"
   },
   {
    "p": 5,
@@ -180,6 +156,14 @@
   {
    "p": 4,
    "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "The Evolution of Technology Portfolios and Firm Profitability in the European Power Sector",
+   "url": "https://arxiv.org/abs/2601.22167",
+   "date": "07/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Bells and Whistles of Nowcasting Models: Which Matter and When?",
    "url": "https://www.federalreserve.gov/econres/feds/bells-and-whistles-of-nowcasting-models-which-matter-and-when.htm",
@@ -224,6 +208,22 @@
    "title": "In Utero Exposure to the 1982 Tylenol Recall and Neurodevelopmental Outcomes -- by Christopher M. Worsham, Charles Bray, Joshua Rothman, Brian Kwan, Anupam Jena",
    "url": "https://www.nber.org/papers/w35873#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "The Agentic ETF: How Agentic Trading Becomes an Asset Class",
+   "url": "https://arxiv.org/abs/2610.06856",
+   "date": "07/10"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "arXiv q-fin",
+   "title": "A Functional Representation of Credit Behavior for Probability of Default Modeling",
+   "url": "https://arxiv.org/abs/2610.07888",
+   "date": "07/10"
   },
   {
    "p": 3,
