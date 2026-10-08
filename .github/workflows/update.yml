@@ -12,6 +12,12 @@ concurrency:
   group: update-data
   cancel-in-progress: false
 
+# Cada coletor roda por scripts/run_step.py, que grava o veredito em
+# data/_health.json (codigo de saida + o arquivo de saida foi mesmo reescrito).
+# Os steps continuam com continue-on-error -- sem isso um RSS fora do ar derruba
+# o job inteiro. Quem reprova o job e o check_health.py, no fim, DEPOIS do
+# commit: assim o diagnostico ja esta no repo e no banner do dashboard antes de
+# o Actions ficar vermelho e o GitHub mandar o e-mail.
 jobs:
   update:
     runs-on: ubuntu-latest
@@ -21,69 +27,82 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Fundamentos US (SEC EDGAR)
-        env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
-        run: python scripts/fetch_us.py
-        continue-on-error: true
-
       - name: Instalar dependencias
         run: pip install openpyxl
 
+      - name: Fundamentos US (SEC EDGAR)
+        env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
+        run: python scripts/run_step.py us scripts/fetch_us.py --out data/fin.json --min-bytes 2000 --label "Fundamentos US (SEC)"
+        continue-on-error: true
+
       - name: Fundamentos estrangeiras (ASML/TSM/RACE/ABI/NU)
-        run: python scripts/fetch_intl.py
+        run: python scripts/run_step.py intl scripts/fetch_intl.py --out data/fin.json --min-bytes 2000 --label "Fundamentos internacionais (Yahoo)"
         continue-on-error: true
 
       # Roda DEPOIS do fetch_intl: o Yahoo so entrega 5 trimestres da ASML, e este
       # script sobrescreve a entrada com 17, direto da planilha oficial do RI.
       - name: Serie longa ASML (RI oficial)
-        run: python scripts/fetch_ir_asml.py
+        run: python scripts/run_step.py asml scripts/fetch_ir_asml.py --out data/fin.json --min-bytes 2000 --label "Serie longa ASML (RI)"
         continue-on-error: true
 
       # TSM/RACE/ABI/ROXO: fonte secundaria, tambem depois do fetch_intl. Se
       # falhar, o dashboard fica com os 5 trimestres do Yahoo em vez de serie vazia.
       - name: Serie longa TSM/RACE/ABI/ROXO
-        run: python scripts/fetch_sa.py
+        run: python scripts/run_step.py sa scripts/fetch_sa.py --out data/fin.json --min-bytes 2000 --label "Serie longa TSM/RACE/ABI/ROXO"
         continue-on-error: true
 
       # Os dois steps da CVM (fetch_cvm.py / fetch_br.py) sairam em 17/08/2026
       # com o corte dos 10 nomes da B3. Eram o download mais pesado do job.
 
       - name: Cotacao + P/E ao vivo (Yahoo)
-        run: python scripts/fetch_prices.py
+        run: python scripts/run_step.py prices scripts/fetch_prices.py --out data/px_hist.json --min-bytes 5000 --label "Cotacoes + historico (Yahoo)"
+        continue-on-error: true
+
+      - name: Consenso de mercado (stockanalysis /forecast)
+        run: python scripts/run_step.py estimates scripts/fetch_estimates.py --out data/estimates.json --min-bytes 2000 --label "Consenso NTM"
         continue-on-error: true
 
       - name: Release oficial de resultados (SEC 8-K + RI)
         env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
-        run: python scripts/fetch_transcripts.py
+        run: python scripts/run_step.py transcripts scripts/fetch_transcripts.py --out data/transcripts.json --label "Releases oficiais (SEC 8-K)"
         continue-on-error: true
 
       - name: Noticias (multi-fonte; IA se houver chave)
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}   # opcional: ativa ranqueamento por IA
-        run: python scripts/fetch_news.py
+        run: python scripts/run_step.py news scripts/fetch_news.py --out data/news.json --min-bytes 1000 --label "Noticias US/EU/ASIA"
         continue-on-error: true
 
       - name: Papers de research (NBER, BIS, IMF, Fed, arXiv)
-        run: python scripts/fetch_papers.py
+        run: python scripts/run_step.py papers scripts/fetch_papers.py --out data/papers.json --label "Papers de research"
         continue-on-error: true
 
       - name: Cartas de gestoras e memos
-        run: python scripts/fetch_letters.py
+        # O proprio JSON e o estado do monitor incremental: em dia sem carta nova
+        # o arquivo nao muda e o step fica em 'warn', nao em 'fail'. Por isso o
+        # teto de idade e maior -- carta de gestora nao sai todo dia.
+        run: python scripts/run_step.py letters scripts/fetch_letters.py --out data/letters.json --max-age-h 96 --label "Cartas de gestoras"
         continue-on-error: true
 
       - name: Insider activity (SEC Form 4)
         env: { SEC_UA: "claude-advisor-dashboard pedro.beisl@gmail.com" }
-        run: python scripts/fetch_insiders.py
+        run: python scripts/run_step.py insiders scripts/fetch_insiders.py --out data/insiders.json --label "Insider (SEC Form 4)"
         continue-on-error: true
 
       - name: Commit se houver mudanca
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/*.json
+          git add data/*.json data/_health.json
           if git diff --cached --quiet; then
             echo "Sem mudancas."
           else
             git commit -m "data: atualizacao automatica $(date -u +%Y-%m-%d)"
             git push
           fi
+
+      # ULTIMO step e o unico SEM continue-on-error. Reprova o job se alguma
+      # fonte falhou hoje ou esta sem sucesso ha mais tempo que o teto dela.
+      # Job vermelho -> o GitHub notifica o dono do repo por e-mail, sem API.
+      - name: Verificar saude das fontes
+        run: python scripts/check_health.py

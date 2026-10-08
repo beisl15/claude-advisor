@@ -1,0 +1,38 @@
+name: Autoteste de cadastro
+
+# Roda a cada push e a cada PR. Nao usa rede e leva segundos: so confere se o
+# cadastro do dashboard esta coerente consigo mesmo (nomes em P vs. mapas dos
+# coletores, chaves orfas, drivers e setores validos, fontes do update.yml vs.
+# check_health, --out apontando para o arquivo que o script realmente escreve).
+#
+# Existe porque cadastro incompleto NAO gera excecao. Ja aconteceu duas vezes
+# aqui: a tira de cobertura congelada em 12 de 38 nomes, e a lista de regioes
+# repetida em 6 lugares no fetch_news.
+
+on:
+  push:
+    paths:
+      - "index.html"
+      - "scripts/**"
+      - ".github/workflows/update.yml"
+  pull_request:
+  workflow_dispatch: {}
+
+jobs:
+  selftest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Consistencia de cadastro
+        run: |
+          set -o pipefail
+          python scripts/selftest.py 2>&1 | tee _selftest.log
+      - name: Resumo
+        if: always()
+        run: |
+          echo '```' >> $GITHUB_STEP_SUMMARY
+          cat _selftest.log >> $GITHUB_STEP_SUMMARY 2>/dev/null || true
+          echo '```' >> $GITHUB_STEP_SUMMARY

@@ -17,14 +17,18 @@ on:
         default: validate_ciks.py
         type: choice
         options:
+          # Validacao (nao pede rede, ou so a SEC)
+          - selftest.py
           - validate_ciks.py
+          - check_health.py
+          # Coletores. fetch_cvm.py e fetch_br.py sairam em 17/08/2026 com o
+          # corte da B3 e vivem em archive/deprecated_scripts/.
           - fetch_us.py
           - fetch_intl.py
           - fetch_ir_asml.py
           - fetch_sa.py
-          - fetch_cvm.py
-          - fetch_br.py
           - fetch_prices.py
+          - fetch_estimates.py
           - fetch_transcripts.py
           - fetch_insiders.py
           - fetch_news.py

@@ -111,11 +111,16 @@ def score(title, desc):
 def main():
     now = datetime.datetime.now(datetime.timezone.utc)
     items, seen, health = [], set(), []
+    # por_feed alimenta a linha HEALTH_SRC lida pelo run_step.py: sem ela, o
+    # papers.json aparecia "ok" trazendo so 3 dos 6 feeds -- foi o que aconteceu
+    # na primeira execucao de 17/08/2026, com NBER, BIS e IMF vazios em silencio.
+    por_feed = {}
     for name, url in FEEDS:
         try:
             root = ET.fromstring(get(url))
         except Exception as e:
             health.append(f"  x {name}: {type(e).__name__}")
+            por_feed[name] = -1          # -1 = a fonte deu erro; 0 = respondeu vazio
             continue
         added = 0
         for title, link, date, desc in entries(root):
@@ -136,6 +141,7 @@ def main():
                           "_ts": date.timestamp() if date else 0})
             added += 1
         health.append(f"  ok {name}: +{added}")
+        por_feed[name] = added
 
     items.sort(key=lambda x: (-x["p"], -x["_ts"]))
     # source diversity: cap arXiv so institutional papers aren't drowned out
@@ -156,6 +162,8 @@ def main():
         json.dump(data, f, indent=1, ensure_ascii=False)
     print("\n".join(health))
     print(f"-> {OUT} ({len(out)} papers)")
+    print("HEALTH_N=%d" % len(out))
+    print("HEALTH_SRC=" + json.dumps(por_feed, ensure_ascii=False))
 
 
 if __name__ == "__main__":

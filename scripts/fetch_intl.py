@@ -25,7 +25,8 @@ UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like 
 NQ = 17
 
 # ticker no dashboard -> simbolo Yahoo
-SYMBOLS = {"ASML": "ASML", "TSM": "TSM", "RACE": "RACE", "ABI": "BUD", "ROXO": "NU"}
+SYMBOLS = {"ASML": "ASML", "TSM": "TSM", "RACE": "RACE", "ABI": "BUD", "ROXO": "NU",
+           "RHM": "RHM.DE"}  # Rheinmetall, Xetra — fallback; fetch_sa.py sobrescreve com serie mais longa
 
 # tipo Yahoo -> chave no nosso FIN (e se e fluxo de caixa = sai negativo, abs)
 TYPES = {

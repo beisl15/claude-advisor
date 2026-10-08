@@ -27,6 +27,10 @@ from email.utils import parsedate_to_datetime
 OUT = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36"
 REGIONS = ("US", "EU", "ASIA")  # cobertura 100% internacional desde 17/08/2026.
+
+# Diagnostico por fonte (ver bloco HEALTH_SRC no fim do main): o funil tem ~59
+# fontes e antes bastava uma delas responder para o step inteiro ficar verde.
+MORTAS, VAZIAS = [], []
                                 # Toda iteracao por regiao usa ESTA tupla — nao
                                 # repita a lista literal em nenhum outro lugar.
 PER_REGION = 15                 # headlines kept per region
@@ -245,6 +249,7 @@ def entries(root):
 
 
 def harvest():
+    MORTAS.clear(); VAZIAS.clear()
     items, seen_url, seen_title, health = [], set(), set(), []
     sources = ([(r, n, u, None, "g") for r, n, u in FEEDS] +
                [(r, t, gnews(q, lang), t, "c") for r, t, q, lang in COMPANY_FEEDS] +
@@ -260,6 +265,7 @@ def harvest():
                 rows = [(t, l, d, None) for t, l, d in entries(ET.fromstring(raw))]
         except Exception as e:
             health.append(f"  x {name} [{region}]: {type(e).__name__}")
+            MORTAS.append(f"{name} [{region}]")
             continue
         added = 0
         for title, link, date, dom in rows:
@@ -288,6 +294,8 @@ def harvest():
                           "url": link, "dt": date, "ftag": forced_tag})
             added += 1
         health.append(f"  ok {name} [{region}]: +{added}")
+        if added == 0:
+            VAZIAS.append(f"{name} [{region}]")
     return items, health
 
 
@@ -416,6 +424,17 @@ def main():
     by = {r: sum(1 for x in selected if x["region"] == r) for r in REGIONS}
     srcs = sorted({x["src"] for x in selected})
     print(f"-> {OUT} ({len(selected)} items; {by})")
+    # Uma fonte morta entre 59 nao pode derrubar o funil, mas tambem nao pode
+    # sumir: aqui ela vira numero, e o run_step leva para o _health.json.
+    total_fontes = len(FEEDS) + len(COMPANY_FEEDS) + len(GDELT_FEEDS)
+    src = dict(by)
+    src["_fontes"] = total_fontes
+    src["_erro"] = len(MORTAS)
+    src["_vazias"] = len(VAZIAS)
+    if MORTAS:
+        print("   fontes com erro: " + ", ".join(MORTAS[:12]) + (" ..." if len(MORTAS) > 12 else ""))
+    print("HEALTH_N=%d" % len(selected))
+    print("HEALTH_SRC=" + json.dumps(src, ensure_ascii=False))
     print(f"   sources in output: {', '.join(srcs)}")
 
 

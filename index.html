@@ -381,6 +381,134 @@ body.focus-mode .co-list{display:none;}
 .co-panel.fx-on .reveal{opacity:0;transform:scale(.965) translateY(12px);transition:opacity .55s cubic-bezier(.22,1,.36,1),transform .55s cubic-bezier(.22,1,.36,1);}
 .co-panel.fx-on .reveal.in{opacity:1;transform:none;}
 @media (prefers-reduced-motion: reduce){.co-panel.fx-on .reveal{opacity:1;transform:none;transition:none;}}
+
+/* ── Entrega A: banner de saude das fontes ─────────────────────────────────── */
+#health-strip{display:none;align-items:center;gap:8px;flex-wrap:wrap;padding:7px 26px;
+  background:var(--bg-card);border-bottom:1px solid var(--border);flex-shrink:0;}
+#health-strip.on{display:flex;}
+.hs-lbl{font-size:10px;text-transform:uppercase;letter-spacing:.07em;color:var(--text-muted);
+  font-weight:700;margin-right:2px;}
+.hs-chip{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;padding:2px 8px;
+  border-radius:11px;border:1px solid var(--border);color:var(--text-secondary);cursor:default;
+  white-space:nowrap;}
+.hs-dot{width:6px;height:6px;border-radius:50%;flex-shrink:0;}
+.hs-ok   .hs-dot{background:#10b981;}
+.hs-warn .hs-dot{background:#f59e0b;}
+.hs-old  .hs-dot{background:#ef4444;}
+.hs-warn{border-color:rgba(245,158,11,.45);}
+.hs-old {border-color:rgba(239,68,68,.5);color:#ef4444;}
+.hs-age{color:var(--text-muted);}
+.hs-summary{font-size:10.5px;color:var(--text-muted);margin-left:auto;}
+.hs-summary b{color:#ef4444;}
+
+/* ── Entrega A: badge de validade da ficha ─────────────────────────────────── */
+.fv-badge{display:inline-flex;align-items:center;gap:5px;font-size:10px;font-weight:700;
+  padding:2px 8px;border-radius:10px;text-transform:uppercase;letter-spacing:.05em;
+  vertical-align:middle;}
+.fv-ok  {background:rgba(16,185,129,.12);color:#0d9488;border:1px solid rgba(16,185,129,.3);}
+.fv-warn{background:rgba(245,158,11,.13);color:#b45309;border:1px solid rgba(245,158,11,.35);}
+.fv-old {background:rgba(239,68,68,.12); color:#dc2626;border:1px solid rgba(239,68,68,.35);}
+.co-item.ficha-old{box-shadow:inset 2px 0 0 #ef4444;}
+.co-item.ficha-warn{box-shadow:inset 2px 0 0 #f59e0b;}
+.fv-log{margin-top:9px;padding-top:8px;border-top:1px dashed var(--border);}
+.fv-log-row{font-size:11px;color:var(--text-secondary);margin-top:3px;}
+.fv-log-row b{color:var(--text-muted);font-weight:600;margin-right:6px;}
+
+/* ── Entrega A: aba Exposure ───────────────────────────────────────────────── */
+.ex-callout{background:linear-gradient(135deg,rgba(239,68,68,.06),rgba(124,58,237,.05));
+  border:1px solid rgba(239,68,68,.22);border-radius:8px;padding:14px 18px;margin-bottom:20px;}
+.ex-callout .ex-big{font-size:22px;font-weight:800;color:var(--text-primary);line-height:1.25;}
+.ex-callout .ex-sub{font-size:12px;color:var(--text-secondary);margin-top:6px;line-height:1.55;}
+.ex-bar{display:flex;height:34px;border-radius:6px;overflow:hidden;margin-bottom:8px;
+  border:1px solid var(--border);}
+.ex-seg{display:flex;align-items:center;justify-content:center;font-size:10.5px;font-weight:700;
+  color:#fff;overflow:hidden;white-space:nowrap;}
+.ex-legend{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:22px;}
+.ex-lg{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:var(--text-secondary);}
+.ex-lg i{width:9px;height:9px;border-radius:2px;display:inline-block;}
+.ex-tbl{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:24px;}
+.ex-tbl th{text-align:left;font-size:10px;text-transform:uppercase;letter-spacing:.05em;
+  color:var(--text-muted);border-bottom:1px solid var(--border);padding:7px 9px;font-weight:700;}
+.ex-tbl td{border-bottom:1px solid var(--border);padding:8px 9px;vertical-align:top;
+  color:var(--text-secondary);}
+.ex-tbl td.ex-n{font-weight:700;color:var(--text-primary);text-align:center;width:64px;}
+.ex-tbl td.ex-names{font-size:11px;color:var(--text-muted);line-height:1.6;}
+.ex-drv{font-weight:700;color:var(--text-primary);}
+.ex-drv small{display:block;font-weight:400;color:var(--text-muted);font-size:10.5px;margin-top:2px;}
+.ex-sec-lbl{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--accent-purple);margin-bottom:4px;}
+.ex-sec-sub{font-size:11.5px;color:var(--text-muted);margin-bottom:12px;line-height:1.5;}
+.ex-mx{width:100%;border-collapse:collapse;font-size:11.5px;margin-bottom:8px;}
+.ex-mx th{font-size:10px;text-transform:uppercase;letter-spacing:.04em;color:var(--text-muted);
+  padding:6px 8px;border-bottom:1px solid var(--border);font-weight:700;text-align:center;}
+.ex-mx th:first-child{text-align:left;}
+.ex-mx td{padding:6px 8px;border-bottom:1px solid var(--border);text-align:center;
+  color:var(--text-secondary);}
+.ex-mx td:first-child{text-align:left;font-weight:600;color:var(--text-primary);}
+.ex-mx td.hot{background:rgba(124,58,237,.13);font-weight:800;color:var(--text-primary);}
+.ex-mx td.warm{background:rgba(124,58,237,.06);font-weight:700;color:var(--text-primary);}
+.ex-note{font-size:11px;color:var(--text-muted);line-height:1.6;margin-top:6px;}
+.ex-pill{display:inline-block;font-size:10px;font-weight:700;padding:1px 6px;border-radius:8px;
+  margin-right:4px;}
+.ex-pill.intact{background:rgba(16,185,129,.14);color:#0d9488;}
+.ex-pill.watch {background:rgba(245,158,11,.16);color:#b45309;}
+.ex-pill.broken{background:rgba(239,68,68,.14);color:#dc2626;}
+
+/* ── Entrega B: caixinha de valuation ──────────────────────────────────────── */
+.vl-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;
+  padding:0 22px 8px;}
+.vl-card{background:var(--bg-card);border:1px solid var(--border);border-radius:8px;padding:14px 16px;}
+.vl-lbl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;
+  color:var(--accent-purple);margin-bottom:3px;}
+.vl-sub{font-size:11px;color:var(--text-muted);margin-bottom:11px;line-height:1.45;}
+.vl-big{font-size:26px;font-weight:800;color:var(--text-primary);line-height:1.1;}
+.vl-big small{font-size:12px;font-weight:600;color:var(--text-muted);margin-left:5px;}
+.vl-verdict{display:inline-block;font-size:10px;font-weight:800;padding:2px 9px;border-radius:10px;
+  text-transform:uppercase;letter-spacing:.05em;margin-top:8px;}
+.vl-cheap{background:rgba(16,185,129,.14);color:#0d9488;}
+.vl-fair {background:rgba(100,116,139,.16);color:#475569;}
+.vl-rich {background:rgba(239,68,68,.13);color:#dc2626;}
+.vl-row{display:flex;justify-content:space-between;gap:10px;font-size:12px;padding:5px 0;
+  border-bottom:1px solid var(--border);}
+.vl-row:last-child{border-bottom:none;}
+.vl-row span:first-child{color:var(--text-muted);}
+.vl-row span:last-child{color:var(--text-primary);font-weight:700;text-align:right;}
+.vl-scale{position:relative;height:26px;margin:12px 0 4px;}
+.vl-track{position:absolute;top:11px;left:0;right:0;height:4px;border-radius:2px;
+  background:linear-gradient(90deg,rgba(16,185,129,.45),rgba(100,116,139,.3),rgba(239,68,68,.45));}
+.vl-tick{position:absolute;top:4px;width:2px;height:18px;background:var(--text-muted);opacity:.5;}
+.vl-mark{position:absolute;top:0;width:10px;height:10px;border-radius:50%;
+  background:var(--accent-purple);border:2px solid var(--bg-card);transform:translateX(-5px);
+  box-shadow:0 0 0 1px var(--accent-purple);}
+.vl-ends{display:flex;justify-content:space-between;font-size:10px;color:var(--text-muted);}
+.vl-note{font-size:10.5px;color:var(--text-muted);line-height:1.55;margin-top:10px;
+  padding-top:9px;border-top:1px dashed var(--border);}
+.vl-warn{background:rgba(245,158,11,.09);border:1px solid rgba(245,158,11,.3);border-radius:6px;
+  padding:9px 12px;font-size:11px;color:#b45309;line-height:1.5;margin:0 22px 14px;}
+.vl-bar{display:flex;height:22px;border-radius:5px;overflow:hidden;border:1px solid var(--border);
+  margin:8px 0 5px;}
+.vl-bseg{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;}
+.vl-slider{display:flex;align-items:center;gap:9px;font-size:11px;margin:7px 0;}
+.vl-slider label{color:var(--text-muted);width:88px;flex-shrink:0;}
+.vl-slider input[type=range]{flex:1;accent-color:var(--accent-purple);}
+.vl-slider b{width:52px;text-align:right;color:var(--text-primary);font-variant-numeric:tabular-nums;}
+.vl-sc{width:100%;border-collapse:collapse;font-size:12px;}
+.vl-sc th{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);
+  padding:5px 6px;border-bottom:1px solid var(--border);text-align:right;font-weight:700;}
+.vl-sc th:first-child{text-align:left;}
+.vl-sc td{padding:5px 6px;border-bottom:1px solid var(--border);text-align:right;}
+.vl-sc td:first-child{text-align:left;font-weight:700;color:var(--text-primary);}
+.vl-sc input{width:80px;padding:3px 6px;border:1px solid var(--border);border-radius:4px;
+  background:var(--bg-body);color:var(--text-primary);font-size:11.5px;text-align:right;
+  font-family:inherit;}
+.vl-sc input.wide{width:100%;text-align:left;}
+.vl-bull td:first-child{color:#0d9488;}
+.vl-bear td:first-child{color:#dc2626;}
+.vl-tot{display:flex;justify-content:space-between;align-items:baseline;margin-top:11px;
+  padding-top:10px;border-top:1px solid var(--border);}
+.vl-tot .vl-big{font-size:20px;}
+.vl-err{color:#dc2626;font-weight:700;}
+.vl-empty{font-size:11.5px;color:var(--text-muted);line-height:1.6;}
 </style>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.js" integrity="sha384-iU8HYtnGQ8Cy4zl7gbNMOhsDTTKX02BTXptVP/vqAWIaTfM7isw76iyZCsjL2eVi" crossorigin="anonymous"></script>
 </head>
@@ -415,6 +543,10 @@ body.focus-mode .co-list{display:none;}
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="5" r="2.5"/><path d="M3 13.5c0-2.5 2.2-4 5-4s5 1.5 5 4"/></svg>
       <span class="nav-lbl">Insider Activity</span>
     </button>
+    <button class="nav-item" onclick="goPane('expo',this)">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="6"/><path d="M8 2a6 6 0 0 1 5.2 3L8 8z" fill="currentColor" stroke="none" opacity=".55"/><line x1="8" y1="8" x2="8" y2="2"/><line x1="8" y1="8" x2="13.2" y2="5"/></svg>
+      <span class="nav-lbl">Exposure</span>
+    </button>
     <button class="nav-item" onclick="goPane('metrics',this)">
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="3" y1="13" x2="3" y2="9"/><line x1="6.5" y1="13" x2="6.5" y2="6"/><line x1="10" y1="13" x2="10" y2="9"/><line x1="13.5" y1="13" x2="13.5" y2="4"/></svg>
       <span class="nav-lbl">Metrics</span>
@@ -433,6 +565,9 @@ body.focus-mode .co-list{display:none;}
       </button>
     </div>
   </div>
+
+  <!-- BANNER DE SAUDE DAS FONTES (data/_health.json) -->
+  <div id="health-strip"></div>
 
   <!-- NEWS PANE -->
   <div class="pane active" id="pane-news">
@@ -510,7 +645,7 @@ body.focus-mode .co-list{display:none;}
     <div class="sec-hdr">
       <div>
         <div class="sec-title">Fundamental Analysis</div>
-        <div class="sec-sub">Institutional frameworks — updated monthly</div>
+        <div class="sec-sub" id="fund-sub">Institutional frameworks</div>
       </div>
       <button class="btn btn-secondary" id="cmp-toggle-btn" onclick="toggleCompare()">
         <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="1" y="2" width="5" height="10" rx="1"/><rect x="8" y="2" width="5" height="10" rx="1"/></svg>
@@ -549,6 +684,18 @@ body.focus-mode .co-list{display:none;}
         <div class="compare-panel" id="cmp-panel-b"><div class="compare-empty">Select a company above</div></div>
       </div>
     </div>
+  </div>
+
+  <!-- EXPOSURE PANE -->
+  <div class="pane" id="pane-expo">
+    <div class="sec-hdr">
+      <div>
+        <div class="sec-title">Exposure by Driver</div>
+        <div class="sec-sub">O que o livro realmente aposta &mdash; agrupado por driver economico, nao por setor</div>
+      </div>
+    </div>
+    <div class="cal-disclaimer">O bucket setorial serve para organizar a leitura; ele nao mede risco. Dois nomes em buckets diferentes podem depender do mesmo ciclo. Esta aba cruza as duas taxonomias. Driver primario e o que manda no resultado; o secundario e exposicao real, mas nao dominante.</div>
+    <div id="expo-content"></div>
   </div>
 
   <!-- METRICS PANE -->
@@ -604,37 +751,39 @@ body.focus-mode .co-list{display:none;}
 // ─── COVERAGE UNIVERSE ──────────────────────────────────────────────────────────
 // Apenas empresas acompanhadas (research). Sem dados de carteira, patrimônio ou P&L.
 const P = [
-  {t:'GOGL',n:'Alphabet (Google)',    av:'GOOGL',    s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'MSFT',n:'Microsoft',            av:'MSFT',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'META',n:'Meta Platforms',       av:'META',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'AMZN',n:'Amazon',               av:'AMZN',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'MELI',n:'MercadoLibre',         av:'MELI',     s:'LATAM', g:'LATAM', etf:false, exch:'NASDAQ'},
-  {t:'ASML',n:'ASML Holding',         av:'ASML',     s:'SEMI',  g:'EU',    etf:false, exch:'NASDAQ'},
-  {t:'JPM',n:'JPMorgan Chase',        av:'JPM',      s:'FIN',   g:'US',    etf:false, exch:'NYSE'},
-  {t:'BLK',n:'BlackRock',             av:'BLK',      s:'FIN',   g:'US',    etf:false, exch:'NYSE'},
-  {t:'MU',n:'Micron Technology',      av:'MU',       s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
+  {t:'GOGL',n:'Alphabet (Google)',    av:'GOOGL',    s:'TECH',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_MONET', d2:'AI_CAPEX',},
+  {t:'MSFT',n:'Microsoft',            av:'MSFT',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_MONET', d2:'AI_CAPEX',},
+  {t:'META',n:'Meta Platforms',       av:'META',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_MONET', d2:'AI_CAPEX',},
+  {t:'AMZN',n:'Amazon',               av:'AMZN',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_MONET', d2:'CONSUMO',},
+  {t:'MELI',n:'MercadoLibre',         av:'MELI',     s:'LATAM', g:'LATAM', etf:false, exch:'NASDAQ', d:'CONSUMO', d2:'JUROS_CREDITO',},
+  {t:'ASML',n:'ASML Holding',         av:'ASML',     s:'SEMI',  g:'EU',    etf:false, exch:'NASDAQ', d:'AI_CAPEX',},
+  {t:'JPM',n:'JPMorgan Chase',        av:'JPM',      s:'FIN',   g:'US',    etf:false, exch:'NYSE', d:'JUROS_CREDITO',},
+  {t:'BLK',n:'BlackRock',             av:'BLK',      s:'FIN',   g:'US',    etf:false, exch:'NYSE', d:'JUROS_CREDITO',},
+  {t:'MU',n:'Micron Technology',      av:'MU',       s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ', d:'CICLO_MEMORIA', d2:'AI_CAPEX',},
   // ── Extended Coverage ─────────────────────────────────────────────────────
-  {t:'AAPL',n:'Apple',               av:'AAPL',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'NVDA',n:'Nvidia',              av:'NVDA',     s:'SEMI',    g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'AMD',n:'Advanced Micro Devices',av:'AMD',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'INTC',n:'Intel',               av:'INTC',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'MRVL',n:'Marvell Technology',  av:'MRVL',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'AVGO',n:'Broadcom',            av:'AVGO',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ'},
-  {t:'TSM',n:'TSMC',                 av:'TSM',      s:'SEMI',  g:'TW',    etf:false, exch:'NYSE'},
-  {t:'ROXO',n:'Nu Holdings',         av:'NU',       s:'FINTECH',g:'LATAM',etf:false, exch:'NYSE'},
-  {t:'RACE',n:'Ferrari',             av:'RACE',     s:'LUXURY',g:'EU',    etf:false, exch:'Milan'},
+  {t:'AAPL',n:'Apple',               av:'AAPL',     s:'TECH',  g:'US',    etf:false, exch:'NASDAQ', d:'CONSUMO',},
+  {t:'NVDA',n:'Nvidia',              av:'NVDA',     s:'SEMI',    g:'US',    etf:false, exch:'NASDAQ', d:'AI_CAPEX',},
+  {t:'AMD',n:'Advanced Micro Devices',av:'AMD',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_CAPEX',},
+  {t:'INTC',n:'Intel',               av:'INTC',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_CAPEX', d2:'CONSUMO',},
+  {t:'MRVL',n:'Marvell Technology',  av:'MRVL',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_CAPEX',},
+  {t:'AVGO',n:'Broadcom',            av:'AVGO',     s:'SEMI',  g:'US',    etf:false, exch:'NASDAQ', d:'AI_CAPEX',},
+  {t:'TSM',n:'TSMC',                 av:'TSM',      s:'SEMI',  g:'TW',    etf:false, exch:'NYSE', d:'AI_CAPEX',},
+  {t:'ROXO',n:'Nu Holdings',         av:'NU',       s:'FINTECH',g:'LATAM',etf:false, exch:'NYSE', d:'JUROS_CREDITO', d2:'CONSUMO',},
+  {t:'RACE',n:'Ferrari',             av:'RACE',     s:'LUXURY',g:'EU',    etf:false, exch:'Milan', d:'CONSUMO',},
   // ── Coverage additions (Jun 2026) ─────────────────────────────────────────
-  {t:'VZ',n:'Verizon',               av:'VZ',       s:'TELECOM',  g:'US', etf:false, exch:'NYSE'},
-  {t:'TMUS',n:'T-Mobile US',         av:'TMUS',     s:'TELECOM',  g:'US', etf:false, exch:'NASDAQ'},
-  {t:'T',n:'AT&T',                   av:'T',        s:'TELECOM',  g:'US', etf:false, exch:'NYSE'},
-  {t:'ABI',n:'AB InBev',             av:'BUD',      s:'CONSUMER', g:'EU', etf:false, exch:'NYSE'},
+  {t:'VZ',n:'Verizon',               av:'VZ',       s:'TELECOM',  g:'US', etf:false, exch:'NYSE', d:'CONSUMO', d2:'JUROS_CREDITO',},
+  {t:'TMUS',n:'T-Mobile US',         av:'TMUS',     s:'TELECOM',  g:'US', etf:false, exch:'NASDAQ', d:'CONSUMO',},
+  {t:'T',n:'AT&T',                   av:'T',        s:'TELECOM',  g:'US', etf:false, exch:'NYSE', d:'CONSUMO', d2:'JUROS_CREDITO',},
+  {t:'ABI',n:'AB InBev',             av:'BUD',      s:'CONSUMER', g:'EU', etf:false, exch:'NYSE', d:'CONSUMO',},
   // ── Coverage additions (Jul 2026) — software puro + energia para datacenter ─
-  {t:'ORCL',n:'Oracle',              av:'ORCL',     s:'TECH',  g:'US', etf:false, exch:'NYSE',   ir:'https://investor.oracle.com/'},
-  {t:'NOW',n:'ServiceNow',           av:'NOW',      s:'TECH',  g:'US', etf:false, exch:'NYSE',   ir:'https://www.servicenow.com/company/investor-relations.html'},
-  {t:'PLTR',n:'Palantir',            av:'PLTR',     s:'TECH',  g:'US', etf:false, exch:'NASDAQ', ir:'https://investors.palantir.com/'},
-  {t:'CEG',n:'Constellation Energy', av:'CEG',      s:'POWER', g:'US', etf:false, exch:'NASDAQ', ir:'https://investors.constellationenergy.com/'},
-  {t:'VST',n:'Vistra',               av:'VST',      s:'POWER', g:'US', etf:false, exch:'NYSE',   ir:'https://investor.vistracorp.com/'},
-  {t:'GEV',n:'GE Vernova',           av:'GEV',      s:'POWER', g:'US', etf:false, exch:'NYSE',   ir:'https://www.gevernova.com/investors'},
+  {t:'ORCL',n:'Oracle',              av:'ORCL',     s:'TECH',  g:'US', etf:false, exch:'NYSE',   ir:'https://investor.oracle.com/', d:'AI_CAPEX', d2:'AI_MONET',},
+  {t:'NOW',n:'ServiceNow',           av:'NOW',      s:'TECH',  g:'US', etf:false, exch:'NYSE',   ir:'https://www.servicenow.com/company/investor-relations.html', d:'AI_MONET',},
+  {t:'PLTR',n:'Palantir',            av:'PLTR',     s:'TECH',  g:'US', etf:false, exch:'NASDAQ', ir:'https://investors.palantir.com/', d:'AI_MONET',},
+  {t:'CEG',n:'Constellation Energy', av:'CEG',      s:'POWER', g:'US', etf:false, exch:'NASDAQ', ir:'https://investors.constellationenergy.com/', d:'ENERGIA', d2:'AI_CAPEX',},
+  {t:'VST',n:'Vistra',               av:'VST',      s:'POWER', g:'US', etf:false, exch:'NYSE',   ir:'https://investor.vistracorp.com/', d:'ENERGIA', d2:'AI_CAPEX',},
+  {t:'GEV',n:'GE Vernova',           av:'GEV',      s:'POWER', g:'US', etf:false, exch:'NYSE',   ir:'https://www.gevernova.com/investors', d:'AI_CAPEX', d2:'ENERGIA',},
+  // ── Coverage addition (Oct 2026) -- European rearmament ─────────────────────
+  {t:'RHM',n:'Rheinmetall',          av:'RHM',      s:'DEFENSE', g:'EU', etf:false, exch:'XETRA',  ir:'https://www.rheinmetall.com/en/investor-relations', d:'REARM',},
 ];
 
 const TRANSCRIPTS = {
@@ -665,7 +814,8 @@ const TRANSCRIPTS = {
   'PLTR': `<b>Q1 2026 · Theme: 85% Revenue Growth, US Commercial +137%, Rule of 40 at 145</b><br>Revenue of $1.63B grew about 85% year over year — the fastest since at least 2020 — beating the $1.54B consensus, with EPS of $0.33 against $0.28 expected and net income quadrupling to $870.5M. US commercial revenue accelerated 137% to $507M, lifting total US revenue 93% to $1.08B. Operating cash flow was $899M (55% margin) and adjusted free cash flow $925M (57%). Full-year guidance was raised to $7.650-7.662B (+71%), US commercial to above $3.224B (at least 120% growth), adjusted income from operations to $4.440-4.452B and adjusted free cash flow to $4.2-4.4B — implying a full-year Rule of 40 score of 129%, after 145% in the quarter. Karp told CNBC he expects the US business to double again in 2027. The debate is unchanged and entirely about the multiple.`,
   'CEG': `<b>Q1 2026 · Theme: First Quarter With Calpine — 60 GW and a 20% EPS Uplift</b><br>Adjusted operating earnings of $2.74 per share beat the $2.59 consensus on revenue of $11.12B against $8.81B expected, with GAAP net income of $4.49 per share — the first quarter reflecting the $16.4B Calpine acquisition that closed on 7 January 2026 and created a roughly 60 GW nuclear, gas and geothermal fleet. Management affirmed full-year 2026 adjusted operating earnings guidance of $11.00-12.00 per share, said Calpine alone is worth about a 20% uplift to 2026 EPS, and reiterated the target of base EPS growth above 20% annually through 2029. Contracting continued with a 380 MW agreement with CyrusOne in Texas, alongside the existing twenty-year, 1,121 MW Meta contract and the Microsoft-backed Crane restart. In the 2026/2027 PJM auction Constellation cleared 18,025 MW at the $329.17/MW-day cap.`,
   'VST': `<b>Q1 2026 · Theme: 3,800 MW Contracted With Meta and AWS; Guidance Reaffirmed</b><br>Vistra reaffirmed 2026 adjusted EBITDA guidance of $6.8-7.6B and reiterated the target of more than $10B of cash generation through 2027. The contracting story dominated: twenty-year power purchase agreements totalling 3,800 MW with Meta and Amazon Web Services at PJM nuclear sites, plus a twenty-year, 1,200 MW agreement for the Comanche Peak nuclear plant in Texas with an investment-grade counterparty — the first major move of the AI power trade into ERCOT. Vistra cleared 10,314 MW in the 2026/2027 PJM auction. On capital, the $3B buyback and dividend programme continues with roughly $1.5B of authorization remaining under a rolling 10b5-1 plan. The pending Cogentrix acquisition, about 5,500 MW of gas generation, is expected to close in the second half of 2026.`,
-  'GEV': `<b>Q2 2026 · Theme: Orders +88% to $24.2B; Backlog $176B; Gas Ramp to 30 GW by 2030</b><br>Orders of $24.2B grew 88% organically on revenue of $11.1B (+22%, +12% organic), with adjusted EBITDA of $1.2B at an 11.3% margin — up 340bps organically, the margin inflection the bulls had been waiting for. Backlog reached $176B. Gas Power signed 20 GW of orders and slot reservation agreements, taking total gigawatts under contract to 116, with at least 125 GW expected by year-end 2026; output ramps from about 20 GW annually in Q3 2026 to 24 GW in 2028 and 30 GW in 2030. Electrification booked more than $5B of datacenter orders in the first half. Full-year 2026 revenue guidance was raised to $45.5-46.5B, and the board doubled the dividend to $0.50 quarterly and lifted the buyback authorization to $10B. Wind stayed the exception: orders down 40%, a $275M quarterly EBITDA loss, and roughly $400M of expected full-year losses.`
+  'GEV': `<b>Q2 2026 · Theme: Orders +88% to $24.2B; Backlog $176B; Gas Ramp to 30 GW by 2030</b><br>Orders of $24.2B grew 88% organically on revenue of $11.1B (+22%, +12% organic), with adjusted EBITDA of $1.2B at an 11.3% margin — up 340bps organically, the margin inflection the bulls had been waiting for. Backlog reached $176B. Gas Power signed 20 GW of orders and slot reservation agreements, taking total gigawatts under contract to 116, with at least 125 GW expected by year-end 2026; output ramps from about 20 GW annually in Q3 2026 to 24 GW in 2028 and 30 GW in 2030. Electrification booked more than $5B of datacenter orders in the first half. Full-year 2026 revenue guidance was raised to $45.5-46.5B, and the board doubled the dividend to $0.50 quarterly and lifted the buyback authorization to $10B. Wind stayed the exception: orders down 40%, a $275M quarterly EBITDA loss, and roughly $400M of expected full-year losses.`,
+  'RHM': `<b>Q2 2026 · Theme: Record Backlog, But Cash Flow Turns Sharply Negative</b><br>Group sales rose to €3.29B in the quarter (H1 sales €5.227B, +39%), with the operating margin expanding to 17.1% (operating result €562M, +115% YoY) — the strongest quarterly margin print since the rearmament cycle began. Order backlog reached €80.5B (+44% YoY) on €16.2B of H1 nominations. The call's real tension was cash: operating free cash flow was negative €1.33B in the quarter alone (€1.6B for H1) on a roughly €6.2B inventory build to service the backlog, and management had to absorb a German Ministry of Defence cancellation of the F-126 frigate program that cut up to €300M from FY2026 sales guidance (now €13.7–14.2B, ~19% operating margin). Shares fell despite the growth and margin beat — the market is pricing execution and cash-conversion risk, not demand risk.`,
 };
 
 const FW = [
@@ -676,11 +826,18 @@ const FW = [
   {id:'safety',   num:'05', title:'Margin of Safety & Financial Health', sub:'Graham & Spier Framework'},
 ];
 
-// ─── PRE-POPULATED ANALYSIS ────────────────────────────────────────────────────
+// ─── PRE-POPULATED ANALYSIS ──────────────────────────────────────────────────
+// `date` e' a abertura da cobertura, sempre em ISO 'YYYY-MM'.
+// `rev` (opcional) e' o log de revisao — a ULTIMA entrada e' o que define a
+// validade da ficha no badge. Formato:
+//   rev: [
+//     {d:'2026-08-17', txt:'Q2: capex 2026 subiu para 190bi; tese de margem intacta.'},
+//   ],
+// Regra: toda revisao anota o que MUDOU, nao o que continua igual.──
 const ANALYSIS = {
   'GOGL': {
     thesis: "Alphabet trades at an unjustified discount to software peers despite commanding monopoly-grade positions in Search, YouTube, and an accelerating cloud platform. GCP's AI-native architecture and the Gemini model stack position the company for a multi-year earnings upgrade cycle driven by margin expansion and cloud revenue re-rating.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Alphabet's moat is anchored by an unmatched data feedback loop across Search (~92% global query share), YouTube, Android, and Maps. Each product reinforces the others, compounding user data into targeting precision that no rival can replicate at scale. Google Search is protected by default-agreement distribution and deep behavioral habit formation. GCP introduces a third compounding layer: TPU-accelerated AI workloads create differentiated switching costs relative to AWS and Azure. The moat is wide and self-reinforcing, though DOJ antitrust scrutiny over default search agreements represents the most credible structural threat to near-term cash generation.",
     story: "The narrative has shifted from advertising incumbent to AI infrastructure platform. With Search reinvented around AI Overviews and Gemini deployed across the product stack, the revenue story is no longer purely cyclical CPM growth — it is monetization of AI-enhanced intent. GCP revenue compounding at 28-30% YoY signals a credible hyperscaler pivot. The central tension: whether AI Overviews structurally reduce click-through rates and CPMs faster than they expand total query volume. Management's 2023 efficiency pivot permanently re-rated the margin profile, with operating margins expanding to ~32%. Consensus still underestimates the long-duration margin opportunity.",
     scout: "Scuttlebutt checks confirm Google remains the default AI interface for enterprise and consumer search. Gemini Ultra performance benchmarks vs. GPT-4 have converged materially, closing the perception gap that drove competitive anxiety in 2023. Cloud customers report GCP's pricing competitiveness vs. AWS/Azure improving through committed-use discounts and AI-native tooling. YouTube Shorts monetization has approached parity with long-form CPMs — a product that was dilutive at launch becoming additive. Engineering talent retention in the AI/ML org remains high despite intense industry competition. Key risk: antitrust remedies forcing Chrome or Android divestiture would remove core distribution moats.",
@@ -689,7 +846,7 @@ const ANALYSIS = {
   },
   'MSFT': {
     thesis: "Microsoft has structurally transformed into the world's premier enterprise AI platform through the Azure/OpenAI partnership, Copilot monetization, and cloud infrastructure dominance. The combination of high recurring revenue, pricing power, and $100B+ free cash flow capacity makes it the highest-quality compounder in the technology sector.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Microsoft's moat is a multi-layered enterprise fortress. Azure represents the broadest cloud platform by service count and benefits from deep Office 365/Teams integration — the average enterprise customer touches Microsoft software at every workflow layer. The OpenAI partnership provides exclusive access to GPT-4/o1 model capabilities embedded across the product stack via Copilot. GitHub Copilot has reached critical developer penetration, creating generational switching costs as development workflows become AI-native. LinkedIn's professional graph is a durable B2B advertising moat. The core risk is hyperscaler commoditization narrowing Azure's differentiation against AWS and GCP on pure infrastructure economics.",
     story: "The Microsoft story is a tale of two revenue arcs: legacy (Windows, Office perpetual licenses) declining gracefully while cloud (Azure, M365 E5, Dynamics) compounds at 20-25% annually. Intelligent Cloud operating margin now exceeds 46%, making Azure structurally more profitable than the perpetual software business it replaced. Copilot at $30/seat/month represents the most credible AI monetization in enterprise software — with 1,000 seats adding ~$360K in recurring annual revenue per deployment. The key model assumption to stress-test: net new Azure consumption growth sustaining vs. incremental Copilot attach rates. Management has demonstrated consistent upside delivery to Street estimates for eight consecutive quarters.",
     scout: "CIO surveys consistently rank Azure as the primary or co-primary cloud platform across Fortune 500 enterprises. GitHub Copilot adoption has accelerated post-general-availability, with developers reporting 30-50% productivity improvements — a figure that justifies the license cost and drives rapid expansion. Teams remains entrenched as the enterprise collaboration standard in most geographies outside of Slack-heavy tech firms. Dynamics 365 is gaining share in ERP mid-market at Salesforce's expense. Reseller channel checks indicate Microsoft is increasingly winning multi-year, multi-product deals that bundle Azure commits with M365 E5, creating bundled lock-in that competing vendors cannot easily replicate.",
@@ -698,7 +855,7 @@ const ANALYSIS = {
   },
   'META': {
     thesis: "Meta has executed one of the most impressive corporate reinventions in technology history, transitioning from a troubled social media company in 2022 to the premier AI-native advertising platform. Llama's open-source leadership, AI-driven feed engagement gains, and the emerging Reality Labs optionality define a durable growth thesis at a surprisingly reasonable multiple.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Meta's moat is the world's largest social attention network — 3.3B+ daily active users across Facebook, Instagram, WhatsApp, and Threads. The advertising flywheel is uniquely powerful: more users generate more behavioral data, which improves ad targeting, which attracts more advertisers, which funds product investment that retains users. AI-native ad products (Advantage+ campaigns) are delivering measurably superior advertiser ROI vs. manual targeting, deepening the competitive advantage against Google and TikTok. WhatsApp's business messaging monetization is still early, representing a durable second growth vector. The key moat risk: regulatory fragmentation of the social graph in the EU under DMA.",
     story: "The Meta narrative is a margin re-rating story layered on top of a durable growth engine. The 'Year of Efficiency' in 2023 compressed headcount from 87K to 66K, expanding operating margins from 20% to 35%+ while revenue accelerated. AI-driven feed relevance improvements (Reels, Discover feeds) are driving session time and engagement metrics to all-time highs — a fundamental reversal of the 2021-22 user engagement erosion narrative. The model tension is Reality Labs: consuming $15-20B annually in R&D with no near-term revenue contribution. If VR/AR fails to materialize, the capital destruction is meaningful. If it succeeds, the optionality is enormous.",
     scout: "Advertiser feedback is uniformly positive on Advantage+ campaign performance versus legacy manual targeting. CPM efficiency gains of 20-30% per advertiser dollar are being documented across e-commerce and direct response verticals, driving wallet share consolidation from YouTube and programmatic into Meta's ecosystem. Creator tools on Instagram and Threads are accelerating competitive positioning against TikTok. Open-sourcing Llama has created an unexpected moat — developer adoption of Meta's AI stack creates ecosystem lock-in that improves Meta's AI talent recruitment and positions the company favorably in future AI-native products. Ray-Ban Meta smart glasses have exceeded initial adoption expectations.",
@@ -707,7 +864,7 @@ const ANALYSIS = {
   },
   'MELI': {
     thesis: "MercadoLibre is the defining compounding franchise in Latin American digital commerce and fintech. With Mercado Pago achieving full-stack financial services penetration across Brazil, Mexico, and Argentina, the platform is transitioning from a marketplace to a financial ecosystem — a structural re-rating catalyst the market is beginning to price.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "MercadoLibre operates the most comprehensive digital commerce and fintech moat in Latin America. The marketplace benefits from a dense fulfillment network (4,500+ warehouses), same-day delivery capabilities in major metropolitan areas, and seller switching costs embedded in Mercado Envios logistics. Mercado Pago's moat is structural: financial inclusion serves unbanked populations with no alternative, creating captive customer relationships with high lifetime value. The integrated payments-logistics-credit flywheel compounds with each product addition — a customer who shops, ships, and finances through MELI generates 4x the monetization of a marketplace-only user. Regulatory barriers to financial services in LatAm limit competitive entry.",
     story: "MELI's narrative is a two-act story: the first act (e-commerce) is in a maturing growth phase with GMV growing ~20-25% in BRL terms; the second act (fintech) is in an early-exponential phase with Mercado Pago total payment volume compounding above 35% annually. The critical insight is that fintech is structurally higher-margin than marketplace — payment processing fees, credit spread income, and insurance premiums compound at near-zero marginal cost. Argentina's economic volatility is the primary noise factor — MELI's exposure to ARS-denominated revenues creates headline risk that obscures underlying BRL/MXN business strength. Management has consistently over-delivered on margin expansion guidance.",
     scout: "On-the-ground intelligence from Brazilian and Mexican e-commerce operators confirms MELI is taking share from fragmented local retailers at an accelerating pace. Credit card market checks indicate Mercado Pago is gaining consumer wallet share in Brazil's super-app ecosystem, competing directly with Nubank and traditional banks. Seller NPS scores have improved significantly following the fulfillment network densification. Argentine consumers use MELI as a USD hedge — purchasing goods priced in USD equivalents preserves value against ARS inflation, creating an unusual demand driver that supports volume through macro stress. The Mercado Credito book is growing while maintaining below-market NPL ratios.",
@@ -716,7 +873,7 @@ const ANALYSIS = {
   },
   'AMZN': {
     thesis: "Amazon is the most undervalued mega-cap in US equities on a through-cycle earnings basis. AWS at 30%+ margins, advertising approaching $60B annually, and Prime's unmatched logistics loyalty program collectively represent a three-engine profit machine that the market continues to undervalue by over-weighting the lower-margin retail segment.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Amazon's moat is a collection of interlocking flywheels, each reinforcing the others. AWS benefits from the deepest cloud ecosystem by services count, technical documentation, and enterprise integration depth — switching costs are among the highest in enterprise software. Prime's 200M+ member base creates a demand aggregation moat for both retail and streaming that no competitor can replicate with unit economics alone. The advertising business sits inside a high-intent shopping context, making it structurally more effective than social or display alternatives. Logistics infrastructure (350+ fulfilment centers, 100+ air cargo planes, 30,000+ delivery vehicles) represents a capital-intensive moat that required two decades to build and cannot be replicated economically.",
     story: "Amazon's financial narrative is a margin expansion story. The company purposefully obscured profitability for 25 years by reinvesting every marginal dollar into logistics and AWS infrastructure. The story inflects when AWS scale allows it to print 30%+ margins, advertising monetizes high-intent shopping behavior at minimal marginal cost, and the retail segment shifts from loss-leader to breakeven-plus through third-party seller fee optimization. North American Retail operating margin expansion from 2% to 6%+ is a multi-year tailwind the Street consistently undermodels. International Retail is earlier on the profitability curve — a second margin expansion wave arriving in 2026-28.",
     scout: "Enterprise CIOs rank AWS as the default production cloud in survey after survey, with Azure as the institutional alternative. Developer mindshare data shows AWS maintaining the broadest skill base in the market, creating a self-reinforcing talent moat. Advertising checks confirm Amazon's sponsored product returns are outperforming Google Shopping on ROAS metrics in key e-commerce verticals. Prime membership churn data indicates extremely low attrition despite price increases — a testament to the compounding value proposition. Third-party seller penetration on the marketplace now exceeds 60%, with seller services margins contributing disproportionately to profitability growth.",
@@ -725,7 +882,7 @@ const ANALYSIS = {
   },
   'MU': {
     thesis: "Micron sits at the epicenter of the AI memory supercycle — the most critical infrastructure bottleneck in large-model training and inference. HBM3E demand for AI accelerators is structurally under-supplied, and Micron's execution on HBM manufacturing positions it to capture disproportionate share of the most profitable memory segment in the industry's history.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Micron's moat in memory semiconductors is primarily scale and manufacturing expertise rather than IP exclusivity. The global DRAM industry is an effective oligopoly with three participants (Samsung, SK Hynix, Micron), providing pricing rationality that was absent during earlier commodity cycles. HBM (High Bandwidth Memory) manufacturing is technically complex — requiring 3D stacking of DRAM dies with through-silicon vias — and Micron's certification timeline at NVIDIA, AMD, and Google represents a hard-won competitive position that took years to establish. Process technology leadership at 1β (1-beta) DRAM node is a durable differentiator. The risk: Samsung's financial capacity to sustain periods of price competition exceeds Micron's, making cycle timing a persistent vulnerability.",
     story: "Micron's story is the transition from commodity cyclical to AI infrastructure enabler. In prior cycles, DRAM was undifferentiated — prices moved inversely with supply additions. The HBM cycle breaks this pattern: AI training clusters require HBM as a bottleneck input, demand is inflexible to price, and supply is constrained by advanced packaging capacity. Micron's HBM revenue trajectory from near-zero in 2023 to $5B+ in 2025 represents the fastest product ramp in company history. The narrative risk: DRAM pricing for conventional server and PC memory remains cyclical, and a server inventory correction could depress conventional DRAM margins even as HBM economics improve.",
     scout: "AI infrastructure procurement checks confirm HBM supply is allocated 18-24 months forward, with customers unable to procure incremental volumes at any price. NVIDIA's supply chain intelligence indicates Micron is gaining certification velocity for H200 and B200 platforms, expanding from secondary to co-primary HBM supplier. Data center operators report that memory bandwidth — not compute FLOPS — is the binding constraint in inference workloads, validating the structural demand thesis. Conventional DRAM pricing data shows stabilization and recovery in server DRAM, suggesting the correction cycle is troughing.",
@@ -734,7 +891,7 @@ const ANALYSIS = {
   },
   'ASML': {
     thesis: "ASML holds a monopoly on EUV lithography — the single most critical bottleneck in advanced semiconductor manufacturing. With no credible competitor within a decade of matching ASML's High-NA EUV capability, the company's position in the AI chip supply chain is unique, unassailable, and severely underappreciated by investors who categorize it as a cyclical capital equipment company.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "ASML's moat is the most durable in global technology: a sole-supplier position in EUV lithography protected by 40+ years of R&D, 110,000+ patents, and a supplier ecosystem requiring thousands of specialized components that collectively represent irreproducible institutional knowledge. No competitor has a credible EUV development program. High-NA EUV (the next generation tool) extends ASML's monopoly to 2030+ and compounds per-tool revenue from €200M to €350M+. The installed base model generates recurring service revenue (~€4B annually) that provides earnings resilience through equipment order cycles. Export control restrictions on Chinese customers introduce near-term revenue risk but underscore the strategic value of the technology.",
     story: "ASML's narrative is straightforward: every advanced logic chip (AI accelerators, iPhones, data center processors) requires EUV lithography, and ASML makes the only EUV machines. Revenue follows semiconductor capex cycles with a 12-18 month lag. The 2023-24 inventory digestion cycle suppressed orders; the recovery cycle commencing in 2025 reflects renewed demand from TSMC, Samsung, and Intel for High-NA upgrades required for 2nm and below process nodes. The key model assumption: High-NA ASP uplift (€350M vs. €200M for standard EUV) drives revenue per unit up 75%, significantly amplifying revenue growth beyond unit volume recovery alone.",
     scout: "TSMC, Samsung, and Intel procurement plans confirm High-NA EUV delivery schedules are being maintained for 2nm and below node ramps. Supplier ecosystem checks indicate components for High-NA tools are in production — ASML's supply chain has successfully scaled for the ramp. Chinese customer restrictions have created a near-term revenue gap (~€2-3B annually), but geopolitical dynamics also reduce competitive risk from Chinese domestic equipment alternatives. Talent assessment shows ASML maintaining strong R&D organization retention in Eindhoven, critical for High-NA development and next-generation Hyper-NA research.",
@@ -743,7 +900,7 @@ const ANALYSIS = {
   },
   'BLK': {
     thesis: "BlackRock has constructed an unassailable position at the intersection of asset management, technology infrastructure, and financial market plumbing. The Aladdin platform and iShares ETF dominance are durable moats that compound with industry AUM growth — BlackRock earns fees whether markets rise or fall, and the GIP acquisition adds a third compounding engine in private infrastructure.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "BlackRock's moat is institutional infrastructure — the firm is embedded in pension fund, sovereign wealth, and insurance company risk management workflows in ways that generate near-zero churn. Aladdin, managing $21T+ of third-party assets on its platform, creates switching costs so high that a major pension fund migration would take years and hundreds of millions in consulting fees. iShares' 35%+ global ETF market share benefits from Vanguard-esque scale advantages in tracking error, liquidity, and securities lending income. The GIP acquisition adds infrastructure asset management — a segment with decade-long locked-up capital and fee structures that make traditional active management look fragile.",
     story: "BlackRock's narrative is the financialization of global savings. Every structural force — pension obligation growth, ETF democratization, ESG mandates, private infrastructure investment — directs incremental capital toward BlackRock's fee streams. The fee rate compression in core ETF indexing is real but offset by AUM growth and the mix shift toward alternatives (GIP, credit, real assets) at 3-5x higher fee rates. The stock trades at a discount to pure-play alternatives managers despite superior business quality — a mispricing that reflects market failure to value the Aladdin platform appropriately. Acquisitive growth introduces integration complexity that should be monitored.",
     scout: "Sovereign wealth fund relationships are deepening globally, with BlackRock winning mandates in Middle Eastern and Asian markets where institutional infrastructure is developing. Aladdin penetration in insurance company risk management is increasing, with several major European insurers recent additions. ETF flows data confirms continued retail and institutional migration from active to passive, benefiting iShares disproportionately. GIP portfolio company operational performance post-acquisition appears in-line with expectations. The primary competitive concern: Vanguard's index fund expansion and State Street's ETF competition remain intense, limiting iShares pricing power in core equity index products.",
@@ -752,7 +909,7 @@ const ANALYSIS = {
   },
   'JPM': {
     thesis: "JPMorgan Chase is the best-managed large financial institution in the world, with a structural earnings power advantage derived from unmatched deposit franchise quality, investment banking breadth, and decades of credit cycle risk management discipline. The stock offers an attractive combination of durable earnings growth, capital return, and recession resilience at a reasonable valuation.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "JPMorgan's moat is institutional depth — a combination of consumer deposit franchise (70M+ US customers), investment banking relationships, prime brokerage infrastructure, and proprietary trading technology that collectively cannot be assembled by a new entrant. The Consumer & Community Banking division benefits from branch network density and digital banking scale that creates substantial customer acquisition cost advantages. Investment banking mandates are reinforced by decades of CEO and CFO relationship cultivation. The credit card franchise (Chase Sapphire, Freedom) generates fee income and data intelligence that compounds the advertising and marketing moat. Regulatory burden on large banks is a feature for incumbents, not a bug — it raises barriers to entry.",
     story: "JPMorgan's narrative in the current cycle is a net interest income and credit normalization story. The 2022-23 rate environment provided exceptional NII tailwinds as deposits repriced slowly while loan rates rose rapidly. The 2025-26 narrative centers on whether NII compresses materially as rates decline, and whether credit quality normalization (rising consumer delinquencies from pandemic-era lows) absorbs more than expected provisioning. Jamie Dimon's consistent forward guidance on deteriorating credit quality and geopolitical risk — more cautious than Street consensus — sets expectations conservatively, allowing for consistent positive surprises.",
     scout: "Commercial banking relationship checks confirm JPMorgan's market share in corporate and middle-market lending is expanding, particularly in technology sector relationships. Investment banking deal flow intelligence shows JPMorgan consistently winning lead-left positions in large-cap M&A, IPOs, and leveraged buyouts. Retail banking NPS scores have improved with digital banking investment — the Chase app is rated among the top consumer banking platforms. The First Republic acquisition has been integrated successfully, adding high-net-worth banking relationships in key coastal markets. Credit card delinquency trends are normalizing but within management's guided range.",
@@ -762,7 +919,7 @@ const ANALYSIS = {
   // ── Extended Coverage ──────────────────────────────────────────────────────
   'AAPL': {
     thesis: "Apple is the world's most profitable consumer technology franchise, with a services business that is structurally revaluing the earnings stream from hardware-cyclical to software-recurring. The installed base of 2.2 billion active devices creates an unparalleled monetization platform — services revenue (~$100B annualized) now generates higher margins than iPhone hardware and grows independent of device refresh cycles.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Apple's moat is the deepest consumer ecosystem in technology: hardware, software, services, and identity tightly integrated across iPhone, Mac, iPad, Apple Watch, and AirPods. Switching costs are exceptionally high — iOS users surrender their message history, app purchases, AirDrop network, iCloud photos, and health data upon leaving. The App Store's duopoly position (alongside Google Play) on mobile distribution generates 30% platform economics with minimal incremental capital. The Apple Silicon transition demonstrates that vertical integration extends moat depth over time, not the reverse.",
     story: "Apple's financial story has pivoted from iPhone-cycle-dependent revenue to services compounding. Services gross margins (~75%) are expanding faster than hardware (~37%), creating positive mix-shift in blended margins. Revenue concentration risk (iPhone ~50% of revenue) is offset by the stability of the upgrade cycle and the services attachment rate which monetizes the installed base independent of new device purchases. India and Southeast Asia are the next hardware growth vectors as the US and China installed bases saturate.",
     scout: "Channel checks and developer surveys confirm the App Store monetization ecosystem remains robust despite regulatory pressure in the EU and US. Enterprise iPhone penetration is expanding — corporate IT departments increasingly standardize on iOS for security and MDM. Apple Intelligence (AI integration) represents a legitimate supercycle catalyst if it drives upgrade velocity in the installed base. Physical retail quality and NPS scores remain category-leading. The Vision Pro product signals long-term spatial computing ambition, though it remains subscale in revenue terms.",
@@ -771,7 +928,7 @@ const ANALYSIS = {
   },
   'NVDA': {
     thesis: "Nvidia has become the defining infrastructure company of the AI era, supplying the GPU compute that trains and runs the world's most capable AI models. The H100/H200/Blackwell architecture family is so far ahead of alternatives that hyperscalers are compelled to pay premium prices and accept 12-18 month lead times — establishing a temporary monopoly in the most critical input to the AI buildout.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Nvidia's moat is architectural and software-driven. CUDA, the proprietary GPU programming language introduced in 2006, has accumulated an irreplaceable ecosystem of developer training, libraries (cuDNN, cuBLAS, NCCL), and model weights that simply run best on Nvidia hardware. This software flywheel means that even if AMD or Intel matched Nvidia's hardware specifications, the CUDA-trained developer base would require years to retrain on alternative platforms. The networking layer (InfiniBand from Mellanox, NVLink, NVSwitch) further differentiates by enabling GPU-to-GPU communication at speeds that are essential for training large language models at scale.",
     story: "Nvidia's financial transformation from gaming GPU company to AI infrastructure monopoly is among the fastest fundamental reratings in corporate history. Revenue went from $7B in Q1'23 to $39B in Q4'24 — a 5x increase in six quarters — driven entirely by data center demand for H100/H200. Gross margins expanded from 56% to 75%+ as data center mix dominates gaming. The current consensus debate: is Blackwell demand front-loaded (risk of air pocket in 2026) or does hyperscaler capex remain elevated driven by competitive necessity? The critical insight is that Nvidia's pricing power has not yet been tested — demand consistently exceeds supply, so the equilibrium price has not been discovered.",
     scout: "Hyperscaler conversations (public filings, earnings calls) confirm 100%+ YoY GPU capex growth commitments through at least 2025, with Microsoft, Google, Meta, and Amazon all citing Blackwell cluster buildouts. Sovereign AI programs (UAE, Japan, India, Saudi Arabia) represent a new category of demand completely separate from hyperscalers. Inference demand (AI responses served to end users) is growing as a second wave of demand after training. The primary bear case — AMD's MI300X gaining traction — is partly confirmed, but AMD's software stack limitations mean Nvidia retains ~90%+ of AI GPU revenue.",
@@ -780,7 +937,7 @@ const ANALYSIS = {
   },
   'AMD': {
     thesis: "AMD is the most credible challenger to Nvidia in AI GPU compute, with the MI300X datacenter GPU gaining traction among hyperscalers seeking Nvidia supply chain diversification. Simultaneously, the CPU franchise (EPYC server) continues taking share from Intel in the data center, providing stable base earnings while the AI GPU ramp potentially becomes the next inflection.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "AMD's moat is more about execution track record than any single structural advantage. The Zen CPU architecture, under Lisa Su's leadership from 2017, executed a methodical catch-up with Intel across server (EPYC), desktop (Ryzen), and laptop (Ryzen Mobile) segments — a turnaround that is arguably the best execution story in the semiconductor industry in the past decade. In AI GPU, AMD lacks the CUDA software ecosystem depth, but ROCm (the open-source alternative) has improved materially and several large hyperscalers now operate MI300X clusters. The fabless model relying on TSMC advanced nodes (3nm, 2nm) keeps AMD at the leading edge without the capital intensity burden of Intel's IDM model.",
     story: "AMD's revenue narrative is bifurcated: the AI GPU data center segment (MI300X, MI350) is the growth catalyst, while the PC and gaming segments provide volatile but cyclically recovering earnings. The AMD Instinct MI300X generated approximately $5B in data center GPU revenue in 2024 — meaningful but still roughly 10% of Nvidia's AI GPU revenue in the same period. The bull case: ROCm software ecosystem matures, hyperscalers deepen AMD GPU deployments for cost diversification, and MI400 series closes performance gap. The bear case: Nvidia's software moat proves insurmountable and AMD AI GPU revenue plateaus.",
     scout: "Meta, Microsoft, and several cloud-native companies have publicly disclosed MI300X deployments, validating AMD's data center AI ambitions. EPYC server CPU market share gains against Intel are well-documented — AMD now holds approximately 25-30% of new server CPU deployments. The PC market recovery benefits AMD's Ryzen line, though this is a lower-quality earnings driver. Lisa Su's management team has the credibility of having executed the Zen turnaround; the question is whether AI GPU execution is equally disciplined. The Xilinx FPGA acquisition has not yet generated significant AI-specific revenue, representing an option value.",
@@ -789,7 +946,7 @@ const ANALYSIS = {
   },
   'INTC': {
     thesis: "Intel is a deep-value turnaround thesis centered on whether Pat Gelsinger's IDM 2.0 strategy — rebuilding Intel's semiconductor manufacturing leadership through a $100B+ capital investment program — can restore process node leadership by 2025-26. At trough valuations and a dividend that was cut but maintained, Intel offers asymmetric upside if the foundry model gains external customers, and limited further downside at near-book-value pricing.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Intel's historic moats — x86 architecture lock-in, manufacturing leadership, and enterprise OEM relationships — are all under structural pressure simultaneously. x86 remains dominant in servers and PCs but ARM is gaining ground in laptops (Apple Silicon) and threatening in servers. Manufacturing leadership was ceded to TSMC and Samsung in 2016-2021, creating the earnings crisis that led to Pat Gelsinger's return. The enterprise OEM relationship moat (Dell, HP, Lenovo) remains intact but is being competed by AMD on price/performance and ARM on power efficiency. Intel's foundry ambitions (IFS — Intel Foundry Services) are strategically rational but execution risk is high.",
     story: "Intel's financial story from 2022-2024 is one of painful margin compression — revenue declined from $79B (2021) to ~$54B (2023) as AMD took server CPU share, the PC market contracted, and the company absorbed massive capex charges for the IDM 2.0 investment cycle. The turnaround thesis is that Intel 18A (the next-generation process node) delivers competitive performance, enabling both internal product competitiveness and external foundry revenue. The Q3 2024 $16.6B write-down was painful but partly cleared the impairment risk. Timeline risk is the central issue: every quarter of delay in node competitiveness is further AMD share gain.",
     scout: "Manufacturing site visits and industry analyst reports on Intel 18A suggest the node is technically competitive with TSMC N2 on some metrics — a significant improvement from the Intel 7 (10nm equivalent) struggles. Qualcomm has publicly tested IFS as a foundry customer, providing real-world validation. The US CHIPS Act funding ($8.5B grants + $11B loans) de-risks the capital investment program. Key scuttlebutt risk: Taiwan Semiconductor continues to execute ahead of expectations, raising the bar Intel must reach. Amazon Web Services (Graviton custom ARM chips) and Microsoft (custom silicon) validate the ARM-in-datacenter threat.",
@@ -798,7 +955,7 @@ const ANALYSIS = {
   },
   'MRVL': {
     thesis: "Marvell Technology has repositioned from a commodity Ethernet chip vendor to a custom silicon specialist for hyperscaler AI infrastructure, with Amazon, Microsoft, and Google all adopting Marvell-designed custom ASICs for networking, storage, and AI inference accelerators. The revenue inflection from custom AI silicon is now visible in sequential acceleration, making Marvell the highest-conviction custom ASIC play in the AI supply chain.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Marvell's competitive advantage is deep co-design capability with hyperscaler customers — the ability to design custom silicon that integrates precisely with each customer's proprietary software stack, networking topology, and thermal envelope. This is not a product moat (custom ASICs are inherently customer-specific) but rather a relationship and engineering moat. Once Marvell's teams are embedded in a hyperscaler's custom silicon roadmap (typically 2-3 year design cycles), switching costs are essentially infinite for that generation. The DSP and SerDes IP in Marvell's networking silicon is best-in-class, enabling the optical interconnect speeds (400G, 800G) that are critical for large AI cluster communication.",
     story: "Marvell's revenue story is a classic semiconductor super-cycle setup. Revenue declined from its 2022 peak (~$6B annualized) as enterprise storage and 5G infrastructure markets weakened, creating a trough in 2024. The recovery is being driven by custom AI silicon ramp at Amazon (AWS Trainium2/Inferentia), Google (TPUs), and Microsoft (Maia) — all chips with significant Marvell IP content. The custom AI silicon TAM is estimated at $20-30B by 2026, and Marvell is positioned to capture $8-12B of that given its current customer relationships. Sequential revenue acceleration from Q3'24 onward was the first tangible evidence of this thesis materializing.",
     scout: "AWS re:Invent 2023 announcements specifically cited Marvell as a key silicon partner for Trainium2, providing rare public validation of a custom ASIC relationship. Microsoft's Azure Maia chip is publicly Marvell-enabled. The 5G infrastructure headwind (Nokia, Ericsson CapEx cuts) is a headwind for the carrier segment but does not affect the data center AI thesis. Enterprise networking (Prestera, Marvell's switching portfolio) is recovering slowly. The primary competitive threat is Broadcom in custom AI silicon — both companies are growing but Broadcom is larger and has more hyperscaler relationships. Marvell is more exposed to Amazon/Google specifically.",
@@ -807,7 +964,7 @@ const ANALYSIS = {
   },
   'AVGO': {
     thesis: "Broadcom is the world's most profitable semiconductor company on a per-dollar-of-revenue basis, combining an irreplaceable networking and storage silicon franchise with the VMware software acquisition — the most important enterprise software deal in a decade. The custom AI ASIC opportunity (XPUs for Google TPU, Meta MTIA) creates an additional AI hardware revenue stream estimated at $10-15B annually by 2027.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Broadcom's moats are stacked and durable. In networking silicon, Broadcom's Tomahawk and Trident switching ASICs are embedded in essentially every data center switch in the world — a near-monopoly position built over 15 years of consistent execution. In storage, Broadcom's SAS and PCIe controllers are similarly dominant. The VMware acquisition added an enterprise software moat: vSphere, NSX, and vSAN are deeply embedded in enterprise data center infrastructure and carry the highest switching costs in enterprise IT. Hock Tan's M&A playbook — acquire, cut costs to maximum profitability, raise prices on sticky products — has been repeated with remarkable consistency across six major deals.",
     story: "Broadcom's financial story post-VMware is a software transformation. Prior to the acquisition, Broadcom was a high-margin semiconductor company (~74% gross margin). Post-VMware, the software segment (operating at ~80%+ margin) is contributing 40%+ of revenue and transforming the earnings quality profile. The VMware revenue model shift from perpetual licenses to subscriptions (VCF — VMware Cloud Foundation bundled subscription) is disrupting enterprise customers in the short term (revenue dip, budget pressure) but creates highly predictable multi-year contracted revenue. The AI ASIC opportunity is a meaningful upside driver — Google and Meta are both deploying Broadcom-designed XPUs at scale.",
     scout: "VMware customer checks reveal significant pricing pressure as Broadcom forces subscription conversion from perpetual licenses — typical complaints about 3-5x price increases on equivalent functionality. However, defection rates are low because vSphere replacement requires a complete data center re-architecture. The AI custom ASIC ramp (XPU) is less visible publicly than Nvidia/AMD but Google's TPU (Broadcom-designed) is confirmed as one of the world's largest AI compute deployments. Networking silicon (Tomahawk 5, 51.2Tbps) continues to dominate data center switching for AI cluster connectivity. Hock Tan's departure risk is a headline risk — no successor has demonstrated equivalent M&A capability and cost discipline.",
@@ -816,7 +973,7 @@ const ANALYSIS = {
   },
   'TSM': {
     thesis: "TSMC is the indispensable infrastructure company of the semiconductor age — the singular manufacturer capable of producing the world's most advanced logic chips (2nm, 3nm, 5nm) at scale. Every major AI chip (Nvidia H100/H200/Blackwell, AMD Instinct, Apple Silicon, Google TPU) runs on TSMC silicon, creating a captive demand structure that is unique in the history of industrial supply chains.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "TSMC's moat is the deepest in the semiconductor industry: a 30-year accumulation of process engineering knowledge, equipment configurations, proprietary chemical compositions, and process control algorithms that cannot be recreated from published patents or by hiring away engineers. The complexity of advanced node manufacturing (3nm involves ~1,000+ process steps, each with nanometer-level tolerances) creates barriers so high that Intel spent a decade and $100B+ attempting to catch up and has not yet succeeded. TSMC's yield rates on leading-edge nodes are estimated to be 20-30 percentage points above competitors — a cost advantage that is self-reinforcing as volume compounds learning curve effects.",
     story: "TSMC's financial trajectory is driven by AI GPU demand and the broader semiconductor content growth per electronic device. Revenue declined in 2023 as PC and smartphone markets corrected but accelerated strongly through 2024 as N3/N5 capacity was absorbed by Apple, Nvidia, AMD, and others simultaneously. The AI capex super-cycle is a multi-year tailwind — training clusters require chips manufactured at 3nm and beyond, and inference scaling requires ongoing volume expansion. Geopolitical risk (Taiwan-China relations) creates a persistent discount on TSMC's multiple that partially offsets the business quality.",
     scout: "Industry capacity utilization data confirms TSMC's leading-edge nodes (3nm, 5nm) are running at near 100% utilization with demand exceeding supply — a pricing power signal. Arizona fab construction is progressing (N4P in 2024, N3 in 2026) as TSMC geographically diversifies under US CHIPS Act incentives, reducing the Taiwan concentration risk premium. Japan (Kumamoto) and Europe (Dresden) fabs expand the geographic footprint further. Customer check: Apple, Nvidia, AMD, and Qualcomm all have long-term supply agreements with TSMC, providing revenue visibility. The bear case risk is Samsung and Intel catching up on advanced nodes — both companies have made progress, but the gap to TSMC remains several years.",
@@ -825,7 +982,7 @@ const ANALYSIS = {
   },
   'ROXO': {
     thesis: "Nu Holdings is the fastest-growing digital bank in history, having acquired 100 million customers in Latin America in ten years — a growth rate no traditional or digital bank has approached. The thesis is that Nu is early in monetizing its customer base: average revenue per active customer is still $10-15/month versus $25-30+ for mature digital bank peers, with credit products (credit cards, personal loans, payroll lending) providing the primary monetization runway.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Nu's moat is brand and product-market fit in underbanked Latin American markets. The Nu debit card was the first card many Brazilian customers ever owned — creating a memory and trust association that traditional banks with their fee structures and bureaucratic branch networks cannot replicate. Customer acquisition costs are near zero (word-of-mouth viral growth) versus $30-50 for traditional banks. The data advantage is significant: Nu has transactional behavioral data on 100M customers across all spending categories, enabling superior credit underwriting relative to traditional banks operating with limited credit bureau data. Network effects in the payment ecosystem (Pix, the Brazilian instant payment system) further reinforce Nu's position.",
     story: "Nu's financial arc is a classic emerging digital bank transition from growth-at-any-cost to profitable compounding. The company reached sustained profitability (GAAP net income) in Q2 2023 and has grown earnings rapidly since — NI reached $2.4B annualized by 2024 from breakeven in 2022. The path to $5B+ annual net income involves: (1) increasing credit product penetration among existing customers, (2) expanding into Mexico and Colombia (markets currently in early-stage hyper-growth similar to Brazil 2018-2020), and (3) launching new products (investments, insurance, payroll, SME banking). Customer count is a vanity metric; monthly active engagement and average revenue per active customer are the operational KPIs that matter.",
     scout: "Brazilian Central Bank data confirms Nu is the most used financial app in Brazil by monthly active users — above Itaú, Bradesco, and Nubank's direct digital competitors. Mexico customer growth has replicated Brazil's early trajectory, with 7M+ customers and accelerating engagement. Credit quality metrics (NPL rates, charge-offs) have normalized from elevated 2023 levels and are now below Brazilian banking industry averages — validating Nu's data-driven credit underwriting model. The launch of NuPay (payment initiation via Pix) and NuInvest (investment platform) demonstrates cross-sell velocity. Key risk: rising Selic rate periods pressure Nu's funding costs (deposits) while also improving NIM on credit portfolio.",
@@ -834,7 +991,7 @@ const ANALYSIS = {
   },
   'RACE': {
     thesis: "Ferrari is the only automaker in the world that operates with luxury goods economics — pricing power that allows ASP increases of 5-10% annually, a 2-3 year delivery waitlist that eliminates inventory risk, and EBITDA margins of 35-38% that are structurally superior to any other car manufacturer and competitive with the best software companies. The stock deserves a luxury conglomerate multiple, not an automotive multiple.",
-    date: 'June 2025',
+    date: '2025-06',
     moat: "Ferrari's moat is the deepest in consumer goods: 76 years of Formula 1 racing heritage, a brand so exclusive that ownership requires a relationship with a Ferrari dealer spanning multiple previous purchases, and a product portfolio deliberately supply-constrained below demand to preserve exclusivity. The pricing power is demonstrated empirically — Ferrari raised ASP from ~€250K in 2018 to €400K+ in 2024, and demand has increased, not decreased. The waiting list for certain models (Daytona SP3, SF90 Stradale) exceeds three years, with no financial incentive to accelerate delivery. This is the textbook definition of a Veblen good — higher price increases desirability.",
     story: "Ferrari's financial narrative is an ASP and personalization story. Volume is deliberately capped at approximately 13,000-14,000 units per year to preserve brand exclusivity. Revenue growth therefore comes entirely from ASP increases and mix shift toward higher-spec, personalized configurations (XX Programma, One-Off models). The personalization and customization segment generates gross margins above the average product, adding points of profitability per unit as wealthy buyers spend €50-200K+ on options. The Purosangue (Ferrari's first SUV/crossover) expansion into a new body format represents the primary volume growth vector while maintaining price discipline. Electrification is being approached cautiously — the first Ferrari EV is expected 2025-2026, priced well above €500K.",
     scout: "Ferrari dealer relationship data and clientele surveys confirm zero inventory on dealer lots — every car delivered has a named buyer who paid full ASP or above. The waiting list for Purosangue exceeded 3 years from initial booking. Formula 1 performance in 2023-2024 has meaningfully improved under Fred Vasseur's leadership — competitive F1 results provide brand oxygen that reinforces the core product desirability. The personalization factory (Maranello atelier) is operating at capacity with wealthy clients flying to the factory for bespoke configuration sessions that generate significant incremental ASP. Key scuttlebutt risk: Chinese luxury spending softness has not materially affected Ferrari because the buyer demographic is ultra-high-net-worth (top 0.1%), not aspirational luxury.",
@@ -843,7 +1000,7 @@ const ANALYSIS = {
   },
   'VZ': {
     thesis: "Verizon is a high-yield, bond-proxy telecom inflecting from years of wireless share loss to a converged connectivity platform. The January 2026 close of the $20B Frontier fiber acquisition, the first positive Q1 postpaid phone adds since 2013, and a fast-scaling fixed wireless access (FWA) base reframe the story from melting-ice-cube to a deleveraging cash machine with a 20-year dividend-growth track record and a covered ~6% yield.",
-    date: 'June 2026',
+    date: '2026-06',
     moat: "Verizon's moat rests on spectrum depth (extensive C-band mid-band ownership), the nation's most valuable owned wireless network, and high switching costs across ~114M retail postpaid connections. The Frontier acquisition (closed Jan 2026) adds the fiber infrastructure that completes a converged fixed-plus-mobile bundle competitors struggle to replicate at scale. Network is a capital-intensive, three-player oligopoly (VZ, T-Mobile, AT&T) where rational pricing has largely held. The moat is wide but not widening: T-Mobile's mid-band lead and superior churn remain the structural threat to Verizon's premium positioning.",
     story: "The narrative has shifted from a pure-wireless, ex-growth dividend payer to a converged connectivity compounder. Fixed wireless access (5.7M connections) is expanding the broadband TAM at near-zero incremental capex on existing spectrum, and Frontier fiber gives Verizon an owned-fiber convergence story for the first time. The model tension: whether postpaid stabilization is durable or a one-off from Frontier-market quality gains, and whether FWA is a structural product or a transitional bridge until fiber/cable scale. Capex peaked in 2022 post-C-band; FCF is recovering, the lever that funds both the dividend and Frontier deleveraging.",
     scout: "Channel checks point to Verizon winning enterprise and public-sector 5G private-network and FirstNet-alternative contracts, and to FWA satisfaction holding up in suburban/rural markets where cable is weaker. The Q1 2026 swing to +55K postpaid phone net adds — versus consensus for a loss of ~88K — was a >140K beat that surprised even bulls and is cited internally as proof the Frontier integration is lifting network perception. Watch item: promotional intensity across the triopoly and whether device-upgrade pricing pressures ARPU.",
@@ -852,7 +1009,7 @@ const ANALYSIS = {
   },
   'ORCL': {
     thesis: "Oracle is the most violently repriced large-cap in the AI infrastructure trade: a $638B contracted backlog against a stock down roughly 64% from its 2025 peak. The thesis is no longer whether the demand exists — RPO grew 363% year over year — but whether Oracle can finance the buildout without impairing the balance sheet, and whether OpenAI, estimated at close to half of that backlog, can pay. This is a credit story wearing a software valuation.",
-    date: 'July 2026',
+    date: '2026-07',
     moat: "Oracle's moat has two unequal halves. The durable half is the database and enterprise applications franchise: mission-critical systems of record with decade-long switching costs, where the customer would rather pay the maintenance renewal than re-platform the general ledger. That half funds everything else. The contested half is OCI, where Oracle competes with AWS, Azure and GCP by being late, cheaper per unit of GPU throughput, and willing to sign contracts the incumbents would not — bare-metal capacity at scale on customer-friendly terms. That is a price-and-willingness advantage, not a structural one. The multicloud database agreements, which put Oracle Database inside AWS, Azure and Google datacenters, are the interesting hybrid: they extend the durable moat into the rival's own estate. Judgment: wide moat in the legacy business, narrow-to-none in the AI capacity business that now sets the share price.",
     story: "The narrative has inverted twice in twelve months. Through 2025 Oracle was the surprise AI winner and the multiple re-rated violently upward; in 2026 it became the AI credit risk. Q4 FY2026 delivered record numbers — revenue $19.2B (+21%), cloud revenue $9.9B (+47%), IaaS +93% — and RPO ended at $638B, up 363%, of which roughly $75B is customer prepayments and customer-supplied GPUs. Management guides FY2027 to about $90B of revenue and non-GAAP EPS of $8.05. But FY2026 capex was $55.7B (+162%), free cash flow was negative $23.7B, gross debt reached roughly $167B, FY2027 capex is flagged as high as $95B, and management has telegraphed about $40B of additional debt and equity financing. S&P cut the rating to BBB-, one notch above high yield. The model question is no longer growth; it is the spread between contracted revenue and the cost of the capital that produces it.",
     scout: "Channel feedback on OCI's technical performance in large GPU clusters is genuinely positive — network fabric and bare-metal provisioning are cited as real strengths by AI-native customers, not marketing. The concern sits on the other side of the invoice. OpenAI is estimated at close to half the backlog through a reported five-year, roughly $300B agreement that does not begin generating revenue until 2027, and OpenAI's own funding path is the largest unhedged variable in Oracle's income statement. Enterprise application customers report Fusion and NetSuite renewals proceeding normally, which matters a great deal: the legacy business is the collateral for the AI bet. The item flagged by credit analysts rather than equity analysts is the composition of RPO between investment-grade counterparties and venture-funded model labs — a split Oracle does not disclose.",
@@ -861,7 +1018,7 @@ const ANALYSIS = {
   },
   'NOW': {
     thesis: "ServiceNow is the cleanest test of whether agentic AI destroys seat-based software or is sold by it. The market has voted for destruction — the stock is down roughly 30-40% in 2026 and the forward multiple has compressed from the high fifties toward the mid twenties — while the reported numbers accelerated. Subscription revenue grew 23% in constant currency in Q2 2026 and AI annual contract value crossed $1B. The thesis is that the workflow layer, not the model layer, captures enterprise AI economics.",
-    date: 'July 2026',
+    date: '2026-07',
     moat: "ServiceNow's moat is the system of action. Where SAP and Oracle own the system of record and Salesforce owns the system of engagement, ServiceNow owns the workflow that connects them — IT service management first, then HR, customer service, security operations and increasingly front-office processes. The Now Platform runs a single data model across all of it, which is why displacement requires ripping out the connective tissue of the enterprise rather than swapping a module. The evidence is the renewal rate: 98%, sustained through a brutal enterprise software spending environment. Switching costs are reinforced by a large certified partner ecosystem and by the fact that a ServiceNow deployment encodes a company's approved processes. Judgment: wide moat, with the honest caveat that it was built on a per-employee pricing convention that AI agents call into question.",
     story: "The narrative fight is entirely about the unit of value. Bears — the SaaSpocalypse thesis — argue that if agents do the work of employees, per-seat revenue shrinks with headcount; Gartner's estimate that agents divert roughly 20% of planned enterprise software spend by 2030 is the number they cite. ServiceNow's answer is to change the unit before the market does: more than half of net new business is already non-seat-based, and the Pro+ and Enterprise+ SKUs launching this autumn carry list prices at least 60% above Pro. Q2 2026 supports the bull side — subscription revenue $3.877B (+23% cc), total revenue $3.99B (+24%), cRPO +21% cc beating guidance by 200bps, AI ACV past $1B with net new AI ACV accelerating more than 40% sequentially, deals containing five or more AI products up 5.5x year over year, and customers running agentic AI in production up ninefold in nine months. Full-year subscription revenue guidance was raised to $15.76-15.78B, about 21% constant-currency growth.",
     scout: "CIO checks continue to place ServiceNow in the small set of enterprise platforms protected during budget cuts, because the workflow layer is where cost-reduction programmes are executed rather than a target of them. Practitioners report that Now Assist moved from pilot to production faster than previous ServiceNow product cycles, with customers generating more than $1M of AI ACV up over 130% year over year. The recurring critical note from buyers is price: ServiceNow is expensive relative to alternatives, and the Plus SKU premium will test whether the platform's pricing power survives a procurement cycle in which every vendor is asking for an AI uplift. The second watch item is US federal exposure, where budget disruption has been a visible drag across the sector in 2026.",
@@ -870,7 +1027,7 @@ const ANALYSIS = {
   },
   'PLTR': {
     thesis: "Palantir is the rarest thing in software: a company whose fundamentals are not in dispute and whose valuation is entirely in dispute. Revenue grew 85% in Q1 2026, US commercial grew 137%, adjusted free cash flow margin runs above 55%, and the guided Rule of 40 score for the year is 129%. And the stock trades at multiples with no modern precedent at this size. Every argument about PLTR collapses into one question: what is the correct multiple for the fastest-compounding profitable software business ever observed at this scale?",
-    date: 'July 2026',
+    date: '2026-07',
     moat: "The moat is ontology and installation depth, not algorithms. Foundry, Gotham and AIP work by mapping a customer's messy operational reality into a shared data model, and that mapping is co-built with the customer over months. Once an organization runs its logistics, underwriting or targeting on that ontology, replacing it means reconstructing the map — a project no CIO volunteers for. In government the moat is deeper still: accreditation, classified-environment deployment and multi-year programme relationships that new entrants cannot shortcut. The vulnerability is that foundation models keep getting better at the messy-data problem Palantir originally solved with forward-deployed engineers, which compresses the technical differentiation over time. The counter is that AIP's value is the orchestration and permissioning layer around the model, which is precisely what enterprises cannot buy off the shelf. Judgment: wide moat in government, deepening but much younger moat in US commercial.",
     story: "The story is US commercial. Government was always the base — durable, high-margin, slow — and for years the bull case rested on a commercial business that repeatedly failed to inflect. It has now inflected violently: US commercial revenue reached $507M in Q1 2026, up 137% year over year, and management guides full-year US commercial above $3.224B, at least 120% growth. Total US revenue grew 93% to $1.08B. Full-year revenue guidance is $7.650-7.662B, roughly 71% growth, with adjusted income from operations of $4.440-4.452B and adjusted free cash flow of $4.2-4.4B; Q1 operating cash flow was $899M at a 55% margin. Karp has said publicly he expects the US business to double again in 2027. The model tension is that guidance now embeds an acceleration leaving nothing for disappointment, and the bootcamp-to-contract acquisition motion has not been tested through a corporate spending downturn.",
     scout: "Customer feedback splits cleanly and instructively. Organizations that completed a Palantir deployment describe results that justify the price; organizations that stalled describe an expensive consulting engagement wearing a software licence. That bimodality is the honest read on AIP: it works spectacularly where a senior sponsor forces process change, and disappoints where it is bought as a tool. Bootcamp-to-contract conversion has been the most-cited channel signal behind the commercial acceleration and has held through 2026. On the government side, defence and allied-nation demand has strengthened rather than weakened. The recurring practitioner criticism is dependence on forward-deployed engineers, which raises a legitimate question about whether the commercial gross margin structure holds at three times the current customer count.",
@@ -879,7 +1036,7 @@ const ANALYSIS = {
   },
   'CEG': {
     thesis: "Constellation is the largest carbon-free generator in the United States and, since the $16.4B Calpine acquisition closed in January 2026, a roughly 60 GW nuclear-plus-gas fleet sitting exactly where hyperscale datacenter demand is landing. The thesis is that clean firm baseload has become a scarce asset with genuine pricing power, and that Constellation converts that scarcity into twenty-year contracted cashflows with investment-grade counterparties — turning a commodity generator into something closer to an infrastructure annuity.",
-    date: 'July 2026',
+    date: '2026-07',
     moat: "The moat is physical and effectively unreproducible: nobody is building a new US nuclear fleet. Constellation operates the largest one, with 24/7 carbon-free output, in PJM and other constrained markets where interconnection queues run years long and new capacity cannot arrive on the timeline AI datacenters require. Calpine adds the complementary asset — dispatchable gas that firms the intermittent renewables around it — plus geothermal. The regulatory layer reinforces the position: the nuclear production tax credit sets a revenue floor around $44.75/MWh, indexed to inflation, converting the historical commodity-price downside into a bounded risk while leaving the upside intact. The moat's real boundary is political rather than competitive: the same scarcity that creates the pricing power creates the ratepayer backlash that invites intervention.",
     story: "The narrative shifted from clean-energy utility to AI infrastructure landlord. Q1 2026 adjusted operating earnings were $2.74 per share against $2.59 consensus, on revenue of $11.12B versus $8.81B expected, with GAAP net income of $4.49 per share. Management affirmed full-year 2026 adjusted operating earnings guidance of $11.00-12.00 per share and targets base EPS growth above 20% annually from 2026 through 2029, with Calpine alone accretive by roughly 20% to 2026 earnings. The contracting evidence is concrete: a twenty-year, 1,121 MW agreement with Meta, the Microsoft-backed Crane Clean Energy Center restart, and a 380 MW deal with CyrusOne in Texas. In the 2026/2027 PJM base residual auction Constellation cleared 18,025 MW at the $329.17/MW-day price cap, up 22% year over year. The bear narrative is simply that this is a cyclical being repriced as a secular, at the top of a power cycle.",
     scout: "Datacenter developer conversations consistently rank behind-the-meter or adjacent nuclear supply as the single most valuable procurement outcome available, which supports the pricing Constellation is achieving on long-dated PPAs. Operationally the fleet runs capacity factors in the low nineties and licence renewals toward 80 years have proceeded without incident — this is not a business with hidden operating risk. The Calpine integration is the live execution question: combining a nuclear operator's culture with a merchant gas fleet is not automatic, and the synergy case has not yet been through a full year. The clearest warning shot came from Washington — when the administration pushed PJM toward an emergency capacity auction to serve datacenters, CEG fell 9.7% in a single session. That is the risk premium the market attaches to political intervention, and it is real.",
@@ -888,7 +1045,7 @@ const ANALYSIS = {
   },
   'VST': {
     thesis: "Vistra is the cheaper expression of the same trade as Constellation, with more merchant beta and a far more aggressive capital return. The company has contracted 3,800 MW of twenty-year power purchase agreements with Meta and Amazon Web Services, reaffirmed 2026 adjusted EBITDA guidance of $6.8-7.6B, and targets more than $10B of cash generation through 2027 — most of it earmarked for buying back its own stock. The thesis is that a shrinking share count against rising contracted cashflow compounds faster than the multiple can de-rate.",
-    date: 'July 2026',
+    date: '2026-07',
     moat: "Vistra's moat is a large, diversified merchant fleet — nuclear at Comanche Peak, a substantial gas portfolio, and an integrated retail business (TXU Energy and others) that provides a natural hedge for the generation. The retail hedge is the underappreciated structural feature: it converts part of the commodity exposure into a customer relationship with pricing power, which is why Vistra survived the merchant power cycles that bankrupted its peers. The nuclear assets carry the same PTC floor economics as Constellation's. But the fleet is more gas-weighted and more ERCOT-concentrated, which means greater exposure to Texas weather, scarcity pricing and a market design with no capacity market at all. Judgment: narrower moat than Constellation, and better priced for it.",
     story: "The story is contracted conversion plus buyback. Vistra reaffirmed 2026 adjusted EBITDA guidance of $6.8-7.6B and continues to sign long-dated offtake: twenty-year PPAs totalling 3,800 MW with Meta and AWS at PJM nuclear sites, and a twenty-year, 1,200 MW agreement for Comanche Peak with an investment-grade counterparty — significant because it brings the AI power trade into ERCOT, where Vistra is strongest. In the 2026/2027 PJM auction Vistra cleared 10,314 MW. The pending Cogentrix acquisition adds roughly 5,500 MW of gas generation, expected to close in the second half of 2026. The model question is how much of the merchant fleet ultimately gets contracted: each incremental long-dated PPA converts volatile commodity earnings into visible annuity earnings, which is the mechanism by which the multiple could re-rate rather than compress.",
     scout: "Counterparty checks confirm that hyperscalers are now willing to sign twenty-year terms at prices that would have been unthinkable in 2022, and that the binding constraint is available firm capacity rather than willingness to pay. Vistra's retail business continues to report stable margins, which matters because retail is what funds the buyback when wholesale prices are soft. The consistent critical note from analysts is disclosure: Vistra provides less granularity on contracted versus open position than Constellation, which makes the earnings bridge harder to verify independently. ERCOT-specific risk deserves respect — the market has no capacity payment, so revenue depends on scarcity events, and a mild summer is a genuine earnings headwind rather than a rounding error.",
@@ -897,7 +1054,7 @@ const ANALYSIS = {
   },
   'GEV': {
     thesis: "GE Vernova sells the equipment the entire AI power trade requires and cannot get: heavy-duty gas turbines, grid equipment, and the services attached to both. Q2 2026 orders were $24.2B, up 88% organically, backlog reached $176B, and the company is contracting turbine slots years into the future at a scale that effectively gives it pricing power over a multi-year book. The thesis is that in a shortage the constraint owner earns the economics — and turbine manufacturing capacity is the constraint.",
-    date: 'July 2026',
+    date: '2026-07',
     moat: "The moat is an oligopoly in a business with brutal barriers to entry. Heavy-duty gas turbines are made by three credible manufacturers worldwide (GE Vernova, Siemens Energy, Mitsubishi Heavy), and building a fourth requires metallurgy, a global service network and an installed base measured in decades — capital alone does not buy in. The economics improve after the sale: the installed base generates high-margin, long-duration service revenue far more valuable than the equipment margin, the classic aftermarket model. Electrification (grid equipment, transformers, HVDC) sits in a similarly constrained supply chain. The weak segment is Wind, where there is no moat, competition is global and subsidised, and the business has been loss-making. Judgment: wide moat in Gas Power and Electrification, none in Wind — and the market prices the whole.",
     story: "The narrative is a shortage being converted into a multi-year book. Q2 2026 revenue was $11.1B (+22%, +12% organic) with adjusted EBITDA of $1.2B at an 11.3% margin, up 340bps organically — margin expansion is the part of the story that had been missing. Gas Power signed 20 GW of orders and slot reservation agreements, taking total gigawatts under contract to 116, with management now expecting at least 125 GW under contract by year-end 2026 and a production ramp from roughly 20 GW of annual output in Q3 2026 to 24 GW in 2028 and 30 GW in 2030. Electrification booked more than $5B of datacenter orders in the first half alone. Full-year 2026 revenue guidance was raised to $45.5-46.5B and backlog is targeted at approximately $200B by year-end 2028. Wind remains the drag: orders down 40%, a $275M EBITDA loss in the quarter, and roughly $400M of expected full-year losses.",
     scout: "Developer and EPC conversations confirm the turbine shortage is real and that slot reservations now function as a scarce commodity in their own right — customers are paying to hold a place in the queue years ahead of delivery, which is the strongest available evidence of pricing power. Service backlog is the underappreciated part of the story: an installed base running at higher utilization consumes more parts and more outages, so the aftermarket compounds alongside the equipment cycle. The critical practitioner note is execution risk on the ramp itself — going from 20 GW to 30 GW of annual output requires supply chain, castings and skilled labour that are themselves constrained, and GE's historical record on manufacturing ramps is mixed. Wind is the second watch item: management has committed to a smaller, more selective business, and the market wants evidence rather than guidance.",
@@ -1068,8 +1225,10 @@ const ETF_NOTES = {
 
 
 // ─── TEACH-IN / BUSINESS MODEL (deep operacional) ────────────────────────────
-// Só ASML por enquanto. Fonte: ASML press releases (Q1'25–Q2'26) e Investor Day 2024.
-const TEACHIN = { 'ASML': true };
+// ASML (semis) e RHM (rearmamento europeu, out/2026). TEACHIN_FN despacha por
+// ticker -- cada build*() abaixo declara seus proprios helpers locais (tbl/rk/...).
+const TEACHIN = { 'ASML': true, 'RHM': true };
+const TEACHIN_FN = { 'ASML': buildTeachinASML, 'RHM': buildTeachinRHM };
 
 function buildTeachinASML(){
   const P='#7c3aed', P2='#a855f7', P3='#c084fc', P4='#ddd6fe';
@@ -1396,6 +1555,166 @@ function buildLithoWars(){
         ['Credible SSMB / FEL-based EUV source demonstration in China','The only genuine leapfrog path; would invalidate the 15-year-lead framing','<span style="color:#e5484d;font-weight:800;">Structural</span>'],
       ])}
       <div class="ti-src">Sources — Event: The Information (27 Jul 2026); Reuters (28 Jul 2026); Asia Times, "China's DUV lithography still lags ASML by four generations" (31 Jul 2026); ICSmart / Chinese trade press; Global Times editorial (28 Jul 2026); The Diplomat (Jul 2026). Units &amp; financials: J.P. Morgan, Sandeep Deshpande, "The Street is Behind the Curve" (03 Jun 2026) — bottom-up unit model, China/non-China immersion split, 2027/28E estimates. Tool specifications: UBS ASML DUV-Model; asml.com product pages. Company data: ASML Q2 2026 press release (15 Jul 2026, €9.3 bn sales, €43–45 bn FY26 guide, China ~20% of sales); ASML FY2025 20-F. Market data as of 3 Aug 2026. <b>Capacity ratios, uptime assumptions, crossover years and the valuation bridge are this dashboard's own estimates</b>, built on the sources above — not broker forecasts. Not investment advice; Pedro's own research framework.</div>
+    </div>
+  </div>`;
+}
+
+// ─── TEACH-IN: RHEINMETALL (European rearmament) ───────────────────────────────
+// Fontes: Rheinmetall H1 2026 report (06/08/2026, rheinmetall.com); FY2025 Annual
+// Report (11/03/2026); financial calendar (ir.rheinmetall.com); stockanalysis.com
+// quote/forecast/financials (ETR:RHM) 05-06/10/2026; Bundesfinanzministerium 2027
+// draft budget (06/07/2026); NATO Hague Summit 2025 5% commitment; imprensa
+// (CNBC, Investing.com, ad-hoc-news, gurufocus, Reuters via agregadores) jun-out/2026.
+function buildTeachinRHM(){
+  const tbl = (cols,rows)=>`<div class="ti-table-wrap"><table class="ti-table"><thead><tr>${cols.map(c=>`<th>${c}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  const rk = l=>l==='H'?'<span class="ti-rk ti-rk-h">High</span>':l==='M'?'<span class="ti-rk ti-rk-m">Med</span>':'<span class="ti-rk ti-rk-l">Low</span>';
+  const bar = (name,pct,val)=>`<div class="ti-bar-row"><div class="ti-bar-name">${name}</div><div class="ti-bar-track"><div class="ti-bar-fill" style="width:${pct}%"></div></div><div class="ti-bar-val">${val}</div></div>`;
+
+  return `<div class="ti-wrap">
+    <div class="ti-block">
+      <div class="ti-lbl">Institutional Teach-In · Rheinmetall AG (XETRA: RHM)</div>
+      <div class="ti-sub">Senior defense-sector analyst deep-dive — Europe's rearmament cycle, Rheinmetall's industrial moat, backlog economics and the post-drawdown valuation debate. Reported figures through H1 2026 (period ended 30 Jun 2026); scenarios, capacity math and the risk framing are this dashboard's own estimates.</div>
+      <div class="ti-kpis">
+        <div class="ti-kpi"><div class="ti-kpi-v">~&euro;950</div><div class="ti-kpi-l">Share price (XETRA, Oct 2026)</div><div class="ti-kpi-d ti-neg">-51% vs 52-wk high (&euro;1,972)</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">~&euro;44&nbsp;bn</div><div class="ti-kpi-l">Market cap</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">&euro;80.5&nbsp;bn</div><div class="ti-kpi-l">Order backlog (30 Jun 2026)</div><div class="ti-kpi-d ti-pos">+44% y/y</div></div>
+        <div class="ti-kpi"><div class="ti-kpi-v">&euro;13.7-14.2&nbsp;bn</div><div class="ti-kpi-l">FY2026 sales guidance</div><div class="ti-kpi-d">cut once, for F-126</div></div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 1</span>Investment Thesis &amp; The Rearmament Position</div>
+      <div class="ti-quote">Rheinmetall is not a single-product monopoly like a semiconductor tool-maker — it is a scarcity position across the two inputs European armies simultaneously ran out of after 2022: artillery ammunition and armored vehicles. Its moat is not physics, it is qualification: NATO-standard certification, government-vetted production lines, and decades as the trusted domestic supplier in a market where "not from an allied, vetted producer" is often a disqualifying condition, not a price consideration. The stock's drawdown to roughly half its 52-week high prices in a Ukraine peace dividend that would, at most, dent the replenishment slice of demand — the structural German and NATO budget ramp behind the order book (Module 4) was legislated independently of how the war ends.</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Where Rheinmetall sits in the European rearmament value chain</div>
+        <div class="ti-card-s">Five divisions since the January 2026 reorganization (Electronic Solutions was split into Digital Systems and Air Defence; Naval Systems is new, built around the NVL shipyard acquisition).</div>
+        ${tbl(['Division','What it does','Position','Main competitors'],[
+          ['Vehicle Systems','Armored vehicles: Boxer, Lynx, Puma, KF51 Panther, Leopard upgrades','<span class="ti-yes">Largest segment, ~47% of H1&apos;26 sales</span>','KNDS, BAE Systems, General Dynamics'],
+          ['Weapon &amp; Ammunition','Tank/artillery ammunition, barrels, propellants, explosives','<span class="ti-yes">Highest-margin segment (29% FY25)</span>','Nammo, KNDS, CSG (state-owned)'],
+          ['Air Defence','Skyranger30/Skynex counter-drone &amp; air-defense systems','Fastest-growing (+62% H1&apos;26)','Diehl Defence, MBDA, Raytheon'],
+          ['Digital Systems','C4ISR, battlefield digitization, simulation','Mid-size, Germany-heavy (TaWAN)','Thales, Leonardo, Hensoldt'],
+          ['Naval Systems','Frigates, corvettes, submarines (via NVL, acquired Feb 2026)','New entrant, 4 months of sales so far','TKMS, Naval Group, Fincantieri'],
+        ])}
+        <div class="ti-note"><b>The chokepoint, such as it is:</b> no single Rheinmetall product is irreplaceable the way an EUV scanner is — but qualified Western capacity for 155mm shells and tracked/wheeled armor is so far below what NATO armies need to rebuild their stockpiles that whoever has capacity captures orders almost independent of price. That capacity gap, not a patent, is the near-term moat.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 2</span>Economic Moat &amp; Barriers to Entry</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Four barriers, none of them physics</div>
+        ${tbl(['Barrier','Why it holds','How durable'],[
+          ['Qualification &amp; trust','Armies do not buy ammunition, armor or digital C2 systems from unqualified or untrusted vendors; certification cycles run years, and incumbency with the Bundeswehr and NATO buyers took decades to build.','High — the ASML/Nikon-style incumbency barrier: being first and trusted compounds, it cannot be bought with capital alone.'],
+          ['Capacity itself','Western 155mm shell and armored-vehicle capacity was run down for 30 years post-Cold War. Rebuilding it takes years of capex and qualified labor, so existing capacity is the scarce asset right now, not technology.','Medium-term — erodes as KNDS, BAE and new entrants (Nammo, smaller German/Nordic primes) scale their own lines through the decade.'],
+          ['Sovereign-content &amp; export-control rules','Many German/EU contracts require domestic or allied-content thresholds; US ITAR-equivalent EU rules and "strategic autonomy" politics structurally favor European primes over non-European suppliers for the biggest pools of spending.','High while the rearmament-as-sovereignty narrative holds politically.'],
+          ['Government relationship','The divestiture of the civilian Power Systems (automotive) unit — completed Jun 2026 — makes Rheinmetall a pure-play defense company with undivided management and capital attention; CEO Armin Papperger has direct, frequent access to Berlin on procurement decisions.','Self-reinforcing as long as the pure-play bet pays off operationally (see Module 5 on the price paid for that focus).'],
+        ])}
+        <div class="ti-note">The honest caveat: unlike ASML's EUV monopoly, every one of these barriers is a structural head-start, not a permanent wall. KNDS (the Franco-German Leopard/Leclerc tank group) and BAE Systems compete directly in land systems and are also scaling capacity; the moat is Rheinmetall's multi-year lead in being qualified and funded <i>first</i>, not an unreplicable technology.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 3</span>Product Roadmap, Segments &amp; Flagship Platforms</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Segment sales — H1 2026</div>
+        ${bar('Vehicle Systems &mdash; &euro;2,431m',100,'+28%')}${bar('Weapon &amp; Ammunition &mdash; &euro;1,757m',72,'+33%')}${bar('Digital Systems &mdash; &euro;820m',34,'+23%')}${bar('Air Defence &mdash; &euro;478m',20,'+62%')}${bar('Naval Systems &mdash; &euro;334m',14,'new')}
+        <div class="ti-note" style="margin-top:8px;">H1 2026 group sales &euro;5.227&nbsp;bn (+39% y/y). Air Defence is the smallest segment but growing fastest — the counter-drone threat from Ukraine is reshaping European procurement priorities in real time. Naval Systems reflects only 4 months of the NVL shipyard consolidation.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Flagship platforms to know</div>
+        <div class="ti-note"><b>KF51 Panther</b> — next-generation main battle tank (unveiled 2022), now the basis of Italy's ~$6bn tank procurement (announced Sep 2026, via the Leonardo-Rheinmetall JV) and interest from Hungary. <b>Boxer</b> — 8x8 wheeled IFV, in service or on order across Germany, UK, Australia, Lithuania and others; the backbone of the Vehicle Systems order book. <b>Lynx</b> — tracked IFV, exported/competing across multiple European armies. <b>Skyranger 30 / Skynex</b> — short-range air defense systems, the direct beneficiary of the drone-warfare lessons from Ukraine. <b>American Rheinmetall</b> — the US subsidiary is scaling a Tier-1 manufacturing network (missile structures, weapon mounts) and backs a "private investment model" to accelerate US defense manufacturing, positioning Rheinmetall to capture US Army spend alongside European budgets. <b>First satellite</b> (launched 1 Oct 2026) — an early, pre-revenue move into space-based ISR/airspace surveillance; a watch item, not yet a thesis driver.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 4</span>Secular Drivers — Europe's Legislated Rearmament</div>
+      <div class="ti-card">
+        <div class="ti-card-t">The German budget trajectory — the single biggest number in this thesis</div>
+        ${tbl(['Year','Federal defense budget','Note'],[
+          ['2026','&euro;82.7&nbsp;bn','Current year'],
+          ['2027','&euro;109.7&nbsp;bn','+&euro;30bn Sondervermögen (Special Fund) on top'],
+          ['2028','&euro;153.9&nbsp;bn','—'],
+          ['2029','&euro;162.9&nbsp;bn','Reaches NATO&apos;s 3.5% of GDP core target'],
+          ['2030','&euro;183.7&nbsp;bn','More than double 2026'],
+        ])}
+        <div class="ti-note">Source: German Federal Ministry of Finance, draft 2027 federal budget (6 Jul 2026). This is the core defense line inside the Ministry of Defence budget alone — it excludes the separate &euro;30bn/yr Sondervermögen and any EU-level financing. <b>The German defense budget is set to more than double between 2026 and 2030, under a trajectory the government has already adopted, independent of how the Ukraine war resolves.</b></div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">The NATO and EU layers above the German number</div>
+        <div class="ti-note"><b>NATO (Hague Summit, Jun 2025):</b> members committed to 5% of GDP on defense and security by 2035 — split 3.5% core military spending plus 1.5% broader security-related investment (infrastructure, cyber, industrial base). <b>EU — SAFE ("Security Action for Europe"):</b> a &euro;150bn EU-level loan instrument, endorsed by member states in 2025, to fund joint defense-industrial procurement across the bloc — a second, supranational funding layer on top of national budgets that specifically favors European (including Ukrainian) suppliers. <b>Germany&apos;s own "Arminius" Boxer package</b> alone is reported at &euro;12.5bn fixed plus a &euro;25bn 2030&ndash;2035 option — a single national vehicle order larger than Rheinmetall&apos;s entire FY2025 revenue.</div>
+      </div>
+      <div class="ti-note"><b>Why this matters for the bear case in Module 6:</b> the stock trades as if the entire thesis is a Ukraine-war trade. The budget numbers above are multi-year, legislated-or-drafted at the national and supranational level, and were not contingent on the war continuing — they were a response to it, not a bet on its continuation. A ceasefire changes the replenishment tail, not the modernization backbone.</div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 5</span>Financials, Backlog &amp; Capital Allocation</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Track record (&euro; bn unless noted)</div>
+        ${tbl(['Period','Sales','Operating margin','Backlog (period-end)','Note'],[
+          ['FY2024','7.7','—','46.9','Pre-rearmament-cycle base year'],
+          ['FY2025','9.9 (+29%)','~18.2%','63.8 (+36%)','Record year; Electronic Solutions still one segment'],
+          ['H1 2026','5.227 (+39%)','15.0%','80.5 (+44% y/y)','F-126 frigate cancellation hit in Q2'],
+          ['<b>Q2 2026 alone</b>','<b>&mdash;</b>','<b>17.1%</b>','<b>&mdash;</b>','<b>Op. result &euro;562m, +115% y/y</b>'],
+        ])}
+        <div class="ti-note">H1 2026 nominations (new orders booked) reached &euro;16.2bn (+28% y/y). FY2026 guidance, revised after the German Ministry of Defence unexpectedly cancelled the F-126 frigate program (&minus;&euro;300m to the sales guide): <b>&euro;13.7&ndash;14.2bn sales (+28&ndash;31% organic), ~19% operating margin, capex 8&ndash;9% of sales.</b></div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">The cash-conversion question</div>
+        <div class="ti-note">H1 2026 operating free cash flow was <b>&minus;&euro;1.616bn</b> (Q2 alone &minus;&euro;1.33bn), driven by a roughly &euro;6.2bn inventory build to service the backlog and heavy capex on capacity expansion. Total debt reached &euro;2.98bn against just &euro;255m of cash at end-Q2 2026 (stockanalysis.com balance sheet) — a visible shift from Rheinmetall&apos;s historical net-cash position. This is the single metric the market is watching hardest: <b>winning &euro;80bn of orders is not the same as collecting &euro;80bn of cash</b>, and the multi-year lag between booking and billing is exactly where a working-capital-funded growth story can go wrong if capacity ramps slower than promised.</div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Capital allocation under a pure-play pivot</div>
+        <div class="ti-kpis" style="margin-bottom:6px;">
+          <div class="ti-kpi"><div class="ti-kpi-v">&euro;11.50</div><div class="ti-kpi-l">FY2025 dividend/share</div><div class="ti-kpi-d ti-pos">+42% vs &euro;8.10 (FY2024)</div></div>
+          <div class="ti-kpi"><div class="ti-kpi-v">~35%</div><div class="ti-kpi-l">Payout ratio</div></div>
+          <div class="ti-kpi"><div class="ti-kpi-v">8&ndash;9%</div><div class="ti-kpi-l">FY2026 capex / sales</div></div>
+          <div class="ti-kpi"><div class="ti-kpi-v">&euro;350m</div><div class="ti-kpi-l">Power Systems sale price</div></div>
+        </div>
+        <div class="ti-note">Rheinmetall completed the divestiture of its civilian Power Systems (automotive components) division to Aequita in June 2026, exiting a business that generated roughly &euro;2bn of revenue for a sale price of just &euro;350m — a &euro;350m impairment-adjusted outcome the market read as the price of urgency rather than a well-timed disposal. The logic is coherent (undivided focus, capital and management attention on the highest-ROIC opportunity the company has ever had), but it is also evidence that Rheinmetall is optimizing for speed of pivot over price discipline — worth keeping in mind when judging how the company will behave under the next capital-allocation pressure point.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 6</span>Risk Matrix &amp; Geopolitics</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Key risks (likelihood &times; impact)</div>
+        ${tbl(['Risk','Likelihood','Impact','Note'],[
+          ['Ukraine ceasefire / peace settlement',rk('H'),rk('H'),'Repeated ceasefire headlines in 2026 have triggered double-digit single-session drawdowns across European defense stocks. Caps the replenishment tail of demand; does not touch the legislated German/NATO modernization budget (Module 4).'],
+          ['Cash conversion / working capital',rk('H'),rk('M'),'H1 2026 operating FCF &minus;&euro;1.6bn on inventory build; net debt position emerging from a historical net-cash balance sheet. The backlog-to-cash lag is the thing this thesis has to get right.'],
+          ['Program / execution risk',rk('M'),rk('H'),'F-126 frigate cancellation (&minus;&euro;300m guide cut, Jun 2026) proves even government-committed programs can be pulled. JPMorgan downgraded to Neutral (PT &euro;2,130&rarr;&euro;1,500, May 2026) after a Q1 2026 revenue miss, citing execution and product-portfolio concerns.'],
+          ['German/European political risk',rk('M'),rk('H'),'The 2028&ndash;2030 budget trajectory is government policy, not fully appropriated multi-year law; a coalition change or debt-brake dispute could slow (not reverse) the ramp.'],
+          ['Sector sentiment / re-rating risk',rk('M'),rk('M'),'KNDS (Franco-German tank peer, Leopard/Leclerc) postponed its planned IPO in Jul 2026 amid "market struggles for defense stocks" — a read-through on how fragile sentiment is even with strong fundamentals across the sector.'],
+          ['German revenue concentration',rk('L'),rk('M'),'Germany is ~38% of group sales — the single largest country exposure in the book.'],
+        ])}
+        <div class="ti-note"><b>Geopolitics, read plainly:</b> the market spent 2026 pricing Rheinmetall primarily as a Ukraine-war trade. The order book tells a different story — backlog grew 44% y/y to &euro;80.5bn through the very months the stock fell over 50% from its high, and the growth is overwhelmingly German and NATO sovereign procurement with multi-year, largely non-Ukraine-contingent funding. The question to underwrite is not "does the war end" — it is whether Rheinmetall converts an &euro;80bn-plus backlog into cash faster than it burns working capital on it, and whether another F-126-style cancellation resurfaces in a program investors had assumed was locked in.</div>
+      </div>
+    </div>
+
+    <div class="ti-block">
+      <div class="ti-mod"><span class="ti-mod-n">Module 7</span>Valuation, Scenarios &amp; The Bottom Line</div>
+      <div class="ti-card">
+        <div class="ti-card-t">Multiples — de-rated, not cheap</div>
+        ${tbl(['Metric','Value (Oct 2026)','Read'],[
+          ['Trailing P/E','37.6x','Down sharply from ~69x in Jul 2026 — the de-rating is real, driven by both the price drop and trailing-earnings catch-up.'],
+          ['Forward P/E (FY26 consensus)','21.7x','Closing in on diversified peers (Thales ~34x, Leonardo ~25x in Jul 2026 comps) despite RHM&apos;s superior operating margin.'],
+          ['Operating margin (H1&apos;26 / Q2&apos;26 alone)','15.0% / 17.1%','Structurally above Thales (~11%) and Leonardo (~6%) on the last comparable read.'],
+          ['Dividend yield','~1.2%','Growing fast off a low base (+42% FY25 vs FY24); not an income thesis.'],
+        ])}
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">What the Street already expects (consensus, stockanalysis.com, Sep/Oct 2026)</div>
+        <div class="ti-note">21 analysts, consensus rating <b>Strong Buy</b> (14 Strong Buy / 4 Buy / 3 Hold / 0 Sell). Average price target <b>&euro;1,641</b> (median &euro;1,600, range &euro;1,050&ndash;&euro;2,380) &mdash; roughly <b>+62% upside</b> from the current price, and still well below the &euro;1,972 52-week high. FY2026 consensus: revenue &euro;13.95bn (+40.4%), EPS &euro;37.21 (+51.5%) &mdash; sitting almost exactly inside management&apos;s own &euro;13.7&ndash;14.2bn guided range, so the top-line number is not where the debate is. <b>The debate the Street is actually having is about the multiple it should pay for that revenue, not whether the revenue shows up.</b></div>
+      </div>
+      <div class="ti-card">
+        <div class="ti-card-t">Scenario framing (12&ndash;24 months)</div>
+        ${tbl(['Scenario','Driver','Share-price implication'],[
+          ['<span class="ti-yes">Bull</span>','Backlog-to-cash conversion improves (operating FCF turns positive by FY27), no further program cancellations, German 2028&ndash;29 budget lines get appropriated on schedule.','Re-rating back toward 25&ndash;30x forward earnings as execution risk is retired; approaches consensus target (&euro;1,600+).'],
+          ['<b>Base</b>','Guidance is met (&euro;13.7&ndash;14.2bn, ~19% margin); cash conversion stays weak through FY26 but visibly improves in FY27 as capex phases down; no ceasefire, or a ceasefire that does not touch the modernization budget.','Grinds higher with the budget cycle; multiple stays compressed vs history until cash conversion is proven.'],
+          ['<span style="color:#e5484d;font-weight:800;">Bear</span>','A durable Ukraine ceasefire plus a German coalition reshuffle slows the 2028&ndash;30 budget ramp; a second major program cancellation; operating FCF stays negative into FY27.','Multiple compresses further toward diversified-peer levels (~15&ndash;18x); downside toward the &euro;900 52-week-low area or below.'],
+        ])}
+      </div>
+      <div class="ti-quote">Bottom line — a structural, multi-year rearmament story that the market is currently pricing with a war-trade discount. The backlog math and the legislated German/NATO/EU budget trajectory argue the de-rating has overshot the actual change in the demand picture; the open question is entirely execution — converting &euro;80bn of backlog into cash without another program-cancellation surprise. That makes this a name where the next two or three quarters of operating free cash flow matter more than the next ceasefire headline. Not investment advice — Pedro&apos;s own research framework.</div>
+      <div class="ti-src">Sources: Rheinmetall H1 2026 Half-Yearly Financial Report (6 Aug 2026) and FY2025 Annual Report (11 Mar 2026), rheinmetall.com; Rheinmetall financial calendar, ir.rheinmetall.com; stockanalysis.com (ETR:RHM) quote/financials/forecast pages, 5&ndash;6 Oct 2026; German Federal Ministry of Finance, 2027 draft federal budget press release (6 Jul 2026); NATO, Hague Summit defense-investment commitment (Jun 2025) and nato.int "Defence investment and NATO's 5% commitment"; European Council, Security Action for Europe (SAFE) instrument; press coverage of Q1/Q2 2026 results, the F-126 cancellation and JPMorgan/Bernstein commentary via Investing.com, CNBC, gurufocus.com and ad-hoc-news.de, Jun&ndash;Oct 2026. <b>Capacity framing, the moat barrier table, and the scenario probabilities and price implications are this dashboard&apos;s own estimates</b>, built on the sources above &mdash; not broker forecasts. Not investment advice; Pedro&apos;s own research framework.</div>
     </div>
   </div>`;
 }
@@ -1749,7 +2068,7 @@ function ttm(arr, i) {
 // ─── OVERVIEW (estilo research portal) ──────────────────────────────────────────
 // Setores vivos apenas. OIL / UTIL / BR / MINING / BTC sairam em 17/08/2026 com os
 // 10 nomes da B3; AI foi absorvido por SEMI (era um setor de um nome so, a NVDA).
-const SECTOR_PT = {TECH:'Technology',SEMI:'Semiconductors',POWER:'Power & Datacenter Energy',FIN:'Financials',FINTECH:'Fintech',CONSUMER:'Consumer',LUXURY:'Luxury',TELECOM:'Telecom',LATAM:'LatAm E-commerce',ETF:'ETF'};
+const SECTOR_PT = {TECH:'Technology',SEMI:'Semiconductors',POWER:'Power & Datacenter Energy',FIN:'Financials',FINTECH:'Fintech',CONSUMER:'Consumer',LUXURY:'Luxury',TELECOM:'Telecom',LATAM:'LatAm E-commerce',DEFENSE:'Defense & Aerospace',ETF:'ETF'};
 const GEO_PT = {US:'United States',EU:'Europe',CN:'China',TW:'Taiwan',LATAM:'Latin America'};
 
 // ─── BUCKETS DE COBERTURA ───────────────────────────────────────────────────
@@ -1762,6 +2081,7 @@ const BUCKETS = [
   {key:'power',    label:'Power & Infrastructure',    day:'Wed', sectors:['POWER']},
   {key:'fin',      label:'Financials & Fintech',      day:'Wed', sectors:['FIN','FINTECH']},
   {key:'other',    label:'Consumer, Telecom & LatAm', day:'Thu', sectors:['CONSUMER','TELECOM','LUXURY','LATAM']},
+  {key:'defense',  label:'Defense & Aerospace',       day:'Fri', sectors:['DEFENSE']},
 ];
 const bucketOf = sec => (BUCKETS.find(b => b.sectors.includes(sec)) || {key:'other'}).key;
 function renderOverviewStrip(t) {
@@ -1770,7 +2090,7 @@ function renderOverviewStrip(t) {
   const e = EARNINGS.find(x => x.t === t);
   const fin = (typeof getFin === 'function' ? getFin(t) : null) || FIN[t];
   const hasFund = !!(fin && fin.src); // dado de fonte oficial (SEC / Yahoo / RI / stockanalysis)
-  const finCur = (t==='ASML'||t==='RACE') ? '€' : (t==='TSM') ? 'NT$' : 'US$';
+  const finCur = (t==='ASML'||t==='RACE'||t==='RHM') ? '€' : (t==='TSM') ? 'NT$' : 'US$';
   const pctf = v => (v==null||isNaN(v)) ? '—' : (v>=0?'+':'')+v.toFixed(1)+'%';
   const setor = (SECTOR_PT[p.s]||p.s) + ' · ' + (GEO_PT[p.g]||p.g);
   let earnTxt = '—';
@@ -1847,7 +2167,7 @@ function renderCharts(ticker) {
 // brasileiras em BRL. Sem esta legenda o eixo vira número solto.
 function finCurrency(ticker, fd) {
   if (fd && fd.moeda) return fd.moeda;
-  return ({ TSM:'TWD', ASML:'EUR', RACE:'EUR', ABI:'USD' })[ticker] || 'USD';
+  return ({ TSM:'TWD', ASML:'EUR', RACE:'EUR', ABI:'USD', RHM:'EUR' })[ticker] || 'USD';
 }
 
 // Nível absoluto de receita e lucro. Os outros três gráficos só mostram margem e
@@ -2261,7 +2581,11 @@ function buildCoList() {
 function coItemHtml(p) {
   const badge = p.short ? '<span class="badge badge-short">S</span>' : (p.etf ? '<span class="badge badge-etf">ETF</span>' : '');
   const dotCls = p.etf ? 'dot-na' : `dot-${THESIS[p.t]?.status||'na'}`;
-  return `<div class="co-item" id="coi-${p.t}" onclick="selectCo('${p.t}')">
+  // barra lateral so aparece quando a ficha ficou para tras dos resultados
+  const fv = p.etf ? null : fichaStatus(p.t);
+  const fvCls = (fv && fv.lvl !== 'ok') ? ' ficha-' + fv.lvl : '';
+  const fvTip = fv ? ` · ficha ${fv.iso} (${fv.label})` : '';
+  return `<div class="co-item${fvCls}" id="coi-${p.t}" onclick="selectCo('${p.t}')" title="${escA(p.n + fvTip)}">
     <span class="co-tick">${p.t}</span>
     <div class="co-info">
       <div class="co-name">${p.n}</div>
@@ -2302,7 +2626,22 @@ function renderCoPanel(p) {
 
   const analysis = ANALYSIS[p.t];
   if (!analysis) {
-    panel.innerHTML = `<div class="fund-empty"><p>No analysis available for ${p.t}.</p></div>`;
+    // TMUS, T e ABI entraram na cobertura sem ficha escrita. Antes isso era um
+    // beco sem saida ("No analysis available"); agora o nome ainda mostra o
+    // consenso e o quadro de cenarios -- e a ficha faltando vira tarefa
+    // declarada, nao um vazio silencioso.
+    const nota = ETF_NOTES[p.t];
+    panel.innerHTML = `
+      ${renderOverviewStrip(p.t)}
+      <div class="vl-warn" style="margin-top:14px;">
+        <b>Sem ficha escrita.</b> ${escA(p.n)} esta na cobertura mas nunca teve as cinco secoes do
+        framework preenchidas. O consenso abaixo e a fonte externa; a leitura ainda precisa ser feita.
+      </div>
+      ${nota ? `<div class="etf-wrap"><div class="etf-class-lbl">Nota de cobertura</div><p class="etf-text">${nota}</p></div>` : ''}
+      ${buildValuation(p.t)}`;
+    requestAnimationFrame(() => {
+      if (document.getElementById('vl-out-' + p.t)) calcReverso(p.t);
+    });
     return;
   }
 
@@ -2425,7 +2764,8 @@ function renderCoPanel(p) {
     <div class="thesis-card">
       <div class="thesis-lbl">Investment Thesis</div>
       <p class="thesis-txt">${analysis.thesis}</p>
-      <div class="thesis-date">Initial coverage &mdash; ${analysis.date}</div>
+      <div class="thesis-date">Cobertura iniciada &nbsp;${fvBadge(p.t)}</div>
+      ${fvLog(p.t)}
     </div>
     <div class="tt-bar">
       <span class="tt-lbl">Thesis</span>
@@ -2436,6 +2776,7 @@ function renderCoPanel(p) {
     </div>
     <div class="co-tabs">
       <button class="co-tab active" onclick="switchCoTab(this,'tese')">Thesis &amp; Overview</button>
+      <button class="co-tab" onclick="switchCoTab(this,'valuation')">Valuation</button>
       <button class="co-tab" onclick="switchCoTab(this,'drivers')">Drivers</button>
       <button class="co-tab" onclick="switchCoTab(this,'horizonte')">Horizon</button>
       <button class="co-tab" onclick="switchCoTab(this,'historia')">History</button>
@@ -2445,15 +2786,18 @@ function renderCoPanel(p) {
       ${LITHOWARS[p.t] ? `<button class="co-tab" onclick="switchCoTab(this,'lithowars')">Litho Wars</button>` : ''}
     </div>
     <div class="co-tabpanel show" data-cotab="tese">${teseTab}</div>
+    <div class="co-tabpanel" data-cotab="valuation">${buildValuation(p.t)}</div>
     <div class="co-tabpanel" data-cotab="drivers">${driversPanel}</div>
     <div class="co-tabpanel" data-cotab="horizonte">${horizonPanel}</div>
     <div class="co-tabpanel" data-cotab="historia">${historyPanel}</div>
     <div class="co-tabpanel" data-cotab="regulacao">${regPanel}</div>
     <div class="co-tabpanel" data-cotab="industria">${industryPanel}</div>
-    ${TEACHIN[p.t] ? `<div class="co-tabpanel" data-cotab="teachin">${buildTeachinASML()}</div>` : ''}
+    ${TEACHIN[p.t] ? `<div class="co-tabpanel" data-cotab="teachin">${(TEACHIN_FN[p.t]||buildTeachinASML)()}</div>` : ''}
     ${LITHOWARS[p.t] ? `<div class="co-tabpanel" data-cotab="lithowars">${buildLithoWars()}</div>` : ''}`;
   panel.classList.add('fx-on');
   requestAnimationFrame(() => {
+    // primeiro o DCF reverso: se um efeito visual falhar, o numero ja esta na tela
+    if (document.getElementById('vl-out-' + p.t)) calcReverso(p.t);
     renderCharts(p.t);
     coPanelFX(panel);
   });
@@ -2903,6 +3247,7 @@ const EARNINGS = [
   {t:'ORCL',  n:'Oracle',              date:'2026-09-10', q:'Q1 FY27',     est:true},
   {t:'GEV',   n:'GE Vernova',          date:'2026-10-21', q:'Q3 2026',     est:true},
   {t:'NOW',   n:'ServiceNow',          date:'2026-10-21', q:'Q3 2026',     est:true},
+  {t:'RHM',   n:'Rheinmetall',          date:'2026-11-05', q:'Q3 2026',     est:false},
 ];
 
 // ─── PEERS ────────────────────────────────────────────────────────────────────
@@ -2933,6 +3278,7 @@ const PEERS = {
   'GEV':    [{n:'Siemens Energy',av:'SMNEY'},{n:'Mitsubishi Heavy',av:'MHVYF'},{n:'Hitachi',av:'HTHIY'}],
   'ROXO': [{n:'Itaú Unibanco',av:'ITUB'},{n:'StoneCo',av:'STNE'},{n:'PagSeguro',av:'PAGS'}],
   'RACE':   [{n:'Porsche AG',  av:'P911.DE'},{n:'LVMH',av:'LVMH.PA'},{n:'Hermes Intl',av:'RMS.PA'}],
+  'RHM':    [{n:'BAE Systems', av:'BA.L'},{n:'Leonardo',av:'LDO.MI'},{n:'Thales',av:'HO.PA'},{n:'Saab',av:'SAAB-B.ST'}],
 };
 
 let peerCache = {};
@@ -3209,7 +3555,7 @@ function renderCmpPanel(side) {
         <div class="co-pname">${p.n}</div>
         <div class="co-pmeta"><span>${p.s}</span><span>${p.g}</span></div>
       </div>
-      <span style="font-size:11px;color:var(--text-muted);">${analysis.date}</span>
+      <span style="font-size:11px;color:var(--text-muted);">${fvBadge(p.t)}</span>
     </div>
     <div class="thesis-card"><div class="thesis-lbl">Investment Thesis</div><p class="thesis-txt">${analysis.thesis}</p></div>
     <div class="fw-sections">${fwHtml}</div>`;
@@ -3226,6 +3572,615 @@ function renderChartsForPanel(ticker, suffix) {
   renderLevelChart(`chart-levels-${suffix}`, fin, ticker);
 }
 
+
+// =============================================================================
+// ENTREGA A — telemetria de fontes, validade da ficha, exposicao por driver
+// =============================================================================
+const escA = s => String(s == null ? '' : s)
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+
+// ─── 1. BANNER DE SAUDE DAS FONTES ───────────────────────────────────────────
+// Todo step do workflow roda com continue-on-error (sem isso um RSS fora do ar
+// derruba o job inteiro). O efeito colateral era falha SILENCIOSA: o dashboard
+// seguia exibindo o dado da semana passada com a mesma confianca do de hoje.
+// scripts/run_step.py grava data/_health.json a cada execucao; aqui so pintamos.
+const HEALTH_ORDER = ['us','intl','asml','sa','prices','transcripts','news','papers','letters','insiders'];
+const HEALTH_LBL = {
+  us:'Fundamentos US', intl:'Internacionais', asml:'ASML (RI)', sa:'TSM/RACE/ABI/ROXO',
+  prices:'Cotacoes', transcripts:'Releases', news:'Noticias', papers:'Papers',
+  letters:'Cartas', insiders:'Insiders',
+};
+
+// Fontes internas: papers junta 6 feeds e news junta ~59. O coletor sai com
+// codigo 0 e escreve o arquivo mesmo trazendo metade -- foi assim que o
+// papers.json ficou sem NBER, BIS e IMF sem ninguem notar. run_step.py grava a
+// contagem por feed; aqui ela rebaixa o chip e aparece no tooltip.
+function fontesMortas(e) {
+  const f = e && e.fontes;
+  if (!f || typeof f !== 'object') return null;
+  // Caso 1 — o coletor nomeia cada fonte (papers): qualquer uma zerada conta.
+  const nomeadas = Object.keys(f).filter(k => !k.startsWith('_'));
+  const mortas = nomeadas.filter(k => typeof f[k] === 'number' && f[k] <= 0);
+  if (mortas.length) return {mortas, n: mortas.length, total: nomeadas.length};
+  // Caso 2 — o coletor so agrega (news, ~59 fontes): as chaves nomeadas sao
+  // regioes, e o sinal esta em _erro. Aqui vale um piso: uma ou duas fontes
+  // flakeando todo dia deixariam o chip permanentemente amarelo, e chip sempre
+  // amarelo e chip que ninguem le. So acende acima de 15% do total.
+  const err = f._erro, tot = f._fontes;
+  if (typeof err === 'number' && err > 0 && typeof tot === 'number' && tot > 0
+      && err / tot > 0.15) {
+    return {mortas: [], n: err, total: tot, agregado: true};
+  }
+  return null;
+}
+
+function healthLevel(e) {
+  if (!e) return {lvl:'old', age:null, txt:'step nao rodou'};
+  const teto = e.max_age_h || 36;
+  if (!e.last_ok) return {lvl:'old', age:null, txt:'nunca teve sucesso'};
+  const age = (Date.now() - new Date(e.last_ok).getTime()) / 36e5;
+  if (!isFinite(age)) return {lvl:'old', age:null, txt:'timestamp invalido'};
+  if (e.status === 'fail' || age > teto)        return {lvl:'old',  age, txt:e.erro||''};
+  if (e.status === 'warn' || age > teto * 0.75) return {lvl:'warn', age, txt:e.erro||''};
+  const fm = fontesMortas(e);
+  if (fm) {
+    const detalhe = fm.agregado
+      ? `${fm.n} de ${fm.total || '?'} fontes com erro`
+      : `${fm.n} de ${fm.total} fontes internas sem retorno: ${fm.mortas.join(', ')}`;
+    // maioria caida nao e feed lento, e quebra
+    return {lvl: (!fm.agregado && fm.n * 2 > fm.total) ? 'old' : 'warn', age, txt: detalhe};
+  }
+  return {lvl:'ok', age, txt:''};
+}
+
+function fmtAge(h) {
+  if (h == null) return '—';
+  if (h < 1)  return Math.max(1, Math.round(h*60)) + 'min';
+  if (h < 48) return Math.round(h) + 'h';
+  return Math.round(h/24) + 'd';
+}
+
+function renderHealthStrip() {
+  const el = document.getElementById('health-strip'); if (!el) return;
+  const H = window.__HEALTH;
+  if (!H || typeof H !== 'object' || !Object.keys(H).length) {
+    // Abrir o arquivo direto do disco cai aqui — e' esperado, nao e' alarme.
+    if (location.protocol === 'file:') { el.className = ''; return; }
+    el.className = 'on';
+    el.innerHTML = '<span class="hs-lbl">Fontes</span>'
+      + '<span class="hs-chip hs-warn"><i class="hs-dot"></i>telemetria indisponivel</span>'
+      + '<span class="hs-summary">data/_health.json ausente — o workflow pode nao ter rodado</span>';
+    return;
+  }
+  let ruins = 0;
+  const chips = HEALTH_ORDER.map(k => {
+    const e = H[k], st = healthLevel(e);
+    if (st.lvl !== 'ok') ruins++;
+    const lbl = (e && e.label) || HEALTH_LBL[k] || k;
+    const tip = [lbl,
+      'status: ' + ((e && e.status) || 'ausente'),
+      'ultimo sucesso: ' + ((e && e.last_ok) ? new Date(e.last_ok).toLocaleString('pt-BR') : '—'),
+      (e && e.n != null) ? ('registros: ' + e.n) : '',
+      st.txt].filter(Boolean).join(' · ');
+    const fm = fontesMortas(e);
+    const marca = fm ? `<span class="hs-age" style="opacity:.85;">${fm.n}\u26a0</span>` : '';
+    return `<span class="hs-chip hs-${st.lvl}" title="${escA(tip)}"><i class="hs-dot"></i>${escA(lbl)}${marca}<span class="hs-age">${fmtAge(st.age)}</span></span>`;
+  }).join('');
+  el.className = 'on';
+  el.innerHTML = '<span class="hs-lbl">Fontes</span>' + chips
+    + '<span class="hs-summary">' + (ruins
+        ? `<b>${ruins} fonte${ruins > 1 ? 's' : ''} fora do prazo</b>`
+        : `todas as ${HEALTH_ORDER.length} fontes em dia`) + '</span>';
+}
+
+// ─── 2. VALIDADE DA FICHA ────────────────────────────────────────────────────
+// Uma ficha nao envelhece em dias corridos — envelhece em RESULTADOS publicados.
+// A ABI, que reporta semestral, nao pode ficar vermelha na mesma velocidade que
+// a NVDA. Entao contamos quantos trimestres da serie do fin.json fecharam depois
+// da ultima revisao. Sem serie, cai no fallback de meses/3.
+const MESES_ABREV = {jan:1,feb:2,mar:3,apr:4,may:5,jun:6,jul:7,aug:8,sep:9,oct:10,nov:11,dec:12};
+
+function fichaISO(s) {
+  if (!s) return null;
+  s = String(s).trim();
+  let m = /^(\d{4})-(\d{2})(?:-\d{2})?$/.exec(s);
+  if (m) return m[1] + '-' + m[2];
+  m = /^([A-Za-z]{3})[a-z]*\.?\s+(\d{4})$/.exec(s);          // legado: "June 2025"
+  if (m && MESES_ABREV[m[1].toLowerCase()]) {
+    return m[2] + '-' + String(MESES_ABREV[m[1].toLowerCase()]).padStart(2, '0');
+  }
+  return null;
+}
+
+function qEnd(lbl) {                                          // "Q1'26" -> Date do fim do trimestre
+  const m = /^Q([1-4])'(\d{2})$/.exec(String(lbl || '').trim());
+  if (!m) return null;
+  return new Date(Date.UTC(2000 + Number(m[2]), Number(m[1]) * 3, 0));
+}
+
+function fichaStatus(t) {
+  const a = (typeof ANALYSIS !== 'undefined') ? ANALYSIS[t] : null;
+  if (!a) return null;
+  // A ultima entrada do log de revisao manda; sem log, vale a data de abertura.
+  const ult = (Array.isArray(a.rev) && a.rev.length) ? a.rev[a.rev.length - 1].d : a.date;
+  const iso = fichaISO(ult);
+  if (!iso) return null;
+  const base = new Date(iso + '-01T00:00:00Z');
+  const fd = (typeof getFin === 'function' ? getFin(t) : null) || FIN[t];
+  // Estimativa por tempo decorrido (2.6298e9 ms = 1 mes medio), usada como piso.
+  const nTempo = Math.max(0, Math.floor(((Date.now() - base.getTime()) / 2.6298e9) / 3));
+  let n = null, modo = 'estimado';
+  if (fd && Array.isArray(fd.q)) {
+    const ends = fd.q.map(qEnd).filter(Boolean);
+    if (ends.length) {
+      const nSerie = ends.filter(d => d > base).length;
+      const ultimo = ends[ends.length - 1];
+      // Se a PROPRIA serie esta velha, contar trimestres subestima a idade da
+      // ficha e ela apareceria verde por falta de dado — o pior erro possivel
+      // aqui. Nesse caso vale o maior dos dois criterios.
+      const serieFresca = (Date.now() - ultimo.getTime()) < 1.577e10;   // ~6 meses
+      n = serieFresca ? nSerie : Math.max(nSerie, nTempo);
+      modo = serieFresca ? 'serie' : 'serie-velha';
+    }
+  }
+  if (n === null) n = nTempo;
+  const lvl = n <= 1 ? 'ok' : (n === 2 ? 'warn' : 'old');
+  const label = n === 0 ? 'em dia'
+              : n === 1 ? '1 resultado atras'
+              : n + ' resultados atras';
+  return {iso, n, lvl, label, modo, base};
+}
+
+function fvBadge(t) {
+  const st = fichaStatus(t);
+  if (!st) return '';
+  const tip = 'Ficha revisada em ' + st.iso + ' · ' + st.n + ' trimestre(s) reportado(s) desde entao'
+            + (st.modo === 'estimado'   ? ' (estimado — sem serie trimestral)'
+             : st.modo === 'serie-velha' ? ' (serie trimestral tambem esta atrasada)' : '');
+  return `<span class="fv-badge fv-${st.lvl}" title="${escA(tip)}">Ficha ${escA(st.iso)} · ${escA(st.label)}</span>`;
+}
+
+function fvLog(t) {
+  const a = (typeof ANALYSIS !== 'undefined') ? ANALYSIS[t] : null;
+  if (!a || !Array.isArray(a.rev) || !a.rev.length) return '';
+  const linhas = a.rev.slice(-3).reverse()
+    .map(r => `<div class="fv-log-row"><b>${escA(r.d)}</b>${escA(r.txt)}</div>`).join('');
+  return `<div class="fv-log"><div class="fv-log-row" style="color:var(--text-muted);font-size:10px;text-transform:uppercase;letter-spacing:.05em;">Revisoes</div>${linhas}</div>`;
+}
+
+// ─── 3. EXPOSICAO POR DRIVER ─────────────────────────────────────────────────
+// O bucket setorial organiza a leitura; ele nao mede risco. Dois nomes em
+// buckets diferentes podem depender do mesmo ciclo — e' isso que esta aba expoe.
+const DRIVERS = [
+  {k:'AI_CAPEX',      c:'#7c3aed', label:'Capex de IA',
+   desc:'Vive do ciclo de investimento em datacenter. Vende picareta, nao ouro.'},
+  {k:'AI_MONET',      c:'#2563eb', label:'Monetizacao de IA & software',
+   desc:'Cobra pelo servico que roda em cima da infraestrutura.'},
+  {k:'ENERGIA',       c:'#0d9488', label:'Energia & capacidade',
+   desc:'Preco de energia, leilao de capacidade e contrato de longo prazo.'},
+  {k:'CICLO_MEMORIA', c:'#f59e0b', label:'Ciclo de memoria',
+   desc:'Preco de commodity semicondutora — o ciclo manda mais que a empresa.'},
+  {k:'JUROS_CREDITO', c:'#64748b', label:'Juros, spread & credito',
+   desc:'Curva de juros, custo de funding e ciclo de inadimplencia.'},
+  {k:'CONSUMO',       c:'#db2777', label:'Consumo final',
+   desc:'Demanda do consumidor, renda disponivel e premiumizacao.'},
+  {k:'REARM',         c:'#b91c1c', label:'Rearmamento europeu',
+   desc:'Orcamento de defesa soberano e backlog plurianual -- nao depende do ciclo de capex privado.'},
+];
+const drvOf = k => DRIVERS.find(d => d.k === k) || {k, label:k, c:'#94a3b8', desc:''};
+const COMPLEXO_IA = ['AI_CAPEX','AI_MONET'];
+
+function tesePills(lista) {
+  const c = {intact:0, watch:0, broken:0};
+  lista.forEach(p => { const s = (THESIS[p.t] && THESIS[p.t].status) || 'intact'; if (c[s] != null) c[s]++; });
+  return Object.entries(c).filter(([, v]) => v)
+    .map(([k, v]) => `<span class="ex-pill ${k}">${v} ${k}</span>`).join('');
+}
+
+function buildExposure() {
+  const el = document.getElementById('expo-content'); if (!el) return;
+  const nomes = P.filter(p => !p.etf);
+  const total = nomes.length;
+  const prim  = k => nomes.filter(p => p.d === k);
+  const toca  = k => nomes.filter(p => p.d === k || p.d2 === k);
+  const pct   = n => Math.round(n / total * 100);
+
+  // ── callout: onde o livro esta de fato concentrado ──────────────────────────
+  const ia = nomes.filter(p => COMPLEXO_IA.includes(p.d) || COMPLEXO_IA.includes(p.d2));
+  const maior = DRIVERS.map(d => ({d, n:toca(d.k).length})).sort((a, b) => b.n - a.n)[0];
+  const buckIA = {};
+  ia.forEach(p => { const b = bucketOf(p.s); buckIA[b] = (buckIA[b] || 0) + 1; });
+  const buckTxt = Object.entries(buckIA)
+    .sort((a, b) => b[1] - a[1])
+    .map(([k, v]) => `${(BUCKETS.find(b => b.key === k) || {label:k}).label} (${v})`).join(', ');
+
+  const callout = `<div class="ex-callout">
+    <div class="ex-big">${ia.length} dos ${total} nomes &mdash; ${pct(ia.length)}% do universo &mdash; dependem do mesmo ciclo de IA.</div>
+    <div class="ex-sub">Somando driver primario e secundario, ${ia.length} empresas tocam capex de IA ou a monetizacao que roda em cima dele.
+    Elas estao espalhadas por ${Object.keys(buckIA).length} buckets setoriais &mdash; ${escA(buckTxt)} &mdash; o que faz o livro
+    <i>parecer</i> diversificado na aba Fundamentals. Se o ciclo de capex desacelerar, nenhum desses buckets protege o outro.
+    O segundo maior driver e <b>${escA(maior.d.k === 'AI_CAPEX' || maior.d.k === 'AI_MONET'
+        ? (DRIVERS.map(d => ({d, n:toca(d.k).length})).filter(x => !COMPLEXO_IA.includes(x.d.k)).sort((a, b) => b.n - a.n)[0] || {d:{label:'—'}, n:0}).d.label
+        : maior.d.label)}</b>.</div>
+  </div>`;
+
+  // ── barra empilhada do driver primario ──────────────────────────────────────
+  const segs = DRIVERS.map(d => {
+    const n = prim(d.k).length; if (!n) return '';
+    const w = n / total * 100;
+    return `<div class="ex-seg" style="width:${w}%;background:${d.c};" title="${escA(d.label)}: ${n} nomes">${w >= 9 ? n : ''}</div>`;
+  }).join('');
+  const legenda = DRIVERS.filter(d => prim(d.k).length)
+    .map(d => `<span class="ex-lg"><i style="background:${d.c}"></i>${escA(d.label)} — ${prim(d.k).length}</span>`).join('');
+
+  // ── tabela por driver ───────────────────────────────────────────────────────
+  const linhas = DRIVERS.map(d => {
+    const pr = prim(d.k), tc = toca(d.k);
+    if (!tc.length) return '';
+    const so2 = tc.filter(p => p.d !== d.k);
+    return `<tr>
+      <td><span class="ex-drv"><i style="display:inline-block;width:9px;height:9px;border-radius:2px;background:${d.c};margin-right:7px;"></i>${escA(d.label)}<small>${escA(d.desc)}</small></span></td>
+      <td class="ex-n">${pr.length}</td>
+      <td class="ex-n">${tc.length}<div style="font-weight:400;font-size:10px;color:var(--text-muted);">${pct(tc.length)}%</div></td>
+      <td class="ex-names">${pr.map(p => p.t).join(' · ') || '—'}${so2.length ? `<div style="margin-top:4px;opacity:.7;">secundario: ${so2.map(p => p.t).join(' · ')}</div>` : ''}</td>
+      <td>${tesePills(tc)}</td>
+    </tr>`;
+  }).join('');
+
+  const tabela = `<div class="ex-sec-lbl">Driver primario vs. exposicao total</div>
+    <div class="ex-sec-sub">Primario e o que manda no resultado; total inclui quem toca o driver como segunda ordem. A diferenca entre as duas colunas e o risco que a contagem por setor esconde.</div>
+    <table class="ex-tbl"><thead><tr>
+      <th>Driver</th><th style="text-align:center;">Primario</th><th style="text-align:center;">Total tocado</th><th>Nomes</th><th>Status da tese</th>
+    </tr></thead><tbody>${linhas}</tbody></table>`;
+
+  // ── matriz driver x bucket ──────────────────────────────────────────────────
+  const cols = BUCKETS.filter(b => nomes.some(p => bucketOf(p.s) === b.key));
+  const cab = cols.map(b => `<th>${escA(b.label)}</th>`).join('');
+  const corpo = DRIVERS.map(d => {
+    const cel = cols.map(b => {
+      const n = nomes.filter(p => p.d === d.k && bucketOf(p.s) === b.key).length;
+      const cls = n >= 4 ? 'hot' : (n >= 2 ? 'warm' : '');
+      return `<td class="${cls}">${n || '·'}</td>`;
+    }).join('');
+    const tot = prim(d.k).length;
+    if (!tot) return '';
+    return `<tr><td>${escA(d.label)}</td>${cel}<td style="font-weight:700;">${tot}</td></tr>`;
+  }).join('');
+  const matriz = `<div class="ex-sec-lbl">Driver x bucket setorial</div>
+    <div class="ex-sec-sub">Se as duas taxonomias coincidissem, a matriz seria diagonal. Cada celula fora da diagonal e um lugar onde o setor engana sobre o risco.</div>
+    <table class="ex-mx"><thead><tr><th>Driver</th>${cab}<th>Total</th></tr></thead><tbody>${corpo}</tbody></table>
+    <div class="ex-note">Leitura: um driver espalhado por varias colunas significa que o mesmo risco aparece sob nomes de setor diferentes.
+    Uma coluna com varios drivers significa que aquele bucket agrupa negocios que nao sobem e descem juntos.</div>`;
+
+  el.innerHTML = callout + `<div class="ex-bar">${segs}</div><div class="ex-legend">${legenda}</div>` + tabela + matriz;
+}
+
+
+// =============================================================================
+// ENTREGA B — consenso, expectativas embutidas e cenarios
+// =============================================================================
+// Regra de moeda que atravessa tudo aqui: ASML e RACE projetam em EUR, a TSM em
+// TWD, e o preco do dashboard e' o do ADR em dolar. Qualquer conta que misture
+// os dois lados sai errada -- por isso o forward PE vem PRONTO da fonte e o DCF
+// reverso simplesmente nao aparece para quem nao reporta em USD.
+
+const VAL_KEY = 'rp_valuation_v1';
+let VALUATION = LS.get(VAL_KEY, {});          // {t:{bull:{px,p},base:{},bear:{},nota}}
+const CENARIOS = [['bull','Bull'], ['base','Base'], ['bear','Bear']];
+
+function getVal(t) {
+  if (!VALUATION[t]) VALUATION[t] = {bull:{}, base:{}, bear:{}, nota:''};
+  CENARIOS.forEach(([k]) => { if (!VALUATION[t][k]) VALUATION[t][k] = {}; });
+  return VALUATION[t];
+}
+function setVal(t, cen, campo, valor) {
+  const v = getVal(t);
+  if (cen === '_nota') { v.nota = valor; }
+  else {
+    const n = parseFloat(String(valor).replace(',', '.'));
+    v[cen][campo] = isNaN(n) ? null : n;
+  }
+  v.upd = new Date().toISOString().slice(0, 10);
+  LS.set(VAL_KEY, VALUATION);
+  const box = document.getElementById('vl-cen-' + t);
+  if (box) box.innerHTML = cenariosCorpo(t);
+}
+
+const est   = t => (window.__EST || {})[t] || null;
+const pxOf  = t => { const p = (window.__PRICES || {})[t]; return p && p.price ? p.price : null; };
+const nfmt  = (v, d) => (v == null || isNaN(v)) ? '—' : Number(v).toFixed(d == null ? 1 : d);
+const pfmt  = v => (v == null || isNaN(v)) ? '—' : (v >= 0 ? '+' : '') + Number(v).toFixed(1) + '%';
+const mediana = a => { const s = a.slice().sort((x, y) => x - y); const n = s.length;
+  return !n ? null : (n % 2 ? s[(n-1)/2] : (s[n/2-1] + s[n/2]) / 2); };
+
+// ─── 1. o que esta no preco ──────────────────────────────────────────────────
+function vlPreco(t) {
+  const e = est(t);
+  if (!e || !e.ntm) return '';
+  const h = e.hist || {};
+  const fpeAtual = e.ntm.fpe;
+  // Exercicios ja fechados: e' contra eles que "caro" ou "barato" significa algo.
+  const passados = (h.fpe || []).slice(0, h.i_ntm == null ? 0 : h.i_ntm).filter(v => v != null && v > 0);
+  const med = mediana(passados), lo = Math.min(...passados), hi = Math.max(...passados);
+  let pos = null, veredito = null, cls = 'vl-fair';
+  if (fpeAtual != null && passados.length >= 3) {
+    const abaixo = passados.filter(v => v < fpeAtual).length;
+    pos = Math.round(abaixo / passados.length * 100);
+    const razao = fpeAtual / med;
+    if (razao <= 0.85)      { veredito = 'barato vs. propria historia'; cls = 'vl-cheap'; }
+    else if (razao >= 1.15) { veredito = 'caro vs. propria historia';   cls = 'vl-rich';  }
+    else                    { veredito = 'em linha com a propria historia'; }
+  }
+  const escala = (pos == null) ? '' : `
+    <div class="vl-scale"><div class="vl-track"></div>
+      <div class="vl-tick" style="left:0"></div><div class="vl-tick" style="left:50%"></div>
+      <div class="vl-tick" style="left:calc(100% - 2px)"></div>
+      <div class="vl-mark" style="left:${Math.min(99, Math.max(1, pos))}%" title="percentil ${pos}"></div>
+    </div>
+    <div class="vl-ends"><span>${nfmt(lo)}x min</span><span>${nfmt(med)}x mediana</span><span>${nfmt(hi)}x max</span></div>`;
+  return `<div class="vl-card">
+    <div class="vl-lbl">O que esta no preco</div>
+    <div class="vl-sub">Forward P/E do proximo exercicio contra os exercicios ja fechados &mdash; mesma fonte dos dois lados, entao split nao distorce.</div>
+    <div class="vl-big">${nfmt(fpeAtual)}<small>x lucro ${escA(e.ntm.fy || 'NTM')}</small></div>
+    ${veredito ? `<span class="vl-verdict ${cls}">${escA(veredito)}</span>` : ''}
+    ${escala}
+    <div class="vl-note">${passados.length ? `Percentil ${pos} em ${passados.length} exercicios. Mediana ${nfmt(med)}x.` : 'Historico insuficiente para posicionar.'}
+    ${e.moeda && e.moeda !== 'USD' ? ` Projecoes em <b>${escA(e.moeda)}</b> &mdash; o preco na tela e o do ADR em dolar; nao cruze os dois na mao.` : ''}</div>
+  </div>`;
+}
+
+// ─── 2. consenso e dispersao ─────────────────────────────────────────────────
+function vlConsenso(t) {
+  const e = est(t); if (!e || !e.ntm) return '';
+  const n = e.ntm, a = e.atual || {}, d = e.disp || {};
+  const cur = e.moeda === 'USD' ? 'US$' : (e.moeda === 'EUR' ? '€' : (e.moeda === 'TWD' ? 'NT$' : ''));
+  const banda = (b, casas) => {
+    if (!b || b.avg == null || b.hi == null || b.lo == null) return null;
+    const larg = (b.hi - b.lo) / Math.abs(b.avg) * 100;
+    return {larg, txt: `${nfmt(b.lo, casas)} &ndash; ${nfmt(b.hi, casas)}`};
+  };
+  const bE = banda(d.eps, 2), bR = banda(d.rev, 1);
+  const larg = bE ? bE.larg : (bR ? bR.larg : null);
+  const leitura = larg == null ? ''
+    : larg >= 25 ? 'Banda larga: nome contestado &mdash; e onde uma visao divergente vale alguma coisa.'
+    : larg <= 10 ? 'Banda estreita: o mercado concorda consigo mesmo. Discordar aqui exige argumento forte.'
+    : 'Dispersao mediana.';
+  return `<div class="vl-card">
+    <div class="vl-lbl">Consenso ${escA(n.fy || '')}</div>
+    <div class="vl-sub">${n.n != null ? n.n + ' analistas' : 'nº de analistas nao publicado'}${n.fim ? ' &middot; exercicio fecha em ' + escA(n.fim) : ''}</div>
+    <div class="vl-row"><span>Receita</span><span>${cur} ${nfmt(n.rev)} bi ${n.rev_growth != null ? '<small style="color:var(--text-muted);font-weight:400;">(' + pfmt(n.rev_growth) + ')</small>' : ''}</span></div>
+    <div class="vl-row"><span>EPS</span><span>${cur} ${nfmt(n.eps, 2)} ${n.eps_growth != null ? '<small style="color:var(--text-muted);font-weight:400;">(' + pfmt(n.eps_growth) + ')</small>' : ''}</span></div>
+    ${a.eps != null ? `<div class="vl-row"><span>EPS exercicio corrente</span><span>${cur} ${nfmt(a.eps, 2)}</span></div>` : ''}
+    ${n.fcf != null ? `<div class="vl-row"><span>FCF</span><span>${cur} ${nfmt(n.fcf)} bi</span></div>` : ''}
+    ${bE ? `<div class="vl-row"><span>Faixa de EPS (baixo&ndash;alto)</span><span>${bE.txt}</span></div>` : ''}
+    ${bR ? `<div class="vl-row"><span>Faixa de receita</span><span>${bR.txt}</span></div>` : ''}
+    ${larg != null ? `<div class="vl-row"><span>Dispersao</span><span>${nfmt(larg)}% da media</span></div>` : ''}
+    ${leitura ? `<div class="vl-note">${leitura}</div>` : ''}
+  </div>`;
+}
+
+// ─── 3. preco-alvo do consenso ───────────────────────────────────────────────
+function vlAlvo(t) {
+  const e = est(t); if (!e || !e.pt) return '';
+  const pt = e.pt, spot = pxOf(t);
+  let escala = '';
+  if (pt.lo != null && pt.hi != null && pt.hi > pt.lo && spot != null) {
+    const p = v => Math.min(99, Math.max(1, (v - pt.lo) / (pt.hi - pt.lo) * 100));
+    escala = `<div class="vl-scale"><div class="vl-track"></div>
+      <div class="vl-tick" style="left:${p(pt.avg != null ? pt.avg : pt.lo)}%"></div>
+      <div class="vl-mark" style="left:${p(spot)}%" title="preco atual"></div></div>
+      <div class="vl-ends"><span>${nfmt(pt.lo)} min</span><span>&#9679; preco hoje ${nfmt(spot)}</span><span>${nfmt(pt.hi)} max</span></div>`;
+  }
+  return `<div class="vl-card">
+    <div class="vl-lbl">Preco-alvo do consenso</div>
+    <div class="vl-sub">Ancora do sell-side, nao valor justo. Serve para saber de onde voce discorda, nao para concordar.</div>
+    <div class="vl-big">${nfmt(pt.avg)}<small>medio &middot; ${pfmt(pt.avg_up)}</small></div>
+    ${escala}
+    <div class="vl-row"><span>Minimo</span><span>${nfmt(pt.lo)} (${pfmt(pt.lo_up)})</span></div>
+    <div class="vl-row"><span>Mediana</span><span>${nfmt(pt.med)} (${pfmt(pt.med_up)})</span></div>
+    <div class="vl-row"><span>Maximo</span><span>${nfmt(pt.hi)} (${pfmt(pt.hi_up)})</span></div>
+  </div>`;
+}
+
+// ─── 4. postura do sell-side ─────────────────────────────────────────────────
+function vlRatings(t) {
+  const e = est(t); if (!e || !e.ratings) return '';
+  const r = e.ratings, ult = (r.meses || []).length - 1;
+  if (ult < 0) return '';
+  const g = (k, i) => (r[k] && r[k][i] != null) ? r[k][i] : 0;
+  const tot = g('total', ult) || (g('sb',ult)+g('b',ult)+g('h',ult)+g('s',ult)+g('ss',ult));
+  if (!tot) return '';
+  const segs = [['sb','Strong Buy','#0d9488'], ['b','Buy','#10b981'], ['h','Hold','#94a3b8'],
+                ['s','Sell','#f59e0b'], ['ss','Strong Sell','#ef4444']];
+  const barra = segs.map(([k, lbl, c]) => {
+    const v = g(k, ult); if (!v) return '';
+    const w = v / tot * 100;
+    return `<div class="vl-bseg" style="width:${w}%;background:${c};" title="${lbl}: ${v}">${w >= 12 ? v : ''}</div>`;
+  }).join('');
+  // A tabela da fonte ja traz ~6 meses: da para ler a inflexao sem guardar estado.
+  const compraAgora = (g('sb',ult)+g('b',ult)) / tot * 100;
+  const compraAntes = (() => {
+    const t0 = g('total',0) || (g('sb',0)+g('b',0)+g('h',0)+g('s',0)+g('ss',0));
+    return t0 ? (g('sb',0)+g('b',0)) / t0 * 100 : null;
+  })();
+  const delta = compraAntes == null ? null : compraAgora - compraAntes;
+  return `<div class="vl-card">
+    <div class="vl-lbl">Postura do sell-side</div>
+    <div class="vl-sub">${tot} recomendacoes &middot; ${escA(r.meses[0])} &rarr; ${escA(r.meses[ult])}</div>
+    <div class="vl-bar">${barra}</div>
+    <div class="vl-ends"><span>${nfmt(compraAgora, 0)}% em compra</span><span>${delta == null ? '' : (Math.abs(delta) < 1 ? 'estavel no periodo' : pfmt(delta) + ' p.p. em 6 meses')}</span></div>
+    <div class="vl-note">${compraAgora >= 85 ? 'Consenso praticamente unanime na compra &mdash; pouco espaco para upgrade, e a surpresa possivel e para baixo.'
+      : compraAgora <= 50 ? 'Sell-side dividido &mdash; ha espaco para revisao de rating nos dois sentidos.'
+      : 'Distribuicao normal para uma large cap coberta.'}</div>
+  </div>`;
+}
+
+// ─── 5. DCF reverso simplificado ─────────────────────────────────────────────
+// Nao entrega "o valor justo". Entrega a pergunta certa: que crescimento de
+// caixa o preco de hoje ja esta cobrando para fazer sentido.
+function acoesTTM(t) {
+  const fd = (typeof getFin === 'function' ? getFin(t) : null) || FIN[t];
+  if (!fd || !Array.isArray(fd.ni) || !Array.isArray(fd.eps)) return null;
+  const n = fd.ni.length - 1;
+  const sni = ttm(fd.ni, n), seps = ttm(fd.eps, n);
+  if (sni == null || seps == null || !seps) return null;
+  const a = sni / seps;                      // bilhoes de acoes (ni em bi, eps por acao)
+  return (a > 0 && isFinite(a)) ? a : null;
+}
+
+function vpDCF(fcf0, g, w, gt, anos) {
+  let pv = 0, f = fcf0;
+  for (let i = 1; i <= anos; i++) { f *= (1 + g); pv += f / Math.pow(1 + w, i); }
+  if (w <= gt) return Infinity;
+  pv += (f * (1 + gt) / (w - gt)) / Math.pow(1 + w, anos);
+  return pv;
+}
+
+function gImplicito(ev, fcf0, w, gt, anos) {
+  if (!(fcf0 > 0) || !(ev > 0)) return null;
+  let lo = -0.60, hi = 1.50;
+  if (vpDCF(fcf0, hi, w, gt, anos) < ev) return null;      // nem 150% a.a. explica o preco
+  if (vpDCF(fcf0, lo, w, gt, anos) > ev) return null;      // preco abaixo do cenario de colapso
+  for (let k = 0; k < 80; k++) {
+    const m = (lo + hi) / 2;
+    if (vpDCF(fcf0, m, w, gt, anos) < ev) lo = m; else hi = m;
+  }
+  return (lo + hi) / 2;
+}
+
+function vlReverso(t) {
+  const e = est(t), spot = pxOf(t);
+  const p = P.find(x => x.t === t);
+  const fin = (typeof getFin === 'function' ? getFin(t) : null) || FIN[t];
+  const banco = typeof isFinancial === 'function' && isFinancial(t);
+  const motivo =
+    banco ? 'fluxo de caixa livre nao e a metrica de banco — use ROTCE e valor patrimonial'
+    : (e && e.moeda && e.moeda !== 'USD')
+        ? 'projecoes em ' + e.moeda + ' e preco em dolar do ADR — misturar as duas bases daria um numero sem significado'
+    : (!e || !e.ntm || e.ntm.fcf == null) ? 'consenso de fluxo de caixa livre nao publicado para este nome'
+    : !spot ? 'sem cotacao carregada'
+    : null;
+  if (motivo) {
+    return `<div class="vl-card"><div class="vl-lbl">DCF reverso</div>
+      <div class="vl-sub">O que o preco de hoje ja exige de crescimento.</div>
+      <div class="vl-empty">Nao exibido: ${escA(motivo)}.</div></div>`;
+  }
+  const acoes = acoesTTM(t);
+  if (!acoes) {
+    return `<div class="vl-card"><div class="vl-lbl">DCF reverso</div>
+      <div class="vl-empty">Nao exibido: nao consegui estimar o numero de acoes (serie de lucro ou LPA incompleta).</div></div>`;
+  }
+  const nd = (fin && Array.isArray(fin.netdebt)) ? [...fin.netdebt].reverse().find(v => v != null) : null;
+  const mkt = spot * acoes;                                   // bilhoes
+  const ev = mkt + (nd || 0);
+  // Guardado aqui e nao num <script> embutido: HTML injetado por innerHTML nao
+  // executa script alguma -- seria um bug silencioso.
+  window.__VLREV = window.__VLREV || {};
+  window.__VLREV[t] = {ev: ev, fcf: e.ntm.fcf};
+  return `<div class="vl-card" id="vl-rev-${t}">
+    <div class="vl-lbl">DCF reverso &mdash; expectativa embutida</div>
+    <div class="vl-sub">Nao responde "quanto vale". Responde "o que tem que ser verdade": o crescimento de FCF que o preco de hoje ja esta cobrando.</div>
+    <div class="vl-slider"><label>WACC</label><input type="range" min="6" max="16" step="0.5" value="9"
+      oninput="calcReverso('${t}')" id="vl-w-${t}"><b id="vl-wv-${t}">9,0%</b></div>
+    <div class="vl-slider"><label>g terminal</label><input type="range" min="0" max="5" step="0.25" value="2.5"
+      oninput="calcReverso('${t}')" id="vl-g-${t}"><b id="vl-gv-${t}">2,5%</b></div>
+    <div class="vl-slider"><label>Anos</label><input type="range" min="5" max="15" step="1" value="10"
+      oninput="calcReverso('${t}')" id="vl-n-${t}"><b id="vl-nv-${t}">10</b></div>
+    <div style="margin-top:12px;"><div class="vl-big" id="vl-out-${t}">—</div></div>
+    <div class="vl-row"><span>FCF base (consenso ${escA(e.ntm.fy || '')})</span><span>US$ ${nfmt(e.ntm.fcf)} bi</span></div>
+    <div class="vl-row"><span>Valor de mercado</span><span>US$ ${nfmt(mkt, 0)} bi</span></div>
+    <div class="vl-row"><span>Divida liquida</span><span>${nd == null ? 'n/d' : 'US$ ' + nfmt(nd, 0) + ' bi'}</span></div>
+    <div class="vl-row"><span>Valor da firma</span><span>US$ ${nfmt(ev, 0)} bi</span></div>
+    <div class="vl-note" id="vl-msg-${t}"></div>
+  </div>`;
+}
+
+function calcReverso(t) {
+  const d = (window.__VLREV || {})[t]; if (!d) return;
+  const w  = parseFloat(document.getElementById('vl-w-' + t).value) / 100;
+  const gt = parseFloat(document.getElementById('vl-g-' + t).value) / 100;
+  const n  = parseInt(document.getElementById('vl-n-' + t).value, 10);
+  document.getElementById('vl-wv-' + t).textContent = (w*100).toFixed(1).replace('.', ',') + '%';
+  document.getElementById('vl-gv-' + t).textContent = (gt*100).toFixed(1).replace('.', ',') + '%';
+  document.getElementById('vl-nv-' + t).textContent = n;
+  const out = document.getElementById('vl-out-' + t), msg = document.getElementById('vl-msg-' + t);
+  const g = gImplicito(d.ev, d.fcf, w, gt, n);
+  if (g == null) {
+    out.innerHTML = '—';
+    msg.textContent = 'Fora da faixa testada (-60% a +150% a.a.): com esses parametros nenhum crescimento plausivel reconcilia preco e fluxo.';
+    return;
+  }
+  const pct = g * 100;
+  out.innerHTML = `${pct >= 0 ? '+' : ''}${pct.toFixed(1).replace('.', ',')}%<small>a.a. de FCF por ${n} anos</small>`;
+  msg.innerHTML = pct > 25
+    ? 'Exigencia alta. Poucas empresas sustentam esse ritmo por uma decada &mdash; a pergunta e o que na estrutura competitiva justifica.'
+    : pct > 12 ? 'Exigencia relevante, mas nao heroica para um negocio com vantagem durável.'
+    : pct > 3  ? 'Exigencia modesta: o preco nao esta pedindo muito.'
+    : 'O preco embute pouco ou nenhum crescimento &mdash; vale checar se o mercado ve deterioracao que voce nao viu.';
+}
+
+// ─── 6. cenarios (manual, persistido) ────────────────────────────────────────
+function cenariosCorpo(t) {
+  const v = getVal(t), spot = pxOf(t);
+  let somaP = 0, ev = 0, temTudo = true;
+  CENARIOS.forEach(([k]) => {
+    const c = v[k] || {};
+    if (c.p != null) somaP += c.p;
+    if (c.px != null && c.p != null) ev += c.px * c.p / 100; else temTudo = false;
+  });
+  const linhas = CENARIOS.map(([k, lbl]) => {
+    const c = v[k] || {};
+    const up = (c.px != null && spot) ? (c.px / spot - 1) * 100 : null;
+    return `<tr class="vl-${k}">
+      <td>${lbl}</td>
+      <td><input type="number" step="0.01" value="${c.px != null ? c.px : ''}" placeholder="preco"
+           onchange="setVal('${t}','${k}','px',this.value)"></td>
+      <td><input type="number" step="1" min="0" max="100" value="${c.p != null ? c.p : ''}" placeholder="%"
+           onchange="setVal('${t}','${k}','p',this.value)"></td>
+      <td style="color:${up == null ? 'var(--text-muted)' : (up >= 0 ? '#0d9488' : '#dc2626')};font-weight:700;">${up == null ? '—' : pfmt(up)}</td>
+    </tr>`;
+  }).join('');
+  const bull = v.bull || {}, bear = v.bear || {};
+  const upB = (bull.px != null && spot) ? (bull.px / spot - 1) * 100 : null;
+  const dnB = (bear.px != null && spot) ? (1 - bear.px / spot) * 100 : null;
+  const rr  = (upB != null && dnB != null && dnB > 0) ? upB / dnB : null;
+  const evUp = (temTudo && spot && Math.abs(somaP - 100) < 0.5) ? (ev / spot - 1) * 100 : null;
+  return `<table class="vl-sc">
+      <thead><tr><th>Cenario</th><th>Preco</th><th>Prob.</th><th>vs. hoje</th></tr></thead>
+      <tbody>${linhas}</tbody></table>
+    <div class="vl-tot">
+      <div><div style="font-size:10px;color:var(--text-muted);text-transform:uppercase;letter-spacing:.05em;">Valor ponderado</div>
+        <div class="vl-big">${temTudo ? nfmt(ev, 2) : '—'}${evUp != null ? `<small style="color:${evUp>=0?'#0d9488':'#dc2626'}">${pfmt(evUp)}</small>` : ''}</div></div>
+      <div style="text-align:right;font-size:11px;color:var(--text-muted);">
+        <div>Probabilidades: <b class="${Math.abs(somaP - 100) < 0.5 ? '' : 'vl-err'}">${nfmt(somaP, 0)}%</b>${Math.abs(somaP - 100) < 0.5 ? '' : ' &mdash; precisa somar 100'}</div>
+        <div>Risco-retorno: <b>${rr == null ? '—' : nfmt(rr, 2) + ' : 1'}</b></div>
+        ${spot ? `<div>Preco hoje: <b>${nfmt(spot, 2)}</b></div>` : ''}
+      </div>
+    </div>
+    <input class="wide" style="margin-top:10px;" type="text" placeholder="O que tem que ser verdade para o bull acontecer?"
+      value="${escA(v.nota || '')}" onchange="setVal('${t}','_nota','',this.value)">
+    ${v.upd ? `<div class="vl-note">Editado em ${escA(v.upd)}. Fica salvo neste navegador.</div>` : ''}`;
+}
+
+function vlCenarios(t) {
+  return `<div class="vl-card" style="grid-column:1/-1;">
+    <div class="vl-lbl">Cenarios &mdash; preenchimento manual</div>
+    <div class="vl-sub">Esta caixinha nao e' automatizavel de proposito: e' o julgamento que define a posicao. Sem os tres precos e as tres probabilidades somando 100, nao ha tese &mdash; ha opiniao.</div>
+    <div id="vl-cen-${t}">${cenariosCorpo(t)}</div>
+  </div>`;
+}
+
+function buildValuation(t) {
+  const e = est(t);
+  if (!e) {
+    return `<div class="vl-warn">Consenso ainda nao carregado para ${escA(t)}. O arquivo <code>data/estimates.json</code> e gerado pelo step "Consenso de mercado" do workflow &mdash; se o banner de fontes marca <b>estimates</b> em vermelho, e por ali.</div>
+      <div class="vl-grid">${vlCenarios(t)}</div>`;
+  }
+  return `<div class="vl-grid">
+      ${vlPreco(t)}${vlConsenso(t)}${vlAlvo(t)}${vlRatings(t)}${vlReverso(t)}${vlCenarios(t)}
+    </div>`;
+}
+
 // ─── NAVIGATION ───────────────────────────────────────────────────────────────
 const PANE_TITLES = {
   news:     'Market Intelligence',
@@ -3233,6 +4188,7 @@ const PANE_TITLES = {
   calendar: 'Earnings Calendar — Coverage Universe',
   macro:    'Macro Agenda — Central Banks & Economic Data',
   insiders: 'Insider Activity — SEC Form 4',
+  expo:     'Exposure by Driver — o que o livro realmente aposta',
   metrics:  'Valuation Metrics — Live Data',
 };
 
@@ -3245,6 +4201,7 @@ function goPane(id, btn) {
   if (id === 'calendar') buildCalendar();
   if (id === 'macro') buildMacro();
   if (id === 'insiders') loadInsiders();
+  if (id === 'expo') buildExposure();
   if (id === 'metrics') initMetricsView();
 }
 
@@ -3276,12 +4233,33 @@ function init() {
   document.getElementById('mc-date-label').textContent = now.toLocaleDateString('en-US', opts);
   buildCoList();
   buildCoverageStrip();
+  renderHealthStrip();
+  renderFichaResumo();
   // mostra o snapshot de notícias já na abertura
   try { generateNews(); } catch(e) {}
 }
 
 // A tira de cobertura era uma lista fixa no HTML e ja estava desatualizada (12 de
 // 38 nomes, com Smartfit/PRIO/SABESP). Agora sai de P, entao acompanha o universo.
+// Conta o estoque de fichas por validade e escreve no subtitulo da aba, para
+// que ficha vencida vire trabalho visivel em vez de detalhe escondido na lista.
+function renderFichaResumo() {
+  const el = document.getElementById('fund-sub'); if (!el) return;
+  const nomes = P.filter(p => !p.etf);
+  let ok = 0, warn = 0, old = 0, sem = 0;
+  nomes.forEach(p => {
+    const st = fichaStatus(p.t);
+    if (!st) { sem++; return; }
+    if (st.lvl === 'ok') ok++; else if (st.lvl === 'warn') warn++; else old++;
+  });
+  const partes = [`${nomes.length} nomes`, `${ok} fichas em dia`];
+  if (warn) partes.push(`${warn} a revisar`);
+  if (old)  partes.push(`<b style="color:#dc2626;">${old} vencida${old > 1 ? 's' : ''}</b>`);
+  if (sem)  partes.push(`${sem} sem ficha`);
+  el.innerHTML = partes.join(' &middot; ')
+    + ' <span style="opacity:.7;">&mdash; vencida = 3+ resultados publicados desde a ultima revisao</span>';
+}
+
 function buildCoverageStrip() {
   const el = document.getElementById('coverage-strip');
   if (!el) return;
@@ -3309,6 +4287,12 @@ async function loadRemote() {
   }
   const prices = await tryJson('data/prices.json');
   if (prices && typeof prices === 'object') window.__PRICES = prices;   // {TICKER:{price,pe}}
+  const estim = await tryJson('data/estimates.json');
+  if (estim && typeof estim === 'object') window.__EST = estim;      // consenso NTM
+  const pxh = await tryJson('data/px_hist.json');
+  if (pxh && typeof pxh === 'object') window.__PXH = pxh;            // serie diaria de preco
+  const health = await tryJson('data/_health.json');
+  if (health && typeof health === 'object') window.__HEALTH = health;  // telemetria dos coletores
   const tr = await tryJson('data/transcripts.json');
   if (tr && typeof tr === 'object') window.__TRANSCRIPTS = tr;          // {TICKER:{release_url,ir_url}}
 }

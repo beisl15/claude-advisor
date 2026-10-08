@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-Serie trimestral longa de TSM, RACE, ABI e ROXO. Atualiza data/fin.json.
+Serie trimestral longa de TSM, RACE, ABI, ROXO e RHM. Atualiza data/fin.json.
 Sem dependencia externa (so a biblioteca padrao).
 
 POR QUE ESTE SCRIPT EXISTE
 --------------------------
-Esses quatro sao foreign private issuers: so arquivam 20-F anual na SEC, sem
+A maioria destes sao foreign private issuers: so arquivam 20-F anual na SEC, sem
 10-Q, logo nao ha serie trimestral em XBRL (verificado em 11/08/2026 varrendo
 companyfacts dos quatro CIKs -- nenhuma tag com periodo de ~90 dias). O Yahoo
 entrega no maximo 5 trimestres, teto do proprio servidor.
@@ -42,12 +42,22 @@ UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 BASE = "https://stockanalysis.com/stocks/{s}/financials/{p}?p=quarterly"
 NQ = 17
 
+
+def url_de(sym, pag):
+    """RHM nao tem ADR/ticker US: stockanalysis usa /quote/etr/RHM/... em vez
+    de /stocks/{s}/... pra nomes so listados fora dos EUA. Symbol com '/' ja
+    vem com o path completo (ver SYMBOLS['RHM'])."""
+    if "/" in sym:
+        return f"https://stockanalysis.com/{sym}/financials/{pag}?p=quarterly"
+    return BASE.format(s=sym, p=pag)
+
 # ticker no dashboard -> (simbolo no site, moeda de reporte)
 SYMBOLS = {
     "TSM":  ("tsm",  "TWD"),
     "RACE": ("race", "EUR"),
     "ABI":  ("bud",  "USD"),
     "ROXO": ("nu",   "USD"),
+    "RHM":  ("quote/etr/RHM", "EUR"),  # Rheinmetall — sem ADR, path proprio (ver url_de)
 }
 
 # Nu e banco: divida liquida nao tem sentido economico. Mesmo criterio de
@@ -130,7 +140,7 @@ def rotulo(cel):
 
 
 def le_pagina(sym, pag, mapa):
-    html = baixa(BASE.format(s=sym, p=pag))
+    html = baixa(url_de(sym, pag))
     melhor, ndatas = None, 0
     for linhas in tabelas(html):
         idx = next((i for i, l in enumerate(linhas)
