@@ -1,109 +1,117 @@
 {
- "asof": "07/10/2026",
+ "asof": "08/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "FactorBench: A Portfolio-Aware Benchmark for Automated Factor Mining",
-   "url": "https://arxiv.org/abs/2610.06947",
-   "date": "07/10"
+   "title": "Agentic AI Systems and Financial Stability, From Model Risk to Systemic Risk",
+   "url": "https://arxiv.org/abs/2610.08806",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Reliability of AI Agents: Rater Effects, Drift, and the Return to an Evaluation Program",
-   "url": "https://arxiv.org/abs/2610.07003",
-   "date": "07/10"
+   "title": "SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions",
+   "url": "https://arxiv.org/abs/2610.10407",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Verified, not generated: expert-verified AI study materials and the distribution of learning gains in a university course",
-   "url": "https://arxiv.org/abs/2610.07097",
-   "date": "07/10"
+   "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+   "url": "https://arxiv.org/abs/2610.10506",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Understanding Interfirm AI Talent Flow Networks through Online Professional Profiles",
-   "url": "https://arxiv.org/abs/2610.08264",
-   "date": "07/10"
+   "title": "OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent Systems",
+   "url": "https://arxiv.org/abs/2604.11477",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Data-driven measures of high-frequency trading",
-   "url": "https://arxiv.org/abs/2405.08101",
-   "date": "07/10"
+   "title": "Execution Realism and Reproducibility in LLM-Based Trading Systems: A Systematic Scoping Review and Evidence Audit",
+   "url": "https://arxiv.org/abs/2606.08285",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
+   "url": "https://arxiv.org/abs/2609.14767",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The Reported Engagement with AI Level (REAL) Rating: A Framework for Disclosing Human-AI Collaboration",
-   "url": "https://arxiv.org/abs/2610.04021",
-   "date": "07/10"
+   "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+   "url": "https://arxiv.org/abs/2610.08927",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Agent Policy-Value Audit: Separating Transition Composition from Event Selection in Financial LLM Agents",
-   "url": "https://arxiv.org/abs/2610.04040",
-   "date": "07/10"
+   "title": "Epistemic Uncertainty-Aware Defect Detection for Quality Control in Medical Device Manufacturing",
+   "url": "https://arxiv.org/abs/2610.09057",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "EvoCast: Reliable Autonomous Research Agents for Iterative Forecasting Architecture Evolution",
-   "url": "https://arxiv.org/abs/2610.04517",
-   "date": "07/10"
+   "title": "The AI Evaluation Ecosystem",
+   "url": "https://arxiv.org/abs/2610.09296",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
-   "url": "https://arxiv.org/abs/2610.04672",
-   "date": "07/10"
+   "title": "DUDA-Bench: Benchmarking LLM Agents on Multimodal Data-Driven Urban Diagnosis",
+   "url": "https://arxiv.org/abs/2610.09374",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Dynamic Routing as a New Dimension for Test-time Versatility of LLMs",
-   "url": "https://arxiv.org/abs/2610.04751",
-   "date": "07/10"
+   "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+   "url": "https://arxiv.org/abs/2610.09872",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "From Token-Max to Outcome-Max: How You Use AI Determines Its Productivity",
-   "url": "https://arxiv.org/abs/2610.05697",
-   "date": "07/10"
+   "title": "The Handover Problem: Governing Autonomy Transitions in Human-AI Collaboration",
+   "url": "https://arxiv.org/abs/2610.10352",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "FreSia: Frequency-Semantic Instantiation and Alignment for Multivariate Time Series Analysis",
-   "url": "https://arxiv.org/abs/2610.05726",
-   "date": "07/10"
+   "title": "Just for FUNS: LLM-Guided Spatio-Temporal Graph Node Generation for Forecasting Unobserved Node States",
+   "url": "https://arxiv.org/abs/2610.08818",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Grounded Joint-Attention Other-Play for Zero-Shot Coordination",
-   "url": "https://arxiv.org/abs/2610.06025",
-   "date": "07/10"
+   "title": "RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding",
+   "url": "https://arxiv.org/abs/2610.08954",
+   "date": "08/10"
   },
   {
    "p": 5,
@@ -157,9 +165,17 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "The Evolution of Technology Portfolios and Firm Profitability in the European Power Sector",
-   "url": "https://arxiv.org/abs/2601.22167",
-   "date": "07/10"
+   "title": "Recursive Copula Aggregation for Market and Credit Portfolios",
+   "url": "https://arxiv.org/abs/2610.08798",
+   "date": "08/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Explicit Finite-Sum Tail Risk Measures for Hierarchical Market--Credit Copula Aggregation",
+   "url": "https://arxiv.org/abs/2610.08799",
+   "date": "08/10"
   },
   {
    "p": 4,
@@ -208,22 +224,6 @@
    "title": "In Utero Exposure to the 1982 Tylenol Recall and Neurodevelopmental Outcomes -- by Christopher M. Worsham, Charles Bray, Joshua Rothman, Brian Kwan, Anupam Jena",
    "url": "https://www.nber.org/papers/w35873#fromrss",
    "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "arXiv q-fin",
-   "title": "The Agentic ETF: How Agentic Trading Becomes an Asset Class",
-   "url": "https://arxiv.org/abs/2610.06856",
-   "date": "07/10"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "arXiv q-fin",
-   "title": "A Functional Representation of Credit Behavior for Probability of Default Modeling",
-   "url": "https://arxiv.org/abs/2610.07888",
-   "date": "07/10"
   },
   {
    "p": 3,
