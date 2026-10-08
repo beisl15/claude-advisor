@@ -1,197 +1,245 @@
 {
- "asof": "17/08/2026",
+ "asof": "08/10/2026",
  "items": [
   {
    "p": 5,
-   "tag": "BR/EM",
-   "src": "arXiv q-fin",
-   "title": "Financial Technologies, Labor Markets, and Wage Inequality: Evidence from Instant Payment Systems",
-   "url": "https://arxiv.org/abs/2608.13871",
-   "date": "17/08"
-  },
-  {
-   "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Large Language Models Polarize Ideologically but Moderate Affectively in Online Political Discourse",
-   "url": "https://arxiv.org/abs/2601.20238",
-   "date": "17/08"
+   "title": "Agentic AI Systems and Financial Stability, From Model Risk to Systemic Risk",
+   "url": "https://arxiv.org/abs/2610.08806",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI-Driven Multiscenario Interest Rate Forecasting: A Proof of Concept for Banking Asset Management",
-   "url": "https://arxiv.org/abs/2608.12424",
-   "date": "17/08"
+   "title": "SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions",
+   "url": "https://arxiv.org/abs/2610.10407",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+   "url": "https://arxiv.org/abs/2610.10506",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent Systems",
+   "url": "https://arxiv.org/abs/2604.11477",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Execution Realism and Reproducibility in LLM-Based Trading Systems: A Systematic Scoping Review and Evidence Audit",
+   "url": "https://arxiv.org/abs/2606.08285",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
+   "url": "https://arxiv.org/abs/2609.14767",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "AI Evaluation Should Work With Humans",
-   "url": "https://arxiv.org/abs/2608.13577",
-   "date": "17/08"
+   "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
+   "url": "https://arxiv.org/abs/2610.08927",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Simulation-Aware In-Context Policy Improvement for LLM-Aided Analog Layout Refinement",
-   "url": "https://arxiv.org/abs/2608.13767",
-   "date": "17/08"
+   "title": "Epistemic Uncertainty-Aware Defect Detection for Quality Control in Medical Device Manufacturing",
+   "url": "https://arxiv.org/abs/2610.09057",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Handover of In-Context Learning State Across Session Boundaries",
-   "url": "https://arxiv.org/abs/2608.14528",
-   "date": "17/08"
+   "title": "The AI Evaluation Ecosystem",
+   "url": "https://arxiv.org/abs/2610.09296",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "DUDA-Bench: Benchmarking LLM Agents on Multimodal Data-Driven Urban Diagnosis",
+   "url": "https://arxiv.org/abs/2610.09374",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+   "url": "https://arxiv.org/abs/2610.09872",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Handover Problem: Governing Autonomy Transitions in Human-AI Collaboration",
+   "url": "https://arxiv.org/abs/2610.10352",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Just for FUNS: LLM-Guided Spatio-Temporal Graph Node Generation for Forecasting Unobserved Node States",
+   "url": "https://arxiv.org/abs/2610.08818",
+   "date": "08/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding",
+   "url": "https://arxiv.org/abs/2610.08954",
+   "date": "08/10"
   },
   {
    "p": 5,
    "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "PPAPlace: Differentiable Cross-Stage Objectives for Chip Placement Optimization",
-   "url": "https://arxiv.org/abs/2608.13790",
-   "date": "17/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Federated Prompt Learning: A Unified Framework, Empirical Analysis, and Future Directions",
-   "url": "https://arxiv.org/abs/2608.13844",
-   "date": "17/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Developmen",
-   "url": "https://arxiv.org/abs/2608.13884",
-   "date": "17/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Long-Horizon AI Research for Grothendieck Constant: A Case Study in Human-AI Mathematical Collaboration",
-   "url": "https://arxiv.org/abs/2608.11195",
-   "date": "17/08"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "The Fools are Certain; the Wise are Doubtful: Exploring LLM Confidence in Code Completion",
-   "url": "https://arxiv.org/abs/2508.16131",
-   "date": "17/08"
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Measuring and Projecting U.S. Investment in Semiconductor Manufacturing Capacity",
+   "url": "https://www.federalreserve.gov/econres/feds/measuring-and-projecting-us-investment-in-semiconductor-manufacturing-capacity.htm",
+   "date": "29/09"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied Volatility Forecasting",
-   "url": "https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm",
-   "date": "07/07"
+   "title": "FEDS Paper: Premiums or Peril",
+   "url": "https://www.federalreserve.gov/econres/feds/premiums-or-peril.htm",
+   "date": "18/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Linear and Nonlinear Econometric Models versus Machine-Learning Models: Evidence from Realized-Volatility Forecasting(Revised)",
+   "url": "https://www.federalreserve.gov/econres/feds/linear-and-nonlinear-econometric-models-against-machine-learning-models.htm",
+   "date": "02/09"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Large Language Models as Voting Mechanisms -- by Raša Karapandža, Yaw Nyarko",
+   "url": "https://www.nber.org/papers/w35839#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations -- by Daniel P. Gross, Dror Shvadron, Hansen Zhang",
+   "url": "https://www.nber.org/papers/w35859#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Financing the AI Buildout -- by Stijn Van Nieuwerburgh",
+   "url": "https://www.nber.org/papers/w35865#fromrss",
+   "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Dynamic Physical Hedging amid Jump Losses, Reconstruction-Price Uncertainty, Population Interactions",
-   "url": "https://arxiv.org/abs/2608.13745",
-   "date": "17/08"
+   "title": "Recursive Copula Aggregation for Market and Credit Portfolios",
+   "url": "https://arxiv.org/abs/2610.08798",
+   "date": "08/10"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "An ergodic theorem for multi-period mutual insurance",
-   "url": "https://arxiv.org/abs/2608.14256",
-   "date": "17/08"
+   "title": "Explicit Finite-Sum Tail Risk Measures for Hierarchical Market--Credit Copula Aggregation",
+   "url": "https://arxiv.org/abs/2610.08799",
+   "date": "08/10"
   },
   {
    "p": 4,
    "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Photonic Quantum Computing vs. Classical Solvers in Constrained Factor Portfolio Optimization",
-   "url": "https://arxiv.org/abs/2608.14134",
-   "date": "17/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Duality and Policy Evaluation in Distributionally Robust Bayesian Diffusion Control",
-   "url": "https://arxiv.org/abs/2506.19294",
-   "date": "17/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Bayesian Distributionally Robust Merton Problem with Nonlinear Wasserstein Projections",
-   "url": "https://arxiv.org/abs/2512.01408",
-   "date": "17/08"
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Bells and Whistles of Nowcasting Models: Which Matter and When?",
+   "url": "https://www.federalreserve.gov/econres/feds/bells-and-whistles-of-nowcasting-models-which-matter-and-when.htm",
+   "date": "02/10"
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Inflation Uncertainty and Endogenous Planning Horizons",
-   "url": "https://www.federalreserve.gov/econres/feds/inflation-uncertainty-and-endogenous-planning-horizons.htm",
-   "date": "06/08"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Measuring Macroeconomic Stars: A Framework with Scarring Effects",
-   "url": "https://www.federalreserve.gov/econres/feds/measuring-macroeconomic-atars-a-framework-with-scarring-effects.htm",
-   "date": "31/07"
+   "title": "FEDS Paper: Optimal Pooling in Taylor Rule Estimation with Multiple-Horizon Forecast Panels",
+   "url": "https://www.federalreserve.gov/econres/feds/optimal-pooling-in-taylor-rule-estimation-with-multiple-horizon-forecast-panels.htm",
+   "date": "18/09"
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
-   "title": "FEDS Paper: How Firms Form Beliefs and the Implications for Inflation",
-   "url": "https://www.federalreserve.gov/econres/feds/how-firms-form-beliefs-and-the-implications-for-inflation.htm",
-   "date": "31/07"
+   "title": "FEDS Paper: Risks and Uncertainty in Monetary Policy",
+   "url": "https://www.federalreserve.gov/econres/feds/risks-and-uncertainty-in-monetary-policy.htm",
+   "date": "01/09"
   },
   {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: CRE Development Potential and the Selection of Opportunity Zones",
-   "url": "https://www.federalreserve.gov/econres/feds/cre-development-potential-and-the-selection-of-opportunity-zones.htm",
-   "date": "11/08"
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Communicating Performance: Textual and Financial Disclosures in Private Equity -- by Josh Lerner, Fiona Paine, Antoinette Schoar",
+   "url": "https://www.nber.org/papers/w35860#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "The Investment Channel of Monetary Policy: Disentangling Firm Heterogeneity -- by Thomas Drechsel, Daniel Lewis, Davide Melcangi, Laura Pilossoph",
+   "url": "https://www.nber.org/papers/w35867#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "In Utero Exposure to the 1982 Tylenol Recall and Neurodevelopmental Outcomes -- by Christopher M. Worsham, Charles Bray, Joshua Rothman, Brian Kwan, Anupam Jena",
+   "url": "https://www.nber.org/papers/w35873#fromrss",
+   "date": ""
   },
   {
    "p": 3,
    "tag": "Banks/Fintech",
    "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Credit Surfaces and Economic Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/credit-surfaces-and-economic-uncertainty.htm",
-   "date": "31/07"
+   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
+   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
+   "date": "25/09"
   },
   {
    "p": 3,
    "tag": "Banks/Fintech",
    "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Last Taxi: LCR Buffers and Bank Liquidity Provision",
-   "url": "https://www.federalreserve.gov/econres/feds/the-last-taxi-lcr-buffers-and-bank-liquidity-provision.htm",
-   "date": "17/07"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Demand Shocks and Endogenous Uncertainty",
-   "url": "https://www.federalreserve.gov/econres/feds/demand-shocks-and-endogenous-uncertainty.htm",
-   "date": "17/07"
+   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
+   "date": "21/09"
   }
  ]
 }
