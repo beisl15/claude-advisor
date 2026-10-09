@@ -1,117 +1,93 @@
 {
- "asof": "08/10/2026",
+ "asof": "09/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Agentic AI Systems and Financial Stability, From Model Risk to Systemic Risk",
-   "url": "https://arxiv.org/abs/2610.08806",
-   "date": "08/10"
+   "title": "Deep Learning vs. Statistical Models for Multi-Horizon Price Forecasting of Second-Hand Electronics: A Systematic Benchmark",
+   "url": "https://arxiv.org/abs/2610.10727",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "SOTA: Stock Options Trading Agents Guided by Option-Implied Return Distributions",
-   "url": "https://arxiv.org/abs/2610.10407",
-   "date": "08/10"
+   "title": "Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity",
+   "url": "https://arxiv.org/abs/2610.11093",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
-   "url": "https://arxiv.org/abs/2610.10506",
-   "date": "08/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "OOM-RL: Out-of-Money Reinforcement Learning Market-Driven Alignment for LLM-Based Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2604.11477",
-   "date": "08/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Execution Realism and Reproducibility in LLM-Based Trading Systems: A Systematic Scoping Review and Evidence Audit",
-   "url": "https://arxiv.org/abs/2606.08285",
-   "date": "08/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Loop-Back Authority in LLM Agent Teams: A Paired Experiment on Flat and Hierarchical Coordination",
-   "url": "https://arxiv.org/abs/2609.14767",
-   "date": "08/10"
+   "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
+   "url": "https://arxiv.org/abs/2608.22697",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Can AI Agents Make Open-Ended Scientific Discovery? Evidence from Station",
-   "url": "https://arxiv.org/abs/2610.08927",
-   "date": "08/10"
+   "title": "TokenBank: Financial Infrastructure for AI Services",
+   "url": "https://arxiv.org/abs/2610.11333",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Epistemic Uncertainty-Aware Defect Detection for Quality Control in Medical Device Manufacturing",
-   "url": "https://arxiv.org/abs/2610.09057",
-   "date": "08/10"
+   "title": "UniData: Universal Multimodal Instruction Generation Pipeline",
+   "url": "https://arxiv.org/abs/2610.11363",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The AI Evaluation Ecosystem",
-   "url": "https://arxiv.org/abs/2610.09296",
-   "date": "08/10"
+   "title": "MemTrial: Learning When to Trust Memory in LLM Portfolio Agents",
+   "url": "https://arxiv.org/abs/2610.11732",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "DUDA-Bench: Benchmarking LLM Agents on Multimodal Data-Driven Urban Diagnosis",
-   "url": "https://arxiv.org/abs/2610.09374",
-   "date": "08/10"
+   "title": "InterviewPlayground: A Simulation Environment for Evaluating AI Interviewers",
+   "url": "https://arxiv.org/abs/2610.12023",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
-   "url": "https://arxiv.org/abs/2610.09872",
-   "date": "08/10"
+   "title": "Looking Inside LLMs: Small-World Connectivity as a Signature of Reasoning Performance",
+   "url": "https://arxiv.org/abs/2610.12304",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The Handover Problem: Governing Autonomy Transitions in Human-AI Collaboration",
-   "url": "https://arxiv.org/abs/2610.10352",
-   "date": "08/10"
+   "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
+   "url": "https://arxiv.org/abs/2610.12375",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Just for FUNS: LLM-Guided Spatio-Temporal Graph Node Generation for Forecasting Unobserved Node States",
-   "url": "https://arxiv.org/abs/2610.08818",
-   "date": "08/10"
+   "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
+   "url": "https://arxiv.org/abs/2610.12436",
+   "date": "09/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "RACER: Reflective Agent Coupling Query Interpretation and Tool-Based Retrieval for Frame Selection in Long Video Understanding",
-   "url": "https://arxiv.org/abs/2610.08954",
-   "date": "08/10"
+   "title": "Strategic Governance of AI Models in Earth Science",
+   "url": "https://arxiv.org/abs/2610.10560",
+   "date": "09/10"
   },
   {
    "p": 5,
@@ -165,17 +141,41 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Recursive Copula Aggregation for Market and Credit Portfolios",
-   "url": "https://arxiv.org/abs/2610.08798",
-   "date": "08/10"
+   "title": "Weighted selection from elliptical distributions: a stochastic representation and an application to portfolio separation",
+   "url": "https://arxiv.org/abs/2610.11822",
+   "date": "09/10"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Explicit Finite-Sum Tail Risk Measures for Hierarchical Market--Credit Copula Aggregation",
-   "url": "https://arxiv.org/abs/2610.08799",
-   "date": "08/10"
+   "title": "Multi-period Mean-Expectile Portfolio Optimization under Wasserstein Ambiguity: Reformulation, Degeneracy and the Role of the Ground Metric",
+   "url": "https://arxiv.org/abs/2610.11917",
+   "date": "09/10"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "Microfinance Competition in the Presence of Moneylenders: Theory and Evidence",
+   "url": "https://arxiv.org/abs/2610.12186",
+   "date": "09/10"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "Real interest rates, exchange rates and growth in three emerging economies: an exploratory analysis of Brazil, India and Nigeria",
+   "url": "https://arxiv.org/abs/2410.23002",
+   "date": "09/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading on Solana DEXs: Evidence, Theory, and Design Lessons from a 15-Day Deployment",
+   "url": "https://arxiv.org/abs/2606.08232",
+   "date": "09/10"
   },
   {
    "p": 4,
