@@ -1,37 +1,13 @@
 {
- "asof": "09/10/2026",
+ "asof": "10/10/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Deep Learning vs. Statistical Models for Multi-Horizon Price Forecasting of Second-Hand Electronics: A Systematic Benchmark",
-   "url": "https://arxiv.org/abs/2610.10727",
-   "date": "09/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity",
-   "url": "https://arxiv.org/abs/2610.11093",
-   "date": "09/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
-   "url": "https://arxiv.org/abs/2608.22697",
-   "date": "09/10"
-  },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
    "title": "TokenBank: Financial Infrastructure for AI Services",
    "url": "https://arxiv.org/abs/2610.11333",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -39,7 +15,7 @@
    "src": "arXiv cs.AI",
    "title": "UniData: Universal Multimodal Instruction Generation Pipeline",
    "url": "https://arxiv.org/abs/2610.11363",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -47,7 +23,7 @@
    "src": "arXiv cs.AI",
    "title": "MemTrial: Learning When to Trust Memory in LLM Portfolio Agents",
    "url": "https://arxiv.org/abs/2610.11732",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -55,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "InterviewPlayground: A Simulation Environment for Evaluating AI Interviewers",
    "url": "https://arxiv.org/abs/2610.12023",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -63,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "Looking Inside LLMs: Small-World Connectivity as a Signature of Reasoning Performance",
    "url": "https://arxiv.org/abs/2610.12304",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -71,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "OnTrack: Real-Time Monitoring and Intervention in LLM Agent Trajectories via Streaming Structure-Aware Optimal Transport",
    "url": "https://arxiv.org/abs/2610.12375",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -79,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
    "url": "https://arxiv.org/abs/2610.12436",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -87,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "Strategic Governance of AI Models in Earth Science",
    "url": "https://arxiv.org/abs/2610.10560",
-   "date": "09/10"
+   "date": "10/10"
   },
   {
    "p": 5,
@@ -136,46 +112,6 @@
    "title": "Financing the AI Buildout -- by Stijn Van Nieuwerburgh",
    "url": "https://www.nber.org/papers/w35865#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Weighted selection from elliptical distributions: a stochastic representation and an application to portfolio separation",
-   "url": "https://arxiv.org/abs/2610.11822",
-   "date": "09/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Multi-period Mean-Expectile Portfolio Optimization under Wasserstein Ambiguity: Reformulation, Degeneracy and the Role of the Ground Metric",
-   "url": "https://arxiv.org/abs/2610.11917",
-   "date": "09/10"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Microfinance Competition in the Presence of Moneylenders: Theory and Evidence",
-   "url": "https://arxiv.org/abs/2610.12186",
-   "date": "09/10"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Real interest rates, exchange rates and growth in three emerging economies: an exploratory analysis of Brazil, India and Nigeria",
-   "url": "https://arxiv.org/abs/2410.23002",
-   "date": "09/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Hour-Aware Adaptive Risk Management for Autonomous Memecoin Trading on Solana DEXs: Evidence, Theory, and Design Lessons from a 15-Day Deployment",
-   "url": "https://arxiv.org/abs/2606.08232",
-   "date": "09/10"
   },
   {
    "p": 4,
@@ -240,6 +176,62 @@
    "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
    "date": "21/09"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "A Framework for Integrating Climate Goals into Trade Agreements -- by Farid Farrokhi, Ahmad Lashkaripour, Homa Taheri",
+   "url": "https://www.nber.org/papers/w35834#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Consumption, Savings, and Earnings Responses to Financial Windfalls -- by Rajashri Chakrabarti, Philippe d'Astous, Kory Kroft, Sheisha Kulkarni, Vyacheslav Mikhed, Matthew J. Notowidigdo, Sahil Raina, Barry Scholnick",
+   "url": "https://www.nber.org/papers/w35836#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Soft Reserves, Learning and Bid Adjustment in Advertising Auctions -- by Joshua S. Gans",
+   "url": "https://www.nber.org/papers/w35841#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Physicians' Occupational Licensing and the Quantity-Quality Trade-off -- by Juan Pablo Atal, Tomás Larroucau, Pablo Muñoz, Cristóbal Otero",
+   "url": "https://www.nber.org/papers/w35855#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Which Workers Left the Labor Force Post-COVID Recession and Why?: Filing, Tax Credit Take-Up, and Labor Force Engagement by Occupation -- by Andrew C. Barr, Laura Kawano, Bruce Sacerdote, Michael Stevens",
+   "url": "https://www.nber.org/papers/w35856#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Labor Supply and Wages over the Life Cycle: Human Capital and Disability Benefits -- by Richard Blundell, Monica Costa-Dias, Graham Mazeine, Costas Meghir, Tom Waters",
+   "url": "https://www.nber.org/papers/w35861#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
   }
  ]
 }
