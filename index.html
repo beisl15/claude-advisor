@@ -2631,7 +2631,7 @@ function renderCoPanel(p) {
     // consenso e o quadro de cenarios -- e a ficha faltando vira tarefa
     // declarada, nao um vazio silencioso.
     const nota = ETF_NOTES[p.t];
-    panel.innerHTML = `
+    const semFichaHtml = `
       ${renderOverviewStrip(p.t)}
       <div class="vl-warn" style="margin-top:14px;">
         <b>Sem ficha escrita.</b> ${escA(p.n)} esta na cobertura mas nunca teve as cinco secoes do
@@ -2639,6 +2639,30 @@ function renderCoPanel(p) {
       </div>
       ${nota ? `<div class="etf-wrap"><div class="etf-class-lbl">Nota de cobertura</div><p class="etf-text">${nota}</p></div>` : ''}
       ${buildValuation(p.t)}`;
+
+    // Teach-in e Litho Wars sao material educativo, nao a ficha autoral do
+    // Pedro -- nao faz sentido esconde-los atras de uma tese que ainda nao foi
+    // escrita. Sem isso, RHM (e qualquer nome futuro sem ficha) ficava com o
+    // modulo pronto no codigo mas inacessivel na tela: o botao da aba nunca
+    // chegava a renderizar porque esse branch retornava antes do bloco de
+    // co-tabs mais abaixo.
+    if (!TEACHIN[p.t] && !LITHOWARS[p.t]) {
+      panel.innerHTML = semFichaHtml;
+      requestAnimationFrame(() => {
+        if (document.getElementById('vl-out-' + p.t)) calcReverso(p.t);
+      });
+      return;
+    }
+
+    panel.innerHTML = `
+      <div class="co-tabs">
+        <button class="co-tab active" onclick="switchCoTab(this,'tese')">Overview</button>
+        ${TEACHIN[p.t] ? `<button class="co-tab" onclick="switchCoTab(this,'teachin')">Teach-in</button>` : ''}
+        ${LITHOWARS[p.t] ? `<button class="co-tab" onclick="switchCoTab(this,'lithowars')">Litho Wars</button>` : ''}
+      </div>
+      <div class="co-tabpanel show" data-cotab="tese">${semFichaHtml}</div>
+      ${TEACHIN[p.t] ? `<div class="co-tabpanel" data-cotab="teachin">${(TEACHIN_FN[p.t]||buildTeachinASML)()}</div>` : ''}
+      ${LITHOWARS[p.t] ? `<div class="co-tabpanel" data-cotab="lithowars">${buildLithoWars()}</div>` : ''}`;
     requestAnimationFrame(() => {
       if (document.getElementById('vl-out-' + p.t)) calcReverso(p.t);
     });
