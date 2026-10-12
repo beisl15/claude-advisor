@@ -1,6 +1,102 @@
 {
- "asof": "11/10/2026",
+ "asof": "12/10/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "A Distributional Framework for Behavioral Characterization and Risk Management of Large Language Models",
+   "url": "https://arxiv.org/abs/2610.12718",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
+   "url": "https://arxiv.org/abs/2610.12917",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Is TabPFN the Silver Bullet for Insurance Pricing?",
+   "url": "https://arxiv.org/abs/2605.22892",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Complementarity, Augmentation, or Substitutivity? The Impact of Generative Artificial Intelligence on the U.S. Federal Workforce",
+   "url": "https://arxiv.org/abs/2503.09637",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
+   "url": "https://arxiv.org/abs/2610.12872",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Collaborative Learning and Reasoning over Model Slices",
+   "url": "https://arxiv.org/abs/2610.12927",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
+   "url": "https://arxiv.org/abs/2610.13144",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Machine Learning and Time-Series Foundation Models for Day-Ahead Electricity Forecasting in a University Building",
+   "url": "https://arxiv.org/abs/2610.12638",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests",
+   "url": "https://arxiv.org/abs/2610.12849",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Evidence Anchoring Boundary: Where Visual Interventions Matter and When They Help in Multimodal LLMs",
+   "url": "https://arxiv.org/abs/2610.12981",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Agent4Spec: An LLM-based Agentic System to Optimize API Specifications through Automated Validation and Market Analysis",
+   "url": "https://arxiv.org/abs/2610.13273",
+   "date": "12/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "From the Fluency Fallacy to the Micro-to-Macro Validity Gap: Opportunities and Pitfalls of LLMs in Social Simulation",
+   "url": "https://arxiv.org/abs/2507.19364",
+   "date": "12/10"
+  },
   {
    "p": 5,
    "tag": "Semis",
@@ -26,28 +122,28 @@
    "date": "02/09"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Large Language Models as Voting Mechanisms -- by Raša Karapandža, Yaw Nyarko",
-   "url": "https://www.nber.org/papers/w35839#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "MLP-Initialized Reinforcement Learning for Exit Timing in SPX Short-Straddle Portfolios",
+   "url": "https://arxiv.org/abs/2610.13126",
+   "date": "12/10"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "How Heavily Are PhD Students Offloading Their Scientific Writing to AI? Evidence from US STEM PhD Dissertations -- by Daniel P. Gross, Dror Shvadron, Hansen Zhang",
-   "url": "https://www.nber.org/papers/w35859#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Entropy Regularization under No-Shorting: Structure Preservation and Convexity in Dynamic Mean-Variance Portfolio Selection",
+   "url": "https://arxiv.org/abs/2610.13162",
+   "date": "12/10"
   },
   {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Financing the AI Buildout -- by Stijn Van Nieuwerburgh",
-   "url": "https://www.nber.org/papers/w35865#fromrss",
-   "date": ""
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Systemic risk in interbank networks: disentangling balance sheets and network effects",
+   "url": "https://arxiv.org/abs/2109.14360",
+   "date": "12/10"
   },
   {
    "p": 4,
@@ -74,28 +170,12 @@
    "date": "01/09"
   },
   {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Communicating Performance: Textual and Financial Disclosures in Private Equity -- by Josh Lerner, Fiona Paine, Antoinette Schoar",
-   "url": "https://www.nber.org/papers/w35860#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "The Investment Channel of Monetary Policy: Disentangling Firm Heterogeneity -- by Thomas Drechsel, Daniel Lewis, Davide Melcangi, Laura Pilossoph",
-   "url": "https://www.nber.org/papers/w35867#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "In Utero Exposure to the 1982 Tylenol Recall and Neurodevelopmental Outcomes -- by Christopher M. Worsham, Charles Bray, Joshua Rothman, Brian Kwan, Anupam Jena",
-   "url": "https://www.nber.org/papers/w35873#fromrss",
-   "date": ""
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "arXiv q-fin",
+   "title": "The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information",
+   "url": "https://arxiv.org/abs/2610.12875",
+   "date": "12/10"
   },
   {
    "p": 3,
@@ -112,54 +192,6 @@
    "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
    "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
    "date": "21/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "A Framework for Integrating Climate Goals into Trade Agreements -- by Farid Farrokhi, Ahmad Lashkaripour, Homa Taheri",
-   "url": "https://www.nber.org/papers/w35834#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Consumption, Savings, and Earnings Responses to Financial Windfalls -- by Rajashri Chakrabarti, Philippe d'Astous, Kory Kroft, Sheisha Kulkarni, Vyacheslav Mikhed, Matthew J. Notowidigdo, Sahil Raina, Barry Scholnick",
-   "url": "https://www.nber.org/papers/w35836#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Soft Reserves, Learning and Bid Adjustment in Advertising Auctions -- by Joshua S. Gans",
-   "url": "https://www.nber.org/papers/w35841#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Physicians' Occupational Licensing and the Quantity-Quality Trade-off -- by Juan Pablo Atal, Tomás Larroucau, Pablo Muñoz, Cristóbal Otero",
-   "url": "https://www.nber.org/papers/w35855#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Which Workers Left the Labor Force Post-COVID Recession and Why?: Filing, Tax Credit Take-Up, and Labor Force Engagement by Occupation -- by Andrew C. Barr, Laura Kawano, Bruce Sacerdote, Michael Stevens",
-   "url": "https://www.nber.org/papers/w35856#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Labor Supply and Wages over the Life Cycle: Human Capital and Disability Benefits -- by Richard Blundell, Monica Costa-Dias, Graham Mazeine, Costas Meghir, Tom Waters",
-   "url": "https://www.nber.org/papers/w35861#fromrss",
-   "date": ""
   },
   {
    "p": 2,
