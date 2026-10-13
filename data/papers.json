@@ -1,102 +1,6 @@
 {
- "asof": "12/10/2026",
+ "asof": "13/10/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "A Distributional Framework for Behavioral Characterization and Risk Management of Large Language Models",
-   "url": "https://arxiv.org/abs/2610.12718",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI-Mediation in Retail Markets: Revenue Effects and Assortment Optimization",
-   "url": "https://arxiv.org/abs/2610.12917",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Is TabPFN the Silver Bullet for Insurance Pricing?",
-   "url": "https://arxiv.org/abs/2605.22892",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Complementarity, Augmentation, or Substitutivity? The Impact of Generative Artificial Intelligence on the U.S. Federal Workforce",
-   "url": "https://arxiv.org/abs/2503.09637",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Collaborative Theory of Mind: Learning to Self-Revise by Anticipating User Responses",
-   "url": "https://arxiv.org/abs/2610.12872",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Collaborative Learning and Reasoning over Model Slices",
-   "url": "https://arxiv.org/abs/2610.12927",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Competence-Aware Orchestration for LLM-Based Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2610.13144",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Machine Learning and Time-Series Foundation Models for Day-Ahead Electricity Forecasting in a University Building",
-   "url": "https://arxiv.org/abs/2610.12638",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Co-Modifying Application Code and Deployment Infrastructure: A Causal Study of AI Agent Pull Requests",
-   "url": "https://arxiv.org/abs/2610.12849",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "The Evidence Anchoring Boundary: Where Visual Interventions Matter and When They Help in Multimodal LLMs",
-   "url": "https://arxiv.org/abs/2610.12981",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Agent4Spec: An LLM-based Agentic System to Optimize API Specifications through Automated Validation and Market Analysis",
-   "url": "https://arxiv.org/abs/2610.13273",
-   "date": "12/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "From the Fluency Fallacy to the Micro-to-Macro Validity Gap: Opportunities and Pitfalls of LLMs in Social Simulation",
-   "url": "https://arxiv.org/abs/2507.19364",
-   "date": "12/10"
-  },
   {
    "p": 5,
    "tag": "Semis",
@@ -122,28 +26,36 @@
    "date": "02/09"
   },
   {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "MLP-Initialized Reinforcement Learning for Exit Timing in SPX Short-Straddle Portfolios",
-   "url": "https://arxiv.org/abs/2610.13126",
-   "date": "12/10"
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Indirect Variational Inference: Applications to Earnings Dynamics -- by Neele L. Balke, Stéphane Bonhomme, Thibaut Lamadon",
+   "url": "https://www.nber.org/papers/w35877#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "When Does Randomized Oversight Align AI Agents That Can Conceal? -- by Joshua S. Gans, Richard T. Holden",
+   "url": "https://www.nber.org/papers/w35878#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "NBER",
+   "title": "How Knowledge Crosses Borders: Evidence from Semiconductor Manufacturing -- by Pinelopi K. Goldberg, Réka Juhász, Giulia Lo Forte, Jeff Thurk",
+   "url": "https://www.nber.org/papers/w35879#fromrss",
+   "date": ""
   },
   {
    "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Entropy Regularization under No-Shorting: Structure Preservation and Convexity in Dynamic Mean-Variance Portfolio Selection",
-   "url": "https://arxiv.org/abs/2610.13162",
-   "date": "12/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Systemic risk in interbank networks: disentangling balance sheets and network effects",
-   "url": "https://arxiv.org/abs/2109.14360",
-   "date": "12/10"
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Inattentive Price Setting and Inflation Under Fiscal Policy Uncertainty",
+   "url": "https://www.federalreserve.gov/econres/feds/inattentive-price-setting-and-inflation-under-fiscal-policy-uncertainty.htm",
+   "date": "13/10"
   },
   {
    "p": 4,
@@ -170,12 +82,44 @@
    "date": "01/09"
   },
   {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "arXiv q-fin",
-   "title": "The Financing of Debt Relief: Intermediary Liquidity and the Value of Borrower Information",
-   "url": "https://arxiv.org/abs/2610.12875",
-   "date": "12/10"
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Learning About Outgroups: The Impact of Broad Versus Deep Interactions -- by Anujit Chakraborty, Arkadev Ghosh, Matt Lowe, Gareth Nellis",
+   "url": "https://www.nber.org/papers/w35884#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Explaining Realized Returns: Roll’s R2 40 Years Later -- by Bryan T. Kelly, Yinan Su, Chao Zhang",
+   "url": "https://www.nber.org/papers/w35885#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "NBER",
+   "title": "The Impact of Central Bank Stock Purchases: Evidence from Discontinuities in Policy Rules -- by Masao Fukui, Masayuki Yagasaki",
+   "url": "https://www.nber.org/papers/w35886#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Industrial Policy via the IPO Market -- by Zhiguo He, Yiming Qian, Xi Sun, Wang Renxuan",
+   "url": "https://www.nber.org/papers/w35889#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Estimating the Impact of Targeted Public Policies with Limited Data -- by Kelly M. Jones, Mayra Pineda-Torres",
+   "url": "https://www.nber.org/papers/w35894#fromrss",
+   "date": ""
   },
   {
    "p": 3,
@@ -194,12 +138,36 @@
    "date": "21/09"
   },
   {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Gains from Trade in Gun Policy: A Compensation-Based Benchmark -- by Bradley Shapiro, Sara Drango, Sarah Moshary",
+   "url": "https://www.nber.org/papers/w35890#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Inverted Gravity -- by James E. Anderson, Mario Larch, Yoto V. Yotov",
+   "url": "https://www.nber.org/papers/w35897#fromrss",
+   "date": ""
+  },
+  {
    "p": 2,
    "tag": "Macro",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
    "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
    "date": "03/09"
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Access to Capital and the IPO Decision: An Analysis of US Private Firms -- by Andres Almazan, Nathan Swem, Sheridan Titman, Gregory Weitzner",
+   "url": "https://www.nber.org/papers/w35888#fromrss",
+   "date": ""
   }
  ]
 }
