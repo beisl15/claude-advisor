@@ -1,6 +1,134 @@
 {
- "asof": "13/10/2026",
+ "asof": "14/10/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Is the business of frontier AI companies selling tokens? Value capture and equity prices",
+   "url": "https://arxiv.org/abs/2610.14145",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Safety Research and the Allocation of Frontier Compute",
+   "url": "https://arxiv.org/abs/2610.14305",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Displacement Is Endogenous: AI Workers in a Search-and-Matching Labor Market",
+   "url": "https://arxiv.org/abs/2610.14850",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Too Late to Prune: Generative AI, the Screen, and Team Creative Decisions",
+   "url": "https://arxiv.org/abs/2610.14984",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Requested, Executed and Recoverable Credit: Shared Action Ordering among LLM Borrowers in a Simulated Lending Market",
+   "url": "https://arxiv.org/abs/2610.15973",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "4Cast Lab: Open-Source App for Machine Learning & Statistical Analysis",
+   "url": "https://arxiv.org/abs/2610.16800",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting",
+   "url": "https://arxiv.org/abs/2610.18435",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI Advice Reinforces Traditional Gender Roles",
+   "url": "https://arxiv.org/abs/2610.14036",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
+   "url": "https://arxiv.org/abs/2610.14149",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
+   "url": "https://arxiv.org/abs/2610.14381",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Exposing AI Inference as a Telco Network API over the 5G User Plane",
+   "url": "https://arxiv.org/abs/2610.15062",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "GUIDE: Computationally Augmented Consensus for Trustworthy Clinical Practice Guidelines",
+   "url": "https://arxiv.org/abs/2610.16108",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Beyond Perfect Teammates: Multi-Agent Collaboration with Unreliable Colleagues",
+   "url": "https://arxiv.org/abs/2610.16117",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "ChronoScribe: Semantic-Numerical Specialization for Instruction-Driven Time Series Forecasting",
+   "url": "https://arxiv.org/abs/2610.16345",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When LLM Agents See a Conflict but Still Proceed: Cross-Domain Dependencies in Network Slicing",
+   "url": "https://arxiv.org/abs/2610.17118",
+   "date": "14/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
+   "url": "https://arxiv.org/abs/2610.17816",
+   "date": "14/10"
+  },
   {
    "p": 5,
    "tag": "Semis",
@@ -111,62 +239,6 @@
    "src": "NBER",
    "title": "Industrial Policy via the IPO Market -- by Zhiguo He, Yiming Qian, Xi Sun, Wang Renxuan",
    "url": "https://www.nber.org/papers/w35889#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Estimating the Impact of Targeted Public Policies with Limited Data -- by Kelly M. Jones, Mayra Pineda-Torres",
-   "url": "https://www.nber.org/papers/w35894#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
-   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
-   "date": "25/09"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
-   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
-   "date": "21/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Gains from Trade in Gun Policy: A Compensation-Based Benchmark -- by Bradley Shapiro, Sara Drango, Sarah Moshary",
-   "url": "https://www.nber.org/papers/w35890#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Inverted Gravity -- by James E. Anderson, Mario Larch, Yoto V. Yotov",
-   "url": "https://www.nber.org/papers/w35897#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
-   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
-   "date": "03/09"
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "NBER",
-   "title": "Access to Capital and the IPO Decision: An Analysis of US Private Firms -- by Andres Almazan, Nathan Swem, Sheridan Titman, Gregory Weitzner",
-   "url": "https://www.nber.org/papers/w35888#fromrss",
    "date": ""
   }
  ]
