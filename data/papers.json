@@ -1,69 +1,69 @@
 {
- "asof": "14/10/2026",
+ "asof": "15/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Is the business of frontier AI companies selling tokens? Value capture and equity prices",
-   "url": "https://arxiv.org/abs/2610.14145",
-   "date": "14/10"
+   "title": "Creative destruction: Human-AI competition in an experimental market",
+   "url": "https://arxiv.org/abs/2610.18921",
+   "date": "15/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Safety Research and the Allocation of Frontier Compute",
-   "url": "https://arxiv.org/abs/2610.14305",
-   "date": "14/10"
+   "title": "RICE-Alpha: Reliability-Informed Correction with Event Graphs for LLM-Agent Stock Forecasting",
+   "url": "https://arxiv.org/abs/2609.34004",
+   "date": "15/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Displacement Is Endogenous: AI Workers in a Search-and-Matching Labor Market",
-   "url": "https://arxiv.org/abs/2610.14850",
-   "date": "14/10"
+   "title": "Whom Do AI Agents Work For? Role Assignment Induces Sponsorship Bias in LLM Recommenders",
+   "url": "https://arxiv.org/abs/2609.17989",
+   "date": "15/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Too Late to Prune: Generative AI, the Screen, and Team Creative Decisions",
-   "url": "https://arxiv.org/abs/2610.14984",
-   "date": "14/10"
+   "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+   "url": "https://arxiv.org/abs/2609.28372",
+   "date": "15/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Requested, Executed and Recoverable Credit: Shared Action Ordering among LLM Borrowers in a Simulated Lending Market",
-   "url": "https://arxiv.org/abs/2610.15973",
-   "date": "14/10"
+   "title": "Ideological Bias in LLMs' Economic Causal Reasoning",
+   "url": "https://arxiv.org/abs/2604.21334",
+   "date": "15/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "4Cast Lab: Open-Source App for Machine Learning & Statistical Analysis",
-   "url": "https://arxiv.org/abs/2610.16800",
-   "date": "14/10"
+   "title": "Generative AI Availability, Grades, and Student Satisfaction at a Large University",
+   "url": "https://arxiv.org/abs/2607.21534",
+   "date": "15/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "How Well Do LLMs Perform in Peer Review? Evidence from Finance and Accounting",
-   "url": "https://arxiv.org/abs/2610.18435",
-   "date": "14/10"
+   "title": "Does Rank Still Matter? Position Bias When AI Agents Shop on Our Behalf",
+   "url": "https://arxiv.org/abs/2608.22697",
+   "date": "15/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI Advice Reinforces Traditional Gender Roles",
-   "url": "https://arxiv.org/abs/2610.14036",
-   "date": "14/10"
+   "title": "Deep kernel hedging",
+   "url": "https://arxiv.org/abs/2609.34474",
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -71,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "VETNET: Assembling Benchmark Datasets for AI-Driven Veterinary Innovation",
    "url": "https://arxiv.org/abs/2610.14149",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -79,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "ACED-Bench: Evaluating How LLM Agents Acquire and Act on Causal Evidence",
    "url": "https://arxiv.org/abs/2610.14381",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -87,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "Exposing AI Inference as a Telco Network API over the 5G User Plane",
    "url": "https://arxiv.org/abs/2610.15062",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -95,7 +95,7 @@
    "src": "arXiv cs.AI",
    "title": "GUIDE: Computationally Augmented Consensus for Trustworthy Clinical Practice Guidelines",
    "url": "https://arxiv.org/abs/2610.16108",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -103,7 +103,7 @@
    "src": "arXiv cs.AI",
    "title": "Beyond Perfect Teammates: Multi-Agent Collaboration with Unreliable Colleagues",
    "url": "https://arxiv.org/abs/2610.16117",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -111,7 +111,7 @@
    "src": "arXiv cs.AI",
    "title": "ChronoScribe: Semantic-Numerical Specialization for Instruction-Driven Time Series Forecasting",
    "url": "https://arxiv.org/abs/2610.16345",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -119,7 +119,7 @@
    "src": "arXiv cs.AI",
    "title": "When LLM Agents See a Conflict but Still Proceed: Cross-Domain Dependencies in Network Slicing",
    "url": "https://arxiv.org/abs/2610.17118",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -127,7 +127,7 @@
    "src": "arXiv cs.AI",
    "title": "Empowering Edge Agents: A Systematic Analysis of Edge-Cloud Collaboration in LLM Agent Execution",
    "url": "https://arxiv.org/abs/2610.17816",
-   "date": "14/10"
+   "date": "15/10"
   },
   {
    "p": 5,
@@ -152,30 +152,6 @@
    "title": "FEDS Paper: Linear and Nonlinear Econometric Models versus Machine-Learning Models: Evidence from Realized-Volatility Forecasting(Revised)",
    "url": "https://www.federalreserve.gov/econres/feds/linear-and-nonlinear-econometric-models-against-machine-learning-models.htm",
    "date": "02/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "Indirect Variational Inference: Applications to Earnings Dynamics -- by Neele L. Balke, Stéphane Bonhomme, Thibaut Lamadon",
-   "url": "https://www.nber.org/papers/w35877#fromrss",
-   "date": ""
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "NBER",
-   "title": "When Does Randomized Oversight Align AI Agents That Can Conceal? -- by Joshua S. Gans, Richard T. Holden",
-   "url": "https://www.nber.org/papers/w35878#fromrss",
-   "date": ""
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "NBER",
-   "title": "How Knowledge Crosses Borders: Evidence from Semiconductor Manufacturing -- by Pinelopi K. Goldberg, Réka Juhász, Giulia Lo Forte, Jeff Thurk",
-   "url": "https://www.nber.org/papers/w35879#fromrss",
-   "date": ""
   },
   {
    "p": 4,
@@ -210,36 +186,36 @@
    "date": "01/09"
   },
   {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Learning About Outgroups: The Impact of Broad Versus Deep Interactions -- by Anujit Chakraborty, Arkadev Ghosh, Matt Lowe, Gareth Nellis",
-   "url": "https://www.nber.org/papers/w35884#fromrss",
-   "date": ""
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
+   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
+   "date": "25/09"
   },
   {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Explaining Realized Returns: Roll’s R2 40 Years Later -- by Bryan T. Kelly, Yinan Su, Chao Zhang",
-   "url": "https://www.nber.org/papers/w35885#fromrss",
-   "date": ""
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
+   "date": "21/09"
   },
   {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "The Impact of Central Bank Stock Purchases: Evidence from Discontinuities in Policy Rules -- by Masao Fukui, Masayuki Yagasaki",
-   "url": "https://www.nber.org/papers/w35886#fromrss",
-   "date": ""
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
+   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
+   "date": "14/10"
   },
   {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Industrial Policy via the IPO Market -- by Zhiguo He, Yiming Qian, Xi Sun, Wang Renxuan",
-   "url": "https://www.nber.org/papers/w35889#fromrss",
-   "date": ""
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
   }
  ]
 }
