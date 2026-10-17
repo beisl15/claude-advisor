@@ -1,37 +1,13 @@
 {
- "asof": "16/10/2026",
+ "asof": "17/10/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "RICE-Alpha: Reliability-Informed Correction with Event Graphs for LLM-Agent Stock Forecasting",
-   "url": "https://arxiv.org/abs/2609.34004",
-   "date": "16/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Momentum, Commentary Tone, and Earnings Surprise in LLM Financial Forecasts",
-   "url": "https://arxiv.org/abs/2610.22043",
-   "date": "16/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AlphaRLM: Aligning Language Models for Literature-Grounded Symbolic Factor Discovery",
-   "url": "https://arxiv.org/abs/2610.14959",
-   "date": "16/10"
-  },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
    "title": "Sci$\\Pi$vot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
    "url": "https://arxiv.org/abs/2610.21082",
-   "date": "16/10"
+   "date": "17/10"
   },
   {
    "p": 5,
@@ -39,7 +15,7 @@
    "src": "arXiv cs.AI",
    "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
    "url": "https://arxiv.org/abs/2610.21109",
-   "date": "16/10"
+   "date": "17/10"
   },
   {
    "p": 5,
@@ -47,7 +23,7 @@
    "src": "arXiv cs.AI",
    "title": "The Density of Thought: Predicting and Steering Reasoning in Large Language Models",
    "url": "https://arxiv.org/abs/2610.21286",
-   "date": "16/10"
+   "date": "17/10"
   },
   {
    "p": 5,
@@ -55,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "AI-Driven Disaster Response and Displacement Monitoring",
    "url": "https://arxiv.org/abs/2610.21482",
-   "date": "16/10"
+   "date": "17/10"
   },
   {
    "p": 5,
@@ -63,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
    "url": "https://arxiv.org/abs/2610.21755",
-   "date": "16/10"
+   "date": "17/10"
   },
   {
    "p": 5,
@@ -71,7 +47,15 @@
    "src": "arXiv cs.AI",
    "title": "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
    "url": "https://arxiv.org/abs/2610.21767",
-   "date": "16/10"
+   "date": "17/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "RICE-Alpha: Reliability-Informed Correction with Event Graphs for LLM-Agent Stock Forecasting",
+   "url": "https://arxiv.org/abs/2609.34004",
+   "date": "17/10"
   },
   {
    "p": 5,
@@ -79,15 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "Forecast lead time and the timing of crew deployment for weather-driven power outages using AI weather models",
    "url": "https://arxiv.org/abs/2610.20918",
-   "date": "16/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "PriorityFEC: Deadline-Aware Streaming FEC for KV-Cache Handoff in Edge Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2610.21390",
-   "date": "16/10"
+   "date": "17/10"
   },
   {
    "p": 5,
@@ -136,46 +112,6 @@
    "title": "How Knowledge Crosses Borders: Evidence from Semiconductor Manufacturing -- by Pinelopi K. Goldberg, Réka Juhász, Giulia Lo Forte, Jeff Thurk",
    "url": "https://www.nber.org/papers/w35879#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Pricing American Commodity Options Under the Schwartz Two-Factor Model Using the Alternating Direction Explicit (ADE) Method",
-   "url": "https://arxiv.org/abs/2610.21145",
-   "date": "16/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Fundamental Theorem of Discrete Asset Pricing",
-   "url": "https://arxiv.org/abs/2610.21442",
-   "date": "16/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Where Backtests and Live Trading Part Ways: Six Defects from One Intraday System",
-   "url": "https://arxiv.org/abs/2610.21846",
-   "date": "16/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Choice of Collateral Currency in Differential Swaps",
-   "url": "https://arxiv.org/abs/2603.07863",
-   "date": "16/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Principal component error in high-dimensional factor models",
-   "url": "https://arxiv.org/abs/2609.20550",
-   "date": "16/10"
   },
   {
    "p": 4,
@@ -239,6 +175,70 @@
    "src": "NBER",
    "title": "Industrial Policy via the IPO Market -- by Zhiguo He, Yiming Qian, Xi Sun, Wang Renxuan",
    "url": "https://www.nber.org/papers/w35889#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "Estimating the Impact of Targeted Public Policies with Limited Data -- by Kelly M. Jones, Mayra Pineda-Torres",
+   "url": "https://www.nber.org/papers/w35894#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
+   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
+   "date": "25/09"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
+   "date": "21/09"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Gains from Trade in Gun Policy: A Compensation-Based Benchmark -- by Bradley Shapiro, Sara Drango, Sarah Moshary",
+   "url": "https://www.nber.org/papers/w35890#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Inverted Gravity -- by James E. Anderson, Mario Larch, Yoto V. Yotov",
+   "url": "https://www.nber.org/papers/w35897#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
+   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
+   "date": "14/10"
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: The Flight to Affordability: Effects of Pandemic Rent Increases on Renters By Geography",
+   "url": "https://www.federalreserve.gov/econres/feds/the-flight-to-affordability-effects-of-pandemic-rent-increases-on-renters-by-geography.htm",
+   "date": "03/09"
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Access to Capital and the IPO Decision: An Analysis of US Private Firms -- by Andres Almazan, Nathan Swem, Sheridan Titman, Gregory Weitzner",
+   "url": "https://www.nber.org/papers/w35888#fromrss",
    "date": ""
   }
  ]
