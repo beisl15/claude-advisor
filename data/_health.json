@@ -10,20 +10,20 @@
   "n": null,
   "source": "asml",
   "status": "fail",
-  "ts": "2026-10-17T12:51:08+00:00"
+  "ts": "2026-10-18T13:08:41+00:00"
  },
  "estimates": {
   "bytes": 57170,
-  "dur_s": 46.0,
+  "dur_s": 48.0,
   "erro": "",
   "fontes": null,
   "label": "Consenso NTM",
-  "last_ok": "2026-10-17T12:52:22+00:00",
+  "last_ok": "2026-10-18T13:09:59+00:00",
   "max_age_h": 36,
   "n": 29,
   "source": "estimates",
   "status": "ok",
-  "ts": "2026-10-17T12:52:22+00:00"
+  "ts": "2026-10-18T13:09:59+00:00"
  },
  "insiders": {
   "bytes": 57329,
@@ -31,12 +31,12 @@
   "erro": "",
   "fontes": null,
   "label": "Insider (SEC Form 4)",
-  "last_ok": "2026-10-17T12:56:50+00:00",
+  "last_ok": "2026-10-18T13:14:35+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "insiders",
   "status": "ok",
-  "ts": "2026-10-17T12:56:50+00:00"
+  "ts": "2026-10-18T13:14:35+00:00"
  },
  "intl": {
   "bytes": 49029,
@@ -44,116 +44,116 @@
   "erro": "",
   "fontes": null,
   "label": "Fundamentos internacionais (Yahoo)",
-  "last_ok": "2026-10-17T12:51:06+00:00",
+  "last_ok": "2026-10-18T13:08:39+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "intl",
   "status": "ok",
-  "ts": "2026-10-17T12:51:06+00:00"
+  "ts": "2026-10-18T13:08:39+00:00"
  },
  "letters": {
   "bytes": 7305,
-  "dur_s": 41.0,
+  "dur_s": 43.0,
   "erro": "",
   "fontes": null,
   "label": "Cartas de gestoras",
-  "last_ok": "2026-10-17T12:56:04+00:00",
+  "last_ok": "2026-10-18T13:13:50+00:00",
   "max_age_h": 96,
   "n": null,
   "source": "letters",
   "status": "ok",
-  "ts": "2026-10-17T12:56:04+00:00"
+  "ts": "2026-10-18T13:13:50+00:00"
  },
  "news": {
-  "bytes": 25182,
-  "dur_s": 166.0,
+  "bytes": 25598,
+  "dur_s": 175.0,
   "erro": "",
   "fontes": {
    "ASIA": 15,
    "EU": 15,
    "US": 15,
-   "_erro": 4,
+   "_erro": 3,
    "_fontes": 59,
    "_vazias": 0
   },
   "label": "Noticias US/EU/ASIA",
-  "last_ok": "2026-10-17T12:55:11+00:00",
+  "last_ok": "2026-10-18T13:12:56+00:00",
   "max_age_h": 36,
   "n": 45,
   "source": "news",
   "status": "ok",
-  "ts": "2026-10-17T12:55:11+00:00"
+  "ts": "2026-10-18T13:12:56+00:00"
  },
  "papers": {
-  "bytes": 8119,
-  "dur_s": 12.0,
+  "bytes": 6032,
+  "dur_s": 11.0,
   "erro": "",
   "fontes": {
    "BIS": 0,
-   "Fed (FEDS)": 11,
+   "Fed (FEDS)": 10,
    "IMF": -1,
    "NBER": 11,
-   "arXiv cs.AI": 25,
+   "arXiv cs.AI": 0,
    "arXiv q-fin": 0
   },
   "label": "Papers de research",
-  "last_ok": "2026-10-17T12:55:23+00:00",
+  "last_ok": "2026-10-18T13:13:07+00:00",
   "max_age_h": 36,
-  "n": 30,
+  "n": 21,
   "source": "papers",
   "status": "ok",
-  "ts": "2026-10-17T12:55:23+00:00"
+  "ts": "2026-10-18T13:13:07+00:00"
  },
  "prices": {
-  "bytes": 706124,
+  "bytes": 706699,
   "dur_s": 2.0,
   "erro": "",
   "fontes": null,
   "label": "Cotacoes + historico (Yahoo)",
-  "last_ok": "2026-10-17T12:51:36+00:00",
+  "last_ok": "2026-10-18T13:09:11+00:00",
   "max_age_h": 36,
   "n": 29,
   "source": "prices",
   "status": "ok",
-  "ts": "2026-10-17T12:51:36+00:00"
+  "ts": "2026-10-18T13:09:11+00:00"
  },
  "sa": {
   "bytes": 54911,
-  "dur_s": 26.0,
+  "dur_s": 28.0,
   "erro": "",
   "fontes": null,
   "label": "Serie longa TSM/RACE/ABI/ROXO",
-  "last_ok": "2026-10-17T12:51:34+00:00",
+  "last_ok": "2026-10-18T13:09:09+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "sa",
   "status": "ok",
-  "ts": "2026-10-17T12:51:34+00:00"
+  "ts": "2026-10-18T13:09:09+00:00"
  },
  "transcripts": {
   "bytes": 3353,
-  "dur_s": 3.0,
+  "dur_s": 2.0,
   "erro": "",
   "fontes": null,
   "label": "Releases oficiais (SEC 8-K)",
-  "last_ok": "2026-10-17T12:52:25+00:00",
+  "last_ok": "2026-10-18T13:10:01+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "transcripts",
   "status": "ok",
-  "ts": "2026-10-17T12:52:25+00:00"
+  "ts": "2026-10-18T13:10:01+00:00"
  },
  "us": {
   "bytes": 44653,
-  "dur_s": 202.0,
+  "dur_s": 201.0,
   "erro": "",
   "fontes": null,
   "label": "Fundamentos US (SEC)",
-  "last_ok": "2026-10-17T12:51:04+00:00",
+  "last_ok": "2026-10-18T13:08:37+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "us",
   "status": "ok",
-  "ts": "2026-10-17T12:51:04+00:00"
+  "ts": "2026-10-18T13:08:37+00:00"
  }
 }

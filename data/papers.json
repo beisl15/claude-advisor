@@ -1,70 +1,6 @@
 {
- "asof": "17/10/2026",
+ "asof": "18/10/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Sci$\\Pi$vot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents",
-   "url": "https://arxiv.org/abs/2610.21082",
-   "date": "17/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Kolab: Benchmarking Human-Agent Collaboration in Long-Horizon Workflows",
-   "url": "https://arxiv.org/abs/2610.21109",
-   "date": "17/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "The Density of Thought: Predicting and Steering Reasoning in Large Language Models",
-   "url": "https://arxiv.org/abs/2610.21286",
-   "date": "17/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "AI-Driven Disaster Response and Displacement Monitoring",
-   "url": "https://arxiv.org/abs/2610.21482",
-   "date": "17/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "DeciCAD: Harness-Grounded Learning of Action Policies for CAD Agents",
-   "url": "https://arxiv.org/abs/2610.21755",
-   "date": "17/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "From Research Goals to Scientific Closure: Evaluating Agents Through Evidence-Supported Physics Research",
-   "url": "https://arxiv.org/abs/2610.21767",
-   "date": "17/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "RICE-Alpha: Reliability-Informed Correction with Event Graphs for LLM-Agent Stock Forecasting",
-   "url": "https://arxiv.org/abs/2609.34004",
-   "date": "17/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Forecast lead time and the timing of crew deployment for weather-driven power outages using AI weather models",
-   "url": "https://arxiv.org/abs/2610.20918",
-   "date": "17/10"
-  },
   {
    "p": 5,
    "tag": "Semis",
@@ -136,14 +72,6 @@
    "title": "FEDS Paper: Optimal Pooling in Taylor Rule Estimation with Multiple-Horizon Forecast Panels",
    "url": "https://www.federalreserve.gov/econres/feds/optimal-pooling-in-taylor-rule-estimation-with-multiple-horizon-forecast-panels.htm",
    "date": "18/09"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Risks and Uncertainty in Monetary Policy",
-   "url": "https://www.federalreserve.gov/econres/feds/risks-and-uncertainty-in-monetary-policy.htm",
-   "date": "01/09"
   },
   {
    "p": 4,
