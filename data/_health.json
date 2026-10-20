@@ -1,7 +1,7 @@
 {
  "asml": {
   "bytes": 49029,
-  "dur_s": 3.0,
+  "dur_s": 4.0,
   "erro": "!! ASML: nenhuma receita extraida — nada gravado",
   "fontes": null,
   "label": "Serie longa ASML (RI)",
@@ -10,125 +10,125 @@
   "n": null,
   "source": "asml",
   "status": "fail",
-  "ts": "2026-10-19T16:22:32+00:00"
+  "ts": "2026-10-20T14:14:35+00:00"
  },
  "estimates": {
-  "bytes": 57171,
-  "dur_s": 45.0,
+  "bytes": 57180,
+  "dur_s": 47.0,
   "erro": "",
   "fontes": null,
   "label": "Consenso NTM",
-  "last_ok": "2026-10-19T16:23:45+00:00",
+  "last_ok": "2026-10-20T14:15:53+00:00",
   "max_age_h": 36,
   "n": 29,
   "source": "estimates",
   "status": "ok",
-  "ts": "2026-10-19T16:23:45+00:00"
+  "ts": "2026-10-20T14:15:53+00:00"
  },
  "insiders": {
-  "bytes": 57329,
-  "dur_s": 48.0,
+  "bytes": 61293,
+  "dur_s": 60.0,
   "erro": "",
   "fontes": null,
   "label": "Insider (SEC Form 4)",
-  "last_ok": "2026-10-19T16:29:12+00:00",
+  "last_ok": "2026-10-20T14:21:36+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "insiders",
   "status": "ok",
-  "ts": "2026-10-19T16:29:12+00:00"
+  "ts": "2026-10-20T14:21:36+00:00"
  },
  "intl": {
   "bytes": 49029,
-  "dur_s": 2.0,
+  "dur_s": 3.0,
   "erro": "",
   "fontes": null,
   "label": "Fundamentos internacionais (Yahoo)",
-  "last_ok": "2026-10-19T16:22:29+00:00",
+  "last_ok": "2026-10-20T14:14:31+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "intl",
   "status": "ok",
-  "ts": "2026-10-19T16:22:29+00:00"
+  "ts": "2026-10-20T14:14:31+00:00"
  },
  "letters": {
-  "bytes": 7497,
-  "dur_s": 40.0,
+  "bytes": 7689,
+  "dur_s": 42.0,
   "erro": "",
   "fontes": null,
   "label": "Cartas de gestoras",
-  "last_ok": "2026-10-19T16:28:23+00:00",
+  "last_ok": "2026-10-20T14:20:36+00:00",
   "max_age_h": 96,
   "n": null,
   "source": "letters",
   "status": "ok",
-  "ts": "2026-10-19T16:28:23+00:00"
+  "ts": "2026-10-20T14:20:36+00:00"
  },
  "news": {
-  "bytes": 26636,
-  "dur_s": 227.0,
+  "bytes": 25948,
+  "dur_s": 228.0,
   "erro": "",
   "fontes": {
    "ASIA": 15,
    "EU": 15,
    "US": 15,
-   "_erro": 5,
+   "_erro": 6,
    "_fontes": 59,
    "_vazias": 0
   },
   "label": "Noticias US/EU/ASIA",
-  "last_ok": "2026-10-19T16:27:33+00:00",
+  "last_ok": "2026-10-20T14:19:42+00:00",
   "max_age_h": 36,
   "n": 45,
   "source": "news",
   "status": "ok",
-  "ts": "2026-10-19T16:27:33+00:00"
+  "ts": "2026-10-20T14:19:42+00:00"
  },
  "papers": {
-  "bytes": 7271,
-  "dur_s": 10.0,
+  "bytes": 7543,
+  "dur_s": 12.0,
   "erro": "",
   "fontes": {
    "BIS": 0,
    "Fed (FEDS)": 8,
    "IMF": -1,
    "NBER": 20,
-   "arXiv cs.AI": 0,
-   "arXiv q-fin": 16
+   "arXiv cs.AI": 43,
+   "arXiv q-fin": 22
   },
   "label": "Papers de research",
-  "last_ok": "2026-10-19T16:27:43+00:00",
+  "last_ok": "2026-10-20T14:19:54+00:00",
   "max_age_h": 36,
-  "n": 28,
+  "n": 30,
   "source": "papers",
   "status": "ok",
-  "ts": "2026-10-19T16:27:43+00:00"
+  "ts": "2026-10-20T14:19:54+00:00"
  },
  "prices": {
-  "bytes": 707295,
-  "dur_s": 3.0,
+  "bytes": 707882,
+  "dur_s": 4.0,
   "erro": "",
   "fontes": null,
   "label": "Cotacoes + historico (Yahoo)",
-  "last_ok": "2026-10-19T16:23:00+00:00",
+  "last_ok": "2026-10-20T14:15:06+00:00",
   "max_age_h": 36,
   "n": 29,
   "source": "prices",
   "status": "ok",
-  "ts": "2026-10-19T16:23:00+00:00"
+  "ts": "2026-10-20T14:15:06+00:00"
  },
  "sa": {
   "bytes": 54911,
-  "dur_s": 25.0,
+  "dur_s": 27.0,
   "erro": "",
   "fontes": null,
   "label": "Serie longa TSM/RACE/ABI/ROXO",
-  "last_ok": "2026-10-19T16:22:57+00:00",
+  "last_ok": "2026-10-20T14:15:02+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "sa",
   "status": "ok",
-  "ts": "2026-10-19T16:22:57+00:00"
+  "ts": "2026-10-20T14:15:02+00:00"
  },
  "transcripts": {
   "bytes": 3353,
@@ -136,24 +136,24 @@
   "erro": "",
   "fontes": null,
   "label": "Releases oficiais (SEC 8-K)",
-  "last_ok": "2026-10-19T16:23:46+00:00",
+  "last_ok": "2026-10-20T14:15:54+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "transcripts",
   "status": "ok",
-  "ts": "2026-10-19T16:23:46+00:00"
+  "ts": "2026-10-20T14:15:54+00:00"
  },
  "us": {
   "bytes": 44653,
-  "dur_s": 192.0,
+  "dur_s": 174.0,
   "erro": "",
   "fontes": null,
   "label": "Fundamentos US (SEC)",
-  "last_ok": "2026-10-19T16:22:27+00:00",
+  "last_ok": "2026-10-20T14:14:28+00:00",
   "max_age_h": 36,
   "n": null,
   "source": "us",
   "status": "ok",
-  "ts": "2026-10-19T16:22:27+00:00"
+  "ts": "2026-10-20T14:14:28+00:00"
  }
 }

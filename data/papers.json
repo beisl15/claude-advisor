@@ -1,69 +1,133 @@
 {
- "asof": "19/10/2026",
+ "asof": "20/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "How language model agents reshape price competition",
-   "url": "https://arxiv.org/abs/2610.21711",
-   "date": "19/10"
+   "title": "Disentangling Liquidity-Constrained from Strategic Default: A Deep Learning Approach",
+   "url": "https://arxiv.org/abs/2610.23901",
+   "date": "20/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Agentic AI in Automated Markets",
-   "url": "https://arxiv.org/abs/2610.22522",
-   "date": "19/10"
+   "title": "TRACE: Governing AI-Assisted Research with Principles from Computer Science",
+   "url": "https://arxiv.org/abs/2610.24035",
+   "date": "20/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Board gender diversity and emissions performance: Insights from panel regressions, machine learning, and explainable AI",
-   "url": "https://arxiv.org/abs/2510.00244",
-   "date": "19/10"
+   "title": "More Mentions, Less Information? Diagnosing Identity and Alignment in Reddit Embeddings for Volatility Forecasting",
+   "url": "https://arxiv.org/abs/2610.25468",
+   "date": "20/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI-exposed jobs deteriorated before ChatGPT",
-   "url": "https://arxiv.org/abs/2601.02554",
-   "date": "19/10"
+   "title": "When Better Opportunities Backfire: Service Worker Responses to Parallel AI Deployment in Customer Acquisition",
+   "url": "https://arxiv.org/abs/2610.25603",
+   "date": "20/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Understanding the Mechanism of Altruism in Large Language Models",
-   "url": "https://arxiv.org/abs/2604.19260",
-   "date": "19/10"
+   "title": "How exposed is work to robotics? Occupational, industry, and geographic measures",
+   "url": "https://arxiv.org/abs/2610.24267",
+   "date": "20/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Risk Ceilings and Development Deadlines: Pacing AI under Uncertain Safety Productivity",
-   "url": "https://arxiv.org/abs/2610.11093",
-   "date": "19/10"
+   "title": "AuDQ: Auditable Data Quality through Agentic Rule Discovery",
+   "url": "https://arxiv.org/abs/2610.26031",
+   "date": "20/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Requested, Executed and Recoverable Credit: Shared Action Ordering among LLM Borrowers in a Simulated Lending Market",
-   "url": "https://arxiv.org/abs/2610.15973",
-   "date": "19/10"
+   "title": "The Control Layer Behind Rule-Following Agents Trading Across Market Conditions",
+   "url": "https://arxiv.org/abs/2610.26324",
+   "date": "20/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Neural Operators Which Certifiably Simultaneously Solve Infinitely Many Convex Programs using Logarithmic Rank and Linear Complexity",
-   "url": "https://arxiv.org/abs/2508.14995",
-   "date": "19/10"
+   "title": "Conformal Kelly: When Marginal Coverage Transfers and the Economics Do Not",
+   "url": "https://arxiv.org/abs/2608.01494",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
+   "url": "https://arxiv.org/abs/2610.24061",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "From SEC Filings to Financial Signals: Evaluating LLMs on Stock Market Reactions and Analyst Forecasts",
+   "url": "https://arxiv.org/abs/2610.24268",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Toward Collective Model Intelligence: Characterizing and Coordinating Models",
+   "url": "https://arxiv.org/abs/2610.24739",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "PFedQFT: Personalized Federated Quantum-Inspired Fine-Tuning for Medical Large Language Models",
+   "url": "https://arxiv.org/abs/2610.25712",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When Should AI Chime In? Benchmarking Timely Contribution of Proactive Agents in Multi-Party Chat",
+   "url": "https://arxiv.org/abs/2610.25896",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
+   "url": "https://arxiv.org/abs/2610.26066",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Reliable Before Profitable: QuantHarness for Governing Financial Strategy Development with LLM Agents",
+   "url": "https://arxiv.org/abs/2610.26101",
+   "date": "20/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "GAIDA: Generative AI for Human-in-the-Loop Document Annotation",
+   "url": "https://arxiv.org/abs/2610.26362",
+   "date": "20/10"
   },
   {
    "p": 5,
@@ -176,54 +240,6 @@
    "title": "Export Controls and the Economics of National Security -- by Jingting Fan, Kyle Handley, Nuno Limão",
    "url": "https://www.nber.org/papers/w35898#fromrss",
    "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Modeling and Evaluating the Labor Market and Fiscal Effects of Immigration -- by Michele Battisti, Giovanni Peri, Eleonora Romano",
-   "url": "https://www.nber.org/papers/w35901#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu",
-   "url": "https://www.nber.org/papers/w35903#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Credit Markets with New Screening Technologies -- by Maryam Farboodi, Péter Kondor, Pablo Kurlat",
-   "url": "https://www.nber.org/papers/w35905#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Home-Foreign Elasticity Functions and the Gains from Trade -- by Jonathan Vogel",
-   "url": "https://www.nber.org/papers/w35906#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "The Impact of Social Insurance on Household Debt -- by Gideon Bornstein, Sasha Indarte",
-   "url": "https://www.nber.org/papers/w35908#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
-   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
-   "date": "14/10"
   }
  ]
 }
