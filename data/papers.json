@@ -1,133 +1,77 @@
 {
- "asof": "20/10/2026",
+ "asof": "21/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Disentangling Liquidity-Constrained from Strategic Default: A Deep Learning Approach",
-   "url": "https://arxiv.org/abs/2610.23901",
-   "date": "20/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "TRACE: Governing AI-Assisted Research with Principles from Computer Science",
-   "url": "https://arxiv.org/abs/2610.24035",
-   "date": "20/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "More Mentions, Less Information? Diagnosing Identity and Alignment in Reddit Embeddings for Volatility Forecasting",
-   "url": "https://arxiv.org/abs/2610.25468",
-   "date": "20/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "When Better Opportunities Backfire: Service Worker Responses to Parallel AI Deployment in Customer Acquisition",
-   "url": "https://arxiv.org/abs/2610.25603",
-   "date": "20/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "How exposed is work to robotics? Occupational, industry, and geographic measures",
-   "url": "https://arxiv.org/abs/2610.24267",
-   "date": "20/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AuDQ: Auditable Data Quality through Agentic Rule Discovery",
-   "url": "https://arxiv.org/abs/2610.26031",
-   "date": "20/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Control Layer Behind Rule-Following Agents Trading Across Market Conditions",
-   "url": "https://arxiv.org/abs/2610.26324",
-   "date": "20/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Conformal Kelly: When Marginal Coverage Transfers and the Economics Do Not",
-   "url": "https://arxiv.org/abs/2608.01494",
-   "date": "20/10"
+   "title": "Stronger artificial intelligence breakthroughs hasten their own exhaustion",
+   "url": "https://arxiv.org/abs/2610.27296",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "World of SWECraft: Agent Collaboration at Scale via Simulated Software Worlds",
-   "url": "https://arxiv.org/abs/2610.24061",
-   "date": "20/10"
+   "title": "Navalia: Advancing Cowork Agents through Verifiable Task Synthesis and Long-Horizon Post-Training",
+   "url": "https://arxiv.org/abs/2610.26887",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "From SEC Filings to Financial Signals: Evaluating LLMs on Stock Market Reactions and Analyst Forecasts",
-   "url": "https://arxiv.org/abs/2610.24268",
-   "date": "20/10"
+   "title": "MAMath-Bench: Process-Aware and Robust Evaluation of Multimodal Multi-Agent Mathematical Reasoning",
+   "url": "https://arxiv.org/abs/2610.26943",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Toward Collective Model Intelligence: Characterizing and Coordinating Models",
-   "url": "https://arxiv.org/abs/2610.24739",
-   "date": "20/10"
+   "title": "Does Multi-Agent Collaboration Reduce Hallucination in Clinical Tasks?",
+   "url": "https://arxiv.org/abs/2610.27027",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "PFedQFT: Personalized Federated Quantum-Inspired Fine-Tuning for Medical Large Language Models",
-   "url": "https://arxiv.org/abs/2610.25712",
-   "date": "20/10"
+   "title": "The More the Better? A Comparison of Single- and Multi-Agent LLM Setups on a Financial Review Task",
+   "url": "https://arxiv.org/abs/2610.27488",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Should AI Chime In? Benchmarking Timely Contribution of Proactive Agents in Multi-Party Chat",
-   "url": "https://arxiv.org/abs/2610.25896",
-   "date": "20/10"
+   "title": "Proof-Carrying Contracts: Commitments AI Agents Cannot Break",
+   "url": "https://arxiv.org/abs/2610.28484",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "FinSafeGuard: A Quality-Driven Synthetic Dataset for Financial AI Safety",
-   "url": "https://arxiv.org/abs/2610.26066",
-   "date": "20/10"
+   "title": "Expert-Guided Rubrics as Dense Reward Signals for Reinforcement Learning in Non-Verifiable Domains",
+   "url": "https://arxiv.org/abs/2610.26932",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Reliable Before Profitable: QuantHarness for Governing Financial Strategy Development with LLM Agents",
-   "url": "https://arxiv.org/abs/2610.26101",
-   "date": "20/10"
+   "title": "Cross-Lingual Reusability of LLM Pipelines: Financial Extraction, Multilingual Reasoning, and Semantic Screening",
+   "url": "https://arxiv.org/abs/2610.27043",
+   "date": "21/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "GAIDA: Generative AI for Human-in-the-Loop Document Annotation",
-   "url": "https://arxiv.org/abs/2610.26362",
-   "date": "20/10"
+   "title": "CARLAR Influence: A Structured Hallucination Risk in Multimodal Cheque Extraction and an Exploratory Compressed-Image Countermeasure",
+   "url": "https://arxiv.org/abs/2610.27192",
+   "date": "21/10"
   },
   {
    "p": 5,
@@ -152,6 +96,30 @@
    "title": "Too Little too Late? Nationwide Carbon Trading in China -- by Shuang Zhang, Douglas Almond",
    "url": "https://www.nber.org/papers/w35924#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Dynamic portfolio selection under range value-at-risk with logarithmic returns",
+   "url": "https://arxiv.org/abs/2610.26919",
+   "date": "21/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Market Regime-Based Multi-Asset Portfolio Optimization Using Nested Clustered Optimization for Tactical Asset Allocation",
+   "url": "https://arxiv.org/abs/2610.27751",
+   "date": "21/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Arithmetic Models for Commodity Futures, Vanilla, and Calendar Spread Options",
+   "url": "https://arxiv.org/abs/2610.28071",
+   "date": "21/10"
   },
   {
    "p": 4,
@@ -219,6 +187,22 @@
   },
   {
    "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Speculative Imbalance Positions by Non-Physical Traders: Impacts on Electricity System Balancing in Great Britain",
+   "url": "https://arxiv.org/abs/2610.28075",
+   "date": "21/10"
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "arXiv q-fin",
+   "title": "Amortized Neural Filtering for Calibrated Posteriors in Statistical Arbitrage",
+   "url": "https://arxiv.org/abs/2610.25802",
+   "date": "21/10"
+  },
+  {
+   "p": 3,
    "tag": "Banks/Fintech",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
@@ -239,6 +223,22 @@
    "src": "NBER",
    "title": "Export Controls and the Economics of National Security -- by Jingting Fan, Kyle Handley, Nuno Limão",
    "url": "https://www.nber.org/papers/w35898#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Modeling and Evaluating the Labor Market and Fiscal Effects of Immigration -- by Michele Battisti, Giovanni Peri, Eleonora Romano",
+   "url": "https://www.nber.org/papers/w35901#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu",
+   "url": "https://www.nber.org/papers/w35903#fromrss",
    "date": ""
   }
  ]
