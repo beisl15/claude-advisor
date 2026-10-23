@@ -1,109 +1,125 @@
 {
- "asof": "22/10/2026",
+ "asof": "23/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Lineage-Aware Search Control for LLM-Based Evolutionary Factor Mining",
-   "url": "https://arxiv.org/abs/2610.29663",
-   "date": "22/10"
+   "title": "The Delegation Divide: An Open Index of AI-Agent Delegability across Occupations and Countries",
+   "url": "https://arxiv.org/abs/2610.30752",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Can AI Chat Replace Traditional Search? Evidence from a RAG-based Live Events Experiment",
-   "url": "https://arxiv.org/abs/2610.28639",
-   "date": "22/10"
+   "title": "The Reaction of Financial Markets to the Releases of DeepSeek R1 and Kimi K3: A Critical Analysis",
+   "url": "https://arxiv.org/abs/2610.30886",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Playing Against the Machine: Cooperation, Communication, and Strategy Heterogeneity in Repeated Prisoner's Dilemma",
-   "url": "https://arxiv.org/abs/2603.15852",
-   "date": "22/10"
+   "title": "Uncertainty and Explainability in Deep Rough Volatility: A Neural Information-Theoretic Posterior Approach",
+   "url": "https://arxiv.org/abs/2609.31570",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "(Early) AI Compute Asset Pricing",
-   "url": "https://arxiv.org/abs/2607.12156",
-   "date": "22/10"
+   "title": "The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software",
+   "url": "https://arxiv.org/abs/2610.30307",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Tempting the Agent: The Economics of Reputation without Persistent Identity in AI Agent Markets",
-   "url": "https://arxiv.org/abs/2609.02992",
-   "date": "22/10"
+   "title": "Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core",
+   "url": "https://arxiv.org/abs/2610.30557",
+   "date": "23/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "When News Gets Old: Portfolio Allocation with Reinforcement Learning and Large Language Models",
+   "url": "https://arxiv.org/abs/2610.30564",
+   "date": "23/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?",
+   "url": "https://arxiv.org/abs/2610.30858",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Behavior Beyond Text: Evaluating Refusal Transfer Failure in LLM Agents",
-   "url": "https://arxiv.org/abs/2610.28982",
-   "date": "22/10"
+   "title": "RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation",
+   "url": "https://arxiv.org/abs/2610.30429",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "CrashGym: Measuring the Decision Value of Experimentation for LLM Agents in Counterfactual Market Crashes",
-   "url": "https://arxiv.org/abs/2610.29245",
-   "date": "22/10"
+   "title": "Can Loan Processors and Underwriters Spot AI-Edited Statements? An Empirical Study",
+   "url": "https://arxiv.org/abs/2610.30758",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LLM-Based Exogenous World Modeling for Dynamic Scheduling",
-   "url": "https://arxiv.org/abs/2610.29308",
-   "date": "22/10"
+   "title": "LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades",
+   "url": "https://arxiv.org/abs/2610.30769",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "ToM2Vec: Continuous Theory-of-Mind Tokens for Multi-Agent Coordination",
-   "url": "https://arxiv.org/abs/2610.29934",
-   "date": "22/10"
+   "title": "CANNBot-CAKE: Collaborative Agentic Kernel Evolution for Ascend NPU",
+   "url": "https://arxiv.org/abs/2610.31034",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "What Git Does Not Record: Provenance Legibility in Two AI-Assisted Research Repositories",
-   "url": "https://arxiv.org/abs/2610.28655",
-   "date": "22/10"
+   "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
+   "url": "https://arxiv.org/abs/2610.31461",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Why is AI-generated language so hard to understand?",
-   "url": "https://arxiv.org/abs/2610.29162",
-   "date": "22/10"
+   "title": "RetiJev: Fast and Source-Grounded Ophthalmic Decision Models",
+   "url": "https://arxiv.org/abs/2610.30947",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LTEM: LLM-Friendly Table-Enhanced Markdown for Table Understanding and Generation",
-   "url": "https://arxiv.org/abs/2610.29188",
-   "date": "22/10"
+   "title": "Predicting Music Valence and Arousal via Textual and Multimodal In-Context Learning in Large Language Models",
+   "url": "https://arxiv.org/abs/2610.31202",
+   "date": "23/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Reading the Mask: Descriptor-Grounded BI-RADS Rationale Generation for Breast MRI Segmentation",
-   "url": "https://arxiv.org/abs/2610.29358",
-   "date": "22/10"
+   "title": "MENTOR: A Metacognition-Driven Self-Evolution Framework for Uncovering and Mitigating Implicit Domain Risks in LLMs",
+   "url": "https://arxiv.org/abs/2511.07107",
+   "date": "23/10"
   },
   {
    "p": 5,
@@ -133,25 +149,9 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "DSINC beyond Heston: the 3/2 and other non-affine stochastic-volatility models",
-   "url": "https://arxiv.org/abs/2610.28847",
-   "date": "22/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Distributions or Quantiles? A Convex Variational Theory of Worst-Case Risk",
-   "url": "https://arxiv.org/abs/2610.29652",
-   "date": "22/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "General bounds on functionals of the lifetime under life table constraints in a joint actuarial-financial framework",
-   "url": "https://arxiv.org/abs/2603.06238",
-   "date": "22/10"
+   "title": "Directionally Correct Views in Portfolio Optimization",
+   "url": "https://arxiv.org/abs/2610.31074",
+   "date": "23/10"
   },
   {
    "p": 4,
