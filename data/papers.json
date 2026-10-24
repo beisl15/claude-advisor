@@ -1,126 +1,6 @@
 {
- "asof": "23/10/2026",
+ "asof": "24/10/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Delegation Divide: An Open Index of AI-Agent Delegability across Occupations and Countries",
-   "url": "https://arxiv.org/abs/2610.30752",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Reaction of Financial Markets to the Releases of DeepSeek R1 and Kimi K3: A Critical Analysis",
-   "url": "https://arxiv.org/abs/2610.30886",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Uncertainty and Explainability in Deep Rough Volatility: A Neural Information-Theoretic Posterior Approach",
-   "url": "https://arxiv.org/abs/2609.31570",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Customer Is the Builder: How AI Coding Agents Are Rewriting the Economics of Software",
-   "url": "https://arxiv.org/abs/2610.30307",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Governed Self-Evolution for Autonomous Investing: A Multi-Agent LLM System with an Invariant Core",
-   "url": "https://arxiv.org/abs/2610.30557",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "When News Gets Old: Portfolio Allocation with Reinforcement Learning and Large Language Models",
-   "url": "https://arxiv.org/abs/2610.30564",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Joules-to-GDP: How Much Economic Value Do AI Systems Produce per Unit of Energy?",
-   "url": "https://arxiv.org/abs/2610.30858",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "RoleFlow: Self-Evolving Multi-Role Agentic Collaboration via Structural Adaptation",
-   "url": "https://arxiv.org/abs/2610.30429",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Can Loan Processors and Underwriters Spot AI-Edited Statements? An Empirical Study",
-   "url": "https://arxiv.org/abs/2610.30758",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades",
-   "url": "https://arxiv.org/abs/2610.30769",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "CANNBot-CAKE: Collaborative Agentic Kernel Evolution for Ascend NPU",
-   "url": "https://arxiv.org/abs/2610.31034",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Adaptive Skill Granularity for Coding Agents: Runtime Routing and Macro-to-Micro Recovery",
-   "url": "https://arxiv.org/abs/2610.31461",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "RetiJev: Fast and Source-Grounded Ophthalmic Decision Models",
-   "url": "https://arxiv.org/abs/2610.30947",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Predicting Music Valence and Arousal via Textual and Multimodal In-Context Learning in Large Language Models",
-   "url": "https://arxiv.org/abs/2610.31202",
-   "date": "23/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "MENTOR: A Metacognition-Driven Self-Evolution Framework for Uncovering and Mitigating Implicit Domain Risks in LLMs",
-   "url": "https://arxiv.org/abs/2511.07107",
-   "date": "23/10"
-  },
   {
    "p": 5,
    "tag": "Semis",
@@ -144,14 +24,6 @@
    "title": "Too Little too Late? Nationwide Carbon Trading in China -- by Shuang Zhang, Douglas Almond",
    "url": "https://www.nber.org/papers/w35924#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Directionally Correct Views in Portfolio Optimization",
-   "url": "https://arxiv.org/abs/2610.31074",
-   "date": "23/10"
   },
   {
    "p": 4,
@@ -240,6 +112,54 @@
    "title": "Export Controls and the Economics of National Security -- by Jingting Fan, Kyle Handley, Nuno Limão",
    "url": "https://www.nber.org/papers/w35898#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Modeling and Evaluating the Labor Market and Fiscal Effects of Immigration -- by Michele Battisti, Giovanni Peri, Eleonora Romano",
+   "url": "https://www.nber.org/papers/w35901#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu",
+   "url": "https://www.nber.org/papers/w35903#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Credit Markets with New Screening Technologies -- by Maryam Farboodi, Péter Kondor, Pablo Kurlat",
+   "url": "https://www.nber.org/papers/w35905#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Trade/Geo",
+   "src": "NBER",
+   "title": "Home-Foreign Elasticity Functions and the Gains from Trade -- by Jonathan Vogel",
+   "url": "https://www.nber.org/papers/w35906#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "The Impact of Social Insurance on Household Debt -- by Gideon Bornstein, Sasha Indarte",
+   "url": "https://www.nber.org/papers/w35908#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
+   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
+   "date": "14/10"
   }
  ]
 }
