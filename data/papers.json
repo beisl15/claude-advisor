@@ -1,6 +1,118 @@
 {
- "asof": "25/10/2026",
+ "asof": "26/10/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "When AI Gets Cheaper, Do Prices Follow? Information Delays and Algorithmic Pricing",
+   "url": "https://arxiv.org/abs/2610.31693",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Jawboning the Fed: Do Markets Listen When Administrations Talk?",
+   "url": "https://arxiv.org/abs/2610.32300",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI-Augmented Research: Free to Write, Costly to Read",
+   "url": "https://arxiv.org/abs/2610.32355",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "GenAI-Assisted Writing and Academic Performance: Evidence from the Social and Behavioral Sciences",
+   "url": "https://arxiv.org/abs/2510.02408",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "How do standard time series forecasting benchmarks translate to finance? A broad study of risk adjusted performance",
+   "url": "https://arxiv.org/abs/2603.01820",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Execution and Evaluation: Task Content, Labor Demand, and the Evaluator Pipeline",
+   "url": "https://arxiv.org/abs/2607.20807",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
+   "url": "https://arxiv.org/abs/2610.31985",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Behaviour analysis for large language model-driven agents",
+   "url": "https://arxiv.org/abs/2610.32087",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Evidence-Grounded SLM Behavioral Prediction Architecture for Future Assistance Use",
+   "url": "https://arxiv.org/abs/2610.32193",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "DealsFlow: An Evidence-Gated Agentic Harness for Venture Capital Deal Triage",
+   "url": "https://arxiv.org/abs/2610.32380",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "MBABench-2.0: Evaluating AI Agents on Constructing Financial Spreadsheets Beyond Simple Verifiability",
+   "url": "https://arxiv.org/abs/2610.31711",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Beyond Data Schedule: Fast LLM Pretraining on Data Mixtures by Loss-Reweighting",
+   "url": "https://arxiv.org/abs/2610.32141",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "AlphaMemo: Structured Search-Process Memory for Self-Evolving Alpha Mining Agents",
+   "url": "https://arxiv.org/abs/2606.20625",
+   "date": "26/10"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv cs.AI",
+   "title": "Shapes from Examples: Foundations of Shape Learning in Recursive SHACL",
+   "url": "https://arxiv.org/abs/2607.27934",
+   "date": "26/10"
+  },
   {
    "p": 5,
    "tag": "Semis",
@@ -21,9 +133,73 @@
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "Too Little too Late? Nationwide Carbon Trading in China -- by Shuang Zhang, Douglas Almond",
-   "url": "https://www.nber.org/papers/w35924#fromrss",
+   "title": "HouseholdBench: Evaluating Large Language Models as Predictors of Household Economic Behavior -- by Jin Huang, Diego Ferreras Garrucho, Yutong Xie, Walter M. Yuan, Qiaozhu Mei, Chen Lian, Jonathon Hazell",
+   "url": "https://www.nber.org/papers/w35927#fromrss",
    "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "An LLM Workflow for Functional Form Sensitivity Analysis -- by Isaiah Andrews, Simon C. Essig Aberg, Jesse M. Shapiro",
+   "url": "https://www.nber.org/papers/w35947#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "NBER",
+   "title": "fevc: Leave-Out Bias-Corrected Variance Decompositions in Stata -- by Johannes F. Schmieder",
+   "url": "https://www.nber.org/papers/w35948#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Generative AI, Managerial Expectations, and Economic Activity -- by Manish Jha, Jialin Qian, Michael Weber, Baozhong Yang",
+   "url": "https://www.nber.org/papers/w35949#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Training Your Replacement: Worker Incentives and the Pace of Automation -- by Joshua S. Gans, Peter Landry",
+   "url": "https://www.nber.org/papers/w35950#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Competition in Generative AI: Evidence from Consumer Demand -- by Mark L. Egan, Dominic Russel, Claire Shi, Vincent Yao",
+   "url": "https://www.nber.org/papers/w35953#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "When Cash Wakes Up: Inertia in Institutional Money Market Funds and the Potential Effects of AI Disruption -- by Ali Hortaçsu, Younggeun Yoo",
+   "url": "https://www.nber.org/papers/w35954#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Risk Adequacy and Anti-Discrimination in Insurance Pricing: Classification, Aggregation, and Transfers",
+   "url": "https://arxiv.org/abs/2610.32614",
+   "date": "26/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "On the continuity of conditional distributions and stratification for derivative pricing",
+   "url": "https://arxiv.org/abs/2610.32970",
+   "date": "26/10"
   },
   {
    "p": 4,
@@ -53,113 +229,17 @@
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "A Model of U.S. Monetary Policy and the Global Financial Cycle -- by Rohan Kekre, Moritz Lenel",
-   "url": "https://www.nber.org/papers/w35902#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Are We Consuming Too Much Groundwater? -- by Brian Greaney, Joseph S. Shapiro, Katherine R.H. Wagner",
-   "url": "https://www.nber.org/papers/w35904#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Infinite Factor Structure in Conditional Asset Pricing -- by Mikhail Chernov, Bryan T. Kelly, Semyon Malamud, Johannes Schwab",
-   "url": "https://www.nber.org/papers/w35910#fromrss",
+   "title": "Strategic Monetary Policy in Open Economies -- by Louphou Coulibaly, Charles Engel",
+   "url": "https://www.nber.org/papers/w35928#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Inside Central Bankers’ Calendars: How Do Fed Chairs Allocate Their Time? -- by Thomas Drechsel, Dali Tsakadze",
-   "url": "https://www.nber.org/papers/w35913#fromrss",
+   "title": "Ratings, Debt, and Deficits: An Exploration -- by Olivier J. Blanchard, Daniel Leigh, Prachi Mishra",
+   "url": "https://www.nber.org/papers/w35956#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "The Impact of the Great Recession on Mortality: A Dynamic Factor Analysis -- by Amy Finkelstein, Matthew J. Notowidigdo, Enzo Profili",
-   "url": "https://www.nber.org/papers/w35914#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
-   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
-   "date": "25/09"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
-   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
-   "date": "21/09"
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Export Controls and the Economics of National Security -- by Jingting Fan, Kyle Handley, Nuno Limão",
-   "url": "https://www.nber.org/papers/w35898#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Modeling and Evaluating the Labor Market and Fiscal Effects of Immigration -- by Michele Battisti, Giovanni Peri, Eleonora Romano",
-   "url": "https://www.nber.org/papers/w35901#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "From Politics to Process: Evidence from Progressive Era Naturalizations -- by Abhay Aneja, Guo Xu",
-   "url": "https://www.nber.org/papers/w35903#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Credit Markets with New Screening Technologies -- by Maryam Farboodi, Péter Kondor, Pablo Kurlat",
-   "url": "https://www.nber.org/papers/w35905#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Trade/Geo",
-   "src": "NBER",
-   "title": "Home-Foreign Elasticity Functions and the Gains from Trade -- by Jonathan Vogel",
-   "url": "https://www.nber.org/papers/w35906#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "The Impact of Social Insurance on Household Debt -- by Gideon Bornstein, Sasha Indarte",
-   "url": "https://www.nber.org/papers/w35908#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
-   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
-   "date": "14/10"
   }
  ]
 }
