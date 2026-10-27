@@ -1,53 +1,69 @@
 {
- "asof": "26/10/2026",
+ "asof": "27/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "When AI Gets Cheaper, Do Prices Follow? Information Delays and Algorithmic Pricing",
-   "url": "https://arxiv.org/abs/2610.31693",
-   "date": "26/10"
+   "title": "The Capability Transfer: Cohort Reversal, Codified Expertise, and the Adaptability Tax of AI Transformation",
+   "url": "https://arxiv.org/abs/2610.33102",
+   "date": "27/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Jawboning the Fed: Do Markets Listen When Administrations Talk?",
-   "url": "https://arxiv.org/abs/2610.32300",
-   "date": "26/10"
+   "title": "Efficiency vs Capability in the Intelligence Explosion",
+   "url": "https://arxiv.org/abs/2610.33447",
+   "date": "27/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI-Augmented Research: Free to Write, Costly to Read",
-   "url": "https://arxiv.org/abs/2610.32355",
-   "date": "26/10"
+   "title": "Cross-Bond Panel Learning for Next-Day Price Forecasting of Chinese Convertible Bonds: A Reality Check",
+   "url": "https://arxiv.org/abs/2610.33453",
+   "date": "27/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "GenAI-Assisted Writing and Academic Performance: Evidence from the Social and Behavioral Sciences",
-   "url": "https://arxiv.org/abs/2510.02408",
-   "date": "26/10"
+   "title": "Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting",
+   "url": "https://arxiv.org/abs/2610.33103",
+   "date": "27/10"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)",
+   "url": "https://arxiv.org/abs/2610.33122",
+   "date": "27/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "How do standard time series forecasting benchmarks translate to finance? A broad study of risk adjusted performance",
-   "url": "https://arxiv.org/abs/2603.01820",
-   "date": "26/10"
+   "title": "LLM-Generated Counterfactual Stress Scenarios for Portfolio Risk Simulation via Hybrid Prompt-RAG Pipeline",
+   "url": "https://arxiv.org/abs/2512.07867",
+   "date": "27/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Execution and Evaluation: Task Content, Labor Demand, and the Evaluator Pipeline",
-   "url": "https://arxiv.org/abs/2607.20807",
-   "date": "26/10"
+   "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
+   "url": "https://arxiv.org/abs/2609.18591",
+   "date": "27/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs",
+   "url": "https://arxiv.org/abs/2609.33470",
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -55,7 +71,7 @@
    "src": "arXiv cs.AI",
    "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
    "url": "https://arxiv.org/abs/2610.31985",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -63,7 +79,7 @@
    "src": "arXiv cs.AI",
    "title": "Behaviour analysis for large language model-driven agents",
    "url": "https://arxiv.org/abs/2610.32087",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -71,7 +87,7 @@
    "src": "arXiv cs.AI",
    "title": "Evidence-Grounded SLM Behavioral Prediction Architecture for Future Assistance Use",
    "url": "https://arxiv.org/abs/2610.32193",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -79,7 +95,7 @@
    "src": "arXiv cs.AI",
    "title": "DealsFlow: An Evidence-Gated Agentic Harness for Venture Capital Deal Triage",
    "url": "https://arxiv.org/abs/2610.32380",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -87,7 +103,7 @@
    "src": "arXiv cs.AI",
    "title": "MBABench-2.0: Evaluating AI Agents on Constructing Financial Spreadsheets Beyond Simple Verifiability",
    "url": "https://arxiv.org/abs/2610.31711",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -95,7 +111,7 @@
    "src": "arXiv cs.AI",
    "title": "Beyond Data Schedule: Fast LLM Pretraining on Data Mixtures by Loss-Reweighting",
    "url": "https://arxiv.org/abs/2610.32141",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -103,7 +119,7 @@
    "src": "arXiv cs.AI",
    "title": "AlphaMemo: Structured Search-Process Memory for Self-Evolving Alpha Mining Agents",
    "url": "https://arxiv.org/abs/2606.20625",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -111,7 +127,7 @@
    "src": "arXiv cs.AI",
    "title": "Shapes from Examples: Foundations of Shape Learning in Recursive SHACL",
    "url": "https://arxiv.org/abs/2607.27934",
-   "date": "26/10"
+   "date": "27/10"
   },
   {
    "p": 5,
@@ -184,22 +200,6 @@
    "title": "When Cash Wakes Up: Inertia in Institutional Money Market Funds and the Potential Effects of AI Disruption -- by Ali Hortaçsu, Younggeun Yoo",
    "url": "https://www.nber.org/papers/w35954#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Risk Adequacy and Anti-Discrimination in Insurance Pricing: Classification, Aggregation, and Transfers",
-   "url": "https://arxiv.org/abs/2610.32614",
-   "date": "26/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "On the continuity of conditional distributions and stratification for derivative pricing",
-   "url": "https://arxiv.org/abs/2610.32970",
-   "date": "26/10"
   },
   {
    "p": 4,
