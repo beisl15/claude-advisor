@@ -1,133 +1,117 @@
 {
- "asof": "27/10/2026",
+ "asof": "28/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The Capability Transfer: Cohort Reversal, Codified Expertise, and the Adaptability Tax of AI Transformation",
-   "url": "https://arxiv.org/abs/2610.33102",
-   "date": "27/10"
+   "title": "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience",
+   "url": "https://arxiv.org/abs/2610.36008",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Efficiency vs Capability in the Intelligence Explosion",
-   "url": "https://arxiv.org/abs/2610.33447",
-   "date": "27/10"
+   "title": "A Deep Learning-Driven Operator Splitting Scheme for Free Boundary Problems: An Application to American Option Pricing in Incomplete Markets",
+   "url": "https://arxiv.org/abs/2610.36921",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Cross-Bond Panel Learning for Next-Day Price Forecasting of Chinese Convertible Bonds: A Reality Check",
-   "url": "https://arxiv.org/abs/2610.33453",
-   "date": "27/10"
+   "title": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
+   "url": "https://arxiv.org/abs/2610.36083",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Prospect Theory in Large Language Models: A Meta-Analysis of Loss Aversion, Diminishing Sensitivity, and Probability Weighting",
-   "url": "https://arxiv.org/abs/2610.33103",
-   "date": "27/10"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv q-fin",
-   "title": "The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)",
-   "url": "https://arxiv.org/abs/2610.33122",
-   "date": "27/10"
+   "title": "Matching-LLM: Historically Anchored Synthetic Prediction of Public Opinion and Elections",
+   "url": "https://arxiv.org/abs/2411.01582",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "LLM-Generated Counterfactual Stress Scenarios for Portfolio Risk Simulation via Hybrid Prompt-RAG Pipeline",
-   "url": "https://arxiv.org/abs/2512.07867",
-   "date": "27/10"
+   "title": "Narratives to Numbers: Large Language Models and Economic Policy Uncertainty",
+   "url": "https://arxiv.org/abs/2511.17866",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Recursive Reasoning or Statistical Extrapolation? In-Context Learning in Multi-Agent Interdependent Decision-Making",
-   "url": "https://arxiv.org/abs/2609.18591",
-   "date": "27/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "LiveOption: Evaluating LLM Agents in Structured Option Trading with Nonlinear Payoffs",
-   "url": "https://arxiv.org/abs/2609.33470",
-   "date": "27/10"
+   "title": "TRACE: Governing AI-Assisted Research with Principles from Computer Science",
+   "url": "https://arxiv.org/abs/2610.24035",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The Helpful Agent Problem: When Emergent Cooperation Among LLM Agents Bypasses Intended Workflows",
-   "url": "https://arxiv.org/abs/2610.31985",
-   "date": "27/10"
+   "title": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
+   "url": "https://arxiv.org/abs/2610.37571",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Behaviour analysis for large language model-driven agents",
-   "url": "https://arxiv.org/abs/2610.32087",
-   "date": "27/10"
+   "title": "Physiognomy Revisited: How Vision-Language Models Encode Sensitive Attributes Through Image Transformation",
+   "url": "https://arxiv.org/abs/2610.35910",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Evidence-Grounded SLM Behavioral Prediction Architecture for Future Assistance Use",
-   "url": "https://arxiv.org/abs/2610.32193",
-   "date": "27/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "DealsFlow: An Evidence-Gated Agentic Harness for Venture Capital Deal Triage",
-   "url": "https://arxiv.org/abs/2610.32380",
-   "date": "27/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "MBABench-2.0: Evaluating AI Agents on Constructing Financial Spreadsheets Beyond Simple Verifiability",
-   "url": "https://arxiv.org/abs/2610.31711",
-   "date": "27/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Beyond Data Schedule: Fast LLM Pretraining on Data Mixtures by Loss-Reweighting",
-   "url": "https://arxiv.org/abs/2610.32141",
-   "date": "27/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "AlphaMemo: Structured Search-Process Memory for Self-Evolving Alpha Mining Agents",
-   "url": "https://arxiv.org/abs/2606.20625",
-   "date": "27/10"
+   "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
+   "url": "https://arxiv.org/abs/2610.35966",
+   "date": "28/10"
   },
   {
    "p": 5,
    "tag": "Semis",
    "src": "arXiv cs.AI",
-   "title": "Shapes from Examples: Foundations of Shape Learning in Recursive SHACL",
-   "url": "https://arxiv.org/abs/2607.27934",
-   "date": "27/10"
+   "title": "FIDES-Live: Evaluating Behavioral Concordance in Sequential Trading Agents",
+   "url": "https://arxiv.org/abs/2610.36476",
+   "date": "28/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Exploring the Limits of the Delta Learning Hypothesis: Single-Pair Generator Biases in Direct Preference Optimization",
+   "url": "https://arxiv.org/abs/2610.37058",
+   "date": "28/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Where Should the Evaluation Budget Go in LLM-Driven Agent Scaffold Evolution?",
+   "url": "https://arxiv.org/abs/2610.37276",
+   "date": "28/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
+   "url": "https://arxiv.org/abs/2610.37649",
+   "date": "28/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Hedge-Bench: Benchmarking Agents on Hard, Realistic Tasks Pertaining to Financial Reasoning",
+   "url": "https://arxiv.org/abs/2606.03918",
+   "date": "28/10"
   },
   {
    "p": 5,
@@ -200,6 +184,22 @@
    "title": "When Cash Wakes Up: Inertia in Institutional Money Market Funds and the Potential Effects of AI Disruption -- by Ali Hortaçsu, Younggeun Yoo",
    "url": "https://www.nber.org/papers/w35954#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Does Ecosystem Activity Validate TVL?",
+   "url": "https://arxiv.org/abs/2610.36274",
+   "date": "28/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Simple Portfolios that Deliver Consistent Decent Returns",
+   "url": "https://arxiv.org/abs/2610.36491",
+   "date": "28/10"
   },
   {
    "p": 4,
