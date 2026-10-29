@@ -1,61 +1,13 @@
 {
- "asof": "28/10/2026",
+ "asof": "29/10/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Practice Makes Perfect: Tacit Knowledge, Generative AI, and Returns to Schooling and Experience",
-   "url": "https://arxiv.org/abs/2610.36008",
-   "date": "28/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "A Deep Learning-Driven Operator Splitting Scheme for Free Boundary Problems: An Application to American Option Pricing in Incomplete Markets",
-   "url": "https://arxiv.org/abs/2610.36921",
-   "date": "28/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "FinLLM-KG: Knowledge Graph-Enhanced LLMs for Financial Sentiment Analysis in Algorithmic Trading",
-   "url": "https://arxiv.org/abs/2610.36083",
-   "date": "28/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Matching-LLM: Historically Anchored Synthetic Prediction of Public Opinion and Elections",
-   "url": "https://arxiv.org/abs/2411.01582",
-   "date": "28/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Narratives to Numbers: Large Language Models and Economic Policy Uncertainty",
-   "url": "https://arxiv.org/abs/2511.17866",
-   "date": "28/10"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "TRACE: Governing AI-Assisted Research with Principles from Computer Science",
-   "url": "https://arxiv.org/abs/2610.24035",
-   "date": "28/10"
-  },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
    "title": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
    "url": "https://arxiv.org/abs/2610.37571",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -63,7 +15,7 @@
    "src": "arXiv cs.AI",
    "title": "Physiognomy Revisited: How Vision-Language Models Encode Sensitive Attributes Through Image Transformation",
    "url": "https://arxiv.org/abs/2610.35910",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -71,7 +23,7 @@
    "src": "arXiv cs.AI",
    "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
    "url": "https://arxiv.org/abs/2610.35966",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -79,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "FIDES-Live: Evaluating Behavioral Concordance in Sequential Trading Agents",
    "url": "https://arxiv.org/abs/2610.36476",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -87,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "Exploring the Limits of the Delta Learning Hypothesis: Single-Pair Generator Biases in Direct Preference Optimization",
    "url": "https://arxiv.org/abs/2610.37058",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -95,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Where Should the Evaluation Budget Go in LLM-Driven Agent Scaffold Evolution?",
    "url": "https://arxiv.org/abs/2610.37276",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -103,7 +55,7 @@
    "src": "arXiv cs.AI",
    "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
    "url": "https://arxiv.org/abs/2610.37649",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -111,7 +63,7 @@
    "src": "arXiv cs.AI",
    "title": "Hedge-Bench: Benchmarking Agents on Hard, Realistic Tasks Pertaining to Financial Reasoning",
    "url": "https://arxiv.org/abs/2606.03918",
-   "date": "28/10"
+   "date": "29/10"
   },
   {
    "p": 5,
@@ -187,22 +139,6 @@
   },
   {
    "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Does Ecosystem Activity Validate TVL?",
-   "url": "https://arxiv.org/abs/2610.36274",
-   "date": "28/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Simple Portfolios that Deliver Consistent Decent Returns",
-   "url": "https://arxiv.org/abs/2610.36491",
-   "date": "28/10"
-  },
-  {
-   "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Inattentive Price Setting and Inflation Under Fiscal Policy Uncertainty",
@@ -240,6 +176,54 @@
    "title": "Ratings, Debt, and Deficits: An Exploration -- by Olivier J. Blanchard, Daniel Leigh, Prachi Mishra",
    "url": "https://www.nber.org/papers/w35956#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
+   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
+   "date": "25/09"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
+   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
+   "date": "21/09"
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Tax Productivity and Economic Development: A Quantitative Macroeconomic Analysis -- by Radhika Goyal, Anders Jensen, David Lagakos, Abdoulaye Ndiaye, Yuntian Zhao",
+   "url": "https://www.nber.org/papers/w35934#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Implications of Policy Interventions on Eliminating Gender Gaps -- by Carla Varona Cervantes, Russell Cooper",
+   "url": "https://www.nber.org/papers/w35935#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Regional Variations and Productivity Puzzles in Health Care -- by Amy Finkelstein, Jonathan S. Skinner",
+   "url": "https://www.nber.org/papers/w35937#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
+   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
+   "date": "14/10"
   }
  ]
 }
