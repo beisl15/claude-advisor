@@ -1,69 +1,117 @@
 {
- "asof": "29/10/2026",
+ "asof": "30/10/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "TeamGym: A Gym for Team Decision-Making by AI Agents with Distributed Information",
-   "url": "https://arxiv.org/abs/2610.37571",
-   "date": "29/10"
+   "src": "arXiv q-fin",
+   "title": "Decorrelating the Advice Layer: A Calibrated Fragility Metric and Tested Mitigations for Synchronized Liquidation in Agentic Wealth Management",
+   "url": "https://arxiv.org/abs/2610.37705",
+   "date": "30/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Can Artificial Intelligence Forecast Treatment Effects in Economics?",
+   "url": "https://arxiv.org/abs/2610.38883",
+   "date": "30/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "What is Work For? Labor, Politics, and Meaning in the Age of AI",
+   "url": "https://arxiv.org/abs/2610.39375",
+   "date": "30/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Whom Do AI Agents Serve? Role-Induced Sponsorship Bias in Decision Models and Generative LLMs",
+   "url": "https://arxiv.org/abs/2609.17989",
+   "date": "30/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Strategic Integration of Artificial Intelligence in the C-Suite: The Role of the Chief AI Officer",
+   "url": "https://arxiv.org/abs/2407.10247",
+   "date": "30/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Control Layer Behind Rule-Following Agents Trading Across Market Conditions",
+   "url": "https://arxiv.org/abs/2610.26324",
+   "date": "30/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Physiognomy Revisited: How Vision-Language Models Encode Sensitive Attributes Through Image Transformation",
-   "url": "https://arxiv.org/abs/2610.35910",
-   "date": "29/10"
+   "title": "FilingLoop: Evaluating and Evolving LLM Agents for Corporate Disclosure Review and Revision",
+   "url": "https://arxiv.org/abs/2610.37905",
+   "date": "30/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "EMMA: Structured Episodic Memory for Multi-Agent Workflow Synthesis",
-   "url": "https://arxiv.org/abs/2610.35966",
-   "date": "29/10"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "FIDES-Live: Evaluating Behavioral Concordance in Sequential Trading Agents",
-   "url": "https://arxiv.org/abs/2610.36476",
-   "date": "29/10"
+   "title": "Understanding Large Language Models as Numerical Optimizers",
+   "url": "https://arxiv.org/abs/2610.37932",
+   "date": "30/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Exploring the Limits of the Delta Learning Hypothesis: Single-Pair Generator Biases in Direct Preference Optimization",
-   "url": "https://arxiv.org/abs/2610.37058",
-   "date": "29/10"
+   "title": "Investor's Last Exam: Can AI Agents Do Equity Investment Without Seeing the Future?",
+   "url": "https://arxiv.org/abs/2610.38342",
+   "date": "30/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Where Should the Evaluation Budget Go in LLM-Driven Agent Scaffold Evolution?",
-   "url": "https://arxiv.org/abs/2610.37276",
-   "date": "29/10"
+   "title": "Governance-Aware Federated Learning for Multi-Agent AI Systems: A Policy-Driven Framework for Trustworthy Collaborative AI",
+   "url": "https://arxiv.org/abs/2610.38411",
+   "date": "30/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Can LLMs Uncover Hidden Physical Laws through Free Exploration?",
-   "url": "https://arxiv.org/abs/2610.37649",
-   "date": "29/10"
+   "title": "From Leniency to Suspicion: How an Open Post-Training Recipe Changes Whom LLM Fact-Checkers Believe",
+   "url": "https://arxiv.org/abs/2610.38532",
+   "date": "30/10"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Hedge-Bench: Benchmarking Agents on Hard, Realistic Tasks Pertaining to Financial Reasoning",
-   "url": "https://arxiv.org/abs/2606.03918",
-   "date": "29/10"
+   "title": "\"Close enough?\" An investigation into multiplication errors in LLMs",
+   "url": "https://arxiv.org/abs/2610.38634",
+   "date": "30/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "TreasuryQA Bench: Can AI Agents Work an Archive of Scanned Financial Records?",
+   "url": "https://arxiv.org/abs/2610.38924",
+   "date": "30/10"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Agentic AI Reasoning and Learned Sampling for Task-Aware Projection Selection in Sparse-View CT: Predicting Hemodynamics",
+   "url": "https://arxiv.org/abs/2610.39003",
+   "date": "30/10"
   },
   {
    "p": 5,
@@ -139,6 +187,22 @@
   },
   {
    "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "What Language Models Add to Healthcare-Equity Rankings, and What They Could Have Known",
+   "url": "https://arxiv.org/abs/2610.38056",
+   "date": "30/10"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Information Flow and Market Risk: Transformer-Based Evidence on Sentiment and Volatility Dynamics",
+   "url": "https://arxiv.org/abs/2610.39636",
+   "date": "30/10"
+  },
+  {
+   "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Inattentive Price Setting and Inflation Under Fiscal Policy Uncertainty",
@@ -176,54 +240,6 @@
    "title": "Ratings, Debt, and Deficits: An Exploration -- by Olivier J. Blanchard, Daniel Leigh, Prachi Mishra",
    "url": "https://www.nber.org/papers/w35956#fromrss",
    "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
-   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
-   "date": "25/09"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Beyond Financial Conditions: Measuring Structural Vulnerabilities in the U.S. Financial System",
-   "url": "https://www.federalreserve.gov/econres/feds/beyond-financial-conditions-measuring-structural-vulnerabilities-in-the-us-financial-system.htm",
-   "date": "21/09"
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Tax Productivity and Economic Development: A Quantitative Macroeconomic Analysis -- by Radhika Goyal, Anders Jensen, David Lagakos, Abdoulaye Ndiaye, Yuntian Zhao",
-   "url": "https://www.nber.org/papers/w35934#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Implications of Policy Interventions on Eliminating Gender Gaps -- by Carla Varona Cervantes, Russell Cooper",
-   "url": "https://www.nber.org/papers/w35935#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Regional Variations and Productivity Puzzles in Health Care -- by Amy Finkelstein, Jonathan S. Skinner",
-   "url": "https://www.nber.org/papers/w35937#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
-   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
-   "date": "14/10"
   }
  ]
 }
