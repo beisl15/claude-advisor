@@ -1,85 +1,133 @@
 {
- "asof": "02/11/2026",
+ "asof": "03/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Matching-LLM: Historically Anchored Synthetic Prediction of Public Opinion and Elections",
-   "url": "https://arxiv.org/abs/2411.01582",
-   "date": "02/11"
+   "title": "Validating LLM-Generated Synthetic Survey Samples: A Use-Dependent Multi-Dimensional Framework for Social-Science Applications",
+   "url": "https://arxiv.org/abs/2611.00256",
+   "date": "03/11"
+  },
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "arXiv q-fin",
+   "title": "Reading the Count: Prediction Markets and Brazil's 2026 Presidential Election",
+   "url": "https://arxiv.org/abs/2611.00338",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "A Controlled Comparison of Deep Learning Architectures for Multi-Horizon Financial Forecasting: Evidence from 918 Experiments",
-   "url": "https://arxiv.org/abs/2603.16886",
-   "date": "02/11"
+   "title": "Learning about Markets from Models: Evidence from an AI Hiring Platform",
+   "url": "https://arxiv.org/abs/2611.01226",
+   "date": "03/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AIDA: An AI Outage Registry with Evidence from On-Chain MEV",
+   "url": "https://arxiv.org/abs/2611.01656",
+   "date": "03/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Same Text, Different Filename: Are LLM Judges Biased?",
+   "url": "https://arxiv.org/abs/2611.01829",
+   "date": "03/11"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Siting and Curtailment Depth Limit the Grid Headroom Available to New Large Loads",
+   "url": "https://arxiv.org/abs/2611.00462",
+   "date": "03/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Designing Behavioral Profiles for Language Model Simulation of Out-of-Distribution Human Behavior",
+   "url": "https://arxiv.org/abs/2611.00661",
+   "date": "03/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Learning AI Agents, Market Makers, and Stress in Automated Markets",
+   "url": "https://arxiv.org/abs/2611.01799",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Circumventing the Computational Hardness of Computational Arbitrage",
-   "url": "https://arxiv.org/abs/2610.40831",
-   "date": "02/11"
+   "title": "OmniMechanism Design for Human-AI Collaboration with Impressionable Minds",
+   "url": "https://arxiv.org/abs/2611.00441",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Opening the Box Changes the Cat: LLMs Detect Chain-of-Thought Monitoring - What now?",
-   "url": "https://arxiv.org/abs/2610.40946",
-   "date": "02/11"
+   "title": "Evolving Scientific Intelligence: From Fragmented Evidence to Distributed Experimental Loops",
+   "url": "https://arxiv.org/abs/2611.00580",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The psychophysics of affect in large language models",
-   "url": "https://arxiv.org/abs/2610.40985",
-   "date": "02/11"
+   "title": "\\textsc{ChatDify}: Automating End-to-End Dify Workflow Synthesis from Natural Language via Multi-Agent Collaboration",
+   "url": "https://arxiv.org/abs/2611.01563",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LanG 2.0: Energy-Efficient Agentic AI for Semi-Automated Security Operations at Scale",
-   "url": "https://arxiv.org/abs/2610.41072",
-   "date": "02/11"
+   "title": "Towards Multi-Value Alignment via Value Localization in LLMs",
+   "url": "https://arxiv.org/abs/2611.02503",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Real Computation or Merely Naming? A Pre-Registered Mechanism Audit of 25 Cognitive-Architecture Modules in an LLM-Based Agent System",
-   "url": "https://arxiv.org/abs/2610.41604",
-   "date": "02/11"
+   "title": "Measuring AI Agents as Teammates with Collaborative Intelligence",
+   "url": "https://arxiv.org/abs/2611.02633",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Automated Keyword Generation Using LLMs in a High-Volume Data Virtualization Service",
-   "url": "https://arxiv.org/abs/2610.41893",
-   "date": "02/11"
+   "title": "UPSHIFT: User Preference Steering from Human-AI Interaction Feedback Traces",
+   "url": "https://arxiv.org/abs/2611.02667",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Using Machine Learning to Measure Self-Efficacy Belief Through Learners' Interaction Traces in Technology-Enhanced Learning",
-   "url": "https://arxiv.org/abs/2610.41900",
-   "date": "02/11"
+   "title": "Avatar Intelligence: Amplifying Human Agency Through Persistent Personal Agents",
+   "url": "https://arxiv.org/abs/2611.03092",
+   "date": "03/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Towards Understanding Score-Seeking in LLMs",
-   "url": "https://arxiv.org/abs/2610.41014",
-   "date": "02/11"
+   "title": "CoworkOS:Scaling Agent Coworkers for Real-world Automation",
+   "url": "https://arxiv.org/abs/2611.03178",
+   "date": "03/11"
   },
   {
    "p": 5,
@@ -92,42 +140,10 @@
   {
    "p": 5,
    "tag": "AI",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Premiums or Peril",
-   "url": "https://www.federalreserve.gov/econres/feds/premiums-or-peril.htm",
-   "date": "18/09"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
    "src": "NBER",
    "title": "How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis -- by Peter Hull",
    "url": "https://www.nber.org/papers/w35974#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Functional Tensor Trains for High-Order Greeks and Exposure Tails of Multi-Asset Structured Products",
-   "url": "https://arxiv.org/abs/2610.42119",
-   "date": "02/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "A Nested Factor Model for Equity Markets: Reconciling Multifractal Stock Returns and Rough Index Volatilities",
-   "url": "https://arxiv.org/abs/2505.02678",
-   "date": "02/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Admissible Portfolio Optimization: Information Constraints, Conditional Efficient Frontiers and the Price of Causal Identification",
-   "url": "https://arxiv.org/abs/2610.00147",
-   "date": "02/11"
   },
   {
    "p": 4,
@@ -224,22 +240,6 @@
    "title": "Beyond the Numbers: Professional Forecasters’ Narratives about Inflation and Stock Market Performance -- by Christian Conrad, Julius Theodor Schoelkopf, Michael Weber, Frank Brueckbauer",
    "url": "https://www.nber.org/papers/w35981#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Green Tastes, Beliefs, and Portfolios: Evidence from Synthetic Investors -- by Xindi He, Lubos Pastor",
-   "url": "https://www.nber.org/papers/w35982#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "arXiv q-fin",
-   "title": "Climate aware lending allocation under NGFS scenarios - A Monte Carlo approach",
-   "url": "https://arxiv.org/abs/2610.00051",
-   "date": "02/11"
   }
  ]
 }
