@@ -1,180 +1,180 @@
 {
- "asof": "03/11/2026",
+ "asof": "04/11/2026",
  "items": [
   {
    "region": "US",
    "p": 5,
-   "tag": "NVDA",
-   "src": "Seeking Alpha",
-   "title": "Nvidia CEO gave go-ahead on Marvell's mega-acquisition of Lumentum",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPV2ZXZ3c3eXNMT3hxNDZsVXdoSFMzeXMzTVV3OEQtRm0yelpiRlFNeWY3VzBCMzktZDU4U01sUzFZMFpxMnQ3RTBFM2V4YXlhOE5jTzB3akNGR2NTSWxyZG9PdktMVHZIM3l1eGJNWmlXOGh4cGNsMDFPOXlzX1BzR3ZsaU43aVZ4aGxzcTZzZV9hRTBGX0g3Y1ZRdWprei1zTXF6UFln?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "VZ · Telecom · Earnings",
-   "src": "Simply Wall St",
-   "title": "Is Verizon Communications (VZ) Undervalued As Strong Subscriber Growth And Higher Guidance Reset Expectations?",
-   "resumo": "",
-   "prov": "Relevant to VZ · Telecom · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYjV2eXAwY25ycjFYdVZnYXlmM1FIY2IwU2UxcXpCMnhLOHJYVFdfdTdENE16cWg2UU1VOU9LMi1LZzd2WFVFRnN1VUVIOE1ka1p3dVN3cXpJZ3RPYm9qOURfUzZiQURIbzRTaXQ1RGE1V1pzNGQybTBmNVdqQUgtNjlTQWdsaFFnVWNNMjU5R1VCVDVybHFXb1A1R3BiWkZ3OG9xV1hEUkJxd0FiU0ZxTGFDUnk0MjlWaV9yRVRteTg2SGFXNmtYbmxUWlRjUFJ3anfSAdcBQVVfeXFMTnZ6cFFvYVdlc2xZTmlWaG01ZzBCaHpkOU1mb2haMGVyamtKUGNuTVNuWjhmQ3piak10NDh3X0tieGFVMVQ5OVQtVTlCRTdOTDBxVjB6Zm5DLThkSElmV3FQV3QxWlQ0UWxnM2NsQ3FhSGljMWpudk11ZjVyQW9oNlpuVTVCZk5OZ1pTS0gxUWxtOXVqX0lucnhGdTN2TzFtQkVQR1lpcTdfcmllWTA4ZWpjVHJ3UVR3ZS1JR0tsZElXWFhsMTV5MmZpYk1lMmVESjY5WVRwZXM?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
    "tag": "PLTR",
-   "src": "The Motley Fool",
-   "title": "Why Palantir Technologies Stock Crashed Today",
+   "src": "TIKR.com",
+   "title": "Palantir’s Revenue Grew 96%. Its New Contract Value Grew 6%. Alex Karp Explains Why",
    "resumo": "",
    "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbV9XODdKN0xyZUhfMjU5dDdXYklYXzFXMjdkblJVVUlYSmR3Zk9lZDIxaTJuZzVLbHhHb2kyTHlFYW82Q1ZuU09JVXdvZThHQnpGb2plbVRWWm1ldUZaVGFDZUhUMTQzWUZWRHVnN1JxOFlMNHF0ZElGck93S3FhSno3S09vWjdzS2pBZ1dwMEx1Zw?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "AAPL · Earnings",
-   "src": "Yahoo Finance",
-   "title": "Palantir and Shopify Both Beat Earnings. Their Stocks are Falling Anyway.",
-   "resumo": "",
-   "prov": "Relevant to AAPL · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZmZ0WnpEcm56MEFCd29MN0xibTAxbWUyMUJIanVlak5yemt0OHQzNk5yOGs3QUZwUmIzN3hfRjI3N0psU09IMnBKX1FiNXdzUk1LdDMyTjUzNndqazNQMXl6ejhkU3JabGlUVzlkSkgyelh6OERoWFpkR0R3VHUwdVMtS25COEdGVnc?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "AAPL · Earnings",
-   "src": "Yahoo Finance",
-   "title": "Apple Services Unit Faces Near-Term Pressure as Memory Costs Weigh on Margin Guidance, Morgan Stanley Says",
-   "resumo": "",
-   "prov": "Relevant to AAPL · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQTJ1QmZUaGdwSkVJZW9IcURKM09xakt5dGpzazlEUTNLTXJXTWlabjRVOWxIaDNYRFpwdkxTTmktbHp3eG10MGpBVGhKY2U1bVN0bURieXk0VTZiQkZaM0FGWWdCaE8zWHY1dFc2bzBfaTFhQm5TTldNQ3VBWWQyaWdmZ2RUNVlndXloM0R5RVVVSlkydmstM0trdw?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "AMD · Earnings",
-   "src": "Yahoo Finance",
-   "title": "Bernstein Picks AMD Over Super Micro Ahead of Earnings",
-   "resumo": "",
-   "prov": "Relevant to AMD · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOXJ1OTBCeWdfZXRZeGJiRWdfMllrSG1UTTNZV0tlSGtGN1o0Z2hQZThPdXRlZk9KV3FQUEQ1cVcxODljUHpnQzI4d00wR1YtNXZTV1BhbThnN05wdzhCWjUtZ3pDQWlDUEM3X3pxdHlYNWxTcWlycFVONXFTNV9oRlNRNzZYQm1TVzNxbzZ6Nk5MQWx1a0ZrNE9OZw?oc=5",
-   "date": "03/11"
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQ3pVdC1HSW1MUzVpSUFKQnlucTR1X0JhSUxCbFltRmZSUkJBdzV1NXU0SzBHNkd4VEFfTjlLTF9EMkZBak4zUVFIeUk0WVNaXzBEWERoODYtaGFUQVM2TkZGMVlPTTZ6dXNCcE8xUDIxcmdRREpza2ZLSlQxaDlfWkpIMjFsQVAwOUF0ckhfTGtxNFpuYnh2MDRFSHczRDZmcXVPR203WTI?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "NVDA",
-   "title": "Nvidia Balances Supply-Chain Bets and Tighter Cloud Rules as Wall Street Trims Its Target - ad-hoc-news.de",
+   "src": "TipRanks",
+   "title": "Why Couldn’t Nvidia Stock (NVDA) Hang on to Its Premarket Gains Today?",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPQlpId3I1SkRRd3NUNmNONERZWlhDN2dVYlFRSHZ3cEpRSFVzbFJnNDNCMFdUSlRmWmZQSlpsdGxPZGZIVU5LTThIeVBxYmczUWZoaXhMejJjYVJOQXBTNVpwUFdJQUplejF0d3pWOWJrbEN4OXY3ZDZsMDhtbTlCaUJQVG1vVktKNlFQd3JqQ0J2QUtLS1JIdGlFOUNiMGlLNGtib1ZXc2c1aTNkN0tKX3FKUG5ZdE9ucDBDSlpRbWJJTndLcl9aZnF6RVJ4QXhiY0FkOFEtNVV4dWlLM25ZTE9MNXdNS2prcF9mWi1Fa2MwM0U?oc=5",
-   "date": "03/11"
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeWN2Zkw0cElZVnEtQXZHeGR6Z0UyWXhMM3RMSUlkdXJLeU5LaEJSOXB4ajk5MW8ta29mVVZiS184WEppdmk1LXRxS0lMSXZKYWlUbGpqLVRBdUF5TnA0WXFqMVZvRU9vN3FNSUlyZ0pLSndHQ1VIZnFPS09hS0x2X2FKOGZnYjRUc3VvTmxZVVR3dkFsSENqMGZkOF8?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "PLTR",
-   "src": "MarketWatch",
-   "title": "Here’s why Palantir’s stock is down despite a ‘bombastic’ quarter",
+   "tag": "GOOGL · Earnings",
+   "src": "FXLeaders",
+   "title": "Google Stock (GOOG) Rebounds Toward $300 as Midterm Results Shift Big Tech Market Sentiment",
    "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://www.marketwatch.com/story/heres-why-palantirs-stock-is-down-despite-a-bombastic-quarter-42c9fdb8?mod=mw_rss_topstories",
-   "date": "03/11"
+   "prov": "Relevant to GOOGL · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPTkhmQjVqOWpRVm1qT1lNVDVqVHFzcnBveWU2U2hGNHRxSVQ0aHlBOFV2LWdrOGR6R3Z2MGFMSDA1MHJmcm9QZFBqSXdBMHQzX0dBb29LTzdyWjRoaTVQSDNEWlRiZUVTOS1ZU0lYSG8tRTJtRktRdjhJclJqZUQ2a2U0U0dmcko3QzYyNXNZa05PODZ3UGsyMHJLbEZzM0lIUHgtYlExTVNxMGoxc1F6LWtCU3JESkhJYi1OeG5sVHhndFZ2RTdtT1ptUQ?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "AAPL · Earnings",
-   "src": "Yahoo Finance",
-   "title": "Apple Crushed Earnings, but Its Stock Is Dropping Over Memory-Chip Prices!",
+   "tag": "MSFT · Earnings",
+   "src": "Livemint",
+   "title": "Wall Street cheers US midterm results as Dow jones jumps 1300 points; Amazon, Apple, Microsoft among top gainers",
    "resumo": "",
-   "prov": "Relevant to AAPL · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd3dlNjMyODl0UjUyX0NfdTItczlMcXgyYlpZdlJZTE9LYWQ0cVE5d3ViMXJrNWdmOEZqWTkzVGFaT0wtWEVQSVQ2R2QycFQ5N21qX3NYOG9iY0lXVVNmUXdwdUVCX3VZa2Joel9sUE13TDRxcmpUODFoUE1JbEJKRHFXWm1XR1BmRkstZDFBekljYm9XeVpUUlVnaHZRWEZwS3g1dA?oc=5",
-   "date": "03/11"
+   "prov": "Relevant to MSFT · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPX3JjQTNfcmJ0UVE1NEQxeE0tSFlVMkI5UWFWZ1ZnenhLNjR4dThTZXZBQ3ppaUU3b0RNeU4tRm1QT1Z3Q1Yya1ZhMU9OM2gzQVh2THA1bUZ3YzFEMzFSYTM1amlkRVQ3d1FVOEk1bGZJMG9NdWlRWXR2bl9aVkJfQUdKVGFXVmFnTmMtOGNNNW00SDNlbzNKb09LZ2pkTXZPcU5FS2hyM1A4cmNBWFJ5TzNSdEhyOWo0d3NEWHpoXzJWMV8xUFBDSzNXRG5aSzJHb21zQ0hSNENOOWZrZE1qUVJYSDNwVUhCV01YNFBsemFVUGpzNHNuQUVGUEpqSmVjQVN5c2ZCQ2FOZXPSAZACQVVfeXFMTV9oQ2Q3eGFnd1ZoUWhpam4xNHRWT0ZNY3dabGNXcFRvR05JZ3p1TmZ1VDJWZFpKVVZMMkNENkQ2VWRORzZ2V0tvakM3QUF5djUxb0U1THd6Y3owcHlRd3hRM0Eta3oxQUZtSmh1V2dSbVBoOC1rdXR2YnVNZnF1VUE0anRUa215eC1HaWlRNGxiTjFDQ0VsVGRoMVMtLWR2Z2N2Q0xnQW44Mi16bi1CakpsR0dRM0tTWjEyUkJvUWFaUnBHWWxycWsxX09YRVc0bFEzcExRNGUtN19zRmRwRDN0dndTVEl3bHFxNGI2LVA5ZEx2cm5ZbG9KUHdlZzZtWE5FX19SUEVjTHlnUFZhQmQ?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "MSFT · Earnings",
+   "src": "Morningstar",
+   "title": "Microsoft Shares Are Down 2% Since Earnings. Is the Stock a Buy?",
+   "resumo": "",
+   "prov": "Relevant to MSFT · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWFBMb3NlLVBVVU5zTE1NTk9jRFZvMURNbDBqWS1mQUhDY2pLN21GMzJoQmtabmFScVBHb2xINGJkeEFsQmdMSHQyM0NsRk5MdlJ0bktOYWRGcnhwbkw1VFc1dmVpck53SUluZWNVM3lCT2pHWTZ0dmVPYl90WFRPMVFUN2xBWDFNOVlJa1VRRUNOYTdy?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "The Killeen Daily Herald",
-   "title": "Nvidia and other Big Tech stocks lift Wall Street and make up for a drop by Apple",
+   "src": "Traders Union",
+   "title": "Nvidia stock drops as seller pressure builds below the 200-day moving average",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPSzAtVUlxWUFvaVl5a3VlQThqblF3NUl2VUtsckZ2cFpsU1ZfeHROdmdlLUUwUHlKLWpHTGl0QkFHQWRSaXVhVFJMa0t1dEpXSlp4Q1R1eXNOcTNjbXRWS2w2TnpLVTZ2VHFpN0I0azEyZzRheDNUb2FIaUd6RkwwNWNaWHctM0lSdjRqRE56UnJWWDBNZVhaS1BPbkNjV2NYMGVXRXNyNTZoZzBSODhiMXowXzlXX2Y3eXF2OVJVRE1tUjRHa3ItLURTTHdUR2xjTzkzR00wNDNYVDZmRXJZMEdjX2daaklweWc?oc=5",
-   "date": "03/11"
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONjNPNDVhQkMybjVtQVZVeEI1cnZqUVdLenc3TGN0TmNRUndMeEVCVE56bmpqYWlNZWdfRHdIanNIdUw2YllkMlhPMW9RUHdYa09jaFBWd3drR2FGcThoM2tjVWNDeUM2dUR6TkROUFBJWHlxQ0xXa3lpOFhGMHdEd25UeGdvV3pUSThvOUZ3azM0UQ?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "AAPL · Earnings",
-   "src": "Benzinga",
-   "title": "US Stocks Mixed; Apple Shares Slide After Q4 Results",
+   "tag": "MSFT · Earnings",
+   "src": "Pluang",
+   "title": "Microsoft's stock lags despite 32% earnings gro...",
    "resumo": "",
-   "prov": "Relevant to AAPL · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPXzBKR1RFdFdLRlV4Q25EYjZKS1d4SFVtam5HeThJWVZCbmRPeVZHYUxEMTJQZ0JJdC1lSFNLOWNvREYwc1dhSEhvRklodEZJTVlnaDhiWWs1Y0owSDM4VHdvUjlBR2VOM1RrZ09jZ1loVDg4clFWcmpkVWhDX25jbVowYWRfVjcxY0xsZEw1VTJLbGUzQXp4dkozMlNVTmRvUEoxU0xKNjczdVQzVV9MWFFMbmM?oc=5",
-   "date": "03/11"
+   "prov": "Relevant to MSFT · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdkhGX3Y1bkMtbl8wMFVyb1kyNHRXay1jR2RSc2FyQ0xlSXVaX0R1bjNvT2tJNTkwTGJ2R1h5X2NLQ0Q1aEZIUkFxZVdvU2Q2S2xBakN0VlVCcEcyd3BpLUtGWTBLMXJlSFhObWZqUEU0NlhzUURoS0FsZ0pwSF9UVEg2V3FQeXVGV0RMZnZUNzBnem5QQTNWeUJ3?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "AAPL · Earnings",
-   "src": "Android Headlines",
-   "title": "Apple Beat Expectations on Revenue, So Why Did Its Stock Slide?",
+   "tag": "MSFT · Earnings",
+   "src": "Traders Union",
+   "title": "Earnings beat and cloud commitment lift Microsoft stock as upward price move continues",
    "resumo": "",
-   "prov": "Relevant to AAPL · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOMHI1Nk1JTUJkZnZkaDNsaGRWUzUzNHo1aldQNVpzWm53YTdhY1pyb1c4RnRBZjl6dFpvbXJXTFg2TVRzbTVmYzZvbGN0aVJfVk5KYTlpMTdHUW9XVmY4TjNDUUtUOVVXbTVKdlg1b25zR0FzV0NucV9DbHlUeG9Scjl6RE4xbWI5Rl9iNmpJSVo?oc=5",
-   "date": "03/11"
+   "prov": "Relevant to MSFT · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbzFMM19KQk5faVN4MWd1RWV5RV9ST280ejhhTl9VV1ZwR0xYZWZhRF93QTREWVRsZ2xIbkVhX25WdldQS0NsNnNMeGVyQS1CWlR0eXVlUFFpUGM5bm41QTl2RV9WVFZYUDBTZXhXVjl0MWVWRUFuTXNHdGNwVks4dlZkaklTczRMZ0hCTjM1MUpHTUl2?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "Invezz",
-   "title": "Nvidia stock up over 3%: what's driving Tuesday's rally?",
+   "src": "Forbes",
+   "title": "Can NVDA Stock Jump From Here?",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdFhQS2RRQVRFNDBrRE5RdzdEOTlickdlWkNGQmdNTUltdnhwTTltblVhcS0yemdPckUyaDFVMjNuTjZmbWZXYUVheWFPeVFjcExfS0tGUUp3TFM3LWJnM2ZHTE8yQVdSMGhaUDI3Zm1vbkNrOWNubWxUOU9scE0yWXhhMFdBV1Ey?oc=5",
-   "date": "03/11"
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObmF6QnBPeWRmWjVDYV9kVFRIVWNJTE82UXROYlZ1akh6RXpzMlloLW9VSUFqTFFMekVrUlF0S2NfUTFBaEE4N1lDa1ZienFGVE9TeHFzV2N6c002MzRLdi1mNGh6RW14eHU1MlgzLWM5YjBHOVRIXy14QnFwVnlhdWFVRmZhX0dPdFpfaFd0a2I5UQ?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "PLTR",
+   "tag": "NVDA · Earnings",
    "src": "24/7 Wall St.",
-   "title": "U.S. Companies Now Pay Palantir More Than the U.S. Government for the First Time",
+   "title": "Intel Drops 5%, NVIDIA Retreats 2% After AMD Earnings Beat and Strong 2027 Outlook as Intel Falls 3%; AMD Stock Goes Nowhere",
    "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNkdZZnktaHhrbm4zNUk0S0lqeXViNVNPVTFsdGZvbXJqeURMTUZ6SVg2Y21uQy1iSV9JUDA5aW5vSUpwSUtVMlphTmV3dFBfeUN0M3ZQZDZjZUV4YmZMU2tGempOZmtiWWMwVFpzdHRERGN5SzVIb0Q3aVNmc2dMZFM3TkdKQUlEbVFwU0kzelJieVMweWktb05uY2psMUdNOTFQYTNDR2tMNzlaZURlTFYyLTdrWGQwT1NZYWRzdw?oc=5",
-   "date": "03/11"
+   "prov": "Relevant to NVDA · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPVnlhSjhhcGtkM1VvZ1BqMEVhR0d0QWNlaXNfYXNBS3ItR3dIX0k5SS1mQjlqUFBTM0tqa1F6SExNWndUeC1VSzZDNmtwYjVzb0piU3c4MFdlQ0MwdUZBVHVRbTZaT0QwX3llODFMc1A0M1pyLXNJRkJ5MkZRXzJCWUJYUG1RSm9ySVZfb2lhRGtzQVV5ZHBHWk1MQlJRcHZkaGJjNnNEZWpWUDZsbkxJSVZpUWw3Z3FrUEF0cG9hclZwdE1YTHYtNlFndW5pNWRiajlJUTVIcXNNeU93NWJPSWZFSTdUblp4cXVfRUpZM2FIZXV3T3c?oc=5",
+   "date": "04/11"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "NVDA",
-   "src": "The Globe and Mail",
-   "title": "Is Nvidia a Buy Right Now?",
+   "tag": "AAPL · Earnings",
+   "src": "TIKR.com",
+   "title": "Apple Soars 6% as Bernstein Lifts Price Target to $380 After Post-Earnings Margin Scare",
    "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdzR6STJheVItQzZoTC1uN3d4REdwR0k1MUw5d2E3LUU0dEJDeXJQU0hEY1REVFhHSm80RU1vR054M2RhVGxOUFFTX2poTmVsRmUwbjg4WnNTTVp3dGJpeXRQN191QlVKUFNnT0ZqcUI5SmVmZTkweVhZd25kelJiSUp5a1RVNVhWX0t0TWxBb25XS3ROLVIxV3VlSXVDSDdHNHExWmk2eW02c29XQ2g4?oc=5",
-   "date": "03/11"
+   "prov": "Relevant to AAPL · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbFlQWjR6TGtiTzVRTDBoWnFleWt2N3hqTndhQVZFZDJxMnZ4QnFjQ3JKaFgwYnFtdV9kWkF5S1dnYWZCbDFOdExZSkNwQkw1WDhaNzhXb2M5aXNBdmZlQXJ2NV96VzBVWnZETWFNd240X19sbWRXOGZkR0xZSGxrem11Q2VJNGJuMk9yYk1zLXRDNUVWajk0NzM3SHp0THpJSkpQMjhSenFsT1BZTjBmbTRn?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "PLTR",
+   "src": "PLTR",
+   "title": "Palantir stock clears USD 2.3 billion revenue mark as outlook rises - ad-hoc-news.de",
+   "resumo": "",
+   "prov": "Relevant to PLTR.",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQU1duVmJPYmZuT2ZOX3NDWm13MFJTMVUtV0p1NUhGQ1lWeDZVa1pxZU1paGRxdUhLYlZsMVN5Mmd0dmUweElfVWI3MTdBbktXMVFJM3JfM1pGOEJmVXlnNGRhZUJTbWhEZFRGMGZDM0M3Wk84YXVVNElXdWoyaENNNHItaUJhX1cxTTJHZ3BVSl94RElBTUpZeUlEczVtMW14Y1lWRXBoenVZV09WLTUwcThNSkR3RWlwU0xFSGJOZ05Wdl9tVGFqeUp3?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "Semis · Earnings",
+   "src": "Barron's",
+   "title": "AMD Stock Jumps on Big Earnings Beat",
+   "resumo": "",
+   "prov": "Relevant to Semis · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9mcnlEQzhqWExyWFlMNDhsWkRvc2VrVmtkR2tqUXJzQWZBWGh2UzMySGZqUjhEN3dQcFhEWGpUczZnUHJ3WFB4cEJOUDhIMHlwaGxpRGI4YmlUclBaVkVBWHFoNmhBckFUU1ctUllKaF96bTB6?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "MELI · Earnings",
+   "src": "MELI",
+   "title": "MercadoLibre stock faces earnings test as margins take center stage - ad-hoc-news.de",
+   "resumo": "",
+   "prov": "Relevant to MELI · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPUWdqOHBmV29pUGFfLTJwNGxMekdULW1JX3Q3cHhKeUZ2NGtOZ29BQjlsVG95TmZWV1podHhHbW5MNlE1Z1hCME1HOU1iLTJ1UjhWNzUwT2pCQWZJbUFYQXZjYkQ3R0JCc1o4UlpUYXRCbzI3T2Noc3JLOFdOSWw2eFhPaEE5SUlydE1yNS1MNzZuaVVMU055VENJT3NMNlMxamFuUWRxNDN4YzFVWFlQQm1seW80RThZSEk4cjFRMnZKU2ZKN2VqemV3?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "MU · ASML · Earnings",
+   "src": "The Information",
+   "title": "Chip Stocks and Neoclouds Sell Off on Election Results",
+   "resumo": "",
+   "prov": "Relevant to MU · ASML · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0JJQVBlRkdLT1kteGVYYmlQQ2Y1RUV0dk9WeTJiRFJnM1U2Y0dCcUVwWkc5em1qbE85Q2lXN2RmLVE0SVI1cnRuR0R6UUFaeVpCYVJFVFZ5Nkd6dUNDX2lGeXpBaFROM3N1RV9rSWl0aGQwM01JcVlsQmdER3Z0cFJjbjcwLWVhTFZ4Tw?oc=5",
+   "date": "04/11"
   },
   {
    "region": "EU",
    "p": 5,
-   "tag": "PLTR",
-   "src": "Bloomberg.com",
-   "title": "Palantir Executive Says Ukraine Support Is Controversial in US",
+   "tag": "US Big Tech · Earnings",
+   "src": "Yahoo Finance",
+   "title": "European stocks move mostly lower after mixed Apple earnings news",
    "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQa2JjSFNuQW1nUnkzbjQtemo2aDFqUVRWLXdUY0xOdVRGUVV4VFR2WE1IekxzYWtuWjBwakRnMWd5dk5uWHVzVzVWUmJrcFJvbF9Udmhlb2Mtb2lpOFE4ZlNBMVZETDdkWU9ua0JtX1VHcko5YlpwMmZnQktRYmljNU0yTG1RWUVaMzBKNEMzaUlLMUlPQ1A1UzExQjh6WlY2NjQyMnZZeTZfQTF0Z0x6RFRSQQ?oc=5",
+   "prov": "Relevant to US Big Tech · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR3k0UTVWUkx6Sk1OYVVBX0dDMHNuN0Y1WTdFMlBnVjlzNHVLazJMaDROVjJTazU2V29tRWUtbEJWcmFtWlVENDhEWnhjWElfaTBIRTg4WEowOENwd0NaOWFOUk85RXBFdkYzbUdwOGQ1VHpVU0tGdXlFS0lWZjM1a21QZGN1blhLT3hLR0U5Z3hjZWFzQjE0UHFrQ0RiYWNVTDJZZ1lQeFA?oc=5",
    "date": "03/11"
   },
   {
@@ -186,6 +186,17 @@
    "resumo": "",
    "prov": "Relevant to Earnings EU.",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWjl1UVcwNkNIV2x3Wms5TE9RanlQNHJqeTFENm1VeHZOTTdfUlplOUY5NE1aSDZSME5wcGJRaWh2NjNwcTRTSmFacGx5aXFBSWZFRXNrLTBTc3pSMUVWVlRqaEkyUHZEMlZORHlINlI1SXFOc1lvLWs4RlZyemN0RnNWTjd6WEFuVGYzaA?oc=5",
+   "date": "03/11"
+  },
+  {
+   "region": "EU",
+   "p": 5,
+   "tag": "US Big Tech · Earnings",
+   "src": "The Economist",
+   "title": "World in Brief: Anthropic’s big spending plans; Apple’s earnings beat estimates",
+   "resumo": "",
+   "prov": "Relevant to US Big Tech · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV0JVWGhoVHlxek00Z0N0Zmh3cDBCT29zN040bjRhQmIxMkZqdVNGaU5NQ0JqdXJkZVhYVlFjTkJRRU5ZN05XNV91SkFkV1dtSGYzOGl0djk3bHVvWHZDZmJLZ1Z4U2g0LWFCNGxtMmhIcHpvNktpeWRUYnRUM1I5NlJQa2JtTnpLdUJlbFRKRURpNDc1UGE0?oc=5",
    "date": "03/11"
   },
   {
@@ -209,61 +220,6 @@
    "prov": "Relevant to NVDA.",
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcERsWE1GekIyVGJ1cmZzdHdvQnp2TkUtUi00eW5kUlBoeFZNbE5xNFZCMHNZdC02cmhvWXFudFRhRmM3RlpHUWtaZEdpR21rWnpwaFBaajNGMHY0WHYwcGlKbFZwUnhCLVQtRmZGZ0tBVV9fd1dlV041LUg3bnhDcE14emY?oc=5",
    "date": "03/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "PLTR",
-   "src": "Bloomberg.com",
-   "title": "Watch Palantir's Mosley Says He's Concerned About Europe's Slow AI Adoption",
-   "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWk0yZW9EVFZtNWNKOUpReUdpZW1SaHlMWExUMmNhWGw2bFNndFdscXBsb2lCbk52YnZLRGtZalQ4eUNZbXFINGthOGR5R2o1UGVac29GcVo4dWFnczVrTFZtNlFSTkduaGJZU0FQajltSzJpcWc1TlBDcld5a1hleU1JLWd5VGJhQ2FwU3U0WDZYcms3V25VMzUzdkpERW5qWXhhU3V2VEg0QTRK?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "PLTR",
-   "src": "Bloomberg.com",
-   "title": "Watch Palantir on AI and Technology in Europe",
-   "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOW5wVmNpQ3UtMVJvSkFhSzJmNFF3Y3VJUGMtQnJlUVFQWnZ5WjlWZGpkNHdFeHRkYzBSYVV5b3h6VU9FaTUxelRpSXRJOVVJZm43aHV6eGlKOXFzeHRFdkpDb1Y1TXZKWkVIYkgyNEhDTm5zM2VNZVVXVVBVVFhueEhRcDd4Zw?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "US Big Tech · Earnings",
-   "src": "The Economist",
-   "title": "World in Brief: Anthropic’s big spending plans; Apple’s earnings beat estimates",
-   "resumo": "",
-   "prov": "Relevant to US Big Tech · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV0JVWGhoVHlxek00Z0N0Zmh3cDBCT29zN040bjRhQmIxMkZqdVNGaU5NQ0JqdXJkZVhYVlFjTkJRRU5ZN05XNV91SkFkV1dtSGYzOGl0djk3bHVvWHZDZmJLZ1Z4U2g0LWFCNGxtMmhIcHpvNktpeWRUYnRUM1I5NlJQa2JtTnpLdUJlbFRKRURpNDc1UGE0?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "ASML",
-   "src": "KuCoin",
-   "title": "Sequoia Partner Predicts SpaceX's Revenue Will Surge Like NVIDIA, Underestimating Starship, AI Computing, and Direct-to-Cell Technologies",
-   "resumo": "",
-   "prov": "Relevant to ASML.",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUDZyUnA2ZVhPU1dZenh2RDFQV1hEQ0JvUXk4cDBXbXp0X2ZyY1NHYVhBMThWQUtuamdhbTJyTWtLd3BNXzdXWUN0QTdPUjRSRldVYW1kNW9odzYxdElnYjJna2RkUDloc3RpZ0dveVlwMXhTS053VVNkMlU5SVdEeGt3cUpJNzRxLUt0R2dwcWZaeERzNndKRk5qWHFpNFBfbFMyUFlRMWU1RTgySEV1MXNYNm5SYXlQdFdyeUVfS0Jua3RBVXUwa1dxdWxlNTZPcWIzZGJuWnhud25kX2tmNzdtcmU?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "ASML",
-   "src": "深潮TechFlow",
-   "title": "Sequoia Partner: SpaceX Stands on the Eve of an NVIDIA-Style Growth Explosion, With Starship, AI Computing Power, and D…",
-   "resumo": "",
-   "prov": "Relevant to ASML.",
-   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzSkdwOHJVVy1pVGJpWXRoRVpuVkxEbWdsSS0xdjNHb2xYZk92MXl4QU0ydTR0MnFscUk3QldlV3ZXNU9TQ18zeHd5bzlMZWY1ZXNVSk9RSXFESkVp?oc=5",
-   "date": "02/11"
   },
   {
    "region": "EU",
@@ -312,17 +268,6 @@
   {
    "region": "EU",
    "p": 5,
-   "tag": "Earnings EU",
-   "src": "TradingKey",
-   "title": "ASML (ASML) Q2 2026 Earnings Preview: $7.94 EPS Expected, 8% Options Swing; Triangle at $1,800",
-   "resumo": "",
-   "prov": "Relevant to Earnings EU.",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUk5WVnlaMVZ4c04zTVNBV2ZTSDdGOGlsM2xvZUFVZ042UTI3U1p6N0tiaVFJNS1qZmNOTEF1NTBQaWxCWUpLVWF2eXRVSG80R0tTenZGeW5XRGVfMU1RbEEzeXhQS212QVhweVA5ZFdmbFJUamR6UTgwOXpTN1lDZDFtSVRMZWpSSndZclJ6RmxvNFo5VS11RnBtU2xRdFhDT2JkMWEtY2RvdW8zdTkyaE00dlB2WDdVb082OHVROFBoWVRwaEt1NUJn?oc=5",
-   "date": "01/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
    "tag": "NVDA",
    "src": "Euronews Business",
    "title": "China rejects report of spy plot targeting Nvidia's Jensen Huang",
@@ -330,6 +275,171 @@
    "prov": "Relevant to NVDA.",
    "url": "https://www.euronews.com/2026/10/30/china-rejects-report-of-spy-plot-targeting-nvidias-jensen-huang",
    "date": "30/10"
+  },
+  {
+   "region": "EU",
+   "p": 5,
+   "tag": "US Big Tech · Earnings",
+   "src": "Euronews Business",
+   "title": "Shares mixed after Google parent Alphabet's earnings disappoint",
+   "resumo": "",
+   "prov": "Relevant to US Big Tech · Earnings.",
+   "url": "https://www.euronews.com/2026/10/29/shares-and-us-futures-mixed-after-google-parent-alphabets-earnings-disappoint",
+   "date": "29/10"
+  },
+  {
+   "region": "EU",
+   "p": 4,
+   "tag": "ASML",
+   "src": "ASML",
+   "title": "ASML Holding stock slips as dividend date meets AI demand debate - ad-hoc-news.de",
+   "resumo": "",
+   "prov": "Relevant to ASML.",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNT193WlY5UV9QVTl5ckQwRE9BdXpKTnV3QVlOa21RREswUDRyRWhKc3FIVG5zTHFXWC1hcWQtRVZndEs1T21RLXgta3Nmc3pvcTZZU3JXbVlFTXlfRVU0MHk1OGVoeExYQzZXSVhEQXN6ZnpxdURRNEc4NWNuQTFobUplbi1Obm03dS03OGlyLURxWHZPOXRPcWtfYWxoN19ITVlEUm9FM2JZajdfTzlsZERRNWhoRU9neVk1aFVBNG1wSGR1VXc?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "EU",
+   "p": 4,
+   "tag": "Market · Earnings",
+   "src": "Financial Times",
+   "title": "The TJX Companies, Inc. to Report Q3 FY27 Results November 18, 2026",
+   "resumo": "",
+   "prov": "Relevant to Market · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVHdLZWREQWsyUHJzY2tYNElRODdyeDFIRndjMkNoWlRSOWl4OTRBREY0Z3pPNTkxNGNHaVZMZ3MtSHBkV09BMFg4Q2o0RnZ2Y2wyZy1mbGcwQkpIM0M2S1BBcWVFVDBUTHMtanBaRDFoVlFGZmJta3M1ZUVPdUhXTVZJcGc2SnBMRGVRT05OX3VKeHZhVEN4bXR3U3dBcS1JeUJqWmZR?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "EU",
+   "p": 4,
+   "tag": "Market · Earnings",
+   "src": "Reuters",
+   "title": "South Africa says US midterm results usher in new era",
+   "resumo": "",
+   "prov": "Relevant to Market · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYldVVWZMVFEwSkw0RXVnZFhkTGpRUl9rNVpMR25KUW5kaTJLZlVjUjgyZURaUW9XMzdxaVRLNmRsbV9VeERTcjJ6MmhwMDVRdGsxZW9mSnRWNk9DRVYyWVN1Yi1qTVNlTW90M3ZmWi1nQi1KVHBtRmV6QVRmeUNOUmVVNXA0aHRlX0k2anZNX2dGYXBuZjMw?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "EU",
+   "p": 4,
+   "tag": "ASML",
+   "src": "The Motley Fool",
+   "title": "Better AI Semiconductor Monopoly Stock: Taiwan Semiconductor vs. ASML",
+   "resumo": "",
+   "prov": "Relevant to ASML.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTGltQ1laWTRjdVRfcGJwWTZHVkE0Y0J5MlJtd015amczUnFLLWs2c1RNSXNsdHppUlI4WHp3MHdCdWtYOVVQVEZScWRaenhtdzl6eWJ1TEpOaEJkWWRyaS1PZ1lGTkVZVEVxTjN1T3NLRHBRLTRac2w4YTJGOU4ydmZWUGZDb0xTODBPeXJmZkh3QkFJQjZoUg?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
+   "src": "TipRanks",
+   "title": "Why Micron, SanDisk, and SK Hynix Stocks Are Falling Despite Strong AMD Earnings, November 4",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObE9mME5lQkxvYTAtZkwtd3hiUjc0eDVPamRxbEpMYmJiZHBtV2oyWllGSnJCU2pLV2VuLXV6SUY5VnU4dVl6YUhubUJVdm1HUi1ZaDJtLWxmNlktclNRdExMbHZnajFBUU1rblNsM3cwQ3NlS1FZY09SUXNsRzRXLWpkWEZzZlVYSFpybUxHMkQ3U2JoSGZTNkdoOW1WYmVwSzJ3ekNyTnRGVW1tTGRkbTNSMWdvaWprekk1d3NQNVRIZ2FNS1hV?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "PLTR",
+   "src": "BigGo Finance",
+   "title": "South Korea's Samsung Electronics to Build 2nm, 4nm Foundry Fabs on Idle Giheung Site in approximately $18.7 Billion 'KAIROS' Project",
+   "resumo": "",
+   "prov": "Relevant to PLTR.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3VW9td21saGJpd2NZYWUtVnByRm4wLTNrU3hOMlNxd2MzcWNTRUhaRkhKazNnWWcyLWJHZ1ZfazBwVEE2QjYxUE16S2l4b0pZZXBFbjg1NzlzNzh3aFUyeFc4LVlfVjhsc0hjV0dvelcxNldNdEE?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "PLTR",
+   "src": "Businesskorea",
+   "title": "Samsung Builds Advanced Foundry Fab in Giheung",
+   "resumo": "",
+   "prov": "Relevant to PLTR.",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jaG8tSVJzQlJwQmJ4MHhYSGVaMzdVb3JibEdLTXM1WnpnbWZHT3ZaQkFNaXpCR1JSSURMNFpCNXB0X3RTSGFTSVNyVDBwMlBPMWFPNmZzSzIzS0J4MzUtMGh3d21JWFlCZnVWVFFOQ0Jia1Zu?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Memoria",
+   "src": "Seoul Economic Daily",
+   "title": "Samsung to Build Advanced Foundry Fab at Giheung Campus",
+   "resumo": "",
+   "prov": "Relevant to Memoria.",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWjlOTUx2S2UtMTQxZGg2OEE0Q05IcUpKdEZWSXBpZVJuU1JsQVZ6VzBxZWRsTGxzMTM3MUd6ZmRPaFEySlF5Z1UyVkR0Vi1QUjZwc3A3eXYySlY0MU4xOTdzeWxqNnhyaG1IYUFZdjYwYXFicGQ4aWsxSkd4eEViREhtX2kxb0trVUZZeE5ZZUN4akRKLWVfVUZLS0tYQQ?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Semis · Earnings",
+   "src": "TradingView",
+   "title": "REG - Samsung Electronics Samsung Elec - SMSD - Report on Share Disposition Results",
+   "resumo": "",
+   "prov": "Relevant to Semis · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPN1J1NUJlY09Ea01WVmZ6S01Cbnl5S0pZQnlYenJwYVNRR3o3Y3psRGlsZ2tIOW0yS3lXS29FUXZmOW42Zlo1Yl9rV1hraVJxN0s5TGQyZE1KeU1SOV9ZV2xhZm9RT3ZieUJZSnVwOXpuN2lSc21kRVFEclY1dnBiblRvb1g4ZVNPN2kwclhTeDJtVWJYR0tfa2VpbFpMQXI1azdDWDhtNXQyTzQwdDZBZThLUXpZa2JIbXl6SzZXc00yZV8ySzJuQ0ExS1Z3SC1FUHZDMjFwUFpibHE3MGRadzJBakpwYVZD?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
+   "src": "FourWeekMBA",
+   "title": "Samsung, SK Hynix Regain $94B From Midterm Results-Day Lows",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdlg1cXhCMVBMS2V4RGN0QkdTOXRTOFl1TVdWaWlBOUxFel80SGl4eFFRa0s5RjBpaEY0UXpwSHBnU3BYRzI5V1NFVVBBWHY1YXplRjl5RllBd0ZZTHNaOENZZHNWd2tYX1dhQi1HZlhMcU45dmxkd285QTQtT0JKYmtfTGRqakVpZnRfVjR3?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "TSM",
+   "src": "헤럴드경제",
+   "title": "Intel kicks off 1.4nm process push, taking on Samsung and TSMC in advanced foundry race",
+   "resumo": "",
+   "prov": "Relevant to TSM.",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBFSEdNbnJFMm0zV2ZJSU5CbU9QVHB3dXlXcVdkeFk1MERBS0VjcTN4aG1BeGZ1YVI0S0poQWFUem1wTWE1aDJ5YjJmTzZlNDBOcGdiQ3NGZw?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Memoria · Earnings",
+   "src": "KuCoin",
+   "title": "Micron, Sandisk, and SK hynix Stocks Rise on Strong Earnings and AI Demand",
+   "resumo": "",
+   "prov": "Relevant to Memoria · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVC1KcklDekNtVnhBV2ZsaGk5MGYtSVU4akpmdjN4WTlUd19faHZQS2N1aXNDRVFPUjdOdGVwX1ZjTXdXcnV1YVhWUmNqeExuMTVueVhSdmZuQkNlUjUtY2t3SDhtMEotTkRJLVdEUUNjcWl5RnFxRFVONFRYQWF3dC1PT3VQVHUxRWFid1JSREVUVEJjM3V1R3FVUk9YaEZzWmFFWERwaVFIQQ?oc=5",
+   "date": "04/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "TSM · Earnings",
+   "src": "Yahoo Finance Singapore",
+   "title": "Navitas Semiconductor surges on revenue beat and strong outlook",
+   "resumo": "",
+   "prov": "Relevant to TSM · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRlpFTm1kbWhlLTVpM21JelVLTVg1dF9mTGJyU25TWWNlMDhiSmdVejl2RDVoNGFYc0FaRlJFeXFJNUFIem5NUGs4ZlplVlRoRFVpdEtnRmY0VmRtM3NVZkFmanJBeHpua1phVW1sbFhtYkJJTEtHcmt5dlVoUkRzX1Z4YVZFTnpXTzhwYV9jRnk3QVJR?oc=5",
+   "date": "03/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
+   "src": "BigGo Finance",
+   "title": "South Korea's 'Earnings Growers' Hidden by Chip Stock Concentration: 19 Stocks Post 3 Years of Profit Gains but Lag KOSPI",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9CbWVkeGNTeG9DZTlpcTdfS1BobzFkd2FPZU5ORGRZVkdkRWxHblpFSlBHSHU0Sk9MRGRlYzJRNUR1dVRRbHJKczRCZzFPTllOMElYdUEtTFE0MVdyRmVUcUc0MFNwbmJPOXE0VGs2U1BjMnNrZXc?oc=5",
+   "date": "03/11"
   },
   {
    "region": "ASIA",
@@ -340,17 +450,6 @@
    "resumo": "",
    "prov": "Relevant to TSM · Earnings.",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9JOTlSeHM3MWd1ek1nVHJlMlRwOHBaNmNBVDVFeFFwMFJuTlZGNHMtWl9WZVFSeHpaMEYtVjBSWmV4U1puSU1rRU9fbGRlN09yMWszYzRtT3FDMGxZekJ3OGR1U05zYlBmeVY1bXVuTEw1ZzBDekE?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM",
-   "src": "超能网",
-   "title": "Samsung plans to completely exit the 8-inch wafer foundry business by the end of 2030 and has stopped accepting new orders starting this year.",
-   "resumo": "",
-   "prov": "Relevant to TSM.",
-   "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5iXzFPbGV2cjViQ0NGZE5rMTlZMEY2dS1MWERHZjI4QUZJb2NaNDQ2d2p5WVpHQUpxaXY4TzB0SWE1UXVLdk95enN0UGs2dw?oc=5",
    "date": "03/11"
   },
   {
@@ -389,111 +488,12 @@
   {
    "region": "ASIA",
    "p": 5,
-   "tag": "Memoria · Earnings",
-   "src": "digitimes",
-   "title": "Micron dismisses 4F-squared DRAM as CXMT presses ahead — why Samsung, SK Hynix remain divided",
-   "resumo": "",
-   "prov": "Relevant to Memoria · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE94ZTRwSGVHR3lxSHYyd3E3ZFJjal9CX2JhWE1jdTR4bnRtYUdJRHg4czlKMGhZZTFKb210ZnRVQjlqYVVodE9lcHJvYXNVZUZyWmxGT0d0T2d0S0NVbzZ3?oc=5",
-   "date": "03/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "PLTR",
-   "src": "Reuters",
-   "title": "Palantir forecasts strong quarterly revenue on AI demand",
-   "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORHl2TXR3V1NLdWxVUGFhNHludjhnOGY2M3g4TnktS19Pakw2dkM4VjAxMHQxcDEya0NtXzlGU29qc25GdEdrQ2o1WEI1MjlSc19ZZTBvVVZwRk1XZm9SQTJ5eEdRMm5mQ1p5aVZILWdXREdNU1d3RTBfSGRRRTJYLWVaZk5oR1U1Q0NSNGJHb2h3RUk5czl6bHJKQnBaTUREOWJmZHNKU2VsNGo3bHpldmo3SjRsbUcyRWc?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Memoria · Earnings",
-   "src": "AppleInsider",
-   "title": "Apple's earnings was all about unprecedented memory costs",
-   "resumo": "",
-   "prov": "Relevant to Memoria · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEJEakpPUmNFWUZpaG9IVkJURE5HbnBiLXpIQll1aVUtaVo3Wld2aHlCRGc1eEtHd3U0djB5SWdqQzUzNXJXd2J3QktYY0FTM1VXSHNRNTdHZk1Ba3NjekJ1V0IwWFFMYWppTFlrZ0pNWDRpS1JzNzJvQ01PMHNybnZZU01pYXhVNk1sUHQwNm9INTZVRURUU2Y3dWNSNUV3?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM · Earnings",
-   "src": "Semiecosystem",
-   "title": "Q3 '26 Foundry/OSAT Earnings: Hit Or Miss?",
-   "resumo": "",
-   "prov": "Relevant to TSM · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBHRkZjOWwya2MybmVzVjlrYmJTMlZfbmxSSXpuck9hRWtiZEdDRk1OalZMdmF1c19uZVIwRmZjcm15amYxWXlJdml4NGhEWkp2X3BJanNwdDhERk1mdzlra1kteG9aRDhSNl9KUHhjVkRHaFQybS0tQ2J2VTY?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
    "tag": "US Big Tech · Earnings",
    "src": "Nikkei Asia",
    "title": "Apple's new CEO delivers first earnings as sales hit record",
    "resumo": "",
    "prov": "Relevant to US Big Tech · Earnings.",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVUd5RzJ6dEVHTVA4RVM5TW12cHNDX2MzSFFuUE5SNXhSc2hLZFJDV1pJZ2FwRVJFNTlHdllsbjJwaDUzdGFKTkQ2eTF0Q0s0aDNBZWdVMC11bUx3NjNOSjhtYUJRNWozU0NXcVhJSzF5THlLckc5bnY2Nzk2YUlJSFBtNzRSWjVUaDBXeHRXYXBIdi0wMC1nSkdWejQ3UkZfaThoX29B?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM",
-   "src": "The Tech Buzz",
-   "title": "Intel Foundry Bet Faces Make-or-Break Moment After 45% Crash",
-   "resumo": "",
-   "prov": "Relevant to TSM.",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxON0FWdGdaUjJySUEtY25XSHdRaHNObXowaFpJQnBTOGVuZjBXRE1kMnFRME82NmU1SWVmLXotUldfQmdXYXNrMGVfUGlRclNMOXlReW0xakR5RDhuRjFFZlV6QWozdlU3aE1MT3gtTV9XdHdHT0stN1lkOFFUV1FBYm16dXE1NEtFQ0oxdlFmWFpfbVdaaXlr?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM · Earnings",
-   "src": "Yahoo Finance Singapore",
-   "title": "ON Semiconductor shares fall despite earnings beat",
-   "resumo": "",
-   "prov": "Relevant to TSM · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb1NPeUZ3Ty1pdUpBVGlWdWN1S3hrYlc4ZlFfSEdFNWl3N3F1VlFRMHpKMFVPVi1ienJqNnE2cWlCaHFhT05lOGNGVFdZY1BDVmxkeEhfTDF6SlFRM20wazBHbmp3VHRnZXdvVVdxcE9TUXNsTzZQRUZSTEFmX2phc3Y4UXhHVmk3bDJ4VEFsMHdCcTVKZ1E?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM · Earnings",
-   "src": "investingLive",
-   "title": "Stock earnings pick of the week: Can TSMC keep the AI boom running as US CPI looms?",
-   "resumo": "",
-   "prov": "Relevant to TSM · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTEtsM3hTaUZCejh6OWZrVHl2VWtUeFM4QUFIZWV3ZVBWR3hRUUhSM3I4V203MzY2V0pDQUdYcXRTNlFlT044TGdTNjYtOXFEWnZadHRYUkdzNmJhdGJfSUkzTllJSGFMZlNmZlpuaGdJQnFrckgxbkdTNFpUbUJrOUpudG5nWmJDSnpVbXFhWkVtV1Q2eTVpT2F0RFJUeFN2eDdDcHY4aVBFUjVvVjhsZmZ1dUdOUQ?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM",
-   "src": "CNBC",
-   "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
-   "resumo": "",
-   "prov": "Relevant to TSM.",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMlNTdDFxNVE4aG5RNlM0ZHN0eEx2QXRQRDUxNlI4bmJhNDh4R1kwYzE4TUFrOUJ4NWNKdS1qMENjTDBuSUhIc1E5al9OSGM3bW01SXZrSjZLaElqYWtrSTg2YkZEYzNnRVJua201a2VZcjhqZmxpRDREc29QSEx5dndzM2JSaDI5d2JQVWpPbE9XeWVoNlV1QlJzbEZ5ZGY2RDEyTUYtM3l2V1lGRVZKNdIBtgFBVV95cUxQbTBBOEFUSTR2MkZaNFBDbnppS0lraTVFRGFfdE1LTV91WDBUUkRKWURyZ0VCNUVoV2JweDN1dVBPZy1SVGU4M21pd2haZDFWVlRrckUxMXNtRWtpOUM5aHktYjhYMml0SzR2UXNlVnY4dlpPSE9ZUHllQzA5ZkFybHY4WDVtRFlyc25zRUZ4WTVQeGNwb3V6OFNMS1kyVENJYmhYX2pSakgyLURQQ29DcEhJY3lhdw?oc=5",
-   "date": "02/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Earnings Asia",
-   "src": "news.brgbuildingsolutions.com",
-   "title": "Samsung Electronics Announces Third Quarter 2026 Results",
-   "resumo": "",
-   "prov": "Relevant to Earnings Asia.",
-   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZnV0UDE2by1YQ2JLcTJCbjZjNHVPRERtOHpBcXgwd1pENlEtT0RGRGVVWTZlalE4Y2J2eTd6Z3N4TUlsTVVyQWVKWGZQZFM1MGFJZW1oNmdCWkhfbzNmSmhSX1FmNHpOQ3lkanhqMXQ0R25sUG5PSER4REt6SG5XZUxKTTlKdUJNd3RLQi1uMUJleExod1VxdFBPb2pQUkJK?oc=5",
    "date": "02/11"
   }
  ],
