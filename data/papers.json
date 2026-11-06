@@ -1,5 +1,5 @@
 {
- "asof": "05/11/2026",
+ "asof": "06/11/2026",
  "items": [
   {
    "p": 5,
@@ -7,7 +7,7 @@
    "src": "arXiv q-fin",
    "title": "Decision Models as Scalable Economic Surrogates that Capture Human Variation",
    "url": "https://arxiv.org/abs/2611.05553",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 5,
@@ -15,7 +15,7 @@
    "src": "arXiv q-fin",
    "title": "Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found",
    "url": "https://arxiv.org/abs/2611.06607",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 5,
@@ -23,7 +23,7 @@
    "src": "arXiv q-fin",
    "title": "Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
    "url": "https://arxiv.org/abs/2611.06629",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 5,
@@ -31,7 +31,7 @@
    "src": "arXiv q-fin",
    "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
    "url": "https://arxiv.org/abs/2611.06888",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 5,
@@ -39,7 +39,7 @@
    "src": "arXiv q-fin",
    "title": "Pay and Beyond: The Evolving Rewards for AI Skills",
    "url": "https://arxiv.org/abs/2507.20410",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 5,
@@ -47,7 +47,7 @@
    "src": "arXiv q-fin",
    "title": "A Financial Brain Scan of the LLM",
    "url": "https://arxiv.org/abs/2508.21285",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 5,
@@ -55,71 +55,71 @@
    "src": "arXiv q-fin",
    "title": "AIDA: An AI Outage Registry with Evidence from On-Chain MEV",
    "url": "https://arxiv.org/abs/2611.01656",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "SlackBench: Benchmarking Agents on Collaborative Projects Grounded in Real Code Repositories",
-   "url": "https://arxiv.org/abs/2611.05512",
-   "date": "05/11"
+   "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
+   "url": "https://arxiv.org/abs/2611.06989",
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Anduin: A sybil-resistant agentic marketplace reputation system",
-   "url": "https://arxiv.org/abs/2611.05586",
-   "date": "05/11"
+   "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
+   "url": "https://arxiv.org/abs/2611.06995",
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Corralling AI Risks with Grassroots Contracts",
-   "url": "https://arxiv.org/abs/2611.06374",
-   "date": "05/11"
+   "title": "Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies",
+   "url": "https://arxiv.org/abs/2611.07667",
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks",
-   "url": "https://arxiv.org/abs/2611.06687",
-   "date": "05/11"
+   "title": "FARR: Forecast-Aware Residual Refinement with Matched Endpoint Evidence for Long-Horizon Time-Series Forecasting",
+   "url": "https://arxiv.org/abs/2611.07870",
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-   "url": "https://arxiv.org/abs/2611.06911",
-   "date": "05/11"
+   "title": "How Should Agents See Code? Rethinking Code Representations for Agentic Software Engineering",
+   "url": "https://arxiv.org/abs/2611.07286",
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When to Ask, When to Answer: Strategic Clarification for Ambiguous Reference Resolution in Dialogue",
-   "url": "https://arxiv.org/abs/2611.05517",
-   "date": "05/11"
+   "title": "Adversarial Robustness of Kernel Machines: A Comprehensive Analysis",
+   "url": "https://arxiv.org/abs/2611.07474",
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "BobFlow: Towards Human-Agent Collaborative Data Science Using Dataflows",
-   "url": "https://arxiv.org/abs/2611.05761",
-   "date": "05/11"
+   "title": "Coding with the Enemy: Can Human Developers Detect AI Agent Sabotage?",
+   "url": "https://arxiv.org/abs/2606.05647",
+   "date": "06/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "How Well Can Large Language Models Impersonate Individual Authors? A Comparative Evaluation",
-   "url": "https://arxiv.org/abs/2611.05771",
-   "date": "05/11"
+   "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
+   "url": "https://arxiv.org/abs/2608.06112",
+   "date": "06/11"
   },
   {
    "p": 5,
@@ -143,7 +143,7 @@
    "src": "arXiv q-fin",
    "title": "Constrained defined-contribution pension management: A reparameterized neural network approach",
    "url": "https://arxiv.org/abs/2611.06495",
-   "date": "05/11"
+   "date": "06/11"
   },
   {
    "p": 4,
