@@ -1,126 +1,6 @@
 {
- "asof": "06/11/2026",
+ "asof": "07/11/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Decision Models as Scalable Economic Surrogates that Capture Human Variation",
-   "url": "https://arxiv.org/abs/2611.05553",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Hard to Fool: A Bounded LLM Research Loop for Quantitative Finance, and What Two Dozen Campaigns Found",
-   "url": "https://arxiv.org/abs/2611.06607",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Does Frontier AI Strengthen Cyber Defense? Evidence from Project Glasswing",
-   "url": "https://arxiv.org/abs/2611.06629",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
-   "url": "https://arxiv.org/abs/2611.06888",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Pay and Beyond: The Evolving Rewards for AI Skills",
-   "url": "https://arxiv.org/abs/2507.20410",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "A Financial Brain Scan of the LLM",
-   "url": "https://arxiv.org/abs/2508.21285",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AIDA: An AI Outage Registry with Evidence from On-Chain MEV",
-   "url": "https://arxiv.org/abs/2611.01656",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "The Two-Ledger Model: Transaction-Grain Cost Accounting for Multi-Agent AI Systems Across Clouds, Models, and Systems of Record",
-   "url": "https://arxiv.org/abs/2611.06989",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Autonomous AI Agents Systematically Diverge From Human Preferences in Proof Formalization",
-   "url": "https://arxiv.org/abs/2611.06995",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Who Should Know What? Empirical Information Design for Multi-Agent LLM Economies",
-   "url": "https://arxiv.org/abs/2611.07667",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "FARR: Forecast-Aware Residual Refinement with Matched Endpoint Evidence for Long-Horizon Time-Series Forecasting",
-   "url": "https://arxiv.org/abs/2611.07870",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "How Should Agents See Code? Rethinking Code Representations for Agentic Software Engineering",
-   "url": "https://arxiv.org/abs/2611.07286",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Adversarial Robustness of Kernel Machines: A Comprehensive Analysis",
-   "url": "https://arxiv.org/abs/2611.07474",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Coding with the Enemy: Can Human Developers Detect AI Agent Sabotage?",
-   "url": "https://arxiv.org/abs/2606.05647",
-   "date": "06/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-Layered Architecture for Hospital AI Systems",
-   "url": "https://arxiv.org/abs/2608.06112",
-   "date": "06/11"
-  },
   {
    "p": 5,
    "tag": "Semis",
@@ -136,14 +16,6 @@
    "title": "How Different are Different Differences-in-Differences? A Large-Scale Meta-Analysis -- by Peter Hull",
    "url": "https://www.nber.org/papers/w35974#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Constrained defined-contribution pension management: A reparameterized neural network approach",
-   "url": "https://arxiv.org/abs/2611.06495",
-   "date": "06/11"
   },
   {
    "p": 4,
@@ -240,6 +112,38 @@
    "title": "Green Tastes, Beliefs, and Portfolios: Evidence from Synthetic Investors -- by Xindi He, Lubos Pastor",
    "url": "https://www.nber.org/papers/w35982#fromrss",
    "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: How Did CECL Affect Bank Lending?",
+   "url": "https://www.federalreserve.gov/econres/feds/how-did-cecl-affect-bank-lending.htm",
+   "date": "25/09"
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Affirmative Action, Faculty Productivity and Caste Interactions: Evidence from Engineering Colleges in India -- by Robert W. Fairlie, Saurabh Khanna, Prashant Loyalka, Gagandeep S. Sachdeva",
+   "url": "https://www.nber.org/papers/w35963#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Saving for the Machines -- by Jesús Fernández-Villaverde",
+   "url": "https://www.nber.org/papers/w35964#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
+   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
+   "date": "14/10"
   }
  ]
 }
