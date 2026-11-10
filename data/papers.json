@@ -1,77 +1,133 @@
 {
- "asof": "09/11/2026",
+ "asof": "10/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Shared AI Decision Interfaces and Credit Allocation in a Simulated Lending Market",
-   "url": "https://arxiv.org/abs/2610.15973",
-   "date": "09/11"
+   "title": "Track or Follow? A Jev-Compatible Multi-Agent Trading System When Web News Lags the Market",
+   "url": "https://arxiv.org/abs/2611.10414",
+   "date": "10/11"
   },
   {
    "p": 5,
    "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Scout Before You Route: Predicting Task Success and Token Count from a Small LLM Prefill",
-   "url": "https://arxiv.org/abs/2611.09028",
-   "date": "09/11"
+   "src": "arXiv q-fin",
+   "title": "Winning Reviews, Losing Discovery? The Co-Evolutionary Game of AI Research and Peer Review",
+   "url": "https://arxiv.org/abs/2611.10791",
+   "date": "10/11"
   },
   {
    "p": 5,
    "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Evaluation of a Multi-Link Machine Learning Approach for Rainfall Detection Using Satellite Microwave Links",
-   "url": "https://arxiv.org/abs/2611.09156",
-   "date": "09/11"
+   "src": "arXiv q-fin",
+   "title": "DeepFinance: Can AI Diligence a $100MM Deal?",
+   "url": "https://arxiv.org/abs/2611.10926",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Generative AI, Managerial Expectations, and Economic Activity",
+   "url": "https://arxiv.org/abs/2410.03897",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Information Aggregation in Markets with Analysts, Experts, and Chatbots",
+   "url": "https://arxiv.org/abs/2411.01938",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Advancing AI Capabilities and Evolving Labor Outcomes",
+   "url": "https://arxiv.org/abs/2507.08244",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "arXiv q-fin",
+   "title": "Jornada de trabalho, produtividade e informalidade: uma avaliacao quantitativa para o Brasil",
+   "url": "https://arxiv.org/abs/2602.03884",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Whom Do AI Agents Serve? Role-Induced Sponsorship Bias in Decision Models and Generative LLMs",
+   "url": "https://arxiv.org/abs/2609.17989",
+   "date": "10/11"
   },
   {
    "p": 5,
    "tag": "Semis",
    "src": "arXiv cs.AI",
-   "title": "TailDART: Compute-Efficient Foundation Models for Financial Time-Series Forecasting",
-   "url": "https://arxiv.org/abs/2611.09176",
-   "date": "09/11"
+   "title": "TripleGrader: A Web-Based Platform Supporting Collaborative Triple Annotation with Quality Grading and Inter-Rater Agreement Assessment",
+   "url": "https://arxiv.org/abs/2611.10317",
+   "date": "10/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "RAG-Enhanced LLMs for Interactive Explainability in Clinical Decision Support Systems",
-   "url": "https://arxiv.org/abs/2611.09232",
-   "date": "09/11"
+   "title": "Sampling Is Not Curiosity: Why LLM Agents Should Investigate",
+   "url": "https://arxiv.org/abs/2611.10501",
+   "date": "10/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Agentic AI for Healthcare Claim Denial Analysis: A Policy-Grounded Framework for Privacy Preservation",
-   "url": "https://arxiv.org/abs/2611.09423",
-   "date": "09/11"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "Test-Time Compute Scales Better with Parallel Agent Teams",
-   "url": "https://arxiv.org/abs/2611.09798",
-   "date": "09/11"
+   "title": "Approximate Recall, Approximate Forecasts: Recall as a Diagnostic for LLM Forecasting Errors",
+   "url": "https://arxiv.org/abs/2611.10891",
+   "date": "10/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "CascadeRec: Deployed Adaptive LLM Compute Allocation for Multi-Tenant Content Recommendation",
-   "url": "https://arxiv.org/abs/2611.08566",
-   "date": "09/11"
+   "title": "FinCutBench: A Continually Updated Benchmark for Measuring the Temporal Boundaries of LLM Financial Knowledge",
+   "url": "https://arxiv.org/abs/2611.11588",
+   "date": "10/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Goals as a Representational Layer for Human-AI Collaboration",
-   "url": "https://arxiv.org/abs/2611.08757",
-   "date": "09/11"
+   "title": "Inside the Trading Loop: Markets, Models, and Moves with LLM Agents",
+   "url": "https://arxiv.org/abs/2611.11657",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Benchmarking language models and agents for scientific reasoning in evolving materials laboratories",
+   "url": "https://arxiv.org/abs/2611.12014",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "PARIS: A multi-agent LLM framework for end-to-end, PRISMA-guided systematic literature reviews with pre-synthesis corpus quality assessment",
+   "url": "https://arxiv.org/abs/2611.12222",
+   "date": "10/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Beyond Sunny Skies: Using Large Language Models to Predict Urban Traffic in Adverse Weather",
+   "url": "https://arxiv.org/abs/2611.12635",
+   "date": "10/11"
   },
   {
    "p": 5,
@@ -96,62 +152,6 @@
    "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains -- by Panle Jia Barwick, Lu Fang, Jinhan Liu, Huilan Xu, Zhe Yuan",
    "url": "https://www.nber.org/papers/w36003#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Portfolio-aware scenario transfer of reserve movements: evidence from Lloyd's syndicates",
-   "url": "https://arxiv.org/abs/2611.08968",
-   "date": "09/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "The Network Adaptive Market Hypothesis: Detection, Attribution, and Network-Mediated Efficiency",
-   "url": "https://arxiv.org/abs/2611.09208",
-   "date": "09/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "The Logic of Factor Portfolios: Boolean Rules, Interactions, and Trading Costs",
-   "url": "https://arxiv.org/abs/2611.09834",
-   "date": "09/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Further Education During Unemployment",
-   "url": "https://arxiv.org/abs/2312.17123",
-   "date": "09/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Systematic Covariance Envelopes from Wasserstein Geometry: Evidence from Language-Model Representations",
-   "url": "https://arxiv.org/abs/2410.23447",
-   "date": "09/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "The Long-Only Minimum Variance Portfolio in a One-Factor Market: Theory and Asymptotics",
-   "url": "https://arxiv.org/abs/2604.09986",
-   "date": "09/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Portfolio Risk Bounds without Cross-Asset Return Covariances: Distributional Fields from Language-Model Representations",
-   "url": "https://arxiv.org/abs/2608.29692",
-   "date": "09/11"
   },
   {
    "p": 4,
