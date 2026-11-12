@@ -1,109 +1,13 @@
 {
- "asof": "11/11/2026",
+ "asof": "12/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AFNO: Universal Certifiably-Arbitrage-Free Operator Learning Framework for European Call-Price Surfaces",
-   "url": "https://arxiv.org/abs/2611.12899",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Deep Learning for Operator Maps in Optimal Liquidation",
-   "url": "https://arxiv.org/abs/2611.14245",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Advancing AI Capabilities and Evolving Labor Outcomes",
-   "url": "https://arxiv.org/abs/2507.08244",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Supply Chain Propagation of Textual Signals: LLM Embeddings and Cross-Sectional Return Predictability",
-   "url": "https://arxiv.org/abs/2606.29290",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Market Regime Council for Dynamic Credit Assignment in Multi-Agent LLM Decision Systems",
-   "url": "https://arxiv.org/abs/2605.24490",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Embodied Science Agents: Making Embodied Experimental Design Learnable",
-   "url": "https://arxiv.org/abs/2611.12958",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "BuySideFlow: A Point-in-Time Benchmark for LLM Agents in Investment Research",
-   "url": "https://arxiv.org/abs/2611.12966",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Trust, but verify, audit and attribute: a human-in-the-loop framework for checking AI-produced research results",
-   "url": "https://arxiv.org/abs/2611.13042",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "AI Alignment Is Neither Solvable nor Sufficient",
-   "url": "https://arxiv.org/abs/2611.13167",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "From Process Models to Composable Agentic Workflows: Combining BPMN, Agents and Enterprise Knowledge",
-   "url": "https://arxiv.org/abs/2611.13196",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Transformers Provably Learn Graph Search: Training Dynamics and the Exponential Power of Depth",
-   "url": "https://arxiv.org/abs/2611.13594",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "One Temperature to Rule Them All?",
-   "url": "https://arxiv.org/abs/2611.13077",
-   "date": "11/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "The AI Era's Lines of Code? A Case Study on What an Engineer's Token Spend Measures",
-   "url": "https://arxiv.org/abs/2611.13396",
-   "date": "11/11"
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Artificial Intelligence and the U.S. Economy: Current Evidence",
+   "url": "https://www.federalreserve.gov/econres/feds/artificial-intelligence-and-the-us-economy-current-evidence.htm",
+   "date": "12/11"
   },
   {
    "p": 5,
@@ -128,22 +32,6 @@
    "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains -- by Panle Jia Barwick, Lu Fang, Jinhan Liu, Huilan Xu, Zhe Yuan",
    "url": "https://www.nber.org/papers/w36003#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Asian option valuation under price impact",
-   "url": "https://arxiv.org/abs/2512.07154",
-   "date": "11/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "StakeBench: Evaluating Language Understanding Grounded in Market Commitment",
-   "url": "https://arxiv.org/abs/2605.26074",
-   "date": "11/11"
   },
   {
    "p": 4,
@@ -216,14 +104,6 @@
    "title": "Policy Evaluation Beyond Significance Testing: Evidence from Chicago's ShotSpotter Contract -- by Terence Chau, Philip J. Cook, Javier Lopez, Jens Ludwig, Alejandro Roemer, Adam K. Soliman",
    "url": "https://www.nber.org/papers/w36005#fromrss",
    "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Energy/Commod",
-   "src": "arXiv q-fin",
-   "title": "Economic Benefits of Cross-Border Electricity Trade and Domestic Electricity Production in Switzerland",
-   "url": "https://arxiv.org/abs/2611.13866",
-   "date": "11/11"
   },
   {
    "p": 2,
