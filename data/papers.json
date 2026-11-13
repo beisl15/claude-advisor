@@ -1,6 +1,134 @@
 {
- "asof": "12/11/2026",
+ "asof": "13/11/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Rebundling of Freelance Work in the AI Age",
+   "url": "https://arxiv.org/abs/2611.14708",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "From the firm- to the application-level: A new typology of AI use in organisations",
+   "url": "https://arxiv.org/abs/2611.15371",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Can a search hold its own bar? In-loop deflation and its exploits in autonomous strategy discovery",
+   "url": "https://arxiv.org/abs/2611.14539",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Data-center growth impacts household electricity costs more through wholesale prices than through grid reinforcement",
+   "url": "https://arxiv.org/abs/2611.16095",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Accuracy Is Not Welfare: Evaluating AI Buyers under Strategic Price Complexity in a Synthetic Duopoly",
+   "url": "https://arxiv.org/abs/2611.16471",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "Verifiable Settlement and Pricing for Local Energy Markets: Architecture and Deployment on Hyperledger Besu",
+   "url": "https://arxiv.org/abs/2611.16495",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Signaling in the Age of AI: Evidence from Cover Letters",
+   "url": "https://arxiv.org/abs/2509.25054",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Deep Learning of Robust Market Making under Regime-Switching Order Flow",
+   "url": "https://arxiv.org/abs/2609.11614",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "A Reliability Study of Explainable AI for Freight Mode Classification",
+   "url": "https://arxiv.org/abs/2611.15716",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Before AI Agents Negotiate for Us: A Competitive Tournament of Rule-Based, Search, Optimization, Learned, and Language-Model Negotiators Under Scarcity",
+   "url": "https://arxiv.org/abs/2611.15838",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Small Language Models for Inference-Capability Routing: Effects of Model Capacity and Prompt Optimization on Downstream Quality and Efficiency",
+   "url": "https://arxiv.org/abs/2611.16414",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Rational Alignments of Superintelligences via Debates",
+   "url": "https://arxiv.org/abs/2611.16455",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Large Language Models as Digital Twins: a Distribution-Aware Questionnaire-Based Evaluation",
+   "url": "https://arxiv.org/abs/2611.16586",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Speed-to-Power Dominates Energy Costs for AI Data Centers: Technoeconomic Analysis of Powering AI in the Continental United States",
+   "url": "https://arxiv.org/abs/2611.17098",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "The Impact of Large Language Models (LLMs) on Code Review Process",
+   "url": "https://arxiv.org/abs/2508.11034",
+   "date": "13/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Deep learning-guided discovery reveals the diversity and mutational potential of environmental beta-lactamases",
+   "url": "https://arxiv.org/abs/2611.14568",
+   "date": "13/11"
+  },
   {
    "p": 5,
    "tag": "AI",
