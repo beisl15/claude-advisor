@@ -1,6 +1,102 @@
 {
- "asof": "15/11/2026",
+ "asof": "16/11/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation",
+   "url": "https://arxiv.org/abs/2611.17530",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
+   "url": "https://arxiv.org/abs/2611.18150",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
+   "url": "https://arxiv.org/abs/2611.17515",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+   "url": "https://arxiv.org/abs/2611.18531",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
+   "url": "https://arxiv.org/abs/2611.17539",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Aligned, Conflicting, or Unspecified? A Diagnostic Benchmark for Multimodal Time Series Forecasting",
+   "url": "https://arxiv.org/abs/2611.17680",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "An AI-enabled high-resolution chlorophyll-a forecasting model that outperforms the operational global biogeochemical system",
+   "url": "https://arxiv.org/abs/2611.17704",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv cs.AI",
+   "title": "Robustness Evaluation of GPU Cloud Pricing Benchmarks under Incomplete Observations: A Controlled Missingness Study",
+   "url": "https://arxiv.org/abs/2611.17796",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Aligning AI Teams",
+   "url": "https://arxiv.org/abs/2611.17820",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Evaluating Large Language Models for Scientific Paper Search: Retrieval Success and Inference Latency on Mac Studio and NVIDIA A100",
+   "url": "https://arxiv.org/abs/2611.17929",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
+   "url": "https://arxiv.org/abs/2611.18130",
+   "date": "16/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Logically Consistent Accurate Forecasts",
+   "url": "https://arxiv.org/abs/2611.17735",
+   "date": "16/11"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -13,17 +109,57 @@
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "TaskNet: Building Occupational Task Inventories from Worker Interviews at Scale -- by Jennifer Wang, Andreas Haupt, Isaac Robinson, Phil Lewis, Erik Brynjolfsson, Diyi Yang",
-   "url": "https://www.nber.org/papers/w35987#fromrss",
+   "title": "Impacts of AI in Higher Education: A Panel Survey of Undergraduates -- by Bruce Sacerdote, Mason Parris-Bacon",
+   "url": "https://www.nber.org/papers/w36021#fromrss",
    "date": ""
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains -- by Panle Jia Barwick, Lu Fang, Jinhan Liu, Huilan Xu, Zhe Yuan",
-   "url": "https://www.nber.org/papers/w36003#fromrss",
+   "title": "Clouds of Credit: Mapping the Financial Web Behind AI Compute -- by Stijn Van Nieuwerburgh, Zijin Su",
+   "url": "https://www.nber.org/papers/w36032#fromrss",
    "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "Will AI Growth Reach the Developing World? -- by Daniel Björkegren, David Lagakos, Mitchell VanVuren",
+   "url": "https://www.nber.org/papers/w36035#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Mapping NGFS Climate Pathways to GICS Sectors: Application to Portfolio Decarbonization",
+   "url": "https://arxiv.org/abs/2611.17942",
+   "date": "16/11"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Local Stochastic Volatility Iterations",
+   "url": "https://arxiv.org/abs/2611.18214",
+   "date": "16/11"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "DECODE: Decomposable Environments for COntrolled Sequential-Decision Evaluation",
+   "url": "https://arxiv.org/abs/2611.18367",
+   "date": "16/11"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "arXiv q-fin",
+   "title": "Tolerable Inflation, Intolerable Uncertainty",
+   "url": "https://arxiv.org/abs/2609.31512",
+   "date": "16/11"
   },
   {
    "p": 4,
@@ -53,57 +189,57 @@
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Target What? The Foundations of Poverty Targeting -- by Rema Hanna, Emily Breza, Benjamin A. Olken, Abhijit Banerjee, Arun G. Chandrasekhar, Gideon Moore",
-   "url": "https://www.nber.org/papers/w35984#fromrss",
+   "title": "Horizontal Equity of Taxation: Citizen Beliefs and Policy Preferences -- by Pierre Bachas, Christopher A. Hoy, Anders Jensen, Mahvish Shaukat",
+   "url": "https://www.nber.org/papers/w36007#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "Unconventional Monetary Policy and Deposit Retention -- by Philip Strahan, Tuo Yang",
-   "url": "https://www.nber.org/papers/w35985#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "The Hidden Sharpe Ratio -- by Mikhail Chernov, Bryan T. Kelly, Semyon Malamud, Johannes Schwab",
-   "url": "https://www.nber.org/papers/w35988#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "Financial Advisors and Retirees' Risk-taking -- by Allison T. Cole, Maarten Meeuwis, Alessandro Previtero, Noah Stoffman",
-   "url": "https://www.nber.org/papers/w35990#fromrss",
+   "title": "Monetary policy in a Phelps–Winter Economy -- by Bruce C. Greenwald, Joseph E. Stiglitz",
+   "url": "https://www.nber.org/papers/w36008#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Macro/Rates",
    "src": "NBER",
-   "title": "The Main Monetary Policy Shock -- by Christoph Boehm, Husang Kim, T. Niklas Kroner",
-   "url": "https://www.nber.org/papers/w36004#fromrss",
+   "title": "An Odd Approximation of Inflation for State Dependent Pricing Models -- by Luca Gagliardone, Mark Gertler, Simone Lenzu, Joris Tielens, Al-Mahdi Ebsim",
+   "url": "https://www.nber.org/papers/w36016#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Policy Evaluation Beyond Significance Testing: Evidence from Chicago's ShotSpotter Contract -- by Terence Chau, Philip J. Cook, Javier Lopez, Jens Ludwig, Alejandro Roemer, Adam K. Soliman",
-   "url": "https://www.nber.org/papers/w36005#fromrss",
+   "title": "The Last Arbitrage? Capital Flows, Development, and Infrastructure as an Asset Class -- by Anusha Chari, Monroe Gamble, Peter Blair Henry",
+   "url": "https://www.nber.org/papers/w36022#fromrss",
    "date": ""
   },
   {
-   "p": 2,
-   "tag": "Macro",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
-   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
-   "date": "14/10"
+   "p": 4,
+   "tag": "Equities",
+   "src": "NBER",
+   "title": "How Does Capital Flow To Poor Countries? Evidence from Venture Capital and Private Equity -- by Emanuele Colonnelli, Marcio Cruz, Josh Lerner, Mariana Pereira-Lopez, Yuanchang Wei",
+   "url": "https://www.nber.org/papers/w36036#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "The Labor Market Impact of Temporary High-Skill Immigration Programs -- by George J. Borjas",
+   "url": "https://www.nber.org/papers/w36014#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Productivity",
+   "src": "NBER",
+   "title": "Aging and Structural Change: Cost Disease in the Care Sector -- by Nick Pretnar, Finn Kydland, Tonya Y. Kydland",
+   "url": "https://www.nber.org/papers/w36024#fromrss",
+   "date": ""
   }
  ]
 }
