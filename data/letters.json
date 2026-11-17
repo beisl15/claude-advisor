@@ -1,6 +1,27 @@
 {
- "asof": "16/11/2026",
+ "asof": "17/11/2026",
  "items": [
+  {
+   "src": "Oaktree (H. Marks)",
+   "title": "The Complete Collection",
+   "url": "https://www.oaktreecapital.com/docs/default-source/memos/the-complete-collection.pdf?sfvrsn=58102966_5",
+   "date": "17/11/2026",
+   "seen": "2026-11-17"
+  },
+  {
+   "src": "Oaktree (H. Marks)",
+   "title": "The Best of . . .",
+   "url": "https://www.oaktreecapital.com/docs/default-source/memos/the-best-of.pdf?sfvrsn=e40a2966_4",
+   "date": "17/11/2026",
+   "seen": "2026-11-17"
+  },
+  {
+   "src": "Oaktree (H. Marks)",
+   "title": "What’s Going on in Private Credit?",
+   "url": "https://www.oaktreecapital.com/insights/memo/whats-going-on-in-private-credit",
+   "date": "17/11/2026",
+   "seen": "2026-11-17"
+  },
   {
    "src": "Klement on Investing",
    "title": "About those net zero targets",
@@ -397,27 +418,6 @@
    "src": "IP Capital Partners",
    "title": "Baixar PDF",
    "url": "https://ip-capitalpartners.com/wp-content/uploads/2026/02/IP_RG_202602_AI-hi.pdf",
-   "date": "03/08/2026",
-   "seen": "2026-08-03"
-  },
-  {
-   "src": "IP Capital Partners",
-   "title": "Cultura Dopamina",
-   "url": "https://ip-capitalpartners.com/reports/cultura-dopamina/",
-   "date": "03/08/2026",
-   "seen": "2026-08-03"
-  },
-  {
-   "src": "IP Capital Partners",
-   "title": "Baixar PDF",
-   "url": "https://ip-capitalpartners.com/wp-content/uploads/2025/02/IP_RG_202503-Dopamina.pdf",
-   "date": "03/08/2026",
-   "seen": "2026-08-03"
-  },
-  {
-   "src": "IP Capital Partners",
-   "title": "Netflix: o terceiro ato da indústria de streaming",
-   "url": "https://ip-capitalpartners.com/reports/nflx124/",
    "date": "03/08/2026",
    "seen": "2026-08-03"
   }

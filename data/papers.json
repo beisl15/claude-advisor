@@ -1,101 +1,133 @@
 {
- "asof": "16/11/2026",
+ "asof": "17/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI and the Two Margins of Work: Why Job Losses Show Up Before Job Creation",
-   "url": "https://arxiv.org/abs/2611.17530",
-   "date": "16/11"
+   "title": "The opposing informational effects of AI trading",
+   "url": "https://arxiv.org/abs/2611.18872",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Who Should Be on the Panel? Task-Conditioned Persona Selection for LLM Trading Agents",
-   "url": "https://arxiv.org/abs/2611.18150",
-   "date": "16/11"
+   "title": "Short Windows, Unmodelled Costs, Unknown Cutoffs: A Pre-Registered Evidence Audit of 91 LLM Trading Papers",
+   "url": "https://arxiv.org/abs/2611.18934",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "A Push Down the Mountain: Framing Effects and Internal State Interventions on Collusive Behavior in a Long-Horizon LLM Agent",
-   "url": "https://arxiv.org/abs/2611.17515",
-   "date": "16/11"
+   "title": "Corporate Stances on Societal Issues in the US",
+   "url": "https://arxiv.org/abs/2611.19068",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-   "url": "https://arxiv.org/abs/2611.18531",
-   "date": "16/11"
+   "title": "Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization for Multi-Asset Portfolios",
+   "url": "https://arxiv.org/abs/2611.19903",
+   "date": "17/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
+   "url": "https://arxiv.org/abs/2611.20242",
+   "date": "17/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Between the Lines: Multi-turn Contextual Investment Advice Detection",
+   "url": "https://arxiv.org/abs/2611.18596",
+   "date": "17/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Re(Visiting) Time Series Foundation Models in Finance",
+   "url": "https://arxiv.org/abs/2511.18578",
+   "date": "17/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "When AI Improves Answers but Slows Knowledge Creation: Matching and Dynamic Knowledge Creation in Digital Public Goods",
+   "url": "https://arxiv.org/abs/2604.00468",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Verifiable pXRD: Hill-climbing pXRD structure determination with LLM agents",
-   "url": "https://arxiv.org/abs/2611.17539",
-   "date": "16/11"
+   "title": "MemeEconomy: Do LLM Agents Trade Ethics for Survival?",
+   "url": "https://arxiv.org/abs/2611.18908",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Aligned, Conflicting, or Unspecified? A Diagnostic Benchmark for Multimodal Time Series Forecasting",
-   "url": "https://arxiv.org/abs/2611.17680",
-   "date": "16/11"
+   "title": "CONTEXT-PCa: Evaluating the role of clinical context in MRI-based AI for detecting clinically significant prostate cancer (study protocol)",
+   "url": "https://arxiv.org/abs/2611.19082",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "An AI-enabled high-resolution chlorophyll-a forecasting model that outperforms the operational global biogeochemical system",
-   "url": "https://arxiv.org/abs/2611.17704",
-   "date": "16/11"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "Robustness Evaluation of GPU Cloud Pricing Benchmarks under Incomplete Observations: A Controlled Missingness Study",
-   "url": "https://arxiv.org/abs/2611.17796",
-   "date": "16/11"
+   "title": "Staged Semantic Distillation: Preserving Free-Form Semantics in a Low-Compute Non-LLM Surrogate of a Staged LLM Agent",
+   "url": "https://arxiv.org/abs/2611.19299",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Aligning AI Teams",
-   "url": "https://arxiv.org/abs/2611.17820",
-   "date": "16/11"
+   "title": "Macro Control and Capability Evaluation of Black-Box World Models: A Two-Regime Framework for LLM-Agent Markets",
+   "url": "https://arxiv.org/abs/2611.19311",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Evaluating Large Language Models for Scientific Paper Search: Retrieval Success and Inference Latency on Mac Studio and NVIDIA A100",
-   "url": "https://arxiv.org/abs/2611.17929",
-   "date": "16/11"
+   "title": "LLM Trading Agents Earn Beta, Not Alpha: A Look-Ahead-Free Benchmark",
+   "url": "https://arxiv.org/abs/2611.19530",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "JFinBench: A Continuously Refreshable Japanese Financial Benchmark from the Latest Certification Exams",
-   "url": "https://arxiv.org/abs/2611.18130",
-   "date": "16/11"
+   "title": "Autonomous Multi-modal Agents for ITOps Observability",
+   "url": "https://arxiv.org/abs/2611.19982",
+   "date": "17/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Logically Consistent Accurate Forecasts",
-   "url": "https://arxiv.org/abs/2611.17735",
-   "date": "16/11"
+   "title": "Towards Agentic Scientific Discovery in Distributed Systems",
+   "url": "https://arxiv.org/abs/2611.20031",
+   "date": "17/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "When Helpful Agents Cause Financial Harm: Evaluating LLM Agent Safety in Executable Economic Worlds",
+   "url": "https://arxiv.org/abs/2611.18612",
+   "date": "17/11"
   },
   {
    "p": 5,
@@ -131,38 +163,6 @@
   },
   {
    "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Mapping NGFS Climate Pathways to GICS Sectors: Application to Portfolio Decarbonization",
-   "url": "https://arxiv.org/abs/2611.17942",
-   "date": "16/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Local Stochastic Volatility Iterations",
-   "url": "https://arxiv.org/abs/2611.18214",
-   "date": "16/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "DECODE: Decomposable Environments for COntrolled Sequential-Decision Evaluation",
-   "url": "https://arxiv.org/abs/2611.18367",
-   "date": "16/11"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Tolerable Inflation, Intolerable Uncertainty",
-   "url": "https://arxiv.org/abs/2609.31512",
-   "date": "16/11"
-  },
-  {
-   "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Measuring Consumption with Credit Card Data: Benchmarking and Beyond",
@@ -176,14 +176,6 @@
    "title": "FEDS Paper: Inattentive Price Setting and Inflation Under Fiscal Policy Uncertainty",
    "url": "https://www.federalreserve.gov/econres/feds/inattentive-price-setting-and-inflation-under-fiscal-policy-uncertainty.htm",
    "date": "13/10"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "Fed (FEDS)",
-   "title": "FEDS Paper: Bells and Whistles of Nowcasting Models: Which Matter and When?",
-   "url": "https://www.federalreserve.gov/econres/feds/bells-and-whistles-of-nowcasting-models-which-matter-and-when.htm",
-   "date": "02/10"
   },
   {
    "p": 4,
@@ -239,6 +231,14 @@
    "src": "NBER",
    "title": "Aging and Structural Change: Cost Disease in the Care Sector -- by Nick Pretnar, Finn Kydland, Tonya Y. Kydland",
    "url": "https://www.nber.org/papers/w36024#fromrss",
+   "date": ""
+  },
+  {
+   "p": 3,
+   "tag": "Energy/Commod",
+   "src": "NBER",
+   "title": "Federal Eminent Domain and Interstate Energy Infrastructure: Evidence from History -- by Zachary Liscow, Joseph S. Shapiro, Heidi L. Williams",
+   "url": "https://www.nber.org/papers/w36027#fromrss",
    "date": ""
   }
  ]
