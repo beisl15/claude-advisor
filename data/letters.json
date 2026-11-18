@@ -1,6 +1,27 @@
 {
- "asof": "17/11/2026",
+ "asof": "18/11/2026",
  "items": [
+  {
+   "src": "IP Capital Partners",
+   "title": "Cultura Dopamina",
+   "url": "https://ip-capitalpartners.com/reports/cultura-dopamina/",
+   "date": "18/11/2026",
+   "seen": "2026-11-18"
+  },
+  {
+   "src": "IP Capital Partners",
+   "title": "Baixar PDF",
+   "url": "https://ip-capitalpartners.com/wp-content/uploads/2025/02/IP_RG_202503-Dopamina.pdf",
+   "date": "18/11/2026",
+   "seen": "2026-11-18"
+  },
+  {
+   "src": "IP Capital Partners",
+   "title": "Netflix: o terceiro ato da indústria de streaming",
+   "url": "https://ip-capitalpartners.com/reports/nflx124/",
+   "date": "18/11/2026",
+   "seen": "2026-11-18"
+  },
   {
    "src": "Oaktree (H. Marks)",
    "title": "The Complete Collection",
@@ -397,27 +418,6 @@
    "src": "Dynamo",
    "title": "Leia aqui",
    "url": "https://www.dynamo.com.br/wp-content/uploads/2026/04/Carta-Dynamo-128.pdf",
-   "date": "03/08/2026",
-   "seen": "2026-08-03"
-  },
-  {
-   "src": "Dynamo",
-   "title": "Carta 127 – Quando Desígnios Desviam",
-   "url": "https://www.dynamo.com.br/carta-127-quando-designios-desviam/",
-   "date": "03/08/2026",
-   "seen": "2026-08-03"
-  },
-  {
-   "src": "IP Capital Partners",
-   "title": "Ler Relatório",
-   "url": "https://ip-capitalpartners.com/reports/revolucao-barulhenta/",
-   "date": "03/08/2026",
-   "seen": "2026-08-03"
-  },
-  {
-   "src": "IP Capital Partners",
-   "title": "Baixar PDF",
-   "url": "https://ip-capitalpartners.com/wp-content/uploads/2026/02/IP_RG_202602_AI-hi.pdf",
    "date": "03/08/2026",
    "seen": "2026-08-03"
   }

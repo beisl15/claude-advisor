@@ -1,133 +1,109 @@
 {
- "asof": "17/11/2026",
+ "asof": "18/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The opposing informational effects of AI trading",
-   "url": "https://arxiv.org/abs/2611.18872",
-   "date": "17/11"
+   "title": "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer",
+   "url": "https://arxiv.org/abs/2611.22793",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Short Windows, Unmodelled Costs, Unknown Cutoffs: A Pre-Registered Evidence Audit of 91 LLM Trading Papers",
-   "url": "https://arxiv.org/abs/2611.18934",
-   "date": "17/11"
+   "title": "Integrating market sentiments for stock price prediction: A comparative study of Bi-LSTM and multilayer perceptions",
+   "url": "https://arxiv.org/abs/2611.23057",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Corporate Stances on Societal Issues in the US",
-   "url": "https://arxiv.org/abs/2611.19068",
-   "date": "17/11"
+   "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+   "url": "https://arxiv.org/abs/2611.22033",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Dynamic Spatio-Temporal Graph Attention Networks with Nested Clustered Optimization for Multi-Asset Portfolios",
-   "url": "https://arxiv.org/abs/2611.19903",
-   "date": "17/11"
+   "title": "AI Adoption in S&P 500 Firms",
+   "url": "https://arxiv.org/abs/2607.08920",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
-   "url": "https://arxiv.org/abs/2611.20242",
-   "date": "17/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Between the Lines: Multi-turn Contextual Investment Advice Detection",
-   "url": "https://arxiv.org/abs/2611.18596",
-   "date": "17/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Re(Visiting) Time Series Foundation Models in Finance",
-   "url": "https://arxiv.org/abs/2511.18578",
-   "date": "17/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "When AI Improves Answers but Slows Knowledge Creation: Matching and Dynamic Knowledge Creation in Digital Public Goods",
-   "url": "https://arxiv.org/abs/2604.00468",
-   "date": "17/11"
+   "title": "Algorithmic Insurance",
+   "url": "https://arxiv.org/abs/2106.00839",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "MemeEconomy: Do LLM Agents Trade Ethics for Survival?",
-   "url": "https://arxiv.org/abs/2611.18908",
-   "date": "17/11"
+   "title": "Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators",
+   "url": "https://arxiv.org/abs/2611.21948",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "CONTEXT-PCa: Evaluating the role of clinical context in MRI-based AI for detecting clinically significant prostate cancer (study protocol)",
-   "url": "https://arxiv.org/abs/2611.19082",
-   "date": "17/11"
+   "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
+   "url": "https://arxiv.org/abs/2611.21950",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Staged Semantic Distillation: Preserving Free-Form Semantics in a Low-Compute Non-LLM Surrogate of a Staged LLM Agent",
-   "url": "https://arxiv.org/abs/2611.19299",
-   "date": "17/11"
+   "title": "ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments",
+   "url": "https://arxiv.org/abs/2611.22085",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Macro Control and Capability Evaluation of Black-Box World Models: A Two-Regime Framework for LLM-Agent Markets",
-   "url": "https://arxiv.org/abs/2611.19311",
-   "date": "17/11"
+   "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
+   "url": "https://arxiv.org/abs/2611.22177",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "LLM Trading Agents Earn Beta, Not Alpha: A Look-Ahead-Free Benchmark",
-   "url": "https://arxiv.org/abs/2611.19530",
-   "date": "17/11"
+   "title": "Reliable Evaluation of AI Agents for Investment Research: A Framework for Performance and Validity Assessment",
+   "url": "https://arxiv.org/abs/2611.22338",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Autonomous Multi-modal Agents for ITOps Observability",
-   "url": "https://arxiv.org/abs/2611.19982",
-   "date": "17/11"
+   "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
+   "url": "https://arxiv.org/abs/2611.22432",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Towards Agentic Scientific Discovery in Distributed Systems",
-   "url": "https://arxiv.org/abs/2611.20031",
-   "date": "17/11"
+   "title": "RehearsalBench: Can AI Predict What Happens When You Change a Company?",
+   "url": "https://arxiv.org/abs/2611.22480",
+   "date": "18/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "When Helpful Agents Cause Financial Harm: Evaluating LLM Agent Safety in Executable Economic Worlds",
-   "url": "https://arxiv.org/abs/2611.18612",
-   "date": "17/11"
+   "title": "Structured AI ideation yields physical strategies for epithelial barrier repair",
+   "url": "https://arxiv.org/abs/2611.22988",
+   "date": "18/11"
   },
   {
    "p": 5,
@@ -160,6 +136,30 @@
    "title": "Will AI Growth Reach the Developing World? -- by Daniel Björkegren, David Lagakos, Mitchell VanVuren",
    "url": "https://www.nber.org/papers/w36035#fromrss",
    "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Revisiting Equity-Bond Diversification under Tail Risk and Structural Market Change: Evidence from Global ETFs and Model-Implied Option Prices",
+   "url": "https://arxiv.org/abs/2611.21897",
+   "date": "18/11"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Explaining Realized Returns: Roll's $R^2$ 40 Years Later",
+   "url": "https://arxiv.org/abs/2611.22277",
+   "date": "18/11"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Clicks, Carbon, and Risk: Climate Attention, Persistent Financial Risk, and Real-Sector Activity",
+   "url": "https://arxiv.org/abs/2611.22517",
+   "date": "18/11"
   },
   {
    "p": 4,
