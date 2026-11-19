@@ -1,109 +1,117 @@
 {
- "asof": "18/11/2026",
+ "asof": "19/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Does the AI Reviewer Alleviate or Aggravate the Maintenance Burden? Evidence from GitHub Copilot Reviewer",
-   "url": "https://arxiv.org/abs/2611.22793",
-   "date": "18/11"
+   "title": "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services",
+   "url": "https://arxiv.org/abs/2611.23354",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Integrating market sentiments for stock price prediction: A comparative study of Bi-LSTM and multilayer perceptions",
-   "url": "https://arxiv.org/abs/2611.23057",
-   "date": "18/11"
+   "title": "Vibe-Trading: Towards Agent-Native Trading",
+   "url": "https://arxiv.org/abs/2611.24845",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
-   "url": "https://arxiv.org/abs/2611.22033",
-   "date": "18/11"
+   "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
+   "url": "https://arxiv.org/abs/2611.20242",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI Adoption in S&P 500 Firms",
-   "url": "https://arxiv.org/abs/2607.08920",
-   "date": "18/11"
+   "title": "Human-AI Interactions and Societal Pitfalls",
+   "url": "https://arxiv.org/abs/2309.10448",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Algorithmic Insurance",
-   "url": "https://arxiv.org/abs/2106.00839",
-   "date": "18/11"
+   "title": "AI Behavioral Science: A Framework and Agenda",
+   "url": "https://arxiv.org/abs/2509.13323",
+   "date": "19/11"
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "arXiv q-fin",
+   "title": "The Digital-Energy Recomposition of the Kitchin Cycle: Exploratory Evidence from U.S. IT and Irish Data-Centre Series (1995-2025)",
+   "url": "https://arxiv.org/abs/2610.33122",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Honest Brokers in AI Regulation: How Public Comments Introduce Evidence to Regulators",
-   "url": "https://arxiv.org/abs/2611.21948",
-   "date": "18/11"
+   "title": "HardwareDx: A Foundational Graph Model System for Datacenter Machine Repairs",
+   "url": "https://arxiv.org/abs/2611.23398",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "DiscoveryAgent: A Framework for Scientist-centric Agentic AI",
-   "url": "https://arxiv.org/abs/2611.21950",
-   "date": "18/11"
+   "title": "Asking but Missing: Decision Coverage in Natural-Language Data Querying",
+   "url": "https://arxiv.org/abs/2611.23864",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "ATLAS-Finance: Benchmarking AI Agents in Realistic Banking Environments",
-   "url": "https://arxiv.org/abs/2611.22085",
-   "date": "18/11"
+   "title": "Reducing Inference Cost of Coding Agents with Timeout Cascades",
+   "url": "https://arxiv.org/abs/2611.24324",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "The Only Edge Was Memorized in Training: LLM Trading Agents Around Earnings and Bad News",
-   "url": "https://arxiv.org/abs/2611.22177",
-   "date": "18/11"
+   "title": "Generative AI in Software Testing: Practitioners' Perspectives on the Benefits, Challenges, Opportunities, and Risks",
+   "url": "https://arxiv.org/abs/2611.23256",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Reliable Evaluation of AI Agents for Investment Research: A Framework for Performance and Validity Assessment",
-   "url": "https://arxiv.org/abs/2611.22338",
-   "date": "18/11"
+   "title": "Management of Behavioral Addictions via Artificial Intelligence based Digital Technologies",
+   "url": "https://arxiv.org/abs/2611.23341",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness",
-   "url": "https://arxiv.org/abs/2611.22432",
-   "date": "18/11"
+   "title": "Tracking Representations in LLM Reasoning Traces for Iterated Games",
+   "url": "https://arxiv.org/abs/2611.23403",
+   "date": "19/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "RehearsalBench: Can AI Predict What Happens When You Change a Company?",
-   "url": "https://arxiv.org/abs/2611.22480",
-   "date": "18/11"
+   "title": "A Mechanistic Analysis of In-Context Learning and Out-of-Context Hallucination",
+   "url": "https://arxiv.org/abs/2611.24000",
+   "date": "19/11"
   },
   {
    "p": 5,
-   "tag": "AI",
+   "tag": "Semis",
    "src": "arXiv cs.AI",
-   "title": "Structured AI ideation yields physical strategies for epithelial barrier repair",
-   "url": "https://arxiv.org/abs/2611.22988",
-   "date": "18/11"
+   "title": "Towards Reliable Scaling Laws for Tabular Foundation Models",
+   "url": "https://arxiv.org/abs/2611.24214",
+   "date": "19/11"
   },
   {
    "p": 5,
@@ -139,27 +147,19 @@
   },
   {
    "p": 4,
-   "tag": "Equities",
+   "tag": "Macro/Rates",
    "src": "arXiv q-fin",
-   "title": "Revisiting Equity-Bond Diversification under Tail Risk and Structural Market Change: Evidence from Global ETFs and Model-Implied Option Prices",
-   "url": "https://arxiv.org/abs/2611.21897",
-   "date": "18/11"
+   "title": "Where Are the Rates? Derivative-Implied Interest Rates in Cryptocurrency Markets",
+   "url": "https://arxiv.org/abs/2509.03964",
+   "date": "19/11"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Explaining Realized Returns: Roll's $R^2$ 40 Years Later",
-   "url": "https://arxiv.org/abs/2611.22277",
-   "date": "18/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Clicks, Carbon, and Risk: Climate Attention, Persistent Financial Risk, and Real-Sector Activity",
-   "url": "https://arxiv.org/abs/2611.22517",
-   "date": "18/11"
+   "title": "Beyond Co-Movement: Locality by Exposures Enables a Joint Factor-Graph Framework for Portfolio Diversification",
+   "url": "https://arxiv.org/abs/2608.06618",
+   "date": "19/11"
   },
   {
    "p": 4,
