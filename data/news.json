@@ -1,170 +1,181 @@
 {
- "asof": "19/11/2026",
+ "asof": "20/11/2026",
  "items": [
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "WSJ",
-   "title": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+   "src": "The Motley Fool",
+   "title": "Why Nvidia Stock Is Down Today",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QczVTbUQzdjZ0WHN0QjYwRXJidGl2YmJzeFVVOGhEV0FoZHp3QkJ1dng1REtUS21Qa2lYSGdUejlhbGtfNzlQT1V6Zm45NDltc2hKeEowZ3NtcHdsaUNvN2ttTTJXWUgzNkF3SGZUUjdFX1FiRHc?oc=5",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZZ1RKcUw2QV8tVG9vNnFXam8xcmRhLVBTQVJwd01rbkxOd012WTdDdkVrdjc0OGU3UDlZRmJuTjB6MWxuVWNOWTA0Z2FhOVhpQ1Rmb2syeHFjQnN2YTR6TzFqSFJyZFQzS1lwZmp0Y1FobXRHSVJaR19XNEhTZw?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "CNBC",
-   "title": "Trump bought Nvidia, Palantir, SpaceX in September as federal deals, White House ties grew",
+   "src": "The Motley Fool",
+   "title": "Nvidia Is Headed for Its 7th Straight Daily Decline. History Says This Happens Next",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://www.cnbc.com/2026/11/19/trump-nvidia-spacex-palantir-stock-trades-september.html",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQlE0d2VBbEl2Z19ZSklrTEJsY2k4S3VUdXN4QlBESm9oWnRoY0ctZ0xTT0psdFpxaExtMDZzTkRQVHZ4N29lQTFoUEI0YW1xdkRTMkZzbGV3azVIYVNlV0YtMk9Sa2xmUTlIREtTdmpBd3lpWjcwd29LRWtOcVEzV1R4TU05VnBCUlFZMjNTanBsdUFxczItR3drYmc5MmM4a1dOUmRZeTNKbzNzM3JiTDlpWC1uYnV5Z21N?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "SmartAsset.com",
-   "title": "AMD vs. Nvidia: Risks and Benefits for AI Investors",
+   "src": "Investor's Business Daily",
+   "title": "AI Stocks' Wild Ride Gets Bumpier As Nvidia Chaos, Blue Tsunami Spook Investors",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4xOVk1ZlZCODhsR3N0ZTBWcXdSOHV2MnRiVzEyV3RpZzM5VEZNYzY1ZUxOekN5d0tWQXdTUXI2Tkp4V2pEbmZzYTZSSmRmY08zdjBTOGxZbnBwdw?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "The Next Web",
-   "title": "Trump’s accounts made 103 Nvidia trades worth up to $97.5M",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1RTVRVVFUzLVlfVkM4SUtUSFI5NUdTNjdtVndTbHhiWTZ3V3RJR3dwbmVsWTNjdmtGYmEyUkVmcHRNTlN1d1ZuY0JhNzFpQlNGWFJwRmJZZkhwUnVrQkpLZHpPOU9yR3BZZ2REMy05LU1VZzN5TzBxc21OSHdIUQ?oc=5",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU291OEFTamphSmg2LXZBUzlrbzJzelRKUnZ0bEd6cTE1dFBWd1V4Xzk0RE1lOVBzTUprLUpDODVHb1J5RWNoT2FzODVnR2Fzd2tpb0NjckNxZlhMWXMzSGdjc2tadFFxREd3eFF6TDktOHRXZnNTMmJ6UEUxemNwdWNoMXNYWE5GY1piNlJxT0ZGaWRjR3pLSjNEekUxR251elAwWWdn?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA · Earnings",
-   "src": "Yahoo Finance",
-   "title": "$310 And Falling: Why Nvidia’s Turmoil and AI Server Margin Pressure Are Dragging Dell Lower Before Earnings",
+   "src": "Investor's Business Daily",
+   "title": "Stock Market Dives To New Lows Despite Nvidia Earnings, Anthropic IPO: Weekly Review",
    "resumo": "",
    "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRTdwLTkyOE1pZU9LRlpHNU10VThfYzJ3OEllYXlHX19HTVNWenlCSVIxNlE3bW9Tc0FRc0hlNWZUTWFtajBBRjJiYjA1WEkyT2hlekpfWXJQUzVFbEFzcm15SUFhblpfcEVPcF9nMjNOQ0xVRHlsTXRHVFIyNVpfVllsbWRtckFmaDh3TEFRd2xoLTFiYU5NMndn?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "Earnings US",
-   "src": "24/7 Wall St.",
-   "title": "AMD Is Actually Cheap With Projected Earnings Now Costing Less Than 50 Cents on The Dollar",
-   "resumo": "",
-   "prov": "Relevant to Earnings US.",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWFhGX1ZVSEhnajNLbDhYUzBGeVItbzZ1RndmdXgtV242UGdTSWIzMGprbGlwdHBlbmZaTHMtbjlBd1IyVG56RzhBZGt1MmJNa1dzRHhkTE9VdHJyOEw4S0Z2RnVkejdJSkZ5M0xycW1ZaFBXLWdFNjdpdU1pRTZTZXhnTzdiY0RTcUVSOHlsMjY5dDRMQkk4WjR4Ti14NEc4NzFKdG9iOElfLUk2andlUlo5QWxIbnVVMzRkc0VjZ2xnd1B4UDBkRm5SeEQwOUE?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "AMD",
-   "src": "BigGo Finance",
-   "title": "AMD Shares Slide as Lisa Su Sidesteps Nvidia Turmoil, Short Seller Targets China Sales",
-   "resumo": "",
-   "prov": "Relevant to AMD.",
-   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5pclg0UnA1Z3hwRDRCaW5PRkU3Sy1PRV8zYzUxdG1VOTY2d1JxSjZ2UElxLU9ocm9IaG40TW5LTHJGY19XamoyS1pNV3lpanU5QlE1Y3I0Q2k3ZG1FSDVqUUVMWlpGRGhyOU9zMlQ4Y2ljVWhQN2c?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "US",
-   "p": 5,
-   "tag": "META · Earnings",
-   "src": "24/7 Wall St.",
-   "title": "Meta’s Advertising Business Could Drive Another Major Earnings Surprise",
-   "resumo": "",
-   "prov": "Relevant to META · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMlV5UW5BeEE5QTNqYnhUNTFteHg3UFl4Z2YwZGY0Y0s3QndOWUpWQ090M2huSk1OY0hLQWVhTnlKRWFnVFkwN3FCRU9kS1lmbVFycVgxVmFSUllRSFdSU0N6ajBaSWcybDB6UWtyUU5DN096Z2VfOXE4VkRQdHJtS3ZoU09Ra0VpVHF2VV85aDk1MHpualVva3RKcGpfb1VUTEZzQktSdlB0ZUxCQ1R5V1Y4Wng?oc=5",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOFcwdEJJOEpPWVFTZHIxRUtyakdGbElWOGtHWnZ3NS1BdXM1eXVrejlTU1QwcExwTTIzb3JFRGxJZDZPVnlkR1FnTVpuazNtbFA5MFdRMGd0TFZUNHNjdF9xTEU4MUxwVk5BQ2tpcnRCNUZ1Tmg0c2xLbWpRWDdZRm90eXJQMUhDT1pqWjZudlR2WVRwUE9ZTg?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "CNBC",
-   "title": "Jensen Huang's — and Nvidia's — legal exposure balloons",
+   "src": "Investor's Business Daily",
+   "title": "Could Jensen Huang Land At Nvidia Rival Intel?",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYkhHQm5ncjdJOUttaW5CRkVUV0RWTlE4c29LVlRFVnRqWmwtcWhOWmdXeTB5bVlIZExWb3ZSLW1IVWIwM0ZkS3pIZTgxOHNOOGtiVHlWWEhrbVZOV1ZHVGZnY3p4U2U0eWJWeVBvV2Zyc3lOM0h0ZDhmV3NaQ2prLXU3eUdJTVh3ZnI0dmZHbXBLdw?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
    "src": "Barron's",
-   "title": "Nvidia Stock Is Still a Buy After CEO Jensen Huang’s Departure",
+   "title": "Nvidia Stock Drops Below $150 Support After Jensen Huang Scandal: Key Levels to Watch",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTbHVXbEZWNnBkNlRaU1A5QWdvS3pNV1lWdF9yRkU2UVNpUUpLWlNEY0JhX1ZJLWYtMjFXZXlmeWgxV09DRUdRZ19HbEhrSlBVZ1ZzWVVVSkl3bFN2azlEM0VQMloydHY4MERiYTJzWU9qNlVGczlkcUhJRQ?oc=5",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNldhalBiZklRZ3ExMXViMU1CTWExTFh5SHhRSEVaSWJ0UmVlQS1lQnNsRVIwTDNtVHFuYVFXcGpnbkJ4V0ZDNmg4Y2dMSzBFV1BMNEJRSkRwTVd1bFRIZTlnOFhDdFhsakh0dlpkNml5aVU4TVJzSXFQNjUzNmY1ZXRZQjlpNnEtQVE?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "PLTR",
+   "src": "Byline Times | Substack",
+   "title": "Public Were ‘Misled And Oversold’ on Palantir Benefits",
+   "resumo": "",
+   "prov": "Relevant to PLTR.",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9OaWFKTFRjQ3lhNTBMRS1VOE16aDFjMWxWaXh2OUwxaDVqRVJJTk9TbDNUdjl0M0RWdUw1ODlPeTRVSU1xR1A3OERBUFFBXzhQeGlLQ1JJUUtDejZsdGY3V1FFTkRBcW1YUlB2dVIxVjBpZmw0Mjl2Zg?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "Reuters",
-   "title": "Trump bought up to $265,000 of Nvidia stock in September, disclosure shows",
+   "src": "The Motley Fool",
+   "title": "Buy Anthropic, Sell Nvidia? Cathie Wood Just Did.",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaEEyX3UxZFhLMmpFRWRWYzlUdTBRMnB1VmFiczhiYWwtZXFPeGd1dTJhMU14SXMyLWZPRGJyQjlkTlFva1hTS3FyVUtCMDhJZnJOU0ZiRzJlV3ctc05uM3ltMzh2UVdGQzlXQ05nOXRKT1ZfRUZvQjY4ak4wWFZmODlDa1MwRnFQTFBLcDYwNWZZQURaWkgtNEN0cVg3a19aQ2dwMGdjelNRLUU?oc=5",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaWZpM1ZFeUF4UXp5U1d4dUVPVk5VSnhlQjBLbm1rUHpPRFNYYjZFLUp4R1cwVGhkSHpMcUttWGdfTXdQNHUxV1N0NGhzOG1CS0Z5NC04MC1URWVsbUpoQzlOeEJBcFpYM0JfcHhnVDNnRXMydVkyTlg5RkJHUjdTSWhmTUFmdnpGM3daejZBTjdBSGs?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "AMD · Earnings",
+   "src": "Yahoo Finance",
+   "title": "AMD Falls on China Risk; Ross Tumbles on Q4 Guidance | Stock Movers",
+   "resumo": "",
+   "prov": "Relevant to AMD · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB1a3BELUx5cDRQTXBrSng0UU1ON21kTC13bWF0cDdxNnA3Rml4ZDEwNVNMX1BFS2Zxc3VJX3BIVVFuQXR6WEJNa2QtVDRGUjVjaWJqbTIwTW9tNlZ2bGtDSzkyeWpfMzhSRGpQTW9xMi1MNU1WcEdkNld5NHE?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "aol.com",
-   "title": "Bill Ackman says Nvidia board is failing you and not just because it fired Jensen Huang after one Zoom call , at most",
+   "src": "FXLeaders",
+   "title": "Nvidia Stock NVDA Risks Breakdown Below $140 Support as CEO Search and SEC Probe Weigh",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://www.aol.com/articles/bill-ackman-says-nvidias-board-162000000.html",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRmtHem45SUMwd3p6TEZqWFlMZC0xYlhiRVhUZHc2NmNhRWtPM2x0bTNaRGpuTXZ4aVB2ZGdkalRrOC1HQ01jZHloUWtOdnBBejlpTldtZ1NhczNOM3FqeWY3SFZXcS1jNmZPS0p0S3NwTUJvVWwtWmw3X0NKWDFScC1zZkExMHpWcjZXSEhZcFE4ekU4VXk4NzhvaEd6VGs?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "prnewswire.com",
-   "title": "NVDA INVESTOR ALERT : Hagens Berman Updates NVIDIA Corporation ( NASDAQ : NVDA ) Securities Class Action Investigation Following Reports of SEC Civil Probe Amid CEO Jensen Huang Departure",
+   "src": "MarketWatch",
+   "title": "Nvidia’s stock heads for a stretch of weekly losses unseen since 2008",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://www.prnewswire.com/news-releases/nvda-investor-alert-hagens-berman-updates-nvidia-corporation-nasdaq-nvda-securities-class-action-investigation-following-reports-of-sec-civil-probe-amid-ceo-jensen-huangs-departure-302945623.html",
-   "date": "19/11"
+   "url": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
-   "tag": "NVDA · Earnings",
-   "src": "investors.com",
-   "title": "Nvidia Slides After Blowout Earnings As Investigations Line Up",
+   "tag": "PLTR",
+   "src": "TradingKey",
+   "title": "Palantir Technologies Inc Stock (PLTR) Moved Down by 3.75% on Nov 20: What Signal Does It Send?",
    "resumo": "",
-   "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://www.investors.com/research/nvidia-nvda-stock-earnings-buy-now-november-2026/",
-   "date": "19/11"
+   "prov": "Relevant to PLTR.",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWFpXWXZLTDFRLTZITlpqV0ZvUE9xV1JING80X2hTVV81eGYxUF9jR0JjQ3lXR28yS2tCckp4ck9aSGg2ekdNWXhDUDktRFdvX19DYXVXUUJ2ZzNfRHlEcW14d0FKek5PNFU3ejNYbHBMSjFMM3ZQa1FKR3dwd054LWgwYjdocFVDWllZ?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "GOOGL",
+   "src": "BigGo Finance",
+   "title": "Nvidia Slips to No. 4 as Alphabet Overtakes It; Stock Headed for Longest Weekly Losing Streak Since 2008",
+   "resumo": "",
+   "prov": "Relevant to GOOGL.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBlMVJnMWtNY25XUVhTRkhXa3VEMVV1bDg4aDg1QzFXQ01IWjN0ck9HTnIwNklxQjlicDBRRFFwNXhyTHBrdlFQbXJKVFM2OEk3NFBHRVlwQXpEbFFDMDE1cEYzWUdoQmJzcERtUVNfV0N2TDg1cFE?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "US",
+   "p": 5,
+   "tag": "ORCL · Earnings",
+   "src": "Simply Wall St",
+   "title": "Wondering Why Oracle Fell? Here's What Investors Missed",
+   "resumo": "",
+   "prov": "Relevant to ORCL · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRlo2T3RmSEhSSXhYS2d3Y0RiY1V1NFhsRXk1NnZIdGFBZzZIT281dWZfZWVHa3RlaGl5S0xIa2NjQXg5Mk5tUnpmWno3WkZqSDN5c1cwdUVEbk1QMzJqSkExMzhzUnNFbk5ndDhVaTlWQmNKOHc1ZFl4NGN0VnNiS2ZvU09hcFIzYVpnNzc4VU1sSUZQRzIzV2xwenF1QU51enRPM25adFBsLXAya1VTYjZUWmxOZGPSAbwBQVVfeXFMTkJfbmhnZUJ5NkJtQVFzbmpjd3FJeGpjWWlMeXVwU2JFSHN6S2tzNzFOa2hJWVBfZWxGWDhTVGhzRm1JVGFTbmhzMzZyVGlQN0lJOEhqbmN4ak9Wd2dJaWFJRER4U0E0SUhzazhQeGk2MEFhWDdUS3pMM3NicHk0LUg2RlVyVUZtQ2JIYTR4RkNRbFlmQ3M0MkhnR2RzSXNsOFh6aTBrSE1RQThBcHA0X25yNWJZaTh5ek5yQm0?oc=5",
+   "date": "20/11"
   },
   {
    "region": "US",
    "p": 5,
    "tag": "NVDA",
-   "src": "WRAL",
-   "title": "Invested in Nvidia? Here's how financial planners say you should handle your portfolio",
+   "src": "Yahoo Finance UK",
+   "title": "Why is everyone suddenly buying Nvidia stock?",
    "resumo": "",
    "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUU9zVlVrNjNCM1JWbFVfay0zbGMxRFY1Z0pkMVg0bzRZX0FaX1oweDdLeWpZd1F0dF9hOF9YN29CTDNyYzJmcl9Fb0dvVmVyQ0o4cGlkX2QxSExIVXZxenBWUGV3QWxFZDdQbDhSOU5jdmxobURZdFloclBfeFFVTENNblJHcG9oUkVsZXdfdWdyYzlIdlVFSXowbmJUMnZ3Y3IzRVlvWGFGWHYw?oc=5",
-   "date": "19/11"
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQzE5dHhmVmdqOFN1c090azBnUXFDdVdJWWNFaDQ2NFloQUNJbk96UFVKWnh5WlJKSFJKeFBkeU1vVUVLcXcwUVJwblQ2ck9OenFMZHp4Q1dXbDhEalZJaEw5dWVKSklmS3NiMzkta2ZMX1VCYUNNNFdiRGFFQk0zSWNyQ1RfRzg4WFRETg?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "EU",
+   "p": 5,
+   "tag": "NVDA",
+   "src": "Financial Times",
+   "title": "The dangers of Nvidia’s role as AI’s quasi-central bank",
+   "resumo": "",
+   "prov": "Relevant to NVDA.",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOWNMcVlRMkxMODQ0LW53UTMwZXk0S0g4V3BBY1VYTXZ5Wm85WDF1c3FXQlBjYUhHSVZRc3V2MmhKajVBRGQ2OGtlNlN2Z1VKVmMtTWVMVHZVSTdERFhVRmNyendJbEVsSEpuUEltSDBURTlMdTd5VUpQV1czSGo4bjV6cU4?oc=5",
+   "date": "20/11"
   },
   {
    "region": "EU",
@@ -191,12 +202,12 @@
   {
    "region": "EU",
    "p": 5,
-   "tag": "PLTR",
-   "src": "Bloomberg.com",
-   "title": "US Charges Russian as Foreign Agent Targeting Palantir Workers",
+   "tag": "ASML",
+   "src": "Crypto Briefing",
+   "title": "Elon Musk says no one can replace Nvidia’s Jensen Huang",
    "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa2ZKTHBmT2hqNzM5UW5ITFlMcXZodnNhbTFXOWNyZmZCMmphNGJQcnVhTzNhNGNuY09OWW55NE5ySVVIbTEzei00R3hpSkV0MDhLZUo0Y3pKZFBlYjZEYUpKMVBKY0diQmFFM2NXVU4wdUQzYUIyamtaWHlrX1h5UTAxVG1jb2lDS0FzMjdsZGpjb0ZudmQ0MkF1QV9XSGVUR3ZBLVJmTWRUM0F5RTBiZW1aNA?oc=5",
+   "prov": "Relevant to ASML.",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5nVmhsblQ1RzZBdHZVRjNTY3RvSWRzdGgxNUZjZ0c3NnBuT1kwbFJZYTU3RXVHSHo5ZU9zZ3o5aEhaM21sVm9wRmxzX1hiclkyZWhsaWlicDdtTXJDX01UemZuWUhmVFZVQUkwZnRNR2dWTU5SNGx0cFRpSQ?oc=5",
    "date": "19/11"
   },
   {
@@ -208,28 +219,6 @@
    "resumo": "",
    "prov": "Relevant to ASML · Earnings.",
    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FMDJTdHhiMTg3Wno5SUUwZ2Y5VU5OZVR5empKT01JcUJDRmtUZS1zQzdrcXo4YzgxcFVLVHZIOS1pdk1QWDR0VGNELU0xcXBnb2syQXFFR04?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "NVDA · Earnings",
-   "src": "The Business Times",
-   "title": "US stocks: Wall Street ends mixed after Nvidia earnings, Fed minutes",
-   "resumo": "",
-   "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQZ0pvc1E1c2JJMzRLM2ZzaFRoRjAtR2c5RHYyekZUeTZuNzdMVUdyQnExeGVleGtMQ3llenM3LUFIOVZIeFE4UXh5clF0dXFSYktfYldVYXk2cTB0clFhQUllQVpPNXo2dUZ1MDROeWZKemVnNS1LZzVmMzQtM2hYd3FINXpaX25nQzg3UHRsX0hmd3AwR1E5a1h3UnlaQ2dDeHlOcVg4cEVmUU1rZHA0TVZnTnFCNFpMRHlyeG5NdUlmcl9YN3FXbHdPaVVfVUp0bXNxM1Z6ZXFfRS1v?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "Financial Times",
-   "title": "Nvidia accelerates pay rises as interim CEO seeks to lift staff morale",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQaWlyenFXWl9XWkpUNXRHeHFBR0EwbGJJRWRnM191VVhXS1pXb3daQnl2amVEMDVZb3NNM2xyZ2N5MzVfVTgwck0wRFNENXd5SDBYRVV2RFRXdF94MHpmZElBYVFyanlyNWtjWHAxY0tHamxnVFhMM1RtLXFXZGpfeXZ5akI?oc=5",
    "date": "18/11"
   },
   {
@@ -257,28 +246,6 @@
   {
    "region": "EU",
    "p": 5,
-   "tag": "NVDA · Earnings",
-   "src": "Bloomberg.com",
-   "title": "Nvidia Looks Past Jensen Huang With Raised Outlook, Strong Earnings",
-   "resumo": "",
-   "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1N1RmJJZTQ2ZnZzU2tORFJxdWpxbVdjdUZ5aVIzd0paQjc3Y081Q203cUUtOHRuQzVRYzVvZXF4akxUVTdOTmdsMG1sbE9yOHdBVUFxUENpOFVSQWFBTkhNOU51dVJDaFFGNjFBbkdNZGNudEdsVV9WUDRQTmFNOGZBTV9HMWFuSi0tZjdYbmlpdDF6NFdIT2JtYzRHRFRFb1RiaTRPc2pJOUpRY3ByTjVvREhnQUFXUTRmRw?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "NVDA · Earnings",
-   "src": "Financial Times",
-   "title": "US tech stocks oscillate after Nvidia results",
-   "resumo": "",
-   "prov": "Relevant to NVDA · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTk1RaThEMWNURHNaV2huZzdBTE5JMVFGNnR4aF9PYk1GRG0yV3ZxeEVxRVRya1Y5RUJCNmd3MDJXd1BFNndnTngtMk91SXNCazVzblBmeU5ZT2p6bTdzRGsxa200TXpBNkx5MllXT1plb0kteE95STFqUkpVd3NTVFZ5YV8?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
    "tag": "NVDA",
    "src": "The Economist",
    "title": "Catch up: Nvidia rules out return of Jensen Huang; Xi hugs Trump in China",
@@ -301,28 +268,6 @@
   {
    "region": "EU",
    "p": 5,
-   "tag": "NVDA",
-   "src": "Financial Times",
-   "title": "Nvidia’s big business in Singapore",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQTTE0bXo4b2pva1QtNWxkVURWY1hzejdmSjBla3pVRkVoQkxWWC16dkZKcjluMUxqOXNZbDEzd1RfSG9xMUVZOWw3R01qcWVtMGN6MW9hREtQbUplVEE1ZzFQano0RTJLQmlHclZjVjR6X0drdHlsTG1nNGtNTTNuUkxLVnA?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "Financial Times",
-   "title": "Nvidia has a chance to trade drama for durability",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbE0tVzI3dEstb2tMeVNWRVpCRGNDRVpPQmlBbm90ckgtLV9sRXY3al93eC1Vc1ZsRkFJLTdlVXg1eWlBaGowWVVXZ0U4VUN0LTZqd3MzeUZTNWM1YUQ4WnpmLVlsdHFiS2tOa2h1NGJfbTdpLW9GdG9DOWVxVnJYbTdaNnU?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "EU",
-   "p": 5,
    "tag": "NVDA · Earnings",
    "src": "The Economist",
    "title": "Nvidia’s roaring results can’t hide its troubles",
@@ -332,36 +277,190 @@
    "date": "18/11"
   },
   {
-   "region": "ASIA",
+   "region": "EU",
    "p": 5,
-   "tag": "PLTR",
-   "src": "TradingView",
-   "title": "TSMC Stocks Rise 3.11% as Foundry Takes $500 Million Slice of Anthropic IPO Placement",
+   "tag": "Siemens · SAP · Earnings",
+   "src": "MLQ.ai",
+   "title": "European stocks have their worst day in eight months as tech drops nearly 4% before Nvidia results and Deutsche Bank falls 6%",
    "resumo": "",
-   "prov": "Relevant to PLTR.",
-   "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPVU5uQ09Rb3doTUpwbmsxQnRrLUl1R0wwLVdEcU5RMFZOQzJiNTlLaVctNGhyeE1VcEtDck1wNHNCdk04Zk45N3lSLXBzTS1oRHZJNXUwd0hSc1h1N3B2TEdlekZON0JYT1pyeFpseTYwaE9qQ2I0YVBuYlY1R0h5RGh6alpLMW1ZVzBUWFl0SEhrSl82dnhrTFVGQXJqWHFFcjZibGhJZWFia3JNVXNJNVIzcnA1M015M0pqeTFBX2ZRUzBqZ3k0UWQ3MHhGQnhnUUo1SHNpYzFUQmc?oc=5",
-   "date": "19/11"
+   "prov": "Relevant to Siemens · SAP · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWU9WZURNbDIydEVUd1A5YTZWN1loRGJrWmo2LUZMVFRzSkI3T1BnbU1oZzAweVl0X2tmV293Ung1djZFZ1lXeWF5eThuNW94Tnl2MjEyc2JlZGdOSTRtamdGdEdMaExjd3E3SUQtbEpvbF9OLUgxdWpIZ3R1OWRENmRkbEl5MVo4b0JQMEJEa29RbzFFYXNYYVphVVQxR2x4RzE1ZlM1Uk1MRy1yLXNDZHRrQW51RVBORkdxVXNycl9kbVo1VldMbUhkNTlNUmptMHEyanBKTG1DUDV0?oc=5",
+   "date": "17/11"
+  },
+  {
+   "region": "EU",
+   "p": 5,
+   "tag": "NVDA · Earnings",
+   "src": "The Economist",
+   "title": "World in Brief: Nvidia’s post-Huang earnings beat expectations; more tech disruptions",
+   "resumo": "",
+   "prov": "Relevant to NVDA · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMGl1OFc0a3NfWlNiYkJIZFFCdHhmRXpqNXItdFotSkxWcy0xeU1jY3p2TWdneWFLTTM5NDFWanloRkc5TmhrYm9vMUt0bi1NTDN2UUJkcERmaXlyUXVEMzBudHZDSFJuVkNzVlhpYkstY3V1dzdtNDNSVDBzdnVFckc0N3kxdWItQkxrLXZjbmFIUVFNeXdz?oc=5",
+   "date": "17/11"
+  },
+  {
+   "region": "EU",
+   "p": 5,
+   "tag": "Earnings EU",
+   "src": "Earnings EU",
+   "title": "AEX slides 2.14% to 1,109.89 as chip stocks sink ahead of Nvidia results - ad-hoc-news.de",
+   "resumo": "",
+   "prov": "Relevant to Earnings EU.",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPaTA3ajFzOW13LWxHWW9sdE1ncVJuenJNUHBvbGtiV0FNQmw3blEtYUxlRUNBVXc2ZVctejhDWktyT05uSTZuTGgzNVJyUU9pMGg5bldTbjE1bWM4c3VKay15TmhXakF2di0yR1JJeFBXSjJ2NEdxQS1CWmRfQ2tqV2xGaENINDRvNnJkdnUzc1FZckhZS29JN0duMlZodzZFTi1ZRjZZZHNDS2FuSHNaX2YzLVpqbzdhbkpfUG9fTmdGSURoS3NuTlNsOWZhQQ?oc=5",
+   "date": "17/11"
+  },
+  {
+   "region": "EU",
+   "p": 5,
+   "tag": "NVDA · Earnings",
+   "src": "Euronews Business",
+   "title": "What to watch in Nvidia’s first earnings report since Huang’s resignation",
+   "resumo": "",
+   "prov": "Relevant to NVDA · Earnings.",
+   "url": "https://www.euronews.com/2026/11/17/what-to-watch-in-nvidias-first-earnings-since-huang-resigned",
+   "date": "17/11"
+  },
+  {
+   "region": "EU",
+   "p": 5,
+   "tag": "NVDA",
+   "src": "Euronews Business",
+   "title": "Nvidia has lost nearly $2tn in value. What could it be worth without Jensen Huang?",
+   "resumo": "",
+   "prov": "Relevant to NVDA.",
+   "url": "https://www.euronews.com/2026/11/13/nvidia-has-lost-nearly-2tn-in-value-what-could-it-be-worth-without-jensen-huang",
+   "date": "13/11"
   },
   {
    "region": "ASIA",
    "p": 5,
    "tag": "Semis · Earnings",
+   "src": "PC Guide",
+   "title": "Don’t miss your chance to score the 4TB Samsung 990 PRO SSD for a whopping 36% less",
+   "resumo": "",
+   "prov": "Relevant to Semis · Earnings.",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSTRUYy1PdzFxX2NrdXRadzlLNnFRWW80Tk9veGlMZ2tPdlJQbE50a1JUOG1tRzVWbXRuMWZ5bGtxaktsTUs2TGRqSDJwaGVVUUNhejkzTExZOGZzbmZnaEkwOWMzUmF0eTlmUXpubzRwOFRTbklnNzZKSU5CZFlVNEZZQmdQZ2IzT0NVT3hiNWtRWm82cnhlWGVYSV9wU0tVb2lkd1FSYWxEM2JaRUEwSTJB?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
+   "src": "Coinpaper",
+   "title": "NVDA and ANT Fail to Save AI Stocks as Asia Faces Worst Market Week Since 2020",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOGNmcW9OaVhUZUdMemNoWFgzOW1OeHI5TzUtX0lmTEphdUFxT29zV1RjSkdzSE9nZHplNDdtMGZtMW5WRlA2LU5oWngxSWVKYzJKbEctQ084bnl6NXI5WVVhdlF4STYzT2FGcktLNmgydV9NMEI1M1dmOFlnWDY4WjNwd0tlRHlQMnNuaDhWZzhXRnRoYnNPWXRTSkw5dU91ekxuQ0k5NXN0WHVrSFhGdk1TWFA?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Memoria",
+   "src": "Invezz",
+   "title": "Why are Samsung and SK Hynix crashing after Nvidia and AMD's sharp losses?",
+   "resumo": "",
+   "prov": "Relevant to Memoria.",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOcnoweEdvSjhZVS03SGJIOF90eUl3c25hZ0YzeTBLM3JQc01vMVJmeHV5Yi0tOEhSZXVJeE5tOXZ6TnBOaGxzSHUtX216S3JFUDhrNUxyZ0p2YlFzd3R0S09tYUFySG5uQmh1NkE3N0JZWlFWRUpYRVJLVnN4OFBFRUhydk9sV2VJY3g5dFFCREJOUk5aUHhwVFJZYTM1dGZKX2Z3ZldTeEt5OU5P?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
+   "src": "news.sbs.co.kr",
+   "title": "Moody's: Strong AI Demand to Drive Solid Earnings for Samsung, SK Hynix Next Year, Benefiting Construction Sector",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iVWxqWU5uUFpUR0trNWJkV1k5V28xczlBZmg4eDhPaU5IU3VWZXZHUEJUcFVyandHdVhJZm1kRFdmdW9EVE1IM3FDRnEzc0JOWkZKbFM1dF9ueVZ0RUw0OHpPYkdfOTNIeFVobzhn?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
+   "src": "The Korea Times",
+   "title": "Samsung opts for leadership stability in annual postings reshuffle amid record earnings",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxORHlMLXZZMFpDUkJyRXJVTWlWUHhqNllnRm5fc3RtTnRJdFlDeXAyTF95WDJUeE1hSWJqZXNudzNGVm5qRTVTVFBRRV9OcE9URzJTdWFvMGE3S3VTWlc4dGYwMExvaEd2YTl0RUU0LWIxR1pRbTNRNXdGbGRqRTI3LU5tSldhRjZVVktpYmpmTGhIbmhhVjFZVm5EV0NBcG5JQmNrbk9JMm10T3RsQl9GRHhLODlpaHhmeTFUeFBYand2Ym9ucjNWYjhmRFhxMmhjSlltRFRSeEZNMjNnajhTYjNB0gHiAUFVX3lxTE5EeUwtdlkwWkNSQnJFclVNaVZQeGo2WWdGbl9zdG1OdEl0WUN5cDJMX3lYMlR4TWFJYmplc253M0ZWbmpFNVNUUFFFX05wT1RHMlN1YW8wYTdLdVNaVzh0ZjAwTG9oR3ZhOXRFRTQtYjFHWlFtM1E1d0ZsZGpFMjctTm1KV2FGNlVWS2liamZMaEhuaGFWMVlWbkRXQ0FwbklCY2tuT0kybXRPdGxCX0ZEeEs4OWloeGZ5MVR4UFhqd3Zib25yM1ZiOGZEWHEyaGNKWW1EVFJ4Rk0yM2dqOFNiM0E?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "NVDA",
+   "src": "Nikkei Asia",
+   "title": "Alibaba sued for allegedly concealing ties to suspected spy in Nvidia scandal",
+   "resumo": "",
+   "prov": "Relevant to NVDA.",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUHM1QTV1U2M5VVkxVjZuMEtYemNjWXNmc0k3Mzg3RnN0ZFdXamIwNS1TNFJiZDVtUWJzc1ZFTG04enZ2MGZHdWVoNlVBVGVPaEE3alZ1ZGZzRTJkcy02R1NpeEV0QXVvaXJfX0NhVjBpdDQxWVRUN3FoX29MUEhIN2NnTkNQMzU0MVF1TWRPZXczNUUtWDdNSzlPb21ZLTRENkNzcVVHNVI0c3JOWlI4QXBQZXZNTmdnc2JORTNn?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
+   "src": "TradingView",
+   "title": "Key facts: Samsung Posts Record Earnings; Plans Top $3.5 Trillion Investment",
+   "resumo": "",
+   "prov": "Relevant to Earnings Asia.",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPNG5JSnFqczVhU0t0MVJOZkZnbE8yNDJvZlJfZlJuSlE1VVQ1V2VKUHR6d1ZXRDFHdFJhU0tMY2NUd08tWTMtbUJTUmtJZml6clNlT3o3SmRLWEs3SENVWXotcjU4a1BoaVM2Ykt0M0RMWG1LOHhUNVNZRHV4eDY4LTctaUVQZzBiWXBOS1RWUEMydW9YWEdwNHZaa2lYVk00WlRIQ1pKVjdnckJlODM4NG5WeUJneklBY2ZFTnY3Slp6R2d0cVdCNm9oVl9aY3pF?oc=5",
+   "date": "20/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "NVDA",
+   "src": "Reuters",
+   "title": "California AG subpoenas Nvidia over concerns about former CEO, China ties",
+   "resumo": "",
+   "prov": "Relevant to NVDA.",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY2NBVmplUHV4MUZrbVByaDVvby13dXpkX3RuaGVwd1RDMzAxdGtGSDQ3aFhjNjc3VHNxWnlYNHBrcWhRa0xiemxLOE8wTnZFVE9YZ3B4NVFjZ3d5QmJTaWtqc3JTVWdRX0IyT3VlU3BOaEFlMm5fS1lqczg1RmxyMUk4c0JfTEtUSlV4bDh0Z1BVQ0NySHZ3UHRINXZBdUM5NDhOX3Y0bUdsZXRuODdDZDJsMWNHUjY3STVCRA?oc=5",
+   "date": "19/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "TSM",
+   "src": "GuruFocus",
+   "title": "TSMC Stocks Rise 3.11% as Foundry Takes $500 Million Slice of An",
+   "resumo": "",
+   "prov": "Relevant to TSM.",
+   "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQWFktR0NTRzNjdkdSSnIydGhrdkdnLVR2Z1NLRUs5eldSN2syeVFCM2VveXNwcGp3QTRIb2Y5WDU5UTNsQkNrRTEwcUF6Wk1iS2xVZXlCaDgzUFBRRDE4TE80S3M0a0VIemdYZ0EtTHV0cm5PVW5jdmN3LWdiRVp0dTZ5RF94am5YOXF0WjU5Y1FRblhKd0JfdjVtNXdwQjZQNHlyS3Fpd0pTSmRkVENERHNBbFY4SjVGUmxxWjRyT2dxNE4weDhkeWVCWmJxYjczS254ZDlSb3dRUmthTHNHUjNGRl9TNElNYlV2ZnlvTWxocURWRFhqN01KNlc5ZXBzX2xjN3VfeHdwNDBISUFoV2VnZVhPTjVQVGNwYUUtUHpuT2ZodGR3cFhHMHJzZFEweHVUNjAzaElfT21JZFlDWGlKaXk2cURXbU1j?oc=5",
+   "date": "19/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "TSM",
+   "src": "Yahoo Finance",
+   "title": "TSMC Stocks Rise 3.11% as Foundry Takes $500 Million Slice of Anthropic IPO Placement",
+   "resumo": "",
+   "prov": "Relevant to TSM.",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRmNocFJtQkt4YXhjaFNSenhwTzRXRzJhOFlZU21WaExLZVo1a0FucC0xdmlKMnRDTlE2TGhYQzhiUzFxbzJFOFNvZEo0YjY5QmtZblE2QUpVaV9uYW1RWXJXczFVVkdjVTlrMnRtMEV5UU1DVW1fZF9XU3lQYURRMFQzNXFEZzI3R25rV2xHQQ?oc=5",
+   "date": "19/11"
+  },
+  {
+   "region": "ASIA",
+   "p": 5,
+   "tag": "Earnings Asia",
    "src": "Yahoo Finance",
    "title": "Samsung Electronics (KOSE:A005930) Stock Still Looks Undervalued on Earnings",
    "resumo": "",
-   "prov": "Relevant to Semis · Earnings.",
+   "prov": "Relevant to Earnings Asia.",
    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOelh5Wl9RT2JuVThkd29xSGxyQm5nd0JKREdBMmlDajdCaW1pVDhNaDBUcDBUbVJ1YWx3LVhJc0g0SFZsZXc4TVd1a1MtWDdINk01dXBFX0NWUUxjcmdkdDJMbTVOMWcxT0pmb29XSlRiMlljd0t2azhwaTZOdWhlR29JaXFQMUFTVm41YzE3dnBad0g2TlZCVDJtanhTdC01RWpmVTJR?oc=5",
    "date": "19/11"
   },
   {
    "region": "ASIA",
    "p": 5,
-   "tag": "US Big Tech · Earnings",
-   "src": "SamMobile",
-   "title": "Samsung and Apple were the only OEMs to increase US phone shipment shares year-on-year in Q3 2026",
+   "tag": "NVDA",
+   "src": "South China Morning Post",
+   "title": "After Jensen Huang’s exit, Nvidia speeds up pay reviews. Will it retain staff?",
    "resumo": "",
-   "prov": "Relevant to US Big Tech · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZzRIdVltU3RfRVlKUURoZEZlS3AxbWlyRzdxWkM3dlVTeDY0eVlfeDd6eG1WQ0tLNUcxalFyTkEyOEJhN1ZraTNfcEt0MklXME95T2o1NzY2MUVGSU95NUdSR01WZTRzX0hBRUt0bmlkQTJLVzIzT1pkWkNzcHpHay1SUlFVTHlMR1BsOFZpMVd2ZjJKSG5USDlRTVM3WHpDQ2lZSHcyRQ?oc=5",
+   "prov": "Relevant to NVDA.",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSnp6R1FnUzJmTDFsVnlRZ1ZoZjh5eDE0dFIzOXFZdWFlUm5HV2VrdUd6ZTZsYkhwS1ZETFNGd0hXeEdjcUZmMGpRd3ZoSVJtUFpQc1FGYTd0aUU0WDQtS2h3WFlyNWxFRzB0bjNpN0h0SFpFWFpndHRLeFJncExwVGNPZWsxS3dwc3JCT2ZNR3JmZDNjSDYwcXpBUzhaS3JsSWl1RExRVFNFWVY2TGN4enItaWVNRmdMWnk3c01abEVicGdHTmfSAcYBQVVfeXFMUGZEZ3h3aDAzZGhkdWpCbEV6cWEyRUlqRFB0dVhYMF8tT0ZNVjFBdzVvV0I3WmxVdDBhVjEwQVp1YnJHT19kSUdnSUF6ZzRYUnNzNEZkQ1MyWHJlRWpkVWRHR3diWUQ5MGNXV29uWTlmY0hzZVBQbkNfQTlScWF0WVlzX2ZZd2RVSjdVX3E0Q1FRT1lhMDl4TTRobVdvYl8tRW9YNDZmcHJneWZaSXU2NE9rbnljMUJSUzROb050bzdyYmJRWXd3?oc=5",
    "date": "19/11"
   },
   {
@@ -396,105 +495,6 @@
    "prov": "Relevant to Memoria · Earnings.",
    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPY2E1VXJmYnRaeVYtNUE1V3l1WGw0ZjUwblppTmNNMUh4WkZsSlppQlZMSVMydmtmYnQxc3RZaS1XcENvbG5JeHVYQlhuMjVhUDZ2bmxTbVEzeFRfd1RNcm1lSkVwdWVmS214d2ExTG53UVJTQW9haGVqc0lwMDh6OW1YS0NJZFktc0Q0ekVNUzhoMTFMenpGUEVLZEdKZFBKWHVHdWZvdjNOLVZROHFrWGtKSHExRDNhb2xNOG9ickNydlVrMkN0Wm5YVlNKeUFYaW85dVM3NHFrUkJvMngzR3pLWEJONE0?oc=5",
    "date": "19/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Memoria · Earnings",
-   "src": "Invezz",
-   "title": "Samsung and SK Hynix stocks fall again as Nvidia earnings boost fades",
-   "resumo": "",
-   "prov": "Relevant to Memoria · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYVk5SmcwbHBXcHFlLWR0d0NQZFNZdjllME9DdmVLcnZYT1RtX1hrOUlpRVJSS3lrbEotMUV1YjJRbFJYMkRjX19YUzFUN3RCYzBKZWhQLUprQS1mM2x4TzBUTXN2VlR1WVVNanZfU0kyX2RiME02YnRjQlBoZmxqaGFWOFpDbkI1cW5jZFd4TXFVOVBLVE5V?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Earnings Asia",
-   "src": "Businesskorea",
-   "title": "Two-Thirds of Korean Listed Firms Face Q4 Earnings Downgrades as Chipmakers Buck the Trend",
-   "resumo": "",
-   "prov": "Relevant to Earnings Asia.",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE51MFJHS3FnUHBldGxqY3c0aTc2bHRaeTU5MXJDUG9RS1NsTUF3dmRHRTluV0VpRVRzc3FRckpBZ0ZlOEE0Q1ZzWjR5QUZhN0syS0V3X2gtYk9ON3VoQms5Q3ZwcW9UWkhKWG1zZk1fRGFibzFU?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "Reuters",
-   "title": "Trump says he referred to ex-Nvidia boss Huang's situation 'briefly' in talk with Xi",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZGVNM0xjMGtxNjE0aEFnRWU2QURJZy1TSzZGSkFXNVk0eTM0bkhOZWF4cXJjWGhyZEVfZjNuWjZxVVlqUWh5cDUzckE2QTdISldZeThRZG9sZTB3dzdIU1ZOX2RJV0FMQXJ4V2dKS0U3V0t1YWNpcXE4R2FuZVVRVFJaUUNnYmZkS1pQXzluQ25WaUROQ2NVQk5wNHpPa2NheXhUZFFiQ3o5cjNxcHFWUWRVS3FCNm1meTltX0xiMA?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "South China Morning Post",
-   "title": "‘Natural enemies’: Trump on China-Russia ties as he plays down Nvidia ‘tragedy’",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxORi0wWk54R0haaXFBUzdGbmpFTVY3cHF6S0RGaFZIZVczUC1ROGFPS055ZHB1cEdlcERoS0tDSnExbTdyWUc3d3hKMGFfZ3d0SFJPZmJWSTB1TmxtSm9HYjF2R1RyRGlsZy0zRThpOUJEdVgxSTNOTmItQlpkSU8weTZrUVBRbzZVZ0pzeHZlQkxVMEp5UFpMZ1RXdW1FOGdPb1EzTC1JWWFRZlBrNWZBbWZqdDdocElUM2RvbnhHejUxeTVS0gHEAUFVX3lxTE5YbFF1TXpPYkplb2VKamE1cGcxZ0V3UFRSZElDVFN5bEJxcmxWLWpFTHdRVW5KNzhIeE5rdzFPSnRWT3dlaEZpQzJXSUlFWV81VlgxWnNseGJyRjZ0dGdqaDZqUjBaN091alpuT0RvMmxhLUF5a0NYUXB5X2pOc1NnS0xOS2RzUjA2d1BDdFMyQTFCamdoU2FGQy0zVnJ0UU15ekczNEtUcWxUbEpyTGYtczJ1VG83NVpWUlBldmNibl8tbGI?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "TSM",
-   "src": "The Tech Buzz",
-   "title": "Intel Lands First External 18A Foundry Customer",
-   "resumo": "",
-   "prov": "Relevant to TSM.",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWl8wT2xKRWw0aktTTlMxYjJ4aVNKNm0xWE1xYl9JV1FVMF9mS01ldksyZ1VuM2tpdWF1b2J6YTdQc1ZlN3RtMEQ1eld5eUJ2Skh5RTlrT3RoRGd2SUJPOHZIZjl0YjNnQlVRT3JVUWl4ZEhHZV82RC15Sm5Wd0Q1RlRYLXZGcVk?oc=5",
-   "date": "19/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Memoria · Earnings",
-   "src": "TradingView",
-   "title": "Samsung Stocks Rise 2.31% in Seoul as Nvidia Beat Lifts Korean Chipmakers",
-   "resumo": "",
-   "prov": "Relevant to Memoria · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQM1lNMVo2S2lkNHI0VTVHcDVZSWZ3aUNhaUYzWGFGc3d5aHFtSm4tUk9TTF84aFVrbmVWZGZ6Tl9lVlY1bTR6MW1KeGxfZVFOLWVxNER5a0FiT0xMZF9TYmd2ZW5SSFpKZnNISkU1N01IQ2hmSEJRWWhfT25leHFUOFZrVG5PRGV4VzBYLVQ4VWNwcDNOYUlNY0o5QmNkT2dHbldRU2NhRmltakFOUXhldk16aFRjVnM5UlpvdnRob3NTY3k5REFmb1ZGUDM?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Earnings Asia",
-   "src": "International Business Times Australia",
-   "title": "KOSPI Today Roars Back Above 5,000 as Nvidia Blowout Fires Up SK Hynix, Samsung Rally, Snaps 3-Day Losing Run",
-   "resumo": "",
-   "prov": "Relevant to Earnings Asia.",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcExLMmVzUTN1b3BLbERXTnpFMUVmZnZVMjlZU29LVDBjREtRQU9vWEZ0amcwZm56aXVHbWRLQnhVVWpsTGdieWFlUnN4RHdFblFZRGhSalNlRDEyWmN4V2RENTRMc01NaUgzd2RtMGFpTk4waXZwX2U4RlhBNk9lMWhYS0w0Ti00VFJIWXBkNTZNVlA3UkE?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "Memoria · Earnings",
-   "src": "StocksToTrade",
-   "title": "SK Hynix Slips 0% As NVIDIA Earnings Boost Fades",
-   "resumo": "",
-   "prov": "Relevant to Memoria · Earnings.",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUXJNekxwM0ZzMDhrUkN1NGIwSDNXR2I3UG1VVVc2OEhfYzVFNWpLclg1aV9rb2QtQnZ3eGllbTAtSXFrSWd0bjJMLUxGN05zNnhOaF9pamcxaUtva2s3WDM4emRlWlN2TmVUa2FMZTRsa2NnWExwMUdNeHNNVWtsekdHLWRmeGZVbG5hYjR3OVZ0NUVBeTUw?oc=5",
-   "date": "18/11"
-  },
-  {
-   "region": "ASIA",
-   "p": 5,
-   "tag": "NVDA",
-   "src": "South China Morning Post",
-   "title": "More China ties? Nvidia faces questions on former No 3 after short seller report",
-   "resumo": "",
-   "prov": "Relevant to NVDA.",
-   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNHBTcmp3WkV5Qnc0Nm10S2RoaGNyTXdlYXp3WHZXUHpiR1hLZ2sycFdqUWJ4SUNhS3NuV2x6OUdJaXhtZEwyVzg1UUlDdVcyMXlGTDJPaUJDQ2JPc0wtQ1RodGFnTHlNWFlVVWUwQ3pZSjAzNVh5dTRQdTloTkYzdnRDVDJST3VVNUtZYU9oMlNGVFdldUt6SWp6b05wYU1CWHhsU2k4cWtxeEdUQTl5aXU4TEF6SHczdDVOMTA4U212bC1rZFpZ0gHHAUFVX3lxTE5zZWFMcXlpRHhfeFp2MHVoSlBlMWZReVVWQWFLVThqeWlNeF9nR0pGbkc0Y3hzYjc2SnJ2NnFwbmFzbXJNR3lmb2dhYmNmT05FOHhfUmY0cWFFbGNCX2hISXk2Zll1NmJUTTRIaHN3NC13cHhvX1llWlhrTXJLN0haYUJBbDUxRWpTM0Zmd1c5WTdzc0J0U0ktLUkwQ2V0Vmh3WGhteWgxLTNSbW5obDBoWDlhVzFBY3JEcFJTSWpHMko2bVpOcWM?oc=5",
-   "date": "18/11"
   }
  ],
  "manual": [

@@ -1,6 +1,13 @@
 {
- "asof": "19/11/2026",
+ "asof": "20/11/2026",
  "items": [
+  {
+   "src": "Dynamo",
+   "title": "",
+   "url": "https://www.dynamo.com.br/en/cartas-dynamo/",
+   "date": "20/11/2026",
+   "seen": "2026-11-20"
+  },
   {
    "src": "Damodaran (Musings)",
    "title": "The Rocky Road from Aggregate to Per Share Value: Anthropic's IPO update",
@@ -19,6 +26,13 @@
    "src": "IP Capital Partners",
    "title": "Baixar PDF",
    "url": "https://ip-capitalpartners.com/wp-content/uploads/2026/02/IP_RG_202602_AI-hi.pdf",
+   "date": "19/11/2026",
+   "seen": "2026-11-19"
+  },
+  {
+   "src": "Damodaran (Musings)",
+   "title": "The Cost of Human Frailty: Nvidia's Jensen Huang Test!",
+   "url": "https://aswathdamodaran.blogspot.com/2026/11/the-cost-of-human-frailty-nvidias.html",
    "date": "19/11/2026",
    "seen": "2026-11-19"
   },
@@ -406,20 +420,6 @@
    "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
    "date": "04/08/2026",
    "seen": "2026-08-04"
-  },
-  {
-   "src": "Berkshire Hathaway",
-   "title": "2008ltr.pdf",
-   "url": "https://www.berkshirehathaway.com/letters/2008ltr.pdf",
-   "date": "04/08/2026",
-   "seen": "2026-08-04"
-  },
-  {
-   "src": "Dynamo",
-   "title": "Cartas Dynamo",
-   "url": "https://www.dynamo.com.br/2436-2/",
-   "date": "03/08/2026",
-   "seen": "2026-08-03"
   }
  ]
 }
