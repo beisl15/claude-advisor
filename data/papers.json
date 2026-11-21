@@ -1,86 +1,6 @@
 {
- "asof": "20/11/2026",
+ "asof": "21/11/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The American Medical Directory Panel: Comparing AI-Assisted and LLM Transcription with Manual Data Entry at Scale",
-   "url": "https://arxiv.org/abs/2611.25218",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "The Coevolution and Coexistence of Humans and AI",
-   "url": "https://arxiv.org/abs/2611.25393",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Closing the Analyze-to-Design Gap: An Authorization-Bounded Agent for Self-Driving Laboratories",
-   "url": "https://arxiv.org/abs/2611.25043",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "Semis",
-   "src": "arXiv cs.AI",
-   "title": "A Verifier from the Past: Test-Time Compute for Time Series Foundation Models",
-   "url": "https://arxiv.org/abs/2611.25171",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "An AI-Powered Multiverse Analysis of Empirical Finance Research: Evidence from Reused Natural Experiments",
-   "url": "https://arxiv.org/abs/2611.25184",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Toward a Science of AI Agent Societies",
-   "url": "https://arxiv.org/abs/2611.25404",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Why Do LLMs Help with Scientific Misconduct Requests and What to Do About It?: Increasing the Trustworthiness of AI for Science",
-   "url": "https://arxiv.org/abs/2611.25492",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "DriftGuard: Online Memory-Drift Detection via Causal Attribution for LLM Agents",
-   "url": "https://arxiv.org/abs/2611.25583",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Trustworthy Geospatial AI Workflows: Reproducible Maritime Analytics and Forecasting on Open-Source AIS Data",
-   "url": "https://arxiv.org/abs/2611.25884",
-   "date": "20/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv cs.AI",
-   "title": "Explainable AI for Solar PV Power Forecasting: From Model Selection to Trustworthy, Reproducible Deployment",
-   "url": "https://arxiv.org/abs/2611.25894",
-   "date": "20/11"
-  },
   {
    "p": 5,
    "tag": "AI",
@@ -112,54 +32,6 @@
    "title": "Will AI Growth Reach the Developing World? -- by Daniel Björkegren, David Lagakos, Mitchell VanVuren",
    "url": "https://www.nber.org/papers/w36035#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Auto-Alpha: A Framework for Autonomous Factor Research",
-   "url": "https://arxiv.org/abs/2611.25732",
-   "date": "20/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Trading Before a Committed Rebalance",
-   "url": "https://arxiv.org/abs/2611.25762",
-   "date": "20/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Statistical moments, risk weighting and percentiles of a loss distribution of a finite homogeneous credit portfolio; extending the Vasicek distribution",
-   "url": "https://arxiv.org/abs/2611.25881",
-   "date": "20/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Feasible sub-replicating portfolios for basket options via the block rearrangement algorithm",
-   "url": "https://arxiv.org/abs/2611.26119",
-   "date": "20/11"
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "arXiv q-fin",
-   "title": "Stablecoin Runs as Safe-Asset Stress Signals: Episode-Level Evidence for Central Bank Surveillance",
-   "url": "https://arxiv.org/abs/2611.26180",
-   "date": "20/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Equity and Aggregate Ambiguity",
-   "url": "https://arxiv.org/abs/2611.26197",
-   "date": "20/11"
   },
   {
    "p": 4,
@@ -239,6 +111,22 @@
    "src": "NBER",
    "title": "Federal Eminent Domain and Interstate Energy Infrastructure: Evidence from History -- by Zachary Liscow, Joseph S. Shapiro, Heidi L. Williams",
    "url": "https://www.nber.org/papers/w36027#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
+   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
+   "date": "14/10"
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Investment and Governance: Through The Lens of Sustainability -- by Jitendra Aswani, Roberto Rigobon",
+   "url": "https://www.nber.org/papers/w36011#fromrss",
    "date": ""
   }
  ]
