@@ -1,6 +1,20 @@
 {
- "asof": "21/11/2026",
+ "asof": "22/11/2026",
  "items": [
+  {
+   "src": "Berkshire Hathaway",
+   "title": "2006ltr.pdf",
+   "url": "https://www.berkshirehathaway.com/letters/2006ltr.pdf",
+   "date": "22/11/2026",
+   "seen": "2026-11-22"
+  },
+  {
+   "src": "Berkshire Hathaway",
+   "title": "2007ltr.pdf",
+   "url": "https://www.berkshirehathaway.com/letters/2007ltr.pdf",
+   "date": "22/11/2026",
+   "seen": "2026-11-22"
+  },
   {
    "src": "Dynamo",
    "title": "Cartas Dynamo",
@@ -406,20 +420,6 @@
    "url": "https://aswathdamodaran.blogspot.com/2026/08/the-situational-awareness-blow-up.html",
    "date": "11/08/2026",
    "seen": "2026-08-11"
-  },
-  {
-   "src": "Berkshire Hathaway",
-   "title": "2004ltr.pdf",
-   "url": "https://www.berkshirehathaway.com/letters/2004ltr.pdf",
-   "date": "04/08/2026",
-   "seen": "2026-08-04"
-  },
-  {
-   "src": "Berkshire Hathaway",
-   "title": "2005ltr.pdf",
-   "url": "https://www.berkshirehathaway.com/letters/2005ltr.pdf",
-   "date": "04/08/2026",
-   "seen": "2026-08-04"
   }
  ]
 }
