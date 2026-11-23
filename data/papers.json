@@ -1,6 +1,126 @@
 {
- "asof": "22/11/2026",
+ "asof": "23/11/2026",
  "items": [
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "VerifiQuant: Governance-by-Execution for Financial LLM Workflows",
+   "url": "https://arxiv.org/abs/2611.26649",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Rise of Agents and the Human Labor Market",
+   "url": "https://arxiv.org/abs/2611.27210",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Accountable AI Delegation in Banking: Identity, Commitment Controls, Decision Evidence and Recovery",
+   "url": "https://arxiv.org/abs/2611.27505",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Advancing AI Capabilities and Evolving Labor Outcomes",
+   "url": "https://arxiv.org/abs/2507.08244",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
+   "url": "https://arxiv.org/abs/2611.20242",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services",
+   "url": "https://arxiv.org/abs/2611.23354",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+   "url": "https://arxiv.org/abs/2611.18531",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
+   "url": "https://arxiv.org/abs/2611.26663",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Right Numbers, Wrong Story: When LLMs Narrate Financial Changes Beyond Their Inputs",
+   "url": "https://arxiv.org/abs/2611.26968",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Reward Integrity in Adversarial Reinforcement Learning for LLM Guardrail Red-Teaming",
+   "url": "https://arxiv.org/abs/2611.26998",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Learning Adaptive Defense Strategies: Fine-Tuned LLMs for Network Security Games under Network Mobility",
+   "url": "https://arxiv.org/abs/2611.27180",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Belief-State Management Meets Rubric Rewards for Agentic Forecasting",
+   "url": "https://arxiv.org/abs/2611.27286",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Do Senior Agents Do Their Job? Measuring Role Integrity in How LLM Agents Use Subordinate Material",
+   "url": "https://arxiv.org/abs/2611.27139",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Bringing AI Assistance to the Beznau Nuclear Power Plant: A Hierarchical System of LLM Agents for Reactor Monitoring",
+   "url": "https://arxiv.org/abs/2611.27556",
+   "date": "23/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv cs.AI",
+   "title": "Shared Understanding in Human-AI Teams: Coordination Continuity in Evolving Work",
+   "url": "https://arxiv.org/abs/2611.27746",
+   "date": "23/11"
+  },
   {
    "p": 5,
    "tag": "AI",
@@ -13,25 +133,57 @@
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "Impacts of AI in Higher Education: A Panel Survey of Undergraduates -- by Bruce Sacerdote, Mason Parris-Bacon",
-   "url": "https://www.nber.org/papers/w36021#fromrss",
+   "title": "How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 -- by Myra Mohnen, Joshua S. Gans",
+   "url": "https://www.nber.org/papers/w36045#fromrss",
    "date": ""
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "Clouds of Credit: Mapping the Financial Web Behind AI Compute -- by Stijn Van Nieuwerburgh, Zijin Su",
-   "url": "https://www.nber.org/papers/w36032#fromrss",
+   "title": "Are Revealed Preferences All You Need for AI Alignment? -- by Joshua S. Gans, Richard T. Holden",
+   "url": "https://www.nber.org/papers/w36048#fromrss",
    "date": ""
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "NBER",
-   "title": "Will AI Growth Reach the Developing World? -- by Daniel Björkegren, David Lagakos, Mitchell VanVuren",
-   "url": "https://www.nber.org/papers/w36035#fromrss",
+   "title": "Past Automation and Future AI: How Weak Links Tame the Growth Explosion -- by Charles I. Jones, Christopher Tonetti",
+   "url": "https://www.nber.org/papers/w36050#fromrss",
    "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "BR/EM",
+   "src": "NBER",
+   "title": "Long-run Uncovered Interest Parity in Emerging Markets -- by Alessandro Rebucci, Sinem Yagmur Toraman, Giorgio Valente, Nicolò Capirone",
+   "url": "https://www.nber.org/papers/w36052#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "Semis",
+   "src": "NBER",
+   "title": "Chips & Tokens at the Fault Lines: Two Stacks in One Fragmenting World -- by Fabio Natalucci, Alessandro Rebucci",
+   "url": "https://www.nber.org/papers/w36056#fromrss",
+   "date": ""
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "NBER",
+   "title": "CFOs Meet LLMs -- by John R. Graham, Campbell R. Harvey, Manish Jha",
+   "url": "https://www.nber.org/papers/w36057#fromrss",
+   "date": ""
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "A Solvency II-Based Framework for Pricing Structural Longevity Risk under an Affine Mortality Model",
+   "url": "https://arxiv.org/abs/2611.26670",
+   "date": "23/11"
   },
   {
    "p": 4,
@@ -53,80 +205,40 @@
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "Horizontal Equity of Taxation: Citizen Beliefs and Policy Preferences -- by Pierre Bachas, Christopher A. Hoy, Anders Jensen, Mahvish Shaukat",
-   "url": "https://www.nber.org/papers/w36007#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "Monetary policy in a Phelps–Winter Economy -- by Bruce C. Greenwald, Joseph E. Stiglitz",
-   "url": "https://www.nber.org/papers/w36008#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Macro/Rates",
-   "src": "NBER",
-   "title": "An Odd Approximation of Inflation for State Dependent Pricing Models -- by Luca Gagliardone, Mark Gertler, Simone Lenzu, Joris Tielens, Al-Mahdi Ebsim",
-   "url": "https://www.nber.org/papers/w36016#fromrss",
+   "title": "Valuing the Cost of Incomplete Global Markets -- by Karen K. Lewis, Edith X. Liu",
+   "url": "https://www.nber.org/papers/w36046#fromrss",
    "date": ""
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "NBER",
-   "title": "The Last Arbitrage? Capital Flows, Development, and Infrastructure as an Asset Class -- by Anusha Chari, Monroe Gamble, Peter Blair Henry",
-   "url": "https://www.nber.org/papers/w36022#fromrss",
-   "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "NBER",
-   "title": "How Does Capital Flow To Poor Countries? Evidence from Venture Capital and Private Equity -- by Emanuele Colonnelli, Marcio Cruz, Josh Lerner, Mariana Pereira-Lopez, Yuanchang Wei",
-   "url": "https://www.nber.org/papers/w36036#fromrss",
+   "title": "Supply-Side Drivers of Long-Acting Reversible Contraceptives: Evidence from Medicaid Beneficiaries -- by Maya Rossin-Slater, Natalia Serna, Lin-Tung Tsai",
+   "url": "https://www.nber.org/papers/w36059#fromrss",
    "date": ""
   },
   {
    "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "The Labor Market Impact of Temporary High-Skill Immigration Programs -- by George J. Borjas",
-   "url": "https://www.nber.org/papers/w36014#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Productivity",
-   "src": "NBER",
-   "title": "Aging and Structural Change: Cost Disease in the Care Sector -- by Nick Pretnar, Finn Kydland, Tonya Y. Kydland",
-   "url": "https://www.nber.org/papers/w36024#fromrss",
-   "date": ""
-  },
-  {
-   "p": 3,
-   "tag": "Energy/Commod",
-   "src": "NBER",
-   "title": "Federal Eminent Domain and Interstate Energy Infrastructure: Evidence from History -- by Zachary Liscow, Joseph S. Shapiro, Heidi L. Williams",
-   "url": "https://www.nber.org/papers/w36027#fromrss",
-   "date": ""
-  },
-  {
-   "p": 2,
-   "tag": "Macro",
+   "tag": "Banks/Fintech",
    "src": "Fed (FEDS)",
-   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
-   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
-   "date": "14/10"
+   "title": "FEDS Paper: The Welfare Effects of Bank Liquidity and Capital Requirements(Revised)",
+   "url": "https://www.federalreserve.gov/econres/feds/the-welfare-effects-of-bank-liquidity-and-capital-requirements.htm",
+   "date": "23/11"
   },
   {
-   "p": 2,
-   "tag": "Macro",
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Where's The Bank? Banking Access in the Era of Branch Consolidation(Revised)",
+   "url": "https://www.federalreserve.gov/econres/feds/wheres-the-bank-banking-access-in-the-era-of-branch-consolidation.htm",
+   "date": "23/11"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
    "src": "NBER",
-   "title": "Investment and Governance: Through The Lens of Sustainability -- by Jitendra Aswani, Roberto Rigobon",
-   "url": "https://www.nber.org/papers/w36011#fromrss",
+   "title": "Does Treating Addiction Rebuild Lives? Evidence from Buprenorphine -- by Sarah Eichmeyer, Aljoscha Janssen, Jonathan Zhang",
+   "url": "https://www.nber.org/papers/w36041#fromrss",
    "date": ""
   }
  ]
