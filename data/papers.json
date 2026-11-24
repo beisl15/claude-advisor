@@ -1,125 +1,133 @@
 {
- "asof": "23/11/2026",
+ "asof": "24/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "VerifiQuant: Governance-by-Execution for Financial LLM Workflows",
-   "url": "https://arxiv.org/abs/2611.26649",
-   "date": "23/11"
+   "title": "Per-Prediction Uncertainty Is Not a Regime Detector: A Detectability Bound and Two-Level Deployment for Cross-Sectional Equity Rankers",
+   "url": "https://arxiv.org/abs/2611.27992",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The Rise of Agents and the Human Labor Market",
+   "title": "Do Candlestick Charts Suffice? The Incremental Economic Value of Technical Indicators in Stock Return Prediction",
+   "url": "https://arxiv.org/abs/2611.30584",
+   "date": "24/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "AI-Assisted Programming and Labor Demand",
+   "url": "https://arxiv.org/abs/2611.31083",
+   "date": "24/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "From Augmentation to Reconstruction: Guiding the AI Disruption to the Good Place",
+   "url": "https://arxiv.org/abs/2605.29207",
+   "date": "24/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "Can Artificial Intelligence Forecast Treatment Effects in Economics?",
+   "url": "https://arxiv.org/abs/2610.38883",
+   "date": "24/11"
+  },
+  {
+   "p": 5,
+   "tag": "AI",
+   "src": "arXiv q-fin",
+   "title": "The Rise of Agents and the Labor Market",
    "url": "https://arxiv.org/abs/2611.27210",
-   "date": "23/11"
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Accountable AI Delegation in Banking: Identity, Commitment Controls, Decision Evidence and Recovery",
-   "url": "https://arxiv.org/abs/2611.27505",
-   "date": "23/11"
+   "title": "DeepVoting: Learning and Improving Voting Rules with Fine-Tuning",
+   "url": "https://arxiv.org/abs/2408.13630",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Advancing AI Capabilities and Evolving Labor Outcomes",
-   "url": "https://arxiv.org/abs/2507.08244",
-   "date": "23/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Markets for Compute and Inference: Structure, Financing, and Risk Transfer",
-   "url": "https://arxiv.org/abs/2611.20242",
-   "date": "23/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI, Specialization, and the Organization of Knowledge Work: Evidence from Legal Services",
-   "url": "https://arxiv.org/abs/2611.23354",
-   "date": "23/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
-   "url": "https://arxiv.org/abs/2611.18531",
-   "date": "23/11"
+   "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
+   "url": "https://arxiv.org/abs/2611.22033",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Adding One More Agent: How AI Team Size and Formation Shape Productivity and Diversity in Human-AI Brainstorming Teams",
-   "url": "https://arxiv.org/abs/2611.26663",
-   "date": "23/11"
+   "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
+   "url": "https://arxiv.org/abs/2611.28239",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Right Numbers, Wrong Story: When LLMs Narrate Financial Changes Beyond Their Inputs",
-   "url": "https://arxiv.org/abs/2611.26968",
-   "date": "23/11"
+   "title": "Agent Money Benchmark: Can AI Agents Be Trusted to Spend Money?",
+   "url": "https://arxiv.org/abs/2611.28610",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Reward Integrity in Adversarial Reinforcement Learning for LLM Guardrail Red-Teaming",
-   "url": "https://arxiv.org/abs/2611.26998",
-   "date": "23/11"
+   "title": "FormaFin: Verifiable Financial Analysis with Solver-Guided Reinforcement Learning",
+   "url": "https://arxiv.org/abs/2611.28881",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Learning Adaptive Defense Strategies: Fine-Tuned LLMs for Network Security Games under Network Mobility",
-   "url": "https://arxiv.org/abs/2611.27180",
-   "date": "23/11"
+   "title": "NoeVera: Can Knowledge Guide Experiments and Experiments Refine Knowledge?",
+   "url": "https://arxiv.org/abs/2611.29255",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Belief-State Management Meets Rubric Rewards for Agentic Forecasting",
-   "url": "https://arxiv.org/abs/2611.27286",
-   "date": "23/11"
+   "title": "SAE-Audit: Clinical-Trial Prediction via Inference-Time Optimization of Black-Box LLMs Audited by Sparse Autoencoder Evidence",
+   "url": "https://arxiv.org/abs/2611.29368",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Do Senior Agents Do Their Job? Measuring Role Integrity in How LLM Agents Use Subordinate Material",
-   "url": "https://arxiv.org/abs/2611.27139",
-   "date": "23/11"
+   "title": "Fin-RSI: A Unified Library of Financial Skills, Checks, and Self-Improvement for LLM Agents",
+   "url": "https://arxiv.org/abs/2611.29716",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Bringing AI Assistance to the Beznau Nuclear Power Plant: A Hierarchical System of LLM Agents for Reactor Monitoring",
-   "url": "https://arxiv.org/abs/2611.27556",
-   "date": "23/11"
+   "title": "Adopting AI Technologies without Traps: A Multi-Agent Reinforcement Learning Framework",
+   "url": "https://arxiv.org/abs/2611.30200",
+   "date": "24/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Shared Understanding in Human-AI Teams: Coordination Continuity in Evolving Work",
-   "url": "https://arxiv.org/abs/2611.27746",
-   "date": "23/11"
+   "title": "Typing Behavior in Human-LLM Interaction: Keystroke Dynamics Reveal Cognitive Effort During Prompting",
+   "url": "https://arxiv.org/abs/2606.28090",
+   "date": "24/11"
   },
   {
    "p": 5,
@@ -176,14 +184,6 @@
    "title": "CFOs Meet LLMs -- by John R. Graham, Campbell R. Harvey, Manish Jha",
    "url": "https://www.nber.org/papers/w36057#fromrss",
    "date": ""
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "A Solvency II-Based Framework for Pricing Structural Longevity Risk under an Affine Mortality Model",
-   "url": "https://arxiv.org/abs/2611.26670",
-   "date": "23/11"
   },
   {
    "p": 4,
