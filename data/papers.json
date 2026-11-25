@@ -1,133 +1,117 @@
 {
- "asof": "24/11/2026",
+ "asof": "25/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Per-Prediction Uncertainty Is Not a Regime Detector: A Detectability Bound and Two-Level Deployment for Cross-Sectional Equity Rankers",
-   "url": "https://arxiv.org/abs/2611.27992",
-   "date": "24/11"
+   "title": "Burning the Bridge: Agentification and Domestic Value Added",
+   "url": "https://arxiv.org/abs/2611.31518",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Do Candlestick Charts Suffice? The Incremental Economic Value of Technical Indicators in Stock Return Prediction",
-   "url": "https://arxiv.org/abs/2611.30584",
-   "date": "24/11"
+   "title": "Grokipedia stretches the US political spectrum",
+   "url": "https://arxiv.org/abs/2611.32420",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AI-Assisted Programming and Labor Demand",
-   "url": "https://arxiv.org/abs/2611.31083",
-   "date": "24/11"
+   "title": "Training decision models for simulating human respondents",
+   "url": "https://arxiv.org/abs/2611.31613",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "From Augmentation to Reconstruction: Guiding the AI Disruption to the Good Place",
-   "url": "https://arxiv.org/abs/2605.29207",
-   "date": "24/11"
+   "title": "AgentBank: Banking on Blockchain Agentic Payments",
+   "url": "https://arxiv.org/abs/2611.32389",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Can Artificial Intelligence Forecast Treatment Effects in Economics?",
-   "url": "https://arxiv.org/abs/2610.38883",
-   "date": "24/11"
+   "title": "Worth the Wait? How Response Time and Streaming Shape Judgments of Generative AI Answers and Chatbot Engagement",
+   "url": "https://arxiv.org/abs/2611.33050",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "The Rise of Agents and the Labor Market",
-   "url": "https://arxiv.org/abs/2611.27210",
-   "date": "24/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "DeepVoting: Learning and Improving Voting Rules with Fine-Tuning",
-   "url": "https://arxiv.org/abs/2408.13630",
-   "date": "24/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Thinking Harder Doesn't Lead to Better Choices: Reasoning Effort Increases the Confidence but Not the Correctness of LLM Shopping Agents",
-   "url": "https://arxiv.org/abs/2611.22033",
-   "date": "24/11"
+   "title": "Binding Constraints in a Strategic Technology: An Industrial Vulnerability Index for the Foundation Model Industry",
+   "url": "https://arxiv.org/abs/2510.23421",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "FinEvo: Recursive Self-Improvement for Long-Horizon Financial Modeling",
-   "url": "https://arxiv.org/abs/2611.28239",
-   "date": "24/11"
+   "title": "Marketing-Bench: Evaluating Frontier Models and Agents on Real-World Marketing Capabilities",
+   "url": "https://arxiv.org/abs/2611.32012",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Agent Money Benchmark: Can AI Agents Be Trusted to Spend Money?",
-   "url": "https://arxiv.org/abs/2611.28610",
-   "date": "24/11"
+   "title": "Economic World Model",
+   "url": "https://arxiv.org/abs/2611.32663",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "FormaFin: Verifiable Financial Analysis with Solver-Guided Reinforcement Learning",
-   "url": "https://arxiv.org/abs/2611.28881",
-   "date": "24/11"
+   "title": "Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study",
+   "url": "https://arxiv.org/abs/2611.33012",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "NoeVera: Can Knowledge Guide Experiments and Experiments Refine Knowledge?",
-   "url": "https://arxiv.org/abs/2611.29255",
-   "date": "24/11"
+   "title": "Machine learning enables full Bayesian inference for spinning extreme-mass-ratio inspirals",
+   "url": "https://arxiv.org/abs/2611.31916",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "SAE-Audit: Clinical-Trial Prediction via Inference-Time Optimization of Black-Box LLMs Audited by Sparse Autoencoder Evidence",
-   "url": "https://arxiv.org/abs/2611.29368",
-   "date": "24/11"
+   "title": "Blaming the Machine, Billing the Victim? How Mock Jurors Reassign Fault from Generative AI Systems and Respond to Liability Cliffs in Tort",
+   "url": "https://arxiv.org/abs/2611.32188",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Fin-RSI: A Unified Library of Financial Skills, Checks, and Self-Improvement for LLM Agents",
-   "url": "https://arxiv.org/abs/2611.29716",
-   "date": "24/11"
+   "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
+   "url": "https://arxiv.org/abs/2611.32957",
+   "date": "25/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Adopting AI Technologies without Traps: A Multi-Agent Reinforcement Learning Framework",
-   "url": "https://arxiv.org/abs/2611.30200",
-   "date": "24/11"
+   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+   "url": "https://arxiv.org/abs/2611.33010",
+   "date": "25/11"
   },
   {
    "p": 5,
-   "tag": "AI",
+   "tag": "Semis",
    "src": "arXiv cs.AI",
-   "title": "Typing Behavior in Human-LLM Interaction: Keystroke Dynamics Reveal Cognitive Effort During Prompting",
-   "url": "https://arxiv.org/abs/2606.28090",
-   "date": "24/11"
+   "title": "Rethinking Multiplication in Neural Networks with Hadamard Transform-Assisted Operators",
+   "url": "https://arxiv.org/abs/2509.23103",
+   "date": "25/11"
   },
   {
    "p": 5,
@@ -187,6 +171,30 @@
   },
   {
    "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
+   "url": "https://arxiv.org/abs/2611.31491",
+   "date": "25/11"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Semivariance and Semivolatility in Portfolio Selection: A Unified Framework for Downside-Risk Portfolio Models",
+   "url": "https://arxiv.org/abs/2611.32638",
+   "date": "25/11"
+  },
+  {
+   "p": 4,
+   "tag": "Macro/Rates",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: Collateral Mobility and the Lender of Last Resort",
+   "url": "https://www.federalreserve.gov/econres/feds/collateral-mobility-and-the-lender-of-last-resort.htm",
+   "date": "24/11"
+  },
+  {
+   "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Measuring Consumption with Credit Card Data: Benchmarking and Beyond",
@@ -232,14 +240,6 @@
    "title": "FEDS Paper: Where's The Bank? Banking Access in the Era of Branch Consolidation(Revised)",
    "url": "https://www.federalreserve.gov/econres/feds/wheres-the-bank-banking-access-in-the-era-of-branch-consolidation.htm",
    "date": "23/11"
-  },
-  {
-   "p": 3,
-   "tag": "Banks/Fintech",
-   "src": "NBER",
-   "title": "Does Treating Addiction Rebuild Lives? Evidence from Buprenorphine -- by Sarah Eichmeyer, Aljoscha Janssen, Jonathan Zhang",
-   "url": "https://www.nber.org/papers/w36041#fromrss",
-   "date": ""
   }
  ]
 }
