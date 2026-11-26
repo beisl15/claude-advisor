@@ -1,117 +1,109 @@
 {
- "asof": "25/11/2026",
+ "asof": "26/11/2026",
  "items": [
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Burning the Bridge: Agentification and Domestic Value Added",
-   "url": "https://arxiv.org/abs/2611.31518",
-   "date": "25/11"
+   "title": "How LLM Agents Reshape Financial Knowledge Graphs: A Survey",
+   "url": "https://arxiv.org/abs/2611.33584",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Grokipedia stretches the US political spectrum",
-   "url": "https://arxiv.org/abs/2611.32420",
-   "date": "25/11"
+   "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
+   "url": "https://arxiv.org/abs/2611.34099",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Training decision models for simulating human respondents",
-   "url": "https://arxiv.org/abs/2611.31613",
-   "date": "25/11"
+   "title": "AI, Automation, and Fiscal Pressure",
+   "url": "https://arxiv.org/abs/2611.34234",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "AgentBank: Banking on Blockchain Agentic Payments",
-   "url": "https://arxiv.org/abs/2611.32389",
-   "date": "25/11"
+   "title": "AI and the Division of Labor in Public Sector Jobs and Teams",
+   "url": "https://arxiv.org/abs/2512.05659",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv q-fin",
-   "title": "Worth the Wait? How Response Time and Streaming Shape Judgments of Generative AI Answers and Chatbot Engagement",
-   "url": "https://arxiv.org/abs/2611.33050",
-   "date": "25/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Binding Constraints in a Strategic Technology: An Industrial Vulnerability Index for the Foundation Model Industry",
-   "url": "https://arxiv.org/abs/2510.23421",
-   "date": "25/11"
+   "title": "Evaluating LLM Research Agents as Tests of Return Predictability",
+   "url": "https://arxiv.org/abs/2611.04070",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Marketing-Bench: Evaluating Frontier Models and Agents on Real-World Marketing Capabilities",
-   "url": "https://arxiv.org/abs/2611.32012",
-   "date": "25/11"
+   "title": "General-Purpose Decision Models for AI Configuration Tuning",
+   "url": "https://arxiv.org/abs/2611.33190",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Economic World Model",
-   "url": "https://arxiv.org/abs/2611.32663",
-   "date": "25/11"
+   "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
+   "url": "https://arxiv.org/abs/2611.33563",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Can LLM Judges Catch Unsafe Clinical Actions? A Fault-Injection Study",
-   "url": "https://arxiv.org/abs/2611.33012",
-   "date": "25/11"
+   "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
+   "url": "https://arxiv.org/abs/2611.33735",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Machine learning enables full Bayesian inference for spinning extreme-mass-ratio inspirals",
-   "url": "https://arxiv.org/abs/2611.31916",
-   "date": "25/11"
+   "title": "Did the Model Forecast It, or Already Know It? Evaluating Large Language Models for Novel Drug-Target Prioritisation with a Temporal Knowledge-Graph Oracle",
+   "url": "https://arxiv.org/abs/2611.34247",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Blaming the Machine, Billing the Victim? How Mock Jurors Reassign Fault from Generative AI Systems and Respond to Liability Cliffs in Tort",
-   "url": "https://arxiv.org/abs/2611.32188",
-   "date": "25/11"
+   "title": "On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI",
+   "url": "https://arxiv.org/abs/2611.34563",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "\"I Do Intend to Deliver\": Will LLMs Run a Marketplace Advance-Fee Scam?",
-   "url": "https://arxiv.org/abs/2611.32957",
-   "date": "25/11"
+   "title": "Quantum Machine Learning for Signature Forgery Detection",
+   "url": "https://arxiv.org/abs/2611.33163",
+   "date": "26/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
-   "url": "https://arxiv.org/abs/2611.33010",
-   "date": "25/11"
+   "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
+   "url": "https://arxiv.org/abs/2611.33605",
+   "date": "26/11"
   },
   {
    "p": 5,
-   "tag": "Semis",
+   "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Rethinking Multiplication in Neural Networks with Hadamard Transform-Assisted Operators",
-   "url": "https://arxiv.org/abs/2509.23103",
-   "date": "25/11"
+   "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
+   "url": "https://arxiv.org/abs/2611.34278",
+   "date": "26/11"
   },
   {
    "p": 5,
@@ -173,17 +165,25 @@
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Pretrained Tabular Features and the Measurement of Financial Proximity",
-   "url": "https://arxiv.org/abs/2611.31491",
-   "date": "25/11"
+   "title": "Rank-size analysis of optimal portfolio weights with a reverse-engineering application",
+   "url": "https://arxiv.org/abs/2611.34171",
+   "date": "26/11"
   },
   {
    "p": 4,
    "tag": "Equities",
    "src": "arXiv q-fin",
-   "title": "Semivariance and Semivolatility in Portfolio Selection: A Unified Framework for Downside-Risk Portfolio Models",
-   "url": "https://arxiv.org/abs/2611.32638",
-   "date": "25/11"
+   "title": "Time-consistency of cash-subadditive risk measures: The infimal cocycle property",
+   "url": "https://arxiv.org/abs/2611.34192",
+   "date": "26/11"
+  },
+  {
+   "p": 4,
+   "tag": "Equities",
+   "src": "arXiv q-fin",
+   "title": "Graph-Informed Deep Factor Model for Statistical Arbitrage",
+   "url": "https://arxiv.org/abs/2611.34209",
+   "date": "26/11"
   },
   {
    "p": 4,
