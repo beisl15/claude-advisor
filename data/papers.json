@@ -1,53 +1,13 @@
 {
- "asof": "26/11/2026",
+ "asof": "27/11/2026",
  "items": [
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "How LLM Agents Reshape Financial Knowledge Graphs: A Survey",
-   "url": "https://arxiv.org/abs/2611.33584",
-   "date": "26/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
-   "url": "https://arxiv.org/abs/2611.34099",
-   "date": "26/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI, Automation, and Fiscal Pressure",
-   "url": "https://arxiv.org/abs/2611.34234",
-   "date": "26/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "AI and the Division of Labor in Public Sector Jobs and Teams",
-   "url": "https://arxiv.org/abs/2512.05659",
-   "date": "26/11"
-  },
-  {
-   "p": 5,
-   "tag": "AI",
-   "src": "arXiv q-fin",
-   "title": "Evaluating LLM Research Agents as Tests of Return Predictability",
-   "url": "https://arxiv.org/abs/2611.04070",
-   "date": "26/11"
-  },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
    "title": "General-Purpose Decision Models for AI Configuration Tuning",
    "url": "https://arxiv.org/abs/2611.33190",
-   "date": "26/11"
+   "date": "27/11"
   },
   {
    "p": 5,
@@ -55,7 +15,7 @@
    "src": "arXiv cs.AI",
    "title": "FIG-MAC: A Fine-grained Inspiration Graph Empowered Multi-Agent Collaboration for Automated Scientific Hypothesis Generation",
    "url": "https://arxiv.org/abs/2611.33563",
-   "date": "26/11"
+   "date": "27/11"
   },
   {
    "p": 5,
@@ -63,7 +23,7 @@
    "src": "arXiv cs.AI",
    "title": "JOVE ICE: Intent Guided Cloud Edge Device Collaboration for AI Glasses",
    "url": "https://arxiv.org/abs/2611.33735",
-   "date": "26/11"
+   "date": "27/11"
   },
   {
    "p": 5,
@@ -71,7 +31,7 @@
    "src": "arXiv cs.AI",
    "title": "Did the Model Forecast It, or Already Know It? Evaluating Large Language Models for Novel Drug-Target Prioritisation with a Temporal Knowledge-Graph Oracle",
    "url": "https://arxiv.org/abs/2611.34247",
-   "date": "26/11"
+   "date": "27/11"
   },
   {
    "p": 5,
@@ -79,7 +39,7 @@
    "src": "arXiv cs.AI",
    "title": "On Utilization of Edge-AI for condition monitoring towards predictive maintenance: A use case in dairy processing using explainable AI",
    "url": "https://arxiv.org/abs/2611.34563",
-   "date": "26/11"
+   "date": "27/11"
   },
   {
    "p": 5,
@@ -87,7 +47,7 @@
    "src": "arXiv cs.AI",
    "title": "Quantum Machine Learning for Signature Forgery Detection",
    "url": "https://arxiv.org/abs/2611.33163",
-   "date": "26/11"
+   "date": "27/11"
   },
   {
    "p": 5,
@@ -95,15 +55,15 @@
    "src": "arXiv cs.AI",
    "title": "The Detour Is the Danger: Preserving Security During LLM Agent Recovery",
    "url": "https://arxiv.org/abs/2611.33605",
-   "date": "26/11"
+   "date": "27/11"
   },
   {
    "p": 5,
    "tag": "AI",
    "src": "arXiv cs.AI",
-   "title": "Latent-in-the-Middle: On the Security of Cross-Model Latent Communication in Multi-Agent Systems",
-   "url": "https://arxiv.org/abs/2611.34278",
-   "date": "26/11"
+   "title": "Will AI Replace Juniors? How Task Complexity Reduces Automation Risk",
+   "url": "https://arxiv.org/abs/2611.34099",
+   "date": "27/11"
   },
   {
    "p": 5,
@@ -163,30 +123,6 @@
   },
   {
    "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Rank-size analysis of optimal portfolio weights with a reverse-engineering application",
-   "url": "https://arxiv.org/abs/2611.34171",
-   "date": "26/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Time-consistency of cash-subadditive risk measures: The infimal cocycle property",
-   "url": "https://arxiv.org/abs/2611.34192",
-   "date": "26/11"
-  },
-  {
-   "p": 4,
-   "tag": "Equities",
-   "src": "arXiv q-fin",
-   "title": "Graph-Informed Deep Factor Model for Statistical Arbitrage",
-   "url": "https://arxiv.org/abs/2611.34209",
-   "date": "26/11"
-  },
-  {
-   "p": 4,
    "tag": "Macro/Rates",
    "src": "Fed (FEDS)",
    "title": "FEDS Paper: Collateral Mobility and the Lender of Last Resort",
@@ -240,6 +176,46 @@
    "title": "FEDS Paper: Where's The Bank? Banking Access in the Era of Branch Consolidation(Revised)",
    "url": "https://www.federalreserve.gov/econres/feds/wheres-the-bank-banking-access-in-the-era-of-branch-consolidation.htm",
    "date": "23/11"
+  },
+  {
+   "p": 3,
+   "tag": "Banks/Fintech",
+   "src": "NBER",
+   "title": "Does Treating Addiction Rebuild Lives? Evidence from Buprenorphine -- by Sarah Eichmeyer, Aljoscha Janssen, Jonathan Zhang",
+   "url": "https://www.nber.org/papers/w36041#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "Fed (FEDS)",
+   "title": "FEDS Paper: A Macroeconomic Analysis of Household Labor Supply Responses to Large Fiscal Transfers",
+   "url": "https://www.federalreserve.gov/econres/feds/a-macroeconomic-analysis-of-household-labor-supply-responses-to-large-fiscal-transfers.htm",
+   "date": "14/10"
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Five Facts About Stablecoins -- by Lin William Cong, Gordon Y. Liao, Eswar S. Prasad, Tony Zhang",
+   "url": "https://www.nber.org/papers/w36038#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Mental Models of Fiscal Policy -- by Francesco Bianchi, Era Dabla-Norris, Radhika Goyal, Victoria Haver, Salma Khalid",
+   "url": "https://www.nber.org/papers/w36043#fromrss",
+   "date": ""
+  },
+  {
+   "p": 2,
+   "tag": "Macro",
+   "src": "NBER",
+   "title": "Climate Risk, Real Estate, and Property Insurance -- by Benjamin L. Collier, Benjamin J. Keys, Philip Mulder",
+   "url": "https://www.nber.org/papers/w36051#fromrss",
+   "date": ""
   }
  ]
 }
